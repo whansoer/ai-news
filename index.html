@@ -153,28 +153,37 @@
     display: none; background: var(--card-bg); border-radius: 12px; padding: 20px;
     margin-bottom: 16px; box-shadow: var(--shadow);
   }
-  .stats-panel.open { display: block; }
-  .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  .stats-section h4 { font-size: 14px; margin-bottom: 10px; color: var(--text); }
+  .stats-panel.open { display: block; animation: fadeSlideIn .35s ease-out; }
+  @keyframes fadeSlideIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+  .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .stats-section h4 { font-size: 13px; font-weight: 600; margin-bottom: 12px; color: var(--text-secondary); text-transform: uppercase; letter-spacing: .5px; }
+  @keyframes barGrow { from { width: 0 !important; } }
   .stat-bar {
-    display: flex; align-items: center; gap: 8px; margin-bottom: 4px; font-size: 12px;
+    display: flex; align-items: center; gap: 10px; margin-bottom: 6px; font-size: 12px;
   }
   .stat-bar-name { width: 80px; text-align: right; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex-shrink: 0; }
-  .stat-bar-track { flex: 1; height: 8px; background: var(--skeleton); border-radius: 4px; overflow: hidden; }
-  .stat-bar-fill { height: 100%; background: var(--accent); border-radius: 4px; transition: width .5s; }
-  .stat-bar-count { width: 32px; font-size: 11px; color: var(--text-secondary); flex-shrink: 0; }
-
-  .tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; }
-  .tag-cloud-item {
-    font-size: 12px; padding: 3px 10px; border-radius: 12px;
-    background: var(--tag-bg); color: var(--text-secondary); cursor: pointer; transition: all .15s;
+  .stat-bar-track { flex: 1; height: 14px; background: var(--skeleton); border-radius: 7px; overflow: hidden; position: relative; }
+  .stat-bar-fill {
+    display: block; height: 100%; border-radius: 7px; min-width: 2px;
+    background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.25) 100%);
+    animation: barGrow .6s ease-out;
   }
-  .tag-cloud-item:hover { background: var(--accent); color: #fff; }
+  .stat-bar-count { width: 36px; font-size: 12px; font-weight: 600; color: var(--text-secondary); flex-shrink: 0; text-align: left; }
 
-  .daily-chart { display: flex; align-items: flex-end; gap: 4px; height: 80px; }
-  .daily-bar { flex: 1; background: var(--accent); border-radius: 3px 3px 0 0; transition: height .5s; min-width: 12px; position: relative; }
-  .daily-bar-label { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); font-size: 10px; color: var(--text-secondary); }
-  .daily-bar-count { position: absolute; top: -16px; left: 50%; transform: translateX(-50%); font-size: 10px; color: var(--text-secondary); }
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .tag-cloud-item {
+    padding: 4px 12px; border-radius: 14px; cursor: pointer; transition: all .15s;
+    background: var(--tag-bg); color: var(--text-secondary); white-space: nowrap;
+  }
+  .tag-cloud-item:hover { transform: scale(1.08); }
+  .tag-cloud-item.tag-sm { font-size: 11px; opacity: .7; }
+  .tag-cloud-item.tag-md { font-size: 13px; opacity: .85; }
+  .tag-cloud-item.tag-lg { font-size: 15px; font-weight: 600; opacity: 1; }
+
+  .daily-chart { display: flex; align-items: flex-end; gap: 5px; height: 88px; padding-top: 16px; }
+  .daily-bar { flex: 1; border-radius: 4px 4px 0 0; transition: height .5s ease-out; min-width: 16px; position: relative; }
+  .daily-bar-label { position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); font-size: 10px; color: var(--text-secondary); white-space: nowrap; }
+  .daily-bar-count { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-size: 11px; font-weight: 600; color: var(--text-secondary); }
 
   /* Top 10 */
   .top10-list { list-style: none; }
@@ -746,39 +755,61 @@
   // Stats
   function renderStats() {
     if (!statsData) return;
+
+    // Color palettes
+    const catColors = {
+      '模型发布': '#3b82f6', '开源项目': '#10b981', '产品/API': '#8b5cf6',
+      '学术研究': '#f59e0b', '融资收购': '#f97316', '政策监管': '#ef4444',
+      'model': '#3b82f6', 'oss': '#10b981', 'product': '#8b5cf6',
+      'research': '#f59e0b', 'funding': '#f97316', 'policy': '#ef4444',
+    };
+    const srcPalette = ['#3b82f6','#6366f1','#8b5cf6','#a855f7','#06b6d4','#10b981','#f59e0b','#f97316','#ef4444','#ec4899'];
+
     // Sources
     const maxSrc = Math.max(1, ...(statsData.sources||[]).map(s=>s.count));
-    document.getElementById('statsSources').innerHTML = (statsData.sources||[]).slice(0,10).map(s => `
+    document.getElementById('statsSources').innerHTML = (statsData.sources||[]).slice(0,10).map((s,i) => `
       <div class="stat-bar">
         <span class="stat-bar-name">${esc(s.name)}</span>
-        <span class="stat-bar-track"><span class="stat-bar-fill" style="width:${(s.count/maxSrc*100).toFixed(0)}%"></span></span>
+        <span class="stat-bar-track"><span class="stat-bar-fill" style="width:${(s.count/maxSrc*100).toFixed(0)}%;background-color:${srcPalette[i%10]}"></span></span>
         <span class="stat-bar-count">${s.count}</span>
       </div>
     `).join('');
 
     // Categories
     const maxCat = Math.max(1, ...(statsData.categories||[]).map(c=>c.count));
-    document.getElementById('statsCats').innerHTML = (statsData.categories||[]).map(c => `
+    document.getElementById('statsCats').innerHTML = (statsData.categories||[]).map(c => {
+      const color = catColors[c.name] || '#6b7280';
+      return `
       <div class="stat-bar">
-        <span class="stat-bar-name">${esc(c.name)}</span>
-        <span class="stat-bar-track"><span class="stat-bar-fill" style="width:${(c.count/maxCat*100).toFixed(0)}%"></span></span>
+        <span class="stat-bar-name" style="color:${color};font-weight:600">${esc(c.name)}</span>
+        <span class="stat-bar-track"><span class="stat-bar-fill" style="width:${(c.count/maxCat*100).toFixed(0)}%;background-color:${color}"></span></span>
         <span class="stat-bar-count">${c.count}</span>
       </div>
-    `).join('');
+    `}).join('');
 
-    // Tags
-    document.getElementById('statsTags').innerHTML = (statsData.tags||[]).slice(0,20).map(t =>
-      `<span class="tag-cloud-item">${esc(t.name)} ${t.count}</span>`
-    ).join('');
+    // Tags — size tiers by count
+    const tags = (statsData.tags||[]).slice(0,20);
+    const maxTag = Math.max(1, ...tags.map(t=>t.count));
+    const minTag = Math.min(maxTag, ...tags.map(t=>t.count));
+    document.getElementById('statsTags').innerHTML = tags.map(t => {
+      const ratio = (t.count - minTag) / (maxTag - minTag || 1);
+      const cls = ratio > 0.6 ? 'tag-lg' : ratio > 0.25 ? 'tag-md' : 'tag-sm';
+      const alpha = 0.5 + ratio * 0.5;
+      return `<span class="tag-cloud-item ${cls}" style="color:rgba(37,99,235,${alpha.toFixed(2)})">${esc(t.name)} <strong>${t.count}</strong></span>`;
+    }).join('');
 
     // Daily trend
     const maxDay = Math.max(1, ...(statsData.dailyTrend||[]).map(d=>d.count));
-    document.getElementById('statsDaily').innerHTML = (statsData.dailyTrend||[]).map(d => `
-      <div class="daily-bar" style="height:${(d.count/maxDay*70+8).toFixed(0)}px">
+    document.getElementById('statsDaily').innerHTML = (statsData.dailyTrend||[]).map(d => {
+      const ratio = d.count / maxDay;
+      const h = Math.round(ratio * 70 + 8);
+      const alpha = 0.35 + ratio * 0.65;
+      return `
+      <div class="daily-bar" style="height:${h}px;background:linear-gradient(180deg,rgba(59,130,246,${alpha.toFixed(2)}),rgba(139,92,246,${(alpha*0.8).toFixed(2)}))">
         <span class="daily-bar-count">${d.count}</span>
         <span class="daily-bar-label">${d.date}</span>
       </div>
-    `).join('');
+    `}).join('');
 
     // Top 10
     document.getElementById('statsTop10').innerHTML = (statsData.top10||[]).map((item,i) => `
