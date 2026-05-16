@@ -32,7 +32,7 @@ jobs:
 
       - name: Translate to Chinese
         env:
-          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: python scripts/translate.py
 
       - name: Commit updated news

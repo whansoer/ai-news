@@ -1,4 +1,4 @@
-"""AI News Translator — DeepSeek 中文翻译"""
+"""AI News Translator — Google Gemini 免费翻译"""
 import json
 import os
 import time
@@ -10,10 +10,10 @@ DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 INPUT_FILE = os.path.join(DATA_DIR, "news.json")
 OUTPUT_FILE = os.path.join(DATA_DIR, "news_zh.json")
 
-DEEPSEEK_KEY = os.environ.get("DEEPSEEK_KEY", "")
+GEMINI_KEY = os.environ.get("GEMINI_KEY", "")
 MAX_ITEMS = 50
 BATCH_SIZE = 10
-API_URL = "https://api.deepseek.com/v1/chat/completions"
+API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
 SYSTEM_PROMPT = """你是一个 AI 新闻翻译专家。将给出的英文 AI 新闻标题和摘要翻译成中文。
 规则：
@@ -43,29 +43,28 @@ def build_user_prompt(batch):
     return "\n---\n".join(lines)
 
 
-def call_deepseek(user_prompt, retries=2):
+def call_gemini(user_prompt, retries=2):
     for attempt in range(retries + 1):
         try:
             resp = requests.post(
-                API_URL,
-                headers={
-                    "Authorization": f"Bearer {DEEPSEEK_KEY}",
-                    "Content-Type": "application/json",
-                },
+                f"{API_URL}?key={GEMINI_KEY}",
+                headers={"Content-Type": "application/json"},
                 json={
-                    "model": "deepseek-chat",
-                    "messages": [
-                        {"role": "system", "content": SYSTEM_PROMPT},
-                        {"role": "user", "content": user_prompt},
+                    "system_instruction": {
+                        "parts": [{"text": SYSTEM_PROMPT}]
+                    },
+                    "contents": [
+                        {"role": "user", "parts": [{"text": user_prompt}]}
                     ],
-                    "temperature": 0.3,
-                    "max_tokens": 4096,
+                    "generationConfig": {
+                        "temperature": 0.3,
+                        "maxOutputTokens": 4096,
+                    },
                 },
                 timeout=60,
             )
             data = resp.json()
-            content = data["choices"][0]["message"]["content"]
-            # 提取 JSON 数组
+            content = data["candidates"][0]["content"]["parts"][0]["text"]
             start = content.find("[")
             end = content.rfind("]")
             if start >= 0 and end > start:
@@ -83,7 +82,7 @@ def translate_batch(batch):
     if not batch:
         return []
     user_prompt = build_user_prompt(batch)
-    results = call_deepseek(user_prompt)
+    results = call_gemini(user_prompt)
     out = {}
     for item in results:
         item_id = item.get("id", "")
@@ -92,7 +91,6 @@ def translate_batch(batch):
             "summary_zh": item.get("summary_zh", ""),
             "tags_zh": item.get("tags_zh", []),
         }
-    # 补漏：API 未返回的用原文
     for item in batch:
         if item["id"] not in out:
             out[item["id"]] = {
@@ -104,8 +102,8 @@ def translate_batch(batch):
 
 
 def main():
-    if not DEEPSEEK_KEY:
-        print("[Translate] 未设置 DEEPSEEK_KEY，跳过翻译")
+    if not GEMINI_KEY:
+        print("[Translate] 未设置 GEMINI_KEY，跳过翻译")
         return
 
     items = load_news()
@@ -116,15 +114,13 @@ def main():
     os.makedirs(DATA_DIR, exist_ok=True)
     translated = {}
 
-    # 分批翻译
     for i in range(0, len(items), BATCH_SIZE):
         batch = items[i: i + BATCH_SIZE]
         results = translate_batch(batch)
         translated.update(results)
         if i + BATCH_SIZE < len(items):
-            time.sleep(2)  # 避免限流
+            time.sleep(2)
 
-    # 组装输出
     zh_items = []
     for item in items:
         t = translated.get(item["id"], {})
