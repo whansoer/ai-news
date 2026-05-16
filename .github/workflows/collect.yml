@@ -71,10 +71,25 @@ jobs:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: python scripts/script.py
 
-      - name: Init favorites.json
+      - name: Init optional data files
         run: |
           if [ ! -f data/favorites.json ]; then
             echo '{"ids":[],"updated":"2026-01-01T00:00:00Z"}' > data/favorites.json
+          fi
+          if [ ! -f data/outline.json ]; then
+            echo '{"topic":"","hook":"","sections":[],"conclusion":"","suggested_title":"","updated":""}' > data/outline.json
+          fi
+          if [ ! -f data/script.json ]; then
+            echo '{"topic":"","scripts":{"30s":"","60s":""},"hook":"","updated":""}' > data/script.json
+          fi
+          if [ ! -f data/briefing.json ]; then
+            echo '{"text":"","top_items":[],"updated":""}' > data/briefing.json
+          fi
+          if [ ! -f data/weekly.json ]; then
+            echo '{"title":"","summary":"","highlights":[],"top_ids":[],"updated":""}' > data/weekly.json
+          fi
+          if [ ! -f data/favorites_archive.json ]; then
+            echo '{"updated":"","total":0,"items":[]}' > data/favorites_archive.json
           fi
 
       - name: Archive old news
