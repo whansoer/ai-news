@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-16T19:54:25Z",
-  "total": 94,
+  "updated": "2026-05-16T23:31:11Z",
+  "total": 98,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -20,15 +20,15 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 11
+      "count": 12
+    },
+    {
+      "name": "AI News",
+      "count": 12
     },
     {
       "name": "Synced",
       "count": 10
-    },
-    {
-      "name": "AI News",
-      "count": 9
     },
     {
       "name": "GitHub Trending",
@@ -96,7 +96,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 36
+      "count": 37
     },
     {
       "name": "模型发布",
@@ -108,7 +108,7 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -122,7 +122,7 @@
     },
     {
       "date": "05-16",
-      "count": 23
+      "count": 24
     },
     {
       "date": "05-28",
@@ -167,6 +167,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "a94a3a58575e",
+      "title": "Nous Research Proposes Lighthouse Attention: A Training-Only Selection-Based Hierarchical Attention That Delivers 1.4–1.7× Pretraining Speedup at Long Context",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "351d303bce6a",
       "title": "Meet LiteLLM Agent Platform: A Kubernetes-Based, Self-Hosted Infrastructure Layer for Isolated Agent Sandboxes and Persistent Session Management in Production",
       "score": 5,
@@ -193,12 +199,6 @@
     {
       "id": "2114f62a66f0",
       "title": "Mixed Integer Goal Programming for Personalized Meal Optimization with User-Defined Serving Granularity",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "3d77c5784679",
-      "title": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
       "score": 5,
       "source": "ArXiv (cs.AI)"
     }

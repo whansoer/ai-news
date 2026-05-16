@@ -1,6 +1,7 @@
 {
-  "updated": "2026-05-16T19:54:26Z",
-  "total": 58,
+  "updated": "2026-05-16T23:31:28Z",
+  "total": 59,
+  "new_count": 40,
   "items": [
     {
       "id": "bf559441b24d",
@@ -9,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
-      "published": "2026-05-16T19:52:18Z",
+      "published": "2026-05-16T23:28:24Z",
       "tags": [
         "Agent"
       ],
@@ -17,6 +18,11 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
       "title_zh": "K-Dense-AI /scientific-agent-skills",
       "summary_zh": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
       "tags_zh": [
@@ -31,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-05-16T19:52:18Z",
+      "published": "2026-05-16T23:28:24Z",
       "tags": [
         "Agent"
       ],
@@ -39,6 +45,11 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
       "title_zh": "obra /superpowers",
       "summary_zh": "An agentic skills framework & software development methodology that works.",
       "tags_zh": [
@@ -53,12 +64,17 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-      "published": "2026-05-16T19:52:18Z",
+      "published": "2026-05-16T23:28:24Z",
       "tags": [],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
       "title_zh": "Anil-matcha /Open-Generative-AI",
       "summary_zh": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "tags_zh": [],
@@ -71,14 +87,42 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
-      "published": "2026-05-16T19:52:18Z",
+      "published": "2026-05-16T23:28:24Z",
       "tags": [],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
       "title_zh": "tinyhumansai /openhuman",
       "summary_zh": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a94a3a58575e",
+      "title": "Nous Research Proposes Lighthouse Attention: A Training-Only Selection-Based Hierarchical Attention That Delivers 1.4–1.7× Pretraining Speedup at Long Context",
+      "url": "https://www.marktechpost.com/2026/05/16/nous-research-proposes-lighthouse-attention-a-training-only-selection-based-hierarchical-attention-that-delivers-1-4-1-7x-pretraining-speedup-at-long-context/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Nous Research has published Lighthouse Attention, a selection-based hierarchical attention mechanism that wraps around standard scaled dot-product attention during pretraining and is removed afterward. Unlike prior methods such as NSA and HISA...",
+      "published": "2026-05-16T22:23:09Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "Nous Research Proposes Lighthouse Attention: A Training-Only Selection-Based Hierarchical Attention That Delivers 1.4–1.7× Pretraining Speedup at Long Context",
+      "summary_zh": "Nous Research has published Lighthouse Attention, a selection-based hierarchical attention mechanism that wraps around standard scaled dot-product attention during pretraining and is removed afterward. Unlike prior methods such as NSA and HISA...",
       "tags_zh": [],
       "oneliner": ""
     },
@@ -104,7 +148,12 @@
         "LLM",
         "Agent"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
     },
     {
       "id": "cef8d35bc48f",
@@ -126,7 +175,12 @@
       "tags_zh": [
         "GPU"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
     },
     {
       "id": "c22bd2b5e5fc",
@@ -144,7 +198,14 @@
       "title_zh": "How to Build Repository-Level Code Intelligence with Repowise Using Graph Analysis, Dead-Code Detection, Decisions, and AI Context",
       "summary_zh": "In this tutorial, we explore how to use Repowise to build repository-level intelligence for the itsdangerous Python project in a practical and reproducible way. We start with an already cloned repository, configure Repowise using the available...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "8a85244e8553"
+        ],
+        "score": 5
+      }
     },
     {
       "id": "0a1bf7f364df",
@@ -166,7 +227,12 @@
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "2114f62a66f0",
@@ -184,7 +250,12 @@
       "title_zh": "Mixed Integer Goal Programming for Personalized Meal Optimization with User-Defined Serving Granularity",
       "summary_zh": "arXiv:2605.13849v1 Announce Type: new \nAbstract: Determining what to eat to satisfy nutritional requirements is one of the oldest optimization problems in operations research, yet existing formulations have two persistent limitations: continuous...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      }
     },
     {
       "id": "3d77c5784679",
@@ -206,7 +277,12 @@
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
     },
     {
       "id": "ba2fa0aa3256",
@@ -230,7 +306,12 @@
         "LLM",
         "Agent"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      }
     },
     {
       "id": "1dc362a9d868",
@@ -252,7 +333,12 @@
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      }
     },
     {
       "id": "0f907bb3cf5d",
@@ -276,7 +362,12 @@
         "Agent",
         "Benchmark"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "405858471b8c",
@@ -294,7 +385,12 @@
       "title_zh": "Conditional Attribute Estimation with Autoregressive Sequence Models",
       "summary_zh": "arXiv:2605.14004v1 Announce Type: new \nAbstract: Generative models are often trained with a next-token prediction objective, yet many downstream applications require the ability to estimate or control sequence-level properties. Next-token...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "4b56508adb0a",
@@ -316,7 +412,12 @@
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "79e4e17344db",
@@ -340,7 +441,12 @@
         "LLM",
         "Agent"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "eff865e5f6c4",
@@ -358,7 +464,12 @@
       "title_zh": "Enhanced and Efficient Reasoning in Large Learning Models",
       "summary_zh": "arXiv:2605.14036v1 Announce Type: new \nAbstract: In current Large Language Models we can trust the production of smoothly flowing prose on the basis of the principles of machine learning. However, there is no comparably principled basis to...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "70966ac3fb40",
@@ -380,7 +491,12 @@
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "c1a2ef776211",
@@ -398,7 +514,12 @@
       "title_zh": "Network-Aware Bilinear Tokenization for Brain Functional Connectivity Representation Learning",
       "summary_zh": "arXiv:2605.14048v1 Announce Type: new \nAbstract: Masked autoencoders (MAEs) have recently shown promise for self-supervised representation learning of resting-state brain functional connectivity (FC). However, a fundamental question remains...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "7d54ac255003",
@@ -413,10 +534,15 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
-      "title_zh": "Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning",
-      "summary_zh": "arXiv:2605.14049v1 Announce Type: new \nAbstract: The growing adoption of large language models in legal practice brings both significant promise and serious risk. Legal professionals stand to benefit from AI that can reason over contracts, draft...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      }
     },
     {
       "id": "f3e7755fb674",
@@ -436,7 +562,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "e6fd29184a37",
@@ -454,7 +585,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
     },
     {
       "id": "b9939c2fea26",
@@ -475,7 +611,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      }
     },
     {
       "id": "03e044fdd0dc",
@@ -495,7 +636,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
     },
     {
       "id": "6620ae706104",
@@ -516,7 +662,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      }
     },
     {
       "id": "8a85244e8553",
@@ -534,7 +685,14 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "c22bd2b5e5fc"
+        ],
+        "score": 5
+      }
     },
     {
       "id": "4f347c8decab",
@@ -555,7 +713,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      }
     },
     {
       "id": "98b5c50cecc2",
@@ -573,7 +736,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 4
+      }
     },
     {
       "id": "0ea29207aa9e",
@@ -591,7 +759,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "b97292a0b3a3",
@@ -612,7 +785,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
     },
     {
       "id": "d93b94d20e7f",
@@ -630,7 +808,16 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "afc8cde3e2c8",
+          "ca8d7bccf4af",
+          "14f0330ce5a9"
+        ],
+        "score": 9
+      }
     },
     {
       "id": "990a39ff7c1a",
@@ -651,7 +838,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      }
     },
     {
       "id": "afc8cde3e2c8",
@@ -669,7 +861,16 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "d93b94d20e7f",
+          "ca8d7bccf4af",
+          "14f0330ce5a9"
+        ],
+        "score": 9
+      }
     },
     {
       "id": "4ed1b1b76f19",
@@ -689,7 +890,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "ca8d7bccf4af",
@@ -707,7 +913,16 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "d93b94d20e7f",
+          "afc8cde3e2c8",
+          "14f0330ce5a9"
+        ],
+        "score": 9
+      }
     },
     {
       "id": "0d710eb4f89a",
@@ -727,7 +942,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "1ca3a93212b1",
@@ -747,7 +967,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
     },
     {
       "id": "73eb815ab647",
@@ -767,7 +992,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      }
     },
     {
       "id": "3d30727982c4",
@@ -787,7 +1017,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
     },
     {
       "id": "09ab76a12173",
@@ -805,7 +1040,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "e1ec38c98b28",
@@ -823,7 +1063,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "d8e5d33b6634",
@@ -841,7 +1086,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "c2fad0632e54",
@@ -859,7 +1109,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "0782024bcee1",
@@ -879,7 +1134,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "80175ecc3a77",
@@ -897,7 +1157,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "49a108cb408a",
@@ -915,7 +1180,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "7e8d14b05daf",
@@ -933,7 +1203,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "d5e82df62095",
@@ -951,7 +1226,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "14f0330ce5a9",
@@ -969,7 +1249,16 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "d93b94d20e7f",
+          "afc8cde3e2c8",
+          "ca8d7bccf4af"
+        ],
+        "score": 9
+      }
     },
     {
       "id": "561b0a6e3267",
@@ -989,7 +1278,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "6cee4740a1e0",
@@ -1006,7 +1300,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "818b51bc8be5",
@@ -1020,7 +1319,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "efdc3d87f1cd",
@@ -1034,7 +1338,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      }
     },
     {
       "id": "15ea451729b2",
@@ -1048,7 +1357,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      }
     },
     {
       "id": "3bee7290591a",
@@ -1062,7 +1376,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     },
     {
       "id": "926628b3d01e",
@@ -1076,7 +1395,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "084a0dcd2ccb",
@@ -1092,7 +1416,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      }
     },
     {
       "id": "493dd3fda709",
@@ -1108,7 +1437,12 @@
       "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
     }
   ]
 }
