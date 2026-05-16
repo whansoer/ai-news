@@ -353,7 +353,7 @@ body {
 .donut-legend-count { font-family: var(--font-mono); font-weight: 600; color: var(--text); font-size: 13px; }
 
 /* Stats row */
-.stats-row-dash { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
+.stats-row-dash { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 16px; }
 
 /* Highlights section */
 .highlights-section { margin-bottom: 16px; }
@@ -362,6 +362,18 @@ body {
   text-transform: uppercase; letter-spacing: 0.08em;
 }
 .highlights-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+.deep-research-section { margin-bottom: 20px; }
+.deep-research-section h3 { font-size: 14px; font-weight: 600; color: var(--accent); margin: 0 0 12px; }
+.deep-research-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.deep-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-xl); padding: 20px; position: relative; }
+.deep-card:hover { border-color: var(--border-strong); }
+.deep-card .deep-thesis { font-size: 14px; color: var(--text); line-height: 1.6; margin-bottom: 12px; font-weight: 500; }
+.deep-card .deep-data { margin-bottom: 10px; }
+.deep-card .deep-data-item { font-size: 12px; color: var(--data-green); font-family: var(--font-mono); padding: 3px 0; padding-left: 12px; border-left: 2px solid var(--data-green); margin-bottom: 4px; }
+.deep-card .deep-impact { font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px; }
+.deep-card .deep-impact strong { color: var(--accent); }
+.deep-card .deep-footer { display: flex; gap: 12px; font-size: 11px; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 10px; }
+.deep-card .deep-footer span { display: inline-flex; align-items: center; gap: 4px; }
 .highlight-card {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
   padding: 14px 16px; transition: border-color .15s;
@@ -449,6 +461,9 @@ body {
 }
 .card-score { font-size: 11px; font-weight: 700; color: var(--data-amber); font-family: var(--font-mono); }
 .card-date { font-size: 11px; color: var(--text-muted); }
+.verify-badge { font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: var(--radius-xs); display: inline-flex; align-items: center; gap: 4px; }
+.verify-badge.multi { color: #00e676; background: rgba(0,230,118,0.08); }
+.verify-badge.single { color: var(--text-muted); background: rgba(136,153,170,0.06); }
 
 .card-title { font-size: 16px; font-weight: 600; line-height: 1.4; margin-bottom: 6px; letter-spacing: 0; }
 .card-title a { color: var(--text); text-decoration: none; }
@@ -766,8 +781,9 @@ body {
   .hero-row { grid-template-columns: 1fr; }
   .donut-body { flex-direction: column; gap: 16px; }
   .donut-svg-wrap { margin: 0 auto; }
-  .stats-row-dash { grid-template-columns: 1fr; }
+  .stats-row-dash { grid-template-columns: repeat(2, 1fr); }
   .highlights-grid { grid-template-columns: 1fr; }
+  .deep-research-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: 1fr; }
   .stat-bar-name { width: 60px; }
   .filter-btn { padding: 5px 10px; font-size: 11px; min-height: 32px; }
@@ -862,6 +878,12 @@ body {
 
       <!-- Hero cards -->
       <div class="hero-row" id="heroRow"></div>
+
+      <!-- Deep research -->
+      <div class="deep-research-section" id="deepResearchSection" style="display:none;">
+        <h3>今日深度</h3>
+        <div class="deep-research-grid" id="deepResearchGrid"></div>
+      </div>
 
       <!-- Stats: donut chart + 3-column row -->
       <div class="donut-card" id="donutCard" style="display:none;">
@@ -1022,7 +1044,7 @@ body {
      ========================================== */
   const CAT_LABELS = { model:'模型发布', oss:'开源项目', product:'产品/API', research:'学术研究', funding:'融资收购', policy:'政策监管' };
   let allNews = [], zhMap = {}, statsData = null, weeklyData = null;
-  let briefingData = null, outlineData = null, scriptData = null;
+  let briefingData = null, outlineData = null, scriptData = null, deepResearchData = null;
   let currentCat = 'all', searchQuery = '', currentSort = 'hot';
   let currentLang = localStorage.getItem('ai-news-lang') || 'zh';
   let currentView = 'dashboard';
@@ -1212,7 +1234,7 @@ body {
   async function loadAll() {
     showSkeleton();
     try {
-      const [rEn, rZh, rStats, rWeekly, rBrief, rOutline, rScript] = await Promise.all([
+      const [rEn, rZh, rStats, rWeekly, rBrief, rOutline, rScript, rDeep] = await Promise.all([
         fetch('data/news.json'),
         fetch('data/news_zh.json').catch(() => null),
         fetch('data/stats.json').catch(() => null),
@@ -1220,6 +1242,7 @@ body {
         fetch('data/briefing.json').catch(() => null),
         fetch('data/outline.json').catch(() => null),
         fetch('data/script.json').catch(() => null),
+        fetch('data/deepresearch.json').catch(() => null),
       ]);
       if (!rEn.ok) throw new Error('HTTP ' + rEn.status);
       const dEn = await rEn.json();
@@ -1234,6 +1257,7 @@ body {
       if (rBrief && rBrief.ok) { briefingData = await rBrief.json(); }
       if (rOutline && rOutline.ok) { outlineData = await rOutline.json(); }
       if (rScript && rScript.ok) { scriptData = await rScript.json(); }
+      if (rDeep && rDeep.ok) { deepResearchData = await rDeep.json(); }
 
       document.getElementById('skeletonContainer').style.display = 'none';
       renderWeekly();
@@ -1372,6 +1396,9 @@ body {
     // Key highlights
     renderHighlights();
 
+    // Deep research on top stories
+    renderDeepResearch();
+
     // Stats: donut chart + 3-column
     renderStatsOverview();
 
@@ -1395,6 +1422,26 @@ body {
       '<div class="highlight-card">' +
         '<div class="highlight-source">' + esc(i.source) + '</div>' +
         '<div class="highlight-text">' + esc(i.text) + '</div>' +
+      '</div>'
+    ).join('');
+  }
+
+  function renderDeepResearch() {
+    const section = document.getElementById('deepResearchSection');
+    const items = deepResearchData ? (deepResearchData.items || []) : [];
+    if (items.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = 'block';
+    document.getElementById('deepResearchGrid').innerHTML = items.map(dr =>
+      '<div class="deep-card">' +
+        '<div class="deep-thesis">' + esc(dr.thesis || '') + '</div>' +
+        ((dr.key_data || []).length > 0
+          ? '<div class="deep-data">' + dr.key_data.map(kd => '<div class="deep-data-item">' + esc(kd) + '</div>').join('') + '</div>'
+          : '') +
+        (dr.impact ? '<div class="deep-impact"><strong>行业影响：</strong>' + esc(dr.impact) + '</div>' : '') +
+        '<div class="deep-footer">' +
+          (dr.why_matters ? '<span>' + esc(dr.why_matters) + '</span>' : '') +
+          (dr.related_context ? '<span>' + esc(dr.related_context) + '</span>' : '') +
+        '</div>' +
       '</div>'
     ).join('');
   }
@@ -1478,7 +1525,15 @@ body {
     });
     trendHTML += '</div></div>';
 
-    document.getElementById('dashStatsRow').innerHTML = srcHTML + tagHTML + trendHTML;
+    // Verification stat
+    const multiCount = allNews.filter(n => n.verification && n.verification.level === 'multi-source').length;
+    const vPct = allNews.length > 0 ? Math.round(multiCount / allNews.length * 100) : 0;
+    const verifyHTML = '<div class="stat-mini"><h4>可信度</h4>'
+      + '<div style="font-family:var(--font-mono);font-size:28px;font-weight:700;color:var(--data-green);margin:8px 0;">' + vPct + '<span style="font-size:14px;font-weight:400">%</span></div>'
+      + '<div style="font-size:11px;color:var(--text-muted);">' + multiCount + ' 条多源验证 / ' + allNews.length + ' 条</div>'
+      + '</div>';
+
+    document.getElementById('dashStatsRow').innerHTML = srcHTML + tagHTML + trendHTML + verifyHTML;
   }
 
   function renderFavoritesPreview() {
@@ -1641,6 +1696,9 @@ body {
         '<div class="card-meta">' +
           '<span class="viewed-dot" title="' + (isV ? '已读' : '未读') + '"></span>' +
           '<span class="card-source">' + esc(n.source) + '</span>' +
+          (n.verification && n.verification.level === 'multi-source'
+            ? '<span class="verify-badge multi" title="' + n.verification.corroborating_ids.length + ' 来源交叉验证">&#9673; 多源</span>'
+            : '<span class="verify-badge single" title="单一来源">&#9671; 单源</span>') +
           (n.score ? '<span class="card-score">' + n.score + '</span>' : '') +
           (n.category ? '<span style="font-size:10px;color:var(--text-secondary)">' + (CAT_LABELS[n.category]||n.category) + '</span>' : '') +
           '<span class="card-date">' + formatTime(n.published) + '</span>' +
