@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 import requests
 
 from cache import Cache
+from quality import check_json_structure
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 INPUT_FILE = os.path.join(DATA_DIR, "news.json")
@@ -149,6 +150,9 @@ def main():
         results = call_gemini(build_prompt(batch))
         for r in results:
             cid = r.get("id", "")
+            ok, errs = check_json_structure(r, ["category", "score"])
+            if not ok:
+                print(f"[Classify] 结构验证失败 {cid}: {errs}")
             classified[cid] = {
                 "category": r.get("category", "product"),
                 "tags": r.get("tags", [])[:3],

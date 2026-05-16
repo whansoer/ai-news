@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 import requests
 
 from cache import Cache
+from quality import check_cjk, check_entity_consistency, check_json_structure
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 INPUT_FILE = os.path.join(DATA_DIR, "news.json")
@@ -81,21 +82,22 @@ def call_gemini(user_prompt, retries=2):
     return []
 
 
-def has_cjk(text):
-    """Check if text contains at least one CJK character."""
-    if not text:
-        return False
-    return any('一' <= c <= '鿿' for c in text)
-
-
-def validate_translations(results, batch_ids):
-    """Return (valid, failed) — failed items have no CJK in title or summary."""
+def validate_translations(results, batch_ids, original_titles=None):
+    """Return (valid, failed) — failed items have no CJK in title or summary.
+    Also checks entity consistency if original_titles map is provided."""
     valid, failed = {}, set()
+    orig = original_titles or {}
     for item in results:
         item_id = item.get("id", "")
         title = item.get("title_zh", "")
         summary = item.get("summary_zh", "")
-        if has_cjk(title) or has_cjk(summary):
+        # Structural check
+        struct_ok, _ = check_json_structure(item, ["title_zh"])
+        # CJK check
+        cjk_ok = check_cjk(title) or check_cjk(summary)
+        # Entity check (skip if no original title to compare)
+        ent_score = check_entity_consistency(orig.get(item_id, ""), title) if orig else 1.0
+        if struct_ok and cjk_ok and ent_score >= 0.3:
             valid[item_id] = {
                 "title_zh": title,
                 "summary_zh": summary,
@@ -113,16 +115,18 @@ def translate_batch(batch):
     if not batch:
         return []
     batch_ids = {item["id"] for item in batch}
+    orig_titles = {item["id"]: item.get("title", "") for item in batch}
     user_prompt = build_user_prompt(batch)
     results = call_gemini(user_prompt)
-    out, failed = validate_translations(results, batch_ids)
+    out, failed = validate_translations(results, batch_ids, orig_titles)
 
     # Retry failed items once individually with a stronger prompt
     if failed:
         retry_items = [item for item in batch if item["id"] in failed]
+        retry_orig = {item["id"]: item.get("title", "") for item in retry_items}
         retry_prompt = "【重要：必须翻译成中文！不要保留英文原文！】\n" + build_user_prompt(retry_items)
         retry_results = call_gemini(retry_prompt)
-        retry_out, still_failed = validate_translations(retry_results, {item["id"] for item in retry_items})
+        retry_out, still_failed = validate_translations(retry_results, {item["id"] for item in retry_items}, retry_orig)
         out.update(retry_out)
         failed = still_failed
 
@@ -165,7 +169,7 @@ def main():
         cached = cache.get(key)
         if cached and not cached.get("_fallback"):
             # Re-validate: cached translation must still have CJK
-            if has_cjk(cached.get("title_zh", "")) or has_cjk(cached.get("summary_zh", "")):
+            if check_cjk(cached.get("title_zh", "")) or check_cjk(cached.get("summary_zh", "")):
                 translated[item["id"]] = cached
                 cache_hits += 1
                 continue

@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 import requests
 
 from cache import Cache
+from quality import check_briefing_top_items, check_output_length, check_cjk, score_output
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 NEWS_FILE = os.path.join(DATA_DIR, "news.json")
@@ -111,17 +112,23 @@ def main():
 
     # Sanity check: if text is garbled (short, no CJK or ASCII letters), use fallback
     text = briefing.get("text", "")
-    has_valid_chars = bool(text) and any(
-        '一' <= c <= '鿿' or c.isascii() and c.isalpha()
-        for c in text
-    )
-    if not has_valid_chars or len(text) < 15:
-        print(f"[Briefing] 输出乱码/过短，使用降级文本")
+    scores = score_output(text) if (briefing.get("_from_cache") or text) else {}
+    ok_len, text_len = check_output_length(text, 15)
+    has_cjk_chars = check_cjk(text)
+    has_valid_chars = has_cjk_chars or (bool(text) and any(c.isascii() and c.isalpha() for c in text))
+    if not has_valid_chars or not ok_len:
+        print(f"[Briefing] 输出乱码/过短 (len={text_len}, cjk={has_cjk_chars})，使用降级文本")
         briefing["text"] = "今日 AI 新闻已更新，点击查看详情 →"
         briefing["top_items"] = [
             (zh_map.get(it["id"], {}).get("title_zh") or it.get("title", ""))[:40]
             for it in items[:5]
         ]
+
+    # Cross-step verification: top_items should match actual news titles
+    all_titles = [item.get("title", "") for item in items]
+    ok_xref, matched_n, unmatched = check_briefing_top_items(briefing, all_titles)
+    if not ok_xref:
+        print(f"[Briefing] 交叉验证: {matched_n} 匹配, {len(unmatched)} 不匹配 → {unmatched[:3]}")
 
     # Cache the valid result (not garble, not fallback)
     if briefing.get("text") and not briefing.get("_from_cache"):

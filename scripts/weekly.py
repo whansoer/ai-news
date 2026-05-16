@@ -6,6 +6,8 @@ from datetime import datetime, timezone
 
 import requests
 
+from quality import check_output_length, check_cjk
+
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 INPUT_FILE = os.path.join(DATA_DIR, "news.json")
 OUTPUT_FILE = os.path.join(DATA_DIR, "weekly.json")
@@ -90,6 +92,13 @@ def main():
         print(f"[Weekly] API 失败: {e}")
         week_data["summary"] = "本周 AI 新闻摘要（自动生成失败，请查看下方新闻列表）"
         week_data["highlights"] = [item["title"][:40] for item in top[:5]]
+
+    # Quality check
+    summary_text = week_data.get("summary", "")
+    ok_len, text_len = check_output_length(summary_text, 100)
+    has_cjk_chars = check_cjk(summary_text)
+    if not ok_len or not has_cjk_chars:
+        print(f"[Weekly] 质量警告: len={text_len}, cjk={has_cjk_chars}")
 
     week_data["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     week_data["top_ids"] = [item["id"] for item in top]
