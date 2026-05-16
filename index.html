@@ -191,6 +191,24 @@
   .skeleton-line:nth-child(2) { width: 40%; }
   .skeleton-line:last-child { width: 80%; margin-bottom: 0; }
 
+  /* Deep search (Pagefind) */
+  .deep-results { margin-top: 16px; }
+  .deep-results-title {
+    font-size: 13px; color: var(--text-secondary); margin-bottom: 8px;
+    padding: 8px 12px; background: var(--accent-light); border-radius: 8px;
+  }
+  .deep-result-card {
+    background: var(--card-bg); border-radius: 10px; padding: 14px;
+    margin-bottom: 8px; box-shadow: var(--shadow); border-left: 3px solid var(--accent);
+  }
+  .deep-result-card .dr-title { font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .deep-result-card .dr-title a { color: var(--text); text-decoration: none; }
+  .deep-result-card .dr-title a:hover { color: var(--accent); }
+  .deep-result-card .dr-excerpt { font-size: 12px; color: var(--text-secondary); line-height: 1.5; }
+  .deep-result-card .dr-excerpt mark { background: #fef08a; color: #1a1a1a; padding: 0 2px; border-radius: 2px; }
+  .deep-result-card .dr-meta { font-size: 11px; color: var(--text-secondary); margin-top: 6px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .deep-result-card .dr-source { font-weight: 600; color: var(--accent); background: var(--accent-light); padding: 1px 6px; border-radius: 8px; }
+
   .empty-state, .error-state { text-align: center; padding: 80px 20px; color: var(--text-secondary); }
   .empty-state .icon, .error-state .icon { font-size: 48px; margin-bottom: 12px; }
   .retry-btn {
@@ -286,6 +304,7 @@
 
   <div id="skeletonContainer"></div>
   <div class="news-list" id="newsList" style="display:none;"></div>
+  <div class="deep-results" id="deepSearchResults" style="display:none;"></div>
   <div class="empty-state" id="emptyState" style="display:none;">
     <div class="icon">&#128240;</div><p>暂无新闻</p>
   </div>
@@ -609,11 +628,63 @@
     document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     currentCat = btn.dataset.cat;
+    document.getElementById('deepSearchResults').style.display = 'none';
     render();
   });
 
+  // Pagefind deep search
+  let pagefind = null;
+  (async function initPagefind() {
+    try {
+      pagefind = await import('/data/pagefind/pagefind.js');
+    } catch(e) {
+      // Pagefind not available (local file:// or missing index)
+    }
+  })();
+
+  let deepSearchTimer = null;
+  async function doDeepSearch(query) {
+    var el = document.getElementById('deepSearchResults');
+    if (!pagefind || !query || query.length < 2) {
+      el.style.display = 'none';
+      return;
+    }
+    try {
+      var search = await pagefind.search(query);
+      if (!search.results || search.results.length === 0) {
+        el.style.display = 'none';
+        return;
+      }
+      var results = [];
+      for (var i = 0; i < Math.min(search.results.length, 10); i++) {
+        results.push(await search.results[i].data());
+      }
+      var totalHits = results.length;
+      el.style.display = 'block';
+      el.innerHTML =
+        '<div class="deep-results-title">搜索归档 — ' + totalHits + ' 条结果</div>' +
+        results.map(function(r) {
+          var meta = r.meta || {};
+          var title = meta.title || '';
+          var url = meta.url || '#';
+          return '<div class="deep-result-card">' +
+            '<div class="dr-title"><a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(title) + '</a></div>' +
+            (r.excerpt ? '<div class="dr-excerpt">' + r.excerpt + '</div>' : '') +
+            '<div class="dr-meta">' +
+              (meta.source ? '<span class="dr-source">' + esc(meta.source) + '</span>' : '') +
+              (meta.published ? '<span>' + formatTime(meta.published) + '</span>' : '') +
+            '</div>' +
+          '</div>';
+        }).join('');
+    } catch(e) {
+      el.style.display = 'none';
+    }
+  }
+
   document.getElementById('searchBox').addEventListener('input', e => {
     searchQuery = e.target.value.trim();
+    clearTimeout(deepSearchTimer);
+    deepSearchTimer = setTimeout(function() { doDeepSearch(searchQuery); }, 300);
     render();
   });
 

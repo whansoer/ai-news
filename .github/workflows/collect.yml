@@ -53,8 +53,26 @@ jobs:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: python scripts/weekly.py
 
+      - name: Init favorites.json
+        run: |
+          if [ ! -f data/favorites.json ]; then
+            echo '{"ids":[],"updated":"2026-01-01T00:00:00Z"}' > data/favorites.json
+          fi
+
+      - name: Archive old news
+        run: python scripts/archive.py
+
+      - name: Prune expired archives
+        run: python scripts/prune.py
+
+      - name: Build search index
+        run: python scripts/build_search.py
+
+      - name: Run Pagefind
+        run: npx pagefind --source data --output data/pagefind --glob "search.html"
+
       - name: Commit updated news
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update ai news [skip ci]"
-          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json
+          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/

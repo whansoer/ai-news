@@ -13,7 +13,6 @@ from bs4 import BeautifulSoup
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 OUTPUT_FILE = os.path.join(DATA_DIR, "news.json")
-MAX_ITEMS = 200
 REQUEST_TIMEOUT = 15
 
 # ============================================================
@@ -215,7 +214,18 @@ def merge_dedup_sort(all_items):
             continue
         seen.add(key)
         unique.append(item)
-    return unique[:MAX_ITEMS]
+    return unique
+
+
+# ============================================================
+# 主入口
+# ============================================================
+def load_existing():
+    if not os.path.exists(OUTPUT_FILE):
+        return []
+    with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("items", [])
 
 
 # ============================================================
@@ -223,7 +233,12 @@ def merge_dedup_sort(all_items):
 # ============================================================
 def main():
     os.makedirs(DATA_DIR, exist_ok=True)
-    all_items = []
+
+    # 加载已有数据用于合并去重
+    existing = load_existing()
+    existing_ids = {(item["id"], item["title"].lower()[:80]) for item in existing}
+
+    all_items = list(existing)
 
     # RSS 并行采集
     with ThreadPoolExecutor(max_workers=6) as pool:
@@ -249,7 +264,8 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"采集完成: {len(final)} 条新闻 → {OUTPUT_FILE}")
+    new_count = len(final) - len(existing)
+    print(f"采集完成: {len(final)} 条新闻 (新增 {max(0, new_count)}) → {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
