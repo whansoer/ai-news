@@ -186,8 +186,9 @@ body {
 .briefing-card {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-xl);
   padding: 24px; margin: 16px 0;
-  position: relative; overflow: hidden;
+  position: relative; overflow: hidden; cursor: pointer; transition: border-color .15s;
 }
+.briefing-card:hover { border-color: var(--accent); }
 .briefing-card::before {
   content: ''; position: absolute; top: 0; left: 0; right: 0; height: 1px;
   background: linear-gradient(90deg, transparent, var(--accent), transparent);
@@ -202,13 +203,17 @@ body {
   display: flex; align-items: center; gap: 8px; margin-bottom: 12px;
 }
 .briefing-card .briefing-header h2 {
-  font-size: 15px; font-weight: 600; letter-spacing: -0.3px;
+  font-size: 15px; font-weight: 600; letter-spacing: -0.3px; flex: 1;
 }
 .briefing-card .briefing-header .badge {
   font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: var(--radius-pill);
   background: rgba(var(--accent-rgb), 0.1); color: var(--accent);
   font-family: var(--font-mono); letter-spacing: 0.05em;
 }
+.briefing-card .briefing-chevron {
+  font-size: 12px; color: var(--text-muted); transition: transform .2s; flex-shrink: 0;
+}
+.briefing-card.expanded .briefing-chevron { transform: rotate(180deg); }
 .briefing-card .briefing-text {
   font-size: 14px; line-height: 1.7; color: var(--text-secondary);
 }
@@ -220,6 +225,32 @@ body {
   background: var(--card-elevated); color: var(--text-muted);
   font-weight: 500;
 }
+.briefing-card .briefing-detail {
+  display: none; margin-top: 16px; padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.briefing-card.expanded .briefing-detail { display: block; }
+.briefing-detail .briefing-detail-title {
+  font-size: 12px; font-weight: 600; color: var(--text-muted); margin-bottom: 10px;
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.briefing-detail .briefing-detail-item {
+  display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: var(--radius-sm);
+  transition: background .15s; cursor: pointer; text-decoration: none;
+}
+.briefing-detail .briefing-detail-item:hover { background: rgba(var(--accent-rgb), 0.05); }
+.briefing-detail-item .bdi-index {
+  font-family: var(--font-mono); font-size: 11px; font-weight: 600;
+  color: var(--accent); width: 20px; flex-shrink: 0;
+}
+.briefing-detail-item .bdi-title {
+  font-size: 13px; color: var(--text); flex: 1;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.briefing-detail-item .bdi-source {
+  font-size: 10px; color: var(--text-muted); flex-shrink: 0;
+}
+.briefing-card .briefing-empty { font-size: 13px; color: var(--text-muted); padding: 8px 0; }
 
 /* Hero cards row */
 .hero-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
@@ -816,9 +847,11 @@ body {
         <div class="briefing-header">
           <h2>今日 AI 速览</h2>
           <span class="badge">AI 摘要</span>
+          <span class="briefing-chevron">▼</span>
         </div>
         <p class="briefing-text" id="dashBriefingText"></p>
         <div class="briefing-tags" id="dashBriefingTags"></div>
+        <div class="briefing-detail" id="briefingDetail"></div>
       </div>
 
       <!-- Key highlights -->
@@ -1235,12 +1268,69 @@ body {
 
     // Briefing
     const briefCard = document.getElementById('briefingCard');
-    if (briefingData && briefingData.text) {
+    const briefText = (briefingData && briefingData.text) ? briefingData.text.trim() : '';
+    const isGarbled = briefText.length < 30 || !/[一-鿿\w]/.test(briefText);
+    if (briefText && !isGarbled) {
       briefCard.style.display = 'block';
-      document.getElementById('dashBriefingText').textContent = briefingData.text;
+      document.getElementById('dashBriefingText').textContent = briefText;
       document.getElementById('dashBriefingTags').innerHTML = (briefingData.top_items || []).map(t =>
         '<span>' + esc(t) + '</span>'
       ).join('');
+      // Build detail: match top_items to actual articles
+      const topSlugs = (briefingData.top_items || []).map(t => t.toLowerCase().trim());
+      const matched = allNews.filter(n => {
+        const tLower = (n.title || '').toLowerCase();
+        return topSlugs.some(s => tLower.includes(s) || s.includes(tLower));
+      });
+      const detailEl = document.getElementById('briefingDetail');
+      if (matched.length > 0) {
+        detailEl.innerHTML =
+          '<div class="briefing-detail-title">相关文章</div>' +
+          matched.slice(0, 8).map((n, i) =>
+            '<a class="briefing-detail-item" href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' +
+              '<span class="bdi-index">' + (i + 1) + '</span>' +
+              '<span class="bdi-title">' + esc(t(n, 'title')) + '</span>' +
+              '<span class="bdi-source">' + esc(n.source) + '</span>' +
+            '</a>'
+          ).join('');
+      } else {
+        detailEl.innerHTML = '<p class="briefing-empty">暂无匹配文章，请查看完整新闻列表</p>';
+      }
+      // Click to expand/collapse
+      briefCard.onclick = function(e) {
+        if (e.target.closest('a')) return; // allow link clicks
+        briefCard.classList.toggle('expanded');
+      };
+    } else if (briefingData && (briefingData.top_items || []).length > 0) {
+      // Garbled/missing text but we have top_items — show fallback
+      briefCard.style.display = 'block';
+      document.getElementById('dashBriefingText').textContent = '今日 AI 新闻已更新，点击展开查看关联文章。';
+      document.getElementById('dashBriefingTags').innerHTML = (briefingData.top_items || []).map(t =>
+        '<span>' + esc(t) + '</span>'
+      ).join('');
+      const topSlugs = (briefingData.top_items || []).map(t => t.toLowerCase().trim());
+      const matched = allNews.filter(n => {
+        const tLower = (n.title || '').toLowerCase();
+        return topSlugs.some(s => tLower.includes(s) || s.includes(tLower));
+      });
+      const detailEl = document.getElementById('briefingDetail');
+      if (matched.length > 0) {
+        detailEl.innerHTML =
+          '<div class="briefing-detail-title">相关文章</div>' +
+          matched.slice(0, 8).map((n, i) =>
+            '<a class="briefing-detail-item" href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' +
+              '<span class="bdi-index">' + (i + 1) + '</span>' +
+              '<span class="bdi-title">' + esc(t(n, 'title')) + '</span>' +
+              '<span class="bdi-source">' + esc(n.source) + '</span>' +
+            '</a>'
+          ).join('');
+      } else {
+        detailEl.innerHTML = '<p class="briefing-empty">暂无匹配文章，请查看完整新闻列表</p>';
+      }
+      briefCard.onclick = function(e) {
+        if (e.target.closest('a')) return;
+        briefCard.classList.toggle('expanded');
+      };
     } else {
       briefCard.style.display = 'none';
     }

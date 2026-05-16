@@ -92,6 +92,20 @@ def main():
             for it in items[:5]
         ]
 
+    # Sanity check: if text is garbled (short, no CJK or ASCII letters), use fallback
+    text = briefing.get("text", "")
+    has_valid_chars = bool(text) and any(
+        '一' <= c <= '鿿' or c.isascii() and c.isalpha()
+        for c in text
+    )
+    if not has_valid_chars or len(text) < 15:
+        print(f"[Briefing] 输出乱码/过短，使用降级文本")
+        briefing["text"] = "今日 AI 新闻已更新，点击查看详情 →"
+        briefing["top_items"] = [
+            (zh_map.get(it["id"], {}).get("title_zh") or it.get("title", ""))[:40]
+            for it in items[:5]
+        ]
+
     briefing["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     os.makedirs(DATA_DIR, exist_ok=True)
