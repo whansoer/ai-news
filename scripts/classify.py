@@ -23,7 +23,8 @@ SYSTEM_PROMPT = """你是 AI 新闻分析专家。分析每条新闻，输出严
   "category": "model|oss|product|research|funding|policy",
   "tags": ["2-3个技术标签", "..."],
   "score": 1-10,
-  "reason": "评分理由（10字以内）"
+  "reason": "评分理由（10字以内）",
+  "relations": [{"from": "实体A", "type": "releases|invests|depends_on", "to": "实体B"}, ...]
 }
 
 分类标准：
@@ -37,7 +38,14 @@ SYSTEM_PROMPT = """你是 AI 新闻分析专家。分析每条新闻，输出严
 评分标准（1-10）：
 - 行业影响力 0-4分（OpenAI/Google/Meta等巨头动作 4分，个人项目 1分）
 - 技术突破性 0-3分（全新范式 3分，微调改进 1分）
-- 实用价值 0-3分（开发者立即可用 3分，纯理论 1分）"""
+- 实用价值 0-3分（开发者立即可用 3分，纯理论 1分）
+
+实体关系提取（relations）：
+- 从标题和摘要中提取 0-3 条实体关系
+- 实体类型：company（公司）、model（模型）、tech（技术）、person（人物）、event（事件/会议）
+- 关系类型：releases（发布，如 OpenAI→GPT-5）、invests（投资/收购，如 Microsoft→OpenAI）、depends_on（基于/依赖，如 GPT-5→Transformer）
+- 实体命名用英文原名，不要翻译
+- 如果文中没有明确的实体关系，返回空数组 []"""
 
 
 def load_news():
@@ -111,6 +119,7 @@ def main():
                 "tags": r.get("tags", [])[:3],
                 "score": max(1, min(10, r.get("score", 5))),
                 "reason": r.get("reason", ""),
+                "relations": r.get("relations", []),
             }
         if i + BATCH_SIZE < len(items):
             time.sleep(2)
@@ -123,10 +132,12 @@ def main():
             item["category"] = c["category"]
             item["tags"] = c["tags"]
             item["score"] = c["score"]
+            item["relations"] = c.get("relations", [])
         else:
             item.setdefault("category", "product")
             item.setdefault("tags", [])
             item.setdefault("score", 5)
+            item.setdefault("relations", [])
 
     data["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 

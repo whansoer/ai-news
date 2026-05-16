@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 新闻 — 知识图谱</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f5f5f5; --card-bg: #fff; --text: #1a1a1a; --text-secondary: #666;
+    --border: #e5e5e5; --accent: #2563eb; --accent-light: #dbeafe;
+    --tag-bg: #f0f0f0; --shadow: 0 1px 3px rgba(0,0,0,.08);
+    --fire: #f59e0b; --green: #10b981; --purple: #8b5cf6; --red: #ef4444;
+  }
+
+  [data-theme="dark"] {
+    --bg: #111827; --card-bg: #1f2937; --text: #f3f4f6; --text-secondary: #9ca3af;
+    --border: #374151; --accent: #60a5fa; --accent-light: #1e3a5f;
+    --tag-bg: #374151; --shadow: 0 1px 3px rgba(0,0,0,.3);
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg); color: var(--text); min-height: 100vh; transition: background .3s, color .3s;
+  }
+
+  .container { max-width: 1100px; margin: 0 auto; padding: 20px 16px; }
+
+  /* Header */
+  .header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0 8px; }
+  .header h1 { font-size: 24px; font-weight: 700; }
+  .header-right { display: flex; align-items: center; gap: 10px; }
+  .back-link { color: var(--accent); text-decoration: none; font-size: 14px; font-weight: 600; }
+  .back-link:hover { text-decoration: underline; }
+  .theme-toggle {
+    width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border);
+    background: var(--card-bg); cursor: pointer; font-size: 14px; font-weight: 600;
+    display: flex; align-items: center; justify-content: center; transition: transform .2s;
+    color: var(--text-secondary);
+  }
+  .theme-toggle:hover { transform: scale(1.1); }
+
+  /* Tab bar */
+  .tab-bar { display: flex; gap: 4px; padding: 8px 0 16px; }
+  .tab-btn {
+    padding: 8px 20px; border-radius: 20px; border: 1px solid var(--border);
+    background: var(--card-bg); color: var(--text-secondary); cursor: pointer;
+    font-size: 13px; font-weight: 600; transition: all .2s;
+  }
+  .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .tab-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
+
+  /* Graph area */
+  .graph-container {
+    background: var(--card-bg); border-radius: 12px; box-shadow: var(--shadow);
+    position: relative; overflow: hidden; margin-bottom: 16px;
+  }
+  .graph-container svg { display: block; }
+  .graph-legend {
+    position: absolute; top: 12px; left: 12px; font-size: 11px; color: var(--text-secondary);
+    background: var(--card-bg); padding: 8px 12px; border-radius: 8px; border: 1px solid var(--border);
+    pointer-events: none; line-height: 1.6;
+  }
+  .graph-legend .legend-dot {
+    display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 4px; vertical-align: middle;
+  }
+  .graph-tooltip {
+    position: absolute; pointer-events: none; opacity: 0; z-index: 10;
+    background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px;
+    padding: 6px 10px; font-size: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    transition: opacity .15s; white-space: nowrap;
+  }
+
+  /* SVG node styles */
+  .node-label { font-size: 10px; fill: var(--text); pointer-events: none; text-anchor: middle; }
+  [data-theme="dark"] .node-label { fill: #ddd; }
+
+  /* Time slider */
+  .time-slider-container {
+    display: none; align-items: center; gap: 10px; padding: 8px 0;
+    font-size: 12px; color: var(--text-secondary);
+  }
+  .time-slider-container.show { display: flex; }
+  .time-slider {
+    flex: 1; -webkit-appearance: none; height: 4px; border-radius: 2px;
+    background: var(--border); outline: none;
+  }
+  .time-slider::-webkit-slider-thumb {
+    -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%;
+    background: var(--accent); cursor: pointer;
+  }
+
+  /* News panel */
+  .news-panel {
+    background: var(--card-bg); border-radius: 12px; padding: 16px;
+    box-shadow: var(--shadow); display: none; margin-bottom: 16px;
+  }
+  .news-panel-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border);
+  }
+  .news-panel-header h3 { font-size: 16px; }
+  .news-panel-close {
+    cursor: pointer; width: 28px; height: 28px; border-radius: 50%;
+    border: 1px solid var(--border); background: var(--card-bg); font-size: 14px;
+    display: flex; align-items: center; justify-content: center; color: var(--text-secondary);
+  }
+  .panel-item {
+    padding: 10px 0; border-bottom: 1px solid var(--border);
+    display: flex; align-items: flex-start; gap: 10px;
+  }
+  .panel-item:last-child { border-bottom: none; }
+  .panel-item-score { font-size: 12px; font-weight: 700; color: var(--fire); width: 24px; flex-shrink: 0; text-align: center; }
+  .panel-item-title { font-size: 13px; font-weight: 600; line-height: 1.3; }
+  .panel-item-title a { color: var(--text); text-decoration: none; }
+  .panel-item-title a:hover { color: var(--accent); }
+  .panel-item-meta { font-size: 11px; color: var(--text-secondary); margin-top: 2px; }
+
+  /* Stats bar */
+  .stats-bar {
+    display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px;
+    color: var(--text-secondary); margin-bottom: 8px;
+  }
+  .stats-bar strong { color: var(--text); }
+
+  .graph-hint { font-size: 12px; color: var(--text-secondary); }
+  .skeleton { text-align: center; padding: 80px 20px; color: var(--text-secondary); }
+  .error-state { text-align: center; padding: 80px 20px; color: var(--text-secondary); display: none; }
+
+  @media (max-width: 768px) {
+    .header h1 { font-size: 20px; }
+    .graph-legend { font-size: 10px; padding: 4px 8px; }
+    .panel-item { flex-direction: column; }
+    .tab-btn { padding: 6px 14px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header class="header">
+    <h1>知识图谱</h1>
+    <div class="header-right">
+      <a href="index.html" class="back-link">← 新闻列表</a>
+      <button class="theme-toggle" id="themeToggle" title="暗色模式">&#9728;</button>
+    </div>
+  </header>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="tag">标签共现</button>
+    <button class="tab-btn" data-tab="entity">实体关系</button>
+  </div>
+
+  <div class="stats-bar" id="statsBar">
+    <span>节点: <strong id="nodeCount">—</strong></span>
+    <span>连线: <strong id="linkCount">—</strong></span>
+    <span>新闻: <strong id="itemCount">—</strong></span>
+    <span class="graph-hint">&#128269; 滚轮缩放 &middot; 拖拽节点 &middot; 点击节点查看新闻</span>
+  </div>
+
+  <div class="graph-container" id="graphContainer">
+    <div class="graph-legend" id="graphLegend"></div>
+    <div class="graph-tooltip" id="graphTooltip"></div>
+    <div class="skeleton" id="graphLoading">加载中...</div>
+    <div class="error-state" id="graphError">数据加载失败</div>
+  </div>
+
+  <div class="time-slider-container" id="timeSliderContainer">
+    <span>时间范围: </span>
+    <input type="range" class="time-slider" id="timeSlider" min="1" max="7" value="7">
+    <span id="timeSliderLabel">最近 7 天</span>
+  </div>
+
+  <div class="news-panel" id="newsPanel">
+    <div class="news-panel-header">
+      <h3 id="panelTitle"></h3>
+      <button class="news-panel-close" id="panelClose" title="关闭">&#10005;</button>
+    </div>
+    <div id="panelItems"></div>
+  </div>
+</div>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+(function() {
+  // Theme
+  var savedTheme = localStorage.getItem('ai-news-theme') || 'light';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+  var themeToggle = document.getElementById('themeToggle');
+  themeToggle.innerHTML = savedTheme === 'dark' ? '&#9789;' : '&#9728;';
+  themeToggle.addEventListener('click', function() {
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    themeToggle.innerHTML = next === 'dark' ? '&#9789;' : '&#9728;';
+    localStorage.setItem('ai-news-theme', next);
+  });
+
+  // State
+  var currentTab = 'tag';
+  var allItems = [];
+  var graphData = null;
+
+  // Entity type colors
+  var entityColors = {
+    company: '#3b82f6', model: '#ef4444', tech: '#10b981',
+    person: '#f59e0b', event: '#8b5cf6'
+  };
+  var entityShapes = {
+    company: 'circle', model: 'diamond', tech: 'rect',
+    person: 'triangle', event: 'cross'
+  };
+
+  function esc(s) {
+    var map = {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};
+    return String(s).replace(/[&<>"']/g, function(c) { return map[c]; });
+  }
+
+  function formatTime(isoStr) {
+    if (!isoStr) return '';
+    var d = new Date(isoStr), now = new Date();
+    var diffHr = Math.floor((now - d) / 3600000);
+    if (diffHr < 24) return diffHr + '小时前';
+    var diffDay = Math.floor(diffHr / 24);
+    if (diffDay < 7) return diffDay + '天前';
+    return d.toLocaleDateString('zh-CN', { month:'short', day:'numeric' });
+  }
+
+  // Tab switching
+  document.querySelector('.tab-bar').addEventListener('click', function(e) {
+    var btn = e.target.closest('.tab-btn');
+    if (!btn) return;
+    document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    currentTab = btn.dataset.tab;
+    document.getElementById('timeSliderContainer').classList.toggle('show', currentTab === 'entity');
+    document.getElementById('newsPanel').style.display = 'none';
+    if (allItems.length > 0) {
+      buildAndRender();
+    }
+  });
+
+  // Time slider for entity graph
+  var timeSlider = document.getElementById('timeSlider');
+  var timeSliderLabel = document.getElementById('timeSliderLabel');
+  timeSlider.addEventListener('input', function() {
+    var days = parseInt(timeSlider.value);
+    timeSliderLabel.textContent = '最近 ' + days + ' 天';
+    if (currentTab === 'entity' && allItems.length > 0) {
+      buildAndRender();
+    }
+  });
+
+  // Load data
+  async function loadAll() {
+    try {
+      var resp = await fetch('data/news.json');
+      var data = await resp.json();
+      allItems = (data.items || []).slice();
+
+      // Load archives
+      var archivePromises = [];
+      for (var d = 1; d <= 30; d++) {
+        var date = new Date(Date.now() - d * 86400000);
+        var dateStr = date.toISOString().slice(0, 10);
+        archivePromises.push(
+          fetch('data/archive/' + dateStr + '.json')
+            .then(function(r) { return r.ok ? r.json() : null; })
+            .catch(function() { return null; })
+        );
+      }
+      var archives = await Promise.all(archivePromises);
+      archives.forEach(function(archive) {
+        if (archive && archive.items) allItems = allItems.concat(archive.items);
+      });
+
+      // Favorites archive
+      try {
+        var favResp = await fetch('data/favorites_archive.json');
+        if (favResp.ok) { var favData = await favResp.json(); allItems = allItems.concat(favData.items || []); }
+      } catch(e) {}
+
+      // Dedup
+      var seen = {};
+      allItems = allItems.filter(function(item) {
+        if (seen[item.id]) return false;
+        seen[item.id] = true;
+        return true;
+      });
+
+      document.getElementById('itemCount').textContent = allItems.length;
+      document.getElementById('graphLoading').style.display = 'none';
+      buildAndRender();
+    } catch(e) {
+      console.error(e);
+      document.getElementById('graphLoading').style.display = 'none';
+      document.getElementById('graphError').style.display = 'block';
+    }
+  }
+
+  function buildAndRender() {
+    if (currentTab === 'tag') buildTagGraph();
+    else buildEntityGraph();
+    renderGraph();
+  }
+
+  // ---- Tag co-occurrence graph ----
+  function buildTagGraph() {
+    document.getElementById('timeSliderContainer').classList.remove('show');
+
+    var tagMap = {};
+    var cooccur = {};
+
+    allItems.forEach(function(item) {
+      var tags = item.tags || [];
+      for (var i = 0; i < tags.length; i++) {
+        var t = tags[i];
+        if (!t) continue;
+        if (!tagMap[t]) tagMap[t] = { count: 0, itemIds: {} };
+        tagMap[t].count++;
+        tagMap[t].itemIds[item.id] = true;
+
+        for (var j = i + 1; j < tags.length; j++) {
+          var t2 = tags[j];
+          if (!t2) continue;
+          var key = t < t2 ? t + '||' + t2 : t2 + '||' + t;
+          cooccur[key] = (cooccur[key] || 0) + 1;
+        }
+      }
+    });
+
+    var tagNames = Object.keys(tagMap);
+    var maxCount = 1;
+    tagNames.forEach(function(t) { if (tagMap[t].count > maxCount) maxCount = tagMap[t].count; });
+
+    var nodes = tagNames.map(function(tag) {
+      return {
+        id: tag, type: 'tag',
+        count: tagMap[tag].count,
+        itemIds: Object.keys(tagMap[tag].itemIds),
+        r: 6 + (tagMap[tag].count / maxCount) * 26
+      };
+    });
+
+    var nodeIds = {};
+    nodes.forEach(function(n) { nodeIds[n.id] = true; });
+
+    var links = [];
+    var maxWeight = 1;
+    Object.keys(cooccur).forEach(function(key) {
+      var parts = key.split('||');
+      if (nodeIds[parts[0]] && nodeIds[parts[1]]) {
+        var w = cooccur[key];
+        if (w > maxWeight) maxWeight = w;
+        links.push({ source: parts[0], target: parts[1], weight: w });
+      }
+    });
+    links.sort(function(a, b) { return b.weight - a.weight; });
+    links = links.slice(0, 300);
+
+    graphData = { mode: 'tag', nodes: nodes, links: links, maxWeight: maxWeight, tagMap: tagMap };
+    document.getElementById('nodeCount').textContent = nodes.length;
+    document.getElementById('linkCount').textContent = links.length;
+
+    document.getElementById('graphLegend').innerHTML =
+      '<div>节点大小 = 标签频次</div><div>连线粗细 = 共现次数</div>';
+  }
+
+  // ---- Entity relationship graph ----
+  function buildEntityGraph() {
+    document.getElementById('timeSliderContainer').classList.add('show');
+
+    // Filter by time slider
+    var days = parseInt(timeSlider.value);
+    var cutoff = Date.now() - days * 86400000;
+    var filteredItems = allItems.filter(function(item) {
+      if (!item.published) return true;
+      return new Date(item.published).getTime() > cutoff;
+    });
+
+    // Collect entities and relations
+    var entityMap = {};   // name → { type, itemIds }
+    var relations = [];
+
+    filteredItems.forEach(function(item) {
+      var rels = item.relations || [];
+      rels.forEach(function(rel) {
+        var from = rel.from, to = rel.to, type = rel.type;
+        if (!from || !to || !type) return;
+
+        // Infer entity type from relation context
+        if (!entityMap[from]) entityMap[from] = { type: inferType(from, type, 'from'), itemIds: {} };
+        if (!entityMap[to]) entityMap[to] = { type: inferType(to, type, 'to'), itemIds: {} };
+
+        entityMap[from].itemIds[item.id] = true;
+        entityMap[to].itemIds[item.id] = true;
+
+        relations.push({ from: from, to: to, rtype: type });
+      });
+    });
+
+    // Dedup and count relations
+    var relMap = {};
+    relations.forEach(function(r) {
+      var key = r.from + '||' + r.rtype + '||' + r.to;
+      if (!relMap[key]) relMap[key] = { source: r.from, target: r.to, rtype: r.rtype, weight: 0 };
+      relMap[key].weight++;
+    });
+
+    var nodes = Object.keys(entityMap).map(function(name) {
+      return {
+        id: name, type: entityMap[name].type,
+        itemIds: Object.keys(entityMap[name].itemIds),
+        r: 8 + Math.min(20, entityMap[name].itemIds.length * 3)
+      };
+    });
+
+    var nodeIds = {};
+    nodes.forEach(function(n) { nodeIds[n.id] = true; });
+
+    var links = Object.values(relMap).filter(function(l) {
+      return nodeIds[l.source] && nodeIds[l.target];
+    });
+
+    graphData = { mode: 'entity', nodes: nodes, links: links, entityMap: entityMap, maxWeight: 3 };
+    document.getElementById('nodeCount').textContent = nodes.length;
+    document.getElementById('linkCount').textContent = links.length;
+
+    var legend = '<div><b>实体类型</b></div>';
+    Object.keys(entityColors).forEach(function(t) {
+      legend += '<div><span class="legend-dot" style="background:' + entityColors[t] + '"></span> ' + t + '</div>';
+    });
+    legend += '<div style="margin-top:4px;"><b>关系类型</b></div>';
+    legend += '<div><span style="color:#2563eb">━━</span> releases (发布)</div>';
+    legend += '<div><span style="color:#10b981">━━</span> invests (投资)</div>';
+    legend += '<div><span style="color:#f59e0b">╌╌╌</span> depends_on (基于)</div>';
+    document.getElementById('graphLegend').innerHTML = legend;
+  }
+
+  function inferType(name, relType, role) {
+    var companyNames = ['OpenAI', 'Google', 'Meta', 'Microsoft', 'Anthropic', 'Amazon', 'Apple',
+      'NVIDIA', 'Intel', 'AMD', 'Hugging Face', 'Mistral', 'Stability AI', 'Cohere', 'DeepMind',
+      'xAI', 'Baidu', 'Alibaba', 'Tencent', 'ByteDance'];
+    var modelNames = ['GPT', 'Claude', 'Llama', 'Gemini', 'DeepSeek', 'Qwen', 'Mistral',
+      'Stable Diffusion', 'Sora', 'DALL-E', 'Whisper', 'BERT', 'T5', 'PaLM', 'Chinchilla',
+      'Falcon', 'Command R', 'Grok'];
+    var techNames = ['RAG', 'Transformer', 'RLHF', 'LoRA', 'Agent', 'Fine-tuning',
+      'Diffusion', 'Embedding', 'MoE', 'Attention', 'GAN', 'VAE', 'PPO', 'DPO',
+      'Prompt Engineering', 'Chain-of-Thought', 'Function Calling', 'Vector Database'];
+
+    var lower = name.toLowerCase();
+    for (var i = 0; i < companyNames.length; i++) {
+      if (lower.indexOf(companyNames[i].toLowerCase()) >= 0) return 'company';
+    }
+    for (var j = 0; j < modelNames.length; j++) {
+      if (lower.indexOf(modelNames[j].toLowerCase()) >= 0) return 'model';
+    }
+    for (var k = 0; k < techNames.length; k++) {
+      if (lower.indexOf(techNames[k].toLowerCase()) >= 0) return 'tech';
+    }
+
+    // Heuristic: if it's the 'from' of a releases, it's a company; if 'to' of releases, it's a model
+    if (role === 'from' && relType === 'releases') return 'company';
+    if (role === 'to' && relType === 'releases') return 'model';
+    if (relType === 'invests') return 'company';
+    if (relType === 'depends_on') return role === 'from' ? 'model' : 'tech';
+
+    return 'company'; // default
+  }
+
+  // ---- D3 rendering ----
+  function renderGraph() {
+    if (!graphData) return;
+
+    var container = document.getElementById('graphContainer');
+    var width = container.clientWidth;
+    var height = Math.max(550, Math.min(750, window.innerHeight * 0.65));
+    var nodes = graphData.nodes.map(function(n) { return Object.assign({}, n, { x: undefined, y: undefined }); });
+    var links = graphData.links.map(function(l) { return Object.assign({}, l); });
+    var isEntity = graphData.mode === 'entity';
+
+    d3.select('#graphContainer svg').remove();
+
+    var svg = d3.select('#graphContainer').append('svg')
+      .attr('width', width).attr('height', height);
+
+    var g = svg.append('g');
+
+    var zoom = d3.zoom()
+      .scaleExtent([0.3, 4])
+      .on('zoom', function(event) { g.attr('transform', event.transform); });
+    svg.call(zoom);
+
+    // Link width scale
+    var maxW = graphData.maxWeight || 1;
+    var linkWidth = d3.scaleLinear().domain([1, maxW]).range([1, 5]);
+
+    // Color scale for tag mode
+    var tagColor = d3.scaleOrdinal(d3.schemeTableau10);
+
+    // Link styles for entity mode
+    function linkStroke(d) {
+      if (!isEntity) return '#bbb';
+      if (d.rtype === 'releases') return '#3b82f6';
+      if (d.rtype === 'invests') return '#10b981';
+      return '#f59e0b';
+    }
+    function linkDash(d) {
+      if (!isEntity) return null;
+      return d.rtype === 'depends_on' ? '4,3' : null;
+    }
+
+    // Draw links
+    var link = g.append('g').selectAll('line')
+      .data(links).enter().append('line')
+      .attr('stroke', linkStroke)
+      .attr('stroke-opacity', 0.5)
+      .attr('stroke-width', function(d) { return linkWidth(d.weight || 1); })
+      .attr('stroke-dasharray', linkDash);
+
+    // Node color
+    function nodeColor(d) {
+      if (isEntity) return entityColors[d.type] || '#999';
+      return tagColor(d.id);
+    }
+
+    // Draw nodes
+    var node = g.append('g').selectAll('g')
+      .data(nodes).enter().append('g')
+      .attr('cursor', 'pointer')
+      .call(d3.drag()
+        .on('start', function(event, d) {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          d.fx = d.x; d.fy = d.y;
+        })
+        .on('drag', function(event, d) {
+          d.fx = event.x; d.fy = event.y;
+        })
+        .on('end', function(event, d) {
+          if (!event.active) simulation.alphaTarget(0);
+          d.fx = null; d.fy = null;
+        })
+      );
+
+    // Shape per node
+    node.each(function(d) {
+      var el = d3.select(this);
+      if (isEntity) {
+        if (d.type === 'diamond') {
+          el.append('polygon')
+            .attr('points', '-7,0 0,-10 7,0 0,10')
+            .attr('fill', nodeColor(d)).attr('fill-opacity', 0.8)
+            .attr('stroke', '#fff').attr('stroke-width', 1.5);
+        } else if (d.type === 'triangle') {
+          el.append('polygon')
+            .attr('points', '0,-9 9,7 -9,7')
+            .attr('fill', nodeColor(d)).attr('fill-opacity', 0.8)
+            .attr('stroke', '#fff').attr('stroke-width', 1.5);
+        } else {
+          el.append('circle')
+            .attr('r', d.r)
+            .attr('fill', nodeColor(d)).attr('fill-opacity', 0.8)
+            .attr('stroke', '#fff').attr('stroke-width', 1.5);
+        }
+      } else {
+        el.append('circle')
+          .attr('r', d.r)
+          .attr('fill', nodeColor(d)).attr('fill-opacity', 0.8)
+          .attr('stroke', '#fff').attr('stroke-width', 1.5);
+      }
+    });
+
+    // Tooltip
+    var tooltip = document.getElementById('graphTooltip');
+    node.on('mouseover', function(event, d) {
+      tooltip.style.opacity = '1';
+      var info = '<strong>' + esc(d.id) + '</strong>';
+      if (isEntity) info += ' <span style="color:#999">[' + (d.type || '') + ']</span>';
+      info += '<br>' + (d.itemIds ? d.itemIds.length : d.count || 0) + ' 篇新闻';
+      tooltip.innerHTML = info;
+    }).on('mousemove', function(event, d) {
+      var rect = container.getBoundingClientRect();
+      tooltip.style.left = (event.clientX - rect.left + 14) + 'px';
+      tooltip.style.top = (event.clientY - rect.top - 8) + 'px';
+    }).on('mouseout', function() {
+      tooltip.style.opacity = '0';
+    });
+
+    // Click → show news
+    node.on('click', function(event, d) {
+      event.stopPropagation();
+      var itemIds = d.itemIds || {};
+      var items = allItems.filter(function(it) { return itemIds[it.id]; });
+      items.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
+      showNewsPanel(d.id, items);
+    });
+
+    svg.on('click', function() {
+      document.getElementById('newsPanel').style.display = 'none';
+    });
+
+    // Labels
+    var label = g.append('g').selectAll('text')
+      .data(nodes).enter().append('text')
+      .text(function(d) { return d.id; })
+      .attr('class', 'node-label')
+      .attr('font-size', function(d) { return Math.max(9, Math.min(13, d.r * 0.45)); })
+      .attr('dy', '.35em');
+
+    // Simulation
+    var dist = isEntity ? 100 : 80;
+    var charge = isEntity ? -250 : -200;
+
+    var simulation = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id(function(d) { return d.id; }).distance(dist))
+      .force('charge', d3.forceManyBody().strength(charge))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(function(d) { return d.r + 4; }))
+      .on('tick', function() {
+        link
+          .attr('x1', function(d) { return d.source.x; })
+          .attr('y1', function(d) { return d.source.y; })
+          .attr('x2', function(d) { return d.target.x; })
+          .attr('y2', function(d) { return d.target.y; });
+
+        node.attr('transform', function(d) {
+          d.x = Math.max(d.r, Math.min(width - d.r, d.x));
+          d.y = Math.max(d.r, Math.min(height - d.r, d.y));
+          return 'translate(' + d.x + ',' + d.y + ')';
+        });
+
+        label
+          .attr('x', function(d) { return d.x; })
+          .attr('y', function(d) { return d.y; });
+      });
+
+    // Auto-fit
+    setTimeout(function() {
+      var bounds = g.node().getBBox();
+      if (bounds.width > 0 && bounds.height > 0) {
+        var scale = Math.min(
+          (width - 60) / bounds.width,
+          (height - 60) / bounds.height,
+          1.5
+        );
+        svg.call(zoom.transform, d3.zoomIdentity
+          .translate(width / 2 - (bounds.x + bounds.width / 2) * scale, height / 2 - (bounds.y + bounds.height / 2) * scale)
+          .scale(scale)
+        );
+      }
+    }, 1500);
+  }
+
+  // News panel
+  function showNewsPanel(title, items) {
+    document.getElementById('panelTitle').textContent = esc(title) + ' — ' + items.length + ' 篇新闻';
+    document.getElementById('panelItems').innerHTML = items.slice(0, 30).map(function(item) {
+      var ttl = item.title_zh || item.title || '';
+      var ol = item.oneliner || '';
+      return '<div class="panel-item">' +
+        (item.score ? '<span class="panel-item-score">' + item.score + '</span>' : '') +
+        '<div>' +
+          '<div class="panel-item-title"><a href="' + esc(item.url) + '" target="_blank" rel="noopener">' + esc(ttl) + '</a></div>' +
+          (ol ? '<div class="panel-item-meta">' + esc(ol) + '</div>' : '') +
+          '<div class="panel-item-meta">' + esc(item.source) + ' &middot; ' + formatTime(item.published) + '</div>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+
+    var panel = document.getElementById('newsPanel');
+    panel.style.display = 'block';
+    panel.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  document.getElementById('panelClose').addEventListener('click', function() {
+    document.getElementById('newsPanel').style.display = 'none';
+  });
+
+  // Resize
+  window.addEventListener('resize', function() {
+    clearTimeout(window._resizeTimer);
+    window._resizeTimer = setTimeout(function() {
+      if (graphData) renderGraph();
+    }, 300);
+  });
+
+  loadAll();
+})();
+</script>
+</body>
+</html>
