@@ -49,41 +49,62 @@
     -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
   }
 
-  .container { max-width: 1100px; margin: 0 auto; padding: 20px 16px; }
-
-  /* Header */
-  .header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0 8px; }
-  .header h1 { font-size: 24px; font-weight: 500; letter-spacing: -0.5px; }
-  .header-right { display: flex; align-items: center; gap: 10px; }
-  .back-link { color: var(--text-secondary); text-decoration: none; font-size: 14px; font-weight: 500; transition: color .15s; }
-  .back-link:hover { color: var(--accent); }
+  /* Top Nav */
+  .top-nav {
+    position: sticky; top: 0; z-index: 20;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+  }
+  .top-nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+  .nav-bar { display: flex; align-items: center; justify-content: space-between; height: 56px; }
+  .nav-brand { display: flex; align-items: center; gap: 10px; }
+  .nav-brand h1 { font-size: 20px; font-weight: 500; letter-spacing: -0.5px; }
+  .nav-brand .brand-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); flex-shrink: 0; }
+  .nav-controls { display: flex; align-items: center; gap: 6px; }
+  .nav-link {
+    color: var(--text-secondary); text-decoration: none; font-size: 14px; font-weight: 500;
+    padding: 6px 12px; border-radius: var(--radius-md); transition: all .15s;
+  }
+  .nav-link:hover { color: var(--text); background: var(--card-elevated); }
   .theme-toggle {
-    width: 36px; height: 36px; border-radius: var(--radius-md); border: 1px solid var(--border);
-    background: var(--card-bg); cursor: pointer; font-size: 14px; font-weight: 500;
-    display: flex; align-items: center; justify-content: center; transition: background .15s;
+    width: 34px; height: 34px; border-radius: var(--radius-md); border: 1px solid var(--border);
+    background: var(--card-bg); cursor: pointer; font-size: 13px; font-weight: 500;
+    display: flex; align-items: center; justify-content: center; transition: all .15s;
     color: var(--text-secondary);
   }
-  .theme-toggle:hover { background: var(--card-elevated); }
+  .theme-toggle:hover { background: var(--card-elevated); border-color: var(--border-strong); }
 
   /* Tab bar */
-  .tab-bar { display: flex; gap: 4px; padding: 8px 0 16px; }
+  .tab-bar { display: flex; gap: 4px; padding: 8px 0 12px; }
   .tab-btn {
-    padding: 6px 18px; border-radius: var(--radius-md); border: 1px solid var(--border);
+    padding: 5px 16px; border-radius: var(--radius-md); border: 1px solid var(--border);
     background: var(--card-bg); color: var(--text-secondary); cursor: pointer;
-    font-size: 13px; font-weight: 500; transition: all .15s;
+    font-size: 12px; font-weight: 500; transition: all .15s;
   }
   .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .tab-btn:hover:not(.active) { background: var(--card-elevated); border-color: var(--border-strong); color: var(--text); }
 
+  /* Stats bar */
+  .stats-bar {
+    display: flex; gap: 16px; flex-wrap: wrap; font-size: 12px;
+    color: var(--text-secondary); padding-bottom: 8px;
+  }
+  .stats-bar strong { color: var(--text); }
+  .graph-hint { font-size: 11px; color: var(--text-muted); }
+
+  /* Explore layout — side-by-side */
+  .container { max-width: 1100px; margin: 0 auto; padding: 16px; }
+  .explore-layout { display: flex; gap: 16px; align-items: flex-start; }
+  .explore-main { flex: 1; min-width: 0; }
+
   /* Graph area */
   .graph-container {
     background: var(--card-bg); border-radius: var(--radius-xl); border: 1px solid var(--border);
-    position: relative; overflow: hidden; margin-bottom: 16px;
+    position: relative; overflow: hidden;
   }
   .graph-container svg { display: block; background: var(--bg); }
   .graph-legend {
-    position: absolute; top: 12px; left: 12px; font-size: 11px; color: var(--text-secondary);
-    background: rgba(24,24,24,0.92); backdrop-filter: blur(8px); padding: 10px 14px;
+    position: absolute; top: 10px; left: 10px; font-size: 11px; color: var(--text-secondary);
+    background: rgba(24,24,24,0.92); backdrop-filter: blur(8px); padding: 8px 12px;
     border-radius: var(--radius-md); border: 1px solid var(--border);
     pointer-events: none; line-height: 1.7;
   }
@@ -102,7 +123,7 @@
 
   /* Time slider */
   .time-slider-container {
-    display: none; align-items: center; gap: 10px; padding: 8px 0;
+    display: none; align-items: center; gap: 10px; padding: 8px 0 0;
     font-size: 12px; color: var(--text-secondary);
   }
   .time-slider-container.show { display: flex; }
@@ -116,95 +137,112 @@
   }
   .time-slider::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: var(--accent); cursor: pointer; border: none; }
 
-  /* News panel */
-  .news-panel {
-    background: var(--card-bg); border-radius: var(--radius-xl); padding: 20px;
-    border: 1px solid var(--border); display: none; margin-bottom: 16px;
+  /* Side panel */
+  .side-panel {
+    width: 340px; flex-shrink: 0;
+    background: var(--card-bg); border-radius: var(--radius-xl); border: 1px solid var(--border);
+    position: sticky; top: 80px; max-height: calc(100vh - 100px);
+    display: flex; flex-direction: column;
   }
-  .news-panel-header {
+  .side-panel-header {
     display: flex; justify-content: space-between; align-items: center;
-    margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid var(--border);
+    padding: 16px 16px 12px; border-bottom: 1px solid var(--border);
+    flex-shrink: 0;
   }
-  .news-panel-header h3 { font-size: 16px; font-weight: 600; }
-  .news-panel-close {
-    cursor: pointer; width: 28px; height: 28px; border-radius: var(--radius-md);
-    border: 1px solid var(--border); background: var(--card-bg); font-size: 14px;
+  .side-panel-header h3 { font-size: 14px; font-weight: 600; }
+  .side-panel-close {
+    cursor: pointer; width: 26px; height: 26px; border-radius: var(--radius-md);
+    border: 1px solid var(--border); background: var(--card-bg); font-size: 12px;
     display: flex; align-items: center; justify-content: center; color: var(--text-muted);
     transition: background .15s;
   }
-  .news-panel-close:hover { background: var(--card-elevated); }
+  .side-panel-close:hover { background: var(--card-elevated); }
+  .side-panel-body { overflow-y: auto; flex: 1; padding: 8px 16px 16px; }
+  .side-panel-placeholder {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; color: var(--text-muted); flex: 1; padding: 40px 20px;
+  }
+  .side-panel-placeholder .ph-icon { font-size: 36px; margin-bottom: 10px; opacity: .5; }
+  .side-panel-placeholder p { font-size: 13px; line-height: 1.5; }
   .panel-item {
     padding: 10px 0; border-bottom: 1px solid var(--border);
-    display: flex; align-items: flex-start; gap: 10px;
+    display: flex; align-items: flex-start; gap: 8px;
   }
   .panel-item:last-child { border-bottom: none; }
-  .panel-item-score { font-size: 12px; font-weight: 700; color: var(--fire); width: 24px; flex-shrink: 0; text-align: center; }
-  .panel-item-title { font-size: 13px; font-weight: 600; line-height: 1.3; }
+  .panel-item-score { font-size: 12px; font-weight: 700; color: var(--fire); width: 22px; flex-shrink: 0; text-align: center; }
+  .panel-item-title { font-size: 12px; font-weight: 600; line-height: 1.35; }
   .panel-item-title a { color: var(--text); text-decoration: none; }
   .panel-item-title a:hover { color: var(--accent); }
   .panel-item-meta { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
 
-  /* Stats bar */
-  .stats-bar {
-    display: flex; gap: 16px; flex-wrap: wrap; font-size: 13px;
-    color: var(--text-secondary); margin-bottom: 8px;
-  }
-  .stats-bar strong { color: var(--text); }
-
-  .graph-hint { font-size: 11px; color: var(--text-muted); }
   .skeleton { text-align: center; padding: 80px 20px; color: var(--text-muted); }
   .error-state { text-align: center; padding: 80px 20px; color: var(--text-muted); display: none; }
 
-  @media (max-width: 768px) {
-    .header h1 { font-size: 20px; }
+  @media (max-width: 860px) {
+    .explore-layout { flex-direction: column; }
+    .side-panel { width: 100%; position: static; max-height: none; }
+    .nav-brand h1 { font-size: 18px; }
+    .nav-bar { height: 48px; }
+    .tab-btn { padding: 5px 12px; font-size: 11px; }
     .graph-legend { font-size: 10px; padding: 4px 8px; }
     .panel-item { flex-direction: column; }
-    .tab-btn { padding: 6px 14px; font-size: 12px; }
   }
 </style>
 </head>
 <body>
 
+<nav class="top-nav">
+  <div class="top-nav-inner">
+    <div class="nav-bar">
+      <div class="nav-brand">
+        <span class="brand-dot"></span>
+        <h1>知识图谱</h1>
+      </div>
+      <div class="nav-controls">
+        <a href="index.html" class="nav-link">← 新闻列表</a>
+        <button class="theme-toggle" id="themeToggle" title="暗色模式">&#9728;</button>
+      </div>
+    </div>
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="tag">标签共现</button>
+      <button class="tab-btn" data-tab="entity">实体关系</button>
+    </div>
+    <div class="stats-bar" id="statsBar">
+      <span>节点: <strong id="nodeCount">—</strong></span>
+      <span>连线: <strong id="linkCount">—</strong></span>
+      <span>新闻: <strong id="itemCount">—</strong></span>
+      <span class="graph-hint">滚轮缩放 · 拖拽节点 · 点击节点查看</span>
+    </div>
+  </div>
+</nav>
+
 <div class="container">
-  <header class="header">
-    <h1>知识图谱</h1>
-    <div class="header-right">
-      <a href="index.html" class="back-link">← 新闻列表</a>
-      <button class="theme-toggle" id="themeToggle" title="暗色模式">&#9728;</button>
+  <div class="explore-layout">
+    <div class="explore-main">
+      <div class="graph-container" id="graphContainer">
+        <div class="graph-legend" id="graphLegend"></div>
+        <div class="graph-tooltip" id="graphTooltip"></div>
+        <div class="skeleton" id="graphLoading">加载中...</div>
+        <div class="error-state" id="graphError">数据加载失败</div>
+      </div>
+      <div class="time-slider-container" id="timeSliderContainer">
+        <span>时间范围: </span>
+        <input type="range" class="time-slider" id="timeSlider" min="1" max="7" value="7">
+        <span id="timeSliderLabel">最近 7 天</span>
+      </div>
     </div>
-  </header>
 
-  <div class="tab-bar">
-    <button class="tab-btn active" data-tab="tag">标签共现</button>
-    <button class="tab-btn" data-tab="entity">实体关系</button>
-  </div>
-
-  <div class="stats-bar" id="statsBar">
-    <span>节点: <strong id="nodeCount">—</strong></span>
-    <span>连线: <strong id="linkCount">—</strong></span>
-    <span>新闻: <strong id="itemCount">—</strong></span>
-    <span class="graph-hint">&#128269; 滚轮缩放 &middot; 拖拽节点 &middot; 点击节点查看新闻</span>
-  </div>
-
-  <div class="graph-container" id="graphContainer">
-    <div class="graph-legend" id="graphLegend"></div>
-    <div class="graph-tooltip" id="graphTooltip"></div>
-    <div class="skeleton" id="graphLoading">加载中...</div>
-    <div class="error-state" id="graphError">数据加载失败</div>
-  </div>
-
-  <div class="time-slider-container" id="timeSliderContainer">
-    <span>时间范围: </span>
-    <input type="range" class="time-slider" id="timeSlider" min="1" max="7" value="7">
-    <span id="timeSliderLabel">最近 7 天</span>
-  </div>
-
-  <div class="news-panel" id="newsPanel">
-    <div class="news-panel-header">
-      <h3 id="panelTitle"></h3>
-      <button class="news-panel-close" id="panelClose" title="关闭">&#10005;</button>
+    <div class="side-panel" id="newsPanel">
+      <div class="side-panel-placeholder" id="panelPlaceholder">
+        <div class="ph-icon">&#9729;</div>
+        <p>点击图中的节点<br>查看相关新闻</p>
+      </div>
+      <div class="side-panel-header" id="panelHeader" style="display:none;">
+        <h3 id="panelTitle"></h3>
+        <button class="side-panel-close" id="panelClose" title="关闭">&#10005;</button>
+      </div>
+      <div class="side-panel-body" id="panelItems"></div>
     </div>
-    <div id="panelItems"></div>
   </div>
 </div>
 
@@ -261,7 +299,7 @@
     btn.classList.add('active');
     currentTab = btn.dataset.tab;
     document.getElementById('timeSliderContainer').classList.toggle('show', currentTab === 'entity');
-    document.getElementById('newsPanel').style.display = 'none';
+    clearPanel();
     if (allItems.length > 0) {
       buildAndRender();
     }
@@ -623,7 +661,7 @@
     });
 
     svg.on('click', function() {
-      document.getElementById('newsPanel').style.display = 'none';
+      clearPanel();
     });
 
     // Labels
@@ -680,7 +718,7 @@
 
   // News panel
   function showNewsPanel(title, items) {
-    document.getElementById('panelTitle').textContent = esc(title) + ' — ' + items.length + ' 篇新闻';
+    document.getElementById('panelTitle').textContent = title + ' — ' + items.length + ' 篇';
     document.getElementById('panelItems').innerHTML = items.slice(0, 30).map(function(item) {
       var ttl = item.title_zh || item.title || '';
       var ol = item.oneliner || '';
@@ -694,14 +732,17 @@
       '</div>';
     }).join('');
 
-    var panel = document.getElementById('newsPanel');
-    panel.style.display = 'block';
-    panel.scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('panelPlaceholder').style.display = 'none';
+    document.getElementById('panelHeader').style.display = 'flex';
   }
 
-  document.getElementById('panelClose').addEventListener('click', function() {
-    document.getElementById('newsPanel').style.display = 'none';
-  });
+  function clearPanel() {
+    document.getElementById('panelItems').innerHTML = '';
+    document.getElementById('panelPlaceholder').style.display = 'flex';
+    document.getElementById('panelHeader').style.display = 'none';
+  }
+
+  document.getElementById('panelClose').addEventListener('click', clearPanel);
 
   // Resize
   window.addEventListener('resize', function() {
