@@ -107,6 +107,41 @@
   }
   .card-tag:hover { background: var(--accent); color: #fff; }
 
+  /* Favorites */
+  .card-fav-btn {
+    width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border);
+    background: var(--card-bg); cursor: pointer; font-size: 16px;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform .2s, background .2s; flex-shrink: 0;
+  }
+  .card-fav-btn:hover { transform: scale(1.15); }
+  .card-fav-btn.faved { background: #fef2f2; border-color: #fca5a5; }
+  .card-fav-btn.faved::after { content: '❤️'; font-size: 14px; }
+
+  /* Related section */
+  .related-section {
+    margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border);
+    font-size: 11px; color: var(--text-secondary);
+  }
+  .related-section .related-label { font-weight: 600; margin-bottom: 4px; }
+  .related-item {
+    display: inline-block; margin: 2px 6px 2px 0; padding: 2px 8px;
+    background: var(--tag-bg); border-radius: 10px; cursor: pointer;
+    transition: background .15s; font-size: 11px; max-width: 220px;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    vertical-align: middle;
+  }
+  .related-item:hover { background: var(--accent); color: #fff; }
+
+  /* Viewed indicator */
+  .news-card.viewed .card-title a { color: var(--text-secondary); }
+  .news-card.viewed .card-title a:visited { color: var(--text-secondary); }
+  .viewed-dot {
+    display: inline-block; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent); vertical-align: middle; margin-right: 4px;
+  }
+  .news-card:not(.viewed) .viewed-dot { background: var(--green); }
+
   /* Stats panel */
   .stats-toggle {
     padding: 6px 16px; border-radius: 20px; border: 1px solid var(--border);
@@ -165,11 +200,19 @@
 
   .footer { text-align: center; padding: 20px; font-size: 11px; color: var(--text-secondary); border-top: 1px solid var(--border); }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .header h1 { font-size: 20px; }
+    .header { padding: 12px 0 8px; }
     .stats-grid { grid-template-columns: 1fr; }
     .stat-bar-name { width: 60px; }
-    .filter-btn { padding: 4px 10px; font-size: 12px; }
+    .filter-btn { padding: 6px 12px; font-size: 12px; min-height: 36px; }
+    .filter-bar { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding-bottom: 4px; }
+    .filter-bar::-webkit-scrollbar { display: none; }
+    .search-box { min-width: 120px; min-height: 36px; }
+    .card-fav-btn { width: 44px; height: 44px; }
+    .card-title { font-size: 15px; }
+    .related-item { max-width: 160px; }
+    .stats-toggle, .sort-btn { min-height: 36px; display: flex; align-items: center; }
   }
 </style>
 </head>
@@ -201,6 +244,7 @@
     <button class="filter-btn" data-cat="research">学术</button>
     <button class="filter-btn" data-cat="funding">融资</button>
     <button class="filter-btn" data-cat="policy">政策</button>
+    <button class="filter-btn" data-cat="favorites">收藏</button>
     <input class="search-box" id="searchBox" type="text" placeholder="搜索..." />
     <button class="stats-toggle" id="statsToggle">统计</button>
   </div>
@@ -258,6 +302,50 @@
   const CAT_LABELS = { model:'模型发布', oss:'开源项目', product:'产品/API', research:'学术研究', funding:'融资收购', policy:'政策监管' };
   let allNews = [], zhMap = {}, statsData = null, weeklyData = null;
   let currentCat = 'all', searchQuery = '', currentSort = 'hot', currentLang = localStorage.getItem('ai-news-lang') || 'zh';
+
+  // Favorites
+  let favorites = {};
+  try { favorites = JSON.parse(localStorage.getItem('ai-news-favorites') || '{}'); } catch(e) { favorites = {}; }
+  function saveFavorites() { localStorage.setItem('ai-news-favorites', JSON.stringify(favorites)); }
+  function toggleFavorite(id, title, source) {
+    if (favorites[id]) {
+      delete favorites[id];
+    } else {
+      favorites[id] = { savedAt: Date.now(), title: title, source: source };
+    }
+    saveFavorites();
+    render();
+  }
+  function isFaved(id) { return !!favorites[id]; }
+
+  // View history
+  let viewed = {};
+  try { viewed = JSON.parse(localStorage.getItem('ai-news-viewed') || '{}'); } catch(e) { viewed = {}; }
+  function saveViewed() { localStorage.setItem('ai-news-viewed', JSON.stringify(viewed)); }
+  function markViewed(id) {
+    viewed[id] = Date.now();
+    saveViewed();
+  }
+
+  // Related recommendations
+  function getRelated(item, all, n) {
+    n = n || 5;
+    var itemTags = (item.tags || []).map(function(t){ return t.toLowerCase(); });
+    if (itemTags.length === 0) return [];
+    var scored = [];
+    for (var i = 0; i < all.length; i++) {
+      var other = all[i];
+      if (other.id === item.id) continue;
+      var otherTags = (other.tags || []).map(function(t){ return t.toLowerCase(); });
+      var shared = 0;
+      for (var j = 0; j < itemTags.length; j++) {
+        if (otherTags.indexOf(itemTags[j]) >= 0) shared++;
+      }
+      if (shared >= 2) scored.push({ item: other, shared: shared });
+    }
+    scored.sort(function(a, b){ return b.shared - a.shared; });
+    return scored.slice(0, n).map(function(s){ return s.item; });
+  }
 
   // Theme
   const themeToggle = document.getElementById('themeToggle');
@@ -413,7 +501,13 @@
   // Render
   function render() {
     let filtered = [...allNews];
-    if (currentCat !== 'all') filtered = filtered.filter(n => n.category === currentCat);
+    if (currentCat !== 'all') {
+      if (currentCat === 'favorites') {
+        filtered = filtered.filter(function(n) { return isFaved(n.id); });
+      } else {
+        filtered = filtered.filter(function(n) { return n.category === currentCat; });
+      }
+    }
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       filtered = filtered.filter(n =>
@@ -433,30 +527,72 @@
     }
     emptyEl.style.display = 'none'; listEl.style.display = 'block';
 
-    listEl.innerHTML = filtered.map(n => {
-      const title = t(n, 'title'), summary = t(n, 'summary');
-      const tags = (currentLang === 'zh' && zhMap[n.id] && zhMap[n.id].tags_zh) ? zhMap[n.id].tags_zh : (n.tags||[]);
-      return `<article class="news-card">
-        <div class="card-meta">
-          <span class="card-source">${esc(n.source)}</span>
-          ${n.score ? `<span class="card-score">&#128293; ${n.score}</span>` : ''}
-          ${n.category ? `<span style="font-size:10px;color:var(--text-secondary)">${CAT_LABELS[n.category]||n.category}</span>` : ''}
-          <span class="card-date">${formatTime(n.published)}</span>
-        </div>
-        <h2 class="card-title"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(title)}</a></h2>
-        ${summary ? `<p class="card-summary">${esc(summary)}</p>` : ''}
-        ${currentLang==='zh' && zhMap[n.id] && zhMap[n.id].oneliner ? `<p class="card-oneliner">&#128204; ${esc(zhMap[n.id].oneliner)}</p>` : ''}
-        ${tags.length ? `<div class="card-tags">${tags.map(tg => `<span class="card-tag" data-tag="${esc(tg)}">${esc(tg)}</span>`).join('')}</div>` : ''}
-      </article>`;
+    var relatedMap = {};
+    listEl.innerHTML = filtered.map(function(n) {
+      var title = t(n, 'title'), summary = t(n, 'summary');
+      var tags = (currentLang === 'zh' && zhMap[n.id] && zhMap[n.id].tags_zh) ? zhMap[n.id].tags_zh : (n.tags||[]);
+      var isV = !!viewed[n.id];
+      var faved = isFaved(n.id);
+      var related = getRelated(n, filtered, 3);
+      if (related.length > 0) relatedMap[n.id] = related;
+      return '<article class="news-card' + (isV ? ' viewed' : '') + '" data-id="' + esc(n.id) + '">' +
+        '<div class="card-meta">' +
+          '<span class="viewed-dot" title="' + (isV ? '已读' : '未读') + '"></span>' +
+          '<span class="card-source">' + esc(n.source) + '</span>' +
+          (n.score ? '<span class="card-score">&#128293; ' + n.score + '</span>' : '') +
+          (n.category ? '<span style="font-size:10px;color:var(--text-secondary)">' + (CAT_LABELS[n.category]||n.category) + '</span>' : '') +
+          '<span class="card-date">' + formatTime(n.published) + '</span>' +
+          '<button class="card-fav-btn' + (faved ? ' faved' : '') + '" data-favid="' + esc(n.id) + '" title="' + (faved ? '取消收藏' : '收藏') + '" style="margin-left:auto;"></button>' +
+        '</div>' +
+        '<h2 class="card-title"><a href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' + esc(title) + '</a></h2>' +
+        (summary ? '<p class="card-summary">' + esc(summary) + '</p>' : '') +
+        (currentLang==='zh' && zhMap[n.id] && zhMap[n.id].oneliner ? '<p class="card-oneliner">&#128204; ' + esc(zhMap[n.id].oneliner) + '</p>' : '') +
+        (tags.length ? '<div class="card-tags">' + tags.map(function(tg) { return '<span class="card-tag" data-tag="' + esc(tg) + '">' + esc(tg) + '</span>'; }).join('') + '</div>' : '') +
+        (relatedMap[n.id] ? '<div class="related-section"><span class="related-label">相关:</span> ' + relatedMap[n.id].map(function(r) { return '<span class="related-item" data-nav="' + esc(r.id) + '">' + esc(t(r, 'title')).substring(0, 40) + '</span>'; }).join('') + '</div>' : '') +
+      '</article>';
     }).join('');
 
     // Tag click → search
-    listEl.querySelectorAll('.card-tag').forEach(el => {
-      el.addEventListener('click', (e) => {
+    listEl.querySelectorAll('.card-tag').forEach(function(el) {
+      el.addEventListener('click', function(e) {
         e.stopPropagation();
         document.getElementById('searchBox').value = el.dataset.tag;
         searchQuery = el.dataset.tag;
         render();
+      });
+    });
+
+    // Favorite button click
+    listEl.querySelectorAll('.card-fav-btn').forEach(function(el) {
+      el.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var id = el.dataset.favid;
+        var card = el.closest('.news-card');
+        var titleEl = card ? card.querySelector('.card-title a') : null;
+        var sourceEl = card ? card.querySelector('.card-source') : null;
+        var ttl = titleEl ? titleEl.textContent : '';
+        var src = sourceEl ? sourceEl.textContent : '';
+        toggleFavorite(id, ttl, src);
+      });
+    });
+
+    // Link click → mark viewed
+    listEl.querySelectorAll('.card-title a[data-linkid]').forEach(function(el) {
+      el.addEventListener('click', function() {
+        markViewed(el.dataset.linkid);
+      });
+    });
+
+    // Related item click → scroll to card
+    listEl.querySelectorAll('.related-item').forEach(function(el) {
+      el.addEventListener('click', function(e) {
+        e.stopPropagation();
+        var target = document.querySelector('.news-card[data-id="' + el.dataset.nav + '"]');
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          target.style.boxShadow = '0 0 0 3px var(--accent)';
+          setTimeout(function() { target.style.boxShadow = ''; }, 2000);
+        }
       });
     });
   }
