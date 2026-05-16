@@ -2,9 +2,10 @@ name: Collect AI News
 
 on:
   schedule:
-    - cron: '17 0 * * *'    # UTC 0:17 (北京时间 ~8:17)
-    - cron: '17 8 * * *'    # UTC 8:17 (北京时间 ~16:17)
-    - cron: '17 16 * * *'   # UTC 16:17 (北京时间 ~0:17)
+    - cron: '0 0 * * *'     # UTC 0:00 (北京时间 8:00)
+    - cron: '0 0 * * 1'     # Weekly: Monday UTC 0:00 (outline+script)
+    - cron: '0 8 * * *'     # UTC 8:00 (北京时间 16:00)
+    - cron: '0 16 * * *'    # UTC 16:00 (北京时间 24:00)
   workflow_dispatch:
 
 jobs:
@@ -59,13 +60,13 @@ jobs:
         run: python scripts/briefing.py
 
       - name: Generate topic outline (weekly)
-        if: github.event.schedule == '17 0 * * *'
+        if: github.event.schedule == '0 0 * * 1'
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: python scripts/outline.py
 
       - name: Generate video script (weekly)
-        if: github.event.schedule == '17 0 * * *'
+        if: github.event.schedule == '0 0 * * 1'
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: python scripts/script.py
