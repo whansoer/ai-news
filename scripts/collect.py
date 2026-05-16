@@ -20,15 +20,15 @@ REQUEST_TIMEOUT = 15
 # RSS 源配置
 # ============================================================
 RSS_FEEDS = [
-    {"url": "https://huggingface.co/blog/feed.xml", "source": "Hugging Face", "category": "tools"},
-    {"url": "https://openai.com/blog/rss.xml", "source": "OpenAI", "category": "industry"},
-    {"url": "https://www.anthropic.com/feed.xml", "source": "Anthropic", "category": "industry"},
-    {"url": "https://blog.google/technology/ai/rss/", "source": "Google AI", "category": "industry"},
-    {"url": "https://rss.arxiv.org/rss/cs.AI", "source": "ArXiv (cs.AI)", "category": "academic"},
-    {"url": "https://rss.arxiv.org/rss/cs.CL", "source": "ArXiv (cs.CL)", "category": "academic"},
-    {"url": "https://www.artificialintelligence-news.com/feed/", "source": "AI News", "category": "industry"},
-    {"url": "https://www.marktechpost.com/feed/", "source": "MarkTechPost", "category": "tools"},
-    {"url": "https://syncedreview.com/feed/", "source": "Synced", "category": "academic"},
+    {"url": "https://huggingface.co/blog/feed.xml", "source": "Hugging Face", "category": "oss"},
+    {"url": "https://openai.com/blog/rss.xml", "source": "OpenAI", "category": "model"},
+    {"url": "https://www.anthropic.com/feed.xml", "source": "Anthropic", "category": "model"},
+    {"url": "https://blog.google/technology/ai/rss/", "source": "Google AI", "category": "model"},
+    {"url": "https://rss.arxiv.org/rss/cs.AI", "source": "ArXiv (cs.AI)", "category": "research"},
+    {"url": "https://rss.arxiv.org/rss/cs.CL", "source": "ArXiv (cs.CL)", "category": "research"},
+    {"url": "https://www.artificialintelligence-news.com/feed/", "source": "AI News", "category": "product"},
+    {"url": "https://www.marktechpost.com/feed/", "source": "MarkTechPost", "category": "research"},
+    {"url": "https://syncedreview.com/feed/", "source": "Synced", "category": "research"},
 ]
 
 # ============================================================
@@ -148,7 +148,7 @@ def fetch_newsapi():
                     "title": title,
                     "url": article.get("url", ""),
                     "source": article.get("source", {}).get("name", "NewsAPI"),
-                    "category": "industry",
+                    "category": "product",
                     "summary": truncate(article.get("description", ""), 250),
                     "published": pub_dt.strftime("%Y-%m-%dT%H:%M:%SZ"),
                     "tags": _extract_tags(title),
@@ -192,7 +192,7 @@ def scrape_github_trending():
                     "title": name,
                     "url": link,
                     "source": "GitHub Trending",
-                    "category": "tools",
+                    "category": "oss",
                     "summary": truncate(desc, 250),
                     "published": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                     "tags": _extract_tags(name + " " + desc),

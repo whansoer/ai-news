@@ -30,13 +30,31 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: python scripts/collect.py
 
+      - name: Classify & score
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: python scripts/classify.py
+
       - name: Translate to Chinese
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: python scripts/translate.py
 
+      - name: Summarize articles
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: python scripts/summarize.py
+
+      - name: Generate stats
+        run: python scripts/stats.py
+
+      - name: Generate weekly digest
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: python scripts/weekly.py
+
       - name: Commit updated news
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update ai news [skip ci]"
-          file_pattern: data/news.json data/news_zh.json
+          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json

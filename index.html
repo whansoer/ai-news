@@ -8,156 +8,168 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --bg: #f5f5f5;
-    --card-bg: #fff;
-    --text: #1a1a1a;
-    --text-secondary: #666;
-    --border: #e5e5e5;
-    --accent: #2563eb;
-    --accent-light: #dbeafe;
-    --tag-bg: #f0f0f0;
-    --shadow: 0 1px 3px rgba(0,0,0,.08);
-    --skeleton: #e8e8e8;
+    --bg: #f5f5f5; --card-bg: #fff; --text: #1a1a1a; --text-secondary: #666;
+    --border: #e5e5e5; --accent: #2563eb; --accent-light: #dbeafe;
+    --tag-bg: #f0f0f0; --shadow: 0 1px 3px rgba(0,0,0,.08); --skeleton: #e8e8e8;
+    --fire: #f59e0b; --green: #10b981; --purple: #8b5cf6; --red: #ef4444;
   }
 
   [data-theme="dark"] {
-    --bg: #111827;
-    --card-bg: #1f2937;
-    --text: #f3f4f6;
-    --text-secondary: #9ca3af;
-    --border: #374151;
-    --accent: #60a5fa;
-    --accent-light: #1e3a5f;
-    --tag-bg: #374151;
-    --shadow: 0 1px 3px rgba(0,0,0,.3);
-    --skeleton: #374151;
+    --bg: #111827; --card-bg: #1f2937; --text: #f3f4f6; --text-secondary: #9ca3af;
+    --border: #374151; --accent: #60a5fa; --accent-light: #1e3a5f;
+    --tag-bg: #374151; --shadow: 0 1px 3px rgba(0,0,0,.3); --skeleton: #374151;
   }
 
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    min-height: 100vh;
-    transition: background .3s, color .3s;
+    background: var(--bg); color: var(--text); min-height: 100vh; transition: background .3s, color .3s;
   }
 
-  .container { max-width: 800px; margin: 0 auto; padding: 20px 16px; }
+  .container { max-width: 860px; margin: 0 auto; padding: 20px 16px; }
 
   /* Header */
-  .header {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 24px 0 16px; position: sticky; top: 0; background: var(--bg); z-index: 10;
-  }
+  .header { display: flex; justify-content: space-between; align-items: center; padding: 20px 0 12px; position: sticky; top: 0; background: var(--bg); z-index: 10; }
   .header h1 { font-size: 24px; font-weight: 700; }
-  .header-right { display: flex; align-items: center; gap: 12px; }
+  .header-right { display: flex; align-items: center; gap: 10px; }
   .update-time { font-size: 12px; color: var(--text-secondary); }
-  .theme-toggle {
-    width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--border);
-    background: var(--card-bg); cursor: pointer; font-size: 20px;
+  .theme-toggle, .lang-toggle {
+    width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border);
+    background: var(--card-bg); cursor: pointer; font-size: 14px; font-weight: 600;
     display: flex; align-items: center; justify-content: center; transition: transform .2s;
+    color: var(--text-secondary);
   }
-  .theme-toggle:hover { transform: scale(1.1); }
-
-  .lang-toggle {
-    padding: 6px 12px; border-radius: 20px; border: 1px solid var(--border);
-    background: var(--card-bg); cursor: pointer; font-size: 13px; font-weight: 600;
-    color: var(--text-secondary); transition: all .2s; white-space: nowrap;
-  }
-  .lang-toggle:hover { border-color: var(--accent); color: var(--accent); }
+  .theme-toggle:hover, .lang-toggle:hover { transform: scale(1.1); }
   .lang-toggle.active-lang { background: var(--accent); color: #fff; border-color: var(--accent); }
 
-  /* Filter bar */
-  .filter-bar {
-    display: flex; gap: 8px; padding: 12px 0; flex-wrap: wrap;
-    position: sticky; top: 88px; background: var(--bg); z-index: 9;
+  /* Weekly banner */
+  .weekly-banner {
+    background: linear-gradient(135deg, #1e40af, #3b82f6); color: #fff; border-radius: 12px;
+    padding: 16px 20px; margin-bottom: 16px; cursor: pointer; transition: transform .15s;
+    display: none;
   }
+  .weekly-banner:hover { transform: translateY(-1px); }
+  .weekly-banner h3 { font-size: 15px; margin-bottom: 6px; }
+  .weekly-banner p { font-size: 13px; opacity: .9; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+  /* Filter bar */
+  .filter-bar { display: flex; gap: 6px; padding: 8px 0; flex-wrap: wrap; position: sticky; top: 76px; background: var(--bg); z-index: 9; }
   .filter-btn {
-    padding: 6px 16px; border-radius: 20px; border: 1px solid var(--border);
+    padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border);
     background: var(--card-bg); color: var(--text-secondary); cursor: pointer;
-    font-size: 14px; transition: all .2s; white-space: nowrap;
+    font-size: 13px; transition: all .2s; white-space: nowrap;
   }
   .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
   .filter-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
-
   .search-box {
-    flex: 1; min-width: 160px; padding: 6px 16px; border-radius: 20px;
+    flex: 1; min-width: 140px; padding: 5px 14px; border-radius: 20px;
     border: 1px solid var(--border); background: var(--card-bg); color: var(--text);
-    font-size: 14px; outline: none; transition: border-color .2s;
+    font-size: 13px; outline: none; transition: border-color .2s;
   }
   .search-box:focus { border-color: var(--accent); }
   .search-box::placeholder { color: var(--text-secondary); }
 
-  /* Skeleton */
-  .skeleton-card {
-    background: var(--card-bg); border-radius: 12px; padding: 20px; margin-bottom: 12px;
-    box-shadow: var(--shadow);
-  }
-  .skeleton-line { height: 14px; background: var(--skeleton); border-radius: 7px; margin-bottom: 10px; }
-  .skeleton-line:first-child { width: 70%; height: 18px; }
-  .skeleton-line:nth-child(2) { width: 50%; }
-  .skeleton-line:last-child { width: 90%; height: 12px; margin-bottom: 0; }
+  /* Sort bar */
+  .sort-bar { display: flex; align-items: center; gap: 12px; padding: 8px 0 4px; font-size: 13px; color: var(--text-secondary); }
+  .sort-btn { cursor: pointer; color: var(--accent); font-weight: 600; }
+  .sort-btn:not(.active-sort) { color: var(--text-secondary); font-weight: 400; }
 
   /* News card */
-  .news-list { padding-bottom: 40px; }
+  .news-list { padding-bottom: 20px; }
   .news-card {
-    background: var(--card-bg); border-radius: 12px; padding: 20px;
-    margin-bottom: 12px; box-shadow: var(--shadow); transition: transform .15s, box-shadow .15s;
+    background: var(--card-bg); border-radius: 12px; padding: 18px;
+    margin-bottom: 10px; box-shadow: var(--shadow); transition: transform .15s, box-shadow .15s;
   }
   .news-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,.12); }
 
-  .card-meta { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+  .card-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
   .card-source {
-    font-size: 12px; font-weight: 600; color: var(--accent);
-    background: var(--accent-light); padding: 2px 10px; border-radius: 10px;
+    font-size: 11px; font-weight: 600; color: var(--accent);
+    background: var(--accent-light); padding: 2px 8px; border-radius: 10px;
   }
-  .card-date { font-size: 12px; color: var(--text-secondary); }
+  .card-score { font-size: 11px; font-weight: 700; color: var(--fire); }
+  .card-date { font-size: 11px; color: var(--text-secondary); }
 
-  .card-title {
-    font-size: 17px; font-weight: 600; line-height: 1.4; margin-bottom: 8px;
-  }
+  .card-title { font-size: 16px; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
   .card-title a { color: var(--text); text-decoration: none; }
   .card-title a:hover { color: var(--accent); }
 
-  .card-summary { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 10px; }
-
-  .card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .card-summary { font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 6px; }
+  .card-oneliner {
+    font-size: 13px; color: var(--accent); line-height: 1.4; margin-bottom: 6px;
+    padding: 6px 10px; background: var(--accent-light); border-radius: 6px;
+    border-left: 3px solid var(--accent);
+  }
+  .card-tags { display: flex; gap: 4px; flex-wrap: wrap; }
   .card-tag {
-    font-size: 11px; padding: 2px 8px; border-radius: 8px;
-    background: var(--tag-bg); color: var(--text-secondary);
+    font-size: 10px; padding: 2px 8px; border-radius: 8px;
+    background: var(--tag-bg); color: var(--text-secondary); cursor: pointer;
+    transition: background .15s;
+  }
+  .card-tag:hover { background: var(--accent); color: #fff; }
+
+  /* Stats panel */
+  .stats-toggle {
+    padding: 6px 16px; border-radius: 20px; border: 1px solid var(--border);
+    background: var(--card-bg); color: var(--text-secondary); cursor: pointer;
+    font-size: 13px; white-space: nowrap; transition: all .2s;
+  }
+  .stats-toggle:hover { border-color: var(--accent); color: var(--accent); }
+  .stats-panel {
+    display: none; background: var(--card-bg); border-radius: 12px; padding: 20px;
+    margin-bottom: 16px; box-shadow: var(--shadow);
+  }
+  .stats-panel.open { display: block; }
+  .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .stats-section h4 { font-size: 14px; margin-bottom: 10px; color: var(--text); }
+  .stat-bar {
+    display: flex; align-items: center; gap: 8px; margin-bottom: 4px; font-size: 12px;
+  }
+  .stat-bar-name { width: 80px; text-align: right; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex-shrink: 0; }
+  .stat-bar-track { flex: 1; height: 8px; background: var(--skeleton); border-radius: 4px; overflow: hidden; }
+  .stat-bar-fill { height: 100%; background: var(--accent); border-radius: 4px; transition: width .5s; }
+  .stat-bar-count { width: 32px; font-size: 11px; color: var(--text-secondary); flex-shrink: 0; }
+
+  .tag-cloud { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag-cloud-item {
+    font-size: 12px; padding: 3px 10px; border-radius: 12px;
+    background: var(--tag-bg); color: var(--text-secondary); cursor: pointer; transition: all .15s;
+  }
+  .tag-cloud-item:hover { background: var(--accent); color: #fff; }
+
+  .daily-chart { display: flex; align-items: flex-end; gap: 4px; height: 80px; }
+  .daily-bar { flex: 1; background: var(--accent); border-radius: 3px 3px 0 0; transition: height .5s; min-width: 12px; position: relative; }
+  .daily-bar-label { position: absolute; bottom: -18px; left: 50%; transform: translateX(-50%); font-size: 10px; color: var(--text-secondary); }
+  .daily-bar-count { position: absolute; top: -16px; left: 50%; transform: translateX(-50%); font-size: 10px; color: var(--text-secondary); }
+
+  /* Top 10 */
+  .top10-list { list-style: none; }
+  .top10-item { display: flex; align-items: flex-start; gap: 8px; padding: 4px 0; font-size: 13px; border-bottom: 1px solid var(--border); }
+  .top10-item:last-child { border-bottom: none; }
+  .top10-rank { font-weight: 700; color: var(--fire); width: 20px; flex-shrink: 0; }
+  .top10-title { flex: 1; }
+  .top10-score { font-size: 11px; color: var(--text-secondary); flex-shrink: 0; }
+
+  /* Skeleton */
+  .skeleton-card { background: var(--card-bg); border-radius: 12px; padding: 20px; margin-bottom: 10px; box-shadow: var(--shadow); }
+  .skeleton-line { height: 12px; background: var(--skeleton); border-radius: 6px; margin-bottom: 8px; }
+  .skeleton-line:first-child { width: 60%; height: 16px; }
+  .skeleton-line:nth-child(2) { width: 40%; }
+  .skeleton-line:last-child { width: 80%; margin-bottom: 0; }
+
+  .empty-state, .error-state { text-align: center; padding: 80px 20px; color: var(--text-secondary); }
+  .empty-state .icon, .error-state .icon { font-size: 48px; margin-bottom: 12px; }
+  .retry-btn {
+    margin-top: 12px; padding: 8px 20px; border-radius: 20px;
+    background: var(--accent); color: #fff; border: none; cursor: pointer; font-size: 13px;
   }
 
-  .category-dot {
-    display: inline-block; width: 6px; height: 6px; border-radius: 50%; margin-right: 4px;
-    vertical-align: middle;
-  }
-  .cat-industry { background: #3b82f6; }
-  .cat-tools { background: #10b981; }
-  .cat-academic { background: #8b5cf6; }
+  .footer { text-align: center; padding: 20px; font-size: 11px; color: var(--text-secondary); border-top: 1px solid var(--border); }
 
-  /* Empty state */
-  .empty-state { text-align: center; padding: 80px 20px; color: var(--text-secondary); }
-  .empty-state .icon { font-size: 48px; margin-bottom: 16px; }
-
-  /* Error state */
-  .error-state { text-align: center; padding: 80px 20px; }
-  .error-state .icon { font-size: 48px; margin-bottom: 12px; }
-  .error-state .retry-btn {
-    margin-top: 16px; padding: 8px 24px; border-radius: 20px;
-    background: var(--accent); color: #fff; border: none; cursor: pointer; font-size: 14px;
-  }
-
-  /* Footer */
-  .footer {
-    text-align: center; padding: 24px; font-size: 12px; color: var(--text-secondary);
-    border-top: 1px solid var(--border);
-  }
-
-  /* Responsive */
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     .header h1 { font-size: 20px; }
-    .filter-bar { gap: 6px; }
-    .filter-btn { padding: 5px 12px; font-size: 13px; }
-    .card-title { font-size: 16px; }
+    .stats-grid { grid-template-columns: 1fr; }
+    .stat-bar-name { width: 60px; }
+    .filter-btn { padding: 4px 10px; font-size: 12px; }
   }
 </style>
 </head>
@@ -170,223 +182,291 @@
       <span class="update-time" id="updateTime"></span>
       <button class="lang-toggle active-lang" id="langZh">中</button>
       <button class="lang-toggle" id="langEn">EN</button>
-      <button class="theme-toggle" id="themeToggle" title="切换暗色模式" aria-label="切换暗色模式">&#9728;</button>
+      <button class="theme-toggle" id="themeToggle" title="暗色模式">&#9728;</button>
     </div>
   </header>
 
+  <!-- Weekly banner -->
+  <div class="weekly-banner" id="weeklyBanner" onclick="toggleWeekly()">
+    <h3 id="weeklyTitle"></h3>
+    <p id="weeklySummary"></p>
+  </div>
+
+  <!-- Filter bar -->
   <div class="filter-bar">
     <button class="filter-btn active" data-cat="all">全部</button>
-    <button class="filter-btn" data-cat="industry">&#9679; 行业</button>
-    <button class="filter-btn" data-cat="tools">&#9679; 工具</button>
-    <button class="filter-btn" data-cat="academic">&#9679; 学术</button>
-    <input class="search-box" id="searchBox" type="text" placeholder="搜索新闻..." />
+    <button class="filter-btn" data-cat="model">模型</button>
+    <button class="filter-btn" data-cat="oss">开源</button>
+    <button class="filter-btn" data-cat="product">产品</button>
+    <button class="filter-btn" data-cat="research">学术</button>
+    <button class="filter-btn" data-cat="funding">融资</button>
+    <button class="filter-btn" data-cat="policy">政策</button>
+    <input class="search-box" id="searchBox" type="text" placeholder="搜索..." />
+    <button class="stats-toggle" id="statsToggle">统计</button>
+  </div>
+
+  <!-- Sort bar -->
+  <div class="sort-bar">
+    <span>排序：</span>
+    <span class="sort-btn active-sort" data-sort="hot" id="sortHot">最热</span>
+    <span>|</span>
+    <span class="sort-btn" data-sort="new" id="sortNew">最新</span>
+    <span style="margin-left:auto;" id="resultCount"></span>
+  </div>
+
+  <!-- Stats panel -->
+  <div class="stats-panel" id="statsPanel">
+    <div class="stats-grid">
+      <div class="stats-section">
+        <h4>来源分布</h4>
+        <div id="statsSources"></div>
+      </div>
+      <div class="stats-section">
+        <h4>分类分布</h4>
+        <div id="statsCats"></div>
+      </div>
+      <div class="stats-section">
+        <h4>热门标签</h4>
+        <div class="tag-cloud" id="statsTags"></div>
+      </div>
+      <div class="stats-section">
+        <h4>每日趋势（7天）</h4>
+        <div class="daily-chart" id="statsDaily"></div>
+      </div>
+    </div>
+    <div style="margin-top:16px;">
+      <h4 style="font-size:14px;margin-bottom:8px;">热度 Top 10</h4>
+      <ul class="top10-list" id="statsTop10"></ul>
+    </div>
   </div>
 
   <div id="skeletonContainer"></div>
   <div class="news-list" id="newsList" style="display:none;"></div>
   <div class="empty-state" id="emptyState" style="display:none;">
-    <div class="icon">&#128240;</div>
-    <p>暂无新闻</p>
-    <p style="font-size:13px;margin-top:4px;">请稍后再来查看</p>
+    <div class="icon">&#128240;</div><p>暂无新闻</p>
   </div>
   <div class="error-state" id="errorState" style="display:none;">
-    <div class="icon">&#9888;</div>
-    <p>加载失败</p>
-    <button class="retry-btn" onclick="loadNews()">重试</button>
+    <div class="icon">&#9888;</div><p>加载失败</p>
+    <button class="retry-btn" onclick="loadAll()">重试</button>
   </div>
 
-  <footer class="footer">
-    <span id="totalCount"></span> 条新闻 &middot; 每 8 小时自动更新 &middot; powered by GitHub Actions
-  </footer>
+  <footer class="footer"><span id="totalCount"></span> 条新闻 &middot; 每8小时更新 &middot; powered by GitHub Actions</footer>
 </div>
 
 <script>
 (function () {
-  const CATEGORY_LABELS = { industry: '行业', tools: '工具', academic: '学术' };
-  const CATEGORY_COLORS = { industry: 'cat-industry', tools: 'cat-tools', academic: 'cat-academic' };
-  let allNews = [];
-  let zhMap = {};       // id → {title_zh, summary_zh, tags_zh}
-  let currentCat = 'all';
-  let searchQuery = '';
-  let currentLang = localStorage.getItem('ai-news-lang') || 'zh';
+  const CAT_LABELS = { model:'模型发布', oss:'开源项目', product:'产品/API', research:'学术研究', funding:'融资收购', policy:'政策监管' };
+  let allNews = [], zhMap = {}, statsData = null, weeklyData = null;
+  let currentCat = 'all', searchQuery = '', currentSort = 'hot', currentLang = localStorage.getItem('ai-news-lang') || 'zh';
 
-  // ========== Theme ==========
+  // Theme
   const themeToggle = document.getElementById('themeToggle');
   const savedTheme = localStorage.getItem('ai-news-theme') || 'light';
   document.documentElement.setAttribute('data-theme', savedTheme);
   themeToggle.innerHTML = savedTheme === 'dark' ? '&#9789;' : '&#9728;';
-
   themeToggle.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
-    const next = current === 'dark' ? 'light' : 'dark';
+    const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
     document.documentElement.setAttribute('data-theme', next);
     themeToggle.innerHTML = next === 'dark' ? '&#9789;' : '&#9728;';
     localStorage.setItem('ai-news-theme', next);
   });
 
-  // ========== Language ==========
-  const langZh = document.getElementById('langZh');
-  const langEn = document.getElementById('langEn');
-
-  function setLangUI(lang) {
-    if (lang === 'zh') {
-      langZh.classList.add('active-lang');
-      langEn.classList.remove('active-lang');
-    } else {
-      langEn.classList.add('active-lang');
-      langZh.classList.remove('active-lang');
-    }
+  // Language
+  const langZh = document.getElementById('langZh'), langEn = document.getElementById('langEn');
+  function setLangUI(l) {
+    langZh.classList.toggle('active-lang', l === 'zh');
+    langEn.classList.toggle('active-lang', l === 'en');
   }
   setLangUI(currentLang);
+  langZh.addEventListener('click', () => { currentLang = 'zh'; localStorage.setItem('ai-news-lang', 'zh'); setLangUI('zh'); render(); });
+  langEn.addEventListener('click', () => { currentLang = 'en'; localStorage.setItem('ai-news-lang', 'en'); setLangUI('en'); render(); });
 
-  langZh.addEventListener('click', () => {
-    currentLang = 'zh';
-    localStorage.setItem('ai-news-lang', 'zh');
-    setLangUI('zh');
-    render();
-  });
-
-  langEn.addEventListener('click', () => {
-    currentLang = 'en';
-    localStorage.setItem('ai-news-lang', 'en');
-    setLangUI('en');
-    render();
-  });
-
-  // ========== Skeleton ==========
+  // Skeleton
   function showSkeleton() {
-    const el = document.getElementById('skeletonContainer');
-    el.innerHTML = Array.from({ length: 5 }, () =>
-      '<div class="skeleton-card">' +
-        '<div class="skeleton-line"></div>' +
-        '<div class="skeleton-line"></div>' +
-        '<div class="skeleton-line"></div>' +
-      '</div>'
+    document.getElementById('skeletonContainer').innerHTML = Array.from({ length: 5 }, () =>
+      '<div class="skeleton-card"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>'
     ).join('');
-    el.style.display = 'block';
+    document.getElementById('skeletonContainer').style.display = 'block';
     document.getElementById('newsList').style.display = 'none';
     document.getElementById('emptyState').style.display = 'none';
     document.getElementById('errorState').style.display = 'none';
   }
 
-  // ========== Load ==========
-  async function loadNews() {
+  // Load
+  async function loadAll() {
     showSkeleton();
     try {
-      const [respEn, respZh] = await Promise.all([
+      const [rEn, rZh, rStats, rWeekly] = await Promise.all([
         fetch('data/news.json'),
-        fetch('data/news_zh.json').catch(() => null)
+        fetch('data/news_zh.json').catch(() => null),
+        fetch('data/stats.json').catch(() => null),
+        fetch('data/weekly.json').catch(() => null),
       ]);
+      if (!rEn.ok) throw new Error('HTTP ' + rEn.status);
+      const dEn = await rEn.json();
+      allNews = dEn.items || [];
+      document.getElementById('updateTime').textContent = '更新 ' + formatTime(dEn.updated);
+      document.getElementById('totalCount').textContent = dEn.total || allNews.length;
 
-      if (!respEn.ok) throw new Error('HTTP ' + respEn.status);
-      const dataEn = await respEn.json();
-      allNews = dataEn.items || [];
-      document.getElementById('updateTime').textContent =
-        '更新 ' + formatTime(dataEn.updated);
-      document.getElementById('totalCount').textContent = dataEn.total || allNews.length;
-
-      if (respZh && respZh.ok) {
-        const dataZh = await respZh.json();
-        zhMap = {};
-        (dataZh.items || []).forEach(item => { zhMap[item.id] = item; });
-      }
+      if (rZh && rZh.ok) { const dZh = await rZh.json(); zhMap = {}; (dZh.items||[]).forEach(i => { zhMap[i.id] = i; }); }
+      if (rStats && rStats.ok) { statsData = await rStats.json(); }
+      if (rWeekly && rWeekly.ok) { weeklyData = await rWeekly.json(); }
 
       document.getElementById('skeletonContainer').style.display = 'none';
+      renderWeekly();
+      renderStats();
       render();
     } catch (e) {
-      console.error('加载新闻失败:', e);
+      console.error(e);
       document.getElementById('skeletonContainer').style.display = 'none';
       document.getElementById('newsList').style.display = 'none';
-      document.getElementById('emptyState').style.display = 'none';
       document.getElementById('errorState').style.display = 'block';
     }
   }
 
   function formatTime(isoStr) {
     if (!isoStr) return '';
-    const d = new Date(isoStr);
-    const now = new Date();
-    const diffMs = now - d;
-    const diffMin = Math.floor(diffMs / 60000);
+    const d = new Date(isoStr), now = new Date();
+    const diffMin = Math.floor((now - d) / 60000);
     if (diffMin < 1) return '刚刚';
     if (diffMin < 60) return diffMin + '分钟前';
     const diffHr = Math.floor(diffMin / 60);
     if (diffHr < 24) return diffHr + '小时前';
     const diffDay = Math.floor(diffHr / 24);
     if (diffDay < 7) return diffDay + '天前';
-    return d.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
+    return d.toLocaleDateString('zh-CN', { month:'short', day:'numeric' });
   }
 
   function t(n, field) {
     if (currentLang === 'en') return n[field] || '';
     const zh = zhMap[n.id];
-    const zhField = field + '_zh';
-    if (zh && zh[zhField]) return zh[zhField];
-    // 中文兜底：无翻译时显示英文原文
-    return n[field] || '';
+    return (zh && zh[field + '_zh']) ? zh[field + '_zh'] : (n[field] || '');
   }
 
-  // ========== Render ==========
+  // Weekly banner
+  function renderWeekly() {
+    const el = document.getElementById('weeklyBanner');
+    if (!weeklyData || !weeklyData.summary) { el.style.display = 'none'; return; }
+    el.style.display = 'block';
+    document.getElementById('weeklyTitle').textContent = weeklyData.title || 'AI 周报';
+    document.getElementById('weeklySummary').textContent = weeklyData.summary;
+  }
+
+  function toggleWeekly() {
+    if (!weeklyData) return;
+    const full = weeklyData.summary + '\n\n亮点：\n' + (weeklyData.highlights||[]).map((h,i) => (i+1)+'. '+h).join('\n');
+    alert(full);
+  }
+
+  // Stats
+  function renderStats() {
+    if (!statsData) return;
+    // Sources
+    const maxSrc = Math.max(1, ...(statsData.sources||[]).map(s=>s.count));
+    document.getElementById('statsSources').innerHTML = (statsData.sources||[]).slice(0,10).map(s => `
+      <div class="stat-bar">
+        <span class="stat-bar-name">${esc(s.name)}</span>
+        <span class="stat-bar-track"><span class="stat-bar-fill" style="width:${(s.count/maxSrc*100).toFixed(0)}%"></span></span>
+        <span class="stat-bar-count">${s.count}</span>
+      </div>
+    `).join('');
+
+    // Categories
+    const maxCat = Math.max(1, ...(statsData.categories||[]).map(c=>c.count));
+    document.getElementById('statsCats').innerHTML = (statsData.categories||[]).map(c => `
+      <div class="stat-bar">
+        <span class="stat-bar-name">${esc(c.name)}</span>
+        <span class="stat-bar-track"><span class="stat-bar-fill" style="width:${(c.count/maxCat*100).toFixed(0)}%"></span></span>
+        <span class="stat-bar-count">${c.count}</span>
+      </div>
+    `).join('');
+
+    // Tags
+    document.getElementById('statsTags').innerHTML = (statsData.tags||[]).slice(0,20).map(t =>
+      `<span class="tag-cloud-item">${esc(t.name)} ${t.count}</span>`
+    ).join('');
+
+    // Daily trend
+    const maxDay = Math.max(1, ...(statsData.dailyTrend||[]).map(d=>d.count));
+    document.getElementById('statsDaily').innerHTML = (statsData.dailyTrend||[]).map(d => `
+      <div class="daily-bar" style="height:${(d.count/maxDay*70+8).toFixed(0)}px">
+        <span class="daily-bar-count">${d.count}</span>
+        <span class="daily-bar-label">${d.date}</span>
+      </div>
+    `).join('');
+
+    // Top 10
+    document.getElementById('statsTop10').innerHTML = (statsData.top10||[]).map((item,i) => `
+      <li class="top10-item">
+        <span class="top10-rank">${i+1}</span>
+        <span class="top10-title">${esc(item.title)}</span>
+        <span class="top10-score">${item.score}分</span>
+      </li>
+    `).join('');
+  }
+
+  // Stats toggle
+  document.getElementById('statsToggle').addEventListener('click', () => {
+    document.getElementById('statsPanel').classList.toggle('open');
+  });
+
+  // Render
   function render() {
-    let filtered = allNews;
-
-    if (currentCat !== 'all') {
-      filtered = filtered.filter(n => n.category === currentCat);
-    }
-
+    let filtered = [...allNews];
+    if (currentCat !== 'all') filtered = filtered.filter(n => n.category === currentCat);
     if (searchQuery) {
       const q = searchQuery.toLowerCase();
       filtered = filtered.filter(n =>
-        n.title.toLowerCase().includes(q) ||
-        t(n, 'title').toLowerCase().includes(q) ||
-        (n.summary || '').toLowerCase().includes(q) ||
-        t(n, 'summary').toLowerCase().includes(q) ||
-        (n.tags || []).some(tag => tag.toLowerCase().includes(q))
+        n.title.toLowerCase().includes(q) || t(n,'title').toLowerCase().includes(q) ||
+        (n.summary||'').toLowerCase().includes(q) || t(n,'summary').toLowerCase().includes(q) ||
+        (n.tags||[]).some(tg => tg.toLowerCase().includes(q))
       );
     }
+    if (currentSort === 'hot') filtered.sort((a,b) => (b.score||0) - (a.score||0));
+    else filtered.sort((a,b) => (b.published||'').localeCompare(a.published||''));
 
-    const listEl = document.getElementById('newsList');
-    const emptyEl = document.getElementById('emptyState');
+    document.getElementById('resultCount').textContent = filtered.length + ' 条结果';
+    const listEl = document.getElementById('newsList'), emptyEl = document.getElementById('emptyState');
 
     if (filtered.length === 0) {
-      listEl.style.display = 'none';
-      emptyEl.style.display = 'block';
-      return;
+      listEl.style.display = 'none'; emptyEl.style.display = 'block'; return;
     }
+    emptyEl.style.display = 'none'; listEl.style.display = 'block';
 
-    emptyEl.style.display = 'none';
-    listEl.style.display = 'block';
     listEl.innerHTML = filtered.map(n => {
-      const title = t(n, 'title');
-      const summary = t(n, 'summary');
-      const tags = currentLang === 'zh' && zhMap[n.id] && zhMap[n.id].tags_zh
-        ? zhMap[n.id].tags_zh : (n.tags || []);
-      return `
-      <article class="news-card">
+      const title = t(n, 'title'), summary = t(n, 'summary');
+      const tags = (currentLang === 'zh' && zhMap[n.id] && zhMap[n.id].tags_zh) ? zhMap[n.id].tags_zh : (n.tags||[]);
+      return `<article class="news-card">
         <div class="card-meta">
           <span class="card-source">${esc(n.source)}</span>
-          ${n.category ? `<span style="font-size:11px;color:var(--text-secondary);">
-            <span class="category-dot ${CATEGORY_COLORS[n.category] || ''}"></span>${CATEGORY_LABELS[n.category] || n.category}
-          </span>` : ''}
+          ${n.score ? `<span class="card-score">&#128293; ${n.score}</span>` : ''}
+          ${n.category ? `<span style="font-size:10px;color:var(--text-secondary)">${CAT_LABELS[n.category]||n.category}</span>` : ''}
           <span class="card-date">${formatTime(n.published)}</span>
         </div>
-        <h2 class="card-title">
-          <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(title)}</a>
-        </h2>
+        <h2 class="card-title"><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(title)}</a></h2>
         ${summary ? `<p class="card-summary">${esc(summary)}</p>` : ''}
-        ${tags.length ? `
-          <div class="card-tags">${tags.map(t => `<span class="card-tag">${esc(t)}</span>`).join('')}</div>
-        ` : ''}
-      </article>
-    `}).join('');
+        ${currentLang==='zh' && zhMap[n.id] && zhMap[n.id].oneliner ? `<p class="card-oneliner">&#128204; ${esc(zhMap[n.id].oneliner)}</p>` : ''}
+        ${tags.length ? `<div class="card-tags">${tags.map(tg => `<span class="card-tag" data-tag="${esc(tg)}">${esc(tg)}</span>`).join('')}</div>` : ''}
+      </article>`;
+    }).join('');
+
+    // Tag click → search
+    listEl.querySelectorAll('.card-tag').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        document.getElementById('searchBox').value = el.dataset.tag;
+        searchQuery = el.dataset.tag;
+        render();
+      });
+    });
   }
 
   function esc(s) {
-    const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+    const map = {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'};
     return String(s).replace(/[&<>"']/g, c => map[c]);
   }
 
-  // ========== Filters ==========
+  // Filters
   document.querySelector('.filter-bar').addEventListener('click', e => {
     const btn = e.target.closest('.filter-btn');
     if (!btn) return;
@@ -401,8 +481,21 @@
     render();
   });
 
-  // ========== Init ==========
-  loadNews();
+  // Sort
+  document.getElementById('sortHot').addEventListener('click', () => {
+    currentSort = 'hot';
+    document.getElementById('sortHot').classList.add('active-sort');
+    document.getElementById('sortNew').classList.remove('active-sort');
+    render();
+  });
+  document.getElementById('sortNew').addEventListener('click', () => {
+    currentSort = 'new';
+    document.getElementById('sortNew').classList.add('active-sort');
+    document.getElementById('sortHot').classList.remove('active-sort');
+    render();
+  });
+
+  loadAll();
 })();
 </script>
 </body>
