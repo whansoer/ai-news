@@ -70,6 +70,7 @@ def main():
     prompt = "今日 Top AI 新闻：\n" + "\n".join(lines)
 
     # Cache: key = today + hash of top article IDs + scores
+    briefing = {}  # 确保变量始终定义
     cache = Cache("briefing")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     cache_key = cache.make_key(today, *(f'{it["id"]}:{it.get("score",0)}' for it in items))

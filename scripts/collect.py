@@ -21,7 +21,7 @@ REQUEST_TIMEOUT = 15
 RSS_FEEDS = [
     {"url": "https://huggingface.co/blog/feed.xml", "source": "Hugging Face", "category": "oss"},
     {"url": "https://openai.com/blog/rss.xml", "source": "OpenAI", "category": "model"},
-    {"url": "https://www.anthropic.com/feed.xml", "source": "Anthropic", "category": "model"},
+    {"url": "https://openrss.org/anthropic.com/news", "source": "Anthropic", "category": "model"},
     {"url": "https://blog.google/technology/ai/rss/", "source": "Google AI", "category": "model"},
     {"url": "https://rss.arxiv.org/rss/cs.AI", "source": "ArXiv (cs.AI)", "category": "research"},
     {"url": "https://rss.arxiv.org/rss/cs.CL", "source": "ArXiv (cs.CL)", "category": "research"},
@@ -238,34 +238,76 @@ def main():
     existing = load_existing()
     existing_ids = {(item["id"], item["title"].lower()[:80]) for item in existing}
 
+    # ── 分源采集，追踪每个源的健康状态 ──
+    source_report = {}  # source_name → {count, status}
     all_items = list(existing)
 
     # RSS 并行采集
     with ThreadPoolExecutor(max_workers=6) as pool:
         futures = {pool.submit(fetch_rss, f): f for f in RSS_FEEDS}
         for future in as_completed(futures):
-            all_items.extend(future.result())
+            feed = futures[future]
+            result = future.result()
+            all_items.extend(result)
+            source_report[feed["source"]] = {
+                "count": len(result),
+                "status": "ok" if result else "empty",
+                "type": "rss",
+            }
 
     # NewsAPI（串行，避免限流）
-    all_items.extend(fetch_newsapi())
+    newsapi_items = fetch_newsapi()
+    all_items.extend(newsapi_items)
+    source_report["NewsAPI"] = {
+        "count": len(newsapi_items),
+        "status": "ok" if newsapi_items else ("skipped" if not NEWSAPI_KEY else "empty"),
+        "type": "newsapi",
+    }
 
     # GitHub Trending（串行）
-    all_items.extend(scrape_github_trending())
+    gh_items = scrape_github_trending()
+    all_items.extend(gh_items)
+    source_report["GitHub Trending"] = {
+        "count": len(gh_items),
+        "status": "ok" if gh_items else "empty",
+        "type": "scraper",
+    }
 
-    # 合并去重排序
+    # ── 合并去重排序 ──
     final = merge_dedup_sort(all_items)
+
+    # ── 真正的新增检测（基于 ID，不看长度） ──
+    final_ids = {(item["id"], item["title"].lower()[:80]) for item in final}
+    new_ids = final_ids - existing_ids
+    dropped_ids = existing_ids - final_ids
+    new_count = len(new_ids)
+
+    # ── 源健康报告 ──
+    total_from_sources = sum(r["count"] for r in source_report.values())
+    active_sources = sum(1 for r in source_report.values() if r["status"] == "ok")
+    total_sources = len(source_report)
+    print(f"--- Source Health Report ---")
+    for name, rpt in sorted(source_report.items(), key=lambda x: -x[1]["count"]):
+        icon = "[OK]" if rpt["status"] == "ok" else ("[SKIP]" if rpt["status"] == "skipped" else "[FAIL]")
+        print(f"  {icon} {name}: {rpt['count']} items ({rpt['status']})")
+    print(f"Sources active: {active_sources}/{total_sources}, fetched: {total_from_sources} items, new: {new_count} items")
+    if new_count == 0 and total_from_sources == 0:
+        print("[WARN] All sources returned zero new data. Check network or API config.")
+    elif new_count == 0:
+        print("[WARN] Fetched data but all duplicates of existing news (sources may be stale or dedup too aggressive).")
+    print(f"----------------------------")
 
     output = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total": len(final),
+        "new_count": new_count,
         "items": final,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    new_count = len(final) - len(existing)
-    print(f"采集完成: {len(final)} 条新闻 (新增 {max(0, new_count)}) → {OUTPUT_FILE}")
+    print(f"采集完成: {len(final)} 条新闻 (新增 {new_count}) → {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
