@@ -92,7 +92,7 @@ body {
   background: var(--bg); border-bottom: 1px solid var(--border);
   backdrop-filter: blur(12px);
 }
-.top-nav-inner { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+.top-nav-inner { max-width: 1050px; margin: 0 auto; padding: 0 16px; }
 
 .nav-bar { display: flex; align-items: center; justify-content: space-between; height: 56px; }
 .nav-brand { display: flex; align-items: center; gap: 10px; }
@@ -175,7 +175,7 @@ body {
 .view.active { display: block; animation: fadeIn .2s ease-out; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
 
-.container { max-width: 960px; margin: 0 auto; padding: 0 16px; }
+.container { max-width: 1050px; margin: 0 auto; padding: 0 16px; }
 
 /* ============================================
    DASHBOARD VIEW
@@ -297,6 +297,60 @@ body {
 .stat-mini .mini-tag:hover { background: var(--accent); color: #000; }
 .stat-mini .mini-chart { display: flex; align-items: flex-end; gap: 3px; height: 52px; }
 .stat-mini .mini-chart-bar { flex: 1; border-radius: 2px 2px 0 0; min-width: 10px; }
+
+/* Donut chart */
+.donut-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-xl);
+  padding: 20px; position: relative; overflow: hidden;
+}
+.donut-card h4 {
+  font-size: 10px; font-weight: 600; color: var(--text-muted); margin-bottom: 14px;
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.donut-body { display: flex; align-items: center; gap: 28px; }
+.donut-svg-wrap { flex-shrink: 0; position: relative; }
+.donut-svg-wrap .donut-center {
+  position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  pointer-events: none;
+}
+.donut-center .donut-total { font-family: var(--font-mono); font-size: 24px; font-weight: 700; color: var(--text); }
+.donut-center .donut-label { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+.donut-legend { display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.donut-legend-item { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+.donut-legend-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+.donut-legend-name { flex: 1; color: var(--text-secondary); }
+.donut-legend-count { font-family: var(--font-mono); font-weight: 600; color: var(--text); font-size: 13px; }
+
+/* Stats row */
+.stats-row-dash { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 16px; }
+
+/* Highlights section */
+.highlights-section { margin-bottom: 16px; }
+.highlights-section h3 {
+  font-size: 12px; font-weight: 600; color: var(--text-muted); margin-bottom: 10px;
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.highlights-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+.highlight-card {
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  padding: 14px 16px; transition: border-color .15s;
+}
+.highlight-card:hover { border-color: var(--accent); }
+.highlight-card .highlight-source {
+  font-size: 10px; font-weight: 600; color: var(--accent); text-transform: uppercase;
+  letter-spacing: 0.06em; margin-bottom: 6px;
+}
+.highlight-card .highlight-text {
+  font-size: 12px; color: var(--text-secondary); line-height: 1.45;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+
+/* Hero oneliner enhanced */
+.hero-oneliner {
+  font-size: 12px; color: var(--accent); line-height: 1.45; margin-bottom: 6px;
+  padding: 8px 12px; background: rgba(var(--accent-rgb), 0.05); border-radius: var(--radius-sm);
+  border-left: 3px solid var(--accent);
+}
 
 /* Favorites preview */
 .fav-preview { margin-bottom: 16px; }
@@ -679,7 +733,10 @@ body {
   .nav-bar { height: 48px; }
   .nav-tab { padding: 5px 10px; font-size: 12px; }
   .hero-row { grid-template-columns: 1fr; }
-  .stats-grid-dash { grid-template-columns: repeat(2, 1fr); }
+  .donut-body { flex-direction: column; gap: 16px; }
+  .donut-svg-wrap { margin: 0 auto; }
+  .stats-row-dash { grid-template-columns: 1fr; }
+  .highlights-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: 1fr; }
   .stat-bar-name { width: 60px; }
   .filter-btn { padding: 5px 10px; font-size: 11px; min-height: 32px; }
@@ -764,11 +821,24 @@ body {
         <div class="briefing-tags" id="dashBriefingTags"></div>
       </div>
 
+      <!-- Key highlights -->
+      <div class="highlights-section" id="highlightsSection" style="display:none;">
+        <h3>今日关键看点</h3>
+        <div class="highlights-grid" id="highlightsGrid"></div>
+      </div>
+
       <!-- Hero cards -->
       <div class="hero-row" id="heroRow"></div>
 
-      <!-- Stats grid -->
-      <div class="stats-grid-dash" id="dashStatsGrid"></div>
+      <!-- Stats: donut chart + 3-column row -->
+      <div class="donut-card" id="donutCard" style="display:none;">
+        <h4>分类分布</h4>
+        <div class="donut-body">
+          <div class="donut-svg-wrap" id="donutSvgWrap"></div>
+          <div class="donut-legend" id="donutLegend"></div>
+        </div>
+      </div>
+      <div class="stats-row-dash" id="dashStatsRow"></div>
 
       <!-- Favorites preview -->
       <div class="fav-preview" id="favPreview" style="display:none;">
@@ -1180,12 +1250,12 @@ body {
     document.getElementById('heroRow').innerHTML = top3.map((n, i) => {
       const title = t(n, 'title'), summary = t(n, 'summary');
       const zh = zhMap[n.id] || {};
+      const oneliner = zh.oneliner || zh.summary_zh || summary;
       return '<article class="hero-card" data-id="' + esc(n.id) + '">' +
         '<div class="hero-rank">#' + (i + 1) + ' 头条</div>' +
         '<div class="hero-source">' + esc(n.source) + '</div>' +
         '<h2 class="hero-title"><a href="' + esc(n.url) + '" target="_blank" rel="noopener">' + esc(title) + '</a></h2>' +
-        (summary ? '<p class="hero-summary">' + esc(summary) + '</p>' : '') +
-        (zh.oneliner ? '<p class="hero-summary" style="color:var(--accent);">' + esc(zh.oneliner) + '</p>' : '') +
+        (oneliner ? '<p class="hero-oneliner">' + esc(oneliner) + '</p>' : '') +
         '<div class="hero-meta">' +
           (n.score ? '<span class="hero-score">' + n.score + '</span>' : '') +
           '<span>' + formatTime(n.published) + '</span>' +
@@ -1202,18 +1272,36 @@ body {
       });
     });
 
-    // Stats overview — 4-grid
+    // Key highlights
+    renderHighlights();
+
+    // Stats: donut chart + 3-column
     renderStatsOverview();
 
     // Favorites preview
     renderFavoritesPreview();
   }
 
+  function renderHighlights() {
+    const section = document.getElementById('highlightsSection');
+    if (allNews.length === 0) { section.style.display = 'none'; return; }
+    const top5 = [...allNews].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 5);
+    const items = top5.map(n => {
+      const zh = zhMap[n.id] || {};
+      const text = zh.oneliner || zh.summary_zh || t(n, 'summary') || t(n, 'title');
+      return { id: n.id, source: n.source, text: text };
+    }).filter(i => i.text);
+    if (items.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = 'block';
+    document.getElementById('highlightsGrid').innerHTML = items.map(i =>
+      '<div class="highlight-card">' +
+        '<div class="highlight-source">' + esc(i.source) + '</div>' +
+        '<div class="highlight-text">' + esc(i.text) + '</div>' +
+      '</div>'
+    ).join('');
+  }
+
   function renderStatsOverview() {
-    if (!statsData) {
-      document.getElementById('dashStatsGrid').innerHTML = '';
-      return;
-    }
     const catColors = {
       '模型发布':'#3b82f6','开源项目':'#00e676','产品/API':'#7b4dff',
       '学术研究':'#ff9100','融资收购':'#ff6d00','政策监管':'#ff4d4d',
@@ -1222,26 +1310,54 @@ body {
     };
     const srcPalette = ['#00c8ff','#7b4dff','#00e676','#ff9100','#ff4d4d','#3b82f6'];
 
-    // Categories
-    const maxCat = Math.max(1, ...(statsData.categories||[]).map(c=>c.count));
-    let catHTML = '<div class="stat-mini"><h4>分类分布</h4>';
-    (statsData.categories||[]).forEach(c => {
-      const color = catColors[c.name] || '#5a6a7a';
-      catHTML += '<div class="mini-bar">' +
-        '<span class="mini-bar-track"><span class="mini-bar-fill" style="width:' + (c.count/maxCat*100).toFixed(0) + '%;background:' + color + '"></span></span>' +
-        '<span class="mini-bar-count">' + c.count + '</span>' +
-      '</div>';
-    });
-    catHTML += '</div>';
+    // Donut chart for categories
+    const donutCard = document.getElementById('donutCard');
+    const categories = statsData ? (statsData.categories || []) : [];
+    if (categories.length === 0) {
+      donutCard.style.display = 'none';
+    } else {
+      donutCard.style.display = 'block';
+      const total = categories.reduce((s, c) => s + c.count, 0);
+      const r = 64, sw = 14, circ = 2 * Math.PI * r;
+      let offset = 0;
+      let arcs = '', legendHTML = '';
+      categories.forEach((c, i) => {
+        const color = catColors[c.name] || srcPalette[i % srcPalette.length];
+        const frac = c.count / total;
+        const dashLen = frac * circ;
+        arcs += '<circle cx="80" cy="80" r="' + r + '" fill="none" stroke="' + color + '" stroke-width="' + sw + '"'
+          + ' stroke-dasharray="' + dashLen.toFixed(2) + ' ' + (circ - dashLen).toFixed(2) + '"'
+          + ' stroke-dashoffset="' + (-offset).toFixed(2) + '"'
+          + ' stroke-linecap="round" transform="rotate(-90 80 80)"/>';
+        offset += dashLen;
+        legendHTML += '<div class="donut-legend-item">'
+          + '<span class="donut-legend-dot" style="background:' + color + '"></span>'
+          + '<span class="donut-legend-name">' + esc(c.name) + '</span>'
+          + '<span class="donut-legend-count">' + c.count + '</span>'
+          + '</div>';
+      });
+      document.getElementById('donutSvgWrap').innerHTML =
+        '<svg viewBox="0 0 160 160" width="160" height="160">'
+        + arcs
+        + '</svg>'
+        + '<div class="donut-center"><span class="donut-total">' + total + '</span><span class="donut-label">篇文章</span></div>';
+      document.getElementById('donutLegend').innerHTML = legendHTML;
+    }
+
+    // 3-column stats row: sources, tags, trend
+    if (!statsData) {
+      document.getElementById('dashStatsRow').innerHTML = '';
+      return;
+    }
 
     // Sources
     const maxSrc = Math.max(1, ...(statsData.sources||[]).map(s=>s.count));
     let srcHTML = '<div class="stat-mini"><h4>来源排行</h4>';
     (statsData.sources||[]).slice(0, 6).forEach((s, i) => {
-      srcHTML += '<div class="mini-bar">' +
-        '<span class="mini-bar-track"><span class="mini-bar-fill" style="width:' + (s.count/maxSrc*100).toFixed(0) + '%;background:' + srcPalette[i%6] + '"></span></span>' +
-        '<span class="mini-bar-count">' + s.count + '</span>' +
-      '</div>';
+      srcHTML += '<div class="mini-bar">'
+        + '<span class="mini-bar-track"><span class="mini-bar-fill" style="width:' + (s.count/maxSrc*100).toFixed(0) + '%;background:' + srcPalette[i%6] + '"></span></span>'
+        + '<span class="mini-bar-count">' + s.count + '</span>'
+        + '</div>';
     });
     srcHTML += '</div>';
 
@@ -1264,7 +1380,7 @@ body {
     });
     trendHTML += '</div></div>';
 
-    document.getElementById('dashStatsGrid').innerHTML = catHTML + srcHTML + tagHTML + trendHTML;
+    document.getElementById('dashStatsRow').innerHTML = srcHTML + tagHTML + trendHTML;
   }
 
   function renderFavoritesPreview() {
