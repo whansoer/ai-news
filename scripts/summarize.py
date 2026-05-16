@@ -17,12 +17,21 @@ MAX_ARTICLES = 20
 BATCH_SIZE = 5
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
-SYSTEM_PROMPT = """你是一个科技新闻编辑。用一句简洁的中文概括文章核心内容。
+SYSTEM_PROMPT = """你是一个科技新闻编辑。分析文章内容，输出严格JSON数组。
+
+对每篇文章输出：
+{
+  "id": "文章id",
+  "oneliner": "一句话概括，50-80个汉字，突出「谁做了什么 / 发布了什么 / 意味着什么」",
+  "key_facts": ["可引用的关键数据点", "..."],
+  "notable_quote": {"text": "原文金句", "zh": "中文翻译"}
+}
+
 规则：
-1. 严格一句话，50-80个汉字
-2. 突出「谁做了什么 / 发布了什么 / 意味着什么」
-3. 保留技术术语原名
-4. 输出严格JSON数组：[{"id":"...", "oneliner":"..."}]"""
+1. oneliner: 严格一句话，50-80个汉字
+2. key_facts: 提取 2-3 个可引用的关键数据点，如 "推理成本降低 40%，从 $0.03/1K → $0.018/1K"，每条20字以内
+3. notable_quote: 从原文中找一条最有价值的引述（作者观点/官方声明），同时给出中文翻译；如果原文没有值得引用的语句，text和zh都留空字符串
+4. 保留技术术语原名（如 GPT、Claude、LLM、RAG、Transformer 等），括号补充中文说明"""
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; AINewsBot/1.0; +https://github.com/whansoer/ai-news)"
@@ -95,7 +104,7 @@ def call_gemini(prompt, retries=2):
                 json={
                     "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
                     "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.4, "maxOutputTokens": 2048},
+                    "generationConfig": {"temperature": 0.4, "maxOutputTokens": 4096},
                 },
                 timeout=60,
             )
@@ -143,6 +152,8 @@ def main():
 
     # Step 2: 分批发 Gemini 总结
     oneliners = {}
+    key_facts_map = {}
+    quotes_map = {}
     valid = [a for a in articles if a["text"]]
     for i in range(0, len(valid), BATCH_SIZE):
         batch = valid[i: i + BATCH_SIZE]
@@ -152,7 +163,10 @@ def main():
         prompt = "\n---\n".join(parts)
         results = call_gemini(prompt)
         for r in results:
-            oneliners[r.get("id", "")] = r.get("oneliner", "")
+            rid = r.get("id", "")
+            oneliners[rid] = r.get("oneliner", "")
+            key_facts_map[rid] = r.get("key_facts", [])
+            quotes_map[rid] = r.get("notable_quote", {"text": "", "zh": ""})
         if i + BATCH_SIZE < len(valid):
             time.sleep(2)
 
@@ -160,8 +174,10 @@ def main():
     for item in items:
         oid = item["id"]
         if oid not in zh_map:
-            zh_map[oid] = {"id": oid, "title_zh": "", "summary_zh": "", "tags_zh": [], "oneliner": ""}
+            zh_map[oid] = {"id": oid, "title_zh": "", "summary_zh": "", "tags_zh": [], "oneliner": "", "key_facts": [], "notable_quote": {"text": "", "zh": ""}}
         zh_map[oid]["oneliner"] = oneliners.get(oid, "")
+        zh_map[oid]["key_facts"] = key_facts_map.get(oid, [])
+        zh_map[oid]["notable_quote"] = quotes_map.get(oid, {"text": "", "zh": ""})
 
     zh_items = [zh_map.get(item["id"], {"id": item["id"]}) for item in items]
 

@@ -53,6 +53,23 @@ jobs:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: python scripts/weekly.py
 
+      - name: Generate daily briefing
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: python scripts/briefing.py
+
+      - name: Generate topic outline (weekly)
+        if: github.event.schedule == '17 0 * * *'
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: python scripts/outline.py
+
+      - name: Generate video script (weekly)
+        if: github.event.schedule == '17 0 * * *'
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+        run: python scripts/script.py
+
       - name: Init favorites.json
         run: |
           if [ ! -f data/favorites.json ]; then
@@ -75,4 +92,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update ai news [skip ci]"
-          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/
+          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/briefing.json data/outline.json data/script.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/

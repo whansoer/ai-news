@@ -24,7 +24,9 @@ SYSTEM_PROMPT = """你是 AI 新闻分析专家。分析每条新闻，输出严
   "tags": ["2-3个技术标签", "..."],
   "score": 1-10,
   "reason": "评分理由（10字以内）",
-  "relations": [{"from": "实体A", "type": "releases|invests|depends_on", "to": "实体B"}, ...]
+  "relations": [{"from": "实体A", "type": "releases|invests|depends_on", "to": "实体B"}, ...],
+  "difficulty": "beginner|intermediate|advanced",
+  "narrative_angles": ["15字以内的叙事角度", "..."]
 }
 
 分类标准：
@@ -45,7 +47,17 @@ SYSTEM_PROMPT = """你是 AI 新闻分析专家。分析每条新闻，输出严
 - 实体类型：company（公司）、model（模型）、tech（技术）、person（人物）、event（事件/会议）
 - 关系类型：releases（发布，如 OpenAI→GPT-5）、invests（投资/收购，如 Microsoft→OpenAI）、depends_on（基于/依赖，如 GPT-5→Transformer）
 - 实体命名用英文原名，不要翻译
-- 如果文中没有明确的实体关系，返回空数组 []"""
+- 如果文中没有明确的实体关系，返回空数组 []
+
+难度分层（difficulty）：
+- beginner: 适合 AI 小白阅读，内容以产品发布/融资/政策为主，不涉及技术细节
+- intermediate: 适合有基础的开发者，涉及模型能力对比/API更新/开源工具
+- advanced: 适合专业研究人员，涉及论文方法/训练技术/架构设计
+
+叙事角度（narrative_angles）：
+- 输出 2-3 个不同的叙事角度，每个 15 字以内
+- 例如："小白科普：参数对比" / "开发者向：迁移成本" / "行业观察：竞争格局"
+- 角度不要重复，覆盖不同受众（小白/开发者/行业观察者）"""
 
 
 def load_news():
@@ -77,7 +89,7 @@ def call_gemini(prompt, retries=2):
                 json={
                     "system_instruction": {"parts": [{"text": SYSTEM_PROMPT}]},
                     "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                    "generationConfig": {"temperature": 0.2, "maxOutputTokens": 4096},
+                    "generationConfig": {"temperature": 0.2, "maxOutputTokens": 8192},
                 },
                 timeout=60,
             )
@@ -120,6 +132,8 @@ def main():
                 "score": max(1, min(10, r.get("score", 5))),
                 "reason": r.get("reason", ""),
                 "relations": r.get("relations", []),
+                "difficulty": r.get("difficulty", "intermediate"),
+                "narrative_angles": r.get("narrative_angles", [])[:3],
             }
         if i + BATCH_SIZE < len(items):
             time.sleep(2)
@@ -133,11 +147,15 @@ def main():
             item["tags"] = c["tags"]
             item["score"] = c["score"]
             item["relations"] = c.get("relations", [])
+            item["difficulty"] = c.get("difficulty", "intermediate")
+            item["narrative_angles"] = c.get("narrative_angles", [])
         else:
             item.setdefault("category", "product")
             item.setdefault("tags", [])
             item.setdefault("score", 5)
             item.setdefault("relations", [])
+            item.setdefault("difficulty", "intermediate")
+            item.setdefault("narrative_angles", [])
 
     data["updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 

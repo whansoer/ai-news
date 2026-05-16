@@ -216,6 +216,55 @@
     background: var(--accent); color: #fff; border: none; cursor: pointer; font-size: 13px;
   }
 
+  /* Creator panel */
+  .creator-panel { display: none; }
+  .creator-panel.open { display: block; }
+  .creator-section { background: var(--card-bg); border-radius: 12px; padding: 16px; margin-bottom: 12px; box-shadow: var(--shadow); }
+  .creator-section h3 { font-size: 15px; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+  .creator-section .briefing-text { font-size: 14px; line-height: 1.7; color: var(--text); }
+  .difficulty-bar { display: flex; gap: 6px; margin-bottom: 12px; }
+  .diff-btn {
+    padding: 4px 14px; border-radius: 14px; border: 1px solid var(--border);
+    background: var(--card-bg); color: var(--text-secondary); cursor: pointer;
+    font-size: 12px; transition: all .2s;
+  }
+  .diff-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .material-card {
+    background: var(--card-bg); border-radius: 10px; padding: 14px;
+    margin-bottom: 8px; box-shadow: var(--shadow); border-left: 3px solid var(--purple);
+  }
+  .material-card .mat-title { font-size: 14px; font-weight: 600; margin-bottom: 6px; }
+  .material-card .mat-title a { color: var(--text); text-decoration: none; }
+  .material-card .mat-facts { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; line-height: 1.5; }
+  .material-card .mat-quote { font-size: 12px; color: var(--accent); font-style: italic; padding: 6px 10px; background: var(--accent-light); border-radius: 6px; margin: 4px 0; }
+  .copy-btn {
+    display: inline-block; padding: 2px 10px; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--card-bg); color: var(--text-secondary); cursor: pointer;
+    font-size: 11px; transition: all .15s; margin-left: 4px;
+  }
+  .copy-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .copy-btn.copied { background: var(--green); color: #fff; border-color: var(--green); }
+  .collapse-header {
+    cursor: pointer; display: flex; justify-content: space-between; align-items: center;
+    padding: 8px 0; user-select: none;
+  }
+  .collapse-header:hover { color: var(--accent); }
+  .collapse-content { display: none; padding-top: 8px; }
+  .collapse-content.open { display: block; }
+  .collapse-arrow { transition: transform .2s; font-size: 12px; }
+  .collapse-arrow.open { transform: rotate(90deg); }
+  .outline-section { margin-bottom: 12px; padding-left: 12px; border-left: 2px solid var(--border); }
+  .outline-section h4 { font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+  .outline-section p { font-size: 12px; color: var(--text-secondary); line-height: 1.5; }
+  .outline-refs { font-size: 11px; color: var(--accent); margin-top: 4px; }
+  .script-tabs { display: flex; gap: 6px; margin-bottom: 10px; }
+  .script-tab {
+    padding: 3px 12px; border-radius: 12px; border: 1px solid var(--border);
+    background: var(--card-bg); color: var(--text-secondary); cursor: pointer; font-size: 12px;
+  }
+  .script-tab.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .script-text { font-size: 13px; line-height: 1.8; color: var(--text); white-space: pre-wrap; }
+
   .footer { text-align: center; padding: 20px; font-size: 11px; color: var(--text-secondary); border-top: 1px solid var(--border); }
 
   @media (max-width: 768px) {
@@ -264,6 +313,7 @@
     <button class="filter-btn" data-cat="funding">融资</button>
     <button class="filter-btn" data-cat="policy">政策</button>
     <button class="filter-btn" data-cat="favorites">收藏</button>
+    <button class="filter-btn" data-cat="creator">创作</button>
     <input class="search-box" id="searchBox" type="text" placeholder="搜索..." />
     <button class="stats-toggle" id="statsToggle">统计</button>
   </div>
@@ -303,6 +353,42 @@
     </div>
   </div>
 
+  <!-- Creator panel -->
+  <div class="creator-panel" id="creatorPanel">
+    <div class="creator-section" id="briefingSection" style="display:none;">
+      <h3>每日简报</h3>
+      <p class="briefing-text" id="briefingText"></p>
+      <div style="margin-top:6px;font-size:12px;color:var(--text-secondary);" id="briefingItems"></div>
+    </div>
+
+    <div class="creator-section">
+      <h3>创作素材</h3>
+      <div class="difficulty-bar" id="difficultyBar">
+        <button class="diff-btn active" data-diff="all">全部</button>
+        <button class="diff-btn" data-diff="beginner">入门</button>
+        <button class="diff-btn" data-diff="intermediate">进阶</button>
+        <button class="diff-btn" data-diff="advanced">专家</button>
+      </div>
+      <div id="materialList"></div>
+    </div>
+
+    <div class="creator-section" id="outlineSection" style="display:none;">
+      <div class="collapse-header" id="outlineToggle">
+        <h3>话题大纲</h3>
+        <span class="collapse-arrow" id="outlineArrow">▶</span>
+      </div>
+      <div class="collapse-content" id="outlineContent"></div>
+    </div>
+
+    <div class="creator-section" id="scriptSection" style="display:none;">
+      <div class="collapse-header" id="scriptToggle">
+        <h3>口播稿</h3>
+        <span class="collapse-arrow" id="scriptArrow">▶</span>
+      </div>
+      <div class="collapse-content" id="scriptContent"></div>
+    </div>
+  </div>
+
   <div id="skeletonContainer"></div>
   <div class="news-list" id="newsList" style="display:none;"></div>
   <div class="deep-results" id="deepSearchResults" style="display:none;"></div>
@@ -321,6 +407,7 @@
 (function () {
   const CAT_LABELS = { model:'模型发布', oss:'开源项目', product:'产品/API', research:'学术研究', funding:'融资收购', policy:'政策监管' };
   let allNews = [], zhMap = {}, statsData = null, weeklyData = null;
+  let briefingData = null, outlineData = null, scriptData = null;
   let currentCat = 'all', searchQuery = '', currentSort = 'hot', currentLang = localStorage.getItem('ai-news-lang') || 'zh';
 
   // Favorites
@@ -404,11 +491,14 @@
   async function loadAll() {
     showSkeleton();
     try {
-      const [rEn, rZh, rStats, rWeekly] = await Promise.all([
+      const [rEn, rZh, rStats, rWeekly, rBrief, rOutline, rScript] = await Promise.all([
         fetch('data/news.json'),
         fetch('data/news_zh.json').catch(() => null),
         fetch('data/stats.json').catch(() => null),
         fetch('data/weekly.json').catch(() => null),
+        fetch('data/briefing.json').catch(() => null),
+        fetch('data/outline.json').catch(() => null),
+        fetch('data/script.json').catch(() => null),
       ]);
       if (!rEn.ok) throw new Error('HTTP ' + rEn.status);
       const dEn = await rEn.json();
@@ -419,10 +509,14 @@
       if (rZh && rZh.ok) { const dZh = await rZh.json(); zhMap = {}; (dZh.items||[]).forEach(i => { zhMap[i.id] = i; }); }
       if (rStats && rStats.ok) { statsData = await rStats.json(); }
       if (rWeekly && rWeekly.ok) { weeklyData = await rWeekly.json(); }
+      if (rBrief && rBrief.ok) { briefingData = await rBrief.json(); }
+      if (rOutline && rOutline.ok) { outlineData = await rOutline.json(); }
+      if (rScript && rScript.ok) { scriptData = await rScript.json(); }
 
       document.getElementById('skeletonContainer').style.display = 'none';
       renderWeekly();
       renderStats();
+      renderCreator();
       render();
     } catch (e) {
       console.error(e);
@@ -450,6 +544,189 @@
     const zh = zhMap[n.id];
     return (zh && zh[field + '_zh']) ? zh[field + '_zh'] : (n[field] || '');
   }
+
+  // Creator panel
+  var currentDiff = 'all';
+  var copyTimer = null;
+
+  function renderCreator() {
+    var panel = document.getElementById('creatorPanel');
+    if (!panel.classList.contains('open')) return;
+
+    // Briefing
+    var briefSec = document.getElementById('briefingSection');
+    var briefText = document.getElementById('briefingText');
+    var briefItems = document.getElementById('briefingItems');
+    if (briefingData && briefingData.text) {
+      briefSec.style.display = 'block';
+      briefText.textContent = briefingData.text;
+      briefItems.innerHTML = (briefingData.top_items || []).map(function(t) {
+        return '<span style="display:inline-block;margin:2px 8px 2px 0;background:var(--tag-bg);padding:2px 8px;border-radius:8px;">' + esc(t) + '</span>';
+      }).join('');
+    } else {
+      briefSec.style.display = 'none';
+    }
+
+    // Materials
+    var diff = currentDiff;
+    var materials = allNews.filter(function(n) {
+      return diff === 'all' || n.difficulty === diff;
+    });
+    materials.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
+
+    var matHTML = '';
+    for (var mi = 0; mi < Math.min(materials.length, 30); mi++) {
+      var item = materials[mi];
+      var zh = zhMap[item.id] || {};
+      var title = zh.title_zh || item.title || '';
+      var facts = zh.key_facts || [];
+      var quote = zh.notable_quote || {};
+      var url = item.url || '';
+
+      matHTML += '<div class="material-card">' +
+        '<div class="mat-title"><a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(title) + '</a>' +
+        ' <button class="copy-btn" data-copy="title" data-text="' + esc(title.replace(/"/g, '')) + '">复制标题</button></div>';
+
+      if (facts.length > 0) {
+        matHTML += '<div class="mat-facts">';
+        for (var fi = 0; fi < facts.length; fi++) {
+          matHTML += '• ' + esc(facts[fi]) +
+            ' <button class="copy-btn" data-copy="fact" data-text="' + esc(facts[fi].replace(/"/g, '')) + '">复制</button><br>';
+        }
+        matHTML += '</div>';
+      }
+
+      if (quote.text || quote.zh) {
+        matHTML += '<div class="mat-quote">';
+        if (quote.text) matHTML += '"' + esc(quote.text) + '"';
+        if (quote.zh) matHTML += (quote.text ? ' — ' : '') + esc(quote.zh);
+        matHTML += ' <button class="copy-btn" data-copy="quote" data-text="' + esc((quote.zh || quote.text || '').replace(/"/g, '')) + '">复制</button>';
+        matHTML += '</div>';
+      }
+
+      // Narrative angles
+      var angles = item.narrative_angles || [];
+      if (angles.length > 0) {
+        matHTML += '<div style="font-size:11px;color:var(--text-secondary);margin-top:4px;">角度: ';
+        for (var ai = 0; ai < angles.length; ai++) {
+          matHTML += '<span style="background:var(--tag-bg);padding:1px 6px;border-radius:6px;margin-right:4px;">' + esc(angles[ai]) + '</span>';
+        }
+        matHTML += '</div>';
+      }
+
+      matHTML += '</div>';
+    }
+
+    document.getElementById('materialList').innerHTML = matHTML || '<p style="color:var(--text-secondary);font-size:13px;">暂无匹配素材</p>';
+
+    // Outline
+    var outlineSec = document.getElementById('outlineSection');
+    var outlineContent = document.getElementById('outlineContent');
+    if (outlineData && outlineData.topic) {
+      outlineSec.style.display = 'block';
+      var olHTML = '<p style="font-weight:600;margin-bottom:8px;">' + esc(outlineData.topic) + '</p>';
+      if (outlineData.hook) olHTML += '<p style="color:var(--accent);margin-bottom:8px;font-size:13px;">开篇: ' + esc(outlineData.hook) + '</p>';
+      var sections = outlineData.sections || [];
+      for (var si = 0; si < sections.length; si++) {
+        var sec = sections[si];
+        olHTML += '<div class="outline-section">' +
+          '<h4>' + (si + 1) + '. ' + esc(sec.heading || '') + '</h4>' +
+          (sec.content ? '<p>' + esc(sec.content) + '</p>' : '') +
+          (sec.refs && sec.refs.length ? '<div class="outline-refs">参考: ' + esc(sec.refs.join(', ')) + '</div>' : '') +
+        '</div>';
+      }
+      if (outlineData.conclusion) olHTML += '<p style="font-size:13px;margin-top:8px;color:var(--text-secondary);">' + esc(outlineData.conclusion) + '</p>';
+      if (outlineData.suggested_title) olHTML += '<p style="font-size:12px;margin-top:4px;color:var(--accent);">建议标题: ' + esc(outlineData.suggested_title) + '</p>';
+      outlineContent.innerHTML = olHTML;
+    } else {
+      outlineSec.style.display = 'none';
+    }
+
+    // Script
+    var scriptSec = document.getElementById('scriptSection');
+    var scriptContent = document.getElementById('scriptContent');
+    if (scriptData && scriptData.topic) {
+      scriptSec.style.display = 'block';
+      var s30 = (scriptData.scripts || {}).s30 || (scriptData.scripts || {})['30s'] || '';
+      var s60 = (scriptData.scripts || {}).s60 || (scriptData.scripts || {})['60s'] || '';
+      scriptContent.innerHTML =
+        '<p style="font-weight:600;margin-bottom:4px;">' + esc(scriptData.topic) + '</p>' +
+        (scriptData.hook ? '<p style="color:var(--accent);font-size:13px;margin-bottom:8px;">钩子: ' + esc(scriptData.hook) + '</p>' : '') +
+        '<div class="script-tabs">' +
+          '<button class="script-tab active" data-dur="30s">30秒（~80字）</button>' +
+          '<button class="script-tab" data-dur="60s">60秒（~180字）</button>' +
+        '</div>' +
+        '<div class="script-text" id="scriptText30s">' + esc(s30) + '</div>' +
+        '<div class="script-text" id="scriptText60s" style="display:none;">' + esc(s60) + '</div>';
+    } else {
+      scriptSec.style.display = 'none';
+    }
+
+    // Copy button events (delegation)
+    bindCreatorEvents();
+  }
+
+  function bindCreatorEvents() {
+    // Copy buttons
+    document.querySelectorAll('.copy-btn').forEach(function(el) {
+      if (el._boundCopy) return;
+      el._boundCopy = true;
+      el.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var text = el.dataset.text;
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(text).then(function() {
+            el.classList.add('copied');
+            el.textContent = '已复制!';
+            clearTimeout(copyTimer);
+            copyTimer = setTimeout(function() {
+              el.classList.remove('copied');
+              el.textContent = el.dataset.copy === 'title' ? '复制标题' : '复制';
+            }, 1500);
+          });
+        }
+      });
+    });
+
+    // Script tabs
+    document.querySelectorAll('.script-tab').forEach(function(el) {
+      if (el._boundTab) return;
+      el._boundTab = true;
+      el.addEventListener('click', function() {
+        document.querySelectorAll('.script-tab').forEach(function(t) { t.classList.remove('active'); });
+        el.classList.add('active');
+        document.getElementById('scriptText30s').style.display = el.dataset.dur === '30s' ? 'block' : 'none';
+        document.getElementById('scriptText60s').style.display = el.dataset.dur === '60s' ? 'block' : 'none';
+      });
+    });
+  }
+
+  // Difficulty filter
+  document.getElementById('difficultyBar').addEventListener('click', function(e) {
+    var btn = e.target.closest('.diff-btn');
+    if (!btn) return;
+    document.querySelectorAll('.diff-btn').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    currentDiff = btn.dataset.diff;
+    renderCreator();
+  });
+
+  // Outline collapse toggle
+  document.getElementById('outlineToggle').addEventListener('click', function() {
+    var content = document.getElementById('outlineContent');
+    var arrow = document.getElementById('outlineArrow');
+    content.classList.toggle('open');
+    arrow.classList.toggle('open');
+  });
+
+  // Script collapse toggle
+  document.getElementById('scriptToggle').addEventListener('click', function() {
+    var content = document.getElementById('scriptContent');
+    var arrow = document.getElementById('scriptArrow');
+    content.classList.toggle('open');
+    arrow.classList.toggle('open');
+  });
 
   // Weekly banner
   function renderWeekly() {
@@ -520,6 +797,16 @@
 
   // Render
   function render() {
+    if (currentCat === 'creator') {
+      document.getElementById('newsList').style.display = 'none';
+      document.getElementById('emptyState').style.display = 'none';
+      document.getElementById('deepSearchResults').style.display = 'none';
+      document.getElementById('creatorPanel').classList.add('open');
+      renderCreator();
+      return;
+    }
+    document.getElementById('creatorPanel').classList.remove('open');
+
     let filtered = [...allNews];
     if (currentCat !== 'all') {
       if (currentCat === 'favorites') {
