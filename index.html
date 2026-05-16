@@ -58,6 +58,14 @@
   }
   .theme-toggle:hover { transform: scale(1.1); }
 
+  .lang-toggle {
+    padding: 6px 12px; border-radius: 20px; border: 1px solid var(--border);
+    background: var(--card-bg); cursor: pointer; font-size: 13px; font-weight: 600;
+    color: var(--text-secondary); transition: all .2s; white-space: nowrap;
+  }
+  .lang-toggle:hover { border-color: var(--accent); color: var(--accent); }
+  .lang-toggle.active-lang { background: var(--accent); color: #fff; border-color: var(--accent); }
+
   /* Filter bar */
   .filter-bar {
     display: flex; gap: 8px; padding: 12px 0; flex-wrap: wrap;
@@ -160,6 +168,8 @@
     <h1>AI 新闻</h1>
     <div class="header-right">
       <span class="update-time" id="updateTime"></span>
+      <button class="lang-toggle active-lang" id="langZh">中</button>
+      <button class="lang-toggle" id="langEn">EN</button>
       <button class="theme-toggle" id="themeToggle" title="切换暗色模式" aria-label="切换暗色模式">&#9728;</button>
     </div>
   </header>
@@ -195,8 +205,10 @@
   const CATEGORY_LABELS = { industry: '行业', tools: '工具', academic: '学术' };
   const CATEGORY_COLORS = { industry: 'cat-industry', tools: 'cat-tools', academic: 'cat-academic' };
   let allNews = [];
+  let zhMap = {};       // id → {title_zh, summary_zh, tags_zh}
   let currentCat = 'all';
   let searchQuery = '';
+  let currentLang = localStorage.getItem('ai-news-lang') || 'zh';
 
   // ========== Theme ==========
   const themeToggle = document.getElementById('themeToggle');
@@ -210,6 +222,35 @@
     document.documentElement.setAttribute('data-theme', next);
     themeToggle.innerHTML = next === 'dark' ? '&#9789;' : '&#9728;';
     localStorage.setItem('ai-news-theme', next);
+  });
+
+  // ========== Language ==========
+  const langZh = document.getElementById('langZh');
+  const langEn = document.getElementById('langEn');
+
+  function setLangUI(lang) {
+    if (lang === 'zh') {
+      langZh.classList.add('active-lang');
+      langEn.classList.remove('active-lang');
+    } else {
+      langEn.classList.add('active-lang');
+      langZh.classList.remove('active-lang');
+    }
+  }
+  setLangUI(currentLang);
+
+  langZh.addEventListener('click', () => {
+    currentLang = 'zh';
+    localStorage.setItem('ai-news-lang', 'zh');
+    setLangUI('zh');
+    render();
+  });
+
+  langEn.addEventListener('click', () => {
+    currentLang = 'en';
+    localStorage.setItem('ai-news-lang', 'en');
+    setLangUI('en');
+    render();
   });
 
   // ========== Skeleton ==========
@@ -232,13 +273,24 @@
   async function loadNews() {
     showSkeleton();
     try {
-      const resp = await fetch('data/news.json');
-      if (!resp.ok) throw new Error('HTTP ' + resp.status);
-      const data = await resp.json();
-      allNews = data.items || [];
+      const [respEn, respZh] = await Promise.all([
+        fetch('data/news.json'),
+        fetch('data/news_zh.json').catch(() => null)
+      ]);
+
+      if (!respEn.ok) throw new Error('HTTP ' + respEn.status);
+      const dataEn = await respEn.json();
+      allNews = dataEn.items || [];
       document.getElementById('updateTime').textContent =
-        '更新 ' + formatTime(data.updated);
-      document.getElementById('totalCount').textContent = data.total || allNews.length;
+        '更新 ' + formatTime(dataEn.updated);
+      document.getElementById('totalCount').textContent = dataEn.total || allNews.length;
+
+      if (respZh && respZh.ok) {
+        const dataZh = await respZh.json();
+        zhMap = {};
+        (dataZh.items || []).forEach(item => { zhMap[item.id] = item; });
+      }
+
       document.getElementById('skeletonContainer').style.display = 'none';
       render();
     } catch (e) {
@@ -265,6 +317,15 @@
     return d.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
   }
 
+  function t(n, field) {
+    if (currentLang === 'en') return n[field] || '';
+    const zh = zhMap[n.id];
+    const zhField = field + '_zh';
+    if (zh && zh[zhField]) return zh[zhField];
+    // 中文兜底：无翻译时显示英文原文
+    return n[field] || '';
+  }
+
   // ========== Render ==========
   function render() {
     let filtered = allNews;
@@ -277,8 +338,10 @@
       const q = searchQuery.toLowerCase();
       filtered = filtered.filter(n =>
         n.title.toLowerCase().includes(q) ||
+        t(n, 'title').toLowerCase().includes(q) ||
         (n.summary || '').toLowerCase().includes(q) ||
-        (n.tags || []).some(t => t.toLowerCase().includes(q))
+        t(n, 'summary').toLowerCase().includes(q) ||
+        (n.tags || []).some(tag => tag.toLowerCase().includes(q))
       );
     }
 
@@ -293,7 +356,12 @@
 
     emptyEl.style.display = 'none';
     listEl.style.display = 'block';
-    listEl.innerHTML = filtered.map(n => `
+    listEl.innerHTML = filtered.map(n => {
+      const title = t(n, 'title');
+      const summary = t(n, 'summary');
+      const tags = currentLang === 'zh' && zhMap[n.id] && zhMap[n.id].tags_zh
+        ? zhMap[n.id].tags_zh : (n.tags || []);
+      return `
       <article class="news-card">
         <div class="card-meta">
           <span class="card-source">${esc(n.source)}</span>
@@ -303,14 +371,14 @@
           <span class="card-date">${formatTime(n.published)}</span>
         </div>
         <h2 class="card-title">
-          <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+          <a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(title)}</a>
         </h2>
-        ${n.summary ? `<p class="card-summary">${esc(n.summary)}</p>` : ''}
-        ${(n.tags || []).length ? `
-          <div class="card-tags">${n.tags.map(t => `<span class="card-tag">${esc(t)}</span>`).join('')}</div>
+        ${summary ? `<p class="card-summary">${esc(summary)}</p>` : ''}
+        ${tags.length ? `
+          <div class="card-tags">${tags.map(t => `<span class="card-tag">${esc(t)}</span>`).join('')}</div>
         ` : ''}
       </article>
-    `).join('');
+    `}).join('');
   }
 
   function esc(s) {

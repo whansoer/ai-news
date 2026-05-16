@@ -30,8 +30,13 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: python scripts/collect.py
 
+      - name: Translate to Chinese
+        env:
+          DEEPSEEK_KEY: ${{ secrets.DEEPSEEK_KEY }}
+        run: python scripts/translate.py
+
       - name: Commit updated news
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update ai news [skip ci]"
-          file_pattern: data/news.json
+          file_pattern: data/news.json data/news_zh.json
