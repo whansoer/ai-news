@@ -590,7 +590,7 @@
     node.on('click', function(event, d) {
       event.stopPropagation();
       var itemIds = d.itemIds || {};
-      var items = allItems.filter(function(it) { return itemIds[it.id]; });
+      var items = allItems.filter(function(it) { return itemIds.indexOf(it.id) >= 0; });
       items.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
       showNewsPanel(d.id, items);
     });
