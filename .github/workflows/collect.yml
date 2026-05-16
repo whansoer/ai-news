@@ -52,6 +52,9 @@ jobs:
       - name: Generate stats
         run: python scripts/stats.py
 
+      - name: Detect GitHub rocketship repos
+        run: python scripts/rocketship.py
+
       - name: Generate weekly digest
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
@@ -102,6 +105,9 @@ jobs:
           if [ ! -f data/favorites_archive.json ]; then
             echo '{"updated":"","total":0,"items":[]}' > data/favorites_archive.json
           fi
+          if [ ! -f data/rocketship.json ]; then
+            echo '{"updated":"","count":0,"items":[]}' > data/rocketship.json
+          fi
           mkdir -p data/cache
 
       - name: Archive old news
@@ -120,4 +126,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update ai news [skip ci]"
-          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/briefing.json data/outline.json data/script.json data/deepresearch.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/ data/cache/
+          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/briefing.json data/outline.json data/script.json data/deepresearch.json data/rocketship.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/ data/cache/

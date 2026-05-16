@@ -279,7 +279,6 @@ def main():
     # ── 真正的新增检测（基于 ID，不看长度） ──
     final_ids = {(item["id"], item["title"].lower()[:80]) for item in final}
     new_ids = final_ids - existing_ids
-    dropped_ids = existing_ids - final_ids
     new_count = len(new_ids)
 
     # ── 源健康报告 ──

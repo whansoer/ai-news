@@ -208,9 +208,10 @@ def main():
     # Step 3: 合并到 news_zh.json
     for item in items:
         oid = item["id"]
+        orig_summary = item.get("summary", "")
         if oid not in zh_map:
             zh_map[oid] = {"id": oid, "title_zh": "", "summary_zh": "", "tags_zh": [], "oneliner": "", "key_facts": [], "notable_quote": {"text": "", "zh": ""}}
-        zh_map[oid]["oneliner"] = oneliners.get(oid, "")
+        zh_map[oid]["oneliner"] = oneliners.get(oid, "") or orig_summary[:100]
         zh_map[oid]["key_facts"] = key_facts_map.get(oid, [])
         zh_map[oid]["notable_quote"] = quotes_map.get(oid, {"text": "", "zh": ""})
 

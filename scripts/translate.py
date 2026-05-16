@@ -72,7 +72,32 @@ def call_gemini(user_prompt, retries=2):
             start = content.find("[")
             end = content.rfind("]")
             if start >= 0 and end > start:
-                return json.loads(content[start: end + 1])
+                try:
+                    return json.loads(content[start: end + 1])
+                except json.JSONDecodeError:
+                    # Batch parse failed — try to salvage individual objects
+                    print(f"[Translate] JSON 数组解析失败，尝试逐条提取...")
+                    objects = []
+                    depth = 0
+                    obj_start = -1
+                    for i, ch in enumerate(content):
+                        if ch == '{':
+                            if depth == 0:
+                                obj_start = i
+                            depth += 1
+                        elif ch == '}':
+                            depth -= 1
+                            if depth == 0 and obj_start >= 0:
+                                try:
+                                    obj = json.loads(content[obj_start: i + 1])
+                                    objects.append(obj)
+                                except json.JSONDecodeError:
+                                    pass
+                                obj_start = -1
+                    if objects:
+                        print(f"[Translate] 逐条提取成功: {len(objects)} 条")
+                        return objects
+                    return []
             return []
         except Exception as e:
             if attempt < retries:
@@ -93,8 +118,8 @@ def validate_translations(results, batch_ids, original_titles=None):
         summary = item.get("summary_zh", "")
         # Structural check
         struct_ok, _ = check_json_structure(item, ["title_zh"])
-        # CJK check
-        cjk_ok = check_cjk(title) or check_cjk(summary)
+        # CJK check — both title and summary must contain Chinese
+        cjk_ok = check_cjk(title) and check_cjk(summary)
         # Entity check (skip if no original title to compare)
         ent_score = check_entity_consistency(orig.get(item_id, ""), title) if orig else 1.0
         if struct_ok and cjk_ok and ent_score >= 0.3:
