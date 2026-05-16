@@ -8,9 +8,46 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 /* ============================================
-   TECH COMMAND CENTER — Design Tokens
+   CLEAN ANALYTICS — Light Mode (default)
    ============================================ */
 :root {
+  --bg: #fafbfc;
+  --card-bg: #ffffff;
+  --card-elevated: #f1f5f9;
+  --text: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --accent: #1a56db;
+  --accent-rgb: 26,86,219;
+  --accent-glow: rgba(26,86,219,0.15);
+  --accent-secondary: #7c3aed;
+  --accent-secondary-rgb: 124,58,237;
+  --data-green: #059669;
+  --data-green-rgb: 5,150,105;
+  --data-amber: #d97706;
+  --track-bg: rgba(0,0,0,0.04);
+  --tag-bg: #f1f5f9;
+  --fire: #d97706;
+  --green: #059669;
+  --purple: #7c3aed;
+  --red: #dc2626;
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+  --font-mono: "JetBrains Mono", "Cascadia Code", "Fira Code", Consolas, monospace;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+/* ============================================
+   TECH COMMAND CENTER — Dark Mode
+   ============================================ */
+[data-theme="dark"] {
   --bg: #08080d;
   --card-bg: #0c0c14;
   --card-elevated: #12121e;
@@ -20,36 +57,29 @@
   --border: #1a1a2e;
   --border-strong: #252540;
   --accent: #00c8ff;
-  --accent-glow: rgba(0,200,255,0.2);
+  --accent-rgb: 0,200,255;
+  --accent-glow: rgba(var(--accent-rgb), 0.2);
   --accent-secondary: #7b4dff;
+  --accent-secondary-rgb: 123,77,255;
   --data-green: #00e676;
+  --data-green-rgb: 0,230,118;
   --data-amber: #ff9100;
+  --track-bg: rgba(255,255,255,0.04);
   --tag-bg: #12121e;
   --fire: #ff9100;
   --green: #00e676;
   --purple: #7b4dff;
   --red: #ff4d4d;
-  --radius-xs: 4px;
-  --radius-sm: 6px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  --radius-xl: 16px;
-  --radius-pill: 9999px;
-  --font-mono: "JetBrains Mono", "Cascadia Code", "Fira Code", Consolas, monospace;
-}
-
-[data-theme="dark"] {
-  --bg: #08080d; --card-bg: #0c0c14; --card-elevated: #12121e;
-  --text: #e0e0e0; --text-secondary: #8899aa; --text-muted: #5a6a7a;
-  --border: #1a1a2e; --border-strong: #252540;
-  --accent: #00c8ff; --accent-glow: rgba(0,200,255,0.2);
-  --tag-bg: #12121e;
+  --shadow-sm: none;
+  --shadow-md: none;
 }
 
 body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, ui-sans-serif, system-ui, sans-serif;
   background: var(--bg); color: var(--text); min-height: 100vh;
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+[data-theme="dark"] body {
   background-image: radial-gradient(circle, rgba(255,255,255,0.015) 1px, transparent 1px);
   background-size: 24px 24px;
 }
@@ -73,7 +103,7 @@ body {
 }
 .nav-brand .status-pulse {
   width: 6px; height: 6px; border-radius: 50%; background: var(--data-green);
-  box-shadow: 0 0 6px rgba(0,230,118,0.6); flex-shrink: 0;
+  box-shadow: 0 0 6px rgba(var(--data-green-rgb),0.6); flex-shrink: 0;
   animation: pulse 2s ease-in-out infinite;
 }
 @keyframes pulse {
@@ -90,7 +120,7 @@ body {
   font-family: inherit;
 }
 .nav-tab:hover { color: var(--text-secondary); background: var(--card-bg); }
-.nav-tab.active { color: var(--accent); background: rgba(0,200,255,0.08); }
+.nav-tab.active { color: var(--accent); background: rgba(var(--accent-rgb), 0.08); }
 
 .nav-controls { display: flex; align-items: center; gap: 6px; }
 .update-time {
@@ -129,7 +159,7 @@ body {
   font-size: 12px; outline: none; transition: border-color .15s; height: 32px;
   font-family: inherit;
 }
-.search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,200,255,0.08); }
+.search-box:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.08); }
 .search-box::placeholder { color: var(--text-muted); }
 
 /* Sort row */
@@ -165,7 +195,7 @@ body {
 }
 .briefing-card::after {
   content: ''; position: absolute; top: -80px; right: -80px; width: 250px; height: 250px;
-  background: radial-gradient(circle, rgba(0,200,255,0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06) 0%, transparent 70%);
   pointer-events: none;
 }
 .briefing-card .briefing-header {
@@ -176,7 +206,7 @@ body {
 }
 .briefing-card .briefing-header .badge {
   font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: var(--radius-pill);
-  background: rgba(0,200,255,0.1); color: var(--accent);
+  background: rgba(var(--accent-rgb), 0.1); color: var(--accent);
   font-family: var(--font-mono); letter-spacing: 0.05em;
 }
 .briefing-card .briefing-text {
@@ -200,7 +230,7 @@ body {
 }
 .hero-card:hover {
   border-color: var(--accent);
-  box-shadow: 0 0 20px rgba(0,200,255,0.08);
+  box-shadow: 0 0 20px rgba(var(--accent-rgb), 0.08);
 }
 .hero-card::before {
   content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
@@ -255,7 +285,7 @@ body {
 }
 .stat-mini .mini-bar { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; font-size: 11px; }
 .stat-mini .mini-bar-name { width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex-shrink: 1; color: var(--text-muted); font-size: 10px; }
-.stat-mini .mini-bar-track { flex: 1; height: 6px; background: rgba(255,255,255,0.04); border-radius: 3px; overflow: hidden; }
+.stat-mini .mini-bar-track { flex: 1; height: 6px; background: var(--track-bg); border-radius: 3px; overflow: hidden; }
 .stat-mini .mini-bar-fill { display: block; height: 100%; border-radius: 3px; min-width: 2px; }
 .stat-mini .mini-bar-count { width: 22px; font-size: 10px; font-weight: 600; color: var(--text-muted); flex-shrink: 0; font-family: var(--font-mono); }
 .stat-mini .mini-tags { display: flex; flex-wrap: wrap; gap: 4px; }
@@ -289,7 +319,7 @@ body {
   font-size: 13px; font-weight: 500; cursor: pointer; text-decoration: none;
   border-radius: var(--radius-md); transition: background .15s;
 }
-.view-all-link:hover { background: rgba(0,200,255,0.05); }
+.view-all-link:hover { background: rgba(var(--accent-rgb), 0.05); }
 
 /* Glowing divider */
 .section-divider {
@@ -311,7 +341,7 @@ body {
 }
 .weekly-banner::before {
   content: ''; position: absolute; top: -60px; right: -60px; width: 200px; height: 200px;
-  background: radial-gradient(circle, rgba(0,200,255,0.08) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(var(--accent-rgb), 0.08) 0%, transparent 70%);
   pointer-events: none;
 }
 .weekly-banner:hover { background: var(--card-elevated); }
@@ -330,7 +360,7 @@ body {
 .card-meta { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap; }
 .card-source {
   font-size: 10px; font-weight: 600; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase;
-  background: rgba(0,200,255,0.08); padding: 3px 8px; border-radius: var(--radius-xs);
+  background: rgba(var(--accent-rgb), 0.08); padding: 3px 8px; border-radius: var(--radius-xs);
 }
 .card-score { font-size: 11px; font-weight: 700; color: var(--data-amber); font-family: var(--font-mono); }
 .card-date { font-size: 11px; color: var(--text-muted); }
@@ -342,7 +372,7 @@ body {
 .card-summary { font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 6px; }
 .card-oneliner {
   font-size: 13px; color: var(--accent); line-height: 1.4; margin-bottom: 6px;
-  padding: 8px 12px; background: rgba(0,200,255,0.05); border-radius: var(--radius-sm);
+  padding: 8px 12px; background: rgba(var(--accent-rgb), 0.05); border-radius: var(--radius-sm);
   border-left: 2px solid var(--accent);
 }
 .card-tags { display: flex; gap: 4px; flex-wrap: wrap; }
@@ -409,7 +439,7 @@ body {
   display: flex; align-items: center; gap: 10px; margin-bottom: 6px; font-size: 12px;
 }
 .stat-bar-name { width: 80px; text-align: right; color: var(--text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex-shrink: 0; }
-.stat-bar-track { flex: 1; height: 12px; background: rgba(255,255,255,0.03); border-radius: 6px; overflow: hidden; position: relative; }
+.stat-bar-track { flex: 1; height: 12px; background: var(--track-bg); border-radius: 6px; overflow: hidden; position: relative; }
 .stat-bar-fill {
   display: block; height: 100%; border-radius: 6px; min-width: 2px;
   background-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.1) 100%);
@@ -452,7 +482,7 @@ body {
 .deep-results { margin-top: 16px; }
 .deep-results-title {
   font-size: 11px; color: var(--text-muted); margin-bottom: 8px;
-  padding: 8px 12px; background: rgba(0,200,255,0.05); border-radius: var(--radius-md);
+  padding: 8px 12px; background: rgba(var(--accent-rgb), 0.05); border-radius: var(--radius-md);
   font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;
 }
 .deep-result-card {
@@ -463,9 +493,9 @@ body {
 .deep-result-card .dr-title a { color: var(--text); text-decoration: none; }
 .deep-result-card .dr-title a:hover { color: var(--accent); }
 .deep-result-card .dr-excerpt { font-size: 12px; color: var(--text-secondary); line-height: 1.5; }
-.deep-result-card .dr-excerpt mark { background: rgba(0,200,255,0.2); color: #fff; padding: 0 2px; border-radius: 2px; }
+.deep-result-card .dr-excerpt mark { background: rgba(var(--accent-rgb), 0.2); color: #fff; padding: 0 2px; border-radius: 2px; }
 .deep-result-card .dr-meta { font-size: 11px; color: var(--text-muted); margin-top: 6px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-.deep-result-card .dr-source { font-weight: 600; color: var(--accent); background: rgba(0,200,255,0.08); padding: 2px 8px; border-radius: var(--radius-xs); }
+.deep-result-card .dr-source { font-weight: 600; color: var(--accent); background: rgba(var(--accent-rgb), 0.08); padding: 2px 8px; border-radius: var(--radius-xs); }
 
 .empty-state, .error-state { text-align: center; padding: 80px 20px; color: var(--text-muted); }
 .empty-state .icon, .error-state .icon { font-size: 48px; margin-bottom: 12px; display: block; }
@@ -502,7 +532,7 @@ body {
 .material-card .mat-title a { color: var(--text); text-decoration: none; }
 .material-card .mat-title a:hover { color: var(--accent); }
 .material-card .mat-facts { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; line-height: 1.5; }
-.material-card .mat-quote { font-size: 12px; color: var(--accent); font-style: italic; padding: 8px 12px; background: rgba(0,200,255,0.05); border-radius: var(--radius-sm); margin: 4px 0; }
+.material-card .mat-quote { font-size: 12px; color: var(--accent); font-style: italic; padding: 8px 12px; background: rgba(var(--accent-rgb), 0.05); border-radius: var(--radius-sm); margin: 4px 0; }
 .copy-btn {
   display: inline-block; padding: 4px 10px; border-radius: var(--radius-xs); border: 1px solid var(--border);
   background: var(--card-elevated); color: var(--text-muted); cursor: pointer;
@@ -565,7 +595,7 @@ body {
 .graph-container svg { display: block; background: var(--bg); }
 .graph-legend {
   position: absolute; top: 10px; left: 10px; font-size: 11px; color: var(--text-secondary);
-  background: rgba(12,12,20,0.94); backdrop-filter: blur(8px); padding: 8px 12px;
+  background: var(--card-bg); padding: 8px 12px;
   border-radius: var(--radius-md); border: 1px solid var(--border);
   pointer-events: none; line-height: 1.7;
 }
@@ -1230,7 +1260,7 @@ body {
       const ratio = d.count / maxDay;
       const h = Math.round(ratio * 44 + 6);
       const alpha = 0.35 + ratio * 0.65;
-      trendHTML += '<div class="mini-chart-bar" style="height:' + h + 'px;background:rgba(0,200,255,' + alpha.toFixed(2) + ')" title="' + d.date + ': ' + d.count + '"></div>';
+      trendHTML += '<div class="mini-chart-bar" style="height:' + h + 'px;background:rgba(var(--accent-rgb),' + alpha.toFixed(2) + ')" title="' + d.date + ': ' + d.count + '"></div>';
     });
     trendHTML += '</div></div>';
 
@@ -1314,7 +1344,7 @@ body {
       const ratio = (t.count - minTag) / (maxTag - minTag || 1);
       const cls = ratio > 0.6 ? 'tag-lg' : ratio > 0.25 ? 'tag-md' : 'tag-sm';
       const alpha = 0.5 + ratio * 0.5;
-      return `<span class="tag-cloud-item ${cls}" style="color:rgba(0,200,255,${alpha.toFixed(2)})">${esc(t.name)} <strong>${t.count}</strong></span>`;
+      return `<span class="tag-cloud-item ${cls}" style="color:rgba(var(--accent-rgb),${alpha.toFixed(2)})">${esc(t.name)} <strong>${t.count}</strong></span>`;
     }).join('');
 
     const maxDay = Math.max(1, ...(statsData.dailyTrend||[]).map(d=>d.count));
@@ -1323,7 +1353,7 @@ body {
       const h = Math.round(ratio * 70 + 8);
       const alpha = 0.35 + ratio * 0.65;
       return `
-      <div class="daily-bar" style="height:${h}px;background:linear-gradient(180deg,rgba(0,200,255,${alpha.toFixed(2)}),rgba(123,77,255,${(alpha*0.8).toFixed(2)}))">
+      <div class="daily-bar" style="height:${h}px;background:linear-gradient(180deg,rgba(var(--accent-rgb),${alpha.toFixed(2)}),rgba(var(--accent-secondary-rgb),${(alpha*0.8).toFixed(2)}))">
         <span class="daily-bar-count">${d.count}</span>
         <span class="daily-bar-label">${d.date}</span>
       </div>
