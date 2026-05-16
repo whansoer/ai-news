@@ -91,6 +91,7 @@ jobs:
           if [ ! -f data/favorites_archive.json ]; then
             echo '{"updated":"","total":0,"items":[]}' > data/favorites_archive.json
           fi
+          mkdir -p data/cache
 
       - name: Archive old news
         run: python scripts/archive.py
@@ -108,4 +109,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update ai news [skip ci]"
-          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/briefing.json data/outline.json data/script.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/
+          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/briefing.json data/outline.json data/script.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/ data/cache/

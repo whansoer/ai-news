@@ -1,10 +1,12 @@
-"""AI News Translator — Google Gemini 免费翻译"""
+"""AI News Translator — Google Gemini 免费翻译（带缓存）"""
 import json
 import os
 import time
 from datetime import datetime, timezone
 
 import requests
+
+from cache import Cache
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 INPUT_FILE = os.path.join(DATA_DIR, "news.json")
@@ -19,7 +21,8 @@ SYSTEM_PROMPT = """你是一个 AI 新闻翻译专家。将给出的英文 AI �
 规则：
 1. 保留技术术语原名（如 GPT、Claude、LLM、RAG、Transformer 等），括号补充中文说明
 2. 保持简洁，每条翻译控制在对应原文长度的 80%-120%
-3. 输出格式：严格 JSON 数组，每个元素 {"id":"...", "title_zh":"...", "summary_zh":"...", "tags_zh":[...]}"""
+3. 输出格式：严格 JSON 数组，每个元素 {"id":"...", "title_zh":"...", "summary_zh":"...", "tags_zh":[...]}
+4. **关键：title_zh 和 summary_zh 必须是中文翻译，不能直接复制英文原文！**"""
 
 
 def load_news():
@@ -78,25 +81,59 @@ def call_gemini(user_prompt, retries=2):
     return []
 
 
+def has_cjk(text):
+    """Check if text contains at least one CJK character."""
+    if not text:
+        return False
+    return any('一' <= c <= '鿿' for c in text)
+
+
+def validate_translations(results, batch_ids):
+    """Return (valid, failed) — failed items have no CJK in title or summary."""
+    valid, failed = {}, set()
+    for item in results:
+        item_id = item.get("id", "")
+        title = item.get("title_zh", "")
+        summary = item.get("summary_zh", "")
+        if has_cjk(title) or has_cjk(summary):
+            valid[item_id] = {
+                "title_zh": title,
+                "summary_zh": summary,
+                "tags_zh": item.get("tags_zh", []),
+            }
+        else:
+            failed.add(item_id)
+    for item_id in batch_ids:
+        if item_id not in valid:
+            failed.add(item_id)
+    return valid, failed
+
+
 def translate_batch(batch):
     if not batch:
         return []
+    batch_ids = {item["id"] for item in batch}
     user_prompt = build_user_prompt(batch)
     results = call_gemini(user_prompt)
-    out = {}
-    for item in results:
-        item_id = item.get("id", "")
-        out[item_id] = {
-            "title_zh": item.get("title_zh", ""),
-            "summary_zh": item.get("summary_zh", ""),
-            "tags_zh": item.get("tags_zh", []),
-        }
+    out, failed = validate_translations(results, batch_ids)
+
+    # Retry failed items once individually with a stronger prompt
+    if failed:
+        retry_items = [item for item in batch if item["id"] in failed]
+        retry_prompt = "【重要：必须翻译成中文！不要保留英文原文！】\n" + build_user_prompt(retry_items)
+        retry_results = call_gemini(retry_prompt)
+        retry_out, still_failed = validate_translations(retry_results, {item["id"] for item in retry_items})
+        out.update(retry_out)
+        failed = still_failed
+
+    # Fallback: mark as English original + flag
     for item in batch:
         if item["id"] not in out:
             out[item["id"]] = {
                 "title_zh": item.get("title", ""),
                 "summary_zh": item.get("summary", ""),
                 "tags_zh": item.get("tags", []),
+                "_fallback": True,
             }
     return out
 
@@ -112,14 +149,51 @@ def main():
         return
 
     os.makedirs(DATA_DIR, exist_ok=True)
+    cache = Cache("translate")
     translated = {}
+    uncached = []
+    cache_hits = 0
 
-    for i in range(0, len(items), BATCH_SIZE):
-        batch = items[i: i + BATCH_SIZE]
+    # Pass 1: check cache for each item
+    for item in items:
+        key = cache.make_key(
+            item["id"],
+            item.get("title", ""),
+            item.get("summary", "")[:200],
+            ",".join(item.get("tags", [])),
+        )
+        cached = cache.get(key)
+        if cached and not cached.get("_fallback"):
+            # Re-validate: cached translation must still have CJK
+            if has_cjk(cached.get("title_zh", "")) or has_cjk(cached.get("summary_zh", "")):
+                translated[item["id"]] = cached
+                cache_hits += 1
+                continue
+        uncached.append(item)
+
+    print(f"[Translate] 缓存命中: {cache_hits}/{len(items)}, 需翻译: {len(uncached)}")
+
+    # Pass 2: translate uncached items in batches
+    for i in range(0, len(uncached), BATCH_SIZE):
+        batch = uncached[i: i + BATCH_SIZE]
         results = translate_batch(batch)
         translated.update(results)
-        if i + BATCH_SIZE < len(items):
+        # Cache individual results
+        for item in batch:
+            result = results.get(item["id"])
+            if result:
+                key = cache.make_key(
+                    item["id"],
+                    item.get("title", ""),
+                    item.get("summary", "")[:200],
+                    ",".join(item.get("tags", [])),
+                )
+                cache.set(key, result)
+        if i + BATCH_SIZE < len(uncached):
             time.sleep(2)
+
+    cache.save()
+    print(f"[Translate] 缓存已保存: {cache.hits()} 条")
 
     zh_items = []
     for item in items:

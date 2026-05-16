@@ -1,4 +1,4 @@
-"""AI News Summarizer — 抓取原文 + Gemini 一句话概括"""
+"""AI News Summarizer — 抓取原文 + Gemini 一句话概括（带缓存）"""
 import json
 import os
 import re
@@ -7,6 +7,8 @@ from datetime import datetime, timezone
 
 import requests
 from bs4 import BeautifulSoup
+
+from cache import Cache
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 INPUT_FILE = os.path.join(DATA_DIR, "news.json")
@@ -150,13 +152,30 @@ def main():
     fetched = sum(1 for a in articles if a["text"])
     print(f"[Summarize] 抓取完成: {fetched}/{len(articles)} 篇")
 
-    # Step 2: 分批发 Gemini 总结
+    # Step 2: 分批发 Gemini 总结（带缓存）
     oneliners = {}
     key_facts_map = {}
     quotes_map = {}
+    cache = Cache("summarize")
+    cache_hits = 0
     valid = [a for a in articles if a["text"]]
-    for i in range(0, len(valid), BATCH_SIZE):
-        batch = valid[i: i + BATCH_SIZE]
+    uncached = []
+
+    for a in valid:
+        key = cache.make_key(a["id"], a["text"][:500])
+        cached = cache.get(key)
+        if cached and any('一' <= c <= '鿿' for c in cached.get("oneliner", "")):
+            oneliners[a["id"]] = cached["oneliner"]
+            key_facts_map[a["id"]] = cached.get("key_facts", [])
+            quotes_map[a["id"]] = cached.get("notable_quote", {"text": "", "zh": ""})
+            cache_hits += 1
+        else:
+            uncached.append(a)
+
+    print(f"[Summarize] 缓存命中: {cache_hits}/{len(valid)}, 需总结: {len(uncached)}")
+
+    for i in range(0, len(uncached), BATCH_SIZE):
+        batch = uncached[i: i + BATCH_SIZE]
         parts = []
         for a in batch:
             parts.append(f'id: {a["id"]}\ncontent: {a["text"][:2500]}\n')
@@ -164,11 +183,27 @@ def main():
         results = call_gemini(prompt)
         for r in results:
             rid = r.get("id", "")
-            oneliners[rid] = r.get("oneliner", "")
-            key_facts_map[rid] = r.get("key_facts", [])
-            quotes_map[rid] = r.get("notable_quote", {"text": "", "zh": ""})
-        if i + BATCH_SIZE < len(valid):
+            ol = r.get("oneliner", "")
+            # Validate: oneliner must contain CJK characters
+            if ol and any('一' <= c <= '鿿' for c in ol):
+                oneliners[rid] = ol
+                key_facts_map[rid] = r.get("key_facts", [])
+                quotes_map[rid] = r.get("notable_quote", {"text": "", "zh": ""})
+                # Cache the result
+                art = next((a for a in batch if a["id"] == rid), None)
+                if art:
+                    cache.set(cache.make_key(rid, art["text"][:500]), {
+                        "oneliner": ol,
+                        "key_facts": r.get("key_facts", []),
+                        "notable_quote": r.get("notable_quote", {"text": "", "zh": ""}),
+                    })
+            else:
+                print(f"[Summarize] oneliner 无中文，丢弃: {rid}")
+        if i + BATCH_SIZE < len(uncached):
             time.sleep(2)
+
+    cache.save()
+    print(f"[Summarize] 缓存已保存: {cache.hits()} 条")
 
     # Step 3: 合并到 news_zh.json
     for item in items:

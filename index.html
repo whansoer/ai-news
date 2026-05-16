@@ -1266,67 +1266,72 @@ body {
   function renderDashboard() {
     if (allNews.length === 0) return;
 
-    // Briefing
+    // Briefing — match top_items to articles, show Chinese titles
     const briefCard = document.getElementById('briefingCard');
     const briefText = (briefingData && briefingData.text) ? briefingData.text.trim() : '';
     const isGarbled = briefText.length < 30 || !/[一-鿿\w]/.test(briefText);
+    const topItems = (briefingData && briefingData.top_items) || [];
+
+    // Match top_items slugs against actual articles (shared logic)
+    const topSlugs = topItems.map(s => s.toLowerCase().trim());
+    const matchedArticles = allNews.filter(n => {
+      const tLower = (n.title || '').toLowerCase();
+      return topSlugs.some(s => tLower.includes(s) || s.includes(tLower));
+    });
+
+    // Build tag labels: prefer Chinese article title, fall back to original slug
+    const tagLabels = topItems.map(slug => {
+      const slugLower = slug.toLowerCase().trim();
+      const found = allNews.find(n => {
+        const tLower = (n.title || '').toLowerCase();
+        return tLower.includes(slugLower) || slugLower.includes(tLower);
+      });
+      if (found) {
+        const zhTitle = t(found, 'title');
+        // If zh title still looks like English (no CJK), show source + summary snippet
+        if (/[一-鿿]/.test(zhTitle)) return zhTitle;
+        const zh = zhMap[found.id] || {};
+        const snippet = zh.oneliner || zh.summary_zh || t(found, 'summary') || '';
+        if (/[一-鿿]/.test(snippet)) return snippet.slice(0, 40);
+        return zhTitle; // fallback: English title
+      }
+      return slug; // no match at all: raw slug
+    });
+
+    // Build detail HTML from matched articles
+    function buildDetailHTML(matched) {
+      if (matched.length > 0) {
+        return '<div class="briefing-detail-title">相关文章</div>' +
+          matched.slice(0, 8).map((n, i) =>
+            '<a class="briefing-detail-item" href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' +
+              '<span class="bdi-index">' + (i + 1) + '</span>' +
+              '<span class="bdi-title">' + esc(t(n, 'title')) + '</span>' +
+              '<span class="bdi-source">' + esc(n.source) + '</span>' +
+            '</a>'
+          ).join('');
+      }
+      return '<p class="briefing-empty">暂无匹配文章，请查看完整新闻列表</p>';
+    }
+
     if (briefText && !isGarbled) {
       briefCard.style.display = 'block';
       document.getElementById('dashBriefingText').textContent = briefText;
-      document.getElementById('dashBriefingTags').innerHTML = (briefingData.top_items || []).map(t =>
-        '<span>' + esc(t) + '</span>'
+      document.getElementById('dashBriefingTags').innerHTML = tagLabels.map(l =>
+        '<span>' + esc(l) + '</span>'
       ).join('');
-      // Build detail: match top_items to actual articles
-      const topSlugs = (briefingData.top_items || []).map(t => t.toLowerCase().trim());
-      const matched = allNews.filter(n => {
-        const tLower = (n.title || '').toLowerCase();
-        return topSlugs.some(s => tLower.includes(s) || s.includes(tLower));
-      });
-      const detailEl = document.getElementById('briefingDetail');
-      if (matched.length > 0) {
-        detailEl.innerHTML =
-          '<div class="briefing-detail-title">相关文章</div>' +
-          matched.slice(0, 8).map((n, i) =>
-            '<a class="briefing-detail-item" href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' +
-              '<span class="bdi-index">' + (i + 1) + '</span>' +
-              '<span class="bdi-title">' + esc(t(n, 'title')) + '</span>' +
-              '<span class="bdi-source">' + esc(n.source) + '</span>' +
-            '</a>'
-          ).join('');
-      } else {
-        detailEl.innerHTML = '<p class="briefing-empty">暂无匹配文章，请查看完整新闻列表</p>';
-      }
-      // Click to expand/collapse
+      document.getElementById('briefingDetail').innerHTML = buildDetailHTML(matchedArticles);
       briefCard.onclick = function(e) {
-        if (e.target.closest('a')) return; // allow link clicks
+        if (e.target.closest('a')) return;
         briefCard.classList.toggle('expanded');
       };
-    } else if (briefingData && (briefingData.top_items || []).length > 0) {
+    } else if (topItems.length > 0) {
       // Garbled/missing text but we have top_items — show fallback
       briefCard.style.display = 'block';
       document.getElementById('dashBriefingText').textContent = '今日 AI 新闻已更新，点击展开查看关联文章。';
-      document.getElementById('dashBriefingTags').innerHTML = (briefingData.top_items || []).map(t =>
-        '<span>' + esc(t) + '</span>'
+      document.getElementById('dashBriefingTags').innerHTML = tagLabels.map(l =>
+        '<span>' + esc(l) + '</span>'
       ).join('');
-      const topSlugs = (briefingData.top_items || []).map(t => t.toLowerCase().trim());
-      const matched = allNews.filter(n => {
-        const tLower = (n.title || '').toLowerCase();
-        return topSlugs.some(s => tLower.includes(s) || s.includes(tLower));
-      });
-      const detailEl = document.getElementById('briefingDetail');
-      if (matched.length > 0) {
-        detailEl.innerHTML =
-          '<div class="briefing-detail-title">相关文章</div>' +
-          matched.slice(0, 8).map((n, i) =>
-            '<a class="briefing-detail-item" href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' +
-              '<span class="bdi-index">' + (i + 1) + '</span>' +
-              '<span class="bdi-title">' + esc(t(n, 'title')) + '</span>' +
-              '<span class="bdi-source">' + esc(n.source) + '</span>' +
-            '</a>'
-          ).join('');
-      } else {
-        detailEl.innerHTML = '<p class="briefing-empty">暂无匹配文章，请查看完整新闻列表</p>';
-      }
+      document.getElementById('briefingDetail').innerHTML = buildDetailHTML(matchedArticles);
       briefCard.onclick = function(e) {
         if (e.target.closest('a')) return;
         briefCard.classList.toggle('expanded');
@@ -1340,7 +1345,9 @@ body {
     document.getElementById('heroRow').innerHTML = top3.map((n, i) => {
       const title = t(n, 'title'), summary = t(n, 'summary');
       const zh = zhMap[n.id] || {};
-      const oneliner = zh.oneliner || zh.summary_zh || summary;
+      // Prefer content with actual CJK characters
+      const cjkCandidates = [zh.oneliner, zh.summary_zh, summary];
+      const oneliner = cjkCandidates.find(c => c && /[一-鿿]/.test(c)) || cjkCandidates.find(c => c) || '';
       return '<article class="hero-card" data-id="' + esc(n.id) + '">' +
         '<div class="hero-rank">#' + (i + 1) + ' 头条</div>' +
         '<div class="hero-source">' + esc(n.source) + '</div>' +
@@ -1378,7 +1385,8 @@ body {
     const top5 = [...allNews].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 5);
     const items = top5.map(n => {
       const zh = zhMap[n.id] || {};
-      const text = zh.oneliner || zh.summary_zh || t(n, 'summary') || t(n, 'title');
+      const cjkCandidates = [zh.oneliner, zh.summary_zh, t(n, 'summary')];
+      const text = cjkCandidates.find(c => c && /[一-鿿]/.test(c)) || cjkCandidates.find(c => c) || t(n, 'title');
       return { id: n.id, source: n.source, text: text };
     }).filter(i => i.text);
     if (items.length === 0) { section.style.display = 'none'; return; }

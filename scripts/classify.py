@@ -1,10 +1,12 @@
-"""AI News Classifier — Gemini 分类 + 标签 + 热度评分，一次调用"""
+"""AI News Classifier — Gemini 分类 + 标签 + 热度评分，一次调用（带缓存）"""
 import json
 import os
 import time
 from datetime import datetime, timezone
 
 import requests
+
+from cache import Cache
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
 INPUT_FILE = os.path.join(DATA_DIR, "news.json")
@@ -120,9 +122,30 @@ def main():
 
     items = data["items"][:MAX_ITEMS]
     classified = {}
+    cache = Cache("classify")
+    uncached = []
+    cache_hits = 0
 
-    for i in range(0, len(items), BATCH_SIZE):
-        batch = items[i: i + BATCH_SIZE]
+    # Pass 1: check cache
+    for item in items:
+        key = cache.make_key(
+            item["id"],
+            item.get("title", ""),
+            item.get("summary", "")[:150],
+            item.get("source", ""),
+        )
+        cached = cache.get(key)
+        if cached and cached.get("category"):
+            classified[item["id"]] = cached
+            cache_hits += 1
+        else:
+            uncached.append(item)
+
+    print(f"[Classify] 缓存命中: {cache_hits}/{len(items)}, 需分类: {len(uncached)}")
+
+    # Pass 2: classify uncached items in batches
+    for i in range(0, len(uncached), BATCH_SIZE):
+        batch = uncached[i: i + BATCH_SIZE]
         results = call_gemini(build_prompt(batch))
         for r in results:
             cid = r.get("id", "")
@@ -135,8 +158,21 @@ def main():
                 "difficulty": r.get("difficulty", "intermediate"),
                 "narrative_angles": r.get("narrative_angles", [])[:3],
             }
-        if i + BATCH_SIZE < len(items):
+        # Cache results for this batch
+        for item in batch:
+            if item["id"] in classified:
+                key = cache.make_key(
+                    item["id"],
+                    item.get("title", ""),
+                    item.get("summary", "")[:150],
+                    item.get("source", ""),
+                )
+                cache.set(key, classified[item["id"]])
+        if i + BATCH_SIZE < len(uncached):
             time.sleep(2)
+
+    cache.save()
+    print(f"[Classify] 缓存已保存: {cache.hits()} 条")
 
     # 合并到 news.json
     for item in items:
