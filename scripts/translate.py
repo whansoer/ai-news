@@ -194,7 +194,7 @@ def main():
         cached = cache.get(key)
         if cached and not cached.get("_fallback"):
             # Re-validate: cached translation must still have CJK
-            if check_cjk(cached.get("title_zh", "")) or check_cjk(cached.get("summary_zh", "")):
+            if check_cjk(cached.get("title_zh", "")) and check_cjk(cached.get("summary_zh", "")):
                 translated[item["id"]] = cached
                 cache_hits += 1
                 continue

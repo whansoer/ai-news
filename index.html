@@ -250,6 +250,108 @@ body {
 .briefing-detail-item .bdi-source {
   font-size: 10px; color: var(--text-muted); flex-shrink: 0;
 }
+
+/* ── Enhanced briefing (new schema) ── */
+.briefing-overview {
+  font-size: 14px; line-height: 1.75; color: var(--text-secondary);
+  margin-bottom: 14px;
+}
+.briefing-keynums {
+  display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 8px;
+}
+.briefing-keynum {
+  display: flex; flex-direction: column; align-items: center;
+  padding: 8px 16px; background: var(--card-elevated); border-radius: var(--radius-md);
+  min-width: 80px;
+}
+.briefing-keynum .kn-value {
+  font-family: var(--font-mono); font-size: 18px; font-weight: 700;
+  color: var(--accent);
+}
+.briefing-keynum .kn-label {
+  font-size: 10px; color: var(--text-muted); margin-top: 2px;
+}
+
+.briefing-section-block {
+  margin-bottom: 14px; padding: 12px 16px;
+  background: var(--card-elevated); border-radius: var(--radius-lg);
+  border-left: 3px solid var(--accent);
+}
+.briefing-section-block .bs-theme {
+  font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 6px;
+}
+.briefing-section-block .bs-summary {
+  font-size: 13px; color: var(--text-secondary); line-height: 1.6; margin-bottom: 6px;
+}
+.briefing-section-block .bs-angle {
+  font-size: 11px; color: var(--accent); font-style: italic;
+}
+.briefing-section-block .bs-links {
+  margin-top: 6px; font-size: 11px; color: var(--text-muted);
+}
+.briefing-section-block .bs-links a {
+  color: var(--accent); margin-right: 8px; text-decoration: none;
+}
+.briefing-section-block .bs-links a:hover { text-decoration: underline; }
+
+.briefing-trend-block {
+  margin-bottom: 10px; padding: 10px 14px;
+  border: 1px solid var(--border); border-radius: var(--radius-md);
+}
+.briefing-trend-block .bt-name {
+  font-size: 12px; font-weight: 600; color: var(--accent-secondary); margin-bottom: 4px;
+}
+.briefing-trend-block .bt-desc {
+  font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 4px;
+}
+.briefing-trend-block .bt-evidence {
+  font-size: 11px; color: var(--text-muted); line-height: 1.5;
+}
+
+.briefing-deep-bite {
+  padding: 10px 14px; margin-bottom: 8px;
+  background: rgba(var(--accent-rgb), 0.04); border-radius: var(--radius-md);
+  border-left: 2px solid var(--accent-secondary);
+}
+.briefing-deep-bite .bdb-title {
+  font-size: 12px; font-weight: 600; margin-bottom: 4px;
+}
+.briefing-deep-bite .bdb-bite {
+  font-size: 12px; color: var(--text-secondary); line-height: 1.5;
+}
+
+.briefing-hot-proj {
+  display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+  margin-bottom: 6px; border: 1px solid var(--border); border-radius: var(--radius-md);
+  transition: border-color .15s; cursor: pointer; text-decoration: none; color: inherit;
+}
+.briefing-hot-proj:hover { border-color: var(--fire); }
+.briefing-hot-proj .bhp-name {
+  font-family: var(--font-mono); font-size: 12px; font-weight: 600; color: var(--text);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200px;
+}
+.briefing-hot-proj .bhp-why {
+  font-size: 11px; color: var(--text-secondary); flex: 1;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.briefing-hot-proj .bhp-stars {
+  font-family: var(--font-mono); font-size: 12px; font-weight: 700; color: var(--fire);
+  flex-shrink: 0;
+}
+
+.briefing-meta {
+  display: flex; gap: 12px; flex-wrap: wrap; font-size: 10px; color: var(--text-muted);
+  padding-top: 12px; margin-top: 12px; border-top: 1px solid var(--border);
+}
+.briefing-meta span { display: inline-flex; align-items: center; gap: 4px; }
+
+.briefing-section-divider {
+  height: 1px; background: var(--border); margin: 12px 0;
+}
+
+.briefing-fallback-note {
+  font-size: 10px; color: var(--text-muted); font-style: italic; margin-top: 8px;
+}
 .briefing-card .briefing-empty { font-size: 13px; color: var(--text-muted); padding: 8px 0; }
 
 /* Hero cards row */
@@ -924,13 +1026,16 @@ body {
       <!-- Briefing card -->
       <div class="briefing-card" id="briefingCard" style="display:none;">
         <div class="briefing-header">
-          <h2>今日 AI 速览</h2>
-          <span class="badge">AI 摘要</span>
+          <h2 id="briefingHeadline">今日 AI 速览</h2>
+          <span class="badge" id="briefingBadge">AI 摘要</span>
           <span class="briefing-chevron">▼</span>
         </div>
         <p class="briefing-text" id="dashBriefingText"></p>
+        <p class="briefing-overview" id="briefingOverview" style="display:none;"></p>
+        <div class="briefing-keynums" id="briefingKeyNums"></div>
         <div class="briefing-tags" id="dashBriefingTags"></div>
         <div class="briefing-detail" id="briefingDetail"></div>
+        <div class="briefing-fallback-note" id="briefingFallbackNote" style="display:none;"></div>
       </div>
 
       <!-- Key highlights -->
@@ -1154,9 +1259,20 @@ body {
     if (currentLang === 'en') return n[field] || '';
     const zh = zhMap[n.id];
     if (!zh) return n[field] || '';
-    // If translation is a fallback (untranslated English), use original
-    if (zh._fallback) return n[field] || '';
-    return zh[field + '_zh'] || n[field] || '';
+
+    // oneliner is zh-only, stored directly (without _zh suffix)
+    if (field === 'oneliner') {
+      const ol = zh.oneliner;
+      if (ol && /[一-鿿]/.test(ol)) return ol;
+      const szh = zh.summary_zh;
+      if (szh && /[一-鿿]/.test(szh)) return szh;
+      return n.summary || '';
+    }
+
+    const zhVal = zh[field + '_zh'];
+    // Must contain actual CJK — otherwise it's effectively untranslated
+    if (zhVal && /[一-鿿]/.test(String(zhVal))) return zhVal;
+    return n[field] || '';
   }
 
   /* ==========================================
@@ -1372,88 +1488,22 @@ body {
   function renderDashboard() {
     if (allNews.length === 0) return;
 
-    // Briefing — match top_items to articles, show Chinese titles
+    // Briefing — enhanced rich rendering (new schema) or classic (old schema)
     const briefCard = document.getElementById('briefingCard');
-    const briefText = (briefingData && briefingData.text) ? briefingData.text.trim() : '';
-    const isGarbled = briefText.length < 30 || !/[一-鿿\w]/.test(briefText);
-    const topItems = (briefingData && briefingData.top_items) || [];
+    const hasNewSchema = briefingData && briefingData.sections && briefingData.sections.length > 0;
 
-    // Match top_items slugs against actual articles (shared logic)
-    const topSlugs = topItems.map(s => s.toLowerCase().trim());
-    const matchedArticles = allNews.filter(n => {
-      const tLower = (n.title || '').toLowerCase();
-      return topSlugs.some(s => tLower.includes(s) || s.includes(tLower));
-    });
-
-    // Build tag labels: prefer Chinese article title, fall back to original slug
-    const tagLabels = topItems.map(slug => {
-      const slugLower = slug.toLowerCase().trim();
-      const found = allNews.find(n => {
-        const tLower = (n.title || '').toLowerCase();
-        return tLower.includes(slugLower) || slugLower.includes(tLower);
-      });
-      if (found) {
-        const zhTitle = t(found, 'title');
-        // If zh title still looks like English (no CJK), show source + summary snippet
-        if (/[一-鿿]/.test(zhTitle)) return zhTitle;
-        const zh = zhMap[found.id] || {};
-        const snippet = zh.oneliner || zh.summary_zh || t(found, 'summary') || '';
-        if (/[一-鿿]/.test(snippet)) return snippet.slice(0, 40);
-        return zhTitle; // fallback: English title
-      }
-      return slug; // no match at all: raw slug
-    });
-
-    // Build detail HTML from matched articles
-    function buildDetailHTML(matched) {
-      if (matched.length > 0) {
-        return '<div class="briefing-detail-title">相关文章</div>' +
-          matched.slice(0, 8).map((n, i) =>
-            '<a class="briefing-detail-item" href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' +
-              '<span class="bdi-index">' + (i + 1) + '</span>' +
-              '<span class="bdi-title">' + esc(t(n, 'title')) + '</span>' +
-              '<span class="bdi-source">' + esc(n.source) + '</span>' +
-            '</a>'
-          ).join('');
-      }
-      return '<p class="briefing-empty">暂无匹配文章，请查看完整新闻列表</p>';
-    }
-
-    if (briefText && !isGarbled) {
-      briefCard.style.display = 'block';
-      document.getElementById('dashBriefingText').textContent = briefText;
-      document.getElementById('dashBriefingTags').innerHTML = tagLabels.map(l =>
-        '<span>' + esc(l) + '</span>'
-      ).join('');
-      document.getElementById('briefingDetail').innerHTML = buildDetailHTML(matchedArticles);
-      briefCard.onclick = function(e) {
-        if (e.target.closest('a')) return;
-        briefCard.classList.toggle('expanded');
-      };
-    } else if (topItems.length > 0) {
-      // Garbled/missing text but we have top_items — show fallback
-      briefCard.style.display = 'block';
-      document.getElementById('dashBriefingText').textContent = '今日 AI 新闻已更新，点击展开查看关联文章。';
-      document.getElementById('dashBriefingTags').innerHTML = tagLabels.map(l =>
-        '<span>' + esc(l) + '</span>'
-      ).join('');
-      document.getElementById('briefingDetail').innerHTML = buildDetailHTML(matchedArticles);
-      briefCard.onclick = function(e) {
-        if (e.target.closest('a')) return;
-        briefCard.classList.toggle('expanded');
-      };
+    if (hasNewSchema) {
+      renderEnhancedBriefing(briefCard);
     } else {
-      briefCard.style.display = 'none';
+      // Classic rendering (backward compatible)
+      renderClassicBriefing(briefCard);
     }
 
     // Hero cards — top 3 by score
     const top3 = [...allNews].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 3);
     document.getElementById('heroRow').innerHTML = top3.map((n, i) => {
       const title = t(n, 'title'), summary = t(n, 'summary');
-      const zh = zhMap[n.id] || {};
-      // Prefer content with actual CJK characters
-      const cjkCandidates = [zh.oneliner, zh.summary_zh, summary];
-      const oneliner = cjkCandidates.find(c => c && /[一-鿿]/.test(c)) || cjkCandidates.find(c => c) || '';
+      const oneliner = t(n, 'oneliner');
       return '<article class="hero-card" data-id="' + esc(n.id) + '">' +
         '<div class="hero-rank">#' + (i + 1) + ' 头条</div>' +
         '<div class="hero-source">' + esc(n.source) + '</div>' +
@@ -1491,14 +1541,260 @@ body {
     renderFavoritesPreview();
   }
 
+  function renderEnhancedBriefing(briefCard) {
+    const isFallback = briefingData._fallback;
+    briefCard.style.display = 'block';
+
+    // Badge
+    document.getElementById('briefingBadge').textContent = isFallback ? '自动生成' : 'AI 主编';
+
+    // Headline
+    const headline = briefingData.headline || briefingData.text || '今日 AI 速览';
+    document.getElementById('briefingHeadline').textContent = headline;
+
+    // Overview — always visible
+    const overview = briefingData.overview || '';
+    const overviewEl = document.getElementById('briefingOverview');
+    if (overview) {
+      overviewEl.style.display = 'block';
+      overviewEl.textContent = overview;
+    } else {
+      overviewEl.style.display = 'none';
+    }
+
+    // Hide classic text element
+    document.getElementById('dashBriefingText').style.display = 'none';
+
+    // Key numbers — always visible
+    const keyNums = briefingData.key_numbers || [];
+    const knEl = document.getElementById('briefingKeyNums');
+    if (keyNums.length > 0) {
+      knEl.innerHTML = keyNums.map(kn =>
+        '<div class="briefing-keynum">' +
+          '<span class="kn-value">' + esc(String(kn.value)) + '</span>' +
+          '<span class="kn-label">' + esc(String(kn.label)) + '</span>' +
+        '</div>'
+      ).join('');
+      knEl.style.display = 'flex';
+    } else {
+      knEl.style.display = 'none';
+    }
+
+    // Tags — from top_items (always visible)
+    const topItems = briefingData.top_items || [];
+    const tagLabels = topItems.map(slug => {
+      const slugLower = String(slug).toLowerCase().trim();
+      const found = allNews.find(n => {
+        const tLower = (n.title || '').toLowerCase();
+        return tLower.includes(slugLower) || slugLower.includes(tLower);
+      });
+      if (found) {
+        const zhTitle = t(found, 'title');
+        if (/[一-鿿]/.test(zhTitle)) return zhTitle;
+        const snippet = t(found, 'oneliner') || '';
+        if (/[一-鿿]/.test(snippet)) return snippet.slice(0, 40);
+        return zhTitle;
+      }
+      return String(slug);
+    });
+    document.getElementById('dashBriefingTags').innerHTML = tagLabels.map(l =>
+      '<span>' + esc(l) + '</span>'
+    ).join('');
+
+    // ── Build detail HTML ──
+    let detailHTML = '';
+
+    // Sections
+    const sections = briefingData.sections || [];
+    if (sections.length > 0) {
+      detailHTML += '<div class="briefing-detail-title">主题分析</div>';
+      sections.forEach(sec => {
+        const secArticles = (sec.item_ids || [])
+          .map(id => allNews.find(n => n.id === id)).filter(Boolean);
+        detailHTML += '<div class="briefing-section-block">' +
+          '<div class="bs-theme">' + esc(sec.theme || '') + '</div>' +
+          '<div class="bs-summary">' + esc(sec.summary || '') + '</div>' +
+          (sec.trend_angle ? '<div class="bs-angle">趋势：' + esc(sec.trend_angle) + '</div>' : '') +
+          (secArticles.length > 0 ? '<div class="bs-links">相关：' +
+            secArticles.map(a => '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(t(a, 'title')).slice(0, 30) + '</a>').join('') +
+          '</div>' : '') +
+        '</div>';
+      });
+    }
+
+    // Trends
+    const trends = briefingData.trends || [];
+    if (trends.length > 0) {
+      if (detailHTML) detailHTML += '<div class="briefing-section-divider"></div>';
+      detailHTML += '<div class="briefing-detail-title">值得关注的趋势</div>';
+      trends.forEach(tr => {
+        detailHTML += '<div class="briefing-trend-block">' +
+          '<div class="bt-name">' + esc(tr.trend || '') + '</div>' +
+          '<div class="bt-desc">' + esc(tr.description || '') + '</div>' +
+          ((tr.evidence || []).length > 0 ? '<div class="bt-evidence">' +
+            tr.evidence.map(e => '▸ ' + esc(e)).join('<br>') +
+          '</div>' : '') +
+        '</div>';
+      });
+    }
+
+    // Hot projects
+    const hotProjs = briefingData.hot_projects || [];
+    if (hotProjs.length > 0) {
+      if (detailHTML) detailHTML += '<div class="briefing-section-divider"></div>';
+      detailHTML += '<div class="briefing-detail-title">GitHub 值得关注</div>';
+      hotProjs.forEach(hp => {
+        const url = hp.url || ('https://github.com/' + (hp.full_name || ''));
+        detailHTML += '<a class="briefing-hot-proj" href="' + esc(url) + '" target="_blank" rel="noopener">' +
+          '<span class="bhp-name" title="' + esc(hp.full_name || '') + '">' + esc(hp.full_name || '') + '</span>' +
+          '<span class="bhp-why">' + esc(hp.why_hot || '') + '</span>' +
+          '<span class="bhp-stars">+' + fmtNum(hp.stars_today || 0) + '★</span>' +
+        '</a>';
+      });
+    }
+
+    // Deep bites
+    const deepBites = briefingData.deep_bites || [];
+    if (deepBites.length > 0) {
+      if (detailHTML) detailHTML += '<div class="briefing-section-divider"></div>';
+      detailHTML += '<div class="briefing-detail-title">深度速读</div>';
+      deepBites.forEach(db => {
+        detailHTML += '<div class="briefing-deep-bite">' +
+          '<div class="bdb-title">' + esc(db.title_zh || '') + '</div>' +
+          '<div class="bdb-bite">' + esc(db.bite || '') + '</div>' +
+        '</div>';
+      });
+    }
+
+    // Must-read links
+    const mustReadIds = briefingData.must_read_ids || [];
+    if (mustReadIds.length > 0) {
+      if (detailHTML) detailHTML += '<div class="briefing-section-divider"></div>';
+      detailHTML += '<div class="briefing-detail-title">今日必读</div>';
+      mustReadIds.forEach((id, i) => {
+        const article = allNews.find(n => n.id === id);
+        if (article) {
+          detailHTML += '<a class="briefing-detail-item" href="' + esc(article.url) + '" target="_blank" rel="noopener">' +
+            '<span class="bdi-index">' + (i + 1) + '</span>' +
+            '<span class="bdi-title">' + esc(t(article, 'title')) + '</span>' +
+            '<span class="bdi-source">' + esc(article.source || '') + '</span>' +
+          '</a>';
+        }
+      });
+    }
+
+    // Meta bar
+    const meta = briefingData.meta || {};
+    if (Object.keys(meta).length > 0) {
+      const metaParts = [];
+      if (meta.total_articles) metaParts.push('<span>共 ' + esc(meta.total_articles) + ' 篇文章</span>');
+      if (meta.multi_source_pct !== undefined) metaParts.push('<span>多源验证率 ' + esc(meta.multi_source_pct) + '%</span>');
+      if (meta.dominant_category) metaParts.push('<span>主导分类：' + esc(meta.dominant_category) + '</span>');
+      if (meta.hot_tag) metaParts.push('<span>热门标签：' + esc(meta.hot_tag) + '(' + esc(meta.hot_tag_count || '') + ')</span>');
+      if (metaParts.length > 0) {
+        detailHTML += '<div class="briefing-meta">' + metaParts.join('') + '</div>';
+      }
+    }
+
+    document.getElementById('briefingDetail').innerHTML = detailHTML;
+
+    // Fallback note
+    const fnEl = document.getElementById('briefingFallbackNote');
+    if (isFallback) {
+      fnEl.style.display = 'block';
+      fnEl.textContent = '此日报由本地数据自动生成。设置 GEMINI_KEY 后可获得 AI 主编撰写的深度日报。';
+    } else {
+      fnEl.style.display = 'none';
+    }
+
+    // Click to expand
+    briefCard.onclick = function(e) {
+      if (e.target.closest('a')) return;
+      briefCard.classList.toggle('expanded');
+    };
+  }
+
+  function renderClassicBriefing(briefCard) {
+    const briefText = (briefingData && briefingData.text) ? briefingData.text.trim() : '';
+    const isGarbled = briefText.length < 30 || !/[一-鿿\w]/.test(briefText);
+    const topItems = (briefingData && briefingData.top_items) || [];
+
+    // Reset enhanced elements
+    document.getElementById('briefingOverview').style.display = 'none';
+    document.getElementById('briefingKeyNums').style.display = 'none';
+    document.getElementById('briefingFallbackNote').style.display = 'none';
+    document.getElementById('dashBriefingText').style.display = 'block';
+
+    // Match top_items slugs against actual articles
+    const topSlugs = topItems.map(s => String(s).toLowerCase().trim());
+    const matchedArticles = allNews.filter(n => {
+      const tLower = (n.title || '').toLowerCase();
+      return topSlugs.some(s => tLower.includes(s) || s.includes(tLower));
+    });
+
+    const tagLabels = topItems.map(slug => {
+      const slugLower = String(slug).toLowerCase().trim();
+      const found = allNews.find(n => {
+        const tLower = (n.title || '').toLowerCase();
+        return tLower.includes(slugLower) || slugLower.includes(tLower);
+      });
+      if (found) {
+        const zhTitle = t(found, 'title');
+        if (/[一-鿿]/.test(zhTitle)) return zhTitle;
+        const snippet = t(found, 'oneliner') || '';
+        if (/[一-鿿]/.test(snippet)) return snippet.slice(0, 40);
+        return zhTitle;
+      }
+      return String(slug);
+    });
+
+    function buildDetailHTML(matched) {
+      if (matched.length > 0) {
+        return '<div class="briefing-detail-title">相关文章</div>' +
+          matched.slice(0, 8).map((n, i) =>
+            '<a class="briefing-detail-item" href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' +
+              '<span class="bdi-index">' + (i + 1) + '</span>' +
+              '<span class="bdi-title">' + esc(t(n, 'title')) + '</span>' +
+              '<span class="bdi-source">' + esc(n.source) + '</span>' +
+            '</a>'
+          ).join('');
+      }
+      return '<p class="briefing-empty">暂无匹配文章，请查看完整新闻列表</p>';
+    }
+
+    if (briefText && !isGarbled) {
+      briefCard.style.display = 'block';
+      document.getElementById('dashBriefingText').textContent = briefText;
+      document.getElementById('dashBriefingTags').innerHTML = tagLabels.map(l =>
+        '<span>' + esc(l) + '</span>'
+      ).join('');
+      document.getElementById('briefingDetail').innerHTML = buildDetailHTML(matchedArticles);
+      briefCard.onclick = function(e) {
+        if (e.target.closest('a')) return;
+        briefCard.classList.toggle('expanded');
+      };
+    } else if (topItems.length > 0) {
+      briefCard.style.display = 'block';
+      document.getElementById('dashBriefingText').textContent = '今日 AI 新闻已更新，点击展开查看关联文章。';
+      document.getElementById('dashBriefingTags').innerHTML = tagLabels.map(l =>
+        '<span>' + esc(l) + '</span>'
+      ).join('');
+      document.getElementById('briefingDetail').innerHTML = buildDetailHTML(matchedArticles);
+      briefCard.onclick = function(e) {
+        if (e.target.closest('a')) return;
+        briefCard.classList.toggle('expanded');
+      };
+    } else {
+      briefCard.style.display = 'none';
+    }
+  }
+
   function renderHighlights() {
     const section = document.getElementById('highlightsSection');
     if (allNews.length === 0) { section.style.display = 'none'; return; }
     const top5 = [...allNews].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 5);
     const items = top5.map(n => {
-      const zh = zhMap[n.id] || {};
-      const cjkCandidates = [zh.oneliner, zh.summary_zh, t(n, 'summary')];
-      const text = cjkCandidates.find(c => c && /[一-鿿]/.test(c)) || cjkCandidates.find(c => c) || t(n, 'title');
+      const text = t(n, 'oneliner') || t(n, 'title');
       return { id: n.id, source: n.source, text: text };
     }).filter(i => i.text);
     if (items.length === 0) { section.style.display = 'none'; return; }
@@ -1804,7 +2100,7 @@ body {
     const relatedMap = {};
     listEl.innerHTML = filtered.map(n => {
       const title = t(n, 'title'), summary = t(n, 'summary');
-      const tags = (currentLang === 'zh' && zhMap[n.id] && zhMap[n.id].tags_zh) ? zhMap[n.id].tags_zh : (n.tags||[]);
+      const tags = t(n, 'tags') || [];
       const isV = !!viewed[n.id];
       const faved = isFaved(n.id);
       const related = getRelated(n, filtered, 3);
@@ -1823,7 +2119,7 @@ body {
         '</div>' +
         '<h2 class="card-title"><a href="' + esc(n.url) + '" target="_blank" rel="noopener" data-linkid="' + esc(n.id) + '">' + esc(title) + '</a></h2>' +
         (summary ? '<p class="card-summary">' + esc(summary) + '</p>' : '') +
-        (currentLang==='zh' && zhMap[n.id] && zhMap[n.id].oneliner ? '<p class="card-oneliner">&#128204; ' + esc(zhMap[n.id].oneliner) + '</p>' : '') +
+        (currentLang==='zh' && t(n, 'oneliner') && /[一-鿿]/.test(t(n, 'oneliner')) ? '<p class="card-oneliner">&#128204; ' + esc(t(n, 'oneliner')) + '</p>' : '') +
         (tags.length ? '<div class="card-tags">' + tags.map(tg => '<span class="card-tag" data-tag="' + esc(tg) + '">' + esc(tg) + '</span>').join('') + '</div>' : '') +
         (relatedMap[n.id] ? '<div class="related-section"><span class="related-label">相关:</span> ' + relatedMap[n.id].map(r => '<span class="related-item" data-nav="' + esc(r.id) + '">' + esc(t(r, 'title')).substring(0, 40) + '</span>').join('') + '</div>' : '') +
       '</article>';
@@ -1903,7 +2199,7 @@ body {
     for (let mi = 0; mi < Math.min(materials.length, 30); mi++) {
       const item = materials[mi];
       const zh = zhMap[item.id] || {};
-      const title = zh.title_zh || item.title || '';
+      const title = t(item, 'title') || '';
       const facts = zh.key_facts || [];
       const quote = zh.notable_quote || {};
       const url = item.url || '';

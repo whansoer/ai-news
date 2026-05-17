@@ -1,5 +1,85 @@
 {
-  "text": "今日 AI 新闻已更新，点击查看详情 →",
+  "headline": "今日AI速览：学术研究最活跃",
+  "overview": "今日共收录98篇AI新闻，分类分布：学术研究37篇, 模型发布30篇, 开源项目19篇, 产品/API12篇。热门标签：Agent（24篇）。其中10%的文章有多来源交叉验证。",
+  "sections": [
+    {
+      "theme": "开源项目领域动态",
+      "summary": "K-Dense-AI /scientific-agent-skills、obra /superpowers、Anil-matcha /Open-Generative-AI等值得关注。",
+      "item_ids": [
+        "bf559441b24d",
+        "c3257d531a3c",
+        "f2f7e303ad9a",
+        "e5348c5ff3f9"
+      ],
+      "trend_angle": ""
+    },
+    {
+      "theme": "学术研究领域动态",
+      "summary": "Nous Research Proposes Lighthouse Attention: A Training-Only Selection-Based Hierarchical Attention That Delivers 1.4–1.7× Pretraining Speedup at Long Context等值得关注。",
+      "item_ids": [
+        "a94a3a58575e"
+      ],
+      "trend_angle": ""
+    }
+  ],
+  "trends": [],
+  "hot_projects": [
+    {
+      "full_name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "why_hot": "单日1601星，Rust项目",
+      "stars_today": 1601,
+      "total_stars": 10669
+    },
+    {
+      "full_name": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "why_hot": "单日397星，TypeScript项目",
+      "stars_today": 397,
+      "total_stars": 2491
+    },
+    {
+      "full_name": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "why_hot": "单日0星，TypeScript项目",
+      "stars_today": 0,
+      "total_stars": 10311
+    }
+  ],
+  "deep_bites": [
+    {
+      "id": "bf559441b24d",
+      "title_zh": "K-Dense-AI /scientific-agent-skills",
+      "bite": "A set of ready to use Agent Skills for research, s"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title_zh": "obra /superpowers",
+      "bite": "An agentic skills framework & software development"
+    }
+  ],
+  "key_numbers": [
+    {
+      "label": "文章总数",
+      "value": "98"
+    },
+    {
+      "label": "多源验证率",
+      "value": "10%"
+    },
+    {
+      "label": "GitHub星增",
+      "value": "+3948"
+    }
+  ],
+  "must_read_ids": [
+    "bf559441b24d",
+    "c3257d531a3c",
+    "f2f7e303ad9a",
+    "e5348c5ff3f9",
+    "a94a3a58575e"
+  ],
+  "text": "今日共收录98篇AI新闻，分类分布：学术研究37篇, 模型发布30篇, 开源项目19篇, 产品/API12篇。热门标签：Agent（24篇）。其中10%的文章有多来源交叉验证。",
   "top_items": [
     "K-Dense-AI /scientific-agent-skills",
     "obra /superpowers",
@@ -7,5 +87,13 @@
     "tinyhumansai /openhuman",
     "Nous Research Proposes Lighthouse Attent"
   ],
-  "updated": "2026-05-17T03:41:41Z"
+  "meta": {
+    "total_articles": 98,
+    "multi_source_pct": 10,
+    "dominant_category": "学术研究",
+    "hot_tag": "Agent",
+    "hot_tag_count": 24
+  },
+  "_from_cache": true,
+  "updated": "2026-05-17T07:18:21Z"
 }
