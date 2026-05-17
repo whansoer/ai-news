@@ -252,9 +252,9 @@ body {
 }
 
 /* ── Enhanced briefing (new schema) ── */
-.briefing-overview {
-  font-size: 14px; line-height: 1.75; color: var(--text-secondary);
-  margin-bottom: 14px;
+.briefing-narrative {
+  font-size: 15px; line-height: 1.8; color: var(--text-secondary);
+  margin-bottom: 16px; white-space: pre-line;
 }
 .briefing-keynums {
   display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 8px;
@@ -464,18 +464,6 @@ body {
   text-transform: uppercase; letter-spacing: 0.08em;
 }
 .highlights-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
-.deep-research-section { margin-bottom: 20px; }
-.deep-research-section h3 { font-size: 14px; font-weight: 600; color: var(--accent); margin: 0 0 12px; }
-.deep-research-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
-.deep-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-xl); padding: 20px; position: relative; }
-.deep-card:hover { border-color: var(--border-strong); }
-.deep-card .deep-thesis { font-size: 14px; color: var(--text); line-height: 1.6; margin-bottom: 12px; font-weight: 500; }
-.deep-card .deep-data { margin-bottom: 10px; }
-.deep-card .deep-data-item { font-size: 12px; color: var(--data-green); font-family: var(--font-mono); padding: 3px 0; padding-left: 12px; border-left: 2px solid var(--data-green); margin-bottom: 4px; }
-.deep-card .deep-impact { font-size: 12px; color: var(--text-secondary); line-height: 1.5; margin-bottom: 8px; }
-.deep-card .deep-impact strong { color: var(--accent); }
-.deep-card .deep-footer { display: flex; gap: 12px; font-size: 11px; color: var(--text-muted); border-top: 1px solid var(--border); padding-top: 10px; }
-.deep-card .deep-footer span { display: inline-flex; align-items: center; gap: 4px; }
 .highlight-card {
   background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
   padding: 14px 16px; transition: border-color .15s;
@@ -948,7 +936,6 @@ body {
   .donut-svg-wrap { margin: 0 auto; }
   .stats-row-dash { grid-template-columns: repeat(2, 1fr); }
   .highlights-grid { grid-template-columns: 1fr; }
-  .deep-research-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: 1fr; }
   .stat-bar-name { width: 60px; }
   .filter-btn { padding: 5px 10px; font-size: 11px; min-height: 32px; }
@@ -1031,7 +1018,7 @@ body {
           <span class="briefing-chevron">▼</span>
         </div>
         <p class="briefing-text" id="dashBriefingText"></p>
-        <p class="briefing-overview" id="briefingOverview" style="display:none;"></p>
+        <p class="briefing-narrative" id="briefingNarrative" style="display:none;"></p>
         <div class="briefing-keynums" id="briefingKeyNums"></div>
         <div class="briefing-tags" id="dashBriefingTags"></div>
         <div class="briefing-detail" id="briefingDetail"></div>
@@ -1046,12 +1033,6 @@ body {
 
       <!-- Hero cards -->
       <div class="hero-row" id="heroRow"></div>
-
-      <!-- Deep research -->
-      <div class="deep-research-section" id="deepResearchSection" style="display:none;">
-        <h3>今日深度</h3>
-        <div class="deep-research-grid" id="deepResearchGrid"></div>
-      </div>
 
       <!-- Rocketship: GitHub star spikes -->
       <div class="rocketship-section" id="rocketshipSection" style="display:none;">
@@ -1218,7 +1199,7 @@ body {
      ========================================== */
   const CAT_LABELS = { model:'模型发布', oss:'开源项目', product:'产品/API', research:'学术研究', funding:'融资收购', policy:'政策监管' };
   let allNews = [], zhMap = {}, statsData = null, weeklyData = null;
-  let briefingData = null, outlineData = null, scriptData = null, deepResearchData = null;
+  let briefingData = null, outlineData = null, scriptData = null;
   let rocketshipData = null;
   let currentCat = 'all', searchQuery = '', currentSort = 'hot';
   let currentLang = localStorage.getItem('ai-news-lang') || 'zh';
@@ -1430,7 +1411,7 @@ body {
   async function loadAll() {
     showSkeleton();
     try {
-      const [rEn, rZh, rStats, rWeekly, rBrief, rOutline, rScript, rDeep, rRocket] = await Promise.all([
+      const [rEn, rZh, rStats, rWeekly, rBrief, rOutline, rScript, rRocket] = await Promise.all([
         fetch('data/news.json'),
         fetch('data/news_zh.json').catch(() => null),
         fetch('data/stats.json').catch(() => null),
@@ -1438,7 +1419,6 @@ body {
         fetch('data/briefing.json').catch(() => null),
         fetch('data/outline.json').catch(() => null),
         fetch('data/script.json').catch(() => null),
-        fetch('data/deepresearch.json').catch(() => null),
         fetch('data/rocketship.json').catch(() => null),
       ]);
       if (!rEn.ok) throw new Error('HTTP ' + rEn.status);
@@ -1454,7 +1434,6 @@ body {
       if (rBrief && rBrief.ok) { briefingData = await rBrief.json(); }
       if (rOutline && rOutline.ok) { outlineData = await rOutline.json(); }
       if (rScript && rScript.ok) { scriptData = await rScript.json(); }
-      if (rDeep && rDeep.ok) { deepResearchData = await rDeep.json(); }
       if (rRocket && rRocket.ok) { rocketshipData = await rRocket.json(); }
 
       document.getElementById('skeletonContainer').style.display = 'none';
@@ -1490,7 +1469,7 @@ body {
 
     // Briefing — enhanced rich rendering (new schema) or classic (old schema)
     const briefCard = document.getElementById('briefingCard');
-    const hasNewSchema = briefingData && briefingData.sections && briefingData.sections.length > 0;
+    const hasNewSchema = briefingData && briefingData.narrative && briefingData.narrative.length > 50;
 
     if (hasNewSchema) {
       renderEnhancedBriefing(briefCard);
@@ -1528,9 +1507,6 @@ body {
     // Key highlights
     renderHighlights();
 
-    // Deep research on top stories
-    renderDeepResearch();
-
     // GitHub rocketship repos
     renderRocketship();
 
@@ -1552,14 +1528,14 @@ body {
     const headline = briefingData.headline || briefingData.text || '今日 AI 速览';
     document.getElementById('briefingHeadline').textContent = headline;
 
-    // Overview — always visible
-    const overview = briefingData.overview || '';
-    const overviewEl = document.getElementById('briefingOverview');
-    if (overview) {
-      overviewEl.style.display = 'block';
-      overviewEl.textContent = overview;
+    // Narrative — the main article, always visible
+    const narrative = briefingData.narrative || '';
+    const narrativeEl = document.getElementById('briefingNarrative');
+    if (narrative) {
+      narrativeEl.style.display = 'block';
+      narrativeEl.textContent = narrative;
     } else {
-      overviewEl.style.display = 'none';
+      narrativeEl.style.display = 'none';
     }
 
     // Hide classic text element
@@ -1604,24 +1580,6 @@ body {
     // ── Build detail HTML ──
     let detailHTML = '';
 
-    // Sections
-    const sections = briefingData.sections || [];
-    if (sections.length > 0) {
-      detailHTML += '<div class="briefing-detail-title">主题分析</div>';
-      sections.forEach(sec => {
-        const secArticles = (sec.item_ids || [])
-          .map(id => allNews.find(n => n.id === id)).filter(Boolean);
-        detailHTML += '<div class="briefing-section-block">' +
-          '<div class="bs-theme">' + esc(sec.theme || '') + '</div>' +
-          '<div class="bs-summary">' + esc(sec.summary || '') + '</div>' +
-          (sec.trend_angle ? '<div class="bs-angle">趋势：' + esc(sec.trend_angle) + '</div>' : '') +
-          (secArticles.length > 0 ? '<div class="bs-links">相关：' +
-            secArticles.map(a => '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(t(a, 'title')).slice(0, 30) + '</a>').join('') +
-          '</div>' : '') +
-        '</div>';
-      });
-    }
-
     // Trends
     const trends = briefingData.trends || [];
     if (trends.length > 0) {
@@ -1650,19 +1608,6 @@ body {
           '<span class="bhp-why">' + esc(hp.why_hot || '') + '</span>' +
           '<span class="bhp-stars">+' + fmtNum(hp.stars_today || 0) + '★</span>' +
         '</a>';
-      });
-    }
-
-    // Deep bites
-    const deepBites = briefingData.deep_bites || [];
-    if (deepBites.length > 0) {
-      if (detailHTML) detailHTML += '<div class="briefing-section-divider"></div>';
-      detailHTML += '<div class="briefing-detail-title">深度速读</div>';
-      deepBites.forEach(db => {
-        detailHTML += '<div class="briefing-deep-bite">' +
-          '<div class="bdb-title">' + esc(db.title_zh || '') + '</div>' +
-          '<div class="bdb-bite">' + esc(db.bite || '') + '</div>' +
-        '</div>';
       });
     }
 
@@ -1720,7 +1665,7 @@ body {
     const topItems = (briefingData && briefingData.top_items) || [];
 
     // Reset enhanced elements
-    document.getElementById('briefingOverview').style.display = 'none';
+    document.getElementById('briefingNarrative').style.display = 'none';
     document.getElementById('briefingKeyNums').style.display = 'none';
     document.getElementById('briefingFallbackNote').style.display = 'none';
     document.getElementById('dashBriefingText').style.display = 'block';
@@ -1803,26 +1748,6 @@ body {
       '<div class="highlight-card">' +
         '<div class="highlight-source">' + esc(i.source) + '</div>' +
         '<div class="highlight-text">' + esc(i.text) + '</div>' +
-      '</div>'
-    ).join('');
-  }
-
-  function renderDeepResearch() {
-    const section = document.getElementById('deepResearchSection');
-    const items = deepResearchData ? (deepResearchData.items || []) : [];
-    if (items.length === 0) { section.style.display = 'none'; return; }
-    section.style.display = 'block';
-    document.getElementById('deepResearchGrid').innerHTML = items.map(dr =>
-      '<div class="deep-card">' +
-        '<div class="deep-thesis">' + esc(dr.thesis || '') + '</div>' +
-        ((dr.key_data || []).length > 0
-          ? '<div class="deep-data">' + dr.key_data.map(kd => '<div class="deep-data-item">' + esc(kd) + '</div>').join('') + '</div>'
-          : '') +
-        (dr.impact ? '<div class="deep-impact"><strong>行业影响：</strong>' + esc(dr.impact) + '</div>' : '') +
-        '<div class="deep-footer">' +
-          (dr.why_matters ? '<span>' + esc(dr.why_matters) + '</span>' : '') +
-          (dr.related_context ? '<span>' + esc(dr.related_context) + '</span>' : '') +
-        '</div>' +
       '</div>'
     ).join('');
   }

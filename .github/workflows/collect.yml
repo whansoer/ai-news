@@ -65,11 +65,6 @@ jobs:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
         run: python scripts/briefing.py
 
-      - name: Deep research on top stories
-        env:
-          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
-        run: python scripts/deepresearch.py
-
       - name: Generate topic outline (weekly)
         if: github.event.schedule == '0 0 * * 1'
         env:
@@ -95,9 +90,6 @@ jobs:
           fi
           if [ ! -f data/briefing.json ]; then
             echo '{"text":"","top_items":[],"updated":""}' > data/briefing.json
-          fi
-          if [ ! -f data/deepresearch.json ]; then
-            echo '{"updated":"","count":0,"items":[]}' > data/deepresearch.json
           fi
           if [ ! -f data/weekly.json ]; then
             echo '{"title":"","summary":"","highlights":[],"top_ids":[],"updated":""}' > data/weekly.json
@@ -126,4 +118,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update ai news [skip ci]"
-          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/briefing.json data/outline.json data/script.json data/deepresearch.json data/rocketship.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/ data/cache/
+          file_pattern: data/news.json data/news_zh.json data/stats.json data/weekly.json data/briefing.json data/outline.json data/script.json data/rocketship.json data/favorites.json data/favorites_archive.json data/archive/ data/search.html data/pagefind/ data/cache/
