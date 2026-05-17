@@ -67,7 +67,19 @@ def call_gemini(user_prompt, retries=2):
                 },
                 timeout=60,
             )
+            if resp.status_code != 200:
+                print(f"[Translate] API HTTP {resp.status_code}: {resp.text[:200]}")
+                if attempt < retries:
+                    time.sleep(2 * (attempt + 1))
+                    continue
+                return []
             data = resp.json()
+            if "candidates" not in data or not data["candidates"]:
+                print(f"[Translate] API 返回无 candidates: {json.dumps(data, ensure_ascii=False)[:300]}")
+                if attempt < retries:
+                    time.sleep(2 * (attempt + 1))
+                    continue
+                return []
             content = data["candidates"][0]["content"]["parts"][0]["text"]
             start = content.find("[")
             end = content.rfind("]")
@@ -207,10 +219,10 @@ def main():
         batch = uncached[i: i + BATCH_SIZE]
         results = translate_batch(batch)
         translated.update(results)
-        # Cache individual results
+        # Cache individual results — skip fallback entries to prevent bad data persistence
         for item in batch:
             result = results.get(item["id"])
-            if result:
+            if result and not result.get("_fallback"):
                 key = cache.make_key(
                     item["id"],
                     item.get("title", ""),
