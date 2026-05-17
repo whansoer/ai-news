@@ -14,7 +14,7 @@ INPUT_FILE = os.path.join(DATA_DIR, "news.json")
 OUTPUT_FILE = os.path.join(DATA_DIR, "news_zh.json")
 
 GEMINI_KEY = os.environ.get("GEMINI_KEY", "")
-MAX_ITEMS = 50
+MAX_ITEMS = 20
 BATCH_SIZE = 10
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
@@ -67,6 +67,13 @@ def call_gemini(user_prompt, retries=2):
                 },
                 timeout=60,
             )
+            if resp.status_code == 429:
+                delay = 5 * (2 ** attempt)  # 5, 10, 20s exponential backoff
+                print(f"[Translate] API 429 (配额超限)，{delay}s 后重试 (attempt {attempt+1}/{retries+1})")
+                if attempt < retries:
+                    time.sleep(delay)
+                    continue
+                return []
             if resp.status_code != 200:
                 print(f"[Translate] API HTTP {resp.status_code}: {resp.text[:200]}")
                 if attempt < retries:
@@ -188,6 +195,9 @@ def main():
     if not items:
         print("[Translate] 无新闻可翻译")
         return
+    # Sort by score descending — high-value articles get translated first
+    items.sort(key=lambda x: x.get("score", 0), reverse=True)
+    items = items[:MAX_ITEMS]
 
     os.makedirs(DATA_DIR, exist_ok=True)
     cache = Cache("translate")
