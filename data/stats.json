@@ -1,13 +1,17 @@
 {
-  "updated": "2026-05-18T03:56:14Z",
-  "total": 106,
+  "updated": "2026-05-18T11:52:30Z",
+  "total": 138,
   "sources": [
     {
-      "name": "MarkTechPost",
-      "count": 15
+      "name": "ArXiv (cs.AI)",
+      "count": 30
     },
     {
-      "name": "ArXiv (cs.AI)",
+      "name": "MarkTechPost",
+      "count": 16
+    },
+    {
+      "name": "ArXiv (cs.CL)",
       "count": 15
     },
     {
@@ -27,34 +31,34 @@
       "count": 12
     },
     {
-      "name": "Synced",
+      "name": "GitHub Trending",
       "count": 10
     },
     {
-      "name": "GitHub Trending",
-      "count": 9
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 30
+      "count": 37
     },
     {
       "name": "LLM",
-      "count": 12
+      "count": 17
     },
     {
       "name": "Google",
       "count": 7
     },
     {
-      "name": "GPT",
+      "name": "Benchmark",
       "count": 5
     },
     {
-      "name": "Benchmark",
-      "count": 4
+      "name": "GPT",
+      "count": 5
     },
     {
       "name": "DeepSeek",
@@ -65,12 +69,20 @@
       "count": 3
     },
     {
+      "name": "Transformer",
+      "count": 2
+    },
+    {
       "name": "GPU",
       "count": 2
     },
     {
       "name": "Gemini",
       "count": 2
+    },
+    {
+      "name": "Llama",
+      "count": 1
     },
     {
       "name": "Claude",
@@ -91,16 +103,12 @@
     {
       "name": "API",
       "count": 1
-    },
-    {
-      "name": "Transformer",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 40
+      "count": 71
     },
     {
       "name": "模型发布",
@@ -108,7 +116,7 @@
     },
     {
       "name": "开源项目",
-      "count": 24
+      "count": 25
     },
     {
       "name": "产品/API",
@@ -126,7 +134,7 @@
     },
     {
       "date": "05-18",
-      "count": 8
+      "count": 41
     },
     {
       "date": "05-28",
@@ -159,14 +167,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "f2f7e303ad9a",
-      "title": "Anil-matcha /Open-Generative-AI",
+      "id": "bf559441b24d",
+      "title": "K-Dense-AI /scientific-agent-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "356c38d07c93",
-      "title": "BigBodyCobain /Shadowbroker",
+      "id": "087dae28b6e3",
+      "title": "ggml-org /llama.cpp",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -177,34 +185,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "6e0c4d897e7c",
-      "title": "NirDiamant /agents-towards-production",
+      "id": "356c38d07c93",
+      "title": "BigBodyCobain /Shadowbroker",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d126e4ab7f5d",
-      "title": "dograh-hq /dograh",
+      "id": "ef8543f0bb46",
+      "title": "Amazon launches Alexa for Shopping as Rufus moves behind the scenes",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "AI News"
     },
     {
-      "id": "bf559441b24d",
-      "title": "K-Dense-AI /scientific-agent-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "05d208b2500e",
-      "title": "A Coding Implementation to Compress and Benchmark Instruction-Tuned LLMs with FP8, GPTQ, and SmoothQuant Quantization using llmcompressor",
+      "id": "b028c2570f1c",
+      "title": "NVIDIA Introduces a 4-Bit Pretraining Methodology Using NVFP4, Validated on a 12B Hybrid Mamba-Transformer at 10T Token Horizon",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
+      "id": "1c8c22c5bf23",
+      "title": "Always Learning, Always Mixing: Efficient and Simple Data Mixing All The Time",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "97d646dc3650",
+      "title": "Fluency and Faithfulness in Human and Machine Literary Translation",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-05-18T03:46:44Z",
-  "count": 4,
+  "updated": "2026-05-18T11:52:39Z",
+  "count": 5,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -258,6 +258,70 @@
         }
       },
       "_ts": 1779076004
+    },
+    "87a1e16e76b095d8": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录138篇AI新闻，分类分布：学术研究71篇, 模型发布30篇, 开源项目25篇, 产品/API12篇。热门标签：Agent（37篇）。其中7%的文章有多来源交叉验证。\n\n▸ tinyhumansai /openhuman：Your Personal AI super intelligence. Private, Simple and extremely powerful.\n\n▸ HKUDS /CLI-Anything：\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/\n\n▸ K-Dense-AI /scientific-agent-skills：A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing\n\n▸ ggml-org /llama.cpp：LLM inference in C/C++\n\n▸ tech-leads-club /agent-skills：The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude C",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "Imbad0202/academic-research-skills",
+            "url": "https://github.com/Imbad0202/academic-research-skills",
+            "why_hot": "单日1302星，Python项目",
+            "stars_today": 1302,
+            "total_stars": 10278
+          },
+          {
+            "full_name": "tinyhumansai/openhuman",
+            "url": "https://github.com/tinyhumansai/openhuman",
+            "why_hot": "单日1690星，Rust项目",
+            "stars_today": 1690,
+            "total_stars": 15462
+          },
+          {
+            "full_name": "colbymchenry/codegraph",
+            "url": "https://github.com/colbymchenry/codegraph",
+            "why_hot": "单日0星，TypeScript项目",
+            "stars_today": 0,
+            "total_stars": 3893
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "138"
+          },
+          {
+            "label": "多源验证率",
+            "value": "7%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4451"
+          }
+        ],
+        "must_read_ids": [
+          "e5348c5ff3f9",
+          "12e952795179",
+          "bf559441b24d",
+          "087dae28b6e3",
+          "96cb5d4c7f75"
+        ],
+        "text": "今日共收录138篇AI新闻，分类分布：学术研究71篇, 模型发布30篇, 开源项目25篇, 产品/API12篇。热门标签：Agent（37篇）。其中7%的文章有多来源交叉验证。",
+        "top_items": [
+          "tinyhumansai /openhuman",
+          "HKUDS /CLI-Anything",
+          "K-Dense-AI /scientific-agent-skills",
+          "ggml-org /llama.cpp",
+          "tech-leads-club /agent-skills"
+        ],
+        "meta": {
+          "total_articles": 138,
+          "multi_source_pct": 7
+        }
+      },
+      "_ts": 1779105159
     }
   }
 }
