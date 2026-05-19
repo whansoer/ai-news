@@ -1,25 +1,25 @@
 {
-  "updated": "2026-05-19T03:47:49Z",
-  "total": 141,
+  "updated": "2026-05-19T11:29:29Z",
+  "total": 160,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
       "count": 30
     },
     {
-      "name": "MarkTechPost",
-      "count": 18
+      "name": "ArXiv (cs.CL)",
+      "count": 30
     },
     {
-      "name": "OpenAI",
-      "count": 16
+      "name": "MarkTechPost",
+      "count": 20
     },
     {
       "name": "Hugging Face",
       "count": 15
     },
     {
-      "name": "ArXiv (cs.CL)",
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -27,12 +27,12 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
+      "name": "GitHub Trending",
+      "count": 13
     },
     {
-      "name": "GitHub Trending",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,18 +42,22 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 37
+      "count": 45
     },
     {
       "name": "LLM",
-      "count": 16
+      "count": 18
+    },
+    {
+      "name": "Benchmark",
+      "count": 7
     },
     {
       "name": "Google",
       "count": 7
     },
     {
-      "name": "Benchmark",
+      "name": "OpenAI",
       "count": 5
     },
     {
@@ -61,19 +65,23 @@
       "count": 5
     },
     {
-      "name": "OpenAI",
+      "name": "DeepSeek",
       "count": 4
     },
     {
-      "name": "DeepSeek",
-      "count": 4
+      "name": "GPU",
+      "count": 3
     },
     {
       "name": "Transformer",
       "count": 3
     },
     {
-      "name": "GPU",
+      "name": "API",
+      "count": 2
+    },
+    {
+      "name": "Diffusion",
       "count": 2
     },
     {
@@ -89,34 +97,26 @@
       "count": 1
     },
     {
-      "name": "Diffusion",
-      "count": 1
-    },
-    {
       "name": "Meta",
       "count": 1
     },
     {
       "name": "Embedding",
       "count": 1
-    },
-    {
-      "name": "API",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 73
+      "count": 90
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 30
     },
     {
       "name": "开源项目",
-      "count": 25
+      "count": 28
     },
     {
       "name": "产品/API",
@@ -126,15 +126,15 @@
   "dailyTrend": [
     {
       "date": "05-17",
-      "count": 4
+      "count": 3
     },
     {
       "date": "05-18",
-      "count": 41
+      "count": 26
     },
     {
       "date": "05-19",
-      "count": 7
+      "count": 44
     },
     {
       "date": "05-28",
@@ -167,52 +167,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "bf559441b24d",
-      "title": "K-Dense-AI /scientific-agent-skills",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "087dae28b6e3",
-      "title": "ggml-org /llama.cpp",
+      "id": "e6a501142310",
+      "title": "rohitg00 /agentmemory",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "96cb5d4c7f75",
-      "title": "tech-leads-club /agent-skills",
+      "id": "357d65249067",
+      "title": "rtk-ai /rtk",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "356c38d07c93",
-      "title": "BigBodyCobain /Shadowbroker",
+      "id": "5dfe15d5980d",
+      "title": "msitarzewski /agency-agents",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "bb12754c8385",
-      "title": "AI is a matter of power, infrastructure and security: TechEx North America",
+      "id": "cae5b71f8beb",
+      "title": "The Nvidia H200 China deal survived the Trump-Xi summit–just not in the way anyone expected",
       "score": 5,
       "source": "AI News"
     },
     {
-      "id": "9f8d5ae45548",
-      "title": "Meet MemPrivacy: An Edge-Cloud Framework that Uses Local Reversible Pseudonymization to Protect User Data Without Breaking Memory Utility",
+      "id": "7be2bc5c70a2",
+      "title": "Best Enterprise Level Agentic AI Platforms for 2026",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "36dab186d020",
-      "title": "Stochastic Gradient Descent (SGD’s) Frequency Bias and How Adam Fixes It",
+      "id": "26e60d18c2c7",
+      "title": "How to Build an Advanced Agentic AI System with Planning, Tool Calling, Memory, and Self-Critique Using OpenAI API",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "5fe33294ceaa",
-      "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
+      "id": "4599d96ab597",
+      "title": "DeepSlide: From Artifacts to Presentation Delivery",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.AI)"
     }
   ]
 }
