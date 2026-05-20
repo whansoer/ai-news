@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-19T18:13:15Z",
-  "total": 160,
+  "updated": "2026-05-20T03:48:44Z",
+  "total": 172,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 30
+      "count": 45
     },
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 20
-    },
-    {
-      "name": "Google AI",
-      "count": 15
+      "count": 22
     },
     {
       "name": "OpenAI",
@@ -27,34 +23,38 @@
       "count": 15
     },
     {
+      "name": "Google AI",
+      "count": 15
+    },
+    {
       "name": "GitHub Trending",
       "count": 13
     },
     {
-      "name": "AI News",
-      "count": 12
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 7
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 45
+      "count": 49
     },
     {
       "name": "LLM",
-      "count": 18
+      "count": 22
     },
     {
       "name": "Benchmark",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Google",
-      "count": 6
+      "count": 7
     },
     {
       "name": "OpenAI",
@@ -85,8 +85,16 @@
       "count": 2
     },
     {
+      "name": "Meta",
+      "count": 2
+    },
+    {
       "name": "Transformer",
       "count": 2
+    },
+    {
+      "name": "Prompt",
+      "count": 1
     },
     {
       "name": "Llama",
@@ -97,10 +105,6 @@
       "count": 1
     },
     {
-      "name": "Meta",
-      "count": 1
-    },
-    {
       "name": "Embedding",
       "count": 1
     }
@@ -108,7 +112,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 90
+      "count": 107
     },
     {
       "name": "模型发布",
@@ -120,21 +124,21 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 7
     }
   ],
   "dailyTrend": [
-    {
-      "date": "05-17",
-      "count": 3
-    },
     {
       "date": "05-18",
       "count": 26
     },
     {
       "date": "05-19",
-      "count": 53
+      "count": 66
+    },
+    {
+      "date": "05-20",
+      "count": 6
     },
     {
       "date": "05-28",
@@ -191,28 +195,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "8feaaef8f93e",
-      "title": "I/O 2026",
+      "id": "5ce130c0c4e6",
+      "title": "Upstash for Redis vs Supabase vs Neon: Which One Fits Vibe Coding Workflows in 2026?",
       "score": 5,
-      "source": "Google AI"
+      "source": "MarkTechPost"
     },
     {
-      "id": "757b4a2a57b0",
-      "title": "How AI Mode is changing the way people search in the U.S.",
+      "id": "b25fe2ef51a8",
+      "title": "Google Launches Antigravity 2.0 at I/O 2026: A Standalone Agent-First Platform with CLI, SDK, Managed Execution, and Enterprise Support",
       "score": 5,
-      "source": "Google AI"
+      "source": "MarkTechPost"
     },
     {
-      "id": "adac55b4e4fe",
-      "title": "New ways to create and get things done in Google Workspace",
+      "id": "b8480648c364",
+      "title": "Introducing OpenAI for Singapore",
       "score": 5,
-      "source": "Google AI"
+      "source": "OpenAI"
     },
     {
-      "id": "cd2fbffde559",
-      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "id": "63751fb3a376",
+      "title": "OlmoEarth v1.1: A more efficient family of models",
       "score": 5,
-      "source": "Google AI"
+      "source": "Hugging Face"
     }
   ]
 }
