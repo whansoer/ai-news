@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-05-20T03:48:54Z",
-  "count": 10,
+  "updated": "2026-05-20T11:00:16Z",
+  "count": 11,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -642,6 +642,70 @@
         }
       },
       "_ts": 1779248934
+    },
+    "59830e29205685e4": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录205篇AI新闻，分类分布：学术研究137篇, 开源项目31篇, 模型发布30篇, 产品/API7篇。热门标签：Agent（60篇）。其中11%的文章有多来源交叉验证。\n\n▸ tinyhumansai /openhuman：Your Personal AI super intelligence. Private, Simple and extremely powerful.\n\n▸ multica-ai /andrej-karpathy-skills：A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations\n\n▸ rohitg00 /ai-engineering-from-scratch：Learn it. Build it. Ship it for others.\n\n▸ HKUDS /CLI-Anything：\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/\n\n▸ can1357 /oh-my-pi：⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, brows",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "colbymchenry/codegraph",
+            "url": "https://github.com/colbymchenry/codegraph",
+            "why_hot": "单日1850星，TypeScript项目",
+            "stars_today": 1850,
+            "total_stars": 7410
+          },
+          {
+            "full_name": "Imbad0202/academic-research-skills",
+            "url": "https://github.com/Imbad0202/academic-research-skills",
+            "why_hot": "单日3164星，Python项目",
+            "stars_today": 3164,
+            "total_stars": 14954
+          },
+          {
+            "full_name": "tinyhumansai/openhuman",
+            "url": "https://github.com/tinyhumansai/openhuman",
+            "why_hot": "单日3973星，Rust项目",
+            "stars_today": 3973,
+            "total_stars": 22926
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "205"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+15439"
+          }
+        ],
+        "must_read_ids": [
+          "e5348c5ff3f9",
+          "39ec5846ae4b",
+          "4d8e922de101",
+          "12e952795179",
+          "5486dec8b59a"
+        ],
+        "text": "今日共收录205篇AI新闻，分类分布：学术研究137篇, 开源项目31篇, 模型发布30篇, 产品/API7篇。热门标签：Agent（60篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "tinyhumansai /openhuman",
+          "multica-ai /andrej-karpathy-skills",
+          "rohitg00 /ai-engineering-from-scratch",
+          "HKUDS /CLI-Anything",
+          "can1357 /oh-my-pi"
+        ],
+        "meta": {
+          "total_articles": 205,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1779274816
     }
   }
 }

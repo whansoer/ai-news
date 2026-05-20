@@ -1,18 +1,22 @@
 {
-  "updated": "2026-05-20T03:48:44Z",
-  "total": 172,
+  "updated": "2026-05-20T11:00:07Z",
+  "total": 205,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 45
+      "count": 60
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 30
+      "count": 45
     },
     {
       "name": "MarkTechPost",
       "count": 22
+    },
+    {
+      "name": "GitHub Trending",
+      "count": 16
     },
     {
       "name": "OpenAI",
@@ -27,10 +31,6 @@
       "count": 15
     },
     {
-      "name": "GitHub Trending",
-      "count": 13
-    },
-    {
       "name": "Synced",
       "count": 10
     },
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 49
+      "count": 60
     },
     {
       "name": "LLM",
-      "count": 22
+      "count": 30
     },
     {
       "name": "Benchmark",
-      "count": 8
+      "count": 11
     },
     {
       "name": "Google",
@@ -58,7 +58,7 @@
     },
     {
       "name": "OpenAI",
-      "count": 5
+      "count": 6
     },
     {
       "name": "GPT",
@@ -69,12 +69,24 @@
       "count": 4
     },
     {
+      "name": "Prompt",
+      "count": 3
+    },
+    {
       "name": "Gemini",
       "count": 3
     },
     {
       "name": "GPU",
       "count": 3
+    },
+    {
+      "name": "Claude",
+      "count": 2
+    },
+    {
+      "name": "Embedding",
+      "count": 2
     },
     {
       "name": "API",
@@ -93,34 +105,22 @@
       "count": 2
     },
     {
-      "name": "Prompt",
-      "count": 1
-    },
-    {
       "name": "Llama",
-      "count": 1
-    },
-    {
-      "name": "Claude",
-      "count": 1
-    },
-    {
-      "name": "Embedding",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 107
+      "count": 137
+    },
+    {
+      "name": "开源项目",
+      "count": 31
     },
     {
       "name": "模型发布",
       "count": 30
-    },
-    {
-      "name": "开源项目",
-      "count": 28
     },
     {
       "name": "产品/API",
@@ -138,7 +138,7 @@
     },
     {
       "date": "05-20",
-      "count": 6
+      "count": 40
     },
     {
       "date": "05-28",
@@ -165,8 +165,26 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "39ec5846ae4b",
+      "title": "multica-ai /andrej-karpathy-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "12e952795179",
       "title": "HKUDS /CLI-Anything",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5486dec8b59a",
+      "title": "can1357 /oh-my-pi",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -177,46 +195,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "e6a501142310",
-      "title": "rohitg00 /agentmemory",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "357d65249067",
-      "title": "rtk-ai /rtk",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "5dfe15d5980d",
       "title": "msitarzewski /agency-agents",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "5ce130c0c4e6",
-      "title": "Upstash for Redis vs Supabase vs Neon: Which One Fits Vibe Coding Workflows in 2026?",
+      "id": "6be269ce2129",
+      "title": "The Annotation Scarcity Paradox in Low-Resource NLP Evaluation: A Decade of Acceleration and Emerging Constraints",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "b25fe2ef51a8",
-      "title": "Google Launches Antigravity 2.0 at I/O 2026: A Standalone Agent-First Platform with CLI, SDK, Managed Execution, and Enterprise Support",
+      "id": "1489fc3ead78",
+      "title": "Benchmarking Commercial ASR Systems on Code-Switching Speech: Arabic, Persian, and German",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "b8480648c364",
-      "title": "Introducing OpenAI for Singapore",
+      "id": "66a9a2fba4c6",
+      "title": "ReacTOD: Bounded Neuro-Symbolic Agentic NLU for Zero-Shot Dialogue State Tracking",
       "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "63751fb3a376",
-      "title": "OlmoEarth v1.1: A more efficient family of models",
-      "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
