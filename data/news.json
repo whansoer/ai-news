@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-21T11:35:05Z",
+  "updated": "2026-05-21T18:07:37Z",
   "total": 206,
-  "new_count": 49,
+  "new_count": 30,
   "items": [
     {
       "id": "39ec5846ae4b",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-05-21T11:32:15Z",
+      "published": "2026-05-21T18:04:52Z",
       "tags": [
         "Claude",
         "LLM"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Repository for skills to assist AI coding agents with .NET and C#",
-      "published": "2026-05-21T11:32:15Z",
+      "published": "2026-05-21T18:04:52Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-05-21T11:32:15Z",
+      "published": "2026-05-21T18:04:52Z",
       "tags": [
         "Agent"
       ],
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "published": "2026-05-21T11:32:15Z",
+      "published": "2026-05-21T18:04:52Z",
       "tags": [
         "Agent"
       ],
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Chrome DevTools for coding agents",
-      "published": "2026-05-21T11:32:15Z",
+      "published": "2026-05-21T18:04:52Z",
       "tags": [
         "Agent"
       ],
@@ -147,7 +147,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-05-21T11:32:15Z",
+      "published": "2026-05-21T18:04:52Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
-      "published": "2026-05-21T11:32:15Z",
+      "published": "2026-05-21T18:04:52Z",
       "tags": [
         "Claude",
         "Google",
@@ -195,6 +195,35 @@
         "API"
       ],
       "oneliner": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookL"
+    },
+    {
+      "id": "973c5765af89",
+      "title": "AdventHealth advances whole-person care with OpenAI",
+      "url": "https://openai.com/index/adventhealth",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "published": "2026-05-21T12:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "90979a1e3b7a"
+        ],
+        "score": 5
+      },
+      "title_zh": "AdventHealth advances whole-person care with OpenAI",
+      "summary_zh": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, "
     },
     {
       "id": "98f77cf61b44",
@@ -264,11 +293,12 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "973c5765af89",
           "619e2ba43125",
           "9e924c46a871",
           "56348ee114cb"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "What is a Forward Deployed Engineer: The AI Role OpenAI, Anthropic, and Google Are Hiring in 2026",
       "summary_zh": "OpenAI launched a $4B+ Deployment Company and Anthropic closed a $1.5B joint venture with Blackstone and Goldman Sachs — both built around the Forward Deployed Engineer model Palantir pioneered. Here is what FDEs actually do, why standard SaaS...",
@@ -528,10 +558,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Under Pressure: Emotional Framing Induces Measurable Behavioral Shifts and Structured Internal Geometry in Small Language Models",
-      "summary_zh": "arXiv:2605.20202v1 Announce Type: new \nAbstract: I study whether emotionally framed evaluation follow-ups change both the behavior and the calm-relative internal representations of small, locally deployed language models. Our main benchmark uses...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.20202v1 Announce Type: new \nAbstract: I study whether emotionally framed evaluation follo"
+      "oneliner": ""
     },
     {
       "id": "382fbae36e68",
@@ -5047,29 +5077,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      }
-    },
-    {
-      "id": "09ab76a12173",
-      "title": "Work with Codex from anywhere",
-      "url": "https://openai.com/index/work-with-codex-from-anywhere",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "published": "2026-05-14T13:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       }
     }
   ]
