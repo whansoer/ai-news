@@ -1,22 +1,22 @@
 {
-  "updated": "2026-05-21T03:59:14Z",
-  "total": 216,
+  "updated": "2026-05-21T11:34:54Z",
+  "total": 236,
   "sources": [
+    {
+      "name": "ArXiv (cs.CL)",
+      "count": 60
+    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 60
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 45
-    },
-    {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 29
     },
     {
       "name": "GitHub Trending",
-      "count": 16
+      "count": 19
     },
     {
       "name": "Hugging Face",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 65
     },
     {
       "name": "LLM",
-      "count": 30
+      "count": 34
     },
     {
       "name": "Benchmark",
@@ -54,22 +54,30 @@
     },
     {
       "name": "Google",
-      "count": 8
+      "count": 10
     },
     {
       "name": "OpenAI",
-      "count": 8
+      "count": 9
     },
     {
       "name": "GPT",
       "count": 5
     },
     {
-      "name": "DeepSeek",
+      "name": "Prompt",
       "count": 4
     },
     {
       "name": "Diffusion",
+      "count": 4
+    },
+    {
+      "name": "DeepSeek",
+      "count": 4
+    },
+    {
+      "name": "Claude",
       "count": 3
     },
     {
@@ -77,23 +85,23 @@
       "count": 3
     },
     {
-      "name": "Prompt",
-      "count": 3
-    },
-    {
       "name": "GPU",
       "count": 3
     },
     {
-      "name": "Claude",
+      "name": "API",
       "count": 2
     },
     {
-      "name": "Qwen",
+      "name": "RAG",
       "count": 2
     },
     {
       "name": "Embedding",
+      "count": 2
+    },
+    {
+      "name": "Qwen",
       "count": 2
     },
     {
@@ -105,7 +113,7 @@
       "count": 2
     },
     {
-      "name": "API",
+      "name": "Anthropic",
       "count": 1
     },
     {
@@ -116,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 142
+      "count": 159
     },
     {
       "name": "开源项目",
-      "count": 32
+      "count": 35
     },
     {
       "name": "模型发布",
@@ -138,11 +146,11 @@
     },
     {
       "date": "05-20",
-      "count": 44
+      "count": 29
     },
     {
       "date": "05-21",
-      "count": 7
+      "count": 43
     },
     {
       "date": "05-28",
@@ -163,32 +171,14 @@
   ],
   "top10": [
     {
-      "id": "e5348c5ff3f9",
-      "title": "tinyhumansai /openhuman",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "39ec5846ae4b",
       "title": "multica-ai /andrej-karpathy-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "4d8e922de101",
-      "title": "rohitg00 /ai-engineering-from-scratch",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "12e952795179",
-      "title": "HKUDS /CLI-Anything",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "5486dec8b59a",
-      "title": "can1357 /oh-my-pi",
+      "id": "5acadd2fc454",
+      "title": "dotnet /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -199,28 +189,46 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "5dfe15d5980d",
-      "title": "msitarzewski /agency-agents",
+      "id": "12e952795179",
+      "title": "HKUDS /CLI-Anything",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "619e2ba43125",
-      "title": "Meet Turbovec: A Rust Vector Index with Python Bindings, and Built on Google’s TurboQuant Algorithm",
+      "id": "b4212d4b4d44",
+      "title": "ChromeDevTools /chrome-devtools-mcp",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "d11757313136",
+      "title": "teng-lin /notebooklm-py",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "98f77cf61b44",
+      "title": "Nvidia’s Vera chip is the US$200 billion bet Jensen Huang doesn’t want you to overlook",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "224a3185d97d",
+      "title": "One Model, Three Modalities: ByteDance Releases Lance for Image and Video Understanding, Generation, and Editing",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "58130303da4c",
-      "title": "We’re announcing new community investments in Missouri.",
+      "id": "90979a1e3b7a",
+      "title": "What is a Forward Deployed Engineer: The AI Role OpenAI, Anthropic, and Google Are Hiring in 2026",
       "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "c1e2764b80c5",
-      "title": "100 things we announced at I/O 2026",
-      "score": 5,
-      "source": "Google AI"
+      "source": "MarkTechPost"
     }
   ]
 }
