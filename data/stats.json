@@ -1,18 +1,18 @@
 {
-  "updated": "2026-05-22T03:55:24Z",
-  "total": 254,
+  "updated": "2026-05-22T10:58:46Z",
+  "total": 268,
   "sources": [
+    {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 60
-    },
-    {
       "name": "MarkTechPost",
-      "count": 32
+      "count": 31
     },
     {
       "name": "GitHub Trending",
@@ -42,14 +42,18 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 78
+      "count": 79
     },
     {
       "name": "LLM",
-      "count": 35
+      "count": 39
     },
     {
       "name": "Benchmark",
+      "count": 13
+    },
+    {
+      "name": "OpenAI",
       "count": 11
     },
     {
@@ -57,15 +61,15 @@
       "count": 10
     },
     {
-      "name": "OpenAI",
-      "count": 10
+      "name": "Prompt",
+      "count": 7
+    },
+    {
+      "name": "Gemini",
+      "count": 4
     },
     {
       "name": "GPU",
-      "count": 5
-    },
-    {
-      "name": "Prompt",
       "count": 4
     },
     {
@@ -81,11 +85,7 @@
       "count": 4
     },
     {
-      "name": "Claude",
-      "count": 3
-    },
-    {
-      "name": "Qwen",
+      "name": "Transformer",
       "count": 3
     },
     {
@@ -93,7 +93,11 @@
       "count": 3
     },
     {
-      "name": "Gemini",
+      "name": "Claude",
+      "count": 3
+    },
+    {
+      "name": "Qwen",
       "count": 3
     },
     {
@@ -105,15 +109,19 @@
       "count": 2
     },
     {
-      "name": "Meta",
-      "count": 2
+      "name": "Microsoft",
+      "count": 1
     },
     {
-      "name": "Transformer",
-      "count": 2
+      "name": "Fine-tune",
+      "count": 1
     },
     {
       "name": "Anthropic",
+      "count": 1
+    },
+    {
+      "name": "Meta",
       "count": 1
     },
     {
@@ -124,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 177
+      "count": 191
     },
     {
       "name": "开源项目",
@@ -146,11 +154,11 @@
     },
     {
       "date": "05-21",
-      "count": 55
+      "count": 40
     },
     {
       "date": "05-22",
-      "count": 7
+      "count": 42
     },
     {
       "date": "05-28",
@@ -171,26 +179,8 @@
   ],
   "top10": [
     {
-      "id": "39ec5846ae4b",
-      "title": "multica-ai /andrej-karpathy-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "5acadd2fc454",
-      "title": "dotnet /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "12e952795179",
-      "title": "HKUDS /CLI-Anything",
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,34 +191,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "4d8e922de101",
-      "title": "rohitg00 /ai-engineering-from-scratch",
+      "id": "5acadd2fc454",
+      "title": "dotnet /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d11757313136",
-      "title": "teng-lin /notebooklm-py",
+      "id": "282a25929c19",
+      "title": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "AI News"
     },
     {
-      "id": "f62b9a46d51e",
-      "title": "How CopilotKit Is Redefining the Agentic AI Stack in 2026",
+      "id": "f4f2f1817b9d",
+      "title": "China’s AI just mapped its entire renewable energy grid. Here’s why the rest of the world should pay attention",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "e0f241a5f596",
+      "title": "Musk and Zuckerberg convinced Trump to scrap AI executive order",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "15bc858fbea2",
+      "title": "Microsoft Releases Fara1.5: A Family of Browser Computer-Use Agents (4B/9B/27B) That Outperform OpenAI Operator and Gemini 2.5 Computer Use on Online-Mind2Web",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "963aca643bfe",
-      "title": "Qwen Introduces Qwen3.7-Max: A Reasoning Agent Model With a 1M-Token Context Window",
+      "id": "88d510f9b33c",
+      "title": "Build Recurrent-Depth Transformers with OpenMythos for MLA, GQA, Sparse MoE, and Loop-Scaled Reasoning",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "fb57caeeb152",
-      "title": "Cohere Releases Command A+: A 218B Sparse MoE Model for Agentic Workflows That Runs on as Few as Two H100 GPUs",
+      "id": "3aba7d1bc142",
+      "title": "CR4T: Rewrite-Based Guardrails for Adolescent LLM Safety",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "f140c3138176",
+      "title": "Broadening Access to Transportation Safety Data with Generative AI: A Schema-Grounded Framework for Spatial Natural Language Queries",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
