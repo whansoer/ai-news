@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-22T10:58:56Z",
-  "total": 231,
-  "new_count": 54,
+  "updated": "2026-05-22T18:00:46Z",
+  "total": 232,
+  "new_count": 34,
   "items": [
     {
       "id": "4d8e922de101",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-05-22T10:56:09Z",
+      "published": "2026-05-22T17:57:55Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Chrome DevTools for coding agents",
-      "published": "2026-05-22T10:56:09Z",
+      "published": "2026-05-22T17:57:55Z",
       "tags": [
         "Agent"
       ],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Repository for skills to assist AI coding agents with .NET and C#",
-      "published": "2026-05-22T10:56:09Z",
+      "published": "2026-05-22T17:57:55Z",
       "tags": [
         "Agent"
       ],
@@ -81,6 +81,29 @@
       "oneliner": "Repository for skills to assist AI coding agents with .NET and C#"
     },
     {
+      "id": "d58891a38c35",
+      "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "url": "https://huggingface.co/blog/Dharma-AI/specialization-beats-scale",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-05-22T15:25:59Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "282a25929c19",
       "title": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
       "url": "https://www.artificialintelligence-news.com/news/openai-singapore-ai-lab-imda-agentic-ai-framework/",
@@ -99,9 +122,10 @@
         "level": "multi-source",
         "corroborating_ids": [
           "15bc858fbea2",
+          "f2261073b77c",
           "973c5765af89"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "OpenAI opens Singapore AI lab as IMDA updates AI framework",
       "summary_zh": "OpenAI will open its first Applied AI Lab outside the US in Singapore. The lab is part of a new partnership with the Ministry of Digital Development and Information. The initiative, called OpenAI for Singapore, was announced at the ATx Summit and...",
@@ -178,9 +202,10 @@
         "level": "multi-source",
         "corroborating_ids": [
           "282a25929c19",
+          "f2261073b77c",
           "973c5765af89"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "Microsoft Releases Fara1.5: A Family of Browser Computer-Use Agents (4B/9B/27B) That Outperform OpenAI Operator and Gemini 2.5 Computer Use on Online-Mind2Web",
       "summary_zh": "Microsoft Research released Fara1.5, a family of browser computer-use agents in 4B, 9B, and 27B sizes. Fara1.5-27B scores 72% on Online-Mind2Web, outperforming OpenAI Operator, Gemini 2.5 Computer Use, and Yutori Navigator n1. The release also...",
@@ -530,12 +555,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "ACC: Compiling Agent Trajectories for Long-Context Training",
-      "summary_zh": "arXiv:2605.21850v1 Announce Type: new \nAbstract: Recent development of agents has renewed demand for long-context reasoning capacity of LLMs. However, training LLMs for this capacity requires costly long-document curation or heuristic context...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2605.21850v1 Announce Type: new \nAbstract: Recent development of agents has renewed demand for"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "5caa521c3ad5",
@@ -1081,6 +1104,37 @@
       "oneliner": ""
     },
     {
+      "id": "f2261073b77c",
+      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+      "url": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+      "published": "2026-05-22T00:00:00Z",
+      "tags": [
+        "OpenAI",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "282a25929c19",
+          "15bc858fbea2",
+          "973c5765af89",
+          "90979a1e3b7a"
+        ],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "f62b9a46d51e",
       "title": "How CopilotKit Is Redefining the Agentic AI Stack in 2026",
       "url": "https://www.marktechpost.com/2026/05/21/how-copilotkit-is-redefining-the-agentic-ai-stack-in-2026/",
@@ -1177,9 +1231,10 @@
         "corroborating_ids": [
           "282a25929c19",
           "15bc858fbea2",
+          "f2261073b77c",
           "90979a1e3b7a"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1254,6 +1309,7 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "f2261073b77c",
           "973c5765af89",
           "619e2ba43125",
           "9e924c46a871",
@@ -5671,31 +5727,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      }
-    },
-    {
-      "id": "8a85244e8553",
-      "title": "Deloitte: Scale ‘autonomous intelligence’ for real growth",
-      "url": "https://www.artificialintelligence-news.com/news/deloitte-scale-autonomous-intelligence-for-real-growth/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Enterprise leaders must progress past generative applications and scale &#8220;autonomous intelligence&#8221; to capture real growth. Generating text or summarising internal communications offers localised productivity improvements, yet these...",
-      "published": "2026-05-15T15:02:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "c22bd2b5e5fc"
-        ],
-        "score": 5
       }
     }
   ]
