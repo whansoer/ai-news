@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-05-23T03:31:54Z",
-  "count": 19,
+  "updated": "2026-05-23T10:02:18Z",
+  "count": 20,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -1218,6 +1218,70 @@
         }
       },
       "_ts": 1779507114
+    },
+    "541f299847bc98c7": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录282篇AI新闻，分类分布：学术研究203篇, 开源项目37篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（81篇）。其中14%的文章有多来源交叉验证。\n\n▸ colbymchenry /codegraph：Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer \n\n▸ rohitg00 /ai-engineering-from-scratch：Learn it. Build it. Ship it for others.\n\n▸ ChromeDevTools /chrome-devtools-mcp：Chrome DevTools for coding agents\n\n▸ dotnet /skills：Repository for skills to assist AI coding agents with .NET and C#\n\n▸ Perplexity Open-Sources Bumblebee: A Read-Only Supply-Chain Scanner for Developer Endpoints：Perplexity has open-sourced Bumblebee, an internal security tool it uses to protect the developer sy",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "colbymchenry/codegraph",
+            "url": "https://github.com/colbymchenry/codegraph",
+            "why_hot": "单日3684星，TypeScript项目",
+            "stars_today": 3684,
+            "total_stars": 17682
+          },
+          {
+            "full_name": "rohitg00/ai-engineering-from-scratch",
+            "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+            "why_hot": "单日988星，Python项目",
+            "stars_today": 988,
+            "total_stars": 12601
+          },
+          {
+            "full_name": "dotnet/skills",
+            "url": "https://github.com/dotnet/skills",
+            "why_hot": "单日389星，C#项目",
+            "stars_today": 389,
+            "total_stars": 2638
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "282"
+          },
+          {
+            "label": "多源验证率",
+            "value": "14%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+9460"
+          }
+        ],
+        "must_read_ids": [
+          "94ec5d23f75f",
+          "4d8e922de101",
+          "b4212d4b4d44",
+          "5acadd2fc454",
+          "eb18f8dd4b05"
+        ],
+        "text": "今日共收录282篇AI新闻，分类分布：学术研究203篇, 开源项目37篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（81篇）。其中14%的文章有多来源交叉验证。",
+        "top_items": [
+          "colbymchenry /codegraph",
+          "rohitg00 /ai-engineering-from-scratch",
+          "ChromeDevTools /chrome-devtools-mcp",
+          "dotnet /skills",
+          "Perplexity Open-Sources Bumblebee: A Rea"
+        ],
+        "meta": {
+          "total_articles": 282,
+          "multi_source_pct": 14
+        }
+      },
+      "_ts": 1779530538
     }
   }
 }

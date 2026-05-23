@@ -1,8 +1,424 @@
 {
   "date": "2026-05-16",
-  "updated": "2026-05-23T03:31:54Z",
-  "total": 1,
+  "updated": "2026-05-23T10:02:18Z",
+  "total": 18,
   "items": [
+    {
+      "id": "cef8d35bc48f",
+      "title": "NVIDIA Introduces SANA-WM: A 2.6B-Parameter Open-Source World Model That Generates Minute-Scale 720p Video on a Single GPU",
+      "url": "https://www.marktechpost.com/2026/05/16/nvidia-introduces-sana-wm-a-2-6b-parameter-open-source-world-model-that-generates-minute-scale-720p-video-on-a-single-gpu/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Researchers from NVIDIA introduce SANA-WM, an open-source camera-controlled world model that generates 60-second, 720p videos with precise 6-DoF camera control — trained on 64 H100 GPUs and deployable on a single RTX 5090.\nThe post NVIDIA...",
+      "published": "2026-05-16T07:52:42Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
+    },
+    {
+      "id": "c22bd2b5e5fc",
+      "title": "How to Build Repository-Level Code Intelligence with Repowise Using Graph Analysis, Dead-Code Detection, Decisions, and AI Context",
+      "url": "https://www.marktechpost.com/2026/05/15/how-to-build-repository-level-code-intelligence-with-repowise-using-graph-analysis-dead-code-detection-decisions-and-ai-context/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we explore how to use Repowise to build repository-level intelligence for the itsdangerous Python project in a practical and reproducible way. We start with an already cloned repository, configure Repowise using the available...",
+      "published": "2026-05-16T06:45:19Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "8a85244e8553"
+        ],
+        "score": 5
+      }
+    },
+    {
+      "id": "0a1bf7f364df",
+      "title": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
+      "url": "https://arxiv.org/abs/2605.13848",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.13848v1 Announce Type: new \nAbstract: Agentic LLM frameworks that rely on prompted orchestration, where the model itself determines workflow transitions, often suffer from hallucinated routing, infinite loops, and non-reproducible...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "2114f62a66f0",
+      "title": "Mixed Integer Goal Programming for Personalized Meal Optimization with User-Defined Serving Granularity",
+      "url": "https://arxiv.org/abs/2605.13849",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.13849v1 Announce Type: new \nAbstract: Determining what to eat to satisfy nutritional requirements is one of the oldest optimization problems in operations research, yet existing formulations have two persistent limitations: continuous...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      }
+    },
+    {
+      "id": "3d77c5784679",
+      "title": "A Two-Dimensional Framework for AI Agent Design Patterns: Cognitive Function and Execution Topology",
+      "url": "https://arxiv.org/abs/2605.13850",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.13850v1 Announce Type: new \nAbstract: Existing frameworks for LLM-based agent architectures describe systems from a single perspective: industry guides (Anthropic, Google, LangChain) focus on execution topology -- how data flows --...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
+    },
+    {
+      "id": "ba2fa0aa3256",
+      "title": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
+      "url": "https://arxiv.org/abs/2605.13851",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.13851v1 Announce Type: new \nAbstract: Multi-agent orchestration -- in which a hidden coordinator manages specialized worker agents -- is becoming the default architecture for enterprise AI deployment, yet the safety implications of...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      }
+    },
+    {
+      "id": "1dc362a9d868",
+      "title": "PREPING: Building Agent Memory without Tasks",
+      "url": "https://arxiv.org/abs/2605.13880",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.13880v1 Announce Type: new \nAbstract: Agent memory is typically constructed either offline from curated demonstrations or online from post-deployment interactions. However, regardless of how it is built, an agent faces a cold-start gap...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      }
+    },
+    {
+      "id": "0f907bb3cf5d",
+      "title": "PolitNuggets: Benchmarking Agentic Discovery of Long-Tail Political Facts",
+      "url": "https://arxiv.org/abs/2605.14002",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14002v1 Announce Type: new \nAbstract: Large Reasoning Models (LRMs) embedded in agentic frameworks have transformed information retrieval from static, long context question answering into open-ended exploration. Yet real world use...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "405858471b8c",
+      "title": "Conditional Attribute Estimation with Autoregressive Sequence Models",
+      "url": "https://arxiv.org/abs/2605.14004",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14004v1 Announce Type: new \nAbstract: Generative models are often trained with a next-token prediction objective, yet many downstream applications require the ability to estimate or control sequence-level properties. Next-token...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "4b56508adb0a",
+      "title": "Sheaf-Theoretic Transport and Obstruction for Detecting Scientific Theory Shift in AI Agents",
+      "url": "https://arxiv.org/abs/2605.14033",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14033v1 Announce Type: new \nAbstract: Scientific theory shift in AI agents requires more than fitting equations to data. An artificial scientific agent must detect whether an existing representational framework remains transportable...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "79e4e17344db",
+      "title": "From Descriptive to Prescriptive: Uncover the Social Value Alignment of LLM-based Agents",
+      "url": "https://arxiv.org/abs/2605.14034",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14034v1 Announce Type: new \nAbstract: Wide applications of LLM-based agents require strong alignment with human social values. However, current works still exhibit deficiencies in self-cognition and dilemma decision, as well as...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "eff865e5f6c4",
+      "title": "Enhanced and Efficient Reasoning in Large Learning Models",
+      "url": "https://arxiv.org/abs/2605.14036",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14036v1 Announce Type: new \nAbstract: In current Large Language Models we can trust the production of smoothly flowing prose on the basis of the principles of machine learning. However, there is no comparably principled basis to...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "70966ac3fb40",
+      "title": "Model-Adaptive Tool Necessity Reveals the Knowing-Doing Gap in LLM Tool Use",
+      "url": "https://arxiv.org/abs/2605.14038",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14038v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly act as autonomous agents that must decide when to answer directly vs. when to invoke external tools. Prior work studying adaptive tool use has largely...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "c1a2ef776211",
+      "title": "Network-Aware Bilinear Tokenization for Brain Functional Connectivity Representation Learning",
+      "url": "https://arxiv.org/abs/2605.14048",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14048v1 Announce Type: new \nAbstract: Masked autoencoders (MAEs) have recently shown promise for self-supervised representation learning of resting-state brain functional connectivity (FC). However, a fundamental question remains...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "7d54ac255003",
+      "title": "Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning",
+      "url": "https://arxiv.org/abs/2605.14049",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14049v1 Announce Type: new \nAbstract: The growing adoption of large language models in legal practice brings both significant promise and serious risk. Legal professionals stand to benefit from AI that can reason over contracts, draft...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      }
+    },
+    {
+      "id": "f3e7755fb674",
+      "title": "SPIN: Structural LLM Planning via Iterative Navigation for Industrial Tasks",
+      "url": "https://arxiv.org/abs/2605.14051",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14051v1 Announce Type: new \nAbstract: Industrial LLM agent systems often separate planning from execution, yet LLM planners frequently produce structurally invalid or unnecessarily long workflows, leading to brittle failures and...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      }
+    },
+    {
+      "id": "e6fd29184a37",
+      "title": "Bad Seeing or Bad Thinking? Rewarding Perception for Vision-Language Reasoning",
+      "url": "https://arxiv.org/abs/2605.14054",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.14054v1 Announce Type: new \nAbstract: Achieving robust perception-reasoning synergy is a central goal for advanced Vision-Language Models (VLMs). Recent advancements have pursued this goal via architectural designs or agentic...",
+      "published": "2026-05-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      }
+    },
     {
       "id": "b9939c2fea26",
       "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
