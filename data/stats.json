@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-22T18:00:37Z",
-  "total": 265,
+  "updated": "2026-05-23T03:31:45Z",
+  "total": 268,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,22 +12,22 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 29
     },
     {
       "name": "GitHub Trending",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Hugging Face",
-      "count": 16
-    },
-    {
-      "name": "OpenAI",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Google AI",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 78
+      "count": 79
     },
     {
       "name": "LLM",
@@ -58,11 +58,19 @@
     },
     {
       "name": "Google",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Prompt",
       "count": 7
+    },
+    {
+      "name": "Diffusion",
+      "count": 5
+    },
+    {
+      "name": "Claude",
+      "count": 4
     },
     {
       "name": "Gemini",
@@ -70,10 +78,6 @@
     },
     {
       "name": "GPU",
-      "count": 4
-    },
-    {
-      "name": "Diffusion",
       "count": 4
     },
     {
@@ -86,10 +90,6 @@
     },
     {
       "name": "Embedding",
-      "count": 3
-    },
-    {
-      "name": "Claude",
       "count": 3
     },
     {
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 188
+      "count": 189
     },
     {
       "name": "开源项目",
-      "count": 35
+      "count": 37
     },
     {
       "name": "模型发布",
@@ -149,16 +149,16 @@
   ],
   "dailyTrend": [
     {
-      "date": "05-20",
-      "count": 29
-    },
-    {
       "date": "05-21",
       "count": 40
     },
     {
       "date": "05-22",
       "count": 44
+    },
+    {
+      "date": "05-23",
+      "count": 5
     },
     {
       "date": "05-28",
@@ -179,6 +179,12 @@
   ],
   "top10": [
     {
+      "id": "94ec5d23f75f",
+      "title": "colbymchenry /codegraph",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "4d8e922de101",
       "title": "rohitg00 /ai-engineering-from-scratch",
       "score": 5,
@@ -197,6 +203,24 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "503a5ba4d23d",
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "121f6c4b62f9",
+      "title": "A Step-by-Step Coding Tutorial to Implement GBrain: The Self-Wiring Memory Layer Built by Y Combinator’s Garry Tan for AI Agents",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "18f4f93feb30",
+      "title": "Catch up on the Dialogues stage at Google I/O 2026.",
+      "score": 5,
+      "source": "Google AI"
+    },
+    {
       "id": "d58891a38c35",
       "title": "Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook",
       "score": 5,
@@ -213,30 +237,6 @@
       "title": "China’s AI just mapped its entire renewable energy grid. Here’s why the rest of the world should pay attention",
       "score": 5,
       "source": "AI News"
-    },
-    {
-      "id": "e0f241a5f596",
-      "title": "Musk and Zuckerberg convinced Trump to scrap AI executive order",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "15bc858fbea2",
-      "title": "Microsoft Releases Fara1.5: A Family of Browser Computer-Use Agents (4B/9B/27B) That Outperform OpenAI Operator and Gemini 2.5 Computer Use on Online-Mind2Web",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "88d510f9b33c",
-      "title": "Build Recurrent-Depth Transformers with OpenMythos for MLA, GQA, Sparse MoE, and Loop-Scaled Reasoning",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "3aba7d1bc142",
-      "title": "CR4T: Rewrite-Based Guardrails for Adolescent LLM Safety",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-05-22T18:00:46Z",
-  "count": 18,
+  "updated": "2026-05-23T03:31:54Z",
+  "count": 19,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -1154,6 +1154,70 @@
         }
       },
       "_ts": 1779472846
+    },
+    "5a94f4968d0a53c9": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录268篇AI新闻，分类分布：学术研究189篇, 开源项目37篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（79篇）。其中15%的文章有多来源交叉验证。\n\n▸ colbymchenry /codegraph：Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer \n\n▸ rohitg00 /ai-engineering-from-scratch：Learn it. Build it. Ship it for others.\n\n▸ ChromeDevTools /chrome-devtools-mcp：Chrome DevTools for coding agents\n\n▸ dotnet /skills：Repository for skills to assist AI coding agents with .NET and C#\n\n▸ Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "colbymchenry/codegraph",
+            "url": "https://github.com/colbymchenry/codegraph",
+            "why_hot": "单日3684星，TypeScript项目",
+            "stars_today": 3684,
+            "total_stars": 16825
+          },
+          {
+            "full_name": "rohitg00/ai-engineering-from-scratch",
+            "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+            "why_hot": "单日988星，Python项目",
+            "stars_today": 988,
+            "total_stars": 12095
+          },
+          {
+            "full_name": "dotnet/skills",
+            "url": "https://github.com/dotnet/skills",
+            "why_hot": "单日389星，C#项目",
+            "stars_today": 389,
+            "total_stars": 2558
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "268"
+          },
+          {
+            "label": "多源验证率",
+            "value": "15%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+9460"
+          }
+        ],
+        "must_read_ids": [
+          "94ec5d23f75f",
+          "4d8e922de101",
+          "b4212d4b4d44",
+          "5acadd2fc454",
+          "503a5ba4d23d"
+        ],
+        "text": "今日共收录268篇AI新闻，分类分布：学术研究189篇, 开源项目37篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（79篇）。其中15%的文章有多来源交叉验证。",
+        "top_items": [
+          "colbymchenry /codegraph",
+          "rohitg00 /ai-engineering-from-scratch",
+          "ChromeDevTools /chrome-devtools-mcp",
+          "dotnet /skills",
+          "Towards Speed-of-Light Text Generation w"
+        ],
+        "meta": {
+          "total_articles": 268,
+          "multi_source_pct": 15
+        }
+      },
+      "_ts": 1779507114
     }
   }
 }
