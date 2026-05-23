@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-23T10:02:09Z",
-  "total": 282,
+  "updated": "2026-05-23T17:11:16Z",
+  "total": 268,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 27
     },
     {
       "name": "GitHub Trending",
-      "count": 20
+      "count": 22
     },
     {
       "name": "Hugging Face",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 81
+      "count": 75
     },
     {
       "name": "LLM",
-      "count": 41
+      "count": 37
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 13
     },
     {
       "name": "OpenAI",
@@ -66,23 +66,23 @@
     },
     {
       "name": "Claude",
-      "count": 4
+      "count": 5
+    },
+    {
+      "name": "Gemini",
+      "count": 5
     },
     {
       "name": "Diffusion",
       "count": 4
     },
     {
-      "name": "Gemini",
-      "count": 4
-    },
-    {
-      "name": "GPU",
-      "count": 4
-    },
-    {
       "name": "GPT",
       "count": 4
+    },
+    {
+      "name": "API",
+      "count": 3
     },
     {
       "name": "RAG",
@@ -97,6 +97,10 @@
       "count": 3
     },
     {
+      "name": "GPU",
+      "count": 3
+    },
+    {
       "name": "Qwen",
       "count": 3
     },
@@ -105,7 +109,7 @@
       "count": 3
     },
     {
-      "name": "API",
+      "name": "Anthropic",
       "count": 2
     },
     {
@@ -114,10 +118,6 @@
     },
     {
       "name": "Fine-tune",
-      "count": 1
-    },
-    {
-      "name": "Anthropic",
       "count": 1
     },
     {
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 203
+      "count": 187
     },
     {
       "name": "开源项目",
-      "count": 37
+      "count": 39
     },
     {
       "name": "模型发布",
@@ -154,11 +154,11 @@
     },
     {
       "date": "05-22",
-      "count": 44
+      "count": 43
     },
     {
       "date": "05-23",
-      "count": 21
+      "count": 25
     },
     {
       "date": "05-28",
@@ -191,8 +191,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "b4212d4b4d44",
-      "title": "ChromeDevTools /chrome-devtools-mcp",
+      "id": "39ec5846ae4b",
+      "title": "multica-ai /andrej-karpathy-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -203,6 +203,30 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "b4212d4b4d44",
+      "title": "ChromeDevTools /chrome-devtools-mcp",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ebc3b4fe22b6",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "301464475984",
+      "title": "presenton /presenton",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7393f2ea709b",
+      "title": "Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "eb18f8dd4b05",
       "title": "Perplexity Open-Sources Bumblebee: A Read-Only Supply-Chain Scanner for Developer Endpoints",
       "score": 5,
@@ -211,30 +235,6 @@
     {
       "id": "f45c1996335c",
       "title": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "384a15cec041",
-      "title": "TO-Agents: A Multi-Agent AI Pipeline for Preference-Guided Topology Optimization",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "bbcd0d9dda06",
-      "title": "The Shape of Testimony: A Scalable Framework for Oral History Archive Comparison",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "7ae4f71070d0",
-      "title": "MindLoom: Composing Thought Modes for Frontier-Level Reasoning Data Synthesis",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "4d9f9073269b",
-      "title": "AOP-Wiki EMOD 3.0: Data Model Expansions and Content Evaluation Framework for Using Agentic AI to Improve Integration between AOPs and New Approach Methodologies (NAMs)",
       "score": 5,
       "source": "ArXiv (cs.AI)"
     }

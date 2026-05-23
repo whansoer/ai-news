@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-23T10:02:18Z",
-  "total": 233,
-  "new_count": 48,
+  "updated": "2026-05-23T17:11:26Z",
+  "total": 236,
+  "new_count": 35,
   "items": [
     {
       "id": "94ec5d23f75f",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "published": "2026-05-23T09:59:35Z",
+      "published": "2026-05-23T17:08:37Z",
       "tags": [
         "Claude",
         "Agent"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-05-23T09:59:35Z",
+      "published": "2026-05-23T17:08:37Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -56,13 +56,69 @@
       "oneliner": "Learn it. Build it. Ship it for others."
     },
     {
+      "id": "39ec5846ae4b",
+      "title": "multica-ai /andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "published": "2026-05-23T17:08:37Z",
+      "tags": [
+        "Claude",
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "multica-ai /andrej-karpathy-skills",
+      "summary_zh": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "tags_zh": [
+        "Claude",
+        "LLM"
+      ],
+      "oneliner": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations"
+    },
+    {
+      "id": "5acadd2fc454",
+      "title": "dotnet /skills",
+      "url": "https://github.com/dotnet/skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Repository for skills to assist AI coding agents with .NET and C#",
+      "published": "2026-05-23T17:08:37Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "dotnet /skills",
+      "summary_zh": "Repository for skills to assist AI coding agents with .NET and C#",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Repository for skills to assist AI coding agents with .NET and C#"
+    },
+    {
       "id": "b4212d4b4d44",
       "title": "ChromeDevTools /chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Chrome DevTools for coding agents",
-      "published": "2026-05-23T09:59:35Z",
+      "published": "2026-05-23T17:08:37Z",
       "tags": [
         "Agent"
       ],
@@ -83,15 +139,48 @@
       "oneliner": "Chrome DevTools for coding agents"
     },
     {
-      "id": "5acadd2fc454",
-      "title": "dotnet /skills",
-      "url": "https://github.com/dotnet/skills",
+      "id": "ebc3b4fe22b6",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "Repository for skills to assist AI coding agents with .NET and C#",
-      "published": "2026-05-23T09:59:35Z",
+      "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
+      "published": "2026-05-23T17:08:37Z",
       "tags": [
+        "Claude",
+        "Gemini",
+        "Anthropic",
         "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "summary_zh": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
+      "tags_zh": [
+        "Claude",
+        "Gemini",
+        "Anthropic",
+        "Agent"
+      ],
+      "oneliner": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2"
+    },
+    {
+      "id": "301464475984",
+      "title": "presenton /presenton",
+      "url": "https://github.com/presenton/presenton",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+      "published": "2026-05-23T17:08:37Z",
+      "tags": [
+        "API"
       ],
       "score": 5,
       "relations": [],
@@ -102,12 +191,35 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "dotnet /skills",
-      "summary_zh": "Repository for skills to assist AI coding agents with .NET and C#",
+      "title_zh": "presenton /presenton",
+      "summary_zh": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
       "tags_zh": [
-        "Agent"
+        "API"
       ],
-      "oneliner": "Repository for skills to assist AI coding agents with .NET and C#"
+      "oneliner": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)"
+    },
+    {
+      "id": "7393f2ea709b",
+      "title": "Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification",
+      "url": "https://www.marktechpost.com/2026/05/23/nous-research-releases-contrastive-neuron-attribution-cna-sparse-mlp-circuit-steering-without-sae-training-or-weight-modification/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Nous Research releases Contrastive Neuron Attribution (CNA), a method that identifies and ablates sparse MLP neuron circuits to steer LLM behavior — no sparse autoencoder training, no weight modification, and no degradation of general capability...",
+      "published": "2026-05-23T10:32:09Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification",
+      "summary_zh": "Nous Research releases Contrastive Neuron Attribution (CNA), a method that identifies and ablates sparse MLP neuron circuits to steer LLM behavior — no sparse autoencoder training, no weight modification, and no degradation of general capability...",
+      "tags_zh": [],
+      "oneliner": "Nous Research releases Contrastive Neuron Attribution (CNA), a method that identifies and ablates sp"
     },
     {
       "id": "eb18f8dd4b05",
@@ -427,10 +539,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "A Causal Argumentation Method for Explainability of Machine Learning Models",
-      "summary_zh": "arXiv:2605.21758v1 Announce Type: new \nAbstract: Explainable AI (XAI) methods identify which features are relevant to a model's predictions but often fail to clarify why certain decisions are made. In this work, we present a novel method that...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.21758v1 Announce Type: new \nAbstract: Explainable AI (XAI) methods identify which feature"
+      "oneliner": ""
     },
     {
       "id": "247587d5fe52",
@@ -452,12 +564,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct",
-      "summary_zh": "arXiv:2605.21778v1 Announce Type: new \nAbstract: AI sycophancy has become a prominent concern in large language model (LLM) research. Yet the term lacks a consistent definition and has been applied to behaviors ranging from agreeing with a user's...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "arXiv:2605.21778v1 Announce Type: new \nAbstract: AI sycophancy has become a prominent concern in lar"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "e30de9bbf7dd",
@@ -479,12 +589,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Trace2Skill: Verifier-Guided Skill Evolution for Long-Context EDA Agents",
-      "summary_zh": "arXiv:2605.21810v1 Announce Type: new \nAbstract: Complex Verilog Design Problems (CVDP) challenge hardware LLM agents because solving them requires localizing verifier-relevant RTL, testbenches, include paths, and build dependencies inside large...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2605.21810v1 Announce Type: new \nAbstract: Complex Verilog Design Problems (CVDP) challenge ha"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "80ef22ee0248",
@@ -504,10 +612,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Implicit Safety Alignment from Crowd Preferences",
-      "summary_zh": "arXiv:2605.21822v1 Announce Type: new \nAbstract: Reinforcement Learning from Human Feedback (RLHF) can reveal implicit objectives such as safety considerations that go beyond task completion. In this work, we focus on the common safety criteria...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.21822v1 Announce Type: new \nAbstract: Reinforcement Learning from Human Feedback (RLHF) c"
+      "oneliner": ""
     },
     {
       "id": "503a5ba4d23d",
@@ -1470,32 +1578,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "39ec5846ae4b",
-      "title": "multica-ai /andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-05-22T03:52:40Z",
-      "tags": [
-        "Claude",
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",

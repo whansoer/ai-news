@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-23T10:02:18Z",
+  "updated": "2026-05-23T17:11:26Z",
   "total": 20,
   "items": [
     {
@@ -30,13 +30,14 @@
       }
     },
     {
-      "id": "b4212d4b4d44",
-      "title_zh": "ChromeDevTools /chrome-devtools-mcp",
-      "summary_zh": "Chrome DevTools for coding agents",
+      "id": "39ec5846ae4b",
+      "title_zh": "multica-ai /andrej-karpathy-skills",
+      "summary_zh": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "tags_zh": [
-        "Agent"
+        "Claude",
+        "LLM"
       ],
-      "oneliner": "Chrome DevTools for coding agents",
+      "oneliner": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -51,6 +52,63 @@
         "Agent"
       ],
       "oneliner": "Repository for skills to assist AI coding agents with .NET and C#",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b4212d4b4d44",
+      "title_zh": "ChromeDevTools /chrome-devtools-mcp",
+      "summary_zh": "Chrome DevTools for coding agents",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Chrome DevTools for coding agents",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ebc3b4fe22b6",
+      "title_zh": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "summary_zh": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
+      "tags_zh": [
+        "Claude",
+        "Gemini",
+        "Anthropic",
+        "Agent"
+      ],
+      "oneliner": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "301464475984",
+      "title_zh": "presenton /presenton",
+      "summary_zh": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+      "tags_zh": [
+        "API"
+      ],
+      "oneliner": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7393f2ea709b",
+      "title_zh": "Nous Research Releases Contrastive Neuron Attribution (CNA): Sparse MLP Circuit Steering Without SAE Training or Weight Modification",
+      "summary_zh": "Nous Research releases Contrastive Neuron Attribution (CNA), a method that identifies and ablates sparse MLP neuron circuits to steer LLM behavior — no sparse autoencoder training, no weight modification, and no degradation of general capability...",
+      "tags_zh": [],
+      "oneliner": "Nous Research releases Contrastive Neuron Attribution (CNA), a method that identifies and ablates sp",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -207,58 +265,6 @@
       "summary_zh": "arXiv:2605.21743v1 Announce Type: new \nAbstract: A growing literature uses artificial intelligence platform conversation logs to measure occupation exposure. We show that these scores partly measure platform user base rather than the workforce....",
       "tags_zh": [],
       "oneliner": "arXiv:2605.21743v1 Announce Type: new \nAbstract: A growing literature uses artificial intelligence p",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "fbc0572b8a72",
-      "title_zh": "A Causal Argumentation Method for Explainability of Machine Learning Models",
-      "summary_zh": "arXiv:2605.21758v1 Announce Type: new \nAbstract: Explainable AI (XAI) methods identify which features are relevant to a model's predictions but often fail to clarify why certain decisions are made. In this work, we present a novel method that...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2605.21758v1 Announce Type: new \nAbstract: Explainable AI (XAI) methods identify which feature",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "247587d5fe52",
-      "title_zh": "What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct",
-      "summary_zh": "arXiv:2605.21778v1 Announce Type: new \nAbstract: AI sycophancy has become a prominent concern in large language model (LLM) research. Yet the term lacks a consistent definition and has been applied to behaviors ranging from agreeing with a user's...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "arXiv:2605.21778v1 Announce Type: new \nAbstract: AI sycophancy has become a prominent concern in lar",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e30de9bbf7dd",
-      "title_zh": "Trace2Skill: Verifier-Guided Skill Evolution for Long-Context EDA Agents",
-      "summary_zh": "arXiv:2605.21810v1 Announce Type: new \nAbstract: Complex Verilog Design Problems (CVDP) challenge hardware LLM agents because solving them requires localizing verifier-relevant RTL, testbenches, include paths, and build dependencies inside large...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2605.21810v1 Announce Type: new \nAbstract: Complex Verilog Design Problems (CVDP) challenge ha",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "80ef22ee0248",
-      "title_zh": "Implicit Safety Alignment from Crowd Preferences",
-      "summary_zh": "arXiv:2605.21822v1 Announce Type: new \nAbstract: Reinforcement Learning from Human Feedback (RLHF) can reveal implicit objectives such as safety considerations that go beyond task completion. In this work, we focus on the common safety criteria...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2605.21822v1 Announce Type: new \nAbstract: Reinforcement Learning from Human Feedback (RLHF) c",
       "key_facts": [],
       "notable_quote": {
         "text": "",
