@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-23T17:11:26Z",
+  "updated": "2026-05-24T03:53:15Z",
   "total": 236,
-  "new_count": 35,
+  "new_count": 34,
   "items": [
     {
       "id": "94ec5d23f75f",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "published": "2026-05-23T17:08:37Z",
+      "published": "2026-05-24T03:50:21Z",
       "tags": [
         "Claude",
         "Agent"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-05-23T17:08:37Z",
+      "published": "2026-05-24T03:50:21Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -62,7 +62,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-05-23T17:08:37Z",
+      "published": "2026-05-24T03:50:21Z",
       "tags": [
         "Claude",
         "LLM"
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Repository for skills to assist AI coding agents with .NET and C#",
-      "published": "2026-05-23T17:08:37Z",
+      "published": "2026-05-24T03:50:21Z",
       "tags": [
         "Agent"
       ],
@@ -118,7 +118,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Chrome DevTools for coding agents",
-      "published": "2026-05-23T17:08:37Z",
+      "published": "2026-05-24T03:50:21Z",
       "tags": [
         "Agent"
       ],
@@ -145,7 +145,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
-      "published": "2026-05-23T17:08:37Z",
+      "published": "2026-05-24T03:50:21Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -178,7 +178,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
-      "published": "2026-05-23T17:08:37Z",
+      "published": "2026-05-24T03:50:21Z",
       "tags": [
         "API"
       ],
@@ -197,6 +197,62 @@
         "API"
       ],
       "oneliner": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)"
+    },
+    {
+      "id": "c2281cfbffa6",
+      "title": "Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents",
+      "url": "https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Tencent has open-sourced TencentDB Agent Memory, a fully local memory system for AI agents released under the MIT license. The project pairs symbolic short-term memory, which offloads verbose tool logs into a compact Mermaid task canvas, with a...",
+      "published": "2026-05-23T19:31:12Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents",
+      "summary_zh": "Tencent has open-sourced TencentDB Agent Memory, a fully local memory system for AI agents released under the MIT license. The project pairs symbolic short-term memory, which offloads verbose tool logs into a compact Mermaid task canvas, with a...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Tencent has open-sourced TencentDB Agent Memory, a fully local memory system for AI agents released "
+    },
+    {
+      "id": "86abcef855f4",
+      "title": "Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory",
+      "url": "https://www.marktechpost.com/2026/05/23/build-a-superclaude-framework-workflow-with-commands-agents-modes-and-session-memory/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build an advanced workflow using the SuperClaude Framework as a structured layer on top of the Anthropic API.\nThe post Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory appeared first on...",
+      "published": "2026-05-23T19:05:33Z",
+      "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory",
+      "summary_zh": "In this tutorial, we build an advanced workflow using the SuperClaude Framework as a structured layer on top of the Anthropic API.\nThe post Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory appeared first on...",
+      "tags_zh": [
+        "Claude",
+        "Agent"
+      ],
+      "oneliner": "In this tutorial, we build an advanced workflow using the SuperClaude Framework as a structured laye"
     },
     {
       "id": "7393f2ea709b",
@@ -491,12 +547,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "SMDD-Bench: Can LLMs Solve Real-World Small Molecule Drug Design Tasks?",
-      "summary_zh": "arXiv:2605.21740v1 Announce Type: new \nAbstract: LLM agents have incredible potential for scientific discovery applications. However, the performance of LLM agents on real-world, small molecule drug design (SMDD) tasks across diverse chemistries...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2605.21740v1 Announce Type: new \nAbstract: LLM agents have incredible potential for scientific"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "9137fdd7b74e",
@@ -516,10 +570,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Who Uses AI? Platforms, Workforce, and AI Exposure",
-      "summary_zh": "arXiv:2605.21743v1 Announce Type: new \nAbstract: A growing literature uses artificial intelligence platform conversation logs to measure occupation exposure. We show that these scores partly measure platform user base rather than the workforce....",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.21743v1 Announce Type: new \nAbstract: A growing literature uses artificial intelligence p"
+      "oneliner": ""
     },
     {
       "id": "fbc0572b8a72",
@@ -5768,55 +5822,6 @@
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": ""
-    },
-    {
-      "id": "a94a3a58575e",
-      "title": "Nous Research Proposes Lighthouse Attention: A Training-Only Selection-Based Hierarchical Attention That Delivers 1.4–1.7× Pretraining Speedup at Long Context",
-      "url": "https://www.marktechpost.com/2026/05/16/nous-research-proposes-lighthouse-attention-a-training-only-selection-based-hierarchical-attention-that-delivers-1-4-1-7x-pretraining-speedup-at-long-context/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Nous Research has published Lighthouse Attention, a selection-based hierarchical attention mechanism that wraps around standard scaled dot-product attention during pretraining and is removed afterward. Unlike prior methods such as NSA and HISA...",
-      "published": "2026-05-16T22:23:09Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "351d303bce6a",
-      "title": "Meet LiteLLM Agent Platform: A Kubernetes-Based, Self-Hosted Infrastructure Layer for Isolated Agent Sandboxes and Persistent Session Management in Production",
-      "url": "https://www.marktechpost.com/2026/05/16/meet-litellm-agent-platform-a-kubernetes-based-self-hosted-infrastructure-layer-for-isolated-agent-sandboxes-and-persistent-session-management-in-production/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Running AI agents in a local script is straightforward. Running them reliably in production across teams, across restarts, with isolated environments per context is a different problem entirely. BerriAI, the company behind the LiteLLM AI Gateway,...",
-      "published": "2026-05-16T17:59:09Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      }
     }
   ]
 }
