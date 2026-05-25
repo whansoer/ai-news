@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-25T11:59:59Z",
-  "total": 252,
-  "new_count": 36,
+  "updated": "2026-05-25T17:51:21Z",
+  "total": 250,
+  "new_count": 34,
   "items": [
     {
       "id": "4d8e922de101",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-05-25T11:57:10Z",
+      "published": "2026-05-25T17:48:37Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-05-25T11:57:10Z",
+      "published": "2026-05-25T17:48:37Z",
       "tags": [
         "Claude",
         "Agent"
@@ -62,7 +62,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
-      "published": "2026-05-25T11:57:10Z",
+      "published": "2026-05-25T17:48:37Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "published": "2026-05-25T11:57:10Z",
+      "published": "2026-05-25T17:48:37Z",
       "tags": [
         "Claude",
         "Agent"
@@ -124,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
-      "published": "2026-05-25T11:57:10Z",
+      "published": "2026-05-25T17:48:37Z",
       "tags": [
         "Agent"
       ],
@@ -151,7 +151,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-05-25T11:57:10Z",
+      "published": "2026-05-25T17:48:37Z",
       "tags": [
         "Claude",
         "LLM"
@@ -998,6 +998,31 @@
           "5e21267ba4d1"
         ],
         "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "37be5f050c29",
+      "title": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
+      "url": "https://huggingface.co/blog/agent-glossary",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-05-25T00:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -6131,82 +6156,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5fe33294ceaa",
-      "title": "Fine-Tuning NVIDIA Cosmos Predict 2.5 with LoRA/DoRA for Robot Video Generation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-05-18T16:00:21Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "cae5b71f8beb",
-          "b028c2570f1c"
-        ],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "210dad3ca6f9",
-      "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
-      "url": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-05-18T15:12:46Z",
-      "tags": [
-        "Transformer"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "184fb5875c90",
-      "title": "The Open Agent Leaderboard",
-      "url": "https://huggingface.co/blog/ibm-research/open-agent-leaderboard",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-05-18T14:12:58Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
