@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-24T17:13:37Z",
-  "total": 270,
+  "updated": "2026-05-25T03:56:58Z",
+  "total": 269,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 29
     },
     {
       "name": "GitHub Trending",
@@ -31,12 +31,12 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 9
     }
   ],
   "tags": [
@@ -62,7 +62,7 @@
     },
     {
       "name": "Prompt",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Claude",
@@ -117,6 +117,10 @@
       "count": 2
     },
     {
+      "name": "RLHF",
+      "count": 1
+    },
+    {
       "name": "Fine-tune",
       "count": 1
     },
@@ -132,7 +136,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 187
+      "count": 189
     },
     {
       "name": "开源项目",
@@ -144,21 +148,21 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 9
     }
   ],
   "dailyTrend": [
-    {
-      "date": "05-22",
-      "count": 43
-    },
     {
       "date": "05-23",
       "count": 20
     },
     {
       "date": "05-24",
-      "count": 11
+      "count": 8
+    },
+    {
+      "date": "05-25",
+      "count": 5
     },
     {
       "date": "05-28",
@@ -209,6 +213,18 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "ffaeea76f4a9",
+      "title": "Build a Complete Langfuse Observability and Evaluation Pipeline for Tracing, Prompt Management, Scoring, and Experiments",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "87b78dadfc9e",
+      "title": "StepFun Releases StepAudio 2.5 Realtime: An End-to-End Voice Model with Roleplay-Specific RLHF and Paralinguistic Comprehension",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "5acadd2fc454",
       "title": "dotnet /skills",
       "score": 5,
@@ -225,18 +241,6 @@
       "title": "mukul975 /Anthropic-Cybersecurity-Skills",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "301464475984",
-      "title": "presenton /presenton",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "17de58c11d81",
-      "title": "Microsoft Research Releases Webwright: A Terminal-Native Web Agent Framework That Scores 60.1% on Odysseys, Up from Base GPT-5.4’s 33.5%",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
