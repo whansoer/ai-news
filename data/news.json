@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-25T17:51:21Z",
-  "total": 250,
-  "new_count": 34,
+  "updated": "2026-05-26T03:48:02Z",
+  "total": 245,
+  "new_count": 37,
   "items": [
     {
       "id": "4d8e922de101",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-05-25T17:48:37Z",
+      "published": "2026-05-26T03:45:09Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-05-25T17:48:37Z",
+      "published": "2026-05-26T03:45:09Z",
       "tags": [
         "Claude",
         "Agent"
@@ -62,7 +62,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
-      "published": "2026-05-25T17:48:37Z",
+      "published": "2026-05-26T03:45:09Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "published": "2026-05-25T17:48:37Z",
+      "published": "2026-05-26T03:45:09Z",
       "tags": [
         "Claude",
         "Agent"
@@ -124,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
-      "published": "2026-05-25T17:48:37Z",
+      "published": "2026-05-26T03:45:09Z",
       "tags": [
         "Agent"
       ],
@@ -151,7 +151,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-05-25T17:48:37Z",
+      "published": "2026-05-26T03:45:09Z",
       "tags": [
         "Claude",
         "LLM"
@@ -172,6 +172,56 @@
         "LLM"
       ],
       "oneliner": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations"
+    },
+    {
+      "id": "a7312c9c52bb",
+      "title": "Together AI Open-Sources OSCAR: An Attention-Aware 2-Bit KV Cache Quantization System for Long-Context LLM Serving",
+      "url": "https://www.marktechpost.com/2026/05/25/together-ai-open-sources-oscar-an-attention-aware-2-bit-kv-cache-quantization-system-for-long-context-llm-serving/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Together AI has released OSCAR (Offline Spectral Covariance-Aware Rotation), an INT2 KV cache quantization method for long-context LLM serving. Unlike prior rotation-based approaches that apply data-oblivious Hadamard transforms, OSCAR derives...",
+      "published": "2026-05-25T21:24:31Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Together AI Open-Sources OSCAR: An Attention-Aware 2-Bit KV Cache Quantization System for Long-Context LLM Serving",
+      "summary_zh": "Together AI has released OSCAR (Offline Spectral Covariance-Aware Rotation), an INT2 KV cache quantization method for long-context LLM serving. Unlike prior rotation-based approaches that apply data-oblivious Hadamard transforms, OSCAR derives...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Together AI has released OSCAR (Offline Spectral Covariance-Aware Rotation), an INT2 KV cache quanti"
+    },
+    {
+      "id": "f4dda20eb40f",
+      "title": "Step by Step Guide to Build and Compare FedAvg and FedProx Federated Learning on Non-IID CIFAR-10 with NVIDIA FLARE",
+      "url": "https://www.marktechpost.com/2026/05/25/step-by-step-guide-to-build-and-compare-fedavg-and-fedprox-federated-learning-on-non-iid-cifar-10-with-nvidia-flare/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build an advanced federated learning experiment with NVIDIA FLARE. We compare FedAvg and FedProx on a non-IID CIFAR-10 setup, where client data is split using a Dirichlet distribution to simulate realistic label imbalance...",
+      "published": "2026-05-25T20:26:40Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Step by Step Guide to Build and Compare FedAvg and FedProx Federated Learning on Non-IID CIFAR-10 with NVIDIA FLARE",
+      "summary_zh": "In this tutorial, we build an advanced federated learning experiment with NVIDIA FLARE. We compare FedAvg and FedProx on a non-IID CIFAR-10 setup, where client data is split using a Dirichlet distribution to simulate realistic label imbalance...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we build an advanced federated learning experiment with NVIDIA FLARE. We compare F"
     },
     {
       "id": "e8f281819148",
@@ -497,10 +547,10 @@
         ],
         "score": 7
       },
-      "title_zh": "Can AI Guess What You Know? Performance Comparison of Large Language Models for Human Domain Knowledge Estimation From Communication Logs",
-      "summary_zh": "arXiv:2605.22971v1 Announce Type: new \nAbstract: Employees often struggle to identify ``who knows what,'' leading to organizational productivity losses. We investigate whether Large Language Models (LLMs) can infer individual domain knowledge...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.22971v1 Announce Type: new \nAbstract: Employees often struggle to identify ``who knows wh"
+      "oneliner": ""
     },
     {
       "id": "b787cd18579e",
@@ -520,10 +570,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "When AI Takes Sides on Questions of Faith: Persistent Asymmetries in AI-Mediated Faith Guidance",
-      "summary_zh": "arXiv:2605.22975v1 Announce Type: new \nAbstract: We ask whether large language models (LLMs) treat queries about religious conversion symmetrically. The answer is no. When asked for advice on hypothetical faith transitions from one religion to...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.22975v1 Announce Type: new \nAbstract: We ask whether large language models (LLMs) treat q"
+      "oneliner": ""
     },
     {
       "id": "1392c11623f0",
@@ -1023,6 +1073,31 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "86df175a446d",
+      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+      "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
+      "published": "2026-05-25T00:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4867,11 +4942,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "5fe33294ceaa"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5966,196 +6039,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "bf559441b24d",
-      "title": "K-Dense-AI /scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
-      "published": "2026-05-19T03:45:09Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "087dae28b6e3",
-      "title": "ggml-org /llama.cpp",
-      "url": "https://github.com/ggml-org/llama.cpp",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "LLM inference in C/C++",
-      "published": "2026-05-19T03:45:09Z",
-      "tags": [
-        "Llama",
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "96cb5d4c7f75",
-      "title": "tech-leads-club /agent-skills",
-      "url": "https://github.com/tech-leads-club/agent-skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
-      "published": "2026-05-19T03:45:09Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "356c38d07c93",
-      "title": "BigBodyCobain /Shadowbroker",
-      "url": "https://github.com/BigBodyCobain/Shadowbroker",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find...",
-      "published": "2026-05-19T03:45:09Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "bb12754c8385",
-      "title": "AI is a matter of power, infrastructure and security: TechEx North America",
-      "url": "https://www.artificialintelligence-news.com/news/techex-north-america-day-one-lessons-for-all-around-ai-and-more/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Although visitors to an event like TechEx North America will always want to see the cutting edge front and centre stage, the nuance and detail brought to the show by the speakers and exhibitors mean that it&#8217;s sometimes the smaller...",
-      "published": "2026-05-19T01:36:26Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e05bf9ebf2f8",
-      "title": "Introducing the Ettin Reranker Family",
-      "url": "https://huggingface.co/blog/ettin-reranker",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-05-19T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9f8d5ae45548",
-      "title": "Meet MemPrivacy: An Edge-Cloud Framework that Uses Local Reversible Pseudonymization to Protect User Data Without Breaking Memory Utility",
-      "url": "https://www.marktechpost.com/2026/05/18/meet-memprivacy-an-edge-cloud-framework-that-uses-local-reversible-pseudonymization-to-protect-user-data-without-breaking-memory-utility/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "As LLM-powered agents move from research to production, one design tension is becoming harder to ignore: the more useful cloud-hosted memory becomes, the more private user data it exposes. Researchers from MemTensor (Shanghai), HONOR Device and...",
-      "published": "2026-05-18T21:26:04Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "36dab186d020",
-      "title": "Stochastic Gradient Descent (SGD’s) Frequency Bias and How Adam Fixes It",
-      "url": "https://www.marktechpost.com/2026/05/18/stochastic-gradient-descent-sgds-frequency-bias-and-how-adam-fixes-it/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Modern language models are trained on data with extremely uneven token distributions. A small number of words appear in almost every sentence, while many rare but meaningful tokens occur only occasionally. This creates a hidden optimization...",
-      "published": "2026-05-18T20:18:55Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",

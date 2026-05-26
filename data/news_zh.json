@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T17:51:21Z",
+  "updated": "2026-05-26T03:48:02Z",
   "total": 20,
   "items": [
     {
@@ -84,6 +84,32 @@
         "LLM"
       ],
       "oneliner": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a7312c9c52bb",
+      "title_zh": "Together AI Open-Sources OSCAR: An Attention-Aware 2-Bit KV Cache Quantization System for Long-Context LLM Serving",
+      "summary_zh": "Together AI has released OSCAR (Offline Spectral Covariance-Aware Rotation), an INT2 KV cache quantization method for long-context LLM serving. Unlike prior rotation-based approaches that apply data-oblivious Hadamard transforms, OSCAR derives...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Together AI has released OSCAR (Offline Spectral Covariance-Aware Rotation), an INT2 KV cache quanti",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f4dda20eb40f",
+      "title_zh": "Step by Step Guide to Build and Compare FedAvg and FedProx Federated Learning on Non-IID CIFAR-10 with NVIDIA FLARE",
+      "summary_zh": "In this tutorial, we build an advanced federated learning experiment with NVIDIA FLARE. We compare FedAvg and FedProx on a non-IID CIFAR-10 setup, where client data is split using a Dirichlet distribution to simulate realistic label imbalance...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we build an advanced federated learning experiment with NVIDIA FLARE. We compare F",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -240,30 +266,6 @@
       "summary_zh": "arXiv:2605.22963v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are optimized to produce distributionally plausible continuations rather than to explicitly verify whether generated propositions are entailed by source documents. This...",
       "tags_zh": [],
       "oneliner": "arXiv:2605.22963v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are optimized to produ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5e21267ba4d1",
-      "title_zh": "Can AI Guess What You Know? Performance Comparison of Large Language Models for Human Domain Knowledge Estimation From Communication Logs",
-      "summary_zh": "arXiv:2605.22971v1 Announce Type: new \nAbstract: Employees often struggle to identify ``who knows what,'' leading to organizational productivity losses. We investigate whether Large Language Models (LLMs) can infer individual domain knowledge...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2605.22971v1 Announce Type: new \nAbstract: Employees often struggle to identify ``who knows wh",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b787cd18579e",
-      "title_zh": "When AI Takes Sides on Questions of Faith: Persistent Asymmetries in AI-Mediated Faith Guidance",
-      "summary_zh": "arXiv:2605.22975v1 Announce Type: new \nAbstract: We ask whether large language models (LLMs) treat queries about religious conversion symmetrically. The answer is no. When asked for advice on hypothetical faith transitions from one religion to...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2605.22975v1 Announce Type: new \nAbstract: We ask whether large language models (LLMs) treat q",
       "key_facts": [],
       "notable_quote": {
         "text": "",
