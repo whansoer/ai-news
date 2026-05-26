@@ -1,14 +1,14 @@
 {
-  "updated": "2026-05-26T03:47:52Z",
-  "total": 287,
+  "updated": "2026-05-26T18:35:05Z",
+  "total": 316,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 105
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Hugging Face",
@@ -42,19 +42,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 87
+      "count": 88
     },
     {
       "name": "LLM",
-      "count": 37
+      "count": 44
+    },
+    {
+      "name": "Benchmark",
+      "count": 12
     },
     {
       "name": "OpenAI",
       "count": 12
-    },
-    {
-      "name": "Benchmark",
-      "count": 11
     },
     {
       "name": "Google",
@@ -62,19 +62,23 @@
     },
     {
       "name": "Prompt",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Claude",
-      "count": 7
+      "count": 6
+    },
+    {
+      "name": "Diffusion",
+      "count": 6
     },
     {
       "name": "Gemini",
       "count": 5
     },
     {
-      "name": "Diffusion",
-      "count": 5
+      "name": "Embedding",
+      "count": 4
     },
     {
       "name": "API",
@@ -86,10 +90,6 @@
     },
     {
       "name": "RAG",
-      "count": 3
-    },
-    {
-      "name": "Embedding",
       "count": 3
     },
     {
@@ -127,20 +127,16 @@
     {
       "name": "Meta",
       "count": 1
-    },
-    {
-      "name": "Llama",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 206
+      "count": 236
     },
     {
       "name": "开源项目",
-      "count": 39
+      "count": 38
     },
     {
       "name": "模型发布",
@@ -162,7 +158,7 @@
     },
     {
       "date": "05-26",
-      "count": 6
+      "count": 42
     },
     {
       "date": "05-28",
@@ -183,14 +179,14 @@
   ],
   "top10": [
     {
-      "id": "4d8e922de101",
-      "title": "rohitg00 /ai-engineering-from-scratch",
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,46 +197,46 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "94ec5d23f75f",
-      "title": "colbymchenry /codegraph",
+      "id": "95f1163f64d0",
+      "title": "hardikpandya /stop-slop",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "0483299a7e22",
-      "title": "manaflow-ai /cmux",
+      "id": "36584af2f739",
+      "title": "Leonxlnx /taste-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "39ec5846ae4b",
-      "title": "multica-ai /andrej-karpathy-skills",
+      "id": "a6c0bdd810c3",
+      "title": "DigitalPlatDev /FreeDomain",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "a7312c9c52bb",
-      "title": "Together AI Open-Sources OSCAR: An Attention-Aware 2-Bit KV Cache Quantization System for Long-Context LLM Serving",
+      "id": "7efeee159fd6",
+      "title": "Autonomous AI systems test governance in physical environments",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "4af5aee7f963",
+      "title": "Meet OmniVoice Studio: A Local, Open-Source Alternative to ElevenLabs",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "f4dda20eb40f",
-      "title": "Step by Step Guide to Build and Compare FedAvg and FedProx Federated Learning on Non-IID CIFAR-10 with NVIDIA FLARE",
+      "id": "843a99b483b6",
+      "title": "Design a Complete Multimodal RLVR Pipeline with Open-MM-RL, Vision-Language Prompting, Reward Scoring, and GRPO Export",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "e8f281819148",
-      "title": "Best Authentication Platforms for AI Agents and MCP Servers in 2026",
+      "id": "88a4198703ca",
+      "title": "Document Classification Pattern Recognition via Information Fusion: A Systematic Review of Multimodal and Multiview Representation Approaches",
       "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "17278c95de34",
-      "title": "WorkOS Releases auth.md: An Open Agent Registration Protocol Built on OAuth Standards",
-      "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

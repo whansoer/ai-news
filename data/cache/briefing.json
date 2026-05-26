@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-05-26T03:48:02Z",
-  "count": 29,
+  "updated": "2026-05-26T18:35:14Z",
+  "count": 30,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -1858,6 +1858,70 @@
         }
       },
       "_ts": 1779767282
+    },
+    "669ad68129a4cafd": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录316篇AI新闻，分类分布：学术研究236篇, 开源项目38篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（88篇）。其中12%的文章有多来源交叉验证。\n\n▸ affaan-m /ECC：The agent harness performance optimization system. Skills, instincts, memory, security, and research\n\n▸ rohitg00 /ai-engineering-from-scratch：Learn it. Build it. Ship it for others.\n\n▸ mukul975 /Anthropic-Cybersecurity-Skills：754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2\n\n▸ hardikpandya /stop-slop：A skill file for removing AI tells from prose\n\n▸ Leonxlnx /taste-skill：Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "Lum1104/Understand-Anything",
+            "url": "https://github.com/Lum1104/Understand-Anything",
+            "why_hot": "单日4721星，TypeScript项目",
+            "stars_today": 4721,
+            "total_stars": 35122
+          },
+          {
+            "full_name": "rohitg00/ai-engineering-from-scratch",
+            "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+            "why_hot": "单日2169星，Python项目",
+            "stars_today": 2169,
+            "total_stars": 20433
+          },
+          {
+            "full_name": "anthropics/knowledge-work-plugins",
+            "url": "https://github.com/anthropics/knowledge-work-plugins",
+            "why_hot": "单日1698星，Python项目",
+            "stars_today": 1698,
+            "total_stars": 16517
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "316"
+          },
+          {
+            "label": "多源验证率",
+            "value": "12%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+11446"
+          }
+        ],
+        "must_read_ids": [
+          "a90d342e2181",
+          "4d8e922de101",
+          "ebc3b4fe22b6",
+          "95f1163f64d0",
+          "36584af2f739"
+        ],
+        "text": "今日共收录316篇AI新闻，分类分布：学术研究236篇, 开源项目38篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（88篇）。其中12%的文章有多来源交叉验证。",
+        "top_items": [
+          "affaan-m /ECC",
+          "rohitg00 /ai-engineering-from-scratch",
+          "mukul975 /Anthropic-Cybersecurity-Skills",
+          "hardikpandya /stop-slop",
+          "Leonxlnx /taste-skill"
+        ],
+        "meta": {
+          "total_articles": 316,
+          "multi_source_pct": 12
+        }
+      },
+      "_ts": 1779820514
     }
   }
 }
