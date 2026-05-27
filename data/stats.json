@@ -1,18 +1,18 @@
 {
-  "updated": "2026-05-27T04:03:43Z",
-  "total": 295,
+  "updated": "2026-05-27T18:32:59Z",
+  "total": 275,
   "sources": [
-    {
-      "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 90
     },
     {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
+    {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 27
     },
     {
       "name": "GitHub Trending",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Hugging Face",
-      "count": 16
+      "count": 15
     },
     {
       "name": "OpenAI",
@@ -36,21 +36,21 @@
     },
     {
       "name": "AI News",
-      "count": 8
+      "count": 6
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 78
+      "count": 71
     },
     {
       "name": "LLM",
-      "count": 44
+      "count": 40
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 13
     },
     {
       "name": "OpenAI",
@@ -58,11 +58,11 @@
     },
     {
       "name": "Google",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Prompt",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Claude",
@@ -78,10 +78,6 @@
     },
     {
       "name": "Embedding",
-      "count": 4
-    },
-    {
-      "name": "GPT",
       "count": 4
     },
     {
@@ -102,6 +98,10 @@
     },
     {
       "name": "Anthropic",
+      "count": 2
+    },
+    {
+      "name": "GPT",
       "count": 2
     },
     {
@@ -128,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 219
+      "count": 202
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 37
     },
     {
       "name": "模型发布",
@@ -140,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 8
+      "count": 6
     }
   ],
   "dailyTrend": [
@@ -154,7 +154,7 @@
     },
     {
       "date": "05-27",
-      "count": 36
+      "count": 43
     },
     {
       "date": "05-28",
@@ -175,20 +175,8 @@
   ],
   "top10": [
     {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "4d8e922de101",
-      "title": "rohitg00 /ai-engineering-from-scratch",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "ebc3b4fe22b6",
-      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "id": "7c09473f1ffc",
+      "title": "harry0703 /MoneyPrinterTurbo",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -199,8 +187,44 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "36584af2f739",
       "title": "Leonxlnx /taste-skill",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ebc3b4fe22b6",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4e4265489a81",
+      "title": "twentyhq /twenty",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "6c6d47b51097",
+      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "5899b169bc6e",
+      "title": "Building self-improving tax agents with Codex",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -209,30 +233,6 @@
       "title": "DigitalPlatDev /FreeDomain",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "d3ca232a15ae",
-      "title": "Self-Verified Distillation: Your Language Model Is Secretly Its Own Synthetic Data Pipeline",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "d2cfeed0898c",
-      "title": "Pretraining Data Exposure in Large Language Models: A Survey of Membership Inference, Data Contamination, and Security Implications",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "b96729a686e0",
-      "title": "SPEAR: Code-Augmented Agentic Prompt Optimization",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "35f38fc379e2",
-      "title": "CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }

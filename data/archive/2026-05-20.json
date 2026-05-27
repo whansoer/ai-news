@@ -1,8 +1,178 @@
 {
   "date": "2026-05-20",
-  "updated": "2026-05-27T04:03:53Z",
-  "total": 21,
+  "updated": "2026-05-27T18:33:09Z",
+  "total": 27,
   "items": [
+    {
+      "id": "169a876ea7f9",
+      "title": "How to Build Knowledge Graph Generation Pipelines From Text With kg-gen, NetworkX Analytics, and Interactive Visualizations",
+      "url": "https://www.marktechpost.com/2026/05/20/how-to-build-knowledge-graph-generation-pipelines-from-text-with-kg-gen-networkx-analytics-and-interactive-visualizations/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we will generate knowledge graphs from plain text, conversations, and multiple source documents using kg-gen. We start by setting up the required dependencies and configuring an LLM through LiteLLM, then we extract entities,...",
+      "published": "2026-05-20T18:24:08Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9e924c46a871",
+      "title": "A new experiment brings better group meetings to Google Beam",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "A small group meeting featuring two in-room participants and three participants on-screen.",
+      "published": "2026-05-20T16:45:00Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "90979a1e3b7a",
+          "619e2ba43125",
+          "56348ee114cb",
+          "adac55b4e4fe",
+          "6277c54bdb44"
+        ],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2c32df700bb8",
+      "title": "NVIDIA AI Releases Nemotron-Labs-Diffusion: A Tri-Mode Language Model with 6× Tokens Per Forward Over Qwen3-8B",
+      "url": "https://www.marktechpost.com/2026/05/20/nvidia-ai-releases-nemotron-labs-diffusion-a-tri-mode-language-model-with-6x-tokens-per-forward-over-qwen3-8b/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA researchers have released Nemotron-Labs-Diffusion, a language model family that unifies three decoding modes in one architecture. The model supports autoregressive (AR) decoding, diffusion-based parallel decoding, and self-speculation...",
+      "published": "2026-05-20T10:41:02Z",
+      "tags": [
+        "Qwen",
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "98f77cf61b44"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a795498fea42",
+      "title": "Alibaba is designing AI chips around agents, and that changes what the race is actually about",
+      "url": "https://www.artificialintelligence-news.com/news/alibaba-zhenwu-m890-ai-agent-chip-roadmap/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Alibaba has unveiled a new AI processor built specifically for AI agents, pairing the chip announcement with a multi-year silicon roadmap and a new large language model, signalling that the company is building an integrated AI stack, not just...",
+      "published": "2026-05-20T10:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "c16a3e281f57"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c16a3e281f57",
+      "title": "Alibaba Qwen Team Introduces Qwen3.5-LiveTranslate-Flash: Real-Time Multimodal Interpretation Across 60 Languages at 2.8-Second Latency",
+      "url": "https://www.marktechpost.com/2026/05/20/alibaba-qwen-team-introduces-qwen3-5-livetranslate-flash-real-time-multimodal-interpretation-across-60-languages-at-2-8-second-latency/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Alibaba's Qwen team has released Qwen3.5-LiveTranslate-Flash, a real-time multimodal translation model that processes audio and video simultaneously. The model covers 60 input languages and produces speech output in 29 languages at 2.8 seconds of...",
+      "published": "2026-05-20T08:09:51Z",
+      "tags": [
+        "Qwen"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "a795498fea42"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "56348ee114cb",
+      "title": "Google Introduces Gemini 3.5 Flash at I/O 2026: A Faster and Cheaper Model for AI Agents and Coding",
+      "url": "https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google's Gemini 3.5 Flash beats its own flagship on coding and agentic benchmarks while running four times faster and at half the cost.\nThe post Google Introduces Gemini 3.5 Flash at I/O 2026: A Faster and Cheaper Model for AI Agents and Coding...",
+      "published": "2026-05-20T07:12:49Z",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "90979a1e3b7a",
+          "619e2ba43125",
+          "9e924c46a871",
+          "adac55b4e4fe",
+          "388f97def8c6",
+          "6277c54bdb44"
+        ],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "6be269ce2129",
       "title": "The Annotation Scarcity Paradox in Low-Resource NLP Evaluation: A Decade of Acceleration and Emerging Constraints",
