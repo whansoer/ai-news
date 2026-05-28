@@ -1,22 +1,22 @@
 {
-  "updated": "2026-05-28T03:52:37Z",
-  "total": 283,
+  "updated": "2026-05-28T11:46:02Z",
+  "total": 315,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 105
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 30
     },
     {
       "name": "GitHub Trending",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Hugging Face",
@@ -42,27 +42,27 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 70
+      "count": 80
     },
     {
       "name": "LLM",
-      "count": 42
+      "count": 51
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 14
     },
     {
       "name": "OpenAI",
       "count": 12
     },
     {
-      "name": "Google",
+      "name": "Prompt",
       "count": 10
     },
     {
-      "name": "Prompt",
-      "count": 8
+      "name": "Google",
+      "count": 9
     },
     {
       "name": "Claude",
@@ -70,7 +70,11 @@
     },
     {
       "name": "Diffusion",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "RAG",
+      "count": 4
     },
     {
       "name": "Gemini",
@@ -86,10 +90,6 @@
     },
     {
       "name": "API",
-      "count": 3
-    },
-    {
-      "name": "RAG",
       "count": 3
     },
     {
@@ -117,6 +117,10 @@
       "count": 2
     },
     {
+      "name": "Meta",
+      "count": 1
+    },
+    {
       "name": "RLHF",
       "count": 1
     },
@@ -128,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 204
+      "count": 235
     },
     {
       "name": "开源项目",
-      "count": 37
+      "count": 38
     },
     {
       "name": "模型发布",
@@ -154,11 +158,11 @@
     },
     {
       "date": "05-27",
-      "count": 44
+      "count": 43
     },
     {
       "date": "05-28",
-      "count": 8
+      "count": 44
     },
     {
       "date": "06-16",
@@ -181,12 +185,6 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "95f1163f64d0",
-      "title": "hardikpandya /stop-slop",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "a90d342e2181",
       "title": "affaan-m /ECC",
       "score": 5,
@@ -199,8 +197,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "ebc3b4fe22b6",
-      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "id": "95f1163f64d0",
+      "title": "hardikpandya /stop-slop",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -211,28 +209,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "044f8d29ddcc",
-      "title": "Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual Networks into Independently Trainable Denoising Modules",
+      "id": "a6c0bdd810c3",
+      "title": "DigitalPlatDev /FreeDomain",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "6c6d47b51097",
-      "title": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "GitHub Trending"
     },
     {
-      "id": "aaab7738d381",
-      "title": "NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code",
+      "id": "38bb6a600df0",
+      "title": "revfactory /harness",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "431b433f8c79",
-      "title": "Google folds Display Ads into AI-first Demand Gen platform",
+      "id": "d5cce597c646",
+      "title": "NBA plans AI system for automatic out-of-bounds calls",
       "score": 5,
       "source": "AI News"
+    },
+    {
+      "id": "7b81543afecf",
+      "title": "Perplexity AI Open-Sources Unigram Tokenizer That Achieves 5x Lower p50 Latency Than Hugging Face tokenizers Crate",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
