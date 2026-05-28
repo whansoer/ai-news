@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-27T18:33:09Z",
-  "total": 230,
-  "new_count": 46,
+  "updated": "2026-05-28T03:52:47Z",
+  "total": 237,
+  "new_count": 53,
   "items": [
     {
       "id": "7c09473f1ffc",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-      "published": "2026-05-27T18:30:23Z",
+      "published": "2026-05-28T03:49:52Z",
       "tags": [
         "LLM"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A skill file for removing AI tells from prose",
-      "published": "2026-05-27T18:30:23Z",
+      "published": "2026-05-28T03:49:52Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-05-27T18:30:23Z",
+      "published": "2026-05-28T03:49:52Z",
       "tags": [
         "Claude",
         "Agent"
@@ -89,7 +89,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "published": "2026-05-27T18:30:23Z",
+      "published": "2026-05-28T03:49:52Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -112,7 +112,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
-      "published": "2026-05-27T18:30:23Z",
+      "published": "2026-05-28T03:49:52Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -145,7 +145,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open alternative to Salesforce, designed for AI.",
-      "published": "2026-05-27T18:30:23Z",
+      "published": "2026-05-28T03:49:52Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -160,6 +160,33 @@
       "summary_zh": "The open alternative to Salesforce, designed for AI.",
       "tags_zh": [],
       "oneliner": "The open alternative to Salesforce, designed for AI."
+    },
+    {
+      "id": "044f8d29ddcc",
+      "title": "Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual Networks into Independently Trainable Denoising Modules",
+      "url": "https://www.marktechpost.com/2026/05/27/sakana-ai-proposes-diffusionblocks-a-block-wise-training-framework-that-converts-residual-networks-into-independently-trainable-denoising-modules/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "DiffusionBlocks converts residual networks into independently trainable blocks by interpreting layer updates as reverse diffusion denoising steps.\nThe post Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual...",
+      "published": "2026-05-28T00:51:53Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual Networks into Independently Trainable Denoising Modules",
+      "summary_zh": "DiffusionBlocks converts residual networks into independently trainable blocks by interpreting layer updates as reverse diffusion denoising steps.\nThe post Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual...",
+      "tags_zh": [
+        "Diffusion"
+      ],
+      "oneliner": "DiffusionBlocks converts residual networks into independently trainable blocks by interpreting layer"
     },
     {
       "id": "6c6d47b51097",
@@ -191,6 +218,139 @@
       "oneliner": ""
     },
     {
+      "id": "aaab7738d381",
+      "title": "NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code",
+      "url": "https://www.marktechpost.com/2026/05/27/nvidia-releases-polar-a-token-faithful-rollout-framework-for-grpo-training-across-codex-claude-code-and-qwen-code/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA researchers have introduced Polar, a rollout framework that trains language agents using reinforcement learning without modifying their agent harnesses. Polar places a model API proxy between the harness and the inference server, capturing...",
+      "published": "2026-05-27T17:09:38Z",
+      "tags": [
+        "Claude",
+        "Qwen"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 4
+      },
+      "title_zh": "NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code",
+      "summary_zh": "NVIDIA researchers have introduced Polar, a rollout framework that trains language agents using reinforcement learning without modifying their agent harnesses. Polar places a model API proxy between the harness and the inference server, capturing...",
+      "tags_zh": [
+        "Claude",
+        "Qwen"
+      ],
+      "oneliner": "NVIDIA researchers have introduced Polar, a rollout framework that trains language agents using rein"
+    },
+    {
+      "id": "431b433f8c79",
+      "title": "Google folds Display Ads into AI-first Demand Gen platform",
+      "url": "https://www.artificialintelligence-news.com/news/google-folds-display-ads-ai-first-demand-gen-platform/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Google is folding Display Ads into its AI-powered Demand Gen platform, marking the end of a long-standing digital advertising model. The Google Display Network (GDN) has been a staple of the open internet for almost twenty years. Marketers...",
+      "published": "2026-05-27T13:12:06Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Google folds Display Ads into AI-first Demand Gen platform",
+      "summary_zh": "Google is folding Display Ads into its AI-powered Demand Gen platform, marking the end of a long-standing digital advertising model. The Google Display Network (GDN) has been a staple of the open internet for almost twenty years. Marketers...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Google is folding Display Ads into its AI-powered Demand Gen platform, marking the end of a long-sta"
+    },
+    {
+      "id": "165bbee8b830",
+      "title": "Exploring the Benefits of AI Bots for Forex Trading in Forex Markets",
+      "url": "https://www.artificialintelligence-news.com/news/exploring-the-benefits-of-ai-bots-for-forex-trading-in-forex-markets/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "The foreign exchange market is really moving away from pure intuition and toward a space shaped by speed, data and precision. By using automated systems in your routine, you can approach volatility with a level of discipline that manual trading...",
+      "published": "2026-05-27T12:38:44Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Exploring the Benefits of AI Bots for Forex Trading in Forex Markets",
+      "summary_zh": "The foreign exchange market is really moving away from pure intuition and toward a space shaped by speed, data and precision. By using automated systems in your routine, you can approach volatility with a level of discipline that manual trading...",
+      "tags_zh": [],
+      "oneliner": "The foreign exchange market is really moving away from pure intuition and toward a space shaped by s"
+    },
+    {
+      "id": "b5479ebcde18",
+      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "url": "https://openai.com/index/cisco",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "published": "2026-05-27T11:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "summary_zh": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native dev"
+    },
+    {
+      "id": "6391afe0d64e",
+      "title": "Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference",
+      "url": "https://www.marktechpost.com/2026/05/27/meet-eagle-3-1-the-speculative-decoding-algorithm-that-fixes-attention-drift-in-llm-inference/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "The EAGLE team, vLLM, and TorchSpec jointly release EAGLE 3.1 to fix speculative decoding instability in production.\nThe post Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference appeared first on...",
+      "published": "2026-05-27T07:23:10Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference",
+      "summary_zh": "The EAGLE team, vLLM, and TorchSpec jointly release EAGLE 3.1 to fix speculative decoding instability in production.\nThe post Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference appeared first on...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "The EAGLE team, vLLM, and TorchSpec jointly release EAGLE 3.1 to fix speculative decoding instabilit"
+    },
+    {
       "id": "5899b169bc6e",
       "title": "Building self-improving tax agents with Codex",
       "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
@@ -216,6 +376,33 @@
         "Agent"
       ],
       "oneliner": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, i"
+    },
+    {
+      "id": "48ced02649d8",
+      "title": "MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without Modifying LLM Parameters",
+      "url": "https://www.marktechpost.com/2026/05/26/memo-a-modular-framework-for-training-a-dedicated-memory-model-on-new-knowledge-without-modifying-llm-parameters/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Researchers from NUS, MIT, and A*STAR propose MEMO, a modular framework that encodes corpus knowledge into a separate trainable MEMORY model.\nThe post MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without...",
+      "published": "2026-05-27T05:24:33Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without Modifying LLM Parameters",
+      "summary_zh": "Researchers from NUS, MIT, and A*STAR propose MEMO, a modular framework that encodes corpus knowledge into a separate trainable MEMORY model.\nThe post MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Researchers from NUS, MIT, and A*STAR propose MEMO, a modular framework that encodes corpus knowledg"
     },
     {
       "id": "4d8e922de101",
@@ -358,10 +545,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations",
-      "summary_zh": "arXiv:2605.26293v1 Announce Type: new \nAbstract: Prior work establishes that controlled contrastiveness between self-generated responses from large language models, set via reward scores, improves downstream preference tuning in English. We...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.26293v1 Announce Type: new \nAbstract: Prior work establishes that controlled contrastiven"
+      "oneliner": ""
     },
     {
       "id": "114dd6556c93",
@@ -381,10 +568,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "The Daily Dose: Workflow-Integrated Large Language Model Automation for Clinical Summarization and Trial Identification in Radiation Oncology",
-      "summary_zh": "arXiv:2605.26346v1 Announce Type: new \nAbstract: Objective: To describe the design and early clinical evaluation of The Daily Dose (TDD), an LLM-driven, automated clinical summarization and clinical-trial identification system integrated into...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.26346v1 Announce Type: new \nAbstract: Objective: To describe the design and early clinica"
+      "oneliner": ""
     },
     {
       "id": "bfd4f4ed1323",
@@ -406,12 +593,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "RICE-PO: Turning Retrieval Interactions into Credit Signals for Reasoning Agents",
-      "summary_zh": "arXiv:2605.26352v1 Announce Type: new \nAbstract: Retrieval is increasingly moving from one-shot matching toward interactive reasoning, where language agents iteratively inspect evidence, reformulate queries, and search again. Training such agents...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2605.26352v1 Announce Type: new \nAbstract: Retrieval is increasingly moving from one-shot matc"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "5abf9edf41f1",
@@ -431,10 +616,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "In-Context Optimization for Retrieval-Augmented Generation: A Gradient-Descent Perspective",
-      "summary_zh": "arXiv:2605.26356v1 Announce Type: new \nAbstract: In-context learning has recently been linked to implicit gradient descent in linear self-attention models, suggesting that context can induce a forward-pass update. Retrieval-augmented generation...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.26356v1 Announce Type: new \nAbstract: In-context learning has recently been linked to imp"
+      "oneliner": ""
     },
     {
       "id": "82657cd290ce",
@@ -456,12 +641,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Why LLMs Hallucinate on Structured Knowledge: A Mechanistic Analysis of Reasoning over Linearized Representations",
-      "summary_zh": "arXiv:2605.26362v1 Announce Type: new \nAbstract: In many reasoning tasks, large language models (LLMs) rely on structured external knowledge, such as graphs and tables, which is typically linearized into sequential token representations. However,...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2605.26362v1 Announce Type: new \nAbstract: In many reasoning tasks, large language models (LLM"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b4555856d3de",
@@ -483,10 +666,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Cultural Value Alignment Via Latent Activation Steering in Large Language Models",
-      "summary_zh": "arXiv:2605.26365v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often exhibit homogenized cultural perspectives. While the World Values Survey (WVS) provides a gold standard for mapping human values, traditional direct prompting of...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2605.26365v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often exhibit homogeni"
+      "oneliner": ""
     },
     {
       "id": "35e0ac54c1a5",
@@ -508,12 +691,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Memory Architectures for Multi-Turn Text-to-SQL: A Benchmark and Empirical Study",
-      "summary_zh": "arXiv:2605.26394v1 Announce Type: new \nAbstract: Multi-turn Text-to-SQL is central to enterprise analytics yet remains predominantly evaluated in single-turn settings. We introduce EnterpriseMem-Bench, a multi-turn Text-to-SQL benchmark of 300...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2605.26394v1 Announce Type: new \nAbstract: Multi-turn Text-to-SQL is central to enterprise ana"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "7552c5324331",
@@ -1066,6 +1247,67 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "919d46e19bc3",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "url": "https://openai.com/index/warp",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "published": "2026-05-27T00:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e854ca330957",
+      "title": "Design a High-Precision Retrieve-and-Rerank Pipeline with ZeroEntropy Zerank-2 Reranker",
+      "url": "https://www.marktechpost.com/2026/05/26/design-a-high-precision-retrieve-and-rerank-pipeline-with-zeroentropy-zerank-2-reranker/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we use zeroentropy/zerank-2-reranker, a 4B Qwen3-based cross-encoder reranker, to improve retrieval quality. We start by setting up the runtime, loading the reranker, and understanding how it scores query-document pairs. Then,...",
+      "published": "2026-05-26T23:13:09Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3e19060395fa",
+      "title": "Stability AI Releases Stable Audio 3: A Family of Fast Latent Diffusion Models for Audio Generation and Editing",
+      "url": "https://www.marktechpost.com/2026/05/26/stability-ai-releases-stable-audio-3-a-family-of-fast-latent-diffusion-models-for-audio-generation-and-editing/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Stability AI has released Stable Audio 3, a family of latent diffusion models for instrumental music and sound effects generation. The release includes open weights for the small and medium variants. Small runs on a MacBook Pro M4 CPU. Medium...",
+      "published": "2026-05-26T22:31:02Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4711,11 +4953,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "2c32df700bb8"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4768,8 +5008,7 @@
           "f2261073b77c",
           "973c5765af89",
           "619e2ba43125",
-          "9e924c46a871",
-          "56348ee114cb"
+          "9e924c46a871"
         ],
         "score": 10
       },
@@ -5566,81 +5805,6 @@
       "tags": [
         "Agent"
       ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "619e2ba43125",
-      "title": "Meet Turbovec: A Rust Vector Index with Python Bindings, and Built on Google’s TurboQuant Algorithm",
-      "url": "https://www.marktechpost.com/2026/05/20/meet-turbovec-a-rust-vector-index-with-python-bindings-and-built-on-googles-turboquant-algorithm/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "turbovec brings Google Research's TurboQuant algorithm to vector search, offering 16x compression and zero codebook training for RAG pipelines.\nThe post Meet Turbovec: A Rust Vector Index with Python Bindings, and Built on Google&#8217;s...",
-      "published": "2026-05-20T21:42:31Z",
-      "tags": [
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "90979a1e3b7a",
-          "9e924c46a871",
-          "56348ee114cb"
-        ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "58130303da4c",
-      "title": "We’re announcing new community investments in Missouri.",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/missouri-programs/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-      "published": "2026-05-20T20:40:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c1e2764b80c5",
-      "title": "100 things we announced at I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "Image with the words \"Ready, Set, I/O\" and a colorful Gemini logo",
-      "published": "2026-05-20T19:30:00Z",
-      "tags": [],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",

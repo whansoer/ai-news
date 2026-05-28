@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T18:33:09Z",
+  "updated": "2026-05-28T03:52:47Z",
   "total": 20,
   "items": [
     {
@@ -85,6 +85,20 @@
       }
     },
     {
+      "id": "044f8d29ddcc",
+      "title_zh": "Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual Networks into Independently Trainable Denoising Modules",
+      "summary_zh": "DiffusionBlocks converts residual networks into independently trainable blocks by interpreting layer updates as reverse diffusion denoising steps.\nThe post Sakana AI Proposes DiffusionBlocks: a Block-wise Training Framework That Converts Residual...",
+      "tags_zh": [
+        "Diffusion"
+      ],
+      "oneliner": "DiffusionBlocks converts residual networks into independently trainable blocks by interpreting layer",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "6c6d47b51097",
       "title_zh": "ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial Analysis and IBM",
       "summary_zh": "",
@@ -100,6 +114,75 @@
       }
     },
     {
+      "id": "aaab7738d381",
+      "title_zh": "NVIDIA Releases Polar, a Token-Faithful Rollout Framework for GRPO Training Across Codex, Claude Code, and Qwen Code",
+      "summary_zh": "NVIDIA researchers have introduced Polar, a rollout framework that trains language agents using reinforcement learning without modifying their agent harnesses. Polar places a model API proxy between the harness and the inference server, capturing...",
+      "tags_zh": [
+        "Claude",
+        "Qwen"
+      ],
+      "oneliner": "NVIDIA researchers have introduced Polar, a rollout framework that trains language agents using rein",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "431b433f8c79",
+      "title_zh": "Google folds Display Ads into AI-first Demand Gen platform",
+      "summary_zh": "Google is folding Display Ads into its AI-powered Demand Gen platform, marking the end of a long-standing digital advertising model. The Google Display Network (GDN) has been a staple of the open internet for almost twenty years. Marketers...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Google is folding Display Ads into its AI-powered Demand Gen platform, marking the end of a long-sta",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "165bbee8b830",
+      "title_zh": "Exploring the Benefits of AI Bots for Forex Trading in Forex Markets",
+      "summary_zh": "The foreign exchange market is really moving away from pure intuition and toward a space shaped by speed, data and precision. By using automated systems in your routine, you can approach volatility with a level of discipline that manual trading...",
+      "tags_zh": [],
+      "oneliner": "The foreign exchange market is really moving away from pure intuition and toward a space shaped by s",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b5479ebcde18",
+      "title_zh": "Cisco and OpenAI redefine enterprise engineering with Codex",
+      "summary_zh": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native dev",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6391afe0d64e",
+      "title_zh": "Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference",
+      "summary_zh": "The EAGLE team, vLLM, and TorchSpec jointly release EAGLE 3.1 to fix speculative decoding instability in production.\nThe post Meet EAGLE 3.1: The Speculative Decoding Algorithm That Fixes Attention Drift in LLM Inference appeared first on...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "The EAGLE team, vLLM, and TorchSpec jointly release EAGLE 3.1 to fix speculative decoding instabilit",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "5899b169bc6e",
       "title_zh": "Building self-improving tax agents with Codex",
       "summary_zh": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
@@ -107,6 +190,20 @@
         "Agent"
       ],
       "oneliner": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, i",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "48ced02649d8",
+      "title_zh": "MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without Modifying LLM Parameters",
+      "summary_zh": "Researchers from NUS, MIT, and A*STAR propose MEMO, a modular framework that encodes corpus knowledge into a separate trainable MEMORY model.\nThe post MEMO: A Modular Framework for Training a Dedicated Memory Model on New Knowledge Without...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Researchers from NUS, MIT, and A*STAR propose MEMO, a modular framework that encodes corpus knowledg",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -170,96 +267,6 @@
         "Prompt"
       ],
       "oneliner": "arXiv:2605.26275v1 Announce Type: new \nAbstract: Automatic prompt engineering (APE) rewrites prompts",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "35f38fc379e2",
-      "title_zh": "CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations",
-      "summary_zh": "arXiv:2605.26293v1 Announce Type: new \nAbstract: Prior work establishes that controlled contrastiveness between self-generated responses from large language models, set via reward scores, improves downstream preference tuning in English. We...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2605.26293v1 Announce Type: new \nAbstract: Prior work establishes that controlled contrastiven",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "114dd6556c93",
-      "title_zh": "The Daily Dose: Workflow-Integrated Large Language Model Automation for Clinical Summarization and Trial Identification in Radiation Oncology",
-      "summary_zh": "arXiv:2605.26346v1 Announce Type: new \nAbstract: Objective: To describe the design and early clinical evaluation of The Daily Dose (TDD), an LLM-driven, automated clinical summarization and clinical-trial identification system integrated into...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2605.26346v1 Announce Type: new \nAbstract: Objective: To describe the design and early clinica",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bfd4f4ed1323",
-      "title_zh": "RICE-PO: Turning Retrieval Interactions into Credit Signals for Reasoning Agents",
-      "summary_zh": "arXiv:2605.26352v1 Announce Type: new \nAbstract: Retrieval is increasingly moving from one-shot matching toward interactive reasoning, where language agents iteratively inspect evidence, reformulate queries, and search again. Training such agents...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2605.26352v1 Announce Type: new \nAbstract: Retrieval is increasingly moving from one-shot matc",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5abf9edf41f1",
-      "title_zh": "In-Context Optimization for Retrieval-Augmented Generation: A Gradient-Descent Perspective",
-      "summary_zh": "arXiv:2605.26356v1 Announce Type: new \nAbstract: In-context learning has recently been linked to implicit gradient descent in linear self-attention models, suggesting that context can induce a forward-pass update. Retrieval-augmented generation...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2605.26356v1 Announce Type: new \nAbstract: In-context learning has recently been linked to imp",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "82657cd290ce",
-      "title_zh": "Why LLMs Hallucinate on Structured Knowledge: A Mechanistic Analysis of Reasoning over Linearized Representations",
-      "summary_zh": "arXiv:2605.26362v1 Announce Type: new \nAbstract: In many reasoning tasks, large language models (LLMs) rely on structured external knowledge, such as graphs and tables, which is typically linearized into sequential token representations. However,...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2605.26362v1 Announce Type: new \nAbstract: In many reasoning tasks, large language models (LLM",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b4555856d3de",
-      "title_zh": "Cultural Value Alignment Via Latent Activation Steering in Large Language Models",
-      "summary_zh": "arXiv:2605.26365v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often exhibit homogenized cultural perspectives. While the World Values Survey (WVS) provides a gold standard for mapping human values, traditional direct prompting of...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2605.26365v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often exhibit homogeni",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "35e0ac54c1a5",
-      "title_zh": "Memory Architectures for Multi-Turn Text-to-SQL: A Benchmark and Empirical Study",
-      "summary_zh": "arXiv:2605.26394v1 Announce Type: new \nAbstract: Multi-turn Text-to-SQL is central to enterprise analytics yet remains predominantly evaluated in single-turn settings. We introduce EnterpriseMem-Bench, a multi-turn Text-to-SQL benchmark of 300...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2605.26394v1 Announce Type: new \nAbstract: Multi-turn Text-to-SQL is central to enterprise ana",
       "key_facts": [],
       "notable_quote": {
         "text": "",
