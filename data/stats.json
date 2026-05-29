@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-29T03:54:09Z",
-  "total": 284,
+  "updated": "2026-05-29T11:37:39Z",
+  "total": 298,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 105
     },
     {
       "name": "ArXiv (cs.CL)",
@@ -12,15 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 30
     },
     {
       "name": "GitHub Trending",
       "count": 20
-    },
-    {
-      "name": "Google AI",
-      "count": 15
     },
     {
       "name": "OpenAI",
@@ -28,6 +24,10 @@
     },
     {
       "name": "Hugging Face",
+      "count": 15
+    },
+    {
+      "name": "Google AI",
       "count": 15
     },
     {
@@ -46,11 +46,11 @@
     },
     {
       "name": "LLM",
-      "count": 45
+      "count": 49
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 13
     },
     {
       "name": "OpenAI",
@@ -58,11 +58,7 @@
     },
     {
       "name": "Claude",
-      "count": 8
-    },
-    {
-      "name": "Google",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Prompt",
@@ -70,14 +66,22 @@
     },
     {
       "name": "Diffusion",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "Google",
+      "count": 7
+    },
+    {
+      "name": "Anthropic",
+      "count": 4
     },
     {
       "name": "Gemini",
       "count": 4
     },
     {
-      "name": "Embedding",
+      "name": "Transformer",
       "count": 3
     },
     {
@@ -85,19 +89,19 @@
       "count": 3
     },
     {
+      "name": "Embedding",
+      "count": 3
+    },
+    {
       "name": "DeepSeek",
       "count": 3
     },
     {
-      "name": "Anthropic",
+      "name": "GPU",
       "count": 2
     },
     {
       "name": "RAG",
-      "count": 2
-    },
-    {
-      "name": "Qwen",
       "count": 2
     },
     {
@@ -109,15 +113,11 @@
       "count": 2
     },
     {
-      "name": "Transformer",
-      "count": 2
-    },
-    {
-      "name": "GPU",
-      "count": 2
-    },
-    {
       "name": "Meta",
+      "count": 1
+    },
+    {
+      "name": "Qwen",
       "count": 1
     },
     {
@@ -132,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 207
+      "count": 221
     },
     {
       "name": "开源项目",
@@ -158,11 +158,11 @@
     },
     {
       "date": "05-28",
-      "count": 43
+      "count": 29
     },
     {
       "date": "05-29",
-      "count": 9
+      "count": 46
     },
     {
       "date": "06-16",
@@ -185,8 +185,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
+      "id": "4e4265489a81",
+      "title": "twentyhq /twenty",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1e61851c7eb0",
+      "title": "anthropics /claude-code",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -197,46 +203,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "95f1163f64d0",
-      "title": "hardikpandya /stop-slop",
+      "id": "1eea2ce00726",
+      "title": "galilai-group /stable-worldmodel",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "4e4265489a81",
-      "title": "twentyhq /twenty",
+      "id": "08bc59c595a3",
+      "title": "Anthropic releases Claude Opus 4.8",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "AI News"
     },
     {
-      "id": "a6c0bdd810c3",
-      "title": "DigitalPlatDev /FreeDomain",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "38bb6a600df0",
-      "title": "revfactory /harness",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "4200a87f0eef",
-      "title": "How to Design an End-to-End Ansible Automation Lab with Playbooks, Inventories, Roles, Vault, Dynamic Inventory, and Custom Modules",
+      "id": "4afc85770428",
+      "title": "Meet mKernel: A Multi-GPU, Multi-Node Fused Kernel Library for GPU-Driven Communication",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "70a48a69ed6a",
-      "title": "Liquid AI Releases LFM2.5-8B-A1B: An On-Device MoE Model With 8.3B Total and 1.5B Active Parameters",
+      "id": "69225e41137b",
+      "title": "Hexo Labs Open-Sources SIA: A Self-Improving Agent That Updates Both the Harness and the Model Weights",
       "score": 5,
       "source": "MarkTechPost"
+    },
+    {
+      "id": "3e67b19fd42e",
+      "title": "ICG: Improving Cover Image Generation via MLLM-based Prompting and Personalized Preference Alignment",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "0a33bda2bbbb",
+      "title": "LCO: LLM-based Constraint Optimization for Safer Agentic LLMs in Real-world Tasks",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
