@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-29T18:45:45Z",
-  "total": 266,
+  "updated": "2026-05-30T03:39:19Z",
+  "total": 270,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 31
     },
     {
       "name": "GitHub Trending",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Google AI",
-      "count": 15
+      "count": 16
     },
     {
       "name": "OpenAI",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 64
     },
     {
       "name": "LLM",
@@ -58,27 +58,35 @@
     },
     {
       "name": "OpenAI",
-      "count": 9
-    },
-    {
-      "name": "Diffusion",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Google",
       "count": 7
     },
     {
+      "name": "Diffusion",
+      "count": 7
+    },
+    {
+      "name": "Anthropic",
+      "count": 5
+    },
+    {
+      "name": "Gemini",
+      "count": 5
+    },
+    {
       "name": "Prompt",
       "count": 5
     },
     {
-      "name": "Anthropic",
-      "count": 4
+      "name": "GPT",
+      "count": 3
     },
     {
-      "name": "Gemini",
-      "count": 4
+      "name": "RAG",
+      "count": 3
     },
     {
       "name": "API",
@@ -93,16 +101,12 @@
       "count": 2
     },
     {
-      "name": "RAG",
-      "count": 2
-    },
-    {
-      "name": "GPT",
-      "count": 2
-    },
-    {
       "name": "Embedding",
       "count": 2
+    },
+    {
+      "name": "Llama",
+      "count": 1
     },
     {
       "name": "GPU",
@@ -128,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 192
     },
     {
       "name": "开源项目",
@@ -136,7 +140,7 @@
     },
     {
       "name": "模型发布",
-      "count": 30
+      "count": 31
     },
     {
       "name": "产品/API",
@@ -144,10 +148,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "05-26",
-      "count": 38
-    },
     {
       "date": "05-27",
       "count": 43
@@ -159,6 +159,10 @@
     {
       "date": "05-29",
       "count": 51
+    },
+    {
+      "date": "05-30",
+      "count": 7
     },
     {
       "date": "06-16",
@@ -205,34 +209,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "6aee6b02d3b5",
-      "title": "11 demos of Gemini Omni and Gemini 3.5 in action",
+      "id": "4cbae2d24f90",
+      "title": "Hermes Agent Ships Tool Search for MCP: Anthropic Evals Show 49% to 74% Accuracy Gain on Opus 4",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "517e529d7df1",
+      "title": "How to Use AgentTrove: Streaming 1.7M Agentic Traces and Building a Clean ShareGPT SFT Dataset in Python",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "a9619d7685a8",
+      "title": "NVIDIA Introduces X-Token: Projection-Guided Cross-Tokenizer KD That Outperforms GOLD by +3.82 Average Points on Llama-3.2-1B",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "bb32904af038",
+      "title": "StepFun Releases Step 3.7 Flash: A 198B MoE Vision-Language Model for Coding Agents and Search Workflows",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "bb0319888f69",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
       "score": 5,
       "source": "Google AI"
-    },
-    {
-      "id": "f8cd31cca338",
-      "title": "Scaling safe enterprise AI with OpenAI governance frameworks",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "7a1c98af09d2",
-      "title": "Check out real-life AI prototypes from the Futures Lab.",
-      "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "be876b176720",
-      "title": "Boston Children’s uses AI to unlock new diagnoses",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "08bc59c595a3",
-      "title": "Anthropic releases Claude Opus 4.8",
-      "score": 5,
-      "source": "AI News"
     }
   ]
 }
