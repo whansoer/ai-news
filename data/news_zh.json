@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-30T10:08:41Z",
+  "updated": "2026-05-30T17:18:06Z",
   "total": 20,
   "items": [
     {
@@ -10,18 +10,6 @@
         "LLM"
       ],
       "oneliner": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4e4265489a81",
-      "title_zh": "twentyhq /twenty",
-      "summary_zh": "The open alternative to Salesforce, designed for AI.",
-      "tags_zh": [],
-      "oneliner": "The open alternative to Salesforce, designed for AI.",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -45,11 +33,29 @@
       }
     },
     {
-      "id": "36584af2f739",
-      "title_zh": "Leonxlnx /taste-skill",
-      "summary_zh": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "tags_zh": [],
-      "oneliner": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "id": "38bb6a600df0",
+      "title_zh": "revfactory /harness",
+      "summary_zh": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "tags_zh": [
+        "Meta",
+        "Agent"
+      ],
+      "oneliner": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a90d342e2181",
+      "title_zh": "affaan-m /ECC",
+      "summary_zh": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "tags_zh": [
+        "Claude",
+        "Agent"
+      ],
+      "oneliner": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -62,6 +68,42 @@
       "summary_zh": "A platform for reproducible world model research and evaluation",
       "tags_zh": [],
       "oneliner": "A platform for reproducible world model research and evaluation",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "41a6a86637e6",
+      "title_zh": "Crosstalk-Solutions /project-nomad",
+      "summary_zh": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "tags_zh": [],
+      "oneliner": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowle",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "4e4265489a81",
+      "title_zh": "twentyhq /twenty",
+      "summary_zh": "The open alternative to Salesforce, designed for AI.",
+      "tags_zh": [],
+      "oneliner": "The open alternative to Salesforce, designed for AI.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "36584af2f739",
+      "title_zh": "Leonxlnx /taste-skill",
+      "summary_zh": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "tags_zh": [],
+      "oneliner": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -225,49 +267,6 @@
       "summary_zh": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
       "tags_zh": [],
       "oneliner": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "08bc59c595a3",
-      "title_zh": "Anthropic releases Claude Opus 4.8",
-      "summary_zh": "Anthropic has released Claude Opus 4.8, an upgrade to Claude Opus 4.7 that the company says brings improved results for coding, agent work, reasoning, and knowledge work. The platform can be used through claude.ai, Claude Code and the Claude API,...",
-      "tags_zh": [
-        "Claude",
-        "Anthropic"
-      ],
-      "oneliner": "Anthropic has released Claude Opus 4.8, an upgrade to Claude Opus 4.7 that the company says brings i",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4afc85770428",
-      "title_zh": "Meet mKernel: A Multi-GPU, Multi-Node Fused Kernel Library for GPU-Driven Communication",
-      "summary_zh": "UC Berkeley's UCCL team releases mKernel, fusing intra-node NVLink, inter-node RDMA, and dense compute into a single persistent CUDA kernel.\nThe post Meet mKernel: A Multi-GPU, Multi-Node Fused Kernel Library for GPU-Driven Communication appeared...",
-      "tags_zh": [
-        "GPU"
-      ],
-      "oneliner": "UC Berkeley's UCCL team releases mKernel, fusing intra-node NVLink, inter-node RDMA, and dense compu",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "69225e41137b",
-      "title_zh": "Hexo Labs Open-Sources SIA: A Self-Improving Agent That Updates Both the Harness and the Model Weights",
-      "summary_zh": "Hexo Labs released SIA, an open-source self-improving loop, under an MIT license. A Feedback-Agent reads each run's trajectory, then either rewrites the scaffold or triggers a LoRA weight update on gpt-oss-120b. Combining both levers beat...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Hexo Labs released SIA, an open-source self-improving loop, under an MIT license. A Feedback-Agent r",
       "key_facts": [],
       "notable_quote": {
         "text": "",

@@ -1,10 +1,10 @@
 {
-  "updated": "2026-05-30T10:08:31Z",
-  "total": 271,
+  "updated": "2026-05-30T17:17:56Z",
+  "total": 251,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 32
+      "count": 31
     },
     {
       "name": "GitHub Trending",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Google AI",
@@ -31,37 +31,37 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 7
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 60
     },
     {
       "name": "LLM",
-      "count": 43
-    },
-    {
-      "name": "Benchmark",
-      "count": 11
+      "count": 40
     },
     {
       "name": "Claude",
       "count": 9
     },
     {
-      "name": "OpenAI",
-      "count": 8
+      "name": "Benchmark",
+      "count": 9
     },
     {
       "name": "Google",
+      "count": 7
+    },
+    {
+      "name": "OpenAI",
       "count": 7
     },
     {
@@ -85,16 +85,16 @@
       "count": 3
     },
     {
-      "name": "RAG",
-      "count": 3
-    },
-    {
       "name": "API",
       "count": 3
     },
     {
       "name": "DeepSeek",
       "count": 3
+    },
+    {
+      "name": "RAG",
+      "count": 2
     },
     {
       "name": "Transformer",
@@ -105,15 +105,15 @@
       "count": 2
     },
     {
+      "name": "Meta",
+      "count": 1
+    },
+    {
       "name": "Llama",
       "count": 1
     },
     {
       "name": "GPU",
-      "count": 1
-    },
-    {
-      "name": "Meta",
       "count": 1
     },
     {
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 193
+      "count": 177
     },
     {
       "name": "开源项目",
-      "count": 35
+      "count": 36
     },
     {
       "name": "模型发布",
@@ -144,7 +144,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 7
     }
   ],
   "dailyTrend": [
@@ -158,11 +158,11 @@
     },
     {
       "date": "05-29",
-      "count": 51
+      "count": 49
     },
     {
       "date": "05-30",
-      "count": 8
+      "count": 11
     },
     {
       "date": "06-16",
@@ -185,26 +185,44 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "4e4265489a81",
-      "title": "twentyhq /twenty",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "1e61851c7eb0",
       "title": "anthropics /claude-code",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "36584af2f739",
-      "title": "Leonxlnx /taste-skill",
+      "id": "38bb6a600df0",
+      "title": "revfactory /harness",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
       "id": "1eea2ce00726",
       "title": "galilai-group /stable-worldmodel",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "41a6a86637e6",
+      "title": "Crosstalk-Solutions /project-nomad",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4e4265489a81",
+      "title": "twentyhq /twenty",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "36584af2f739",
+      "title": "Leonxlnx /taste-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -217,24 +235,6 @@
     {
       "id": "4cbae2d24f90",
       "title": "Hermes Agent Ships Tool Search for MCP: Anthropic Evals Show 49% to 74% Accuracy Gain on Opus 4",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "517e529d7df1",
-      "title": "How to Use AgentTrove: Streaming 1.7M Agentic Traces and Building a Clean ShareGPT SFT Dataset in Python",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "a9619d7685a8",
-      "title": "NVIDIA Introduces X-Token: Projection-Guided Cross-Tokenizer KD That Outperforms GOLD by +3.82 Average Points on Llama-3.2-1B",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "bb32904af038",
-      "title": "StepFun Releases Step 3.7 Flash: A 198B MoE Vision-Language Model for Coding Agents and Search Workflows",
       "score": 5,
       "source": "MarkTechPost"
     }
