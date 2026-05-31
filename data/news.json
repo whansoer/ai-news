@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-30T17:18:06Z",
-  "total": 216,
-  "new_count": 35,
+  "updated": "2026-05-31T04:05:23Z",
+  "total": 214,
+  "new_count": 34,
   "items": [
     {
       "id": "7c09473f1ffc",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-      "published": "2026-05-30T17:15:30Z",
+      "published": "2026-05-31T04:02:45Z",
       "tags": [
         "LLM"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "published": "2026-05-30T17:15:30Z",
+      "published": "2026-05-31T04:02:45Z",
       "tags": [
         "Claude",
         "Anthropic",
@@ -48,11 +48,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "4cbae2d24f90"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "anthropics /claude-code",
       "summary_zh": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
@@ -70,7 +68,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "published": "2026-05-30T17:15:30Z",
+      "published": "2026-05-31T04:02:45Z",
       "tags": [
         "Meta",
         "Agent"
@@ -99,7 +97,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-05-30T17:15:30Z",
+      "published": "2026-05-31T04:02:45Z",
       "tags": [
         "Claude",
         "Agent"
@@ -128,7 +126,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A platform for reproducible world model research and evaluation",
-      "published": "2026-05-30T17:15:30Z",
+      "published": "2026-05-31T04:02:45Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -151,7 +149,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-      "published": "2026-05-30T17:15:30Z",
+      "published": "2026-05-31T04:02:45Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -255,10 +253,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "1e61851c7eb0",
           "08bc59c595a3"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "Hermes Agent Ships Tool Search for MCP: Anthropic Evals Show 49% to 74% Accuracy Gain on Opus 4",
       "summary_zh": "Nous Research's Hermes Agent adds Tool Search to fix MCP context bloat using BM25 progressive schema disclosure.\nThe post Hermes Agent Ships Tool Search for MCP: Anthropic Evals Show 49% to 74% Accuracy Gain on Opus 4 appeared first on MarkTechPost.",
@@ -5257,57 +5254,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c2281cfbffa6",
-      "title": "Tencent Open-Sources TencentDB Agent Memory: A 4-Tier Local Memory Pipeline for AI Agents",
-      "url": "https://www.marktechpost.com/2026/05/23/tencent-open-sources-tencentdb-agent-memory-a-4-tier-local-memory-pipeline-for-ai-agents/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Tencent has open-sourced TencentDB Agent Memory, a fully local memory system for AI agents released under the MIT license. The project pairs symbolic short-term memory, which offloads verbose tool logs into a compact Mermaid task canvas, with a...",
-      "published": "2026-05-23T19:31:12Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "86abcef855f4",
-      "title": "Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory",
-      "url": "https://www.marktechpost.com/2026/05/23/build-a-superclaude-framework-workflow-with-commands-agents-modes-and-session-memory/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we build an advanced workflow using the SuperClaude Framework as a structured layer on top of the Anthropic API.\nThe post Build a SuperClaude Framework Workflow with Commands, Agents, Modes, and Session Memory appeared first on...",
-      "published": "2026-05-23T19:05:33Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
