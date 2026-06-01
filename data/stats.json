@@ -1,18 +1,18 @@
 {
-  "updated": "2026-05-31T17:17:23Z",
-  "total": 255,
+  "updated": "2026-06-01T04:11:42Z",
+  "total": 286,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 61
+      "count": 76
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 31
     },
     {
       "name": "GitHub Trending",
@@ -42,15 +42,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 41
+      "count": 47
     },
     {
       "name": "Benchmark",
-      "count": 10
+      "count": 12
+    },
+    {
+      "name": "Diffusion",
+      "count": 8
     },
     {
       "name": "Claude",
@@ -65,8 +69,12 @@
       "count": 7
     },
     {
-      "name": "Diffusion",
-      "count": 7
+      "name": "Prompt",
+      "count": 6
+    },
+    {
+      "name": "RAG",
+      "count": 5
     },
     {
       "name": "Anthropic",
@@ -77,11 +85,15 @@
       "count": 5
     },
     {
-      "name": "Prompt",
-      "count": 5
+      "name": "API",
+      "count": 3
     },
     {
-      "name": "API",
+      "name": "GPT",
+      "count": 3
+    },
+    {
+      "name": "Embedding",
       "count": 3
     },
     {
@@ -89,23 +101,15 @@
       "count": 3
     },
     {
-      "name": "GPT",
-      "count": 2
-    },
-    {
-      "name": "RAG",
-      "count": 2
-    },
-    {
       "name": "Transformer",
       "count": 2
     },
     {
-      "name": "Embedding",
-      "count": 2
+      "name": "Meta",
+      "count": 1
     },
     {
-      "name": "Meta",
+      "name": "Microsoft",
       "count": 1
     },
     {
@@ -128,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 176
+      "count": 207
     },
     {
       "name": "开源项目",
@@ -145,10 +149,6 @@
   ],
   "dailyTrend": [
     {
-      "date": "05-28",
-      "count": 29
-    },
-    {
       "date": "05-29",
       "count": 49
     },
@@ -158,7 +158,11 @@
     },
     {
       "date": "05-31",
-      "count": 12
+      "count": 8
+    },
+    {
+      "date": "06-01",
+      "count": 35
     },
     {
       "date": "06-16",
@@ -205,34 +209,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "1e61851c7eb0",
-      "title": "anthropics /claude-code",
+      "id": "d95b5d7644a1",
+      "title": "Protocol for evaluating ChatGPT in biomedical association generation and verification using a RAG-enabled, cross-model majority voting workflow",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
+      "id": "7ac1475768da",
+      "title": "Exploring Autonomous Agentic Data Engineering for Model Specialization",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "1eea2ce00726",
-      "title": "galilai-group /stable-worldmodel",
+      "id": "a5146f2316b9",
+      "title": "Domain Adaptation and Reasoning Frameworks in Language Models: A Controlled Experiment with Historical Cosmology",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "41a6a86637e6",
-      "title": "Crosstalk-Solutions /project-nomad",
+      "id": "e95d7454919a",
+      "title": "Cross-Lingual Steering for Figurative Language Generation",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "23cdbfb71f08",
-      "title": "A Coding Implementation on Loguru for Designing Robust, Structured, Concurrent, and Production-Ready Python Logging Pipelines",
+      "id": "04e369221ff7",
+      "title": "Can LLM Teams Play What? Where? When?",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
