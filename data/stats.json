@@ -1,18 +1,18 @@
 {
-  "updated": "2026-06-01T20:24:03Z",
-  "total": 256,
+  "updated": "2026-06-02T04:13:15Z",
+  "total": 288,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 61
+      "count": 76
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "GitHub Trending",
@@ -42,15 +42,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 59
     },
     {
       "name": "LLM",
-      "count": 47
+      "count": 50
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 14
+    },
+    {
+      "name": "Diffusion",
+      "count": 8
     },
     {
       "name": "Google",
@@ -65,15 +69,15 @@
       "count": 7
     },
     {
+      "name": "RAG",
+      "count": 6
+    },
+    {
       "name": "Gemini",
       "count": 6
     },
     {
-      "name": "Diffusion",
-      "count": 6
-    },
-    {
-      "name": "RAG",
+      "name": "Embedding",
       "count": 5
     },
     {
@@ -85,6 +89,10 @@
       "count": 5
     },
     {
+      "name": "Transformer",
+      "count": 4
+    },
+    {
       "name": "API",
       "count": 3
     },
@@ -93,16 +101,8 @@
       "count": 3
     },
     {
-      "name": "Embedding",
-      "count": 3
-    },
-    {
       "name": "DeepSeek",
       "count": 3
-    },
-    {
-      "name": "Transformer",
-      "count": 2
     },
     {
       "name": "Meta",
@@ -128,7 +128,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 175
+      "count": 207
     },
     {
       "name": "开源项目",
@@ -145,10 +145,6 @@
   ],
   "dailyTrend": [
     {
-      "date": "05-29",
-      "count": 49
-    },
-    {
       "date": "05-30",
       "count": 6
     },
@@ -158,7 +154,11 @@
     },
     {
       "date": "06-01",
-      "count": 47
+      "count": 44
+    },
+    {
+      "date": "06-02",
+      "count": 37
     },
     {
       "date": "06-16",
@@ -211,28 +211,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "c655c0a32140",
-      "title": "Meet Memory OS: A 6-Layer Open-Source Memory Stack Built on Top of Hermes Agent",
+      "id": "23f522a03020",
+      "title": "DraDDP: A Multimodal Multi-Party Dialogue Discourse Parsing Dataset",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "4be325886964",
-      "title": "How we used Gemini to build Google I/O 2026",
+      "id": "b1544871bcd7",
+      "title": "Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval",
       "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "3cf2c3be558d",
-      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "id": "f64fc6ab23fa",
+      "title": "AEyeDE: An Attention-Based Attribution Framework for AI-Generated Text Detection",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "287852ed7fbc",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "id": "fa1a3f909e52",
+      "title": "CSRP: Chain-of-Thought Reasoning for Chinese Text Correction via Reinforcement Learning with Efficiency-Aware Rewards",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
