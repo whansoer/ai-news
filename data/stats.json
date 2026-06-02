@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-02T12:14:29Z",
-  "total": 250,
+  "updated": "2026-06-02T19:49:03Z",
+  "total": 253,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,10 +12,14 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 27
     },
     {
       "name": "GitHub Trending",
+      "count": 21
+    },
+    {
+      "name": "OpenAI",
       "count": 18
     },
     {
@@ -27,22 +31,18 @@
       "count": 16
     },
     {
-      "name": "OpenAI",
-      "count": 15
-    },
-    {
       "name": "Synced",
       "count": 10
     },
     {
       "name": "AI News",
-      "count": 9
+      "count": 8
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 53
+      "count": 55
     },
     {
       "name": "LLM",
@@ -53,6 +53,10 @@
       "count": 13
     },
     {
+      "name": "RAG",
+      "count": 8
+    },
+    {
       "name": "Google",
       "count": 8
     },
@@ -61,24 +65,16 @@
       "count": 7
     },
     {
-      "name": "RAG",
-      "count": 6
-    },
-    {
-      "name": "Gemini",
-      "count": 6
-    },
-    {
       "name": "Claude",
       "count": 6
     },
     {
       "name": "OpenAI",
-      "count": 5
+      "count": 6
     },
     {
-      "name": "Prompt",
-      "count": 5
+      "name": "Gemini",
+      "count": 6
     },
     {
       "name": "Anthropic",
@@ -90,6 +86,10 @@
     },
     {
       "name": "Transformer",
+      "count": 4
+    },
+    {
+      "name": "Prompt",
       "count": 4
     },
     {
@@ -128,19 +128,19 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 175
+      "count": 173
     },
     {
       "name": "开源项目",
-      "count": 35
+      "count": 38
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 34
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 8
     }
   ],
   "dailyTrend": [
@@ -150,7 +150,7 @@
     },
     {
       "date": "05-31",
-      "count": 8
+      "count": 7
     },
     {
       "date": "06-01",
@@ -158,7 +158,7 @@
     },
     {
       "date": "06-02",
-      "count": 38
+      "count": 46
     },
     {
       "date": "06-16",
@@ -175,8 +175,32 @@
   ],
   "top10": [
     {
+      "id": "fc660d3bee25",
+      "title": "chopratejas /headroom",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "c157c87cd55e",
       "title": "nesquena /hermes-webui",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "14325000fbbf",
+      "title": "stefan-jansen /machine-learning-for-trading",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "e7969addf9dd",
+      "title": "jamwithai /production-agentic-rag-course",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -185,6 +209,12 @@
       "title": "supermemoryai /supermemory",
       "score": 5,
       "source": "GitHub Trending"
+    },
+    {
+      "id": "c9edca228384",
+      "title": "Holo3.1: Fast & Local Computer Use Agents",
+      "score": 5,
+      "source": "Hugging Face"
     },
     {
       "id": "7c09473f1ffc",
@@ -203,36 +233,6 @@
       "title": "TauricResearch /TradingAgents",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "38bb6a600df0",
-      "title": "revfactory /harness",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "23f522a03020",
-      "title": "DraDDP: A Multimodal Multi-Party Dialogue Discourse Parsing Dataset",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "b1544871bcd7",
-      "title": "Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "f64fc6ab23fa",
-      "title": "AEyeDE: An Attention-Based Attribution Framework for AI-Generated Text Detection",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "fa1a3f909e52",
-      "title": "CSRP: Chain-of-Thought Reasoning for Chinese Text Correction via Reinforcement Learning with Efficiency-Aware Rewards",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
