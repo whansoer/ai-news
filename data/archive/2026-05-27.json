@@ -1,0 +1,851 @@
+{
+  "date": "2026-05-27",
+  "updated": "2026-06-03T04:23:03Z",
+  "total": 35,
+  "items": [
+    {
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Learn it. Build it. Ship it for others.",
+      "published": "2026-05-27T04:01:10Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d3ca232a15ae",
+      "title": "Self-Verified Distillation: Your Language Model Is Secretly Its Own Synthetic Data Pipeline",
+      "url": "https://arxiv.org/abs/2605.26132",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26132v1 Announce Type: new \nAbstract: Can post-trained large language models (LLMs) further improve themselves using only unlabeled prompts, without external teachers or feedback from tools? We study this setting starting only from...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d2cfeed0898c",
+      "title": "Pretraining Data Exposure in Large Language Models: A Survey of Membership Inference, Data Contamination, and Security Implications",
+      "url": "https://arxiv.org/abs/2605.26133",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26133v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have become the predominant paradigm in NLP, advancing both research and industry. As model sizes and pretraining data grow, concerns about Pretraining Data Exposure...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b4555856d3de"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b96729a686e0",
+      "title": "SPEAR: Code-Augmented Agentic Prompt Optimization",
+      "url": "https://arxiv.org/abs/2605.26275",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26275v1 Announce Type: new \nAbstract: Automatic prompt engineering (APE) rewrites prompts to improve downstream task performance, but existing APE loops treat the optimizer itself as a fixed pipeline. We port the code-as-action...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Agent",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "35f38fc379e2",
+      "title": "CroCo: Cross-Lingual Contrastive Preference Tuning on Self-Generations",
+      "url": "https://arxiv.org/abs/2605.26293",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26293v1 Announce Type: new \nAbstract: Prior work establishes that controlled contrastiveness between self-generated responses from large language models, set via reward scores, improves downstream preference tuning in English. We...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "114dd6556c93",
+      "title": "The Daily Dose: Workflow-Integrated Large Language Model Automation for Clinical Summarization and Trial Identification in Radiation Oncology",
+      "url": "https://arxiv.org/abs/2605.26346",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26346v1 Announce Type: new \nAbstract: Objective: To describe the design and early clinical evaluation of The Daily Dose (TDD), an LLM-driven, automated clinical summarization and clinical-trial identification system integrated into...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "bfd4f4ed1323",
+      "title": "RICE-PO: Turning Retrieval Interactions into Credit Signals for Reasoning Agents",
+      "url": "https://arxiv.org/abs/2605.26352",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26352v1 Announce Type: new \nAbstract: Retrieval is increasingly moving from one-shot matching toward interactive reasoning, where language agents iteratively inspect evidence, reformulate queries, and search again. Training such agents...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5abf9edf41f1",
+      "title": "In-Context Optimization for Retrieval-Augmented Generation: A Gradient-Descent Perspective",
+      "url": "https://arxiv.org/abs/2605.26356",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26356v1 Announce Type: new \nAbstract: In-context learning has recently been linked to implicit gradient descent in linear self-attention models, suggesting that context can induce a forward-pass update. Retrieval-augmented generation...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "82657cd290ce",
+      "title": "Why LLMs Hallucinate on Structured Knowledge: A Mechanistic Analysis of Reasoning over Linearized Representations",
+      "url": "https://arxiv.org/abs/2605.26362",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26362v1 Announce Type: new \nAbstract: In many reasoning tasks, large language models (LLMs) rely on structured external knowledge, such as graphs and tables, which is typically linearized into sequential token representations. However,...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b4555856d3de",
+      "title": "Cultural Value Alignment Via Latent Activation Steering in Large Language Models",
+      "url": "https://arxiv.org/abs/2605.26365",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26365v1 Announce Type: new \nAbstract: Large Language Models (LLMs) often exhibit homogenized cultural perspectives. While the World Values Survey (WVS) provides a gold standard for mapping human values, traditional direct prompting of...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "d2cfeed0898c"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "35e0ac54c1a5",
+      "title": "Memory Architectures for Multi-Turn Text-to-SQL: A Benchmark and Empirical Study",
+      "url": "https://arxiv.org/abs/2605.26394",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26394v1 Announce Type: new \nAbstract: Multi-turn Text-to-SQL is central to enterprise analytics yet remains predominantly evaluated in single-turn settings. We introduce EnterpriseMem-Bench, a multi-turn Text-to-SQL benchmark of 300...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7552c5324331",
+      "title": "Annotator Positionality as Signal: Psychometric Weighting for Anti-Autistic Ableism Detection",
+      "url": "https://arxiv.org/abs/2605.26397",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26397v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used in decision-making tasks where they can amplify or suppress perspectives, raising concerns in high-stakes settings affecting autistic communities....",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "db462695d676",
+      "title": "Towards Just-in-Time Adaptive Feedback: Enhancing Student Learning via Knowledge-Grounded LLM",
+      "url": "https://arxiv.org/abs/2605.26405",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26405v1 Announce Type: new \nAbstract: Educational interventions are effective tools for enhancing student learning. While Large Language Models (LLMs) allow for generating adaptive feedback at scale, current studies lack clear...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "4b99126f471a",
+      "title": "Slide Deck Q&A Quality Assurance App: A Multi-Stage Pipeline for Pedagogical Question Generation",
+      "url": "https://arxiv.org/abs/2605.26428",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26428v1 Announce Type: new \nAbstract: Generating high-quality, pedagogically useful questions from lecture slide decks is difficult because important instructional content is distributed across both text and visual elements, and...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "be029c3d831f",
+      "title": "Probing Minimalist Phase Structure in LLMs: What Universal Dependencies Cannot Represent",
+      "url": "https://arxiv.org/abs/2605.26431",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26431v1 Announce Type: new \nAbstract: Structural probes train on Universal Dependencies (UD), which does not encode formal-syntactic abstractions such as phase boundaries or phase-internal cohesion. Whether large language models (LLMs)...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f028cae0dd55",
+      "title": "Vectors Are Not Neutral: Sensitive-Information Inference from Exported LLM Representations in Summarization",
+      "url": "https://arxiv.org/abs/2605.26433",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2605.26433v1 Announce Type: new \nAbstract: Large language model (LLM) summarization systems may pass compact vector representations of private inputs to downstream retrieval, monitoring, audit, or analytic workflows. Even when source...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "afacf0ca4131",
+      "title": "BrickAnything: Geometry-Conditioned Buildable Brick Generation with Structure-Aware Tokenization",
+      "url": "https://arxiv.org/abs/2605.26182",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26182v1 Announce Type: new \nAbstract: Generating physically buildable brick structures from 3D shapes requires more than geometric reconstruction: the output must also satisfy discrete part constraints and structural stability....",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "89881d61a68c",
+      "title": "Can LLMs Introspect? A Reality Check",
+      "url": "https://arxiv.org/abs/2605.26242",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26242v1 Announce Type: new \nAbstract: Can large language models detect and report their own internal states? A number of studies have argued that the answer to this question is yes. We argue, based on lessons from human metacognition...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f4691c9ece36",
+      "title": "Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory",
+      "url": "https://arxiv.org/abs/2605.26252",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26252v1 Announce Type: new \nAbstract: Long-running AI agents need persistent memory. Memory supports learning across sessions, reduces repeated context injection, and enables auditing of past decisions. Current agent memory systems and...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3b4cd7affc28",
+      "title": "Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions",
+      "url": "https://arxiv.org/abs/2605.26256",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26256v1 Announce Type: new \nAbstract: Multimodal large language model (MLLM)-based embodied agents have shown strong potential for solving complex tasks in physical environments. However, personalized assistance requires more than...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "41755decdc0b",
+      "title": "Constraint acquisition needs better benchmarks",
+      "url": "https://arxiv.org/abs/2605.26279",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26279v1 Announce Type: new \nAbstract: Constraint Acquisition (CA) and related research on the validation and enhancement of Mathematical Programming (MP) models from domain knowledge artifacts are currently limited by inadequate...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fe1c579855f5",
+      "title": "Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems",
+      "url": "https://arxiv.org/abs/2605.26302",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26302v1 Announce Type: new \nAbstract: Long-lived AI agents are increasingly deployed as persistent operational systems, yet they are still evaluated like freshly initialized models. Day-one benchmarks miss a basic systems question: how...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7dd4c3b40be2",
+      "title": "Experiments in Agentic AI for Science",
+      "url": "https://arxiv.org/abs/2605.26305",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26305v1 Announce Type: new \nAbstract: This paper details two novel frameworks for developing autonomous, agentic AI in scientific workflows. Both systems leverage a hybrid Local Body, Remote Brain architecture via Google Colab,...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a7fba36c5283",
+      "title": "Anchor: Mitigating Artifact Drift in Agent Benchmark Generation",
+      "url": "https://arxiv.org/abs/2605.26321",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26321v1 Announce Type: new \nAbstract: AI agents are beginning to complete valuable, long-horizon business operations tasks, but training and evaluation environments for enterprise work still struggle to balance realism, verifiability,...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d8c030f3d3a8",
+      "title": "OmniToM: Benchmarking Theory of Mind in LLMs via Explicit Belief Modeling",
+      "url": "https://arxiv.org/abs/2605.26322",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26322v1 Announce Type: new \nAbstract: Theory of Mind (ToM), the ability to infer others' knowledge, intentions, and emotions, is commonly evaluated in large language models (LLMs) using end-point question answering, where performance...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b454cbc76252",
+      "title": "JobBench: Aligning Agent Work With Human Will",
+      "url": "https://arxiv.org/abs/2605.26329",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26329v1 Announce Type: new \nAbstract: Current benchmarks for occupational AI agents are scoped primarily by economic values, telling a replacement story. We introduce JobBench, which evaluates AI agents on the workflows that experts...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b9ddbeac8d70",
+      "title": "Managing Uncertainty in LLM-Generated Procedural Knowledge for Virtual Laboratory Planning",
+      "url": "https://arxiv.org/abs/2605.26333",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26333v1 Announce Type: new \nAbstract: Educational virtual laboratories can make experimental training more scala-ble, adaptive, and accessible, especially when students have limited access to physical laboratory facilities. However,...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6b96b5ea4e48",
+      "title": "ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence",
+      "url": "https://arxiv.org/abs/2605.26340",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26340v1 Announce Type: new \nAbstract: Autonomous research agents produce competitive solutions and professional-looking manuscripts, yet their outputs contain verifiability failures undetectable by surface-level evaluation: fabricated...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c3ab7be04e31",
+      "title": "Automatic Layer Selection for Hallucination Detection",
+      "url": "https://arxiv.org/abs/2605.26366",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26366v1 Announce Type: new \nAbstract: Recent studies on hallucination detection have shown that hallucination-related signals are more strongly encoded in intermediate layers than in the final layer of large language models (LLMs)....",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "27ec88bcaacc",
+      "title": "Exploiting Local Dynamics Regularity for Reusable Skills in Offline Hierarchical RL",
+      "url": "https://arxiv.org/abs/2605.26371",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26371v1 Announce Type: new \nAbstract: Hierarchical Reinforcement Learning (HRL) promises to solve long-horizon Reinforcement Learning (RL) tasks more efficiently than non-hierarchical counterparts by discovering and reusing...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8ae616ad0046",
+      "title": "Advancing Creative Physical Intelligence in Large Multimodal Models",
+      "url": "https://arxiv.org/abs/2605.26396",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2605.26396v1 Announce Type: new \nAbstract: Large multimodal models (LMMs) have rapidly advanced in perception and reasoning; however, it remains unclear whether these capabilities generalize to discovering visually grounded solutions in...",
+      "published": "2026-05-27T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7cdcfd616873",
+      "title": "Reachy Mini goes fully local",
+      "url": "https://huggingface.co/blog/local-reachy-mini-conversation",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-05-27T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3b3971cee4f2",
+      "title": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
+      "url": "https://huggingface.co/blog/delta-weight-sync",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-05-27T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "1c77cec1ddad",
+      "title": "Election information and safeguards in 2026",
+      "url": "https://openai.com/index/election-safeguards-2026",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "published": "2026-05-27T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "919d46e19bc3",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "url": "https://openai.com/index/warp",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+      "published": "2026-05-27T00:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    }
+  ]
+}
