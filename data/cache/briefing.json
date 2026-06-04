@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-04T11:23:18Z",
-  "count": 56,
+  "updated": "2026-06-04T18:26:48Z",
+  "count": 57,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -3586,6 +3586,70 @@
         }
       },
       "_ts": 1780572198
+    },
+    "abcc660d204d338a": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录277篇AI新闻，分类分布：学术研究189篇, 开源项目43篇, 模型发布34篇, 产品/API11篇。热门标签：Agent（62篇）。其中13%的文章有多来源交叉验证。\n\n▸ chopratejas /headroom：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s\n\n▸ NousResearch /hermes-agent：The agent that grows with you\n\n▸ affaan-m /ECC：The agent harness performance optimization system. Skills, instincts, memory, security, and research\n\n▸ PaddlePaddle /PaddleOCR：Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit\n\n▸ NVIDIA /cosmos：NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to bu",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "chopratejas/headroom",
+            "url": "https://github.com/chopratejas/headroom",
+            "why_hot": "单日3139星，Python项目",
+            "stars_today": 3139,
+            "total_stars": 12044
+          },
+          {
+            "full_name": "affaan-m/ECC",
+            "url": "https://github.com/affaan-m/ECC",
+            "why_hot": "单日1736星，JavaScript项目",
+            "stars_today": 1736,
+            "total_stars": 206954
+          },
+          {
+            "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
+            "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+            "why_hot": "单日583星，Python项目",
+            "stars_today": 583,
+            "total_stars": 9487
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "277"
+          },
+          {
+            "label": "多源验证率",
+            "value": "13%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7409"
+          }
+        ],
+        "must_read_ids": [
+          "fc660d3bee25",
+          "978e35c60717",
+          "a90d342e2181",
+          "68c57e7779dc",
+          "84aa3d71238d"
+        ],
+        "text": "今日共收录277篇AI新闻，分类分布：学术研究189篇, 开源项目43篇, 模型发布34篇, 产品/API11篇。热门标签：Agent（62篇）。其中13%的文章有多来源交叉验证。",
+        "top_items": [
+          "chopratejas /headroom",
+          "NousResearch /hermes-agent",
+          "affaan-m /ECC",
+          "PaddlePaddle /PaddleOCR",
+          "NVIDIA /cosmos"
+        ],
+        "meta": {
+          "total_articles": 277,
+          "multi_source_pct": 13
+        }
+      },
+      "_ts": 1780597608
     }
   }
 }

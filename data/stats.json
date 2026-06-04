@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T11:23:08Z",
-  "total": 278,
+  "updated": "2026-06-04T18:26:39Z",
+  "total": 277,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 29
     },
     {
       "name": "GitHub Trending",
@@ -20,6 +20,10 @@
     },
     {
       "name": "OpenAI",
+      "count": 18
+    },
+    {
+      "name": "Hugging Face",
       "count": 17
     },
     {
@@ -27,12 +31,8 @@
       "count": 16
     },
     {
-      "name": "Hugging Face",
-      "count": 16
-    },
-    {
       "name": "AI News",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Synced",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 62
     },
     {
       "name": "LLM",
@@ -81,6 +81,10 @@
       "count": 4
     },
     {
+      "name": "GPT",
+      "count": 4
+    },
+    {
       "name": "Prompt",
       "count": 4
     },
@@ -89,15 +93,11 @@
       "count": 4
     },
     {
-      "name": "Embedding",
-      "count": 4
-    },
-    {
-      "name": "GPT",
+      "name": "API",
       "count": 3
     },
     {
-      "name": "API",
+      "name": "Embedding",
       "count": 3
     },
     {
@@ -105,12 +105,12 @@
       "count": 3
     },
     {
-      "name": "Microsoft",
+      "name": "Fine-tune",
       "count": 2
     },
     {
-      "name": "Fine-tune",
-      "count": 1
+      "name": "Microsoft",
+      "count": 2
     },
     {
       "name": "Meta",
@@ -132,19 +132,19 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 191
+      "count": 189
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 43
     },
     {
       "name": "模型发布",
-      "count": 33
+      "count": 34
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 11
     }
   ],
   "dailyTrend": [
@@ -162,7 +162,7 @@
     },
     {
       "date": "06-04",
-      "count": 44
+      "count": 48
     },
     {
       "date": "06-16",
@@ -178,12 +178,6 @@
     }
   ],
   "top10": [
-    {
-      "id": "ae995b9c3e75",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "score": 5,
-      "source": "OpenAI"
-    },
     {
       "id": "fc660d3bee25",
       "title": "chopratejas /headroom",
@@ -227,16 +221,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "c1e15bfceee9",
-      "title": "Amazon brings AI shopping assistant to retailers with Kate Spade",
+      "id": "a9b2be7a289d",
+      "title": "How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent",
       "score": 5,
-      "source": "AI News"
+      "source": "Hugging Face"
     },
     {
-      "id": "cd563203be35",
-      "title": "Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights",
+      "id": "2bae54a2574f",
+      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "Hugging Face"
+    },
+    {
+      "id": "ae995b9c3e75",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "score": 5,
+      "source": "OpenAI"
     }
   ]
 }
