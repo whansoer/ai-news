@@ -1,38 +1,38 @@
 {
-  "updated": "2026-06-03T19:55:49Z",
-  "total": 262,
+  "updated": "2026-06-04T04:16:58Z",
+  "total": 291,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 61
+      "count": 76
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 30
     },
     {
       "name": "GitHub Trending",
       "count": 24
     },
     {
-      "name": "Hugging Face",
-      "count": 17
+      "name": "OpenAI",
+      "count": 18
     },
     {
       "name": "Google AI",
       "count": 16
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 16
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Synced",
@@ -42,35 +42,31 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 65
     },
     {
       "name": "LLM",
-      "count": 35
+      "count": 40
     },
     {
       "name": "Benchmark",
       "count": 12
     },
     {
-      "name": "Google",
+      "name": "RAG",
       "count": 10
     },
     {
-      "name": "RAG",
+      "name": "Google",
+      "count": 9
+    },
+    {
+      "name": "Diffusion",
       "count": 8
     },
     {
       "name": "Transformer",
-      "count": 7
-    },
-    {
-      "name": "Diffusion",
-      "count": 7
-    },
-    {
-      "name": "Claude",
-      "count": 6
+      "count": 8
     },
     {
       "name": "OpenAI",
@@ -85,15 +81,23 @@
       "count": 6
     },
     {
+      "name": "Claude",
+      "count": 5
+    },
+    {
+      "name": "Prompt",
+      "count": 4
+    },
+    {
       "name": "Embedding",
       "count": 4
     },
     {
-      "name": "API",
+      "name": "GPT",
       "count": 3
     },
     {
-      "name": "Prompt",
+      "name": "API",
       "count": 3
     },
     {
@@ -105,19 +109,15 @@
       "count": 2
     },
     {
-      "name": "Qwen",
-      "count": 2
-    },
-    {
-      "name": "GPT",
-      "count": 2
-    },
-    {
       "name": "Fine-tune",
       "count": 1
     },
     {
       "name": "Meta",
+      "count": 1
+    },
+    {
+      "name": "Qwen",
       "count": 1
     },
     {
@@ -132,26 +132,22 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 177
+      "count": 206
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 40
     },
     {
       "name": "模型发布",
-      "count": 32
+      "count": 34
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 11
     }
   ],
   "dailyTrend": [
-    {
-      "date": "05-31",
-      "count": 7
-    },
     {
       "date": "06-01",
       "count": 44
@@ -162,7 +158,11 @@
     },
     {
       "date": "06-03",
-      "count": 53
+      "count": 48
+    },
+    {
+      "date": "06-04",
+      "count": 37
     },
     {
       "date": "06-16",
@@ -221,22 +221,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "84a62fbcf4f5",
-      "title": "How to Build a Document Intelligence Backend with iii Using Workers, Functions, and Cron Triggers",
+      "id": "79a9a55fba9c",
+      "title": "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "24a453d6ccae",
-      "title": "Google DeepMind Releases Gemma 4 12B: An Encoder-Free Multimodal Model with Native audio that runs on a 16 GB laptop",
+      "id": "fc743632196b",
+      "title": "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "a799e1e611d4",
-      "title": "5 ways Google Search can level up your thrift and vintage shopping",
+      "id": "5a36a01a32bc",
+      "title": "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
       "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.AI)"
     }
   ]
 }
