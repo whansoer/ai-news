@@ -1,7 +1,21 @@
 {
-  "updated": "2026-06-04T04:17:07Z",
+  "updated": "2026-06-04T11:23:18Z",
   "total": 20,
   "items": [
+    {
+      "id": "ae995b9c3e75",
+      "title_zh": "How Endava is redesigning software delivery around AI agents",
+      "summary_zh": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "fc660d3bee25",
       "title_zh": "chopratejas /headroom",
@@ -11,6 +25,20 @@
         "RAG"
       ],
       "oneliner": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "978e35c60717",
+      "title_zh": "NousResearch /hermes-agent",
+      "summary_zh": "The agent that grows with you",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "The agent that grows with you",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -33,11 +61,13 @@
       }
     },
     {
-      "id": "7fdb3d2f4950",
-      "title_zh": "aquasecurity /trivy",
-      "summary_zh": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
-      "tags_zh": [],
-      "oneliner": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories,",
+      "id": "68c57e7779dc",
+      "title_zh": "PaddlePaddle /PaddleOCR",
+      "summary_zh": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -45,13 +75,89 @@
       }
     },
     {
-      "id": "978e35c60717",
-      "title_zh": "NousResearch /hermes-agent",
-      "summary_zh": "The agent that grows with you",
+      "id": "84aa3d71238d",
+      "title_zh": "NVIDIA /cosmos",
+      "summary_zh": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "tags_zh": [],
+      "oneliner": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to bu",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "cfb1d28a7910",
+      "title_zh": "Open-LLM-VTuber /Open-LLM-VTuber",
+      "summary_zh": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face runnin",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "06007b54a16f",
+      "title_zh": "github /copilot-sdk",
+      "summary_zh": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "The agent that grows with you",
+      "oneliner": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c1e15bfceee9",
+      "title_zh": "Amazon brings AI shopping assistant to retailers with Kate Spade",
+      "summary_zh": "Amazon is offering its AI shopping technology to other retailers through a new Agentic Shopping Assistant built on AWS, with Kate Spade among the first brands to use it. The service allows retailers to build AI shopping assistants for their own...",
+      "tags_zh": [],
+      "oneliner": "Amazon is offering its AI shopping technology to other retailers through a new Agentic Shopping Assi",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "cd563203be35",
+      "title_zh": "Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights",
+      "summary_zh": "Miso Labs has released MisoTTS, an open-weights 8B text-to-speech model. It uses residual vector quantization (RVQ) to scale its sonic range without scaling parameters, and conditions on both text and audio context to respond to speaker tone. The...",
+      "tags_zh": [],
+      "oneliner": "Miso Labs has released MisoTTS, an open-weights 8B text-to-speech model. It uses residual vector qua",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "dd869b576aa2",
+      "title_zh": "Meet OpenJarvis: A Local-First Framework for On-Device Personal AI Agents with Tools, Memory, and Learning",
+      "summary_zh": "Stanford researchers released OpenJarvis, an open-source framework that runs inference, agents, memory, and learning entirely on-device. It decomposes a personal AI system into five composable primitives — Intelligence, Engine, Agents, Tools...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Stanford researchers released OpenJarvis, an open-source framework that runs inference, agents, memo",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7fdb3d2f4950",
+      "title_zh": "aquasecurity /trivy",
+      "summary_zh": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "tags_zh": [],
+      "oneliner": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories,",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -78,20 +184,6 @@
       "summary_zh": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
       "tags_zh": [],
       "oneliner": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "cfb1d28a7910",
-      "title_zh": "Open-LLM-VTuber /Open-LLM-VTuber",
-      "summary_zh": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face runnin",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -170,103 +262,6 @@
         "Benchmark"
       ],
       "oneliner": "arXiv:2606.04244v1 Announce Type: new \nAbstract: Multimodal large language models are increasingly c",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c827f9f2e567",
-      "title_zh": "StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis",
-      "summary_zh": "arXiv:2606.04246v1 Announce Type: new \nAbstract: Automatic generation of RTL code for digital hardware designs remains challenging due to long-horizon reasoning, multi-step dependencies, and strict correctness constraints in Verilog and VHDL. We...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.04246v1 Announce Type: new \nAbstract: Automatic generation of RTL code for digital hardwa",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7fbefabde73a",
-      "title_zh": "Can Generalist Agents Automate Data Curation?",
-      "summary_zh": "arXiv:2606.04261v1 Announce Type: new \nAbstract: Curating training data is among the most consequential yet labor-intensive parts of modern AI development: practitioners iteratively propose, implement, evaluate, and revise data policies against...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04261v1 Announce Type: new \nAbstract: Curating training data is among the most consequent",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0c430c696fca",
-      "title_zh": "Characterizing initial human-AI proof formalization workflows",
-      "summary_zh": "arXiv:2606.04273v1 Announce Type: new \nAbstract: For centuries, human mathematicians have written proofs to substantiate their mathematical arguments; yet, the ability to automatically verify the validity of proofs has long been a challenge....",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.04273v1 Announce Type: new \nAbstract: For centuries, human mathematicians have written pr",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1ba311862cb1",
-      "title_zh": "The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents",
-      "summary_zh": "arXiv:2606.04296v1 Announce Type: new \nAbstract: As autonomous AI agents move from conversational systems to long-horizon software execution, runtime safety layers that decide when to interrupt an agent have become essential. We study this timing...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04296v1 Announce Type: new \nAbstract: As autonomous AI agents move from conversational sy",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ae151773edd8",
-      "title_zh": "Exploring Cross-Scenario Generality of Agentic Memory Systems: Diagnostics and a Strong Baseline",
-      "summary_zh": "arXiv:2606.04315v1 Announce Type: new \nAbstract: LLM agents accumulate histories that outgrow their context windows, motivating a growing literature on memory systems. Yet most existing designs are tuned to a single scenario (multi-session chat...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04315v1 Announce Type: new \nAbstract: LLM agents accumulate histories that outgrow their ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bde9b7632e0d",
-      "title_zh": "The Digital Apprentice: A Framework for Human-Directed Agentic AI Development",
-      "summary_zh": "arXiv:2606.04321v1 Announce Type: new \nAbstract: Agentic AI deployments face a recurring design tension: heavy human oversight limits scale, while broad autonomy outruns accountability. Neither posture provides the governance infrastructure...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04321v1 Announce Type: new \nAbstract: Agentic AI deployments face a recurring design tens",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "899651e1090e",
-      "title_zh": "Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval",
-      "summary_zh": "arXiv:2606.04391v1 Announce Type: new \nAbstract: Language agents increasingly rely on reusable skills to improve multi-step web automation across related tasks. A growing line of work studies online skill learning, where agents continually induce...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04391v1 Announce Type: new \nAbstract: Language agents increasingly rely on reusable skill",
       "key_facts": [],
       "notable_quote": {
         "text": "",

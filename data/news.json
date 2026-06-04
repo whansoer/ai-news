@@ -1,8 +1,35 @@
 {
-  "updated": "2026-06-04T04:17:07Z",
-  "total": 244,
-  "new_count": 59,
+  "updated": "2026-06-04T11:23:18Z",
+  "total": 248,
+  "new_count": 34,
   "items": [
+    {
+      "id": "ae995b9c3e75",
+      "title": "How Endava is redesigning software delivery around AI agents",
+      "url": "https://openai.com/index/endava-frontiers",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "published": "2026-06-04T12:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "How Endava is redesigning software delivery around AI agents",
+      "summary_zh": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, "
+    },
     {
       "id": "fc660d3bee25",
       "title": "chopratejas /headroom",
@@ -10,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "published": "2026-06-04T04:14:25Z",
+      "published": "2026-06-04T11:20:28Z",
       "tags": [
         "LLM",
         "RAG"
@@ -33,13 +60,40 @@
       "oneliner": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s"
     },
     {
+      "id": "978e35c60717",
+      "title": "NousResearch /hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "The agent that grows with you",
+      "published": "2026-06-04T11:20:28Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "NousResearch /hermes-agent",
+      "summary_zh": "The agent that grows with you",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "The agent that grows with you"
+    },
+    {
       "id": "a90d342e2181",
       "title": "affaan-m /ECC",
       "url": "https://github.com/affaan-m/ECC",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-06-04T04:14:25Z",
+      "published": "2026-06-04T11:20:28Z",
       "tags": [
         "Claude",
         "Agent"
@@ -60,6 +114,183 @@
         "Agent"
       ],
       "oneliner": "The agent harness performance optimization system. Skills, instincts, memory, security, and research"
+    },
+    {
+      "id": "68c57e7779dc",
+      "title": "PaddlePaddle /PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "published": "2026-06-04T11:20:28Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "PaddlePaddle /PaddleOCR",
+      "summary_zh": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit"
+    },
+    {
+      "id": "84aa3d71238d",
+      "title": "NVIDIA /cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "published": "2026-06-04T11:20:28Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "NVIDIA /cosmos",
+      "summary_zh": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "tags_zh": [],
+      "oneliner": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to bu"
+    },
+    {
+      "id": "cfb1d28a7910",
+      "title": "Open-LLM-VTuber /Open-LLM-VTuber",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "published": "2026-06-04T11:20:28Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Open-LLM-VTuber /Open-LLM-VTuber",
+      "summary_zh": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face runnin"
+    },
+    {
+      "id": "06007b54a16f",
+      "title": "github /copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "published": "2026-06-04T11:20:28Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "github /copilot-sdk",
+      "summary_zh": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services"
+    },
+    {
+      "id": "c1e15bfceee9",
+      "title": "Amazon brings AI shopping assistant to retailers with Kate Spade",
+      "url": "https://www.artificialintelligence-news.com/news/amazon-ai-shopping-assistant-kate-spade-retailers/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Amazon is offering its AI shopping technology to other retailers through a new Agentic Shopping Assistant built on AWS, with Kate Spade among the first brands to use it. The service allows retailers to build AI shopping assistants for their own...",
+      "published": "2026-06-04T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Amazon brings AI shopping assistant to retailers with Kate Spade",
+      "summary_zh": "Amazon is offering its AI shopping technology to other retailers through a new Agentic Shopping Assistant built on AWS, with Kate Spade among the first brands to use it. The service allows retailers to build AI shopping assistants for their own...",
+      "tags_zh": [],
+      "oneliner": "Amazon is offering its AI shopping technology to other retailers through a new Agentic Shopping Assi"
+    },
+    {
+      "id": "cd563203be35",
+      "title": "Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights",
+      "url": "https://www.marktechpost.com/2026/06/04/miso-labs-releases-misotts-an-8b-emotive-text-to-speech-model-with-open-weights/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Miso Labs has released MisoTTS, an open-weights 8B text-to-speech model. It uses residual vector quantization (RVQ) to scale its sonic range without scaling parameters, and conditions on both text and audio context to respond to speaker tone. The...",
+      "published": "2026-06-04T08:11:05Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights",
+      "summary_zh": "Miso Labs has released MisoTTS, an open-weights 8B text-to-speech model. It uses residual vector quantization (RVQ) to scale its sonic range without scaling parameters, and conditions on both text and audio context to respond to speaker tone. The...",
+      "tags_zh": [],
+      "oneliner": "Miso Labs has released MisoTTS, an open-weights 8B text-to-speech model. It uses residual vector qua"
+    },
+    {
+      "id": "dd869b576aa2",
+      "title": "Meet OpenJarvis: A Local-First Framework for On-Device Personal AI Agents with Tools, Memory, and Learning",
+      "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Stanford researchers released OpenJarvis, an open-source framework that runs inference, agents, memory, and learning entirely on-device. It decomposes a personal AI system into five composable primitives — Intelligence, Engine, Agents, Tools...",
+      "published": "2026-06-04T06:23:10Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Meet OpenJarvis: A Local-First Framework for On-Device Personal AI Agents with Tools, Memory, and Learning",
+      "summary_zh": "Stanford researchers released OpenJarvis, an open-source framework that runs inference, agents, memory, and learning entirely on-device. It decomposes a personal AI system into five composable primitives — Intelligence, Engine, Agents, Tools...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Stanford researchers released OpenJarvis, an open-source framework that runs inference, agents, memo"
     },
     {
       "id": "7fdb3d2f4950",
@@ -83,33 +314,6 @@
       "summary_zh": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "tags_zh": [],
       "oneliner": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories,"
-    },
-    {
-      "id": "978e35c60717",
-      "title": "NousResearch /hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "The agent that grows with you",
-      "published": "2026-06-04T04:14:25Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "NousResearch /hermes-agent",
-      "summary_zh": "The agent that grows with you",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "The agent that grows with you"
     },
     {
       "id": "c157c87cd55e",
@@ -160,33 +364,6 @@
       "summary_zh": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
       "tags_zh": [],
       "oneliner": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source."
-    },
-    {
-      "id": "cfb1d28a7910",
-      "title": "Open-LLM-VTuber /Open-LLM-VTuber",
-      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
-      "published": "2026-06-04T04:14:25Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "Open-LLM-VTuber /Open-LLM-VTuber",
-      "summary_zh": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face runnin"
     },
     {
       "id": "79a9a55fba9c",
@@ -358,12 +535,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis",
-      "summary_zh": "arXiv:2606.04246v1 Announce Type: new \nAbstract: Automatic generation of RTL code for digital hardware designs remains challenging due to long-horizon reasoning, multi-step dependencies, and strict correctness constraints in Verilog and VHDL. We...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.04246v1 Announce Type: new \nAbstract: Automatic generation of RTL code for digital hardwa"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "7fbefabde73a",
@@ -385,12 +560,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Can Generalist Agents Automate Data Curation?",
-      "summary_zh": "arXiv:2606.04261v1 Announce Type: new \nAbstract: Curating training data is among the most consequential yet labor-intensive parts of modern AI development: practitioners iteratively propose, implement, evaluate, and revise data policies against...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04261v1 Announce Type: new \nAbstract: Curating training data is among the most consequent"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "0c430c696fca",
@@ -410,10 +583,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Characterizing initial human-AI proof formalization workflows",
-      "summary_zh": "arXiv:2606.04273v1 Announce Type: new \nAbstract: For centuries, human mathematicians have written proofs to substantiate their mathematical arguments; yet, the ability to automatically verify the validity of proofs has long been a challenge....",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.04273v1 Announce Type: new \nAbstract: For centuries, human mathematicians have written pr"
+      "oneliner": ""
     },
     {
       "id": "1ba311862cb1",
@@ -436,13 +609,10 @@
         "corroborating_ids": [],
         "score": 3
       },
-      "title_zh": "The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents",
-      "summary_zh": "arXiv:2606.04296v1 Announce Type: new \nAbstract: As autonomous AI agents move from conversational systems to long-horizon software execution, runtime safety layers that decide when to interrupt an agent have become essential. We study this timing...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04296v1 Announce Type: new \nAbstract: As autonomous AI agents move from conversational sy"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "ae151773edd8",
@@ -464,12 +634,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Exploring Cross-Scenario Generality of Agentic Memory Systems: Diagnostics and a Strong Baseline",
-      "summary_zh": "arXiv:2606.04315v1 Announce Type: new \nAbstract: LLM agents accumulate histories that outgrow their context windows, motivating a growing literature on memory systems. Yet most existing designs are tuned to a single scenario (multi-session chat...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04315v1 Announce Type: new \nAbstract: LLM agents accumulate histories that outgrow their "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "bde9b7632e0d",
@@ -491,12 +659,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "The Digital Apprentice: A Framework for Human-Directed Agentic AI Development",
-      "summary_zh": "arXiv:2606.04321v1 Announce Type: new \nAbstract: Agentic AI deployments face a recurring design tension: heavy human oversight limits scale, while broad autonomy outruns accountability. Neither posture provides the governance infrastructure...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04321v1 Announce Type: new \nAbstract: Agentic AI deployments face a recurring design tens"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "899651e1090e",
@@ -518,12 +684,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Online Skill Learning for Web Agents via State-Grounded Dynamic Retrieval",
-      "summary_zh": "arXiv:2606.04391v1 Announce Type: new \nAbstract: Language agents increasingly rely on reusable skills to improve multi-step web automation across related tasks. A growing line of work studies online skill learning, where agents continually induce...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.04391v1 Announce Type: new \nAbstract: Language agents increasingly rely on reusable skill"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b61cf456dd03",
@@ -5010,12 +5174,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "e6638b3033c4",
-          "e6638b3033c4"
-        ],
-        "score": 7
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5861,10 +6022,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "08bc59c595a3",
-          "ebc3b4fe22b6"
+          "08bc59c595a3"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5939,75 +6099,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d5cce597c646",
-      "title": "NBA plans AI system for automatic out-of-bounds calls",
-      "url": "https://www.artificialintelligence-news.com/news/nba-ai-out-of-bounds-calls/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "NBA Commissioner Adam Silver said the league plans to introduce an automated system for certain officiating decisions, including out-of-bounds calls. The system would use AI and cameras placed around the court to determine possession. Silver...",
-      "published": "2026-05-28T10:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7b81543afecf",
-      "title": "Perplexity AI Open-Sources Unigram Tokenizer That Achieves 5x Lower p50 Latency Than Hugging Face tokenizers Crate",
-      "url": "https://www.marktechpost.com/2026/05/28/perplexity-ai-open-sources-unigram-tokenizer-that-achieves-5x-lower-p50-latency-than-hugging-face-tokenizers-crate/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Perplexity AI open-sources a rewritten Unigram tokenizer that reduces reranker latency and cuts production CPU utilization by 5-6x.\nThe post Perplexity AI Open-Sources Unigram Tokenizer That Achieves 5x Lower p50 Latency Than Hugging Face...",
-      "published": "2026-05-28T09:08:20Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d8bb637c4151",
-      "title": "A Coding Guide to Implement a pgvector-Powered Semantic, Hybrid, Sparse, and Quantized Vector Search System",
-      "url": "https://www.marktechpost.com/2026/05/28/a-coding-guide-to-implement-a-pgvector-powered-semantic-hybrid-sparse-and-quantized-vector-search-system/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we build a complete pgvector playground inside Google Colab and explore how PostgreSQL can work as a powerful vector database for modern AI applications. We start by installing PostgreSQL, compiling the pgvector extension,...",
-      "published": "2026-05-28T08:07:09Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
