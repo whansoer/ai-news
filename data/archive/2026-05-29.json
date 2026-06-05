@@ -1,8 +1,86 @@
 {
   "date": "2026-05-29",
-  "updated": "2026-06-05T04:01:14Z",
-  "total": 37,
+  "updated": "2026-06-05T11:35:56Z",
+  "total": 40,
   "items": [
+    {
+      "id": "08bc59c595a3",
+      "title": "Anthropic releases Claude Opus 4.8",
+      "url": "https://www.artificialintelligence-news.com/news/anthropic-releases-claude-opus-4-8-news/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Anthropic has released Claude Opus 4.8, an upgrade to Claude Opus 4.7 that the company says brings improved results for coding, agent work, reasoning, and knowledge work. The platform can be used through claude.ai, Claude Code and the Claude API,...",
+      "published": "2026-05-29T10:44:00Z",
+      "tags": [
+        "Claude",
+        "Anthropic"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "4cbae2d24f90"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "4afc85770428",
+      "title": "Meet mKernel: A Multi-GPU, Multi-Node Fused Kernel Library for GPU-Driven Communication",
+      "url": "https://www.marktechpost.com/2026/05/29/meet-mkernel-a-multi-gpu-multi-node-fused-kernel-library-for-gpu-driven-communication/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "UC Berkeley's UCCL team releases mKernel, fusing intra-node NVLink, inter-node RDMA, and dense compute into a single persistent CUDA kernel.\nThe post Meet mKernel: A Multi-GPU, Multi-Node Fused Kernel Library for GPU-Driven Communication appeared...",
+      "published": "2026-05-29T08:43:32Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "69225e41137b",
+      "title": "Hexo Labs Open-Sources SIA: A Self-Improving Agent That Updates Both the Harness and the Model Weights",
+      "url": "https://www.marktechpost.com/2026/05/29/hexo-labs-open-sources-sia-a-self-improving-agent-that-updates-both-the-harness-and-the-model-weights/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Hexo Labs released SIA, an open-source self-improving loop, under an MIT license. A Feedback-Agent reads each run's trajectory, then either rewrites the scaffold or triggers a LoRA weight update on gpt-oss-120b. Combining both levers beat...",
+      "published": "2026-05-29T07:28:37Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "3e67b19fd42e",
       "title": "ICG: Improving Cover Image Generation via MLLM-based Prompting and Personalized Preference Alignment",
