@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T18:26:39Z",
-  "total": 277,
+  "updated": "2026-06-05T04:01:05Z",
+  "total": 274,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "GitHub Trending",
@@ -23,15 +23,15 @@
       "count": 18
     },
     {
-      "name": "Hugging Face",
-      "count": 17
-    },
-    {
       "name": "Google AI",
       "count": 16
     },
     {
       "name": "AI News",
+      "count": 12
+    },
+    {
+      "name": "Hugging Face",
       "count": 11
     },
     {
@@ -57,11 +57,11 @@
       "count": 9
     },
     {
-      "name": "Google",
-      "count": 9
+      "name": "Transformer",
+      "count": 8
     },
     {
-      "name": "Transformer",
+      "name": "Google",
       "count": 8
     },
     {
@@ -105,16 +105,16 @@
       "count": 3
     },
     {
+      "name": "Meta",
+      "count": 2
+    },
+    {
       "name": "Fine-tune",
       "count": 2
     },
     {
       "name": "Microsoft",
       "count": 2
-    },
-    {
-      "name": "Meta",
-      "count": 1
     },
     {
       "name": "Qwen",
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 191
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 37
     },
     {
       "name": "模型发布",
@@ -144,14 +144,10 @@
     },
     {
       "name": "产品/API",
-      "count": 11
+      "count": 12
     }
   ],
   "dailyTrend": [
-    {
-      "date": "06-01",
-      "count": 44
-    },
     {
       "date": "06-02",
       "count": 45
@@ -162,7 +158,11 @@
     },
     {
       "date": "06-04",
-      "count": 48
+      "count": 46
+    },
+    {
+      "date": "06-05",
+      "count": 7
     },
     {
       "date": "06-16",
@@ -203,12 +203,6 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "84aa3d71238d",
-      "title": "NVIDIA /cosmos",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "cfb1d28a7910",
       "title": "Open-LLM-VTuber /Open-LLM-VTuber",
       "score": 5,
@@ -221,22 +215,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "a9b2be7a289d",
-      "title": "How to Fine-Tune Nemotron 3.5 ASR for Your Language, Domain, or Accent",
+      "id": "7fdb3d2f4950",
+      "title": "aquasecurity /trivy",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "GitHub Trending"
     },
     {
-      "id": "2bae54a2574f",
-      "title": "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
+      "id": "711e8a3bc29d",
+      "title": "Building a Semantic Search Engine and Open-Status Classifier over the ResearchMath-14k Dataset",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "MarkTechPost"
     },
     {
-      "id": "ae995b9c3e75",
-      "title": "How Endava is redesigning software delivery around AI agents",
+      "id": "0206b03edc26",
+      "title": "NVIDIA AI Releases Nemotron 3 Ultra: An Open 550B Mixture-of-Experts Hybrid Mamba-Transformer for Long-Running Agents",
       "score": 5,
-      "source": "OpenAI"
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "84aa3d71238d",
+      "title": "NVIDIA /cosmos",
+      "score": 5,
+      "source": "GitHub Trending"
     }
   ]
 }
