@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-05T18:03:22Z",
-  "count": 60,
+  "updated": "2026-06-06T03:43:09Z",
+  "count": 61,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -3842,6 +3842,70 @@
         }
       },
       "_ts": 1780682602
+    },
+    "f8ff6a2f29b18df4": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录275篇AI新闻，分类分布：学术研究190篇, 开源项目44篇, 模型发布30篇, 产品/API11篇。热门标签：Agent（65篇）。其中12%的文章有多来源交叉验证。\n\n▸ NousResearch /hermes-agent：The agent that grows with you\n\n▸ chopratejas /headroom：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s\n\n▸ CopilotKit /CopilotKit：The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol\n\n▸ affaan-m /ECC：The agent harness performance optimization system. Skills, instincts, memory, security, and research\n\n▸ Panniantong /Agent-Reach：Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, ",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "chopratejas/headroom",
+            "url": "https://github.com/chopratejas/headroom",
+            "why_hot": "单日2473星，Python项目",
+            "stars_today": 2473,
+            "total_stars": 14632
+          },
+          {
+            "full_name": "affaan-m/ECC",
+            "url": "https://github.com/affaan-m/ECC",
+            "why_hot": "单日1361星，JavaScript项目",
+            "stars_today": 1361,
+            "total_stars": 208436
+          },
+          {
+            "full_name": "NousResearch/hermes-agent",
+            "url": "https://github.com/NousResearch/hermes-agent",
+            "why_hot": "单日1845星，Python项目",
+            "stars_today": 1845,
+            "total_stars": 183375
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "275"
+          },
+          {
+            "label": "多源验证率",
+            "value": "12%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7636"
+          }
+        ],
+        "must_read_ids": [
+          "978e35c60717",
+          "fc660d3bee25",
+          "33121b952313",
+          "a90d342e2181",
+          "81fb0b6406ba"
+        ],
+        "text": "今日共收录275篇AI新闻，分类分布：学术研究190篇, 开源项目44篇, 模型发布30篇, 产品/API11篇。热门标签：Agent（65篇）。其中12%的文章有多来源交叉验证。",
+        "top_items": [
+          "NousResearch /hermes-agent",
+          "chopratejas /headroom",
+          "CopilotKit /CopilotKit",
+          "affaan-m /ECC",
+          "Panniantong /Agent-Reach"
+        ],
+        "meta": {
+          "total_articles": 275,
+          "multi_source_pct": 12
+        }
+      },
+      "_ts": 1780717389
     }
   }
 }

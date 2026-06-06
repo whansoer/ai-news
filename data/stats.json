@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-05T18:03:12Z",
-  "total": 278,
+  "updated": "2026-06-06T03:42:59Z",
+  "total": 275,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -24,15 +24,15 @@
     },
     {
       "name": "Google AI",
-      "count": 16
+      "count": 15
     },
     {
       "name": "OpenAI",
-      "count": 16
+      "count": 15
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Synced",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 65
     },
     {
       "name": "LLM",
@@ -62,19 +62,19 @@
     },
     {
       "name": "Transformer",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Gemini",
-      "count": 6
-    },
-    {
-      "name": "OpenAI",
       "count": 5
     },
     {
       "name": "Diffusion",
       "count": 5
+    },
+    {
+      "name": "OpenAI",
+      "count": 4
     },
     {
       "name": "GPT",
@@ -136,18 +136,14 @@
     },
     {
       "name": "模型发布",
-      "count": 32
+      "count": 30
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 11
     }
   ],
   "dailyTrend": [
-    {
-      "date": "06-02",
-      "count": 45
-    },
     {
       "date": "06-03",
       "count": 48
@@ -158,7 +154,11 @@
     },
     {
       "date": "06-05",
-      "count": 47
+      "count": 40
+    },
+    {
+      "date": "06-06",
+      "count": 8
     },
     {
       "date": "06-16",
@@ -223,16 +223,16 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "4acad91f30f3",
+      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
       "id": "752c96ffbdef",
       "title": "The latest AI news we announced in May 2026",
       "score": 5,
       "source": "Google AI"
-    },
-    {
-      "id": "8d525d5147b2",
-      "title": "How C3 AI agents will automate predictive maintenance for Shell",
-      "score": 5,
-      "source": "AI News"
     }
   ]
 }
