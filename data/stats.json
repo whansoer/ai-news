@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-06T10:13:37Z",
-  "total": 265,
+  "updated": "2026-06-06T17:22:37Z",
+  "total": 277,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -11,12 +11,16 @@
       "count": 75
     },
     {
-      "name": "GitHub Trending",
-      "count": 26
+      "name": "MarkTechPost",
+      "count": 29
     },
     {
-      "name": "MarkTechPost",
-      "count": 26
+      "name": "GitHub Trending",
+      "count": 27
+    },
+    {
+      "name": "Hugging Face",
+      "count": 19
     },
     {
       "name": "Google AI",
@@ -27,12 +31,8 @@
       "count": 15
     },
     {
-      "name": "Hugging Face",
-      "count": 12
-    },
-    {
       "name": "AI News",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 64
     },
     {
       "name": "LLM",
@@ -50,11 +50,11 @@
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Google",
-      "count": 9
+      "count": 10
     },
     {
       "name": "RAG",
@@ -65,16 +65,16 @@
       "count": 7
     },
     {
+      "name": "OpenAI",
+      "count": 6
+    },
+    {
       "name": "Gemini",
       "count": 5
     },
     {
       "name": "Diffusion",
       "count": 5
-    },
-    {
-      "name": "OpenAI",
-      "count": 4
     },
     {
       "name": "API",
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 186
+      "count": 189
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 46
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 11
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -150,11 +150,11 @@
     },
     {
       "date": "06-05",
-      "count": 25
+      "count": 26
     },
     {
       "date": "06-06",
-      "count": 23
+      "count": 30
     },
     {
       "date": "06-16",
@@ -171,14 +171,8 @@
   ],
   "top10": [
     {
-      "id": "978e35c60717",
-      "title": "NousResearch /hermes-agent",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "fc660d3bee25",
-      "title": "chopratejas /headroom",
+      "id": "cb3eddfe11b5",
+      "title": "mvanhorn /last30days-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -189,8 +183,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
+      "id": "d43e82f40248",
+      "title": "MemPalace /mempalace",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7904af429ad5",
+      "title": "danielmiessler /Personal_AI_Infrastructure",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "8c9e20fc0efe",
+      "title": "openai /plugins",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,34 +207,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "84aa3d71238d",
-      "title": "NVIDIA /cosmos",
+      "id": "7fdb3d2f4950",
+      "title": "aquasecurity /trivy",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "cb3eddfe11b5",
-      "title": "mvanhorn /last30days-skill",
+      "id": "b98d5e369f1a",
+      "title": "Job Searcher",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "978e35c60717",
+      "title": "NousResearch /hermes-agent",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "68c57e7779dc",
-      "title": "PaddlePaddle /PaddleOCR",
+      "id": "fc660d3bee25",
+      "title": "chopratejas /headroom",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "1f16d91e2c4d",
-      "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "3428e1763ab5",
-      "title": "What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
     }
   ]
 }
