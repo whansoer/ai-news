@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-06T17:22:37Z",
-  "total": 277,
+  "updated": "2026-06-07T04:10:35Z",
+  "total": 279,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 30
     },
     {
       "name": "GitHub Trending",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Hugging Face",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Google AI",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 65
     },
     {
       "name": "LLM",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Google",
-      "count": 10
+      "count": 11
     },
     {
       "name": "RAG",
@@ -117,6 +117,10 @@
       "count": 2
     },
     {
+      "name": "GPU",
+      "count": 1
+    },
+    {
       "name": "Qwen",
       "count": 1
     }
@@ -124,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 190
     },
     {
       "name": "开源项目",
-      "count": 46
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -141,10 +145,6 @@
   ],
   "dailyTrend": [
     {
-      "date": "06-03",
-      "count": 48
-    },
-    {
       "date": "06-04",
       "count": 46
     },
@@ -154,7 +154,11 @@
     },
     {
       "date": "06-06",
-      "count": 30
+      "count": 25
+    },
+    {
+      "date": "06-07",
+      "count": 7
     },
     {
       "date": "06-16",
@@ -213,22 +217,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "b98d5e369f1a",
-      "title": "Job Searcher",
+      "id": "b5d37487292c",
+      "title": "Google’s New Colab CLI Lets Developers and AI Agents Run Python on Remote Colab GPUs and TPUs From the Terminal",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "ec2b897e7367",
+      "title": "Five labs, five minds: building a multi-model finance drama on small models",
       "score": 5,
       "source": "Hugging Face"
     },
     {
-      "id": "978e35c60717",
-      "title": "NousResearch /hermes-agent",
+      "id": "b98d5e369f1a",
+      "title": "Job Searcher",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "fc660d3bee25",
-      "title": "chopratejas /headroom",
-      "score": 5,
-      "source": "GitHub Trending"
+      "source": "Hugging Face"
     }
   ]
 }
