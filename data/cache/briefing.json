@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-07T10:35:33Z",
-  "count": 65,
+  "updated": "2026-06-07T17:26:45Z",
+  "count": 66,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -4162,6 +4162,70 @@
         }
       },
       "_ts": 1780828533
+    },
+    "22f2d98f1fe33b08": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录284篇AI新闻，分类分布：学术研究190篇, 开源项目52篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（65篇）。其中13%的文章有多来源交叉验证。\n\n▸ mvanhorn /last30days-skill：AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th\n\n▸ Leonxlnx /taste-skill：Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop\n\n▸ NousResearch /hermes-agent：The agent that grows with you\n\n▸ yikart /AiToEarn：Let's use AI to Earn!\n\n▸ aaif-goose /goose：an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and ",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mvanhorn/last30days-skill",
+            "url": "https://github.com/mvanhorn/last30days-skill",
+            "why_hot": "单日1097星，Python项目",
+            "stars_today": 1097,
+            "total_stars": 30208
+          },
+          {
+            "full_name": "Leonxlnx/taste-skill",
+            "url": "https://github.com/Leonxlnx/taste-skill",
+            "why_hot": "单日1104星，Shell项目",
+            "stars_today": 1104,
+            "total_stars": 36249
+          },
+          {
+            "full_name": "NousResearch/hermes-agent",
+            "url": "https://github.com/NousResearch/hermes-agent",
+            "why_hot": "单日1117星，Python项目",
+            "stars_today": 1117,
+            "total_stars": 185621
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "284"
+          },
+          {
+            "label": "多源验证率",
+            "value": "13%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+5113"
+          }
+        ],
+        "must_read_ids": [
+          "cb3eddfe11b5",
+          "36584af2f739",
+          "978e35c60717",
+          "98e3e9af21c8",
+          "dbf05bf5bd2d"
+        ],
+        "text": "今日共收录284篇AI新闻，分类分布：学术研究190篇, 开源项目52篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（65篇）。其中13%的文章有多来源交叉验证。",
+        "top_items": [
+          "mvanhorn /last30days-skill",
+          "Leonxlnx /taste-skill",
+          "NousResearch /hermes-agent",
+          "yikart /AiToEarn",
+          "aaif-goose /goose"
+        ],
+        "meta": {
+          "total_articles": 284,
+          "multi_source_pct": 13
+        }
+      },
+      "_ts": 1780853205
     }
   }
 }
