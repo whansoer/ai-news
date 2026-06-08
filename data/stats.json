@@ -1,14 +1,14 @@
 {
-  "updated": "2026-06-07T17:26:36Z",
-  "total": 284,
+  "updated": "2026-06-08T04:07:16Z",
+  "total": 315,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 75
+      "name": "ArXiv (cs.CL)",
+      "count": 90
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 75
+      "name": "ArXiv (cs.AI)",
+      "count": 90
     },
     {
       "name": "GitHub Trending",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Hugging Face",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Google AI",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 71
     },
     {
       "name": "LLM",
-      "count": 35
+      "count": 41
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Google",
@@ -59,6 +59,10 @@
     {
       "name": "RAG",
       "count": 8
+    },
+    {
+      "name": "Diffusion",
+      "count": 7
     },
     {
       "name": "OpenAI",
@@ -73,16 +77,12 @@
       "count": 5
     },
     {
-      "name": "Diffusion",
-      "count": 5
+      "name": "Prompt",
+      "count": 4
     },
     {
       "name": "GPT",
       "count": 4
-    },
-    {
-      "name": "Prompt",
-      "count": 3
     },
     {
       "name": "API",
@@ -101,6 +101,10 @@
       "count": 3
     },
     {
+      "name": "GPU",
+      "count": 2
+    },
+    {
       "name": "Claude",
       "count": 2
     },
@@ -117,10 +121,6 @@
       "count": 1
     },
     {
-      "name": "GPU",
-      "count": 1
-    },
-    {
       "name": "Anthropic",
       "count": 1
     },
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 220
     },
     {
       "name": "开源项目",
-      "count": 52
+      "count": 53
     },
     {
       "name": "模型发布",
@@ -149,10 +149,6 @@
   ],
   "dailyTrend": [
     {
-      "date": "06-04",
-      "count": 46
-    },
-    {
       "date": "06-05",
       "count": 26
     },
@@ -162,7 +158,11 @@
     },
     {
       "date": "06-07",
-      "count": 20
+      "count": 13
+    },
+    {
+      "date": "06-08",
+      "count": 38
     },
     {
       "date": "06-16",
@@ -227,16 +227,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "e111b2cd343d",
-      "title": "Building Reflective Prompt Optimization with GEPA: Multi-Component Prompts, Structured Feedback, and Held-Out Validation",
+      "id": "1714e4580f43",
+      "title": "Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "609f9c068cb2",
-      "title": "Sponsors especially OPENAI CODEX voucher usage for codex - openAI challange",
+      "id": "43d6a4245a73",
+      "title": "Re-Centering Humans in LLM Personalization",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
