@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-08T12:41:40Z",
+  "updated": "2026-06-08T18:31:51Z",
   "total": 20,
   "items": [
     {
@@ -130,11 +130,80 @@
       }
     },
     {
+      "id": "920282c4a016",
+      "title_zh": "Xiaomi MiMo and TileRT Push a 1-Trillion-Parameter Model Past 1000 Tokens Per Second on Commodity GPUs",
+      "summary_zh": "Xiaomi's MiMo team, with TileRT, released MiMo-V2.5-Pro-UltraSpeed, a serving mode for the MiMo-V2.5-Pro model. It decodes over 1000 tokens per second on a 1-trillion-parameter model using a single 8-GPU commodity node.\nThe post Xiaomi MiMo and...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "Xiaomi's MiMo team, with TileRT, released MiMo-V2.5-Pro-UltraSpeed, a serving mode for the MiMo-V2.5",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6162e3e8ff88",
+      "title_zh": "Aviva deploys AI to stop £230M in sophisticated insurance fraud",
+      "summary_zh": "Aviva has uncovered a record £230 million in insurance fraud claims and is using AI tools to counter the growing problem. The battleground has changed, and the culprits are also coming armed with a new generation of tools. We&#8217;re now in an...",
+      "tags_zh": [],
+      "oneliner": "Aviva has uncovered a record £230 million in insurance fraud claims and is using AI tools to counter",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "21ff6dbd12cd",
       "title_zh": "Building Pakistan Notice Helper: A Small AI Tool for a Very Local Safety Problem",
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "aba8d77b9057",
+      "title_zh": "Weis Markets adds Instacart AI-powered shopping carts to stores",
+      "summary_zh": "Weis Markets is adding Instacart’s AI-powered shopping carts, Caper Carts, to select stores in Pennsylvania, bringing digital coupons, loyalty features, and repeat-purchase recommendations into the grocery aisle. The Pennsylvania-based grocery...",
+      "tags_zh": [],
+      "oneliner": "Weis Markets is adding Instacart’s AI-powered shopping carts, Caper Carts, to select stores in Penns",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f2ecc274f791",
+      "title_zh": "Microsoft AI Introduces MAI-Transcribe-1.5: 2.4% WER on Artificial Analysis, Best-in-Class FLEURS Accuracy, and Up to 5x Faster Long-Audio Transcription",
+      "summary_zh": "Microsoft AI has released MAI-Transcribe-1.5, the second iteration of its in-house speech-to-text family. The model covers 43 languages, adds keyword (entity) biasing for domain-specific terms, posts a 2.4% Word-Error-Rate on the Artificial...",
+      "tags_zh": [
+        "Microsoft"
+      ],
+      "oneliner": "Microsoft AI has released MAI-Transcribe-1.5, the second iteration of its in-house speech-to-text fa",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "188b3916a4d8",
+      "title_zh": "Google Research Adds Agentic RAG to Gemini Enterprise Agent Platform with a Sufficient Context Agent for multi-hop queries",
+      "summary_zh": "Google Research details an agentic RAG framework in Gemini Enterprise Agent Platform. A Sufficient Context Agent re-searches until multi-hop, multi-source queries have enough grounding to answer. The framework raises factuality accuracy up to 34%...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "Agent",
+        "RAG"
+      ],
+      "oneliner": "Google Research details an agentic RAG framework in Gemini Enterprise Agent Platform. A Sufficient C",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -200,74 +269,6 @@
       "summary_zh": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
       "tags_zh": [],
       "oneliner": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowle",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "087dae28b6e3",
-      "title_zh": "ggml-org /llama.cpp",
-      "summary_zh": "LLM inference in C/C++",
-      "tags_zh": [
-        "Llama",
-        "LLM"
-      ],
-      "oneliner": "LLM inference in C/C++",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1714e4580f43",
-      "title_zh": "Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning",
-      "summary_zh": "arXiv:2606.06586v1 Announce Type: new \nAbstract: Large language models (LLMs) trained predominantly on English data encode substantial world knowledge, yet often fail to express it reliably in other languages, a phenomenon known as cross-lingual...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.06586v1 Announce Type: new \nAbstract: Large language models (LLMs) trained predominantly ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "43d6a4245a73",
-      "title_zh": "Re-Centering Humans in LLM Personalization",
-      "summary_zh": "arXiv:2606.06614v1 Announce Type: new \nAbstract: Despite growing interest, most evaluations of large language models' (LLMs') personalization abilities have relied on synthetic data. It remains unclear how well current personalization systems...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.06614v1 Announce Type: new \nAbstract: Despite growing interest, most evaluations of large",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4160502536d0",
-      "title_zh": "UnpredictaBench: A Benchmark for Evaluating Distributional Randomness in LLMs",
-      "summary_zh": "arXiv:2606.06622v1 Announce Type: new \nAbstract: We introduce UnpredictaBench, an evaluation that tests the ability of large language models (LLMs) to capture true underlying distributions. As LLMs are increasingly used as substitutes for other...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.06622v1 Announce Type: new \nAbstract: We introduce UnpredictaBench, an evaluation that te",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4f0b42209a3f",
-      "title_zh": "How Language Models Fail: Token-Level Signatures of Committed and Persistent Reasoning Failures",
-      "summary_zh": "arXiv:2606.06635v1 Announce Type: new \nAbstract: Failures in language model reasoning emerge through distinct processes that leave identifiable signatures in the reasoning trace. We characterize these failures using token-level uncertainty...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.06635v1 Announce Type: new \nAbstract: Failures in language model reasoning emerge through",
       "key_facts": [],
       "notable_quote": {
         "text": "",

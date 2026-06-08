@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-08T12:41:40Z",
-  "total": 252,
-  "new_count": 34,
+  "updated": "2026-06-08T18:31:51Z",
+  "total": 253,
+  "new_count": 38,
   "items": [
     {
       "id": "cb3eddfe11b5",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agent Skills for Google products and technologies",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [
         "Google",
         "Agent"
@@ -72,9 +72,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "6c8a62077e0e"
+          "6c8a62077e0e",
+          "188b3916a4d8"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "google /skills",
       "summary_zh": "Agent Skills for Google products and technologies",
@@ -91,7 +92,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [
         "Agent",
         "API"
@@ -120,7 +121,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [
         "Agent"
       ],
@@ -147,7 +148,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [
         "Claude"
       ],
@@ -174,7 +175,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [
         "Agent"
       ],
@@ -203,7 +204,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenAI Plugins",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [
         "OpenAI"
       ],
@@ -212,9 +213,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "f4ee2a7a3a8a"
+        ],
+        "score": 5
       },
       "title_zh": "openai /plugins",
       "summary_zh": "OpenAI Plugins",
@@ -230,7 +233,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
-      "published": "2026-06-08T12:38:53Z",
+      "published": "2026-06-08T18:29:08Z",
       "tags": [
         "LLM",
         "Benchmark"
@@ -251,6 +254,56 @@
         "Benchmark"
       ],
       "oneliner": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aw"
+    },
+    {
+      "id": "920282c4a016",
+      "title": "Xiaomi MiMo and TileRT Push a 1-Trillion-Parameter Model Past 1000 Tokens Per Second on Commodity GPUs",
+      "url": "https://www.marktechpost.com/2026/06/08/xiaomi-mimo-and-tilert-push-a-1-trillion-parameter-model-past-1000-tokens-per-second-on-commodity-gpus/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Xiaomi's MiMo team, with TileRT, released MiMo-V2.5-Pro-UltraSpeed, a serving mode for the MiMo-V2.5-Pro model. It decodes over 1000 tokens per second on a 1-trillion-parameter model using a single 8-GPU commodity node.\nThe post Xiaomi MiMo and...",
+      "published": "2026-06-08T16:49:04Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Xiaomi MiMo and TileRT Push a 1-Trillion-Parameter Model Past 1000 Tokens Per Second on Commodity GPUs",
+      "summary_zh": "Xiaomi's MiMo team, with TileRT, released MiMo-V2.5-Pro-UltraSpeed, a serving mode for the MiMo-V2.5-Pro model. It decodes over 1000 tokens per second on a 1-trillion-parameter model using a single 8-GPU commodity node.\nThe post Xiaomi MiMo and...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "Xiaomi's MiMo team, with TileRT, released MiMo-V2.5-Pro-UltraSpeed, a serving mode for the MiMo-V2.5"
+    },
+    {
+      "id": "6162e3e8ff88",
+      "title": "Aviva deploys AI to stop £230M in sophisticated insurance fraud",
+      "url": "https://www.artificialintelligence-news.com/news/aviva-deploys-ai-stop-230m-sophisticated-insurance-fraud/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Aviva has uncovered a record £230 million in insurance fraud claims and is using AI tools to counter the growing problem. The battleground has changed, and the culprits are also coming armed with a new generation of tools. We&#8217;re now in an...",
+      "published": "2026-06-08T12:19:38Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Aviva deploys AI to stop £230M in sophisticated insurance fraud",
+      "summary_zh": "Aviva has uncovered a record £230 million in insurance fraud claims and is using AI tools to counter the growing problem. The battleground has changed, and the culprits are also coming armed with a new generation of tools. We&#8217;re now in an...",
+      "tags_zh": [],
+      "oneliner": "Aviva has uncovered a record £230 million in insurance fraud claims and is using AI tools to counter"
     },
     {
       "id": "21ff6dbd12cd",
@@ -274,6 +327,91 @@
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": ""
+    },
+    {
+      "id": "aba8d77b9057",
+      "title": "Weis Markets adds Instacart AI-powered shopping carts to stores",
+      "url": "https://www.artificialintelligence-news.com/news/weis-markets-instacart-ai-powered-shopping-caper-carts/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Weis Markets is adding Instacart’s AI-powered shopping carts, Caper Carts, to select stores in Pennsylvania, bringing digital coupons, loyalty features, and repeat-purchase recommendations into the grocery aisle. The Pennsylvania-based grocery...",
+      "published": "2026-06-08T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Weis Markets adds Instacart AI-powered shopping carts to stores",
+      "summary_zh": "Weis Markets is adding Instacart’s AI-powered shopping carts, Caper Carts, to select stores in Pennsylvania, bringing digital coupons, loyalty features, and repeat-purchase recommendations into the grocery aisle. The Pennsylvania-based grocery...",
+      "tags_zh": [],
+      "oneliner": "Weis Markets is adding Instacart’s AI-powered shopping carts, Caper Carts, to select stores in Penns"
+    },
+    {
+      "id": "f2ecc274f791",
+      "title": "Microsoft AI Introduces MAI-Transcribe-1.5: 2.4% WER on Artificial Analysis, Best-in-Class FLEURS Accuracy, and Up to 5x Faster Long-Audio Transcription",
+      "url": "https://www.marktechpost.com/2026/06/08/microsoft-ai-introduces-mai-transcribe-1-5-2-4-wer-on-artificial-analysis-best-in-class-fleurs-accuracy-and-up-to-5x-faster-long-audio-transcription/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Microsoft AI has released MAI-Transcribe-1.5, the second iteration of its in-house speech-to-text family. The model covers 43 languages, adds keyword (entity) biasing for domain-specific terms, posts a 2.4% Word-Error-Rate on the Artificial...",
+      "published": "2026-06-08T08:56:49Z",
+      "tags": [
+        "Microsoft"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Microsoft AI Introduces MAI-Transcribe-1.5: 2.4% WER on Artificial Analysis, Best-in-Class FLEURS Accuracy, and Up to 5x Faster Long-Audio Transcription",
+      "summary_zh": "Microsoft AI has released MAI-Transcribe-1.5, the second iteration of its in-house speech-to-text family. The model covers 43 languages, adds keyword (entity) biasing for domain-specific terms, posts a 2.4% Word-Error-Rate on the Artificial...",
+      "tags_zh": [
+        "Microsoft"
+      ],
+      "oneliner": "Microsoft AI has released MAI-Transcribe-1.5, the second iteration of its in-house speech-to-text fa"
+    },
+    {
+      "id": "188b3916a4d8",
+      "title": "Google Research Adds Agentic RAG to Gemini Enterprise Agent Platform with a Sufficient Context Agent for multi-hop queries",
+      "url": "https://www.marktechpost.com/2026/06/08/google-research-adds-agentic-rag-to-gemini-enterprise-agent-platform-with-a-sufficient-context-agent-for-multi-hop-queries/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google Research details an agentic RAG framework in Gemini Enterprise Agent Platform. A Sufficient Context Agent re-searches until multi-hop, multi-source queries have enough grounding to answer. The framework raises factuality accuracy up to 34%...",
+      "published": "2026-06-08T08:25:51Z",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Agent",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "69c7eb76fe0b"
+        ],
+        "score": 5
+      },
+      "title_zh": "Google Research Adds Agentic RAG to Gemini Enterprise Agent Platform with a Sufficient Context Agent for multi-hop queries",
+      "summary_zh": "Google Research details an agentic RAG framework in Gemini Enterprise Agent Platform. A Sufficient Context Agent re-searches until multi-hop, multi-source queries have enough grounding to answer. The framework raises factuality accuracy up to 34%...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "Agent",
+        "RAG"
+      ],
+      "oneliner": "Google Research details an agentic RAG framework in Gemini Enterprise Agent Platform. A Sufficient C"
     },
     {
       "id": "36584af2f739",
@@ -421,13 +559,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "ggml-org /llama.cpp",
-      "summary_zh": "LLM inference in C/C++",
-      "tags_zh": [
-        "Llama",
-        "LLM"
-      ],
-      "oneliner": "LLM inference in C/C++"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "1714e4580f43",
@@ -447,10 +582,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Improving Cross-Lingual Factual Recall via Consistency-Driven Reinforcement Learning",
-      "summary_zh": "arXiv:2606.06586v1 Announce Type: new \nAbstract: Large language models (LLMs) trained predominantly on English data encode substantial world knowledge, yet often fail to express it reliably in other languages, a phenomenon known as cross-lingual...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.06586v1 Announce Type: new \nAbstract: Large language models (LLMs) trained predominantly "
+      "oneliner": ""
     },
     {
       "id": "43d6a4245a73",
@@ -472,12 +607,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Re-Centering Humans in LLM Personalization",
-      "summary_zh": "arXiv:2606.06614v1 Announce Type: new \nAbstract: Despite growing interest, most evaluations of large language models' (LLMs') personalization abilities have relied on synthetic data. It remains unclear how well current personalization systems...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.06614v1 Announce Type: new \nAbstract: Despite growing interest, most evaluations of large"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "4160502536d0",
@@ -500,13 +633,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "UnpredictaBench: A Benchmark for Evaluating Distributional Randomness in LLMs",
-      "summary_zh": "arXiv:2606.06622v1 Announce Type: new \nAbstract: We introduce UnpredictaBench, an evaluation that tests the ability of large language models (LLMs) to capture true underlying distributions. As LLMs are increasingly used as substitutes for other...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.06622v1 Announce Type: new \nAbstract: We introduce UnpredictaBench, an evaluation that te"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "4f0b42209a3f",
@@ -526,10 +656,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "How Language Models Fail: Token-Level Signatures of Committed and Persistent Reasoning Failures",
-      "summary_zh": "arXiv:2606.06635v1 Announce Type: new \nAbstract: Failures in language model reasoning emerge through distinct processes that leave identifiable signatures in the reasoning trace. We characterize these failures using token-level uncertainty...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.06635v1 Announce Type: new \nAbstract: Failures in language model reasoning emerge through"
+      "oneliner": ""
     },
     {
       "id": "fbfa93c816e4",
@@ -1156,6 +1286,51 @@
       "oneliner": ""
     },
     {
+      "id": "4cd526a0df04",
+      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
+      "url": "https://huggingface.co/blog/openenv-agentic-rl",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-08T00:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f4ee2a7a3a8a",
+      "title": "Introducing the OpenAI Economic Research Exchange",
+      "url": "https://openai.com/index/economic-research-exchange",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
+      "published": "2026-06-08T00:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "8c9e20fc0efe",
+          "609f9c068cb2"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "347aba1d7069",
       "title": "Amazing Digital Dentures (a failed project)",
       "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
@@ -1219,9 +1394,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "f4ee2a7a3a8a"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4139,11 +4316,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "c07a24378dfe"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 3
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5801,10 +5976,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "890b25eddf68",
-          "9bbb8c3bb567"
+          "890b25eddf68"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -6015,11 +6189,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "c07a24378dfe"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -6045,159 +6217,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e4841d06b7f2",
-      "title": "Our views on AI policy and political advocacy",
-      "url": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
-      "published": "2026-06-01T17:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c655c0a32140",
-      "title": "Meet Memory OS: A 6-Layer Open-Source Memory Stack Built on Top of Hermes Agent",
-      "url": "https://www.marktechpost.com/2026/06/01/meet-memory-os-a-6-layer-open-source-memory-stack-built-on-top-of-hermes-agent/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "The open-source project adds local persistent memory to Hermes Agent through six layers, gated retrieval, and a wiki.\nThe post Meet Memory OS: A 6-Layer Open-Source Memory Stack Built on Top of Hermes Agent appeared first on MarkTechPost.",
-      "published": "2026-06-01T16:53:07Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4be325886964",
-      "title": "How we used Gemini to build Google I/O 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "A collage of I/O-related images, including the Antigravity Coffee Co. pop-up, a colorful jellyfish and a still from the Timmy TPU video. The word AI repeats three times on the left of the image, and there are colorful icons, including a sparkle,...",
-      "published": "2026-06-01T16:00:00Z",
-      "tags": [
-        "Gemini",
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3cf2c3be558d",
-      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-06-01T15:45:17Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "287852ed7fbc",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-06-01T13:51:18Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "4cefe2c18771"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4cefe2c18771",
-      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "url": "https://huggingface.co/blog/nfuller/scalable-enterprise-ai-adoption",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-06-01T12:46:01Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "287852ed7fbc"
-        ],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
