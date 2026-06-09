@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-08T18:31:51Z",
-  "count": 70,
+  "updated": "2026-06-09T03:43:53Z",
+  "count": 71,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -4482,6 +4482,70 @@
         }
       },
       "_ts": 1780943511
+    },
+    "820072e9c7c35760": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录289篇AI新闻，分类分布：学术研究191篇, 开源项目56篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（68篇）。其中11%的文章有多来源交叉验证。\n\n▸ mvanhorn /last30days-skill：AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th\n\n▸ RyanCodrai /turbovec：A vector index built on TurboQuant, written in Rust with Python bindings\n\n▸ google /skills：Agent Skills for Google products and technologies\n\n▸ Panniantong /Agent-Reach：Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, \n\n▸ danielmiessler /Personal_AI_Infrastructure：Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mvanhorn/last30days-skill",
+            "url": "https://github.com/mvanhorn/last30days-skill",
+            "why_hot": "单日3558星，Python项目",
+            "stars_today": 3558,
+            "total_stars": 34982
+          },
+          {
+            "full_name": "Panniantong/Agent-Reach",
+            "url": "https://github.com/Panniantong/Agent-Reach",
+            "why_hot": "单日679星，Python项目",
+            "stars_today": 679,
+            "total_stars": 24449
+          },
+          {
+            "full_name": "openai/plugins",
+            "url": "https://github.com/openai/plugins",
+            "why_hot": "单日296星，JavaScript项目",
+            "stars_today": 296,
+            "total_stars": 2357
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "289"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7422"
+          }
+        ],
+        "must_read_ids": [
+          "cb3eddfe11b5",
+          "ce57d7f0f38e",
+          "69c7eb76fe0b",
+          "81fb0b6406ba",
+          "7904af429ad5"
+        ],
+        "text": "今日共收录289篇AI新闻，分类分布：学术研究191篇, 开源项目56篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（68篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "mvanhorn /last30days-skill",
+          "RyanCodrai /turbovec",
+          "google /skills",
+          "Panniantong /Agent-Reach",
+          "danielmiessler /Personal_AI_Infrastructu"
+        ],
+        "meta": {
+          "total_articles": 289,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1780976633
     }
   }
 }

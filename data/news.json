@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-08T18:31:51Z",
+  "updated": "2026-06-09T03:43:53Z",
   "total": 253,
-  "new_count": 38,
+  "new_count": 36,
   "items": [
     {
       "id": "cb3eddfe11b5",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agent Skills for Google products and technologies",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [
         "Google",
         "Agent"
@@ -92,7 +92,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [
         "Agent",
         "API"
@@ -121,7 +121,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [
         "Agent"
       ],
@@ -148,7 +148,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [
         "Claude"
       ],
@@ -175,7 +175,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [
         "Agent"
       ],
@@ -204,7 +204,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenAI Plugins",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [
         "OpenAI"
       ],
@@ -213,11 +213,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "f4ee2a7a3a8a"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "openai /plugins",
       "summary_zh": "OpenAI Plugins",
@@ -233,7 +231,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
-      "published": "2026-06-08T18:29:08Z",
+      "published": "2026-06-09T03:41:14Z",
       "tags": [
         "LLM",
         "Benchmark"
@@ -254,6 +252,29 @@
         "Benchmark"
       ],
       "oneliner": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aw"
+    },
+    {
+      "id": "052062883131",
+      "title": "ClawHub Security Signals: A Coding Guide to End-to-End Security Signal Analysis and Verdict Classification on the AI Skills Dataset",
+      "url": "https://www.marktechpost.com/2026/06/08/clawhub-security-signals-a-coding-guide-to-end-to-end-security-signal-analysis-and-verdict-classification-on-the-ai-skills-dataset/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we explore the ClawHub Security Signals dataset to see how scanners assess AI skills. We load the data from the Hugging Face Parquet conversion and inspect verdicts, scanner outputs, and severity labels. We measure how...",
+      "published": "2026-06-08T18:57:19Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "ClawHub Security Signals: A Coding Guide to End-to-End Security Signal Analysis and Verdict Classification on the AI Skills Dataset",
+      "summary_zh": "In this tutorial, we explore the ClawHub Security Signals dataset to see how scanners assess AI skills. We load the data from the Hugging Face Parquet conversion and inspect verdicts, scanner outputs, and severity labels. We measure how...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we explore the ClawHub Security Signals dataset to see how scanners assess AI skil"
     },
     {
       "id": "920282c4a016",
@@ -281,6 +302,29 @@
         "GPU"
       ],
       "oneliner": "Xiaomi's MiMo team, with TileRT, released MiMo-V2.5-Pro-UltraSpeed, a serving mode for the MiMo-V2.5"
+    },
+    {
+      "id": "c39ad57d6bd7",
+      "title": "Confidential submission of draft S-1 to the SEC",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "published": "2026-06-08T14:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Confidential submission of draft S-1 to the SEC",
+      "summary_zh": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "tags_zh": [],
+      "oneliner": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for furth"
     },
     {
       "id": "6162e3e8ff88",
@@ -507,13 +551,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "aaif-goose /goose",
-      "summary_zh": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "41a6a86637e6",
@@ -533,10 +574,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Crosstalk-Solutions /project-nomad",
-      "summary_zh": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowle"
+      "oneliner": ""
     },
     {
       "id": "087dae28b6e3",
@@ -1286,6 +1327,25 @@
       "oneliner": ""
     },
     {
+      "id": "536604e9e1ff",
+      "title": "Built to benefit everyone: our plan",
+      "url": "https://openai.com/index/built-to-benefit-everyone-our-plan",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
+      "published": "2026-06-08T01:30:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "4cd526a0df04",
       "title": "The Open Source Community is backing OpenEnv for Agentic RL",
       "url": "https://huggingface.co/blog/openenv-agentic-rl",
@@ -1320,10 +1380,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "8c9e20fc0efe",
           "609f9c068cb2"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -3915,10 +3974,9 @@
         "level": "multi-source",
         "corroborating_ids": [
           "84a62fbcf4f5",
-          "810110a07068",
-          "890b25eddf68"
+          "810110a07068"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5974,10 +6032,8 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "890b25eddf68"
-        ],
+        "level": "single-source",
+        "corroborating_ids": [],
         "score": 5
       },
       "title_zh": "",
@@ -6144,79 +6200,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "aaeba9d9642e",
-      "title": "Codex is becoming a productivity tool for everyone",
-      "url": "https://openai.com/index/codex-for-knowledge-work",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
-      "published": "2026-06-02T02:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6ccd582257b6",
-      "title": "How to Speed Up Transformer Training Using NVIDIA Apex (FusedAdam, FusedLayerNorm) and Native torch.amp",
-      "url": "https://www.marktechpost.com/2026/06/01/how-to-speed-up-transformer-training-using-nvidia-apex-fusedadam-fusedlayernorm-and-native-torch-amp/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "We build NVIDIA Apex from source, detect fused kernels, and benchmark FusedAdam, FusedLayerNorm, and torch.amp in Transformer training.\nThe post How to Speed Up Transformer Training Using NVIDIA Apex (FusedAdam, FusedLayerNorm) and Native...",
-      "published": "2026-06-02T01:39:13Z",
-      "tags": [
-        "Transformer"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b531659565e6",
-      "title": "MiniMax Releases MiniMax M3 with MSA Architecture Supporting 1M-Token Context, Native Multimodality, and Agentic Coding",
-      "url": "https://www.marktechpost.com/2026/06/01/minimax-releases-minimax-m3-with-msa-architecture-supporting-1m-token-context-native-multimodality-and-agentic-coding/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "MiniMax M3 introduces MiniMax Sparse Attention, a 1M-token context window, and native image, video, and computer use support.\nThe post MiniMax Releases MiniMax M3 with MSA Architecture Supporting 1M-Token Context, Native Multimodality, and...",
-      "published": "2026-06-01T20:40:05Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
