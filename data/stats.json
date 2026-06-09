@@ -1,18 +1,18 @@
 {
-  "updated": "2026-06-09T03:43:43Z",
-  "total": 289,
+  "updated": "2026-06-09T11:25:47Z",
+  "total": 321,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "GitHub Trending",
-      "count": 33
+      "count": 34
     },
     {
       "name": "MarkTechPost",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,23 +42,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 68
+      "count": 74
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 38
+    },
+    {
+      "name": "Benchmark",
+      "count": 13
     },
     {
       "name": "Google",
       "count": 13
-    },
-    {
-      "name": "Benchmark",
-      "count": 12
-    },
-    {
-      "name": "Transformer",
-      "count": 7
     },
     {
       "name": "OpenAI",
@@ -77,19 +73,31 @@
       "count": 6
     },
     {
+      "name": "Transformer",
+      "count": 6
+    },
+    {
       "name": "Claude",
-      "count": 3
+      "count": 4
+    },
+    {
+      "name": "Prompt",
+      "count": 4
     },
     {
       "name": "GPU",
+      "count": 4
+    },
+    {
+      "name": "Fine-tune",
+      "count": 3
+    },
+    {
+      "name": "Embedding",
       "count": 3
     },
     {
       "name": "Microsoft",
-      "count": 3
-    },
-    {
-      "name": "Prompt",
       "count": 3
     },
     {
@@ -109,14 +117,6 @@
       "count": 2
     },
     {
-      "name": "Fine-tune",
-      "count": 2
-    },
-    {
-      "name": "Embedding",
-      "count": 2
-    },
-    {
       "name": "Llama",
       "count": 1
     },
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 191
+      "count": 221
     },
     {
       "name": "开源项目",
-      "count": 56
+      "count": 57
     },
     {
       "name": "模型发布",
@@ -144,7 +144,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -158,11 +158,11 @@
     },
     {
       "date": "06-08",
-      "count": 47
+      "count": 45
     },
     {
       "date": "06-09",
-      "count": 9
+      "count": 47
     },
     {
       "date": "06-16",
@@ -191,38 +191,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "69c7eb76fe0b",
-      "title": "google /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "81fb0b6406ba",
-      "title": "Panniantong /Agent-Reach",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7904af429ad5",
-      "title": "danielmiessler /Personal_AI_Infrastructure",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7b6a865db4d6",
-      "title": "santifer /career-ops",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "6c8a62077e0e",
-      "title": "phuryn /pm-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "8c9e20fc0efe",
-      "title": "openai /plugins",
+      "id": "dbf05bf5bd2d",
+      "title": "aaif-goose /goose",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -233,8 +203,38 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "052062883131",
-      "title": "ClawHub Security Signals: A Coding Guide to End-to-End Security Signal Analysis and Verdict Classification on the AI Skills Dataset",
+      "id": "58c322f57d69",
+      "title": "x1xhlol /system-prompts-and-models-of-ai-tools",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "98e3e9af21c8",
+      "title": "yikart /AiToEarn",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "6d8d3867b1f2",
+      "title": "Multimedia Building Blocks",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "17cd68da6c86",
+      "title": "How to sign PDFs easily online with a PDF signer",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "ead7191c3456",
+      "title": "Autonomous AI Data Loss in DevOps: Building Efficient Defenses",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "08f656013b6d",
+      "title": "NVIDIA cuTile Python Tutorial: Building Tiled GPU Kernels for Vector Addition, Matrix Addition, and Matrix Multiplication in Colab",
       "score": 5,
       "source": "MarkTechPost"
     }

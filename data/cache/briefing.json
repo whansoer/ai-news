@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-09T03:43:53Z",
-  "count": 71,
+  "updated": "2026-06-09T11:25:57Z",
+  "count": 72,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -4546,6 +4546,70 @@
         }
       },
       "_ts": 1780976633
+    },
+    "e64303ece57d726e": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录321篇AI新闻，分类分布：学术研究221篇, 开源项目57篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（74篇）。其中11%的文章有多来源交叉验证。\n\n▸ mvanhorn /last30days-skill：AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th\n\n▸ RyanCodrai /turbovec：A vector index built on TurboQuant, written in Rust with Python bindings\n\n▸ aaif-goose /goose：an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and \n\n▸ Andyyyy64 /whichllm：Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aw\n\n▸ x1xhlol /system-prompts-and-models-of-ai-tools：FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, L",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mvanhorn/last30days-skill",
+            "url": "https://github.com/mvanhorn/last30days-skill",
+            "why_hot": "单日3558星，Python项目",
+            "stars_today": 3558,
+            "total_stars": 36042
+          },
+          {
+            "full_name": "openai/plugins",
+            "url": "https://github.com/openai/plugins",
+            "why_hot": "单日296星，JavaScript项目",
+            "stars_today": 296,
+            "total_stars": 2458
+          },
+          {
+            "full_name": "RyanCodrai/turbovec",
+            "url": "https://github.com/RyanCodrai/turbovec",
+            "why_hot": "单日1729星，Python项目",
+            "stars_today": 1729,
+            "total_stars": 9697
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "321"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7233"
+          }
+        ],
+        "must_read_ids": [
+          "cb3eddfe11b5",
+          "ce57d7f0f38e",
+          "dbf05bf5bd2d",
+          "b40dcd22bd69",
+          "58c322f57d69"
+        ],
+        "text": "今日共收录321篇AI新闻，分类分布：学术研究221篇, 开源项目57篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（74篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "mvanhorn /last30days-skill",
+          "RyanCodrai /turbovec",
+          "aaif-goose /goose",
+          "Andyyyy64 /whichllm",
+          "x1xhlol /system-prompts-and-models-of-ai"
+        ],
+        "meta": {
+          "total_articles": 321,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1781004357
     }
   }
 }
