@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-09T11:25:57Z",
-  "total": 254,
-  "new_count": 68,
+  "updated": "2026-06-09T18:15:22Z",
+  "total": 248,
+  "new_count": 36,
   "items": [
     {
       "id": "cb3eddfe11b5",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-06-09T11:23:12Z",
+      "published": "2026-06-09T18:12:44Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "published": "2026-06-09T11:23:12Z",
+      "published": "2026-06-09T18:12:44Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "published": "2026-06-09T11:23:12Z",
+      "published": "2026-06-09T18:12:44Z",
       "tags": [
         "LLM",
         "Agent"
@@ -89,7 +89,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
-      "published": "2026-06-09T11:23:12Z",
+      "published": "2026-06-09T18:12:44Z",
       "tags": [
         "LLM",
         "Benchmark"
@@ -118,7 +118,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai...",
-      "published": "2026-06-09T11:23:12Z",
+      "published": "2026-06-09T18:12:44Z",
       "tags": [
         "Claude",
         "Agent",
@@ -149,7 +149,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Let's use AI to Earn!",
-      "published": "2026-06-09T11:23:12Z",
+      "published": "2026-06-09T18:12:44Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -166,6 +166,39 @@
       "oneliner": "Let's use AI to Earn!"
     },
     {
+      "id": "98c30c813d6e",
+      "title": "Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API",
+      "url": "https://www.marktechpost.com/2026/06/09/google-releases-gemini-3-5-live-translate-a-streaming-speech-to-speech-audio-model-covering-70-languages-across-meet-translate-and-the-live-api/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Gemini 3.5 Live Translate streams speech-to-speech translation across 70+ languages. It generates audio continuously, staying a few seconds behind the speaker. The model reaches developers via the Gemini Live API, plus Google Meet and the...",
+      "published": "2026-06-09T17:24:11Z",
+      "tags": [
+        "Gemini",
+        "Google",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "69c7eb76fe0b"
+        ],
+        "score": 5
+      },
+      "title_zh": "Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API",
+      "summary_zh": "Gemini 3.5 Live Translate streams speech-to-speech translation across 70+ languages. It generates audio continuously, staying a few seconds behind the speaker. The model reaches developers via the Gemini Live API, plus Google Meet and the...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "API"
+      ],
+      "oneliner": "Gemini 3.5 Live Translate streams speech-to-speech translation across 70+ languages. It generates au"
+    },
+    {
       "id": "6d8d3867b1f2",
       "title": "Multimedia Building Blocks",
       "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
@@ -179,9 +212,40 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6d8d3867b1f2",
+          "6d8d3867b1f2"
+        ],
+        "score": 7
+      },
+      "title_zh": "Multimedia Building Blocks",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6d8d3867b1f2",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-09T10:46:19Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6d8d3867b1f2",
+          "6d8d3867b1f2"
+        ],
+        "score": 7
       },
       "title_zh": "Multimedia Building Blocks",
       "summary_zh": "",
@@ -477,10 +541,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "GraphLoRA: Structure-Aware Low-Rank Adaptation for Large Language Model Recommendation",
-      "summary_zh": "arXiv:2606.07526v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have shown strong potential for recommendation (LLMRec) due to their powerful reasoning and generalization abilities. However, effectively aligning the textual...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.07526v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have shown strong pote"
+      "oneliner": ""
     },
     {
       "id": "9e6a3082021d",
@@ -500,10 +564,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Post-training is (Massive) Supervised Learning",
-      "summary_zh": "arXiv:2606.07527v1 Announce Type: new \nAbstract: The prevailing paradigm for training LLMs has evolved to rely on a massive post-training phase consisting of SFT and RL. In this position paper, we argue that this methodology effectively marks a...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.07527v1 Announce Type: new \nAbstract: The prevailing paradigm for training LLMs has evolv"
+      "oneliner": ""
     },
     {
       "id": "61f96354cb13",
@@ -1041,10 +1105,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "98c30c813d6e",
           "6c8a62077e0e",
           "188b3916a4d8"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -6033,208 +6098,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "32272f1d3ada",
-      "title": "Anthropic IPO filing marks AI maturing into enterprise utility",
-      "url": "https://www.artificialintelligence-news.com/news/anthropic-ipo-filing-marks-ai-maturing-enterprise-utility/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Anthropic&#8217;s IPO filing marks the maturation of generative AI from a research-heavy venture phase into a stabilised enterprise utility. Model developers operating in private markets have prioritised rapid iteration and maximum compute...",
-      "published": "2026-06-02T18:04:03Z",
-      "tags": [
-        "Anthropic"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "84c658763ec9",
-      "title": "TinyFish Launches BigSet: An Open-Source Multi-Agent System That Builds Structured Live Datasets from Plain-English Descriptions",
-      "url": "https://www.marktechpost.com/2026/06/02/tinyfish-launches-bigset-an-open-source-multi-agent-system-that-builds-structured-live-datasets-from-plain-english-descriptions/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Describe a dataset in one sentence; Bigset's orchestrator and parallel sub-agents research the live web and return structured tables.\nThe post TinyFish Launches BigSet: An Open-Source Multi-Agent System That Builds Structured Live Datasets from...",
-      "published": "2026-06-02T17:57:41Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c9edca228384",
-      "title": "Holo3.1: Fast & Local Computer Use Agents",
-      "url": "https://huggingface.co/blog/Hcompany/holo31",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-06-02T14:13:23Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7c09473f1ffc",
-      "title": "harry0703 /MoneyPrinterTurbo",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-      "published": "2026-06-02T12:11:55Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "be8acfaf1118",
-      "title": "pbakaus /impeccable",
-      "url": "https://github.com/pbakaus/impeccable",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "The design language that makes your AI harness better at design.",
-      "published": "2026-06-02T12:11:55Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "afdace39e749",
-      "title": "TauricResearch /TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "published": "2026-06-02T12:11:55Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "38bb6a600df0",
-      "title": "revfactory /harness",
-      "url": "https://github.com/revfactory/harness",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "published": "2026-06-02T12:11:55Z",
-      "tags": [
-        "Meta",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fa84d034356c",
-      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "url": "https://openai.com/index/travelers",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
-      "published": "2026-06-02T12:00:00Z",
-      "tags": [
-        "OpenAI"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "985e9a4f3bc7"
-        ],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",

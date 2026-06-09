@@ -1,14 +1,14 @@
 {
-  "updated": "2026-06-09T11:25:47Z",
-  "total": 321,
+  "updated": "2026-06-09T18:15:12Z",
+  "total": 290,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "GitHub Trending",
@@ -16,11 +16,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 30
     },
     {
       "name": "Hugging Face",
-      "count": 23
+      "count": 24
     },
     {
       "name": "OpenAI",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,39 +42,35 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 74
+      "count": 72
     },
     {
       "name": "LLM",
-      "count": 38
-    },
-    {
-      "name": "Benchmark",
-      "count": 13
+      "count": 35
     },
     {
       "name": "Google",
-      "count": 13
+      "count": 14
+    },
+    {
+      "name": "Benchmark",
+      "count": 11
+    },
+    {
+      "name": "Gemini",
+      "count": 7
     },
     {
       "name": "OpenAI",
       "count": 6
     },
     {
-      "name": "Gemini",
-      "count": 6
-    },
-    {
       "name": "RAG",
-      "count": 6
-    },
-    {
-      "name": "Diffusion",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Transformer",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Claude",
@@ -89,11 +85,15 @@
       "count": 4
     },
     {
-      "name": "Fine-tune",
+      "name": "Diffusion",
+      "count": 4
+    },
+    {
+      "name": "API",
       "count": 3
     },
     {
-      "name": "Embedding",
+      "name": "Fine-tune",
       "count": 3
     },
     {
@@ -109,12 +109,12 @@
       "count": 3
     },
     {
-      "name": "API",
+      "name": "Meta",
       "count": 2
     },
     {
-      "name": "Meta",
-      "count": 2
+      "name": "Embedding",
+      "count": 1
     },
     {
       "name": "Llama",
@@ -123,20 +123,16 @@
     {
       "name": "Anthropic",
       "count": 1
-    },
-    {
-      "name": "Qwen",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 221
+      "count": 190
     },
     {
       "name": "开源项目",
-      "count": 57
+      "count": 58
     },
     {
       "name": "模型发布",
@@ -144,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 13
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -162,7 +158,7 @@
     },
     {
       "date": "06-09",
-      "count": 47
+      "count": 49
     },
     {
       "date": "06-16",
@@ -215,8 +211,20 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "98c30c813d6e",
+      "title": "Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "6d8d3867b1f2",
       "title": "Multimedia Building Blocks",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "6d8d3867b1f2",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "score": 5,
       "source": "Hugging Face"
     },
@@ -225,18 +233,6 @@
       "title": "How to sign PDFs easily online with a PDF signer",
       "score": 5,
       "source": "AI News"
-    },
-    {
-      "id": "ead7191c3456",
-      "title": "Autonomous AI Data Loss in DevOps: Building Efficient Defenses",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "08f656013b6d",
-      "title": "NVIDIA cuTile Python Tutorial: Building Tiled GPU Kernels for Vector Addition, Matrix Addition, and Matrix Multiplication in Colab",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
