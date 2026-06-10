@@ -1,22 +1,22 @@
 {
-  "updated": "2026-06-10T03:58:19Z",
-  "total": 287,
+  "updated": "2026-06-10T11:45:04Z",
+  "total": 325,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 76
+      "count": 91
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 35
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "Hugging Face",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,39 +42,39 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 69
+      "count": 81
     },
     {
       "name": "LLM",
-      "count": 33
+      "count": 47
     },
     {
       "name": "Google",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Gemini",
       "count": 7
     },
     {
+      "name": "RAG",
+      "count": 6
+    },
+    {
       "name": "OpenAI",
       "count": 6
     },
     {
-      "name": "RAG",
+      "name": "Claude",
       "count": 5
     },
     {
       "name": "Transformer",
       "count": 5
-    },
-    {
-      "name": "Claude",
-      "count": 4
     },
     {
       "name": "Prompt",
@@ -93,10 +93,6 @@
       "count": 3
     },
     {
-      "name": "Fine-tune",
-      "count": 3
-    },
-    {
       "name": "Microsoft",
       "count": 3
     },
@@ -109,30 +105,34 @@
       "count": 3
     },
     {
+      "name": "Meta",
+      "count": 2
+    },
+    {
+      "name": "Fine-tune",
+      "count": 2
+    },
+    {
+      "name": "Anthropic",
+      "count": 1
+    },
+    {
       "name": "Embedding",
       "count": 1
     },
     {
       "name": "Llama",
       "count": 1
-    },
-    {
-      "name": "Meta",
-      "count": 1
-    },
-    {
-      "name": "Anthropic",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 222
     },
     {
       "name": "开源项目",
-      "count": 55
+      "count": 60
     },
     {
       "name": "模型发布",
@@ -140,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -154,11 +154,11 @@
     },
     {
       "date": "06-09",
-      "count": 50
+      "count": 49
     },
     {
       "date": "06-10",
-      "count": 6
+      "count": 48
     },
     {
       "date": "06-16",
@@ -175,26 +175,26 @@
   ],
   "top10": [
     {
+      "id": "0d1bd25a3199",
+      "title": "addyosmani /agent-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "6c8a62077e0e",
+      "title": "phuryn /pm-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "cb3eddfe11b5",
       "title": "mvanhorn /last30days-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "ce57d7f0f38e",
-      "title": "RyanCodrai /turbovec",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "dbf05bf5bd2d",
-      "title": "aaif-goose /goose",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "b40dcd22bd69",
-      "title": "Andyyyy64 /whichllm",
+      "id": "32d41bca1d59",
+      "title": "soxoj /maigret",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -205,34 +205,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "98e3e9af21c8",
-      "title": "yikart /AiToEarn",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "92ac31968c0b",
-      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+      "id": "7c09473f1ffc",
+      "title": "harry0703 /MoneyPrinterTurbo",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "GitHub Trending"
     },
     {
-      "id": "98c30c813d6e",
-      "title": "Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API",
+      "id": "5969023e3457",
+      "title": "maziyarpanahi /openmed",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "820a457e9e23",
+      "title": "Siri AI arrives with Google inside, and much of the world is locked out",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "10fa5cf767ed",
+      "title": "Top AI Coding Agents and Development Platforms in 2026: Atoms, Devin, Windsurf, Cursor, Warp, and More Compared",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "2428838e44d4",
-      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "de0a2342d5aa",
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "score": 5,
-      "source": "OpenAI"
     }
   ]
 }
