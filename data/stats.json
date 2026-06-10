@@ -1,10 +1,10 @@
 {
-  "updated": "2026-06-09T18:15:12Z",
-  "total": 290,
+  "updated": "2026-06-10T03:58:19Z",
+  "total": 287,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 76
     },
     {
       "name": "ArXiv (cs.AI)",
@@ -12,15 +12,15 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 34
-    },
-    {
-      "name": "MarkTechPost",
       "count": 30
     },
     {
+      "name": "MarkTechPost",
+      "count": 29
+    },
+    {
       "name": "Hugging Face",
-      "count": 24
+      "count": 25
     },
     {
       "name": "OpenAI",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 69
     },
     {
       "name": "LLM",
-      "count": 35
+      "count": 33
     },
     {
       "name": "Google",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Benchmark",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Gemini",
@@ -109,15 +109,15 @@
       "count": 3
     },
     {
-      "name": "Meta",
-      "count": 2
-    },
-    {
       "name": "Embedding",
       "count": 1
     },
     {
       "name": "Llama",
+      "count": 1
+    },
+    {
+      "name": "Meta",
       "count": 1
     },
     {
@@ -132,7 +132,7 @@
     },
     {
       "name": "开源项目",
-      "count": 58
+      "count": 55
     },
     {
       "name": "模型发布",
@@ -145,10 +145,6 @@
   ],
   "dailyTrend": [
     {
-      "date": "06-06",
-      "count": 24
-    },
-    {
       "date": "06-07",
       "count": 10
     },
@@ -158,7 +154,11 @@
     },
     {
       "date": "06-09",
-      "count": 49
+      "count": 50
+    },
+    {
+      "date": "06-10",
+      "count": 6
     },
     {
       "date": "06-16",
@@ -211,28 +211,28 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "92ac31968c0b",
+      "title": "Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
       "id": "98c30c813d6e",
       "title": "Google Releases Gemini 3.5 Live Translate, a Streaming Speech-to-Speech Audio Model Covering 70+ Languages Across Meet, Translate, and the Live API",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "6d8d3867b1f2",
-      "title": "Multimedia Building Blocks",
+      "id": "2428838e44d4",
+      "title": "Introducing North Mini Code: Cohere’s First Model For Developers",
       "score": 5,
       "source": "Hugging Face"
     },
     {
-      "id": "6d8d3867b1f2",
-      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "id": "de0a2342d5aa",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
       "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "17cd68da6c86",
-      "title": "How to sign PDFs easily online with a PDF signer",
-      "score": 5,
-      "source": "AI News"
+      "source": "OpenAI"
     }
   ]
 }
