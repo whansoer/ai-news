@@ -1,8 +1,31 @@
 {
-  "updated": "2026-06-11T04:12:10Z",
-  "total": 251,
-  "new_count": 71,
+  "updated": "2026-06-11T12:17:03Z",
+  "total": 247,
+  "new_count": 38,
   "items": [
+    {
+      "id": "f6b90900bc49",
+      "title": "apple /container",
+      "url": "https://github.com/apple/container",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "published": "2026-06-11T12:14:20Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "apple /container",
+      "summary_zh": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "tags_zh": [],
+      "oneliner": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is "
+    },
     {
       "id": "0d1bd25a3199",
       "title": "addyosmani /agent-skills",
@@ -10,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-06-11T04:09:25Z",
+      "published": "2026-06-11T12:14:20Z",
       "tags": [
         "Agent"
       ],
@@ -31,13 +54,36 @@
       "oneliner": "Production-grade engineering skills for AI coding agents."
     },
     {
+      "id": "5969023e3457",
+      "title": "maziyarpanahi /openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "open-source healthcare ai",
+      "published": "2026-06-11T12:14:20Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "maziyarpanahi /openmed",
+      "summary_zh": "open-source healthcare ai",
+      "tags_zh": [],
+      "oneliner": "open-source healthcare ai"
+    },
+    {
       "id": "6c8a62077e0e",
       "title": "phuryn /pm-skills",
       "url": "https://github.com/phuryn/pm-skills",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-      "published": "2026-06-11T04:09:25Z",
+      "published": "2026-06-11T12:14:20Z",
       "tags": [
         "Agent"
       ],
@@ -58,13 +104,13 @@
       "oneliner": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, exec"
     },
     {
-      "id": "cb3eddfe11b5",
-      "title": "mvanhorn /last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
+      "id": "eab0bce4d038",
+      "title": "NVIDIA /SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-06-11T04:09:25Z",
+      "summary": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "published": "2026-06-11T12:14:20Z",
       "tags": [
         "Agent"
       ],
@@ -73,16 +119,18 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
+        "level": "multi-source",
+        "corroborating_ids": [
+          "84aa3d71238d"
+        ],
+        "score": 5
       },
-      "title_zh": "mvanhorn /last30days-skill",
-      "summary_zh": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "title_zh": "NVIDIA /SkillSpector",
+      "summary_zh": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th"
+      "oneliner": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks"
     },
     {
       "id": "32d41bca1d59",
@@ -91,7 +139,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
-      "published": "2026-06-11T04:09:25Z",
+      "published": "2026-06-11T12:14:20Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -114,7 +162,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai...",
-      "published": "2026-06-11T04:09:25Z",
+      "published": "2026-06-11T12:14:20Z",
       "tags": [
         "Claude",
         "Agent",
@@ -145,7 +193,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-06-11T04:09:25Z",
+      "published": "2026-06-11T12:14:20Z",
       "tags": [
         "Agent"
       ],
@@ -164,6 +212,33 @@
         "Agent"
       ],
       "oneliner": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "cb3eddfe11b5",
+      "title": "mvanhorn /last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "published": "2026-06-11T04:09:25Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "mvanhorn /last30days-skill",
+      "summary_zh": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th"
     },
     {
       "id": "7c09473f1ffc",
@@ -191,29 +266,6 @@
         "LLM"
       ],
       "oneliner": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM."
-    },
-    {
-      "id": "5969023e3457",
-      "title": "maziyarpanahi /openmed",
-      "url": "https://github.com/maziyarpanahi/openmed",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "open-source healthcare ai",
-      "published": "2026-06-11T04:09:25Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "maziyarpanahi /openmed",
-      "summary_zh": "open-source healthcare ai",
-      "tags_zh": [],
-      "oneliner": "open-source healthcare ai"
     },
     {
       "id": "a3863bf14dee",
@@ -485,12 +537,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "T2MM: An LLM Supported Architecture For Inquiry-Based Modeling",
-      "summary_zh": "arXiv:2606.11210v1 Announce Type: new \nAbstract: Model Construction is a foundational practice in science learning that relies on visualization and interactivity. Large Language Models, increasingly augmented with multimodal capabilities, have...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.11210v1 Announce Type: new \nAbstract: Model Construction is a foundational practice in sc"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "58e74c1357bb",
@@ -512,10 +562,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Calibration Drift Under Reasoning: How Chain-of-Thought Budgets Induce Overconfidence in Large Language Models",
-      "summary_zh": "arXiv:2606.11211v1 Announce Type: new \nAbstract: The ability of large language models (LLMs) to express calibrated uncertainty is important for safe deployment. Chain-of-thought (CoT) reasoning is widely used to improve accuracy and reliability,...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.11211v1 Announce Type: new \nAbstract: The ability of large language models (LLMs) to expr"
+      "oneliner": ""
     },
     {
       "id": "c00a3f55e3c7",
@@ -978,6 +1028,52 @@
       "oneliner": ""
     },
     {
+      "id": "9a812e42d024",
+      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-11T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "bfbf641beda5",
+      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
+      "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
+      "published": "2026-06-11T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "f17e33515dda",
       "title": "A Coding Implementation on Microsoft SkillOpt for Instrumented Prompt Optimization, Skill Evolution Analysis, and Baseline Comparison",
       "url": "https://www.marktechpost.com/2026/06/10/a-coding-implementation-on-microsoft-skillopt-for-instrumented-prompt-optimization-skill-evolution-analysis-and-baseline-comparison/",
@@ -1049,10 +1145,9 @@
         "corroborating_ids": [
           "820a457e9e23",
           "7fff4a7e479d",
-          "903c9accab2a",
-          "24a453d6ccae"
+          "903c9accab2a"
         ],
-        "score": 10
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4765,11 +4860,12 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "eab0bce4d038",
           "13821f306f79",
           "a08a5af8d118",
           "5b7ecddc9b6c"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5282,10 +5378,9 @@
         "level": "multi-source",
         "corroborating_ids": [
           "1df0e3ea36eb",
-          "651e613dd816",
-          "24a453d6ccae"
+          "651e613dd816"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5991,200 +6086,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ae995b9c3e75",
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "url": "https://openai.com/index/endava-frontiers",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "published": "2026-06-04T12:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "83c240956e5e",
-      "title": "Scout from M’Soft is the agentic Autopilot that works across M365",
-      "url": "https://www.artificialintelligence-news.com/news/microsofts-autopilot-scout-is-the-agentic-autopilot-that-works-across-m365/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Microsoft has announced the wider testing of its new Autopilot feature at the Microsoft Build event this week, backed by a post on the company&#8217;s&#8217; website. Autopilots are described as a new category of agents that can work autonomously...",
-      "published": "2026-06-04T11:41:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c1e15bfceee9",
-      "title": "Amazon brings AI shopping assistant to retailers with Kate Spade",
-      "url": "https://www.artificialintelligence-news.com/news/amazon-ai-shopping-assistant-kate-spade-retailers/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Amazon is offering its AI shopping technology to other retailers through a new Agentic Shopping Assistant built on AWS, with Kate Spade among the first brands to use it. The service allows retailers to build AI shopping assistants for their own...",
-      "published": "2026-06-04T10:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "785dbaa6ae56",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "url": "https://openai.com/index/chatgpt-memory-dreaming",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-      "published": "2026-06-04T09:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "cd563203be35",
-      "title": "Miso Labs Releases MisoTTS: An 8B Emotive Text-to-Speech Model with Open Weights",
-      "url": "https://www.marktechpost.com/2026/06/04/miso-labs-releases-misotts-an-8b-emotive-text-to-speech-model-with-open-weights/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Miso Labs has released MisoTTS, an open-weights 8B text-to-speech model. It uses residual vector quantization (RVQ) to scale its sonic range without scaling parameters, and conditions on both text and audio context to respond to speaker tone. The...",
-      "published": "2026-06-04T08:11:05Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "dd869b576aa2",
-      "title": "Meet OpenJarvis: A Local-First Framework for On-Device Personal AI Agents with Tools, Memory, and Learning",
-      "url": "https://www.marktechpost.com/2026/06/03/meet-openjarvis-a-local-first-framework-for-on-device-personal-ai-agents-with-tools-memory-and-learning/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Stanford researchers released OpenJarvis, an open-source framework that runs inference, agents, memory, and learning entirely on-device. It decomposes a personal AI system into five composable primitives — Intelligence, Engine, Agents, Tools...",
-      "published": "2026-06-04T06:23:10Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c157c87cd55e",
-      "title": "nesquena /hermes-webui",
-      "url": "https://github.com/nesquena/hermes-webui",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
-      "published": "2026-06-04T04:14:25Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "965fc61ede10",
-      "title": "opendataloader-project /opendataloader-pdf",
-      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-      "published": "2026-06-04T04:14:25Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
