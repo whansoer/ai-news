@@ -1,8 +1,83 @@
 {
   "date": "2026-06-04",
-  "updated": "2026-06-11T18:52:57Z",
-  "total": 43,
+  "updated": "2026-06-12T04:13:38Z",
+  "total": 46,
   "items": [
+    {
+      "id": "711e8a3bc29d",
+      "title": "Building a Semantic Search Engine and Open-Status Classifier over the ResearchMath-14k Dataset",
+      "url": "https://www.marktechpost.com/2026/06/04/building-a-semantic-search-engine-and-open-status-classifier-over-the-researchmath-14k-dataset/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "This tutorial walks through a complete NLP pipeline for research-level mathematics. Using the ResearchMath-14k dataset, we extract field-specific keywords with TF-IDF, generate sentence embeddings, visualize the problem landscape with UMAP,...",
+      "published": "2026-06-04T22:24:10Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0206b03edc26",
+      "title": "NVIDIA AI Releases Nemotron 3 Ultra: An Open 550B Mixture-of-Experts Hybrid Mamba-Transformer for Long-Running Agents",
+      "url": "https://www.marktechpost.com/2026/06/04/nvidia-ai-releases-nemotron-3-ultra-an-open-550b-mixture-of-experts-hybrid-mamba-transformer-for-long-running-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA has released Nemotron 3 Ultra, a 550B total (55B active) open Mixture-of-Experts hybrid Mamba-Transformer for long-running agents. It pairs a 1M-token context with up to ~6x higher inference throughput than comparable open LLMs at on-par...",
+      "published": "2026-06-04T21:42:28Z",
+      "tags": [
+        "Agent",
+        "Transformer"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "a08a5af8d118",
+          "5b7ecddc9b6c"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "16b629a3fac6",
+      "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-04T18:57:45Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "add6bf56e172",
       "title": "Meta Business Agent drives AI-powered conversational commerce",
