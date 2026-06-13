@@ -1,8 +1,163 @@
 {
   "date": "2026-06-06",
-  "updated": "2026-06-13T04:01:01Z",
-  "total": 15,
+  "updated": "2026-06-13T10:36:44Z",
+  "total": 21,
   "items": [
+    {
+      "id": "fc660d3bee25",
+      "title": "chopratejas /headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "published": "2026-06-06T10:11:04Z",
+      "tags": [
+        "LLM",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "published": "2026-06-06T10:11:04Z",
+      "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "84aa3d71238d",
+      "title": "NVIDIA /cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "published": "2026-06-06T10:11:04Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "eab0bce4d038",
+          "13821f306f79",
+          "a08a5af8d118"
+        ],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "68c57e7779dc",
+      "title": "PaddlePaddle /PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "published": "2026-06-06T10:11:04Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "67ffa1534268",
+      "title": "Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents",
+      "url": "https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Kimi Code CLI is Moonshot AI's open-source terminal coding agent, written in TypeScript with subagents and MCP configuration.\nThe post Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents appeared...",
+      "published": "2026-06-06T09:11:08Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a08a5af8d118",
+      "title": "NVIDIA Releases Nemotron 3.5 ASR: A 600M-Parameter Cache-Aware Streaming Model Transcribing 40 Language-Locales in Real Time",
+      "url": "https://www.marktechpost.com/2026/06/06/nvidia-releases-nemotron-3-5-asr-a-600m-parameter-cache-aware-streaming-model-transcribing-40-language-locales-in-real-time/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA released Nemotron 3.5 ASR, a cache-aware 600M streaming model transcribing 40 language-locales in real time from one checkpoint.\nThe post NVIDIA Releases Nemotron 3.5 ASR: A 600M-Parameter Cache-Aware Streaming Model Transcribing 40...",
+      "published": "2026-06-06T07:55:40Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "13821f306f79",
+          "84aa3d71238d"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "1f16d91e2c4d",
       "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",

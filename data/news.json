@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-13T04:01:01Z",
-  "total": 248,
-  "new_count": 33,
+  "updated": "2026-06-13T10:36:44Z",
+  "total": 246,
+  "new_count": 40,
   "items": [
     {
       "id": "0d1bd25a3199",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-06-13T03:58:18Z",
+      "published": "2026-06-13T10:34:09Z",
       "tags": [
         "Agent"
       ],
@@ -37,18 +37,16 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-      "published": "2026-06-13T03:58:18Z",
+      "published": "2026-06-13T10:34:09Z",
       "tags": [],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "9ced535b395b"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "apple /container",
       "summary_zh": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
@@ -62,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Collection of publicly available IPTV channels from all over the world",
-      "published": "2026-06-13T03:58:18Z",
+      "published": "2026-06-13T10:34:09Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -85,7 +83,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-06-13T03:58:18Z",
+      "published": "2026-06-13T10:34:09Z",
       "tags": [
         "Agent"
       ],
@@ -112,7 +110,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "open-source healthcare ai",
-      "published": "2026-06-13T03:58:18Z",
+      "published": "2026-06-13T10:34:09Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -135,7 +133,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
-      "published": "2026-06-13T03:58:18Z",
+      "published": "2026-06-13T10:34:09Z",
       "tags": [
         "LLM"
       ],
@@ -162,7 +160,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-      "published": "2026-06-13T03:58:18Z",
+      "published": "2026-06-13T10:34:09Z",
       "tags": [
         "Agent"
       ],
@@ -181,6 +179,114 @@
         "Agent"
       ],
       "oneliner": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, exec"
+    },
+    {
+      "id": "f5bc3210f2ea",
+      "title": "Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order",
+      "url": "https://www.marktechpost.com/2026/06/13/anthropic-disables-claude-fable-5-and-mythos-5-after-us-government-order/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "shutdown followed a US government export control directive citing national security authorities. All other Anthropic models, including Opus 4.8, remain available.\nThe post Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order...",
+      "published": "2026-06-13T08:15:18Z",
+      "tags": [
+        "Claude",
+        "Anthropic"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order",
+      "summary_zh": "shutdown followed a US government export control directive citing national security authorities. All other Anthropic models, including Opus 4.8, remain available.\nThe post Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order...",
+      "tags_zh": [
+        "Claude",
+        "Anthropic"
+      ],
+      "oneliner": "shutdown followed a US government export control directive citing national security authorities. All"
+    },
+    {
+      "id": "33cd71a9c55d",
+      "title": "Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6",
+      "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Moonshot AI has open-sourced Kimi K2.7-Code under a Modified MIT license. It is a coding-focused, agentic model built on Kimi K2.6, with a 256K context window and roughly 30% lower reasoning-token usage. Moonshot reports gains over K2.6 on six...",
+      "published": "2026-06-13T04:57:12Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6",
+      "summary_zh": "Moonshot AI has open-sourced Kimi K2.7-Code under a Modified MIT license. It is a coding-focused, agentic model built on Kimi K2.6, with a 256K context window and roughly 30% lower reasoning-token usage. Moonshot reports gains over K2.6 on six...",
+      "tags_zh": [],
+      "oneliner": "Moonshot AI has open-sourced Kimi K2.7-Code under a Modified MIT license. It is a coding-focused, ag"
+    },
+    {
+      "id": "ef7cc33c2e35",
+      "title": "A Coding Implementation on Spatial Graph Neural Networks for Urban Function Inference Using city2graph, OSMnx, and PyTorch Geometric",
+      "url": "https://www.marktechpost.com/2026/06/12/a-coding-implementation-on-spatial-graph-neural-networks-for-urban-function-inference-using-city2graph-osmnx-and-pytorch-geometric/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We build an end-to-end spatial graph learning pipeline using city2graph. We collect urban POI and street network data from OpenStreetMap, with a synthetic fallback for reliability. We engineer spatial features, construct several proximity graph...",
+      "published": "2026-06-13T02:47:16Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "7f341e344f76"
+        ],
+        "score": 5
+      },
+      "title_zh": "A Coding Implementation on Spatial Graph Neural Networks for Urban Function Inference Using city2graph, OSMnx, and PyTorch Geometric",
+      "summary_zh": "We build an end-to-end spatial graph learning pipeline using city2graph. We collect urban POI and street network data from OpenStreetMap, with a synthetic fallback for reliability. We engineer spatial features, construct several proximity graph...",
+      "tags_zh": [],
+      "oneliner": "We build an end-to-end spatial graph learning pipeline using city2graph. We collect urban POI and st"
+    },
+    {
+      "id": "2480d6ffc411",
+      "title": "Google Releases Gemini-SQL2: Gemini 3.1 Pro Text-to-SQL Scores 80.04% on BIRD Single-Model Leaderboard",
+      "url": "https://www.marktechpost.com/2026/06/12/google-releases-gemini-sql2-gemini-3-1-pro-text-to-sql-scores-80-04-on-bird-single-model-leaderboard/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We look at Gemini-SQL2, the text-to-SQL capability Google Research announced on June 12, 2026. Powered by Gemini 3.1 Pro, it posted 80.04% execution accuracy on the BIRD single-model leaderboard. We explain what the score measures, how the...",
+      "published": "2026-06-12T21:04:11Z",
+      "tags": [
+        "Gemini",
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "98c30c813d6e"
+        ],
+        "score": 5
+      },
+      "title_zh": "Google Releases Gemini-SQL2: Gemini 3.1 Pro Text-to-SQL Scores 80.04% on BIRD Single-Model Leaderboard",
+      "summary_zh": "We look at Gemini-SQL2, the text-to-SQL capability Google Research announced on June 12, 2026. Powered by Gemini 3.1 Pro, it posted 80.04% execution accuracy on the BIRD single-model leaderboard. We explain what the score measures, how the...",
+      "tags_zh": [
+        "Gemini",
+        "Google"
+      ],
+      "oneliner": "We look at Gemini-SQL2, the text-to-SQL capability Google Research announced on June 12, 2026. Power"
     },
     {
       "id": "446830a5c044",
@@ -410,9 +516,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
+        "level": "multi-source",
+        "corroborating_ids": [
+          "ef7cc33c2e35"
+        ],
+        "score": 5
       },
       "title_zh": "A Coding Implementation on MONAI for End-to-End 3D Spleen Segmentation Using UNet on Medical CT Volumes",
       "summary_zh": "In this tutorial, we build an end-to-end 3D medical image segmentation pipeline using MONAI to segment the spleen on the Medical Segmentation Decathlon Task09 dataset. We work with volumetric CT scans, apply medical imaging transformations such...",
@@ -437,10 +545,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "EDEN: A Large-Scale Corpus of Clinical Notes for Italian",
-      "summary_zh": "arXiv:2606.12569v1 Announce Type: new \nAbstract: We present EDEN (Emergency Department Electronic Notes), a new and unique large-scale corpus of clinical notes produced in Emergency Departments of Italian hospitals. The corpus, in its current...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.12569v1 Announce Type: new \nAbstract: We present EDEN (Emergency Department Electronic No"
+      "oneliner": ""
     },
     {
       "id": "53d72f986174",
@@ -460,10 +568,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Helping Figures Tell their Story! Paper-Grounded Video Generation Explaining Complex Scientific Figures",
-      "summary_zh": "arXiv:2606.12576v1 Announce Type: new \nAbstract: Scientific figures compress complex pipelines into a single canvas, yet understanding them requires paper-grounded, step-by-step narration aligned with visual highlights a capability missing from...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.12576v1 Announce Type: new \nAbstract: Scientific figures compress complex pipelines into "
+      "oneliner": ""
     },
     {
       "id": "8c72663df614",
@@ -483,10 +591,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "MARD: Mirror-Augmented Reasoning Distillation for Mechanism-Level Drug-Drug Interaction Prediction",
-      "summary_zh": "arXiv:2606.12578v1 Announce Type: new \nAbstract: Mechanism-level drug-drug interaction (DDI) prediction requires identifying which enzyme or pharmacodynamic axis is implicated, in which direction, and with which evidence -- not merely whether two...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.12578v1 Announce Type: new \nAbstract: Mechanism-level drug-drug interaction (DDI) predict"
+      "oneliner": ""
     },
     {
       "id": "56cb0bff9cd7",
@@ -508,12 +616,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Constrained Semantic Decompression in LLMs through Persian Proverb-Conditioned Story Generation",
-      "summary_zh": "arXiv:2606.12599v1 Announce Type: new \nAbstract: Transforming a dense, abstract proverb into an engaging and morally faithful narrative requires deep cultural understanding and robust semantic grounding. We frame this problem as a...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.12599v1 Announce Type: new \nAbstract: Transforming a dense, abstract proverb into an enga"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "a61d96b256f3",
@@ -700,11 +806,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "f6b90900bc49"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -2320,10 +2424,9 @@
         "level": "multi-source",
         "corroborating_ids": [
           "820a457e9e23",
-          "7fff4a7e479d",
-          "903c9accab2a"
+          "7fff4a7e479d"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -3389,11 +3492,12 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "2480d6ffc411",
           "820a457e9e23",
           "7fff4a7e479d",
           "69c7eb76fe0b"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5961,161 +6065,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fc660d3bee25",
-      "title": "chopratejas /headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "published": "2026-06-06T10:11:04Z",
-      "tags": [
-        "LLM",
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-06-06T10:11:04Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "84aa3d71238d",
-      "title": "NVIDIA /cosmos",
-      "url": "https://github.com/NVIDIA/cosmos",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-      "published": "2026-06-06T10:11:04Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "eab0bce4d038",
-          "13821f306f79",
-          "a08a5af8d118"
-        ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "68c57e7779dc",
-      "title": "PaddlePaddle /PaddleOCR",
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "published": "2026-06-06T10:11:04Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "67ffa1534268",
-      "title": "Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents",
-      "url": "https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Kimi Code CLI is Moonshot AI's open-source terminal coding agent, written in TypeScript with subagents and MCP configuration.\nThe post Moonshot AI Releases Kimi Code CLI: A Terminal AI Coding Agent Built in TypeScript for Next-Gen Agents appeared...",
-      "published": "2026-06-06T09:11:08Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a08a5af8d118",
-      "title": "NVIDIA Releases Nemotron 3.5 ASR: A 600M-Parameter Cache-Aware Streaming Model Transcribing 40 Language-Locales in Real Time",
-      "url": "https://www.marktechpost.com/2026/06/06/nvidia-releases-nemotron-3-5-asr-a-600m-parameter-cache-aware-streaming-model-transcribing-40-language-locales-in-real-time/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "NVIDIA released Nemotron 3.5 ASR, a cache-aware 600M streaming model transcribing 40 language-locales in real time from one checkpoint.\nThe post NVIDIA Releases Nemotron 3.5 ASR: A 600M-Parameter Cache-Aware Streaming Model Transcribing 40...",
-      "published": "2026-06-06T07:55:40Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "13821f306f79",
-          "84aa3d71238d"
-        ],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",

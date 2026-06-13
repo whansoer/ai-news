@@ -1,14 +1,14 @@
 {
-  "updated": "2026-06-13T04:00:52Z",
-  "total": 299,
+  "updated": "2026-06-13T10:36:35Z",
+  "total": 288,
   "sources": [
-    {
-      "name": "ArXiv (cs.AI)",
-      "count": 90
-    },
     {
       "name": "ArXiv (cs.CL)",
       "count": 76
+    },
+    {
+      "name": "ArXiv (cs.AI)",
+      "count": 75
     },
     {
       "name": "GitHub Trending",
@@ -16,11 +16,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 30
     },
     {
       "name": "Hugging Face",
-      "count": 24
+      "count": 23
     },
     {
       "name": "OpenAI",
@@ -31,22 +31,22 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 9
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 76
+      "count": 73
     },
     {
       "name": "LLM",
-      "count": 46
+      "count": 43
     },
     {
       "name": "Google",
@@ -54,19 +54,23 @@
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 12
     },
     {
       "name": "OpenAI",
       "count": 7
     },
     {
-      "name": "RAG",
+      "name": "Claude",
       "count": 6
     },
     {
-      "name": "Claude",
-      "count": 5
+      "name": "Gemini",
+      "count": 6
+    },
+    {
+      "name": "RAG",
+      "count": 6
     },
     {
       "name": "Prompt",
@@ -77,12 +81,12 @@
       "count": 5
     },
     {
-      "name": "Gemini",
-      "count": 5
-    },
-    {
       "name": "Diffusion",
       "count": 4
+    },
+    {
+      "name": "Meta",
+      "count": 3
     },
     {
       "name": "GPT",
@@ -93,7 +97,7 @@
       "count": 3
     },
     {
-      "name": "Meta",
+      "name": "Anthropic",
       "count": 2
     },
     {
@@ -106,10 +110,6 @@
     },
     {
       "name": "Transformer",
-      "count": 1
-    },
-    {
-      "name": "Anthropic",
       "count": 1
     },
     {
@@ -128,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 204
+      "count": 191
     },
     {
       "name": "开源项目",
-      "count": 56
+      "count": 55
     },
     {
       "name": "模型发布",
@@ -140,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -154,11 +154,11 @@
     },
     {
       "date": "06-12",
-      "count": 40
+      "count": 41
     },
     {
       "date": "06-13",
-      "count": 7
+      "count": 10
     },
     {
       "date": "06-16",
@@ -217,22 +217,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "446830a5c044",
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "id": "f5bc3210f2ea",
+      "title": "Anthropic Disables Claude Fable 5 and Mythos 5 After US Government Order",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "MarkTechPost"
     },
     {
-      "id": "f6c89e3e9a5c",
-      "title": "Coinbase for Agents: Automating portfolio trading with AI",
+      "id": "33cd71a9c55d",
+      "title": "Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6",
       "score": 5,
-      "source": "AI News"
+      "source": "MarkTechPost"
     },
     {
-      "id": "eab0bce4d038",
-      "title": "NVIDIA /SkillSpector",
+      "id": "ef7cc33c2e35",
+      "title": "A Coding Implementation on Spatial Graph Neural Networks for Urban Function Inference Using city2graph, OSMnx, and PyTorch Geometric",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     }
   ]
 }
