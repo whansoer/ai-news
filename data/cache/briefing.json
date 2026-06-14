@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-14T04:19:37Z",
-  "count": 86,
+  "updated": "2026-06-14T10:54:29Z",
+  "count": 87,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -5506,6 +5506,70 @@
         }
       },
       "_ts": 1781410777
+    },
+    "a6575a16b7a1320c": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录285篇AI新闻，分类分布：学术研究190篇, 开源项目53篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（73篇）。其中12%的文章有多来源交叉验证。\n\n▸ iptv-org /iptv：Collection of publicly available IPTV channels from all over the world\n\n▸ chatwoot /chatwoot：Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesf\n\n▸ NVIDIA /SkillSpector：Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks\n\n▸ GorvGoyl /Clone-Wars：100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, W\n\n▸ Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi：Databricks has open-sourced Omnigent, a meta-harness that sits above coding agents like Claude Code,",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "NVIDIA/SkillSpector",
+            "url": "https://github.com/NVIDIA/SkillSpector",
+            "why_hot": "单日804星，Python项目",
+            "stars_today": 804,
+            "total_stars": 4782
+          },
+          {
+            "full_name": "openai/plugins",
+            "url": "https://github.com/openai/plugins",
+            "why_hot": "单日0星，JavaScript项目",
+            "stars_today": 0,
+            "total_stars": 2994
+          },
+          {
+            "full_name": "chopratejas/headroom",
+            "url": "https://github.com/chopratejas/headroom",
+            "why_hot": "单日0星，Python项目",
+            "stars_today": 0,
+            "total_stars": 26858
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "285"
+          },
+          {
+            "label": "多源验证率",
+            "value": "12%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+1334"
+          }
+        ],
+        "must_read_ids": [
+          "b11d32bac271",
+          "81f110db7624",
+          "eab0bce4d038",
+          "1007a733b399",
+          "98b713fc11fc"
+        ],
+        "text": "今日共收录285篇AI新闻，分类分布：学术研究190篇, 开源项目53篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（73篇）。其中12%的文章有多来源交叉验证。",
+        "top_items": [
+          "iptv-org /iptv",
+          "chatwoot /chatwoot",
+          "NVIDIA /SkillSpector",
+          "GorvGoyl /Clone-Wars",
+          "Databricks Open-Sources Omnigent: A Meta"
+        ],
+        "meta": {
+          "total_articles": 285,
+          "multi_source_pct": 12
+        }
+      },
+      "_ts": 1781434469
     }
   }
 }
