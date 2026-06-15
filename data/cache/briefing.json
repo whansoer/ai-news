@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-15T04:23:21Z",
-  "count": 89,
+  "updated": "2026-06-15T04:30:17Z",
+  "count": 90,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -5698,6 +5698,70 @@
         }
       },
       "_ts": 1781497401
+    },
+    "7ca86d5c5ba4385e": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录269篇AI新闻，分类分布：学术研究186篇, 开源项目44篇, 模型发布30篇, 产品/API9篇。热门标签：Agent（69篇）。其中11%的文章有多来源交叉验证。\n\n▸ iptv-org /iptv：Collection of publicly available IPTV channels from all over the world\n\n▸ chatwoot /chatwoot：Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesf\n\n▸ NVIDIA /SkillSpector：Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks\n\n▸ GorvGoyl /Clone-Wars：100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, W\n\n▸ A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem：arXiv:2606.13682v1 Announce Type: new \nAbstract: The open shop scheduling problem (OSSP) arises in m",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "NVIDIA/SkillSpector",
+            "url": "https://github.com/NVIDIA/SkillSpector",
+            "why_hot": "单日964星，Python项目",
+            "stars_today": 964,
+            "total_stars": 5520
+          },
+          {
+            "full_name": "openai/plugins",
+            "url": "https://github.com/openai/plugins",
+            "why_hot": "单日0星，JavaScript项目",
+            "stars_today": 0,
+            "total_stars": 3047
+          },
+          {
+            "full_name": "iptv-org/iptv",
+            "url": "https://github.com/iptv-org/iptv",
+            "why_hot": "单日1528星，TypeScript项目",
+            "stars_today": 1528,
+            "total_stars": 121408
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "269"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+2492"
+          }
+        ],
+        "must_read_ids": [
+          "b11d32bac271",
+          "81f110db7624",
+          "eab0bce4d038",
+          "1007a733b399",
+          "e5bfd826a774"
+        ],
+        "text": "今日共收录269篇AI新闻，分类分布：学术研究186篇, 开源项目44篇, 模型发布30篇, 产品/API9篇。热门标签：Agent（69篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "iptv-org /iptv",
+          "chatwoot /chatwoot",
+          "NVIDIA /SkillSpector",
+          "GorvGoyl /Clone-Wars",
+          "A Deep Reinforcement Learning (DRL)-Base"
+        ],
+        "meta": {
+          "total_articles": 269,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1781497817
     }
   }
 }
