@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-15T04:30:07Z",
-  "total": 269,
+  "updated": "2026-06-15T14:35:42Z",
+  "total": 279,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -11,12 +11,12 @@
       "count": 75
     },
     {
-      "name": "GitHub Trending",
-      "count": 25
+      "name": "MarkTechPost",
+      "count": 29
     },
     {
-      "name": "MarkTechPost",
-      "count": 25
+      "name": "GitHub Trending",
+      "count": 28
     },
     {
       "name": "Hugging Face",
@@ -31,33 +31,37 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 9
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 69
+      "count": 71
     },
     {
       "name": "LLM",
       "count": 41
     },
     {
+      "name": "Benchmark",
+      "count": 13
+    },
+    {
       "name": "Google",
       "count": 13
     },
     {
-      "name": "Benchmark",
-      "count": 11
+      "name": "RAG",
+      "count": 7
     },
     {
-      "name": "RAG",
+      "name": "Claude",
       "count": 7
     },
     {
@@ -65,12 +69,20 @@
       "count": 6
     },
     {
-      "name": "Claude",
+      "name": "Gemini",
       "count": 6
     },
     {
-      "name": "Gemini",
-      "count": 6
+      "name": "GPU",
+      "count": 4
+    },
+    {
+      "name": "API",
+      "count": 3
+    },
+    {
+      "name": "Anthropic",
+      "count": 3
     },
     {
       "name": "Embedding",
@@ -81,15 +93,7 @@
       "count": 3
     },
     {
-      "name": "API",
-      "count": 3
-    },
-    {
       "name": "Prompt",
-      "count": 3
-    },
-    {
-      "name": "GPU",
       "count": 3
     },
     {
@@ -98,10 +102,6 @@
     },
     {
       "name": "Transformer",
-      "count": 2
-    },
-    {
-      "name": "Anthropic",
       "count": 2
     },
     {
@@ -128,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 186
+      "count": 190
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -140,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -154,11 +154,11 @@
     },
     {
       "date": "06-14",
-      "count": 8
+      "count": 9
     },
     {
       "date": "06-15",
-      "count": 34
+      "count": 44
     },
     {
       "date": "06-16",
@@ -181,58 +181,58 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "184d5a9bd483",
+      "title": "teslamate-org /teslamate",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "81fb0b6406ba",
+      "title": "Panniantong /Agent-Reach",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "81f110db7624",
       "title": "chatwoot /chatwoot",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "eab0bce4d038",
-      "title": "NVIDIA /SkillSpector",
+      "id": "d44331a1971d",
+      "title": "trycua /cua",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "1007a733b399",
-      "title": "GorvGoyl /Clone-Wars",
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "e5bfd826a774",
-      "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
+      "id": "5a2335181185",
+      "title": "HarmonyOS 7 steps into the AI gap Apple left open in China",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "AI News"
     },
     {
-      "id": "a4ce144e1e12",
-      "title": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented Dialogue Systems",
+      "id": "043bcd852ff9",
+      "title": "Accenture: Consumers show growing trust in AI shopping agents",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "AI News"
     },
     {
-      "id": "04fc868be50f",
-      "title": "History of the Muddy Children Puzzle",
+      "id": "694d102b5401",
+      "title": "Meet Flash-KMeans: An IO-Aware, Exact K-Means That Runs Over 200× Faster Than FAISS on GPUs",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "MarkTechPost"
     },
     {
-      "id": "15696521ad26",
-      "title": "Orchestra-o1: Omnimodal Agent Orchestration",
+      "id": "6e70753003b0",
+      "title": "The AI off switch: How Anthropic’s export controls sparked a global AI sovereignty scramble",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "4189ca72bf9c",
-      "title": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "ed8e751ea740",
-      "title": "WorkBench Revisited: Workplace Agents Two Years On",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "AI News"
     }
   ]
 }
