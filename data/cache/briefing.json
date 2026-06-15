@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-15T14:35:52Z",
-  "count": 91,
+  "updated": "2026-06-15T19:54:35Z",
+  "count": 92,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -5826,6 +5826,70 @@
         }
       },
       "_ts": 1781534152
+    },
+    "d08550d1f2f952e1": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录274篇AI新闻，分类分布：学术研究188篇, 开源项目46篇, 模型发布30篇, 产品/API10篇。热门标签：Agent（69篇）。其中11%的文章有多来源交叉验证。\n\n▸ iptv-org /iptv：Collection of publicly available IPTV channels from all over the world\n\n▸ teslamate-org /teslamate：A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]\n\n▸ Panniantong /Agent-Reach：Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, \n\n▸ chatwoot /chatwoot：Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesf\n\n▸ trycua /cua：Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and eva",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "NVIDIA/SkillSpector",
+            "url": "https://github.com/NVIDIA/SkillSpector",
+            "why_hot": "单日1079星，Python项目",
+            "stars_today": 1079,
+            "total_stars": 6203
+          },
+          {
+            "full_name": "Panniantong/Agent-Reach",
+            "url": "https://github.com/Panniantong/Agent-Reach",
+            "why_hot": "单日1045星，Python项目",
+            "stars_today": 1045,
+            "total_stars": 29926
+          },
+          {
+            "full_name": "chatwoot/chatwoot",
+            "url": "https://github.com/chatwoot/chatwoot",
+            "why_hot": "单日431星，Ruby项目",
+            "stars_today": 431,
+            "total_stars": 31599
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "274"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+5205"
+          }
+        ],
+        "must_read_ids": [
+          "b11d32bac271",
+          "184d5a9bd483",
+          "81fb0b6406ba",
+          "81f110db7624",
+          "d44331a1971d"
+        ],
+        "text": "今日共收录274篇AI新闻，分类分布：学术研究188篇, 开源项目46篇, 模型发布30篇, 产品/API10篇。热门标签：Agent（69篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "iptv-org /iptv",
+          "teslamate-org /teslamate",
+          "Panniantong /Agent-Reach",
+          "chatwoot /chatwoot",
+          "trycua /cua"
+        ],
+        "meta": {
+          "total_articles": 274,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1781553275
     }
   }
 }
