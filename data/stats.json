@@ -1,14 +1,14 @@
 {
-  "updated": "2026-06-14T17:27:19Z",
-  "total": 275,
+  "updated": "2026-06-15T04:23:12Z",
+  "total": 305,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 76
+      "count": 91
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "GitHub Trending",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 25
     },
     {
       "name": "Hugging Face",
@@ -24,7 +24,7 @@
     },
     {
       "name": "OpenAI",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Google AI",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 68
+      "count": 76
     },
     {
       "name": "LLM",
-      "count": 40
+      "count": 48
     },
     {
       "name": "Google",
@@ -54,7 +54,11 @@
     },
     {
       "name": "Benchmark",
-      "count": 11
+      "count": 12
+    },
+    {
+      "name": "RAG",
+      "count": 7
     },
     {
       "name": "OpenAI",
@@ -70,11 +74,7 @@
     },
     {
       "name": "Prompt",
-      "count": 5
-    },
-    {
-      "name": "RAG",
-      "count": 5
+      "count": 4
     },
     {
       "name": "GPU",
@@ -83,6 +83,10 @@
     {
       "name": "Diffusion",
       "count": 4
+    },
+    {
+      "name": "Embedding",
+      "count": 3
     },
     {
       "name": "Meta",
@@ -95,6 +99,10 @@
     {
       "name": "DeepSeek",
       "count": 3
+    },
+    {
+      "name": "Transformer",
+      "count": 2
     },
     {
       "name": "Anthropic",
@@ -113,15 +121,7 @@
       "count": 1
     },
     {
-      "name": "Transformer",
-      "count": 1
-    },
-    {
       "name": "Fine-tune",
-      "count": 1
-    },
-    {
-      "name": "Embedding",
       "count": 1
     },
     {
@@ -132,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 187
+      "count": 216
     },
     {
       "name": "开源项目",
@@ -140,7 +140,7 @@
     },
     {
       "name": "模型发布",
-      "count": 30
+      "count": 31
     },
     {
       "name": "产品/API",
@@ -148,10 +148,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "06-11",
-      "count": 44
-    },
     {
       "date": "06-12",
       "count": 40
@@ -162,7 +158,11 @@
     },
     {
       "date": "06-14",
-      "count": 11
+      "count": 8
+    },
+    {
+      "date": "06-15",
+      "count": 34
     },
     {
       "date": "06-16",
@@ -203,40 +203,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "98b713fc11fc",
-      "title": "Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi",
+      "id": "e5bfd826a774",
+      "title": "A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "0d1bd25a3199",
-      "title": "addyosmani /agent-skills",
+      "id": "a4ce144e1e12",
+      "title": "UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented Dialogue Systems",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
+      "id": "04fc868be50f",
+      "title": "History of the Muddy Children Puzzle",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "f6b90900bc49",
-      "title": "apple /container",
+      "id": "15696521ad26",
+      "title": "Orchestra-o1: Omnimodal Agent Orchestration",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "747c4e1c922c",
-      "title": "kenn-io /agentsview",
+      "id": "4189ca72bf9c",
+      "title": "Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "5c551e97a9eb",
-      "title": "LMCache /LMCache",
+      "id": "ed8e751ea740",
+      "title": "WorkBench Revisited: Workplace Agents Two Years On",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.AI)"
     }
   ]
 }
