@@ -1,8 +1,210 @@
 {
   "date": "2026-06-09",
-  "updated": "2026-06-16T04:26:25Z",
-  "total": 37,
+  "updated": "2026-06-16T13:02:12Z",
+  "total": 45,
   "items": [
+    {
+      "id": "de0a2342d5aa",
+      "title": "How engineers at Nextdoor use Codex to build without limits",
+      "url": "https://openai.com/index/nextdoor",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
+      "published": "2026-06-09T12:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6d8d3867b1f2",
+      "title": "Multimedia Building Blocks",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-09T10:46:19Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6d8d3867b1f2",
+          "6d8d3867b1f2",
+          "eb3e2d9f4685",
+          "eb3e2d9f4685"
+        ],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6d8d3867b1f2",
+      "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "url": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-09T10:46:19Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6d8d3867b1f2",
+          "6d8d3867b1f2",
+          "eb3e2d9f4685",
+          "eb3e2d9f4685"
+        ],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fbb449340331",
+      "title": "What Codex unlocks for Notion",
+      "url": "https://openai.com/index/notion",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
+      "published": "2026-06-09T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "17cd68da6c86",
+      "title": "How to sign PDFs easily online with a PDF signer",
+      "url": "https://www.artificialintelligence-news.com/news/how-to-sign-pdfs-easily-online-with-a-pdf-signer/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Signing PDFs has become an important task for businesses and individuals alike. Whether you&#8217;re handling contracts, legal agreements, or forms, the ability to quickly and securely sign PDFs online is essential. Fortunately, with the rise of...",
+      "published": "2026-06-09T09:01:51Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ead7191c3456",
+      "title": "Autonomous AI Data Loss in DevOps: Building Efficient Defenses",
+      "url": "https://www.artificialintelligence-news.com/news/autonomous-ai-data-loss-in-devops/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Autonomous AI agents are altering the speed at which software is shipped. Unfortunately, they are also shrinking the time it takes for a mistake to become a catastrophe, creating a dangerous blind spot in many security strategies. The threat no...",
+      "published": "2026-06-09T08:50:39Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "08f656013b6d",
+      "title": "NVIDIA cuTile Python Tutorial: Building Tiled GPU Kernels for Vector Addition, Matrix Addition, and Matrix Multiplication in Colab",
+      "url": "https://www.marktechpost.com/2026/06/09/nvidia-cutile-python-tutorial-building-tiled-gpu-kernels-for-vector-addition-matrix-addition-and-matrix-multiplication-in-colab/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we implement a hands-on workflow for NVIDIA cuTile Python, a tile-based GPU programming interface for CUDA-style kernels in Python. We prepare a Colab-friendly environment and check GPU, driver, CUDA, and cuTile availability...",
+      "published": "2026-06-09T08:37:48Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "eb01d8347eff"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "1f9dc1c40caa",
+      "title": "A New Study from Harvard and Perplexity Finds AI Agents Perform 26 Minutes of Autonomous Work per Session vs 33 Seconds for Search",
+      "url": "https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "A new Harvard and Perplexity paper uses matched-pair sessions to compare an autonomous agent with a search assistant. It finds large gains in autonomy, time, and cost, plus broader scope of work attempted.\nThe post A New Study from Harvard and...",
+      "published": "2026-06-09T05:53:36Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "ca4b74533de1",
       "title": "Bidirectional Small-Granularity Search between Code and Text",
