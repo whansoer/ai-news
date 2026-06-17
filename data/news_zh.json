@@ -1,7 +1,145 @@
 {
-  "updated": "2026-06-17T04:21:19Z",
+  "updated": "2026-06-17T12:24:28Z",
   "total": 20,
   "items": [
+    {
+      "id": "bcb2a34cb3ad",
+      "title_zh": "DeusData /codebase-memory-mcp",
+      "summary_zh": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "81fb0b6406ba",
+      "title_zh": "Panniantong /Agent-Reach",
+      "summary_zh": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "tags_zh": [
+        "Agent",
+        "API"
+      ],
+      "oneliner": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c3257d531a3c",
+      "title_zh": "obra /superpowers",
+      "summary_zh": "An agentic skills framework & software development methodology that works.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "An agentic skills framework & software development methodology that works.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "17a133fee8f3",
+      "title_zh": "google-research /timesfm",
+      "summary_zh": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Goo",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a0131fdee43a",
+      "title_zh": "continuedev /continue",
+      "summary_zh": "open-source coding agent",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "open-source coding agent",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f159d0a58e6d",
+      "title_zh": "Google Cloud generative AI automates council planning operations",
+      "summary_zh": "Government ministries are deploying Google Cloud generative AI across municipal agencies to automate council planning operations. Public sector administration handles vast volumes of unstructured data that delay infrastructure development. The UK...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Government ministries are deploying Google Cloud generative AI across municipal agencies to automate",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f8bb7a9443cc",
+      "title_zh": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "summary_zh": "",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d36e8bce9456",
+      "title_zh": "GLM-5.2: Built for Long-Horizon Tasks",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "08e07e54f911",
+      "title_zh": "MiniMax Sparse Attention (MSA): a Two-Branch Block-Sparse Attention Trained on a 109B-Parameter MoE With a 3T-Token Budget",
+      "summary_zh": "MiniMax released MSA, a sparse attention built on Grouped Query Attention. A lightweight Index Branch selects Top-k key-value blocks per query and GQA group; the Main Branch attends only to those blocks. It matches GQA on downstream benchmarks...",
+      "tags_zh": [],
+      "oneliner": "MiniMax released MSA, a sparse attention built on Grouped Query Attention. A lightweight Index Branc",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a09f37d2d3dd",
+      "title_zh": "OpenAI’s Deployment Simulation Extends Pre-Deployment Risk Assessment to Agentic Coding Through Simulated Tool Calls",
+      "summary_zh": "OpenAI introduced Deployment Simulation on June 16, 2026. The method replays past conversations through a new candidate model before release. It then grades the completions to estimate deployment-time rates of undesired behavior. We break down...",
+      "tags_zh": [
+        "OpenAI",
+        "Agent"
+      ],
+      "oneliner": "OpenAI introduced Deployment Simulation on June 16, 2026. The method replays past conversations thro",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "184d5a9bd483",
       "title_zh": "teslamate-org /teslamate",
@@ -126,141 +264,6 @@
         "Benchmark"
       ],
       "oneliner": "arXiv:2606.17339v1 Announce Type: new \nAbstract: Speech offers a uniquely informative window into he",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d416a6076cb0",
-      "title_zh": "Distributed General-Purpose Agent Networks: Architecture, Key Mechanisms, and Prototypes",
-      "summary_zh": "arXiv:2606.17368v1 Announce Type: new \nAbstract: Large language models have accelerated the transition from passive conversational assistants to autonomous agents that can understand goals, plan actions, invoke tools, and execute multi-step...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.17368v1 Announce Type: new \nAbstract: Large language models have accelerated the transiti",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5ac8d01ee934",
-      "title_zh": "Treatment Response Optimized Clinical Decision Support AI System via Digital Twin Simulation",
-      "summary_zh": "arXiv:2606.17405v1 Announce Type: new \nAbstract: Clinical decision support AI systems (CDSASs) must adapt to evolving patient conditions in real-time while adhering to strict safety constraints. We present an online adaptive framework that...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.17405v1 Announce Type: new \nAbstract: Clinical decision support AI systems (CDSASs) must ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "dc25c0d76276",
-      "title_zh": "Incumbent Advantage: Brand Bias and Cognitive Manipulation Dynamics in LLM Recommendation Systems",
-      "summary_zh": "arXiv:2606.17443v1 Announce Type: new \nAbstract: Large language models (LLMs) are becoming a major way for consumers to find products, but we do not yet understand how brands compete in this new channel. We study brand dynamics in LLM...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.17443v1 Announce Type: new \nAbstract: Large language models (LLMs) are becoming a major w",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c18cb9f4c4c3",
-      "title_zh": "A Machine-Learned Comorbidity Index",
-      "summary_zh": "arXiv:2606.17450v1 Announce Type: new \nAbstract: Traditional comorbidity scores (e.g., Charlson and Elixhauser) are widely used for risk adjustment and patient stratification, but they have two key limitations: (i) they are largely...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.17450v1 Announce Type: new \nAbstract: Traditional comorbidity scores (e.g., Charlson and ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "34bfc26b5218",
-      "title_zh": "MapSatisfyBench: Benchmarking Satisfaction-Aware Map Agents through Behavior-Grounded Implicit Decision Factors",
-      "summary_zh": "arXiv:2606.17453v1 Announce Type: new \nAbstract: Large language model agents are increasingly integrated into map services. Since map services are embedded in everyday-life scenarios rather than professional task settings, users often express...",
-      "tags_zh": [
-        "Agent",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.17453v1 Announce Type: new \nAbstract: Large language model agents are increasingly integr",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "11a53830832c",
-      "title_zh": "Dissecting model behavior through agent trajectories",
-      "summary_zh": "arXiv:2606.17454v1 Announce Type: new \nAbstract: AI agent performance is not just a modeling problem, it is fundamentally a systems problem. The advanced capabilities of models are realized through agent harnesses. Therefore, a gap between model...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.17454v1 Announce Type: new \nAbstract: AI agent performance is not just a modeling problem",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4605f40d0e45",
-      "title_zh": "Can LLMs Be CEOs? Benchmarking Strategic Resource Reallocation with Multi-Role Agent Simulation",
-      "summary_zh": "arXiv:2606.17459v1 Announce Type: new \nAbstract: Evaluating the decision-making capabilities of large language models (LLMs) is a growing research priority, yet existing benchmarks focus on isolated cognitive tasks such as reasoning, knowledge...",
-      "tags_zh": [
-        "LLM",
-        "Agent",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.17459v1 Announce Type: new \nAbstract: Evaluating the decision-making capabilities of larg",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "750eb34d8e10",
-      "title_zh": "PhoneHarness: Harnessing Phone-Use Agents through Mixed GUI, CLI, and Tool Actions",
-      "summary_zh": "arXiv:2606.14832v1 Announce Type: new \nAbstract: Phone agents are increasingly expected to complete real mobile workflows rather than merely predict the next screen action. However, much of the current mobile-agent literature still evaluates...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.14832v1 Announce Type: new \nAbstract: Phone agents are increasingly expected to complete ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "8a4ed92a8355",
-      "title_zh": "Evaluating the Robustness of Proof Autoformalization in Lean 4",
-      "summary_zh": "arXiv:2606.14867v1 Announce Type: new \nAbstract: Proof autoformalization aims to translate a mathematical informal proof written in natural language into a formal proof in a formal language such as Lean~4. Several works have developed LLM-based...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.14867v1 Announce Type: new \nAbstract: Proof autoformalization aims to translate a mathema",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6400e4d3eba8",
-      "title_zh": "Context Compression Is Not One Thing: Readable Symbolic Re-expression vs. Coherent Summary at Matched Budget",
-      "summary_zh": "arXiv:2606.14875v1 Announce Type: new \nAbstract: We study context compression for multi-hop question answering with small language models. We propose Telegraph English, a readable symbolic format that rewrites retrieved passages into structured...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.14875v1 Announce Type: new \nAbstract: We study context compression for multi-hop question",
       "key_facts": [],
       "notable_quote": {
         "text": "",
