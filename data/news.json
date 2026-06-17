@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-17T12:24:28Z",
-  "total": 212,
-  "new_count": 47,
+  "updated": "2026-06-17T18:32:11Z",
+  "total": 217,
+  "new_count": 43,
   "items": [
     {
       "id": "bcb2a34cb3ad",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "published": "2026-06-17T12:21:43Z",
+      "published": "2026-06-17T18:29:29Z",
       "tags": [
         "RAG"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "published": "2026-06-17T12:21:43Z",
+      "published": "2026-06-17T18:29:29Z",
       "tags": [
         "Agent",
         "API"
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-06-17T12:21:43Z",
+      "published": "2026-06-17T18:29:29Z",
       "tags": [
         "Agent"
       ],
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-06-17T12:21:43Z",
+      "published": "2026-06-17T18:29:29Z",
       "tags": [
         "Google"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "open-source coding agent",
-      "published": "2026-06-17T12:21:43Z",
+      "published": "2026-06-17T18:29:29Z",
       "tags": [
         "Agent"
       ],
@@ -141,6 +141,79 @@
         "Agent"
       ],
       "oneliner": "open-source coding agent"
+    },
+    {
+      "id": "eb4a69122c5e",
+      "title": "Vercel Releases Eve: An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabilities",
+      "url": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Vercel has open-sourced eve, an Apache-2.0 agent framework now in public preview. An agent is a directory of files, with durable execution, sandboxes, approvals, connections, channels, and evals built in. Scaffold with npx eve@latest init and...",
+      "published": "2026-06-17T17:22:51Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Vercel Releases Eve: An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabilities",
+      "summary_zh": "Vercel has open-sourced eve, an Apache-2.0 agent framework now in public preview. An agent is a directory of files, with durable execution, sandboxes, approvals, connections, channels, and evals built in. Scaffold with npx eve@latest init and...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Vercel has open-sourced eve, an Apache-2.0 agent framework now in public preview. An agent is a dire"
+    },
+    {
+      "id": "4630c466154f",
+      "title": "MolmoMotion: Language-guided 3D motion forecasting",
+      "url": "https://huggingface.co/blog/allenai/molmomotion",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-17T15:26:44Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "MolmoMotion: Language-guided 3D motion forecasting",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0af1478cb097",
+      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "published": "2026-06-17T15:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "summary_zh": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+      "tags_zh": [],
+      "oneliner": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex d"
     },
     {
       "id": "f159d0a58e6d",
@@ -197,6 +270,29 @@
         "Agent"
       ],
       "oneliner": ""
+    },
+    {
+      "id": "80c1a32658b0",
+      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "url": "https://openai.com/index/ai-chemist-improves-reaction",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "published": "2026-06-17T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
+      "summary_zh": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
+      "tags_zh": [],
+      "oneliner": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-maki"
     },
     {
       "id": "d36e8bce9456",
@@ -445,10 +541,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Nothing from Something: Can a Language Model Discover 0?",
-      "summary_zh": "arXiv:2606.17289v1 Announce Type: new \nAbstract: AI systems based on artificial neural networks are being developed with aspirations of pushing the boundary of human mathematical knowledge. A key question for these systems is how much they can...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.17289v1 Announce Type: new \nAbstract: AI systems based on artificial neural networks are "
+      "oneliner": ""
     },
     {
       "id": "9f0eeaf0ca85",
@@ -470,12 +566,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Quantifying Consistency in LLM Logical Reasoning via Structural Uncertainty",
-      "summary_zh": "arXiv:2606.17312v1 Announce Type: new \nAbstract: Large language models can arrive at the same answer through reasoning paths that are unstable, contradictory, or difficult to rank consistently -- a failure mode especially prevalent in multi-step...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.17312v1 Announce Type: new \nAbstract: Large language models can arrive at the same answer"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "60e8e314cfb8",
@@ -495,10 +589,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "MemTrace: Probing What Final Accuracy Misses in Long-Term Memory",
-      "summary_zh": "arXiv:2606.17328v1 Announce Type: new \nAbstract: LLM agents increasingly maintain long-term memory of user facts across sessions. Yet such memory is usually evaluated by aggregating accuracy over question rows or episodes. Because this approach...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.17328v1 Announce Type: new \nAbstract: LLM agents increasingly maintain long-term memory o"
+      "oneliner": ""
     },
     {
       "id": "082db82cb6eb",
@@ -520,12 +614,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "SpeechDx: A Multi-Task Benchmark for Clinical Speech AI",
-      "summary_zh": "arXiv:2606.17339v1 Announce Type: new \nAbstract: Speech offers a uniquely informative window into health by simultaneously engaging neurological, motor, respiratory, and vocal systems. Current clinical speech AI methods have largely progressed...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.17339v1 Announce Type: new \nAbstract: Speech offers a uniquely informative window into he"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d416a6076cb0",
@@ -1076,6 +1168,31 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "4dd2073282fe",
+      "title": "Agentic Resource Discovery: Let agents search",
+      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-17T00:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5212,10 +5329,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "820a457e9e23",
-          "7fff4a7e479d"
+          "820a457e9e23"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
