@@ -1,18 +1,18 @@
 {
-  "updated": "2026-06-17T18:32:01Z",
-  "total": 255,
+  "updated": "2026-06-18T04:13:24Z",
+  "total": 272,
   "sources": [
+    {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 60
-    },
-    {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "GitHub Trending",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 73
+      "count": 76
     },
     {
       "name": "LLM",
-      "count": 29
+      "count": 30
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 16
     },
     {
       "name": "Google",
@@ -58,11 +58,11 @@
     },
     {
       "name": "RAG",
-      "count": 8
+      "count": 10
     },
     {
       "name": "OpenAI",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Claude",
@@ -71,6 +71,14 @@
     {
       "name": "Transformer",
       "count": 4
+    },
+    {
+      "name": "Embedding",
+      "count": 3
+    },
+    {
+      "name": "Meta",
+      "count": 3
     },
     {
       "name": "GPT",
@@ -105,14 +113,6 @@
       "count": 2
     },
     {
-      "name": "Embedding",
-      "count": 2
-    },
-    {
-      "name": "Meta",
-      "count": 2
-    },
-    {
       "name": "Diffusion",
       "count": 2
     },
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 174
+      "count": 191
     },
     {
       "name": "开源项目",
@@ -141,10 +141,6 @@
   ],
   "dailyTrend": [
     {
-      "date": "06-13",
-      "count": 6
-    },
-    {
       "date": "06-14",
       "count": 8
     },
@@ -158,7 +154,11 @@
     },
     {
       "date": "06-17",
-      "count": 48
+      "count": 29
+    },
+    {
+      "date": "06-18",
+      "count": 37
     },
     {
       "date": "06-24",
@@ -201,34 +201,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "eb4a69122c5e",
-      "title": "Vercel Releases Eve: An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabilities",
+      "id": "7b03472c008c",
+      "title": "Continuous Audio Thinking for Large Audio Language Models",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "4630c466154f",
-      "title": "MolmoMotion: Language-guided 3D motion forecasting",
+      "id": "b83561d34d39",
+      "title": "Redact or Keep? A Fully Local AI Cascade for Educational Dialogue De-Identification",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "0af1478cb097",
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+      "id": "5fa09ac7b7a2",
+      "title": "SproutRAG: Attention-Guided Tree Search with Progressive Embeddings for Long-Document RAG",
       "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "f159d0a58e6d",
-      "title": "Google Cloud generative AI automates council planning operations",
+      "id": "5dc602912710",
+      "title": "Want Better Synthetic Data? Steer It: Activation Steering for Low-Resource Language Generation",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "f8bb7a9443cc",
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "id": "6a6d263d6bb6",
+      "title": "JetFlow: Breaking the Scaling Ceiling of Speculative Decoding with Parallel Tree Drafting",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
