@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-18T11:56:58Z",
-  "count": 100,
+  "updated": "2026-06-18T18:31:47Z",
+  "count": 101,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -6402,6 +6402,70 @@
         }
       },
       "_ts": 1781783818
+    },
+    "86804a3b9d66a2d5": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录240篇AI新闻，分类分布：学术研究158篇, 开源项目40篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（65篇）。其中10%的文章有多来源交叉验证。\n\n▸ google-research /timesfm：TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Goo\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.\n\n▸ zai-org /GLM-5：GLM-5: From Vibe Coding to Agentic Engineering\n\n▸ DeusData /codebase-memory-mcp：High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —\n\n▸ withastro /flue：The sandbox agent framework.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "DeusData/codebase-memory-mcp",
+            "url": "https://github.com/DeusData/codebase-memory-mcp",
+            "why_hot": "单日2308星，C项目",
+            "stars_today": 2308,
+            "total_stars": 6809
+          },
+          {
+            "full_name": "kenn-io/agentsview",
+            "url": "https://github.com/kenn-io/agentsview",
+            "why_hot": "单日0星，Go项目",
+            "stars_today": 0,
+            "total_stars": 2845
+          },
+          {
+            "full_name": "Kilo-Org/kilocode",
+            "url": "https://github.com/Kilo-Org/kilocode",
+            "why_hot": "单日1339星，TypeScript项目",
+            "stars_today": 1339,
+            "total_stars": 21875
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "240"
+          },
+          {
+            "label": "多源验证率",
+            "value": "10%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+6226"
+          }
+        ],
+        "must_read_ids": [
+          "17a133fee8f3",
+          "c3257d531a3c",
+          "8f02859c1a63",
+          "bcb2a34cb3ad",
+          "71103c9d6fa8"
+        ],
+        "text": "今日共收录240篇AI新闻，分类分布：学术研究158篇, 开源项目40篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（65篇）。其中10%的文章有多来源交叉验证。",
+        "top_items": [
+          "google-research /timesfm",
+          "obra /superpowers",
+          "zai-org /GLM-5",
+          "DeusData /codebase-memory-mcp",
+          "withastro /flue"
+        ],
+        "meta": {
+          "total_articles": 240,
+          "multi_source_pct": 10
+        }
+      },
+      "_ts": 1781807507
     }
   }
 }

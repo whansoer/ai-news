@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-18T11:56:58Z",
-  "total": 194,
-  "new_count": 34,
+  "updated": "2026-06-18T18:31:47Z",
+  "total": 203,
+  "new_count": 46,
   "items": [
     {
       "id": "17a133fee8f3",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-06-18T11:54:17Z",
+      "published": "2026-06-18T18:28:59Z",
       "tags": [
         "Google"
       ],
@@ -19,9 +19,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "5202b2cad0ef"
+        ],
+        "score": 5
       },
       "title_zh": "google-research /timesfm",
       "summary_zh": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
@@ -37,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-06-18T11:54:17Z",
+      "published": "2026-06-18T18:28:59Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "GLM-5: From Vibe Coding to Agentic Engineering",
-      "published": "2026-06-18T11:54:17Z",
+      "published": "2026-06-18T18:28:59Z",
       "tags": [
         "Agent"
       ],
@@ -91,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "published": "2026-06-18T11:54:17Z",
+      "published": "2026-06-18T18:28:59Z",
       "tags": [
         "RAG"
       ],
@@ -118,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The sandbox agent framework.",
-      "published": "2026-06-18T11:54:17Z",
+      "published": "2026-06-18T18:28:59Z",
       "tags": [
         "Agent"
       ],
@@ -145,7 +147,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
-      "published": "2026-06-18T11:54:17Z",
+      "published": "2026-06-18T18:28:59Z",
       "tags": [
         "Agent"
       ],
@@ -164,6 +166,192 @@
         "Agent"
       ],
       "oneliner": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most p"
+    },
+    {
+      "id": "63333d90a8a4",
+      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-18T18:13:13Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "MosaicLeaks: Can your research agent keep a secret?",
+      "summary_zh": "",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": ""
+    },
+    {
+      "id": "32d55aeeaa5f",
+      "title": "Computer vision deployments drive retail productivity gains",
+      "url": "https://www.artificialintelligence-news.com/news/computer-vision-deployments-drive-retail-productivity-gains/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Computer vision deployments are driving retail productivity gains as operators automate physical shelf tracking to protect eroding margins. This hardware deployment directly addresses the persistent in-store execution failures currently costing...",
+      "published": "2026-06-18T15:57:46Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Computer vision deployments drive retail productivity gains",
+      "summary_zh": "Computer vision deployments are driving retail productivity gains as operators automate physical shelf tracking to protect eroding margins. This hardware deployment directly addresses the persistent in-store execution failures currently costing...",
+      "tags_zh": [],
+      "oneliner": "Computer vision deployments are driving retail productivity gains as operators automate physical she"
+    },
+    {
+      "id": "ad2ec02b5ba7",
+      "title": "Improving health intelligence in ChatGPT",
+      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "published": "2026-06-18T11:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Improving health intelligence in ChatGPT",
+      "summary_zh": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, "
+    },
+    {
+      "id": "5202b2cad0ef",
+      "title": "HSBC expands AI banking partnership with Google Cloud",
+      "url": "https://www.artificialintelligence-news.com/news/hsbc-google-cloud-ai-partnership/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "HSBC has entered a multi-year partnership with Google Cloud to develop and deploy artificial intelligence tools across its global operations. Announced at Google Cloud Summit London 2026, the agreement covers work in wealth management, financial...",
+      "published": "2026-06-18T10:00:00Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "17a133fee8f3",
+          "f159d0a58e6d"
+        ],
+        "score": 7
+      },
+      "title_zh": "HSBC expands AI banking partnership with Google Cloud",
+      "summary_zh": "HSBC has entered a multi-year partnership with Google Cloud to develop and deploy artificial intelligence tools across its global operations. Announced at Google Cloud Summit London 2026, the agreement covers work in wealth management, financial...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "HSBC has entered a multi-year partnership with Google Cloud to develop and deploy artificial intelli"
+    },
+    {
+      "id": "0c739abfbbbc",
+      "title": "The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache",
+      "url": "https://www.marktechpost.com/2026/06/18/the-kv-cache-compression-race-turboquant-vs-oscar-vs-epicache/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "The KV cache now outweighs model weights at long context. Here's how TurboQuant, OSCAR, and EpiCache each attack that memory bottleneck — and why they're more complementary than competitive.\nThe post The KV Cache Compression Race: TurboQuant vs...",
+      "published": "2026-06-18T09:14:31Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "The KV Cache Compression Race: TurboQuant vs OSCAR vs EpiCache",
+      "summary_zh": "The KV cache now outweighs model weights at long context. Here's how TurboQuant, OSCAR, and EpiCache each attack that memory bottleneck — and why they're more complementary than competitive.\nThe post The KV Cache Compression Race: TurboQuant vs...",
+      "tags_zh": [],
+      "oneliner": "The KV cache now outweighs model weights at long context. Here's how TurboQuant, OSCAR, and EpiCache"
+    },
+    {
+      "id": "5b4c58f4f7e0",
+      "title": "Microsoft sells OpenAI models in China. OpenAI and Anthropic won’t.",
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-sells-openai-models-china/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Microsoft has quietly become the main supplier of OpenAI models in China, selling the technology to the country&#8217;s largest internet companies even as OpenAI and Anthropic keep their own models out of the market on intellectual-property and...",
+      "published": "2026-06-18T09:00:00Z",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "c2bf0432b6c5"
+        ],
+        "score": 5
+      },
+      "title_zh": "Microsoft sells OpenAI models in China. OpenAI and Anthropic won’t.",
+      "summary_zh": "Microsoft has quietly become the main supplier of OpenAI models in China, selling the technology to the country&#8217;s largest internet companies even as OpenAI and Anthropic keep their own models out of the market on intellectual-property and...",
+      "tags_zh": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ],
+      "oneliner": "Microsoft has quietly become the main supplier of OpenAI models in China, selling the technology to "
+    },
+    {
+      "id": "796b3536965e",
+      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "url": "https://openai.com/index/diagnose-rare-childhood-diseases",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "published": "2026-06-18T08:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Using AI to help physicians diagnose rare genetic diseases affecting children",
+      "summary_zh": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
+      "tags_zh": [],
+      "oneliner": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagno"
     },
     {
       "id": "81fb0b6406ba",
@@ -364,12 +552,10 @@
         ],
         "score": 5
       },
-      "title_zh": "CoreMem: Riemannian Retrieval and Fisher-Guided Distillation for Long-Term Memory in Dialogue Agents",
-      "summary_zh": "arXiv:2606.18406v1 Announce Type: new \nAbstract: Personalized dialogue agents require continuous long-term memory to maintain coherent interactions across multiple sessions. However, deploying these capabilities on consumer-grade hardware (e.g.,...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.18406v1 Announce Type: new \nAbstract: Personalized dialogue agents require continuous lon"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "3aae55941127",
@@ -393,12 +579,10 @@
         ],
         "score": 5
       },
-      "title_zh": "VISUALSKILL: Multimodal Skills for Computer-Use Agents",
-      "summary_zh": "arXiv:2606.18448v1 Announce Type: new \nAbstract: Computer-use agents (CUAs) approach human-level performance on standardised benchmarks but still struggle on long-horizon tasks and unseen software. Existing skill libraries address this with...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.18448v1 Announce Type: new \nAbstract: Computer-use agents (CUAs) approach human-level per"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "7838f4e5c4b6",
@@ -420,12 +604,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "LLM Parameters for Math Across Languages: Shared or Separate?",
-      "summary_zh": "arXiv:2606.18453v1 Announce Type: new \nAbstract: Large language models (LLMs) exhibit substantial cross-lingual variation in mathematical reasoning performance, but it remains unclear whether these differences reflect language-specific parameters...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.18453v1 Announce Type: new \nAbstract: Large language models (LLMs) exhibit substantial cr"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "1e75fa794985",
@@ -445,10 +627,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Montreal Forced Aligner and the state of speech-to-text alignment in 2026",
-      "summary_zh": "arXiv:2606.18466v1 Announce Type: new \nAbstract: The Montreal Forced Aligner (MFA) was released in 2016 and has since become the most widely used tool for forced alignment in research and industry. In the decade since, MFA has undergone...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.18466v1 Announce Type: new \nAbstract: The Montreal Forced Aligner (MFA) was released in 2"
+      "oneliner": ""
     },
     {
       "id": "4f233bf9338a",
@@ -470,12 +652,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Possible or Definite? A Benchmark for Evaluating Diagnostic Uncertainty Preservation in Clinical Text",
-      "summary_zh": "arXiv:2606.18471v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used for clinical text tasks such as summarization and revision. While most studies evaluate the fluency and coherence of LLM-generated text, whether...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.18471v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b4b4a05d6146",
@@ -495,10 +675,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "PreUnlearn: Auditing Collateral Knowledge Damage Before Large Language Model Unlearning",
-      "summary_zh": "arXiv:2606.18473v1 Announce Type: new \nAbstract: Machine unlearning for large language models (LLMs) aims to remove specified knowledge while preserving the rest of the model's capabilities. However, the boundary between knowledge to forget and...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.18473v1 Announce Type: new \nAbstract: Machine unlearning for large language models (LLMs)"
+      "oneliner": ""
     },
     {
       "id": "ffe99c7b2884",
@@ -520,12 +700,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Towards Scalable Customization and Deployment of Multi-Agent Systems for Enterprise Applications",
-      "summary_zh": "arXiv:2606.18502v1 Announce Type: new \nAbstract: Large language model (LLM)-based multi-agent systems demonstrate strong performance on complex reasoning and task execution, enabling broad enterprise applications. However, production deployment...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.18502v1 Announce Type: new \nAbstract: Large language model (LLM)-based multi-agent system"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "2cfd50fdea7a",
@@ -988,9 +1166,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "5b4c58f4f7e0",
           "a09f37d2d3dd"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1014,6 +1193,55 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a84ffebb319e",
+      "title": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "url": "https://huggingface.co/blog/peft-beyond-lora",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-18T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "91c11face685",
+      "title": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "url": "https://huggingface.co/blog/is-it-agentic-enough",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-18T00:00:00Z",
+      "tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1107,9 +1335,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
+        "level": "multi-source",
+        "corroborating_ids": [
+          "5202b2cad0ef"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
