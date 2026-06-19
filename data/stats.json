@@ -1,14 +1,14 @@
 {
-  "updated": "2026-06-18T18:31:35Z",
-  "total": 240,
+  "updated": "2026-06-19T04:31:02Z",
+  "total": 271,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Hugging Face",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 71
     },
     {
       "name": "LLM",
-      "count": 24
+      "count": 36
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Google",
@@ -58,7 +58,7 @@
     },
     {
       "name": "RAG",
-      "count": 8
+      "count": 10
     },
     {
       "name": "OpenAI",
@@ -69,8 +69,16 @@
       "count": 5
     },
     {
+      "name": "DeepSeek",
+      "count": 4
+    },
+    {
       "name": "Transformer",
       "count": 4
+    },
+    {
+      "name": "Diffusion",
+      "count": 3
     },
     {
       "name": "Anthropic",
@@ -86,10 +94,6 @@
     },
     {
       "name": "Gemini",
-      "count": 3
-    },
-    {
-      "name": "DeepSeek",
       "count": 3
     },
     {
@@ -115,20 +119,16 @@
     {
       "name": "Microsoft",
       "count": 1
-    },
-    {
-      "name": "Diffusion",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 158
+      "count": 188
     },
     {
       "name": "开源项目",
-      "count": 40
+      "count": 41
     },
     {
       "name": "模型发布",
@@ -140,10 +140,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "06-14",
-      "count": 8
-    },
     {
       "date": "06-15",
       "count": 40
@@ -158,7 +154,11 @@
     },
     {
       "date": "06-18",
-      "count": 49
+      "count": 44
+    },
+    {
+      "date": "06-19",
+      "count": 37
     },
     {
       "date": "06-24",
@@ -195,6 +195,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "bddcb9962156",
+      "title": "yifanfeng97 /Hyper-Extract",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "71103c9d6fa8",
       "title": "withastro /flue",
       "score": 5,
@@ -207,28 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "63333d90a8a4",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
+      "id": "90dd3572907f",
+      "title": "Exposing the Unsaid: Visualizing Hidden LLM Bias through Stochastic Path Aggregation",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "32d55aeeaa5f",
-      "title": "Computer vision deployments drive retail productivity gains",
+      "id": "62f8029a394c",
+      "title": "Ensembles of Large Language Models for Identifying EQ-5D Studies in PubMed Based on Their Abstracts",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "ad2ec02b5ba7",
-      "title": "Improving health intelligence in ChatGPT",
+      "id": "8227aedc7222",
+      "title": "Disentangling Linguistic Relatedness from Task Alignment in Cross-Lingual Transfer",
       "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "5202b2cad0ef",
-      "title": "HSBC expands AI banking partnership with Google Cloud",
-      "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
