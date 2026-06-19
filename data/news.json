@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-19T12:16:18Z",
-  "total": 205,
-  "new_count": 48,
+  "updated": "2026-06-19T18:05:46Z",
+  "total": 204,
+  "new_count": 40,
   "items": [
     {
       "id": "bcb2a34cb3ad",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [
         "RAG"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [
         "Google"
       ],
@@ -46,9 +46,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "0d45745f806e"
+        ],
+        "score": 5
       },
       "title_zh": "google-research /timesfm",
       "summary_zh": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
@@ -64,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "macOS video editor built for AI",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -87,7 +89,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -110,7 +112,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -133,7 +135,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A framework for building agent-native applications.",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [
         "Agent"
       ],
@@ -160,7 +162,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [
         "LLM",
         "RAG"
@@ -189,7 +191,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [
         "Agent"
       ],
@@ -216,7 +218,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "GLM-5: From Vibe Coding to Agentic Engineering",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [
         "Agent"
       ],
@@ -243,7 +245,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The sandbox agent framework.",
-      "published": "2026-06-19T12:13:27Z",
+      "published": "2026-06-19T18:02:56Z",
       "tags": [
         "Agent"
       ],
@@ -262,6 +264,39 @@
         "Agent"
       ],
       "oneliner": "The sandbox agent framework."
+    },
+    {
+      "id": "0d45745f806e",
+      "title": "SAP and Google Cloud deploy agentic commerce architecture",
+      "url": "https://www.artificialintelligence-news.com/news/sap-and-google-cloud-deploy-agentic-commerce-architecture/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "SAP and Google Cloud are deploying agentic commerce architecture to automate multi-agent marketing and retail operations at enterprise scale. SAP research indicates 78 percent of businesses consider AI essential for retaining customers in 2026....",
+      "published": "2026-06-19T14:02:20Z",
+      "tags": [
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "17a133fee8f3",
+          "5202b2cad0ef",
+          "f159d0a58e6d"
+        ],
+        "score": 9
+      },
+      "title_zh": "SAP and Google Cloud deploy agentic commerce architecture",
+      "summary_zh": "SAP and Google Cloud are deploying agentic commerce architecture to automate multi-agent marketing and retail operations at enterprise scale. SAP research indicates 78 percent of businesses consider AI essential for retaining customers in 2026....",
+      "tags_zh": [
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "SAP and Google Cloud are deploying agentic commerce architecture to automate multi-agent marketing a"
     },
     {
       "id": "54704aa7c407",
@@ -518,12 +553,10 @@
         ],
         "score": 5
       },
-      "title_zh": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-      "summary_zh": "arXiv:2606.19348v1 Announce Type: new \nAbstract: We present a preview version of DeepSeek-V4 series, including two strong Mixture-of-Experts (MoE) language models -- DeepSeek-V4-Pro with 1.6T parameters (49B activated) and DeepSeek-V4-Flash with...",
-      "tags_zh": [
-        "DeepSeek"
-      ],
-      "oneliner": "arXiv:2606.19348v1 Announce Type: new \nAbstract: We present a preview version of DeepSeek-V4 series,"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "a35ede15d9c3",
@@ -1308,9 +1341,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "0d45745f806e",
           "f159d0a58e6d"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -2368,9 +2402,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "0d45745f806e",
           "5202b2cad0ef"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4975,11 +5010,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "7f341e344f76"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5006,54 +5039,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "446830a5c044",
-      "title": "olmo-eval: An evaluation workbench for the model development loop",
-      "url": "https://huggingface.co/blog/allenai/olmo-eval",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-06-12T15:56:10Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f6c89e3e9a5c",
-      "title": "Coinbase for Agents: Automating portfolio trading with AI",
-      "url": "https://www.artificialintelligence-news.com/news/coinbase-for-agents-automating-portfolio-trading-with-ai/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Coinbase for Agents connects AI to financial execution channels to automate trading and payments directly from user portfolios. Large language models process vast quantities of data but lack direct integration with active financial portfolios....",
-      "published": "2026-06-12T15:34:23Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
