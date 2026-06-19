@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-19T04:31:13Z",
-  "count": 102,
+  "updated": "2026-06-19T12:16:18Z",
+  "count": 103,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -6530,6 +6530,70 @@
         }
       },
       "_ts": 1781843473
+    },
+    "11985708f4aef794": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录249篇AI新闻，分类分布：学术研究159篇, 开源项目47篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（67篇）。其中12%的文章有多来源交叉验证。\n\n▸ DeusData /codebase-memory-mcp：High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —\n\n▸ google-research /timesfm：TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Goo\n\n▸ palmier-io /palmier-pro：macOS video editor built for AI\n\n▸ koala73 /worldmonitor：Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i\n\n▸ aishwaryanr /awesome-generative-ai-guide：A one stop repository for generative AI research updates, interview resources, notebooks and much mo",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "DeusData/codebase-memory-mcp",
+            "url": "https://github.com/DeusData/codebase-memory-mcp",
+            "why_hot": "单日1055星，C项目",
+            "stars_today": 1055,
+            "total_stars": 7540
+          },
+          {
+            "full_name": "chopratejas/headroom",
+            "url": "https://github.com/chopratejas/headroom",
+            "why_hot": "单日3938星，Python项目",
+            "stars_today": 3938,
+            "total_stars": 36588
+          },
+          {
+            "full_name": "palmier-io/palmier-pro",
+            "url": "https://github.com/palmier-io/palmier-pro",
+            "why_hot": "单日749星，Swift项目",
+            "stars_today": 749,
+            "total_stars": 1409
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "249"
+          },
+          {
+            "label": "多源验证率",
+            "value": "12%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+8646"
+          }
+        ],
+        "must_read_ids": [
+          "bcb2a34cb3ad",
+          "17a133fee8f3",
+          "fa7a24d15387",
+          "56d33226bf40",
+          "b2a5f1801501"
+        ],
+        "text": "今日共收录249篇AI新闻，分类分布：学术研究159篇, 开源项目47篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（67篇）。其中12%的文章有多来源交叉验证。",
+        "top_items": [
+          "DeusData /codebase-memory-mcp",
+          "google-research /timesfm",
+          "palmier-io /palmier-pro",
+          "koala73 /worldmonitor",
+          "aishwaryanr /awesome-generative-ai-guide"
+        ],
+        "meta": {
+          "total_articles": 249,
+          "multi_source_pct": 12
+        }
+      },
+      "_ts": 1781871378
     }
   }
 }
