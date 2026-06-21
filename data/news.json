@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-21T04:26:30Z",
-  "total": 198,
-  "new_count": 39,
+  "updated": "2026-06-21T11:22:55Z",
+  "total": 200,
+  "new_count": 42,
   "items": [
     {
       "id": "fa7a24d15387",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "macOS video editor built for AI",
-      "published": "2026-06-21T04:23:46Z",
+      "published": "2026-06-21T11:20:10Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-21T04:23:46Z",
+      "published": "2026-06-21T11:20:10Z",
       "tags": [
         "Agent"
       ],
@@ -54,13 +54,121 @@
       "oneliner": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill"
     },
     {
+      "id": "fc660d3bee25",
+      "title": "chopratejas /headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "published": "2026-06-21T11:20:10Z",
+      "tags": [
+        "LLM",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "chopratejas /headroom",
+      "summary_zh": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "tags_zh": [
+        "LLM",
+        "RAG"
+      ],
+      "oneliner": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s"
+    },
+    {
+      "id": "4ec6d5af71ee",
+      "title": "ZhuLinsen /daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "published": "2026-06-21T11:20:10Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "ZhuLinsen /daily_stock_analysis",
+      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit"
+    },
+    {
+      "id": "56d33226bf40",
+      "title": "koala73 /worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "published": "2026-06-21T11:20:10Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "koala73 /worldmonitor",
+      "summary_zh": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "tags_zh": [],
+      "oneliner": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i"
+    },
+    {
+      "id": "8715d70f7c6f",
+      "title": "bytedance /deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "published": "2026-06-21T11:20:10Z",
+      "tags": [
+        "Agent",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "bytedance /deer-flow",
+      "summary_zh": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "tags_zh": [
+        "Agent",
+        "RAG"
+      ],
+      "oneliner": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of"
+    },
+    {
       "id": "bcb2a34cb3ad",
       "title": "DeusData /codebase-memory-mcp",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "published": "2026-06-21T04:23:46Z",
+      "published": "2026-06-21T11:20:10Z",
       "tags": [
         "RAG"
       ],
@@ -79,6 +187,39 @@
         "RAG"
       ],
       "oneliner": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —"
+    },
+    {
+      "id": "ebc3b4fe22b6",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
+      "published": "2026-06-21T11:20:10Z",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "Anthropic",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "summary_zh": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
+      "tags_zh": [
+        "Claude",
+        "Gemini",
+        "Anthropic",
+        "Agent"
+      ],
+      "oneliner": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2"
     },
     {
       "id": "17a133fee8f3",
@@ -158,58 +299,6 @@
         "API"
       ],
       "oneliner": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, "
-    },
-    {
-      "id": "fc660d3bee25",
-      "title": "chopratejas /headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "published": "2026-06-21T04:23:46Z",
-      "tags": [
-        "LLM",
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "chopratejas /headroom",
-      "summary_zh": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "tags_zh": [
-        "LLM",
-        "RAG"
-      ],
-      "oneliner": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s"
-    },
-    {
-      "id": "56d33226bf40",
-      "title": "koala73 /worldmonitor",
-      "url": "https://github.com/koala73/worldmonitor",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "published": "2026-06-20T10:36:44Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "koala73 /worldmonitor",
-      "summary_zh": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "tags_zh": [],
-      "oneliner": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i"
     },
     {
       "id": "b2a5f1801501",
@@ -456,12 +545,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "How LLMs Fail and Generalize in RTL Coding for Hardware Design?",
-      "summary_zh": "arXiv:2606.19347v1 Announce Type: new \nAbstract: Translating sequential programming priors into the parallel temporal logic of hardware design remains a crucial bottleneck for large language models(LLM). To investigate this, we introduce a new...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.19347v1 Announce Type: new \nAbstract: Translating sequential programming priors into the "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "95124f73321e",
@@ -483,12 +570,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-      "summary_zh": "arXiv:2606.19348v1 Announce Type: new \nAbstract: We present a preview version of DeepSeek-V4 series, including two strong Mixture-of-Experts (MoE) language models -- DeepSeek-V4-Pro with 1.6T parameters (49B activated) and DeepSeek-V4-Flash with...",
-      "tags_zh": [
-        "DeepSeek"
-      ],
-      "oneliner": "arXiv:2606.19348v1 Announce Type: new \nAbstract: We present a preview version of DeepSeek-V4 series,"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "a35ede15d9c3",
@@ -513,13 +598,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Where to Place the Query? Unveiling and Mitigating Positional Bias in In-Context Learning for Diffusion LLMs via Decoding Dynamics",
-      "summary_zh": "arXiv:2606.19349v1 Announce Type: new \nAbstract: While In-Context Learning (ICL) is extensively studied in Autoregressive (AR) LLMs, its mechanism within Diffusion Large Language Models (dLLMs) remains largely unexplored. Unlike AR models...",
-      "tags_zh": [
-        "LLM",
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2606.19349v1 Announce Type: new \nAbstract: While In-Context Learning (ICL) is extensively stud"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "1a0888b3a921",
@@ -4852,33 +4934,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "98b713fc11fc",
-      "title": "Databricks Open-Sources Omnigent: A Meta-Harness That Composes, Governs, and Shares AI Agents Across Claude Code, Codex, and Pi",
-      "url": "https://www.marktechpost.com/2026/06/13/databricks-open-sources-omnigent-a-meta-harness-that-composes-governs-and-shares-ai-agents-across-claude-code-codex-and-pi/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Databricks has open-sourced Omnigent, a meta-harness that sits above coding agents like Claude Code, Codex, and Pi. It adds composition, contextual policies, and live session sharing under one interface, on terminal, web, desktop, and mobile. The...",
-      "published": "2026-06-14T05:01:39Z",
-      "tags": [
-        "Claude",
-        "Meta",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",

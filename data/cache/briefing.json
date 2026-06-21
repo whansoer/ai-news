@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-21T04:26:30Z",
-  "count": 108,
+  "updated": "2026-06-21T11:22:55Z",
+  "count": 109,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -6914,6 +6914,70 @@
         }
       },
       "_ts": 1782015990
+    },
+    "e95dc64035b6ec74": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录240篇AI新闻，分类分布：学术研究155篇, 开源项目42篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（64篇）。其中11%的文章有多来源交叉验证。\n\n▸ palmier-io /palmier-pro：macOS video editor built for AI\n\n▸ calesthio /OpenMontage：World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill\n\n▸ chopratejas /headroom：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s\n\n▸ ZhuLinsen /daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit\n\n▸ koala73 /worldmonitor：Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "DeusData/codebase-memory-mcp",
+            "url": "https://github.com/DeusData/codebase-memory-mcp",
+            "why_hot": "单日1271星，C项目",
+            "stars_today": 1271,
+            "total_stars": 9776
+          },
+          {
+            "full_name": "calesthio/OpenMontage",
+            "url": "https://github.com/calesthio/OpenMontage",
+            "why_hot": "单日677星，Python项目",
+            "stars_today": 677,
+            "total_stars": 7484
+          },
+          {
+            "full_name": "chopratejas/headroom",
+            "url": "https://github.com/chopratejas/headroom",
+            "why_hot": "单日3795星，Python项目",
+            "stars_today": 3795,
+            "total_stars": 42796
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "240"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+9025"
+          }
+        ],
+        "must_read_ids": [
+          "fa7a24d15387",
+          "20703a86e2b0",
+          "fc660d3bee25",
+          "4ec6d5af71ee",
+          "56d33226bf40"
+        ],
+        "text": "今日共收录240篇AI新闻，分类分布：学术研究155篇, 开源项目42篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（64篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "palmier-io /palmier-pro",
+          "calesthio /OpenMontage",
+          "chopratejas /headroom",
+          "ZhuLinsen /daily_stock_analysis",
+          "koala73 /worldmonitor"
+        ],
+        "meta": {
+          "total_articles": 240,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1782040975
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T04:26:30Z",
+  "updated": "2026-06-21T11:22:55Z",
   "total": 20,
   "items": [
     {
@@ -29,6 +29,62 @@
       }
     },
     {
+      "id": "fc660d3bee25",
+      "title_zh": "chopratejas /headroom",
+      "summary_zh": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "tags_zh": [
+        "LLM",
+        "RAG"
+      ],
+      "oneliner": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "4ec6d5af71ee",
+      "title_zh": "ZhuLinsen /daily_stock_analysis",
+      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "56d33226bf40",
+      "title_zh": "koala73 /worldmonitor",
+      "summary_zh": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "tags_zh": [],
+      "oneliner": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8715d70f7c6f",
+      "title_zh": "bytedance /deer-flow",
+      "summary_zh": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "tags_zh": [
+        "Agent",
+        "RAG"
+      ],
+      "oneliner": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "bcb2a34cb3ad",
       "title_zh": "DeusData /codebase-memory-mcp",
       "summary_zh": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
@@ -36,6 +92,23 @@
         "RAG"
       ],
       "oneliner": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ebc3b4fe22b6",
+      "title_zh": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "summary_zh": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
+      "tags_zh": [
+        "Claude",
+        "Gemini",
+        "Anthropic",
+        "Agent"
+      ],
+      "oneliner": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -77,33 +150,6 @@
         "API"
       ],
       "oneliner": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "fc660d3bee25",
-      "title_zh": "chopratejas /headroom",
-      "summary_zh": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "tags_zh": [
-        "LLM",
-        "RAG"
-      ],
-      "oneliner": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, s",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "56d33226bf40",
-      "title_zh": "koala73 /worldmonitor",
-      "summary_zh": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "tags_zh": [],
-      "oneliner": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -220,49 +266,6 @@
       "summary_zh": "arXiv:2606.19346v1 Announce Type: new \nAbstract: We study cross-lingual transfer by fine-tuning seven large language models (4B--671B parameters) on Arabic and evaluating zero-shot reading comprehension on Semitic languages and non-Semitic...",
       "tags_zh": [],
       "oneliner": "arXiv:2606.19346v1 Announce Type: new \nAbstract: We study cross-lingual transfer by fine-tuning seve",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "855d31edeebc",
-      "title_zh": "How LLMs Fail and Generalize in RTL Coding for Hardware Design?",
-      "summary_zh": "arXiv:2606.19347v1 Announce Type: new \nAbstract: Translating sequential programming priors into the parallel temporal logic of hardware design remains a crucial bottleneck for large language models(LLM). To investigate this, we introduce a new...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.19347v1 Announce Type: new \nAbstract: Translating sequential programming priors into the ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "95124f73321e",
-      "title_zh": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
-      "summary_zh": "arXiv:2606.19348v1 Announce Type: new \nAbstract: We present a preview version of DeepSeek-V4 series, including two strong Mixture-of-Experts (MoE) language models -- DeepSeek-V4-Pro with 1.6T parameters (49B activated) and DeepSeek-V4-Flash with...",
-      "tags_zh": [
-        "DeepSeek"
-      ],
-      "oneliner": "arXiv:2606.19348v1 Announce Type: new \nAbstract: We present a preview version of DeepSeek-V4 series,",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a35ede15d9c3",
-      "title_zh": "Where to Place the Query? Unveiling and Mitigating Positional Bias in In-Context Learning for Diffusion LLMs via Decoding Dynamics",
-      "summary_zh": "arXiv:2606.19349v1 Announce Type: new \nAbstract: While In-Context Learning (ICL) is extensively studied in Autoregressive (AR) LLMs, its mechanism within Diffusion Large Language Models (dLLMs) remains largely unexplored. Unlike AR models...",
-      "tags_zh": [
-        "LLM",
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2606.19349v1 Announce Type: new \nAbstract: While In-Context Learning (ICL) is extensively stud",
       "key_facts": [],
       "notable_quote": {
         "text": "",
