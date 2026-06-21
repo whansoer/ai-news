@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21T11:22:55Z",
-  "total": 200,
+  "updated": "2026-06-21T17:46:33Z",
+  "total": 202,
   "new_count": 42,
   "items": [
     {
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "macOS video editor built for AI",
-      "published": "2026-06-21T11:20:10Z",
+      "published": "2026-06-21T17:43:55Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-21T11:20:10Z",
+      "published": "2026-06-21T17:43:55Z",
       "tags": [
         "Agent"
       ],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "published": "2026-06-21T11:20:10Z",
+      "published": "2026-06-21T17:43:55Z",
       "tags": [
         "LLM",
         "RAG"
@@ -89,7 +89,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "published": "2026-06-21T11:20:10Z",
+      "published": "2026-06-21T17:43:55Z",
       "tags": [
         "LLM"
       ],
@@ -116,7 +116,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "published": "2026-06-21T11:20:10Z",
+      "published": "2026-06-21T17:43:55Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -139,7 +139,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "published": "2026-06-21T11:20:10Z",
+      "published": "2026-06-21T17:43:55Z",
       "tags": [
         "Agent",
         "RAG"
@@ -168,7 +168,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "published": "2026-06-21T11:20:10Z",
+      "published": "2026-06-21T17:43:55Z",
       "tags": [
         "RAG"
       ],
@@ -195,7 +195,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+...",
-      "published": "2026-06-21T11:20:10Z",
+      "published": "2026-06-21T17:43:55Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -220,6 +220,33 @@
         "Agent"
       ],
       "oneliner": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2"
+    },
+    {
+      "id": "0280d2e2eaab",
+      "title": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
+      "url": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build a complete Crawlee for Python workflow from setup to AI-ready output. We generate a local demo website, then crawl it with BeautifulSoupCrawler, ParselCrawler, and PlaywrightCrawler. We extract titles, metadata, product...",
+      "published": "2026-06-21T06:52:10Z",
+      "tags": [
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
+      "summary_zh": "In this tutorial, we build a complete Crawlee for Python workflow from setup to AI-ready output. We generate a local demo website, then crawl it with BeautifulSoupCrawler, ParselCrawler, and PlaywrightCrawler. We extract titles, metadata, product...",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "In this tutorial, we build a complete Crawlee for Python workflow from setup to AI-ready output. We "
     },
     {
       "id": "17a133fee8f3",
@@ -299,6 +326,62 @@
         "API"
       ],
       "oneliner": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, "
+    },
+    {
+      "id": "a7452c7fb41e",
+      "title": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration",
+      "url": "https://www.marktechpost.com/2026/06/20/cisco-ai-introduces-fapo-pipeline-aware-prompt-optimization-with-step-level-failure-attribution-and-claude-code-orchestration/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LLM pipelines from baseline prompts to target accuracy. FAPO evaluates a chain, attributes...",
+      "published": "2026-06-20T23:04:55Z",
+      "tags": [
+        "Claude",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Cisco AI Introduces FAPO: Pipeline-Aware Prompt Optimization With Step-Level Failure Attribution and Claude Code Orchestration",
+      "summary_zh": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-driven system that autonomously optimizes multi-step LLM pipelines from baseline prompts to target accuracy. FAPO evaluates a chain, attributes...",
+      "tags_zh": [
+        "Claude",
+        "Prompt"
+      ],
+      "oneliner": "Cisco Foundation AI has open-sourced FAPO (Fully Automated Prompt Optimization), a Claude Code-drive"
+    },
+    {
+      "id": "8b665cf1eb9c",
+      "title": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets",
+      "url": "https://www.marktechpost.com/2026/06/20/nous-research-updates-hermes-agent-with-a-blank-slate-mode-that-pins-toolsets-via-platform_toolsets-cli-and-disabled_toolsets/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Nous Research has added a Blank Slate setup mode to its open-source Hermes Agent. It starts an agent with everything off except provider, model, File Operations, and Terminal. You opt in to the rest.\nThe post Nous Research Updates Hermes Agent...",
+      "published": "2026-06-20T21:50:11Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Nous Research Updates Hermes Agent With a Blank Slate Mode That Pins Toolsets via platform_toolsets.cli and disabled_toolsets",
+      "summary_zh": "Nous Research has added a Blank Slate setup mode to its open-source Hermes Agent. It starts an agent with everything off except provider, model, File Operations, and Terminal. You opt in to the rest.\nThe post Nous Research Updates Hermes Agent...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Nous Research has added a Blank Slate setup mode to its open-source Hermes Agent. It starts an agent"
     },
     {
       "id": "b2a5f1801501",
@@ -470,12 +553,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Exposing the Unsaid: Visualizing Hidden LLM Bias through Stochastic Path Aggregation",
-      "summary_zh": "arXiv:2606.19344v1 Announce Type: new \nAbstract: Large Language Models (LLMs) exhibit representational and syntactic biases that are difficult to evaluate due to the stochastic nature of text generation. Standard auditing methods rely on a single...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.19344v1 Announce Type: new \nAbstract: Large Language Models (LLMs) exhibit representation"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "62f8029a394c",
@@ -497,10 +578,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Ensembles of Large Language Models for Identifying EQ-5D Studies in PubMed Based on Their Abstracts",
-      "summary_zh": "arXiv:2606.19345v1 Announce Type: new \nAbstract: The rapid increase in scientific publications leads to the fact that manual study screening in systematic literature reviews (SLRs) is increasingly resource consuming, inefficient, and...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.19345v1 Announce Type: new \nAbstract: The rapid increase in scientific publications leads"
+      "oneliner": ""
     },
     {
       "id": "8227aedc7222",
@@ -520,10 +601,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Disentangling Linguistic Relatedness from Task Alignment in Cross-Lingual Transfer",
-      "summary_zh": "arXiv:2606.19346v1 Announce Type: new \nAbstract: We study cross-lingual transfer by fine-tuning seven large language models (4B--671B parameters) on Arabic and evaluating zero-shot reading comprehension on Semitic languages and non-Semitic...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.19346v1 Announce Type: new \nAbstract: We study cross-lingual transfer by fine-tuning seve"
+      "oneliner": ""
     },
     {
       "id": "855d31edeebc",
@@ -4901,31 +4982,6 @@
       "summary": "In this tutorial, we explore the FineWeb dataset through an advanced hands-on workflow. We stream a manageable sample of the dataset without downloading the full multi-terabyte corpus, inspect its schema and metadata, and analyze key fields such...",
       "published": "2026-06-14T20:45:32Z",
       "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9b41ef631f1c",
-      "title": "Introducing the OpenAI Partner Network",
-      "url": "https://openai.com/index/introducing-openai-partner-network",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-      "published": "2026-06-14T17:00:00Z",
-      "tags": [
-        "OpenAI"
-      ],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
