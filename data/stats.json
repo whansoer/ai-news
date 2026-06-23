@@ -1,22 +1,22 @@
 {
-  "updated": "2026-06-23T03:45:53Z",
-  "total": 207,
+  "updated": "2026-06-23T11:25:35Z",
+  "total": 246,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 45
+      "count": 60
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 45
+      "count": 60
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 29
     },
     {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 29
     },
     {
       "name": "Hugging Face",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 67
     },
     {
       "name": "LLM",
-      "count": 23
+      "count": 28
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 13
     },
     {
       "name": "RAG",
@@ -62,30 +62,42 @@
     },
     {
       "name": "OpenAI",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "GPT",
+      "count": 4
     },
     {
       "name": "DeepSeek",
       "count": 4
     },
     {
+      "name": "Claude",
+      "count": 3
+    },
+    {
       "name": "Gemini",
       "count": 3
     },
     {
-      "name": "GPT",
+      "name": "API",
       "count": 3
     },
     {
-      "name": "Claude",
-      "count": 2
+      "name": "Prompt",
+      "count": 3
+    },
+    {
+      "name": "Embedding",
+      "count": 3
     },
     {
       "name": "Anthropic",
       "count": 2
     },
     {
-      "name": "API",
+      "name": "Meta",
       "count": 2
     },
     {
@@ -97,34 +109,22 @@
       "count": 2
     },
     {
-      "name": "Embedding",
-      "count": 2
-    },
-    {
       "name": "Transformer",
       "count": 2
     },
     {
-      "name": "Prompt",
-      "count": 1
-    },
-    {
       "name": "Microsoft",
-      "count": 1
-    },
-    {
-      "name": "Meta",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 125
+      "count": 159
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 44
     },
     {
       "name": "模型发布",
@@ -132,7 +132,7 @@
     },
     {
       "name": "产品/API",
-      "count": 10
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -150,11 +150,11 @@
     },
     {
       "date": "06-22",
-      "count": 9
+      "count": 13
     },
     {
       "date": "06-23",
-      "count": 6
+      "count": 45
     },
     {
       "date": "06-24",
@@ -173,14 +173,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "fa7a24d15387",
-      "title": "palmier-io /palmier-pro",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "bfeff07f7d86",
-      "title": "jamiepine /voicebox",
+      "id": "4ec6d5af71ee",
+      "title": "ZhuLinsen /daily_stock_analysis",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -191,40 +185,46 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "1c708e2373ce",
-      "title": "heygen-com /hyperframes",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "8715d70f7c6f",
       "title": "bytedance /deer-flow",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d3ee689571cc",
-      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "f601b26b225b",
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "5d9de7a5a94a",
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "fc660d3bee25",
-      "title": "chopratejas /headroom",
+      "id": "56d33226bf40",
+      "title": "koala73 /worldmonitor",
       "score": 5,
       "source": "GitHub Trending"
+    },
+    {
+      "id": "fa7a24d15387",
+      "title": "palmier-io /palmier-pro",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "26ea52d56cf5",
+      "title": "shanraisshan /claude-code-best-practice",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "38bb6a600df0",
+      "title": "revfactory /harness",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f57fafaddaf2",
+      "title": "Top spy agencies say AI cyber threats will impact you within months. Here’s why",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "8d6be981ac79",
+      "title": "Prime Intellect Releases prime-rl 0.6.0 to Train Trillion-Parameter MoE Models on Agentic RL Workloads",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
