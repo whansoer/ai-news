@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T18:06:54Z",
+  "updated": "2026-06-24T03:49:19Z",
   "total": 20,
   "items": [
     {
@@ -117,6 +117,46 @@
       }
     },
     {
+      "id": "f4682168c863",
+      "title_zh": "Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines",
+      "summary_zh": "Mistral AI released OCR 4 on June 23, 2026, moving from clean text extraction to structured document output. Each block returns a bounding box, a typed classification, and per-page and per-word confidence scores. The model supports 170 languages,...",
+      "tags_zh": [
+        "Mistral",
+        "Agent",
+        "RAG"
+      ],
+      "oneliner": "Mistral AI released OCR 4 on June 23, 2026, moving from clean text extraction to structured document",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "cf834155c85b",
+      "title_zh": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas",
+      "summary_zh": "Datalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON. It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hallucinating absent fields,...",
+      "tags_zh": [],
+      "oneliner": "Datalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matchin",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "924df6912486",
+      "title_zh": "How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python",
+      "summary_zh": "In this tutorial, we build a multilingual ASR and speech translation pipeline with NVIDIA Canary-1B-v2. We load the model on a GPU-enabled runtime, prepare audio into 16 kHz mono, and run English ASR. We then translate speech into French, German,...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we build a multilingual ASR and speech translation pipeline with NVIDIA Canary-1B-",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "1948945ee980",
       "title_zh": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
       "summary_zh": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
@@ -138,6 +178,18 @@
         "OpenAI"
       ],
       "oneliner": "Omio integrates OpenAI models across its engineering operations to accelerate travel product develop",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1b1b1aa40d91",
+      "title_zh": "Helping build shared standards for advanced AI",
+      "summary_zh": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "tags_zh": [],
+      "oneliner": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practi",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -219,59 +271,6 @@
       "summary_zh": "arXiv:2606.20572v1 Announce Type: new \nAbstract: Achieving reliable control of Large Language Models (LLMs) requires a precise, scalable understanding of how they interpret linguistic cues. We introduce a rigorous framework using Shapley values...",
       "tags_zh": [],
       "oneliner": "arXiv:2606.20572v1 Announce Type: new \nAbstract: Achieving reliable control of Large Language Models",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "80cdd40730b8",
-      "title_zh": "Post-Training Recipe, More Than Model Family, Shapes Multi-Agent LLM Conversational Behavior",
-      "summary_zh": "arXiv:2606.20632v1 Announce Type: new \nAbstract: Multi-LLM systems use multiple language models to deliberate, judge each other's outputs, or coordinate as agents. Their value depends on the models producing measurably different conversational...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.20632v1 Announce Type: new \nAbstract: Multi-LLM systems use multiple language models to d",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "645ec6b60492",
-      "title_zh": "EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis",
-      "summary_zh": "arXiv:2606.20650v1 Announce Type: new \nAbstract: Instruction-based controllable speech synthesis enables users to specify emotions through natural language. However, existing approaches often rely on coarse emotion labels and lack explicit...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.20650v1 Announce Type: new \nAbstract: Instruction-based controllable speech synthesis ena",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7614f7638e57",
-      "title_zh": "Specific Domain Ontology Construction Using Large Language Models",
-      "summary_zh": "arXiv:2606.20691v1 Announce Type: new \nAbstract: Ontologies are useful structures to organize and maintain information that can be understood both by humans and systems. However, since their manual crafting is a laborious task, many specific...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.20691v1 Announce Type: new \nAbstract: Ontologies are useful structures to organize and ma",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3af94ff3fcde",
-      "title_zh": "MindAlign: Decoding Inner Speech from fMRI Signals via Multimodal Embedding Alignment under Limited Data",
-      "summary_zh": "arXiv:2606.20696v1 Announce Type: new \nAbstract: Decoding inner speech from non-invasive brain signals remains a fundamental challenge due to the absence of overt linguistic output, limited training data, and large inter-subject variability....",
-      "tags_zh": [
-        "Embedding"
-      ],
-      "oneliner": "arXiv:2606.20696v1 Announce Type: new \nAbstract: Decoding inner speech from non-invasive brain signa",
       "key_facts": [],
       "notable_quote": {
         "text": "",

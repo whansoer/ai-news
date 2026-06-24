@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-23T18:06:54Z",
-  "total": 189,
+  "updated": "2026-06-24T03:49:19Z",
+  "total": 190,
   "new_count": 36,
   "items": [
     {
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-23T18:04:06Z",
+      "published": "2026-06-24T03:46:39Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "published": "2026-06-23T18:04:06Z",
+      "published": "2026-06-24T03:46:39Z",
       "tags": [
         "LLM"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI,...",
-      "published": "2026-06-23T18:04:06Z",
+      "published": "2026-06-24T03:46:39Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -97,7 +97,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "published": "2026-06-23T18:04:06Z",
+      "published": "2026-06-24T03:46:39Z",
       "tags": [
         "Agent",
         "RAG"
@@ -126,7 +126,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "published": "2026-06-23T18:04:06Z",
+      "published": "2026-06-24T03:46:39Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -149,7 +149,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "macOS video editor built for AI",
-      "published": "2026-06-23T18:04:06Z",
+      "published": "2026-06-24T03:46:39Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -172,7 +172,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "from vibe coding to agentic engineering - practice makes claude perfect",
-      "published": "2026-06-23T18:04:06Z",
+      "published": "2026-06-24T03:46:39Z",
       "tags": [
         "Claude",
         "Agent"
@@ -201,7 +201,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "published": "2026-06-23T18:04:06Z",
+      "published": "2026-06-24T03:46:39Z",
       "tags": [
         "Meta",
         "Agent"
@@ -222,6 +222,83 @@
         "Agent"
       ],
       "oneliner": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the"
+    },
+    {
+      "id": "f4682168c863",
+      "title": "Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines",
+      "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Mistral AI released OCR 4 on June 23, 2026, moving from clean text extraction to structured document output. Each block returns a bounding box, a typed classification, and per-page and per-word confidence scores. The model supports 170 languages,...",
+      "published": "2026-06-23T23:43:43Z",
+      "tags": [
+        "Mistral",
+        "Agent",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines",
+      "summary_zh": "Mistral AI released OCR 4 on June 23, 2026, moving from clean text extraction to structured document output. Each block returns a bounding box, a typed classification, and per-page and per-word confidence scores. The model supports 170 languages,...",
+      "tags_zh": [
+        "Mistral",
+        "Agent",
+        "RAG"
+      ],
+      "oneliner": "Mistral AI released OCR 4 on June 23, 2026, moving from clean text extraction to structured document"
+    },
+    {
+      "id": "cf834155c85b",
+      "title": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas",
+      "url": "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Datalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON. It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hallucinating absent fields,...",
+      "published": "2026-06-23T19:35:33Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas",
+      "summary_zh": "Datalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON. It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hallucinating absent fields,...",
+      "tags_zh": [],
+      "oneliner": "Datalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matchin"
+    },
+    {
+      "id": "924df6912486",
+      "title": "How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python",
+      "url": "https://www.marktechpost.com/2026/06/23/how-to-use-nvidia-canary-1b-v2-for-asr-translation-and-automatic-srt-subtitle-export-in-python/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build a multilingual ASR and speech translation pipeline with NVIDIA Canary-1B-v2. We load the model on a GPU-enabled runtime, prepare audio into 16 kHz mono, and run English ASR. We then translate speech into French, German,...",
+      "published": "2026-06-23T18:31:36Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python",
+      "summary_zh": "In this tutorial, we build a multilingual ASR and speech translation pipeline with NVIDIA Canary-1B-v2. We load the model on a GPU-enabled runtime, prepare audio into 16 kHz mono, and run English ASR. We then translate speech into French, German,...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we build a multilingual ASR and speech translation pipeline with NVIDIA Canary-1B-"
     },
     {
       "id": "1948945ee980",
@@ -278,6 +355,29 @@
         "OpenAI"
       ],
       "oneliner": "Omio integrates OpenAI models across its engineering operations to accelerate travel product develop"
+    },
+    {
+      "id": "1b1b1aa40d91",
+      "title": "Helping build shared standards for advanced AI",
+      "url": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "published": "2026-06-23T13:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Helping build shared standards for advanced AI",
+      "summary_zh": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
+      "tags_zh": [],
+      "oneliner": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practi"
     },
     {
       "id": "237e7c87455b",
@@ -458,13 +558,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Post-Training Recipe, More Than Model Family, Shapes Multi-Agent LLM Conversational Behavior",
-      "summary_zh": "arXiv:2606.20632v1 Announce Type: new \nAbstract: Multi-LLM systems use multiple language models to deliberate, judge each other's outputs, or coordinate as agents. Their value depends on the models producing measurably different conversational...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2606.20632v1 Announce Type: new \nAbstract: Multi-LLM systems use multiple language models to d"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "645ec6b60492",
@@ -484,10 +581,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "EmoInstruct-TTS: Dual-Path Instruction-Guided Emotional Speech Synthesis",
-      "summary_zh": "arXiv:2606.20650v1 Announce Type: new \nAbstract: Instruction-based controllable speech synthesis enables users to specify emotions through natural language. However, existing approaches often rely on coarse emotion labels and lack explicit...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.20650v1 Announce Type: new \nAbstract: Instruction-based controllable speech synthesis ena"
+      "oneliner": ""
     },
     {
       "id": "7614f7638e57",
@@ -507,10 +604,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Specific Domain Ontology Construction Using Large Language Models",
-      "summary_zh": "arXiv:2606.20691v1 Announce Type: new \nAbstract: Ontologies are useful structures to organize and maintain information that can be understood both by humans and systems. However, since their manual crafting is a laborious task, many specific...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.20691v1 Announce Type: new \nAbstract: Ontologies are useful structures to organize and ma"
+      "oneliner": ""
     },
     {
       "id": "3af94ff3fcde",
@@ -532,12 +629,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "MindAlign: Decoding Inner Speech from fMRI Signals via Multimodal Embedding Alignment under Limited Data",
-      "summary_zh": "arXiv:2606.20696v1 Announce Type: new \nAbstract: Decoding inner speech from non-invasive brain signals remains a fundamental challenge due to the absence of overt linguistic output, limited training data, and large inter-subject variability....",
-      "tags_zh": [
-        "Embedding"
-      ],
-      "oneliner": "arXiv:2606.20696v1 Announce Type: new \nAbstract: Decoding inner speech from non-invasive brain signa"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "2323cef78ad1",
@@ -4577,75 +4672,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "111f92ff9b35",
-      "title": "How to Build Memory-Efficient Transformers with xFormers Using Packed Sequences, GQA, ALiBi, SwiGLU, and Causal Attention",
-      "url": "https://www.marktechpost.com/2026/06/16/how-to-build-memory-efficient-transformers-with-xformers-using-packed-sequences-gqa-alibi-swiglu-and-causal-attention/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "We implement xFormers, a practical toolkit for fast, memory-efficient Transformer models on GPUs. We validate memory-efficient attention against a standard implementation, then compare speed and memory across sequence lengths. We work through...",
-      "published": "2026-06-17T00:02:25Z",
-      "tags": [
-        "Transformer"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4dd2073282fe",
-      "title": "Agentic Resource Discovery: Let agents search",
-      "url": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-06-17T00:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "916e534ab8d5",
-      "title": "Introducing LifeSciBench",
-      "url": "https://openai.com/index/introducing-life-sci-bench",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "published": "2026-06-17T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
