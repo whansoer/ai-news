@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-24T10:59:03Z",
-  "total": 209,
-  "new_count": 73,
+  "updated": "2026-06-24T18:03:26Z",
+  "total": 208,
+  "new_count": 35,
   "items": [
     {
       "id": "20703a86e2b0",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-24T10:56:27Z",
+      "published": "2026-06-24T18:00:48Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "published": "2026-06-24T10:56:27Z",
+      "published": "2026-06-24T18:00:48Z",
       "tags": [
         "LLM"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-      "published": "2026-06-24T10:56:27Z",
+      "published": "2026-06-24T18:00:48Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -87,7 +87,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent to evaluate and score resumes.",
-      "published": "2026-06-24T10:56:27Z",
+      "published": "2026-06-24T18:00:48Z",
       "tags": [
         "Agent"
       ],
@@ -114,7 +114,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Clone any website with one command using AI coding agents",
-      "published": "2026-06-24T10:56:27Z",
+      "published": "2026-06-24T18:00:48Z",
       "tags": [
         "Agent"
       ],
@@ -141,7 +141,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "published": "2026-06-24T10:56:27Z",
+      "published": "2026-06-24T18:00:48Z",
       "tags": [
         "Meta",
         "Agent"
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-      "published": "2026-06-24T10:56:27Z",
+      "published": "2026-06-24T18:00:48Z",
       "tags": [
         "Agent"
       ],
@@ -197,7 +197,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "published": "2026-06-24T10:56:27Z",
+      "published": "2026-06-24T18:00:48Z",
       "tags": [
         "Google",
         "Agent"
@@ -218,6 +218,36 @@
         "Agent"
       ],
       "oneliner": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a p"
+    },
+    {
+      "id": "8b2159025d9f",
+      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "url": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-24T16:00:13Z",
+      "tags": [
+        "Transformer"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b57f0a5d497a",
+          "924df6912486"
+        ],
+        "score": 7
+      },
+      "title_zh": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
+      "summary_zh": "",
+      "tags_zh": [
+        "Transformer"
+      ],
+      "oneliner": ""
     },
     {
       "id": "a16efe29c379",
@@ -366,14 +396,47 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "8b2159025d9f",
           "924df6912486"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell",
       "summary_zh": "UC San Diego's DFlash replaces autoregressive drafting with a lightweight block diffusion model for speculative decoding. It drafts whole token blocks in a single forward pass and conditions on target hidden features through KV injection. The...",
       "tags_zh": [],
       "oneliner": "UC San Diego's DFlash replaces autoregressive drafting with a lightweight block diffusion model for "
+    },
+    {
+      "id": "24a3a922502a",
+      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "published": "2026-06-24T06:00:00Z",
+      "tags": [
+        "OpenAI",
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "426cbb80fb50",
+          "dbcf88615c7b"
+        ],
+        "score": 7
+      },
+      "title_zh": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+      "summary_zh": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "tags_zh": [
+        "OpenAI",
+        "LLM"
+      ],
+      "oneliner": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performa"
     },
     {
       "id": "5f991b97afc6",
@@ -491,12 +554,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Evaluating LLM Usage for Efficient and Explainable Numerical and Classified Implicit Sentiment Analysis of Product Desirability",
-      "summary_zh": "arXiv:2606.23701v1 Announce Type: new \nAbstract: Qualitative product feedback can reveal nuanced user experiences, but its implicit sentiment is difficult to measure. This paper presents a scalable and interpretable framework that uses large...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.23701v1 Announce Type: new \nAbstract: Qualitative product feedback can reveal nuanced use"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "45b7002505b3",
@@ -516,10 +577,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Ground Then Rank: Revisiting Knowledge-Based VQA with Training-Free Entity Identification",
-      "summary_zh": "arXiv:2606.23881v1 Announce Type: new \nAbstract: Knowledge-Based Visual Question Answering (KB-VQA) requires grounding visual queries to external knowledge beyond directly observable content in images. While recent multi modal large language...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.23881v1 Announce Type: new \nAbstract: Knowledge-Based Visual Question Answering (KB-VQA) "
+      "oneliner": ""
     },
     {
       "id": "ba4f765cf8fb",
@@ -1228,6 +1289,27 @@
       "oneliner": ""
     },
     {
+      "id": "8d09b4f61375",
+      "title": "Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World",
+      "url": "https://huggingface.co/blog/ffasr-leaderboard",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-24T00:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "f4682168c863",
       "title": "Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines",
       "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
@@ -1293,9 +1375,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "8b2159025d9f",
           "b57f0a5d497a"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1345,9 +1428,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "24a3a922502a",
           "dbcf88615c7b"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1469,9 +1553,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "24a3a922502a",
           "426cbb80fb50"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4960,10 +5045,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "5b4c58f4f7e0",
-          "a09f37d2d3dd"
+          "5b4c58f4f7e0"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5036,105 +5120,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "eb4a69122c5e",
-      "title": "Vercel Releases Eve: An Open-Source AI Agent Framework Where Each Agent is a Directory of Files Mapped to Capabilities",
-      "url": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Vercel has open-sourced eve, an Apache-2.0 agent framework now in public preview. An agent is a directory of files, with durable execution, sandboxes, approvals, connections, channels, and evals built in. Scaffold with npx eve@latest init and...",
-      "published": "2026-06-17T17:22:51Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4630c466154f",
-      "title": "MolmoMotion: Language-guided 3D motion forecasting",
-      "url": "https://huggingface.co/blog/allenai/molmomotion",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-06-17T15:26:44Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0af1478cb097",
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "published": "2026-06-17T15:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f159d0a58e6d",
-      "title": "Google Cloud generative AI automates council planning operations",
-      "url": "https://www.artificialintelligence-news.com/news/google-cloud-generative-ai-automates-council-planning-operations/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Government ministries are deploying Google Cloud generative AI across municipal agencies to automate council planning operations. Public sector administration handles vast volumes of unstructured data that delay infrastructure development. The UK...",
-      "published": "2026-06-17T10:59:42Z",
-      "tags": [
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "0d45745f806e",
-          "5202b2cad0ef"
-        ],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
