@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-24T18:03:25Z",
-  "count": 120,
+  "updated": "2026-06-25T03:47:58Z",
+  "count": 121,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -7682,6 +7682,70 @@
         }
       },
       "_ts": 1782324205
+    },
+    "c916108ac2db435c": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录245篇AI新闻，分类分布：学术研究159篇, 开源项目44篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（66篇）。其中9%的文章有多来源交叉验证。\n\n▸ calesthio /OpenMontage：World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill\n\n▸ ZhuLinsen /daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit\n\n▸ apple /container：A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is \n\n▸ interviewstreet /hiring-agent：AI agent to evaluate and score resumes.\n\n▸ JCodesMore /ai-website-cloner-template：Clone any website with one command using AI coding agents",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "calesthio/OpenMontage",
+            "url": "https://github.com/calesthio/OpenMontage",
+            "why_hot": "单日3719星，Python项目",
+            "stars_today": 3719,
+            "total_stars": 19926
+          },
+          {
+            "full_name": "ZhuLinsen/daily_stock_analysis",
+            "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+            "why_hot": "单日1468星，Python项目",
+            "stars_today": 1468,
+            "total_stars": 48764
+          },
+          {
+            "full_name": "stablyai/orca",
+            "url": "https://github.com/stablyai/orca",
+            "why_hot": "单日331星，TypeScript项目",
+            "stars_today": 331,
+            "total_stars": 6911
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "245"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+8870"
+          }
+        ],
+        "must_read_ids": [
+          "20703a86e2b0",
+          "4ec6d5af71ee",
+          "f6b90900bc49",
+          "4a703dff9c32",
+          "cdf1702f364a"
+        ],
+        "text": "今日共收录245篇AI新闻，分类分布：学术研究159篇, 开源项目44篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（66篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "calesthio /OpenMontage",
+          "ZhuLinsen /daily_stock_analysis",
+          "apple /container",
+          "interviewstreet /hiring-agent",
+          "JCodesMore /ai-website-cloner-template"
+        ],
+        "meta": {
+          "total_articles": 245,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1782359278
     }
   }
 }
