@@ -1,7 +1,22 @@
 {
-  "updated": "2026-06-25T03:47:58Z",
+  "updated": "2026-06-25T10:51:07Z",
   "total": 20,
   "items": [
+    {
+      "id": "8fcbd3d83192",
+      "title_zh": "google-labs-code /design.md",
+      "summary_zh": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "tags_zh": [
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a p",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "20703a86e2b0",
       "title_zh": "calesthio /OpenMontage",
@@ -17,13 +32,14 @@
       }
     },
     {
-      "id": "4ec6d5af71ee",
-      "title_zh": "ZhuLinsen /daily_stock_analysis",
-      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "id": "2e659dc15da0",
+      "title_zh": "xbtlin /ai-berkshire",
+      "summary_zh": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
       "tags_zh": [
-        "LLM"
+        "Claude",
+        "Agent"
       ],
-      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
+      "oneliner": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inv",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -36,20 +52,6 @@
       "summary_zh": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
       "tags_zh": [],
       "oneliner": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4a703dff9c32",
-      "title_zh": "interviewstreet /hiring-agent",
-      "summary_zh": "AI agent to evaluate and score resumes.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "AI agent to evaluate and score resumes.",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -71,28 +73,13 @@
       }
     },
     {
-      "id": "38bb6a600df0",
-      "title_zh": "revfactory /harness",
-      "summary_zh": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "tags_zh": [
-        "Meta",
-        "Agent"
-      ],
-      "oneliner": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d7dc32f00be2",
-      "title_zh": "stablyai /orca",
-      "summary_zh": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "id": "fef947109115",
+      "title_zh": "aws /agent-toolkit-for-aws",
+      "summary_zh": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subs",
+      "oneliner": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -100,111 +87,16 @@
       }
     },
     {
-      "id": "8fcbd3d83192",
-      "title_zh": "google-labs-code /design.md",
-      "summary_zh": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "id": "ebc3b4fe22b6",
+      "title_zh": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "summary_zh": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI,...",
       "tags_zh": [
-        "Google",
-        "Agent"
-      ],
-      "oneliner": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a p",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "250ed2158682",
-      "title_zh": "Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on Accuracy and Latency",
-      "summary_zh": "Gradium released two real-time speech translation models, stt-translate and s2s-translate, covering English, French, German, Spanish, and Portuguese across 20 language pairs. The models collapse the standard three-model cascade into two, pairing...",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "Gradium released two real-time speech translation models, stt-translate and s2s-translate, covering ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6bcc7cbbb793",
-      "title_zh": "How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination",
-      "summary_zh": "In this tutorial, we build an OpenHarness style agent harness from scratch to see how a practical agent system works. We recreate the core building blocks: tool use, typed tool schemas, permissions, lifecycle hooks, memory, skills, context...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "In this tutorial, we build an OpenHarness style agent harness from scratch to see how a practical ag",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "8b2159025d9f",
-      "title_zh": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "summary_zh": "",
-      "tags_zh": [
-        "Transformer"
-      ],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a16efe29c379",
-      "title_zh": "Samsung opens ChatGPT Enterprise and Codex access after AI restrictions",
-      "summary_zh": "Samsung Electronics is expanding employee access to ChatGPT Enterprise and Codex, giving staff wider use of AI tools for technical and non-technical work. According to OpenAI, the deployment covers all Samsung Electronics employees in Korea and...",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "Samsung Electronics is expanding employee access to ChatGPT Enterprise and Codex, giving staff wider",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "8e7819c0764b",
-      "title_zh": "Using Graphify and NetworkX to Map Python Codebase Structure with God Nodes, Communities, and Architecture Visualizations",
-      "summary_zh": "In this tutorial, we build a fully offline Graphify pipeline that turns a multi-module Python application into a knowledge graph. We install Graphify, generate a connected sample app, and extract the graph locally using tree-sitter, with no API...",
-      "tags_zh": [],
-      "oneliner": "In this tutorial, we build a fully offline Graphify pipeline that turns a multi-module Python applic",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5f8702d86594",
-      "title_zh": "Nous Research Adds /learn to Hermes Agent’s Skills System, Capturing Workflows as Slash Commands Without Hand-Writing SKILL.md",
-      "summary_zh": "Nous Research has added /learn to the Hermes Agent Skills System. The command authors a standards-compliant SKILL.md from a local directory, a doc URL, a past conversation, or pasted notes. The live agent sources the material with its own tools,...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Nous Research has added /learn to the Hermes Agent Skills System. The command authors a standards-co",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7a0ffc70bc31",
-      "title_zh": "Anthropic drops ‘workplace AI agents’ directly inside Slack",
-      "summary_zh": "Anthropic&#160;launched&#160;a beta version of its Claude Tag feature for Enterprise and Team tiers, shifting its chat model into shared Slack channels. Moving away from traditional isolated chat boxes, users pull the artificial intelligence...",
-      "tags_zh": [
+        "Claude",
+        "Gemini",
         "Anthropic",
         "Agent"
       ],
-      "oneliner": "Anthropic&#160;launched&#160;a beta version of its Claude Tag feature for Enterprise and Team tiers,",
+      "oneliner": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -212,38 +104,65 @@
       }
     },
     {
-      "id": "b75aa93c32ba",
-      "title_zh": "16 Best Generative AI Coding Tools in 2026 Compared: Features, and Best Fit",
-      "summary_zh": "Generative AI has reshaped how software gets built. What began as line-by-line autocomplete now spans full application generation, multi-agent build pipelines, and natural-language interfaces to entire codebases. Large language models trained on...",
-      "tags_zh": [],
-      "oneliner": "Generative AI has reshaped how software gets built. What began as line-by-line autocomplete now span",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b57f0a5d497a",
-      "title_zh": "DFlash Speculative Decoding Drafts Whole Token Blocks in Parallel for Up to 15x Higher Throughput on NVIDIA Blackwell",
-      "summary_zh": "UC San Diego's DFlash replaces autoregressive drafting with a lightweight block diffusion model for speculative decoding. It drafts whole token blocks in a single forward pass and conditions on target hidden features through KV injection. The...",
-      "tags_zh": [],
-      "oneliner": "UC San Diego's DFlash replaces autoregressive drafting with a lightweight block diffusion model for ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "24a3a922502a",
-      "title_zh": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "summary_zh": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
+      "id": "d8d54e4bd4f0",
+      "title_zh": "alibaba /page-agent",
+      "summary_zh": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "tags_zh": [
-        "OpenAI",
+        "Agent"
+      ],
+      "oneliner": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "beb8eaf07e31",
+      "title_zh": "The math behind the OpenAI Jalapeño chip",
+      "summary_zh": "OpenAI’s financial trajectory hinges heavily on infrastructure costs, a reality that drove the development of the new custom OpenAI Jalapeño chip. Developed in collaboration with Broadcom, the application-specific integrated circuit (ASIC)...",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "OpenAI’s financial trajectory hinges heavily on infrastructure costs, a reality that drove the devel",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c51a2cdd9a6c",
+      "title_zh": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing",
+      "summary_zh": "Baidu open-sourced Unlimited OCR, a 3B-parameter MoE model that parses dozens of document pages in a single forward pass. Its Reference Sliding Window Attention (R-SWA) holds the KV cache constant, so memory and latency stay flat as output grows....",
+      "tags_zh": [],
+      "oneliner": "Baidu open-sourced Unlimited OCR, a 3B-parameter MoE model that parses dozens of document pages in a",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "abcd0e6948ef",
+      "title_zh": "Graph-Based Phonetic Error Correction of Noisy ASR",
+      "summary_zh": "arXiv:2606.24889v1 Announce Type: new \nAbstract: Automatic speech recognition (ASR) systems, despite low overall word error rates, produce residual lexical errors that disproportionately affect semantically critical tokens such as named entities,...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2606.24889v1 Announce Type: new \nAbstract: Automatic speech recognition (ASR) systems, despite",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c542d78e13ca",
+      "title_zh": "Small edits, large models: How Wikipedia advocacy shapes LLM values",
+      "summary_zh": "arXiv:2606.24890v1 Announce Type: new \nAbstract: Can a small group of volunteers shape how AI systems discuss animal welfare, just by editing Wikipedia? We show that they can. Wikipedia appears in nearly every major language model training...",
+      "tags_zh": [
         "LLM"
       ],
-      "oneliner": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performa",
+      "oneliner": "arXiv:2606.24890v1 Announce Type: new \nAbstract: Can a small group of volunteers shape how AI system",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -251,11 +170,13 @@
       }
     },
     {
-      "id": "5f991b97afc6",
-      "title_zh": "EXPO-SQL: Execution-based Clause-level Policy Optimization for Text-to-SQL",
-      "summary_zh": "arXiv:2606.23693v1 Announce Type: new \nAbstract: Text-to-SQL enables users to query databases using natural language by generating executable SQL queries. Recent methods have increasingly adopted Large Language Models based reinforcement learning...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.23693v1 Announce Type: new \nAbstract: Text-to-SQL enables users to query databases using ",
+      "id": "b98c71b4c094",
+      "title_zh": "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents",
+      "summary_zh": "arXiv:2606.24893v1 Announce Type: new \nAbstract: For agents to learn continuously from interaction with the world at test time, they must be able to explore effectively, acquire new world knowledge and skills, retain relevant episodic...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2606.24893v1 Announce Type: new \nAbstract: For agents to learn continuously from interaction w",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -263,11 +184,89 @@
       }
     },
     {
-      "id": "838a25156ce7",
-      "title_zh": "ModTGCN: Modularity-aware Graph Neural Networks for Text Classification",
-      "summary_zh": "arXiv:2606.23694v1 Announce Type: new \nAbstract: Graph-based text classification models typically rely on local neighborhood aggregation and overlook global community structure, despite semantic document graphs exhibiting strong class-consistent...",
+      "id": "09e1c6d5a9bb",
+      "title_zh": "Error-Aware TF-IDF Retrieval-Augmented Generation for ASR Error Correction",
+      "summary_zh": "arXiv:2606.24915v1 Announce Type: new \nAbstract: End-to-end automatic speech recognition systems frequently hallucinate rare entities and domain-specific terms, especially in low-resource languages. While retrieval-augmented generation frameworks...",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.23694v1 Announce Type: new \nAbstract: Graph-based text classification models typically re",
+      "oneliner": "arXiv:2606.24915v1 Announce Type: new \nAbstract: End-to-end automatic speech recognition systems fre",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ae5be6155418",
+      "title_zh": "Perfect Detection, Failed Control: The Geometry of Knowing vs. Steering in Language Models",
+      "summary_zh": "arXiv:2606.24952v1 Announce Type: new \nAbstract: A central aspiration of mechanistic interpretability is controllability: if we know where a behavior is represented in a model's activations, we should be able to modify it. This rests on a hidden...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2606.24952v1 Announce Type: new \nAbstract: A central aspiration of mechanistic interpretabilit",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bd0455d3c84b",
+      "title_zh": "Dustin: Draft-Augmented Sparse Verification for Efficient Long-Context Generation with Speculative Decoding",
+      "summary_zh": "arXiv:2606.24957v1 Announce Type: new \nAbstract: While speculative decoding improves inference throughput for multi-batch long-context Large Language Models (LLMs), its efficiency is often limited by a verification bottleneck where Key-Value (KV)...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2606.24957v1 Announce Type: new \nAbstract: While speculative decoding improves inference throu",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e5724c57d0c5",
+      "title_zh": "LLM Performance on a Real, Double-Marked GCSE Benchmark",
+      "summary_zh": "arXiv:2606.24973v1 Announce Type: new \nAbstract: We introduce a dataset of 32,534 double-marked real student responses to GCSE mock exams (GCSEs are the UK's national exams, taken at age ~16), spanning 328 questions across five subjects and...",
+      "tags_zh": [
+        "LLM",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2606.24973v1 Announce Type: new \nAbstract: We introduce a dataset of 32,534 double-marked real",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a6046f174bbe",
+      "title_zh": "LLM-Based Scientific Peer Review: Methods, Benchmarks, and Reliability Challenges",
+      "summary_zh": "arXiv:2606.25057v1 Announce Type: new \nAbstract: The rapid growth of scientific submissions has pushed traditional peer review toward its scalability limits, motivating the exploration of large language models (LLMs) as intelligent automated...",
+      "tags_zh": [
+        "LLM",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2606.25057v1 Announce Type: new \nAbstract: The rapid growth of scientific submissions has push",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "fd7e20dfbb01",
+      "title_zh": "Dream at SemEval-2026 Task 13: SALSA for Single-Pass Machine-Generated Code Detection",
+      "summary_zh": "arXiv:2606.25102v1 Announce Type: new \nAbstract: Large language models have transformed code generation, raising concerns around authorship, assessment integrity, and software trust. SemEval-2026 Task 13 Subtask A operationalizes detection as...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2606.25102v1 Announce Type: new \nAbstract: Large language models have transformed code generat",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ae501d907384",
+      "title_zh": "The cognitive, affective, and behavioral expression of self-stigma among people who use drugs in online substance use communities",
+      "summary_zh": "arXiv:2606.25143v1 Announce Type: new \nAbstract: Objectives: To develop a codebook for self-stigma across cognitive, affective, and behavioral domains, and to estimate the prevalence, co-occurrence, and temporal patterns of these indicators in...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2606.25143v1 Announce Type: new \nAbstract: Objectives: To develop a codebook for self-stigma a",
       "key_facts": [],
       "notable_quote": {
         "text": "",

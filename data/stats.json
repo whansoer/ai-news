@@ -1,29 +1,29 @@
 {
-  "updated": "2026-06-25T03:47:49Z",
-  "total": 245,
+  "updated": "2026-06-25T10:50:57Z",
+  "total": 277,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 29
-    },
-    {
-      "name": "Hugging Face",
-      "count": 15
+      "count": 28
     },
     {
       "name": "OpenAI",
+      "count": 15
+    },
+    {
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -42,23 +42,23 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 66
+      "count": 78
     },
     {
       "name": "LLM",
-      "count": 30
-    },
-    {
-      "name": "RAG",
-      "count": 12
+      "count": 35
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 15
+    },
+    {
+      "name": "RAG",
+      "count": 13
     },
     {
       "name": "Google",
-      "count": 10
+      "count": 9
     },
     {
       "name": "GPT",
@@ -66,10 +66,22 @@
     },
     {
       "name": "OpenAI",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Embedding",
+      "count": 5
+    },
+    {
+      "name": "Claude",
+      "count": 4
+    },
+    {
+      "name": "Prompt",
+      "count": 4
+    },
+    {
+      "name": "Diffusion",
       "count": 4
     },
     {
@@ -81,23 +93,11 @@
       "count": 4
     },
     {
-      "name": "Anthropic",
-      "count": 3
-    },
-    {
-      "name": "Diffusion",
-      "count": 3
-    },
-    {
-      "name": "Claude",
-      "count": 3
-    },
-    {
       "name": "Gemini",
       "count": 3
     },
     {
-      "name": "Prompt",
+      "name": "Anthropic",
       "count": 3
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 159
+      "count": 188
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -158,11 +158,11 @@
     },
     {
       "date": "06-24",
-      "count": 47
+      "count": 46
     },
     {
       "date": "06-25",
-      "count": 8
+      "count": 45
     },
     {
       "date": "08-14",
@@ -171,14 +171,20 @@
   ],
   "top10": [
     {
+      "id": "8fcbd3d83192",
+      "title": "google-labs-code /design.md",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "20703a86e2b0",
       "title": "calesthio /OpenMontage",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "4ec6d5af71ee",
-      "title": "ZhuLinsen /daily_stock_analysis",
+      "id": "2e659dc15da0",
+      "title": "xbtlin /ai-berkshire",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -189,44 +195,38 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "4a703dff9c32",
-      "title": "interviewstreet /hiring-agent",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "cdf1702f364a",
       "title": "JCodesMore /ai-website-cloner-template",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "38bb6a600df0",
-      "title": "revfactory /harness",
+      "id": "fef947109115",
+      "title": "aws /agent-toolkit-for-aws",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d7dc32f00be2",
-      "title": "stablyai /orca",
+      "id": "ebc3b4fe22b6",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "8fcbd3d83192",
-      "title": "google-labs-code /design.md",
+      "id": "d8d54e4bd4f0",
+      "title": "alibaba /page-agent",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "250ed2158682",
-      "title": "Gradium Launches stt-translate and s2s-translate, Real-Time Speech Translation Models Beating gpt-realtime-translate on Accuracy and Latency",
+      "id": "beb8eaf07e31",
+      "title": "The math behind the OpenAI Jalapeño chip",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "AI News"
     },
     {
-      "id": "6bcc7cbbb793",
-      "title": "How to Design an OpenHarness Style Agent Runtime with Tools, Memory, Permissions, Skills, and Multi-Agent Coordination",
+      "id": "c51a2cdd9a6c",
+      "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing",
       "score": 5,
       "source": "MarkTechPost"
     }
