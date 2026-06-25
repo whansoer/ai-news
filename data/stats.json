@@ -1,26 +1,22 @@
 {
-  "updated": "2026-06-25T10:50:57Z",
-  "total": 277,
+  "updated": "2026-06-25T18:20:26Z",
+  "total": 242,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "GitHub Trending",
-      "count": 32
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 28
-    },
-    {
-      "name": "OpenAI",
-      "count": 15
+      "count": 27
     },
     {
       "name": "Hugging Face",
@@ -31,8 +27,12 @@
       "count": 15
     },
     {
+      "name": "OpenAI",
+      "count": 15
+    },
+    {
       "name": "AI News",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Synced",
@@ -42,19 +42,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 78
+      "count": 67
     },
     {
       "name": "LLM",
-      "count": 35
-    },
-    {
-      "name": "Benchmark",
-      "count": 15
+      "count": 31
     },
     {
       "name": "RAG",
-      "count": 13
+      "count": 11
+    },
+    {
+      "name": "Benchmark",
+      "count": 10
     },
     {
       "name": "Google",
@@ -65,15 +65,11 @@
       "count": 6
     },
     {
-      "name": "OpenAI",
-      "count": 5
-    },
-    {
-      "name": "Embedding",
-      "count": 5
-    },
-    {
       "name": "Claude",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
       "count": 4
     },
     {
@@ -85,7 +81,7 @@
       "count": 4
     },
     {
-      "name": "API",
+      "name": "Embedding",
       "count": 4
     },
     {
@@ -97,16 +93,20 @@
       "count": 3
     },
     {
-      "name": "Anthropic",
+      "name": "API",
       "count": 3
     },
     {
-      "name": "Meta",
+      "name": "Anthropic",
       "count": 2
     },
     {
       "name": "Transformer",
       "count": 2
+    },
+    {
+      "name": "Meta",
+      "count": 1
     },
     {
       "name": "Mistral",
@@ -115,20 +115,16 @@
     {
       "name": "Qwen",
       "count": 1
-    },
-    {
-      "name": "Microsoft",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 188
+      "count": 157
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -136,7 +132,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 10
     }
   ],
   "dailyTrend": [
@@ -162,7 +158,7 @@
     },
     {
       "date": "06-25",
-      "count": 45
+      "count": 47
     },
     {
       "date": "08-14",
@@ -219,16 +215,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "beb8eaf07e31",
-      "title": "The math behind the OpenAI Jalapeño chip",
+      "id": "8c2366641dc3",
+      "title": "Which tokens does a hybrid model predict better?",
       "score": 5,
-      "source": "AI News"
+      "source": "Hugging Face"
     },
     {
-      "id": "c51a2cdd9a6c",
-      "title": "Baidu Releases Unlimited OCR, a 3B Model That Keeps the KV Cache Flat for Long-Document Parsing",
+      "id": "235f1239691f",
+      "title": "Our latest Google Finance upgrades, including a new app",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "Google AI"
     }
   ]
 }

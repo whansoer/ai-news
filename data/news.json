@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-25T10:51:07Z",
-  "total": 206,
-  "new_count": 71,
+  "updated": "2026-06-25T18:20:36Z",
+  "total": 204,
+  "new_count": 36,
   "items": [
     {
       "id": "8fcbd3d83192",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "published": "2026-06-25T10:48:22Z",
+      "published": "2026-06-25T18:17:50Z",
       "tags": [
         "Google",
         "Agent"
@@ -20,9 +20,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "235f1239691f"
+        ],
+        "score": 5
       },
       "title_zh": "google-labs-code /design.md",
       "summary_zh": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
@@ -39,7 +41,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-25T10:48:22Z",
+      "published": "2026-06-25T18:17:50Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +68,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "published": "2026-06-25T10:48:22Z",
+      "published": "2026-06-25T18:17:50Z",
       "tags": [
         "Claude",
         "Agent"
@@ -95,7 +97,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-      "published": "2026-06-25T10:48:22Z",
+      "published": "2026-06-25T18:17:50Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -118,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Clone any website with one command using AI coding agents",
-      "published": "2026-06-25T10:48:22Z",
+      "published": "2026-06-25T18:17:50Z",
       "tags": [
         "Agent"
       ],
@@ -145,7 +147,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-      "published": "2026-06-25T10:48:22Z",
+      "published": "2026-06-25T18:17:50Z",
       "tags": [
         "Agent"
       ],
@@ -172,7 +174,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI,...",
-      "published": "2026-06-25T10:48:22Z",
+      "published": "2026-06-25T18:17:50Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -205,7 +207,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-      "published": "2026-06-25T10:48:22Z",
+      "published": "2026-06-25T18:17:50Z",
       "tags": [
         "Agent"
       ],
@@ -224,6 +226,58 @@
         "Agent"
       ],
       "oneliner": "JavaScript in-page GUI agent. Control web interfaces with natural language."
+    },
+    {
+      "id": "8c2366641dc3",
+      "title": "Which tokens does a hybrid model predict better?",
+      "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-25T16:11:42Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Which tokens does a hybrid model predict better?",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "235f1239691f",
+      "title": "Our latest Google Finance upgrades, including a new app",
+      "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "The Google Finance logo, surrounded by elements of the user interface",
+      "published": "2026-06-25T16:00:00Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "8fcbd3d83192"
+        ],
+        "score": 5
+      },
+      "title_zh": "Our latest Google Finance upgrades, including a new app",
+      "summary_zh": "The Google Finance logo, surrounded by elements of the user interface",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "The Google Finance logo, surrounded by elements of the user interface"
     },
     {
       "id": "beb8eaf07e31",
@@ -497,10 +551,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Dream at SemEval-2026 Task 13: SALSA for Single-Pass Machine-Generated Code Detection",
-      "summary_zh": "arXiv:2606.25102v1 Announce Type: new \nAbstract: Large language models have transformed code generation, raising concerns around authorship, assessment integrity, and software trust. SemEval-2026 Task 13 Subtask A operationalizes detection as...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.25102v1 Announce Type: new \nAbstract: Large language models have transformed code generat"
+      "oneliner": ""
     },
     {
       "id": "ae501d907384",
@@ -520,10 +574,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "The cognitive, affective, and behavioral expression of self-stigma among people who use drugs in online substance use communities",
-      "summary_zh": "arXiv:2606.25143v1 Announce Type: new \nAbstract: Objectives: To develop a codebook for self-stigma across cognitive, affective, and behavioral domains, and to estimate the prevalence, co-occurrence, and temporal patterns of these indicators in...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2606.25143v1 Announce Type: new \nAbstract: Objectives: To develop a codebook for self-stigma a"
+      "oneliner": ""
     },
     {
       "id": "5b94d2458383",
@@ -3177,11 +3231,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "3aae55941127"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4785,11 +4837,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "5202b2cad0ef"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4961,102 +5011,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "63333d90a8a4",
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "url": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-06-18T18:13:13Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a55ebd412e31",
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "url": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "published": "2026-06-18T17:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "32d55aeeaa5f",
-      "title": "Computer vision deployments drive retail productivity gains",
-      "url": "https://www.artificialintelligence-news.com/news/computer-vision-deployments-drive-retail-productivity-gains/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Computer vision deployments are driving retail productivity gains as operators automate physical shelf tracking to protect eroding margins. This hardware deployment directly addresses the persistent in-store execution failures currently costing...",
-      "published": "2026-06-18T15:57:46Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ad2ec02b5ba7",
-      "title": "Improving health intelligence in ChatGPT",
-      "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "published": "2026-06-18T11:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
