@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-25T18:20:36Z",
+  "updated": "2026-06-26T03:57:22Z",
   "total": 204,
-  "new_count": 36,
+  "new_count": 38,
   "items": [
     {
       "id": "8fcbd3d83192",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "published": "2026-06-25T18:17:50Z",
+      "published": "2026-06-26T03:54:41Z",
       "tags": [
         "Google",
         "Agent"
@@ -41,7 +41,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-06-25T18:17:50Z",
+      "published": "2026-06-26T03:54:41Z",
       "tags": [
         "Agent"
       ],
@@ -68,7 +68,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "published": "2026-06-25T18:17:50Z",
+      "published": "2026-06-26T03:54:41Z",
       "tags": [
         "Claude",
         "Agent"
@@ -97,7 +97,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-      "published": "2026-06-25T18:17:50Z",
+      "published": "2026-06-26T03:54:41Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Clone any website with one command using AI coding agents",
-      "published": "2026-06-25T18:17:50Z",
+      "published": "2026-06-26T03:54:41Z",
       "tags": [
         "Agent"
       ],
@@ -147,7 +147,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-      "published": "2026-06-25T18:17:50Z",
+      "published": "2026-06-26T03:54:41Z",
       "tags": [
         "Agent"
       ],
@@ -174,7 +174,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI,...",
-      "published": "2026-06-25T18:17:50Z",
+      "published": "2026-06-26T03:54:41Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -199,6 +199,33 @@
         "Agent"
       ],
       "oneliner": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2"
+    },
+    {
+      "id": "61fe0e4252ae",
+      "title": "Run a vLLM Server on HF Jobs in One Command",
+      "url": "https://huggingface.co/blog/vllm-jobs",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-06-26T00:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Run a vLLM Server on HF Jobs in One Command",
+      "summary_zh": "",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": ""
     },
     {
       "id": "d8d54e4bd4f0",
@@ -226,6 +253,29 @@
         "Agent"
       ],
       "oneliner": "JavaScript in-page GUI agent. Control web interfaces with natural language."
+    },
+    {
+      "id": "0d285534684f",
+      "title": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
+      "url": "https://www.marktechpost.com/2026/06/25/deepreinforce-releases-ornith-1-0-an-open-source-coding-model-family-that-learns-its-own-rl-scaffolds/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "DeepReinforce released Ornith-1.0, an open-source coding model family built on Gemma 4 and Qwen 3.5. Instead of a fixed harness, the model learns its own scaffold during reinforcement learning. The 397B flagship reports 82.4 on SWE-Bench...",
+      "published": "2026-06-25T17:11:37Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
+      "summary_zh": "DeepReinforce released Ornith-1.0, an open-source coding model family built on Gemma 4 and Qwen 3.5. Instead of a fixed harness, the model learns its own scaffold during reinforcement learning. The 397B flagship reports 82.4 on SWE-Bench...",
+      "tags_zh": [],
+      "oneliner": "DeepReinforce released Ornith-1.0, an open-source coding model family built on Gemma 4 and Qwen 3.5."
     },
     {
       "id": "8c2366641dc3",
@@ -496,13 +546,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "LLM Performance on a Real, Double-Marked GCSE Benchmark",
-      "summary_zh": "arXiv:2606.24973v1 Announce Type: new \nAbstract: We introduce a dataset of 32,534 double-marked real student responses to GCSE mock exams (GCSEs are the UK's national exams, taken at age ~16), spanning 328 questions across five subjects and...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.24973v1 Announce Type: new \nAbstract: We introduce a dataset of 32,534 double-marked real"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "a6046f174bbe",
@@ -525,13 +572,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "LLM-Based Scientific Peer Review: Methods, Benchmarks, and Reliability Challenges",
-      "summary_zh": "arXiv:2606.25057v1 Announce Type: new \nAbstract: The rapid growth of scientific submissions has pushed traditional peer review toward its scalability limits, motivating the exploration of large language models (LLMs) as intelligent automated...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.25057v1 Announce Type: new \nAbstract: The rapid growth of scientific submissions has push"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "fd7e20dfbb01",
@@ -4963,54 +5007,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5fbab351a3f1",
-      "title": "Salesforce CodeGen Tutorial: Generate, Validate, and Rerank Python Functions With Unit Tests and Safety Checks",
-      "url": "https://www.marktechpost.com/2026/06/18/salesforce-codegen-tutorial-generate-validate-and-rerank-python-functions-with-unit-tests-and-safety-checks/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "We implement an end-to-end workflow for Salesforce CodeGen, loaded from Hugging Face. We move past basic inference by adding function extraction, syntax checking, static safety checks, and unit-test validation. We rerank best-of-N candidates,...",
-      "published": "2026-06-19T02:44:12Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b5c950f5b9df",
-      "title": "Perplexity Launches Brain, a Self-Improving Memory System That Builds a Context Graph of an Agent’s Work and Learns Overnight",
-      "url": "https://www.marktechpost.com/2026/06/18/perplexity-launches-brain/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Perplexity has launched Brain, a self-improving memory system for its Computer agent. Instead of remembering the user, Brain remembers the agent's work — what worked, what failed, and what corrections got made. It builds a traceable context...",
-      "published": "2026-06-18T20:26:20Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
