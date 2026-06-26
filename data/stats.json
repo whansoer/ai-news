@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T10:58:33Z",
-  "total": 275,
+  "updated": "2026-06-26T17:57:50Z",
+  "total": 274,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -16,7 +16,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 27
+    },
+    {
+      "name": "OpenAI",
+      "count": 15
     },
     {
       "name": "Hugging Face",
@@ -24,10 +28,6 @@
     },
     {
       "name": "Google AI",
-      "count": 15
-    },
-    {
-      "name": "OpenAI",
       "count": 15
     },
     {
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 74
+      "count": 73
     },
     {
       "name": "LLM",
@@ -61,11 +61,11 @@
       "count": 11
     },
     {
-      "name": "Diffusion",
-      "count": 6
+      "name": "GPT",
+      "count": 7
     },
     {
-      "name": "GPT",
+      "name": "Diffusion",
       "count": 6
     },
     {
@@ -73,15 +73,11 @@
       "count": 5
     },
     {
-      "name": "OpenAI",
-      "count": 5
-    },
-    {
       "name": "Claude",
       "count": 4
     },
     {
-      "name": "Embedding",
+      "name": "OpenAI",
       "count": 4
     },
     {
@@ -93,12 +89,16 @@
       "count": 3
     },
     {
-      "name": "Anthropic",
+      "name": "Embedding",
       "count": 3
     },
     {
       "name": "API",
       "count": 3
+    },
+    {
+      "name": "Anthropic",
+      "count": 2
     },
     {
       "name": "Meta",
@@ -115,16 +115,12 @@
     {
       "name": "Qwen",
       "count": 1
-    },
-    {
-      "name": "Microsoft",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 188
+      "count": 187
     },
     {
       "name": "开源项目",
@@ -162,7 +158,7 @@
     },
     {
       "date": "06-26",
-      "count": 40
+      "count": 45
     },
     {
       "date": "08-14",
@@ -177,14 +173,38 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "20703a86e2b0",
-      "title": "calesthio /OpenMontage",
+      "id": "09f8f4783352",
+      "title": "commaai /openpilot",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "0882c05ca703",
+      "title": "opendatalab /MinerU",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "363277e281d4",
+      "title": "alchaincyf /zhangxuefeng-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
       "id": "2e659dc15da0",
       "title": "xbtlin /ai-berkshire",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f7fedc0ec6cb",
+      "title": "SAP aligns commerce data for AI personalisation",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "20703a86e2b0",
+      "title": "calesthio /OpenMontage",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -205,30 +225,6 @@
       "title": "aws /agent-toolkit-for-aws",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "ebc3b4fe22b6",
-      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "4b1522e8a865",
-      "title": "Meet container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "e094029e5ad2",
-      "title": "Build a Nanobot-Style AI Agent in Google Colab with Tool Calling, Session Memory, Skills, and MCP Servers",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "6e5a6be6de03",
-      "title": "HierBias: Context-Conditioned Hierarchical Media Bias Detection with Multi-Task Type Classification",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
