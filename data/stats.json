@@ -1,14 +1,14 @@
 {
-  "updated": "2026-06-26T03:57:13Z",
-  "total": 242,
+  "updated": "2026-06-26T10:58:33Z",
+  "total": 275,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "GitHub Trending",
@@ -31,53 +31,53 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 9
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 67
+      "count": 74
     },
     {
       "name": "LLM",
-      "count": 32
+      "count": 41
+    },
+    {
+      "name": "Benchmark",
+      "count": 12
+    },
+    {
+      "name": "Google",
+      "count": 11
     },
     {
       "name": "RAG",
       "count": 11
     },
     {
-      "name": "Benchmark",
-      "count": 10
-    },
-    {
-      "name": "Google",
-      "count": 9
+      "name": "Diffusion",
+      "count": 6
     },
     {
       "name": "GPT",
       "count": 6
     },
     {
-      "name": "Claude",
-      "count": 4
+      "name": "Prompt",
+      "count": 5
     },
     {
       "name": "OpenAI",
-      "count": 4
+      "count": 5
     },
     {
-      "name": "Prompt",
-      "count": 4
-    },
-    {
-      "name": "Diffusion",
+      "name": "Claude",
       "count": 4
     },
     {
@@ -93,20 +93,20 @@
       "count": 3
     },
     {
+      "name": "Anthropic",
+      "count": 3
+    },
+    {
       "name": "API",
       "count": 3
     },
     {
-      "name": "Anthropic",
+      "name": "Meta",
       "count": 2
     },
     {
       "name": "Transformer",
       "count": 2
-    },
-    {
-      "name": "Meta",
-      "count": 1
     },
     {
       "name": "Mistral",
@@ -115,12 +115,16 @@
     {
       "name": "Qwen",
       "count": 1
+    },
+    {
+      "name": "Microsoft",
+      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 158
+      "count": 188
     },
     {
       "name": "开源项目",
@@ -132,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -158,7 +162,7 @@
     },
     {
       "date": "06-26",
-      "count": 8
+      "count": 40
     },
     {
       "date": "08-14",
@@ -209,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "61fe0e4252ae",
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "d8d54e4bd4f0",
-      "title": "alibaba /page-agent",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "0d285534684f",
-      "title": "DeepReinforce Releases Ornith-1.0: An Open-Source Coding Model Family That Learns Its Own RL Scaffolds",
+      "id": "4b1522e8a865",
+      "title": "Meet container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon",
       "score": 5,
       "source": "MarkTechPost"
+    },
+    {
+      "id": "e094029e5ad2",
+      "title": "Build a Nanobot-Style AI Agent in Google Colab with Tool Calling, Session Memory, Skills, and MCP Servers",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "6e5a6be6de03",
+      "title": "HierBias: Context-Conditioned Hierarchical Media Bias Detection with Multi-Task Type Classification",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

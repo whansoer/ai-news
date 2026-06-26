@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-26T03:57:22Z",
-  "count": 124,
+  "updated": "2026-06-26T10:58:43Z",
+  "count": 125,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -7938,6 +7938,70 @@
         }
       },
       "_ts": 1782446242
+    },
+    "8284ee8d9aef46b3": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录275篇AI新闻，分类分布：学术研究188篇, 开源项目45篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（74篇）。其中8%的文章有多来源交叉验证。\n\n▸ google-labs-code /design.md：A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a p\n\n▸ calesthio /OpenMontage：World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skill\n\n▸ xbtlin /ai-berkshire：AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inv\n\n▸ apple /container：A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is \n\n▸ JCodesMore /ai-website-cloner-template：Clone any website with one command using AI coding agents",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "calesthio/OpenMontage",
+            "url": "https://github.com/calesthio/OpenMontage",
+            "why_hot": "单日3434星，Python项目",
+            "stars_today": 3434,
+            "total_stars": 22944
+          },
+          {
+            "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+            "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+            "why_hot": "单日571星，Python项目",
+            "stars_today": 571,
+            "total_stars": 21589
+          },
+          {
+            "full_name": "xbtlin/ai-berkshire",
+            "url": "https://github.com/xbtlin/ai-berkshire",
+            "why_hot": "单日309星，Python项目",
+            "stars_today": 309,
+            "total_stars": 2751
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "275"
+          },
+          {
+            "label": "多源验证率",
+            "value": "8%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+8164"
+          }
+        ],
+        "must_read_ids": [
+          "8fcbd3d83192",
+          "20703a86e2b0",
+          "2e659dc15da0",
+          "f6b90900bc49",
+          "cdf1702f364a"
+        ],
+        "text": "今日共收录275篇AI新闻，分类分布：学术研究188篇, 开源项目45篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（74篇）。其中8%的文章有多来源交叉验证。",
+        "top_items": [
+          "google-labs-code /design.md",
+          "calesthio /OpenMontage",
+          "xbtlin /ai-berkshire",
+          "apple /container",
+          "JCodesMore /ai-website-cloner-template"
+        ],
+        "meta": {
+          "total_articles": 275,
+          "multi_source_pct": 8
+        }
+      },
+      "_ts": 1782471523
     }
   }
 }
