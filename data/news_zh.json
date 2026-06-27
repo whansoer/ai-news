@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T03:40:08Z",
+  "updated": "2026-06-27T10:17:35Z",
   "total": 20,
   "items": [
     {
@@ -65,6 +65,77 @@
         "Agent"
       ],
       "oneliner": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value inv",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "5f02e1cdf56a",
+      "title_zh": "Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read",
+      "summary_zh": "Meta released Astryx, an open-source React design system built on StyleX. It pairs a CSS-variable theme cascade with a CLI and MCP server, so both engineers and AI agents build using the same API. The project is in Beta, MIT-licensed, and grew...",
+      "tags_zh": [
+        "Meta",
+        "Agent"
+      ],
+      "oneliner": "Meta released Astryx, an open-source React design system built on StyleX. It pairs a CSS-variable th",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ad0ae3f28ec6",
+      "title_zh": "Building Supervised Fine-Tuning Data from NVIDIA Open-SWE-Traces: Trajectory Parsing, Patch Analysis, Token Budgets, and Tool-Use Metrics",
+      "summary_zh": "In this tutorial, we work with NVIDIA's Open-SWE-Traces dataset to study agentic software-engineering trajectories for fine-tuning. We stream the data directly from Hugging Face, so we can process it efficiently in Google Colab without...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we work with NVIDIA's Open-SWE-Traces dataset to study agentic software-engineerin",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2d73f272fdef",
+      "title_zh": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
+      "summary_zh": "A Cursor study shows coding agents retrieve known fixes instead of deriving them, inflating SWE-bench Pro scores through runtime contamination.\nThe post Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro...",
+      "tags_zh": [
+        "Agent",
+        "Benchmark"
+      ],
+      "oneliner": "A Cursor study shows coding agents retrieve known fixes instead of deriving them, inflating SWE-benc",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "530505029b15",
+      "title_zh": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
+      "summary_zh": "Perplexity's Computer for Counsel extends Perplexity Computer to legal teams. It routes 20+ models across Midpage, MCP connectors, and Microsoft 365, with cited outputs lawyers can verify.\nThe post Perplexity Launches Computer for Counsel: A...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Perplexity's Computer for Counsel extends Perplexity Computer to legal teams. It routes 20+ models a",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "955b33494118",
+      "title_zh": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
+      "summary_zh": "OpenAI's GPT-5.6 family adds tiered models with max and ultra reasoning. Here is what early-level engineers should know.\nThe post OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access appeared first...",
+      "tags_zh": [
+        "GPT",
+        "OpenAI"
+      ],
+      "oneliner": "OpenAI's GPT-5.6 family adds tiered models with max and ultra reasoning. Here is what early-level en",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -201,74 +272,6 @@
       "summary_zh": "arXiv:2606.26100v1 Announce Type: new \nAbstract: Media bias detection is a critical task for ensuring fair and balanced information dissemination, yet existing sentence-level approaches classify each sentence independently, ignoring...",
       "tags_zh": [],
       "oneliner": "arXiv:2606.26100v1 Announce Type: new \nAbstract: Media bias detection is a critical task for ensurin",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bee928c5e070",
-      "title_zh": "Know2Guess: A Contamination-Aware Multi-Zone Benchmark for Knowledge-Boundary Evaluation in Large Language Models",
-      "summary_zh": "arXiv:2606.26101v1 Announce Type: new \nAbstract: Reliable evaluation of large language models should separate supported answering from unsupported guessing without conflating either with data contamination, prompt idiosyncrasy, or generic refusal...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2606.26101v1 Announce Type: new \nAbstract: Reliable evaluation of large language models should",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a1fc6ad480fd",
-      "title_zh": "Helpfulness Hurts: Domain-Dependent Degradation of Mid-Trained Compassion Values Under Post-Training",
-      "summary_zh": "arXiv:2606.26102v1 Announce Type: new \nAbstract: Standard post-training pipelines apply supervised fine-tuning (SFT) and reinforcement learning (RL) to make language models helpful, but these processes may inadvertently degrade values instilled...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2606.26102v1 Announce Type: new \nAbstract: Standard post-training pipelines apply supervised f",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f2383ccd4358",
-      "title_zh": "Investigating LLM's Problem Solving Capability -- a Study on Statics Questions",
-      "summary_zh": "arXiv:2606.26103v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have rapidly influenced many aspects of society, particularly education, due to their demonstrated ability to complete assignments and examinations across a wide range...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.26103v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have rapidly influence",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "10d177793bf2",
-      "title_zh": "Assert, don't describe: Linguistic features that shift LLM reasoning about animal welfare",
-      "summary_zh": "arXiv:2606.26104v1 Announce Type: new \nAbstract: Animal-welfare advocates produce a lot of writing, and increasingly that writing trains the language models that millions of people then ask about animal welfare. Using vocabulary-matched...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.26104v1 Announce Type: new \nAbstract: Animal-welfare advocates produce a lot of writing, ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a395ab559950",
-      "title_zh": "Context Recycling for Long-Horizon LLM Inference",
-      "summary_zh": "arXiv:2606.26105v1 Announce Type: new \nAbstract: Large language models (LLMs) exhibit strong capabilities in short-context reasoning but degrade in performance over long conversational horizons due to context window limitations and inefficient...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2606.26105v1 Announce Type: new \nAbstract: Large language models (LLMs) exhibit strong capabil",
       "key_facts": [],
       "notable_quote": {
         "text": "",
