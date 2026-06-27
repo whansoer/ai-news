@@ -1,22 +1,22 @@
 {
-  "updated": "2026-06-27T10:17:26Z",
-  "total": 277,
+  "updated": "2026-06-27T17:19:37Z",
+  "total": 247,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 31
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 29
     },
     {
       "name": "OpenAI",
@@ -42,31 +42,27 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 75
+      "count": 69
     },
     {
       "name": "LLM",
-      "count": 41
-    },
-    {
-      "name": "Benchmark",
-      "count": 13
+      "count": 30
     },
     {
       "name": "Google",
       "count": 11
     },
     {
-      "name": "RAG",
+      "name": "Benchmark",
       "count": 11
+    },
+    {
+      "name": "RAG",
+      "count": 9
     },
     {
       "name": "GPT",
       "count": 8
-    },
-    {
-      "name": "Diffusion",
-      "count": 6
     },
     {
       "name": "OpenAI",
@@ -82,6 +78,10 @@
     },
     {
       "name": "DeepSeek",
+      "count": 4
+    },
+    {
+      "name": "Diffusion",
       "count": 4
     },
     {
@@ -116,11 +116,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 159
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 46
     },
     {
       "name": "模型发布",
@@ -150,11 +150,11 @@
     },
     {
       "date": "06-26",
-      "count": 43
+      "count": 42
     },
     {
       "date": "06-27",
-      "count": 7
+      "count": 10
     },
     {
       "date": "08-14",
@@ -163,8 +163,8 @@
   ],
   "top10": [
     {
-      "id": "8fcbd3d83192",
-      "title": "google-labs-code /design.md",
+      "id": "2e659dc15da0",
+      "title": "xbtlin /ai-berkshire",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -173,6 +173,30 @@
       "title": "commaai /openpilot",
       "score": 5,
       "source": "GitHub Trending"
+    },
+    {
+      "id": "8fcbd3d83192",
+      "title": "google-labs-code /design.md",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "26454b4b1f40",
+      "title": "hugohe3 /ppt-master",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "cdf1702f364a",
+      "title": "JCodesMore /ai-website-cloner-template",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5ea2e5ec705b",
+      "title": "DeepSeek Releases DSpark, a Speculative Decoding Framework That Accelerates DeepSeek-V4 Per-User Generation 60–85% Over MTP-1",
+      "score": 5,
+      "source": "MarkTechPost"
     },
     {
       "id": "0882c05ca703",
@@ -187,12 +211,6 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "2e659dc15da0",
-      "title": "xbtlin /ai-berkshire",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "5f02e1cdf56a",
       "title": "Meta’s Astryx Brings a CLI and MCP Server to an Open-Source React Design System Agents Can Read",
       "score": 5,
@@ -201,24 +219,6 @@
     {
       "id": "ad0ae3f28ec6",
       "title": "Building Supervised Fine-Tuning Data from NVIDIA Open-SWE-Traces: Trajectory Parsing, Patch Analysis, Token Budgets, and Tool-Use Metrics",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "2d73f272fdef",
-      "title": "Cursor Study Finds Reward Hacking Inflates Coding-Agent Benchmark Scores on SWE-bench Pro",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "530505029b15",
-      "title": "Perplexity Launches Computer for Counsel: A Multi-Model Agentic Layer for Legal Workflows",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "955b33494118",
-      "title": "OpenAI Previews GPT-5.6 With Sol, Terra, and Luna: Tiered Models, New Reasoning Modes, Limited Access",
       "score": 5,
       "source": "MarkTechPost"
     }
