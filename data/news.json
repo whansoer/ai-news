@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-28T04:03:37Z",
-  "total": 202,
-  "new_count": 39,
+  "updated": "2026-06-28T10:33:54Z",
+  "total": 200,
+  "new_count": 41,
   "items": [
     {
       "id": "2e659dc15da0",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "published": "2026-06-28T04:00:59Z",
+      "published": "2026-06-28T10:31:19Z",
       "tags": [
         "Claude",
         "Agent"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
-      "published": "2026-06-28T04:00:59Z",
+      "published": "2026-06-28T10:31:19Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -62,7 +62,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-      "published": "2026-06-28T04:00:59Z",
+      "published": "2026-06-28T10:31:19Z",
       "tags": [
         "Google",
         "Agent"
@@ -83,6 +83,85 @@
         "Agent"
       ],
       "oneliner": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a p"
+    },
+    {
+      "id": "cdf1702f364a",
+      "title": "JCodesMore /ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Clone any website with one command using AI coding agents",
+      "published": "2026-06-28T10:31:19Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "JCodesMore /ai-website-cloner-template",
+      "summary_zh": "Clone any website with one command using AI coding agents",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Clone any website with one command using AI coding agents"
+    },
+    {
+      "id": "e4ec4fcfaf0d",
+      "title": "Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines",
+      "url": "https://www.marktechpost.com/2026/06/28/building-a-stable-fable-5-traces-workflow-in-colab-parsing-tool-calls-auditing-data-and-training-baselines/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build a stable workflow around the Fable 5 Traces dataset from Hugging Face. We avoid fragile dependencies and manually parse the merged JSONL file to keep Colab reliable. We inspect repository files, normalize tool calls,...",
+      "published": "2026-06-28T07:02:54Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "Building a Stable Fable 5 Traces Workflow in Colab: Parsing Tool Calls, Auditing Data, and Training Baselines",
+      "summary_zh": "In this tutorial, we build a stable workflow around the Fable 5 Traces dataset from Hugging Face. We avoid fragile dependencies and manually parse the merged JSONL file to keep Colab reliable. We inspect repository files, normalize tool calls,...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we build a stable workflow around the Fable 5 Traces dataset from Hugging Face. We"
+    },
+    {
+      "id": "4f84a0b29d81",
+      "title": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference",
+      "url": "https://www.marktechpost.com/2026/06/27/liquid-ai-ships-lfm2-5-230m-with-llama-cpp-mlx-vllm-sglang-and-onnx-support-for-on-device-inference/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Liquid AI released LFM2.5-230M, its smallest model yet. The 230M-parameter, open-weight model runs on-device at 213 tok/s on a Galaxy S25 Ultra and 42 on a Raspberry Pi 5. Built on the LFM2 architecture, it targets tool use and data extraction,...",
+      "published": "2026-06-28T04:58:20Z",
+      "tags": [
+        "Llama",
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Liquid AI Ships LFM2.5-230M with llama.cpp, MLX, vLLM, SGLang, and ONNX Support for On-Device Inference",
+      "summary_zh": "Liquid AI released LFM2.5-230M, its smallest model yet. The 230M-parameter, open-weight model runs on-device at 213 tok/s on a Galaxy S25 Ultra and 42 on a Raspberry Pi 5. Built on the LFM2 architecture, it targets tool use and data extraction,...",
+      "tags_zh": [
+        "Llama",
+        "LLM"
+      ],
+      "oneliner": "Liquid AI released LFM2.5-230M, its smallest model yet. The 230M-parameter, open-weight model runs o"
     },
     {
       "id": "26454b4b1f40",
@@ -106,33 +185,6 @@
       "summary_zh": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
       "tags_zh": [],
       "oneliner": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker not"
-    },
-    {
-      "id": "cdf1702f364a",
-      "title": "JCodesMore /ai-website-cloner-template",
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Clone any website with one command using AI coding agents",
-      "published": "2026-06-28T04:00:59Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "JCodesMore /ai-website-cloner-template",
-      "summary_zh": "Clone any website with one command using AI coding agents",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Clone any website with one command using AI coding agents"
     },
     {
       "id": "5ea2e5ec705b",
@@ -509,12 +561,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Previewing GPT-5.6 Sol: a next-generation model",
-      "summary_zh": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "4b1522e8a865",
@@ -536,10 +586,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Meet container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon",
-      "summary_zh": "Apple released container 1.0, an open-source Swift tool running Linux containers as lightweight virtual machines on Apple silicon.\nThe post Meet container: Apple&#8217;s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Apple released container 1.0, an open-source Swift tool running Linux containers as lightweight virt"
+      "oneliner": ""
     },
     {
       "id": "e094029e5ad2",
@@ -4854,105 +4904,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0280d2e2eaab",
-      "title": "Crawlee for Python: Build a Web Crawling Pipeline with Robots Handling, Link Graphs, and RAG Chunk Export",
-      "url": "https://www.marktechpost.com/2026/06/20/crawlee-for-python-build-a-web-crawling-pipeline-with-robots-handling-link-graphs-and-rag-chunk-export/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we build a complete Crawlee for Python workflow from setup to AI-ready output. We generate a local demo website, then crawl it with BeautifulSoupCrawler, ParselCrawler, and PlaywrightCrawler. We extract titles, metadata, product...",
-      "published": "2026-06-21T06:52:10Z",
-      "tags": [
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "17a133fee8f3",
-      "title": "google-research /timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-06-21T04:23:46Z",
-      "tags": [
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4e4265489a81",
-      "title": "twentyhq /twenty",
-      "url": "https://github.com/twentyhq/twenty",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "The open alternative to Salesforce, designed for AI.",
-      "published": "2026-06-21T04:23:46Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "21a7656e0869",
-      "title": "Kong /insomnia",
-      "url": "https://github.com/Kong/insomnia",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
-      "published": "2026-06-21T04:23:46Z",
-      "tags": [
-        "RAG",
-        "API"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
