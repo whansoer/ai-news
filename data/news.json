@@ -1,8 +1,31 @@
 {
-  "updated": "2026-06-28T10:33:54Z",
-  "total": 200,
-  "new_count": 41,
+  "updated": "2026-06-28T17:22:12Z",
+  "total": 201,
+  "new_count": 36,
   "items": [
+    {
+      "id": "09f8f4783352",
+      "title": "commaai /openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "published": "2026-06-28T17:19:34Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "commaai /openpilot",
+      "summary_zh": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "tags_zh": [],
+      "oneliner": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system o"
+    },
     {
       "id": "2e659dc15da0",
       "title": "xbtlin /ai-berkshire",
@@ -10,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "published": "2026-06-28T10:31:19Z",
+      "published": "2026-06-28T17:19:34Z",
       "tags": [
         "Claude",
         "Agent"
@@ -33,14 +56,16 @@
       "oneliner": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a v"
     },
     {
-      "id": "09f8f4783352",
-      "title": "commaai /openpilot",
-      "url": "https://github.com/commaai/openpilot",
+      "id": "bcb2a34cb3ad",
+      "title": "DeusData /codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
-      "published": "2026-06-28T10:31:19Z",
-      "tags": [],
+      "summary": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "published": "2026-06-28T17:19:34Z",
+      "tags": [
+        "RAG"
+      ],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
@@ -50,10 +75,68 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "commaai /openpilot",
-      "summary_zh": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
-      "tags_zh": [],
-      "oneliner": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system o"
+      "title_zh": "DeusData /codebase-memory-mcp",
+      "summary_zh": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —"
+    },
+    {
+      "id": "0882c05ca703",
+      "title": "opendatalab /MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "published": "2026-06-28T17:19:34Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "opendatalab /MinerU",
+      "summary_zh": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic"
+    },
+    {
+      "id": "3888eecb3f45",
+      "title": "HKUDS /Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "published": "2026-06-28T17:19:34Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "HKUDS /Vibe-Trading",
+      "summary_zh": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "\"Vibe-Trading: Your Personal Trading Agent\""
     },
     {
       "id": "8fcbd3d83192",
@@ -212,35 +295,6 @@
         "DeepSeek"
       ],
       "oneliner": "DeepSeek open-sourced DSpark, a speculative decoding framework that attaches a draft module to exist"
-    },
-    {
-      "id": "0882c05ca703",
-      "title": "opendatalab /MinerU",
-      "url": "https://github.com/opendatalab/MinerU",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
-      "published": "2026-06-27T10:15:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "opendatalab /MinerU",
-      "summary_zh": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic"
     },
     {
       "id": "363277e281d4",
@@ -499,12 +553,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "aws /agent-toolkit-for-aws",
-      "summary_zh": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "ebc3b4fe22b6",
@@ -529,15 +581,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "mukul975 /Anthropic-Cybersecurity-Skills",
-      "summary_zh": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI,...",
-      "tags_zh": [
-        "Claude",
-        "Gemini",
-        "Anthropic",
-        "Agent"
-      ],
-      "oneliner": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "7843b9ea14bc",
@@ -4754,31 +4801,6 @@
       "published": "2026-06-22T04:26:51Z",
       "tags": [
         "LLM",
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "bcb2a34cb3ad",
-      "title": "DeusData /codebase-memory-mcp",
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "published": "2026-06-22T04:26:51Z",
-      "tags": [
         "RAG"
       ],
       "score": 5,
