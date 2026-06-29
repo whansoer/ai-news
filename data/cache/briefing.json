@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-06-28T17:22:12Z",
-  "count": 132,
+  "updated": "2026-06-29T04:01:33Z",
+  "count": 133,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -8450,6 +8450,70 @@
         }
       },
       "_ts": 1782667332
+    },
+    "885d43f401148300": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录241篇AI新闻，分类分布：学术研究159篇, 开源项目40篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（66篇）。其中7%的文章有多来源交叉验证。\n\n▸ commaai /openpilot：openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system o\n\n▸ xbtlin /ai-berkshire：AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a v\n\n▸ DeusData /codebase-memory-mcp：High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph —\n\n▸ opendatalab /MinerU：Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic\n\n▸ HKUDS /Vibe-Trading：\"Vibe-Trading: Your Personal Trading Agent\"",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "DeusData/codebase-memory-mcp",
+            "url": "https://github.com/DeusData/codebase-memory-mcp",
+            "why_hot": "单日2190星，C项目",
+            "stars_today": 2190,
+            "total_stars": 20040
+          },
+          {
+            "full_name": "xbtlin/ai-berkshire",
+            "url": "https://github.com/xbtlin/ai-berkshire",
+            "why_hot": "单日1445星，Python项目",
+            "stars_today": 1445,
+            "total_stars": 5641
+          },
+          {
+            "full_name": "interviewstreet/hiring-agent",
+            "url": "https://github.com/interviewstreet/hiring-agent",
+            "why_hot": "单日0星，Python项目",
+            "stars_today": 0,
+            "total_stars": 3208
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "241"
+          },
+          {
+            "label": "多源验证率",
+            "value": "7%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+3635"
+          }
+        ],
+        "must_read_ids": [
+          "09f8f4783352",
+          "2e659dc15da0",
+          "bcb2a34cb3ad",
+          "0882c05ca703",
+          "3888eecb3f45"
+        ],
+        "text": "今日共收录241篇AI新闻，分类分布：学术研究159篇, 开源项目40篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（66篇）。其中7%的文章有多来源交叉验证。",
+        "top_items": [
+          "commaai /openpilot",
+          "xbtlin /ai-berkshire",
+          "DeusData /codebase-memory-mcp",
+          "opendatalab /MinerU",
+          "HKUDS /Vibe-Trading"
+        ],
+        "meta": {
+          "total_articles": 241,
+          "multi_source_pct": 7
+        }
+      },
+      "_ts": 1782705693
     }
   }
 }
