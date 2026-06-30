@@ -1,22 +1,22 @@
 {
-  "updated": "2026-06-30T03:53:36Z",
-  "total": 273,
+  "updated": "2026-06-30T11:17:16Z",
+  "total": 292,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
-      "name": "GitHub Trending",
-      "count": 28
+      "name": "MarkTechPost",
+      "count": 30
     },
     {
-      "name": "MarkTechPost",
-      "count": 27
+      "name": "GitHub Trending",
+      "count": 29
     },
     {
       "name": "Hugging Face",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 73
+      "count": 76
     },
     {
       "name": "LLM",
-      "count": 39
+      "count": 40
     },
     {
       "name": "Benchmark",
@@ -54,6 +54,14 @@
     },
     {
       "name": "RAG",
+      "count": 10
+    },
+    {
+      "name": "GPT",
+      "count": 8
+    },
+    {
+      "name": "Google",
       "count": 8
     },
     {
@@ -61,16 +69,20 @@
       "count": 7
     },
     {
-      "name": "Google",
-      "count": 7
-    },
-    {
-      "name": "GPT",
-      "count": 7
-    },
-    {
       "name": "Transformer",
-      "count": 5
+      "count": 6
+    },
+    {
+      "name": "Claude",
+      "count": 4
+    },
+    {
+      "name": "Gemini",
+      "count": 4
+    },
+    {
+      "name": "Meta",
+      "count": 4
     },
     {
       "name": "DeepSeek",
@@ -85,15 +97,7 @@
       "count": 4
     },
     {
-      "name": "Claude",
-      "count": 3
-    },
-    {
-      "name": "Meta",
-      "count": 3
-    },
-    {
-      "name": "Gemini",
+      "name": "API",
       "count": 3
     },
     {
@@ -102,10 +106,6 @@
     },
     {
       "name": "Anthropic",
-      "count": 2
-    },
-    {
-      "name": "API",
       "count": 2
     },
     {
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 187
+      "count": 205
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -154,11 +154,11 @@
     },
     {
       "date": "06-29",
-      "count": 43
+      "count": 32
     },
     {
       "date": "06-30",
-      "count": 6
+      "count": 41
     },
     {
       "date": "08-14",
@@ -167,32 +167,20 @@
   ],
   "top10": [
     {
+      "id": "11576ef07d08",
+      "title": "usestrix /strix",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "5dfe15d5980d",
       "title": "msitarzewski /agency-agents",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "32d41bca1d59",
-      "title": "soxoj /maigret",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "09f8f4783352",
-      "title": "commaai /openpilot",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "1f1729780c9b",
-      "title": "logto-io /logto",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "2e659dc15da0",
-      "title": "xbtlin /ai-berkshire",
+      "id": "10942d97d561",
+      "title": "diegosouzapw /OmniRoute",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -203,28 +191,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "7eccecbfa902",
-      "title": "DiScoFormer: One transformer for density and score, across distributions",
+      "id": "2e659dc15da0",
+      "title": "xbtlin /ai-berkshire",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "GitHub Trending"
     },
     {
-      "id": "d2a0fe43f1ac",
-      "title": "Ask an AI expert: What exactly is the full stack?",
+      "id": "f7881b53deff",
+      "title": "google /agents-cli",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7195551038fb",
+      "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "bcdfc8c6057d",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
       "score": 5,
       "source": "Google AI"
     },
     {
-      "id": "6c5efbc7046f",
-      "title": "HP accelerates enterprise workflows with OpenAI Frontier",
+      "id": "83f4dcacc7eb",
+      "title": "AI-Model Network: Concept, Current State and Future",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "6fd1f3ef00f5",
-      "title": "Meet EverOS: An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
+      "id": "dbd9c6f72783",
+      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.AI)"
     }
   ]
 }
