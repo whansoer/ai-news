@@ -1,33 +1,33 @@
 {
-  "updated": "2026-06-30T11:17:16Z",
-  "total": 292,
+  "updated": "2026-06-30T18:04:57Z",
+  "total": 262,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
-      "name": "MarkTechPost",
-      "count": 30
+      "name": "ArXiv (cs.AI)",
+      "count": 60
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 31
+    },
+    {
+      "name": "MarkTechPost",
+      "count": 28
     },
     {
       "name": "Hugging Face",
       "count": 16
     },
     {
-      "name": "Google AI",
+      "name": "OpenAI",
       "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Google AI",
       "count": 15
     },
     {
@@ -42,34 +42,34 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 76
+      "count": 65
     },
     {
       "name": "LLM",
-      "count": 40
+      "count": 36
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 12
     },
     {
       "name": "RAG",
       "count": 10
     },
     {
-      "name": "GPT",
-      "count": 8
-    },
-    {
       "name": "Google",
       "count": 8
     },
     {
-      "name": "OpenAI",
+      "name": "GPT",
       "count": 7
     },
     {
       "name": "Transformer",
+      "count": 6
+    },
+    {
+      "name": "OpenAI",
       "count": 6
     },
     {
@@ -93,19 +93,19 @@
       "count": 4
     },
     {
-      "name": "Prompt",
-      "count": 4
-    },
-    {
       "name": "API",
-      "count": 3
-    },
-    {
-      "name": "Embedding",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Anthropic",
+      "count": 2
+    },
+    {
+      "name": "Prompt",
+      "count": 2
+    },
+    {
+      "name": "Embedding",
       "count": 2
     },
     {
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 205
+      "count": 173
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -158,7 +158,7 @@
     },
     {
       "date": "06-30",
-      "count": 41
+      "count": 49
     },
     {
       "date": "08-14",
@@ -166,6 +166,12 @@
     }
   ],
   "top10": [
+    {
+      "id": "ac45b546f1b9",
+      "title": "hasaneyldrm /exercises-dataset",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "11576ef07d08",
       "title": "usestrix /strix",
@@ -175,6 +181,12 @@
     {
       "id": "5dfe15d5980d",
       "title": "msitarzewski /agency-agents",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "cf22fb2fe760",
+      "title": "altic-dev /FluidVoice",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -203,28 +215,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "7195551038fb",
-      "title": "Meta AI Releases Brain2Qwerty v2: A Non-Invasive MEG Brain-to-Text Pipeline Decoding Typed Sentences at 61% Word Accuracy",
+      "id": "4a099067bc26",
+      "title": "Why Specialization Is Inevitable",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "Hugging Face"
     },
     {
-      "id": "bcdfc8c6057d",
-      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "id": "a0bd493debdd",
+      "title": "How ChatGPT adoption has expanded",
       "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "83f4dcacc7eb",
-      "title": "AI-Model Network: Concept, Current State and Future",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "dbd9c6f72783",
-      "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "OpenAI"
     }
   ]
 }
