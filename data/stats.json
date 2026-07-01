@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-01T04:07:17Z",
-  "total": 290,
+  "updated": "2026-07-01T11:31:43Z",
+  "total": 264,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 31
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 30
     },
     {
       "name": "Hugging Face",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,26 +42,26 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 65
     },
     {
       "name": "LLM",
-      "count": 41
+      "count": 37
     },
     {
       "name": "Benchmark",
-      "count": 15
-    },
-    {
-      "name": "RAG",
-      "count": 11
+      "count": 16
     },
     {
       "name": "Google",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Transformer",
+      "count": 8
+    },
+    {
+      "name": "RAG",
       "count": 8
     },
     {
@@ -69,15 +69,23 @@
       "count": 7
     },
     {
+      "name": "Claude",
+      "count": 5
+    },
+    {
       "name": "OpenAI",
       "count": 5
     },
     {
-      "name": "Claude",
+      "name": "Gemini",
       "count": 4
     },
     {
-      "name": "Gemini",
+      "name": "Anthropic",
+      "count": 4
+    },
+    {
+      "name": "Diffusion",
       "count": 4
     },
     {
@@ -89,8 +97,8 @@
       "count": 4
     },
     {
-      "name": "Diffusion",
-      "count": 4
+      "name": "API",
+      "count": 3
     },
     {
       "name": "Prompt",
@@ -98,33 +106,21 @@
     },
     {
       "name": "Embedding",
-      "count": 3
-    },
-    {
-      "name": "API",
-      "count": 2
-    },
-    {
-      "name": "Anthropic",
       "count": 2
     },
     {
       "name": "Llama",
-      "count": 1
-    },
-    {
-      "name": "Mistral",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 203
+      "count": 175
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 46
     },
     {
       "name": "模型发布",
@@ -132,7 +128,7 @@
     },
     {
       "name": "产品/API",
-      "count": 10
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -150,15 +146,15 @@
     },
     {
       "date": "06-29",
-      "count": 32
+      "count": 31
     },
     {
       "date": "06-30",
-      "count": 42
+      "count": 43
     },
     {
       "date": "07-01",
-      "count": 38
+      "count": 49
     },
     {
       "date": "08-14",
@@ -167,8 +163,8 @@
   ],
   "top10": [
     {
-      "id": "ac45b546f1b9",
-      "title": "hasaneyldrm /exercises-dataset",
+      "id": "5dfe15d5980d",
+      "title": "msitarzewski /agency-agents",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -179,14 +175,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "5dfe15d5980d",
-      "title": "msitarzewski /agency-agents",
+      "id": "3888eecb3f45",
+      "title": "HKUDS /Vibe-Trading",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "cf22fb2fe760",
-      "title": "altic-dev /FluidVoice",
+      "id": "ac45b546f1b9",
+      "title": "hasaneyldrm /exercises-dataset",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "af5e1c06972b",
+      "title": "facebook /astryx",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -197,34 +199,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "3a55db0d85d4",
-      "title": "browser-use /video-use",
+      "id": "7dc28f2cebb2",
+      "title": "allenai /olmocr",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "2e659dc15da0",
-      "title": "xbtlin /ai-berkshire",
+      "id": "1f1729780c9b",
+      "title": "logto-io /logto",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "f7881b53deff",
-      "title": "google /agents-cli",
+      "id": "27ed64f7c2ff",
+      "title": "togatoga /karukan",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "7786979f533d",
-      "title": "A Single Rewrite Suffices: Empirical Lessons from Production Skill Description Optimization",
+      "id": "5a1ca7a069b1",
+      "title": "Japan’s answer to its worker shortage: An AI model for 10 million robots",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "10ca7ee14db6",
-      "title": "Indi-RomCoM: Code-Mixed Benchmark for Evaluating LLMs on Romanized Indic-English Instructions",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "AI News"
     }
   ]
 }
