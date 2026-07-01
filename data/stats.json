@@ -1,14 +1,14 @@
 {
-  "updated": "2026-06-30T18:04:57Z",
-  "total": 262,
+  "updated": "2026-07-01T04:07:17Z",
+  "total": 290,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "GitHub Trending",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Synced",
@@ -42,22 +42,26 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 72
     },
     {
       "name": "LLM",
-      "count": 36
+      "count": 41
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 15
     },
     {
       "name": "RAG",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Google",
+      "count": 8
+    },
+    {
+      "name": "Transformer",
       "count": 8
     },
     {
@@ -65,12 +69,8 @@
       "count": 7
     },
     {
-      "name": "Transformer",
-      "count": 6
-    },
-    {
       "name": "OpenAI",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Claude",
@@ -93,19 +93,19 @@
       "count": 4
     },
     {
+      "name": "Prompt",
+      "count": 3
+    },
+    {
+      "name": "Embedding",
+      "count": 3
+    },
+    {
       "name": "API",
       "count": 2
     },
     {
       "name": "Anthropic",
-      "count": 2
-    },
-    {
-      "name": "Prompt",
-      "count": 2
-    },
-    {
-      "name": "Embedding",
       "count": 2
     },
     {
@@ -120,7 +120,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 173
+      "count": 203
     },
     {
       "name": "开源项目",
@@ -132,14 +132,10 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 10
     }
   ],
   "dailyTrend": [
-    {
-      "date": "06-25",
-      "count": 41
-    },
     {
       "date": "06-26",
       "count": 42
@@ -158,7 +154,11 @@
     },
     {
       "date": "06-30",
-      "count": 49
+      "count": 42
+    },
+    {
+      "date": "07-01",
+      "count": 38
     },
     {
       "date": "08-14",
@@ -215,16 +215,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "4a099067bc26",
-      "title": "Why Specialization Is Inevitable",
+      "id": "7786979f533d",
+      "title": "A Single Rewrite Suffices: Empirical Lessons from Production Skill Description Optimization",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "a0bd493debdd",
-      "title": "How ChatGPT adoption has expanded",
+      "id": "10ca7ee14db6",
+      "title": "Indi-RomCoM: Code-Mixed Benchmark for Evaluating LLMs on Romanized Indic-English Instructions",
       "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

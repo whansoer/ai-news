@@ -1,8 +1,84 @@
 {
   "date": "2026-06-23",
-  "updated": "2026-06-30T18:05:07Z",
-  "total": 42,
+  "updated": "2026-07-01T04:07:26Z",
+  "total": 45,
   "items": [
+    {
+      "id": "f4682168c863",
+      "title": "Mistral OCR 4 Brings Citation-Ready Structured Output to RAG, Agentic, and Enterprise Search Pipelines",
+      "url": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Mistral AI released OCR 4 on June 23, 2026, moving from clean text extraction to structured document output. Each block returns a bounding box, a typed classification, and per-page and per-word confidence scores. The model supports 170 languages,...",
+      "published": "2026-06-23T23:43:43Z",
+      "tags": [
+        "Mistral",
+        "Agent",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "cf834155c85b",
+      "title": "Datalab Releases lift: A 9B Open-Weights Vision Model That Extracts Structured JSON From PDFs Using Schemas",
+      "url": "https://www.marktechpost.com/2026/06/23/datalab-releases-lift-a-9b-open-weights-vision-model-that-extracts-structured-json-from-pdfs-using-schemas/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Datalab released lift, a 9B open-weights vision model that turns PDFs and images into schema-matching JSON. It uses schema-constrained decoding for valid structure and trained abstention to return null instead of hallucinating absent fields,...",
+      "published": "2026-06-23T19:35:33Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "924df6912486",
+      "title": "How to Use NVIDIA Canary-1B-v2 for ASR, Translation, and Automatic SRT Subtitle Export in Python",
+      "url": "https://www.marktechpost.com/2026/06/23/how-to-use-nvidia-canary-1b-v2-for-asr-translation-and-automatic-srt-subtitle-export-in-python/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build a multilingual ASR and speech translation pipeline with NVIDIA Canary-1B-v2. We load the model on a GPU-enabled runtime, prepare audio into 16 kHz mono, and run English ASR. We then translate speech into French, German,...",
+      "published": "2026-06-23T18:31:36Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "8b2159025d9f",
+          "b57f0a5d497a"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "1948945ee980",
       "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
