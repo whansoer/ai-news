@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-02T10:49:11Z",
-  "total": 268,
+  "updated": "2026-07-02T17:58:56Z",
+  "total": 244,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "GitHub Trending",
-      "count": 26
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 24
+      "count": 26
     },
     {
       "name": "Hugging Face",
@@ -42,18 +42,22 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 60
     },
     {
       "name": "LLM",
-      "count": 38
+      "count": 33
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 13
     },
     {
       "name": "Google",
+      "count": 10
+    },
+    {
+      "name": "Claude",
       "count": 9
     },
     {
@@ -62,18 +66,14 @@
     },
     {
       "name": "RAG",
-      "count": 8
+      "count": 7
+    },
+    {
+      "name": "Anthropic",
+      "count": 5
     },
     {
       "name": "GPT",
-      "count": 5
-    },
-    {
-      "name": "Claude",
-      "count": 5
-    },
-    {
-      "name": "OpenAI",
       "count": 5
     },
     {
@@ -81,7 +81,11 @@
       "count": 4
     },
     {
-      "name": "Diffusion",
+      "name": "API",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
       "count": 4
     },
     {
@@ -89,15 +93,7 @@
       "count": 4
     },
     {
-      "name": "API",
-      "count": 3
-    },
-    {
-      "name": "Anthropic",
-      "count": 3
-    },
-    {
-      "name": "Prompt",
+      "name": "Diffusion",
       "count": 3
     },
     {
@@ -105,8 +101,12 @@
       "count": 3
     },
     {
-      "name": "Embedding",
+      "name": "Prompt",
       "count": 2
+    },
+    {
+      "name": "Embedding",
+      "count": 1
     },
     {
       "name": "Llama",
@@ -116,11 +116,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 184
+      "count": 156
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 46
     },
     {
       "name": "模型发布",
@@ -150,11 +150,11 @@
     },
     {
       "date": "07-01",
-      "count": 29
+      "count": 30
     },
     {
       "date": "07-02",
-      "count": 39
+      "count": 46
     },
     {
       "date": "08-14",
@@ -163,20 +163,14 @@
   ],
   "top10": [
     {
-      "id": "5dfe15d5980d",
-      "title": "msitarzewski /agency-agents",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "11576ef07d08",
       "title": "usestrix /strix",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "3888eecb3f45",
-      "title": "HKUDS /Vibe-Trading",
+      "id": "5dfe15d5980d",
+      "title": "msitarzewski /agency-agents",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -187,40 +181,46 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "af5e1c06972b",
-      "title": "facebook /astryx",
+      "id": "7b6a865db4d6",
+      "title": "santifer /career-ops",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "10942d97d561",
-      "title": "diegosouzapw /OmniRoute",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "7dc28f2cebb2",
-      "title": "allenai /olmocr",
+      "id": "b4212d4b4d44",
+      "title": "ChromeDevTools /chrome-devtools-mcp",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "1f1729780c9b",
-      "title": "logto-io /logto",
+      "id": "3a55db0d85d4",
+      "title": "browser-use /video-use",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "27ed64f7c2ff",
-      "title": "togatoga /karukan",
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "7786979f533d",
-      "title": "A Single Rewrite Suffices: Empirical Lessons from Production Skill Description Optimization",
+      "id": "0e087038166e",
+      "title": "NVIDIA BioNeMo accelerates Anthropic Claude Science",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "AI News"
+    },
+    {
+      "id": "3888eecb3f45",
+      "title": "HKUDS /Vibe-Trading",
+      "score": 5,
+      "source": "GitHub Trending"
     }
   ]
 }
