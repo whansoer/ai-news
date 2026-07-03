@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-03T10:46:30Z",
-  "count": 147,
+  "updated": "2026-07-03T17:41:39Z",
+  "count": 148,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -9410,6 +9410,70 @@
         }
       },
       "_ts": 1783075590
+    },
+    "11548430d28ee01e": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录256篇AI新闻，分类分布：学术研究168篇, 开源项目46篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（60篇）。其中8%的文章有多来源交叉验证。\n\n▸ usestrix /strix：Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.\n\n▸ openai /codex-plugin-cc：Use Codex from Claude Code to review code or delegate tasks.\n\n▸ ChromeDevTools /chrome-devtools-mcp：Chrome DevTools for coding agents\n\n▸ ansible /ansible：Ansible is a radically simple IT automation platform that makes your applications and systems easier\n\n▸ facebook /astryx：An open source design system that's fully customizable and agent ready",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "usestrix/strix",
+            "url": "https://github.com/usestrix/strix",
+            "why_hot": "单日2804星，Python项目",
+            "stars_today": 2804,
+            "total_stars": 34164
+          },
+          {
+            "full_name": "ogulcancelik/herdr",
+            "url": "https://github.com/ogulcancelik/herdr",
+            "why_hot": "单日513星，Rust项目",
+            "stars_today": 513,
+            "total_stars": 10594
+          },
+          {
+            "full_name": "msitarzewski/agency-agents",
+            "url": "https://github.com/msitarzewski/agency-agents",
+            "why_hot": "单日1202星，Shell项目",
+            "stars_today": 1202,
+            "total_stars": 126344
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "256"
+          },
+          {
+            "label": "多源验证率",
+            "value": "8%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+8942"
+          }
+        ],
+        "must_read_ids": [
+          "11576ef07d08",
+          "e4a469811297",
+          "b4212d4b4d44",
+          "d66865b90c76",
+          "af5e1c06972b"
+        ],
+        "text": "今日共收录256篇AI新闻，分类分布：学术研究168篇, 开源项目46篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（60篇）。其中8%的文章有多来源交叉验证。",
+        "top_items": [
+          "usestrix /strix",
+          "openai /codex-plugin-cc",
+          "ChromeDevTools /chrome-devtools-mcp",
+          "ansible /ansible",
+          "facebook /astryx"
+        ],
+        "meta": {
+          "total_articles": 256,
+          "multi_source_pct": 8
+        }
+      },
+      "_ts": 1783100499
     }
   }
 }

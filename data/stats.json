@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-03T10:46:20Z",
-  "total": 286,
+  "updated": "2026-07-03T17:41:29Z",
+  "total": 256,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 31
     },
     {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 23
     },
     {
       "name": "Google AI",
@@ -42,22 +42,22 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 67
+      "count": 60
     },
     {
       "name": "LLM",
-      "count": 46
+      "count": 37
     },
     {
       "name": "Benchmark",
-      "count": 18
-    },
-    {
-      "name": "Google",
-      "count": 10
+      "count": 16
     },
     {
       "name": "Claude",
+      "count": 10
+    },
+    {
+      "name": "Google",
       "count": 9
     },
     {
@@ -69,7 +69,7 @@
       "count": 7
     },
     {
-      "name": "Diffusion",
+      "name": "OpenAI",
       "count": 5
     },
     {
@@ -85,10 +85,6 @@
       "count": 4
     },
     {
-      "name": "Prompt",
-      "count": 4
-    },
-    {
       "name": "Gemini",
       "count": 4
     },
@@ -97,16 +93,20 @@
       "count": 4
     },
     {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
       "name": "DeepSeek",
       "count": 4
     },
     {
-      "name": "Meta",
+      "name": "Prompt",
       "count": 3
+    },
+    {
+      "name": "Diffusion",
+      "count": 3
+    },
+    {
+      "name": "Meta",
+      "count": 2
     },
     {
       "name": "Llama",
@@ -116,11 +116,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 200
+      "count": 168
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 46
     },
     {
       "name": "模型发布",
@@ -150,11 +150,11 @@
     },
     {
       "date": "07-02",
-      "count": 53
+      "count": 52
     },
     {
       "date": "07-03",
-      "count": 38
+      "count": 41
     },
     {
       "date": "08-14",
@@ -165,6 +165,30 @@
     {
       "id": "11576ef07d08",
       "title": "usestrix /strix",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "e4a469811297",
+      "title": "openai /codex-plugin-cc",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "b4212d4b4d44",
+      "title": "ChromeDevTools /chrome-devtools-mcp",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "d66865b90c76",
+      "title": "ansible /ansible",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "af5e1c06972b",
+      "title": "facebook /astryx",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -193,34 +217,10 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "b4212d4b4d44",
-      "title": "ChromeDevTools /chrome-devtools-mcp",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "3a55db0d85d4",
       "title": "browser-use /video-use",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "33d53cb0c8df",
-      "title": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "2046c618551e",
-      "title": "Safeguarding LLM Agents from Misalignment through Provenance Analysis",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
