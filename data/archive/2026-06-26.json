@@ -1,8 +1,817 @@
 {
   "date": "2026-06-26",
-  "updated": "2026-07-03T03:29:23Z",
-  "total": 1,
+  "updated": "2026-07-03T10:46:30Z",
+  "total": 34,
   "items": [
+    {
+      "id": "7843b9ea14bc",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "published": "2026-06-26T10:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "955b33494118"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "4b1522e8a865",
+      "title": "Meet container: Apple’s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on Apple Silicon",
+      "url": "https://www.marktechpost.com/2026/06/26/meet-container-apples-open-source-swift-tool-for-running-linux-containers-as-lightweight-vms-on-apple-silicon/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Apple released container 1.0, an open-source Swift tool running Linux containers as lightweight virtual machines on Apple silicon.\nThe post Meet container: Apple&#8217;s Open-Source Swift Tool for Running Linux Containers as Lightweight VMs on...",
+      "published": "2026-06-26T08:48:39Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "f6b90900bc49"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e094029e5ad2",
+      "title": "Build a Nanobot-Style AI Agent in Google Colab with Tool Calling, Session Memory, Skills, and MCP Servers",
+      "url": "https://www.marktechpost.com/2026/06/26/build-a-nanobot-style-ai-agent-in-google-colab-with-tool-calling-session-memory-skills-and-mcp-servers/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build a lightweight personal AI agent inspired by the architecture of nanobot, runnable entirely in Google Colab. We start from a provider abstraction, then add tool registration, session memory, lifecycle hooks, skills, and...",
+      "published": "2026-06-26T08:00:07Z",
+      "tags": [
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "235f1239691f"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6e5a6be6de03",
+      "title": "HierBias: Context-Conditioned Hierarchical Media Bias Detection with Multi-Task Type Classification",
+      "url": "https://arxiv.org/abs/2606.26100",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26100v1 Announce Type: new \nAbstract: Media bias detection is a critical task for ensuring fair and balanced information dissemination, yet existing sentence-level approaches classify each sentence independently, ignoring...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "bee928c5e070",
+      "title": "Know2Guess: A Contamination-Aware Multi-Zone Benchmark for Knowledge-Boundary Evaluation in Large Language Models",
+      "url": "https://arxiv.org/abs/2606.26101",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26101v1 Announce Type: new \nAbstract: Reliable evaluation of large language models should separate supported answering from unsupported guessing without conflating either with data contamination, prompt idiosyncrasy, or generic refusal...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a1fc6ad480fd",
+      "title": "Helpfulness Hurts: Domain-Dependent Degradation of Mid-Trained Compassion Values Under Post-Training",
+      "url": "https://arxiv.org/abs/2606.26102",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26102v1 Announce Type: new \nAbstract: Standard post-training pipelines apply supervised fine-tuning (SFT) and reinforcement learning (RL) to make language models helpful, but these processes may inadvertently degrade values instilled...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f2383ccd4358",
+      "title": "Investigating LLM's Problem Solving Capability -- a Study on Statics Questions",
+      "url": "https://arxiv.org/abs/2606.26103",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26103v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have rapidly influenced many aspects of society, particularly education, due to their demonstrated ability to complete assignments and examinations across a wide range...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "10d177793bf2",
+      "title": "Assert, don't describe: Linguistic features that shift LLM reasoning about animal welfare",
+      "url": "https://arxiv.org/abs/2606.26104",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26104v1 Announce Type: new \nAbstract: Animal-welfare advocates produce a lot of writing, and increasingly that writing trains the language models that millions of people then ask about animal welfare. Using vocabulary-matched...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a395ab559950",
+      "title": "Context Recycling for Long-Horizon LLM Inference",
+      "url": "https://arxiv.org/abs/2606.26105",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26105v1 Announce Type: new \nAbstract: Large language models (LLMs) exhibit strong capabilities in short-context reasoning but degrade in performance over long conversational horizons due to context window limitations and inefficient...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "51efebf862df",
+      "title": "Reducing Conversational Escalation in Large Language Model Dialogue with Nonviolent Communication Constraints",
+      "url": "https://arxiv.org/abs/2606.26106",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26106v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used in emotionally charged situations involving interpersonal conflict, frustration, and distress. While prior safety research has focused on...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9695b27c9fbd",
+      "title": "Low Resource Multimodal Translation of Nepali Spoken Words into Emotion-Conditioned Sign Language Avatars",
+      "url": "https://arxiv.org/abs/2606.26107",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26107v1 Announce Type: new \nAbstract: Sign language communication systems, that integrate emotional expression remain underexplored, particularly for low-resource languages. This pilot study presents NEST-V1 (Nepali Emotion and Speech...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "77bfce5d94d4",
+      "title": "Where Larger Models Excel: The Primacy of Constraint-Guided Reasoning",
+      "url": "https://arxiv.org/abs/2606.26108",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26108v1 Announce Type: new \nAbstract: Larger language models consistently outperform smaller ones on reasoning benchmarks, yet the reasoning differences underlying this gap remain underexplored. Across benchmarks in mathematics,...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2c06f01f9871",
+      "title": "From Lexicon to AI: A Structured-Data Pipeline for Specialized Conversational Systems in Low-Resource Languages",
+      "url": "https://arxiv.org/abs/2606.26112",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26112v1 Announce Type: new \nAbstract: Low-resource languages face a critical challenge in AI development: creating specialized conversational systems without access to massive training corpora. We present a systematic methodology for...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f99a022969c7",
+      "title": "Dynamic-dLLM: Dynamic Cache-Budget and Adaptive Parallel Decoding for Training-Free Acceleration of Diffusion LLM",
+      "url": "https://arxiv.org/abs/2606.26120",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26120v1 Announce Type: new \nAbstract: Diffusion Large Language Models (dLLMs) offer a promising alternative to autoregressive models, excelling in text generation tasks due to their bidirectional attention mechanisms. However, their...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "dc9a65686125",
+      "title": "Thinking Like a Scientist? A Structural Study of LLM-Generated Research Methods",
+      "url": "https://arxiv.org/abs/2606.26130",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26130v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly used to guide research methodology, yet their default methodological tendencies under minimal prompting remain unclear. Here, we prompt GPT-5.1, Gemini...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a7d2f7af19f6",
+      "title": "From Structure to Synergy: A Survey of Vision-Language Perception Paradigm Evolution in Multimodal Large Language Models",
+      "url": "https://arxiv.org/abs/2606.26196",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26196v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) have recently made remarkable progress in unifying vision-language understanding and reasoning, especially following the introduction of models such as...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c6ca8f5f3e41",
+      "title": "Phonetic and semantic analyses of spoken corpora of Beijing and Taiwan Mandarin indicate that the neutral tone is a lexical tone",
+      "url": "https://arxiv.org/abs/2606.26360",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26360v1 Announce Type: new \nAbstract: The neutral, or floating, tone of Mandarin Chinese is a tone with an enigmatic set of properties. It has been described as a reduced tone, or as a tone that sometimes is lexically fixed but that...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "22d50211fdc7",
+      "title": "Charting the Growth of Social-Physical HRI (spHRI): A Systematic Review Pipeline Augmented by Small Language Models",
+      "url": "https://arxiv.org/abs/2606.26382",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2606.26382v1 Announce Type: new \nAbstract: Social-physical human-robot interaction (spHRI) has grown rapidly across robotics, human-computer interaction, human-robot interaction, and haptics. Yet, fragmented terminology and inconsistent...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d8617eb90ee7",
+      "title": "Detecting and Controlling Sycophancy with Cascading Linear Features",
+      "url": "https://arxiv.org/abs/2606.26155",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26155v1 Announce Type: new \nAbstract: Interpreting and controlling model behaviors through activation steering methods requires many pairs of contrastive samples that clearly exhibit desired or undesired behavior. These data pairs...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d5e4199056ba",
+      "title": "Life After Benchmark Saturation: A Case Study of CORE-Bench",
+      "url": "https://arxiv.org/abs/2606.26158",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26158v1 Announce Type: new \nAbstract: When a benchmark's accuracy saturates, it is often retired and replaced with a more challenging version. We show that this approach privileges accuracy and misses the opportunity to study six other...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "33c779eb9635",
+      "title": "Refusal Lives Downstream of Persona in Chat Models",
+      "url": "https://arxiv.org/abs/2606.26161",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26161v1 Announce Type: new \nAbstract: Linear directions in activation space have been identified for both refusal and persona traits in instruction-tuned chat models, but the two have been studied as separate mechanisms. We show they...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7d89653d1145",
+      "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
+      "url": "https://arxiv.org/abs/2606.26173",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26173v1 Announce Type: new \nAbstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs. Most current applications focus on static coding...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Meta",
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0c11cfa841c3",
+      "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
+      "url": "https://arxiv.org/abs/2606.26203",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26203v1 Announce Type: new \nAbstract: As AI agent protocols proliferate, the governance structures shaping their interoperability standards remain empirically underexamined. We introduce an LLM-powered comparative pipeline for...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "711545a404ef",
+      "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
+      "url": "https://arxiv.org/abs/2606.26205",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26205v1 Announce Type: new \nAbstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ec0d24fe4426",
+      "title": "Accelerating Skill Assessment in Chess: A Drift-Diffusion-Enhanced Elo Rating System",
+      "url": "https://arxiv.org/abs/2606.26267",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26267v1 Announce Type: new \nAbstract: Rating systems such as Elo serve as the gold standard for matchmaking in competitive chess. However, they inherently suffer from response lag due to their exclusive reliance on match outcomes,...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "70a64a10ff2b",
+      "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
+      "url": "https://arxiv.org/abs/2606.26298",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26298v1 Announce Type: new \nAbstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e6b3dac20f03",
+      "title": "COrigami: An AI Pipeline for Co-Designing Flat-Foldable Visually Recognisable Origami",
+      "url": "https://arxiv.org/abs/2606.26299",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26299v1 Announce Type: new \nAbstract: While generative AI has achieved remarkable success in solving problems with verifiable solutions, generating physical art that satisfies both strict geometric constraints and subjective visual...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "4c9dead63144",
+      "title": "The Verification Horizon: No Silver Bullet for Coding Agent Rewards",
+      "url": "https://arxiv.org/abs/2606.26300",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26300v1 Announce Type: new \nAbstract: A classical intuition holds that verifying a solution is easier than producing one. For today's coding agents, this intuition is being inverted: as foundation models develop stronger reasoning...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c7e519568336",
+      "title": "How Do Tool-Augmented LLM Agents Perform on Real-World Energy Analytics Tasks?",
+      "url": "https://arxiv.org/abs/2606.26346",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26346v1 Announce Type: new \nAbstract: Agentic benchmarks have emerged across general-purpose and domain-specific settings, including finance, coding, law, and drug discovery, yet energy-domain evaluations remain largely limited to...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "49430dc9f3cb",
+      "title": "What We are Missing in Multimodal LLM Evaluation?",
+      "url": "https://arxiv.org/abs/2606.26348",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26348v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) can process diverse inputs, e.g., text, images, audio, and video, and generate textual responses. While their capabilities have advanced rapidly, evaluation...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "13406730435a",
+      "title": "OpenFinGym: A Verifiable Multi-Task Gym Environment for Evaluating Quant Agents",
+      "url": "https://arxiv.org/abs/2606.26350",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26350v1 Announce Type: new \nAbstract: Although large language model agents are increasingly applied to quantitative-finance workflows, their evaluation remains fragmented across isolated tasks, while the financial relevance of...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8f5a82a109a9",
+      "title": "Instruction Bleed: Cross-Module Interference in Prompt-Composed Agentic Systems",
+      "url": "https://arxiv.org/abs/2606.26356",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26356v1 Announce Type: new \nAbstract: Practitioners of prompt-composed agentic systems report a recurring failure mode: editing one prompt module silently shifts the behavior of others despite no shared variable or executable...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [
+        "Agent",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b86ca18f3cf2",
+      "title": "Accelerating Returns and the Qualitative Engine for Science",
+      "url": "https://arxiv.org/abs/2606.26359",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2606.26359v1 Announce Type: new \nAbstract: Ray Kurzweil described a thesis of accelerating returns, which is the most influential narratives in discussions of technological progress. Its central claim is that advances in multiple...",
+      "published": "2026-06-26T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "61fe0e4252ae",
       "title": "Run a vLLM Server on HF Jobs in One Command",
