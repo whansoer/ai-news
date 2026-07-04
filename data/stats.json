@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T10:19:54Z",
-  "total": 255,
+  "updated": "2026-07-04T17:15:27Z",
+  "total": 259,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Google AI",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 61
     },
     {
       "name": "LLM",
@@ -50,11 +50,11 @@
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Claude",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Google",
@@ -69,7 +69,19 @@
       "count": 8
     },
     {
+      "name": "Anthropic",
+      "count": 6
+    },
+    {
       "name": "OpenAI",
+      "count": 5
+    },
+    {
+      "name": "GPT",
+      "count": 5
+    },
+    {
+      "name": "Gemini",
       "count": 4
     },
     {
@@ -78,14 +90,6 @@
     },
     {
       "name": "Diffusion",
-      "count": 4
-    },
-    {
-      "name": "Anthropic",
-      "count": 4
-    },
-    {
-      "name": "GPT",
       "count": 4
     },
     {
@@ -101,11 +105,7 @@
       "count": 3
     },
     {
-      "name": "Gemini",
-      "count": 3
-    },
-    {
-      "name": "Meta",
+      "name": "Llama",
       "count": 2
     },
     {
@@ -113,18 +113,18 @@
       "count": 1
     },
     {
-      "name": "Llama",
+      "name": "Meta",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 171
+      "count": 172
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -158,7 +158,7 @@
     },
     {
       "date": "07-04",
-      "count": 6
+      "count": 12
     },
     {
       "date": "08-14",
@@ -167,14 +167,20 @@
   ],
   "top10": [
     {
-      "id": "11576ef07d08",
-      "title": "usestrix /strix",
+      "id": "e4a469811297",
+      "title": "openai /codex-plugin-cc",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "e4a469811297",
-      "title": "openai /codex-plugin-cc",
+      "id": "d8d54e4bd4f0",
+      "title": "alibaba /page-agent",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "11576ef07d08",
+      "title": "usestrix /strix",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -185,44 +191,38 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "d194019407f9",
+      "title": "Zackriya-Solutions /meetily",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "3675b0176088",
+      "title": "asgeirtj /system_prompts_leaks",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "db7f927fbf31",
+      "title": "ogulcancelik /herdr",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "8b0c7c8c3119",
+      "title": "Anthropic Launches Claude Science Beta: A Multi-Agent AI Workbench for Reproducible Genomics, Proteomics, and Cheminformatics Pipelines",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "00a76be555b8",
+      "title": "NVIDIA HORIZON: A Hands-Free Agent that Evolves Git Worktrees and Hits 100% RTL Benchmark Completion",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "d66865b90c76",
       "title": "ansible /ansible",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "af5e1c06972b",
-      "title": "facebook /astryx",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "be78d5b469ff",
-      "title": "NVIDIA AI Introduces ASPIRE: A Self-Improving Robotics Framework Reaching 31% Zero-Shot on LIBERO-Pro Long Tasks",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "1ebe252a09eb",
-      "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "373ef5d7cc70",
-      "title": "Designing a Schema-Guided Invoice Intelligence Pipeline with lift-pdf for Accounts-Payable Extraction, Validation, and Ledger Generation",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "5dfe15d5980d",
-      "title": "msitarzewski /agency-agents",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "ac45b546f1b9",
-      "title": "hasaneyldrm /exercises-dataset",
       "score": 5,
       "source": "GitHub Trending"
     }
