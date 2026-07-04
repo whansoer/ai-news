@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T17:41:29Z",
-  "total": 256,
+  "updated": "2026-07-04T03:22:28Z",
+  "total": 258,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -11,12 +11,12 @@
       "count": 60
     },
     {
-      "name": "GitHub Trending",
-      "count": 31
+      "name": "MarkTechPost",
+      "count": 29
     },
     {
-      "name": "MarkTechPost",
-      "count": 23
+      "name": "GitHub Trending",
+      "count": 27
     },
     {
       "name": "Google AI",
@@ -54,26 +54,22 @@
     },
     {
       "name": "Claude",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Google",
       "count": 9
     },
     {
+      "name": "RAG",
+      "count": 8
+    },
+    {
       "name": "Transformer",
       "count": 8
     },
     {
-      "name": "RAG",
-      "count": 7
-    },
-    {
       "name": "OpenAI",
-      "count": 5
-    },
-    {
-      "name": "Anthropic",
       "count": 5
     },
     {
@@ -85,7 +81,11 @@
       "count": 4
     },
     {
-      "name": "Gemini",
+      "name": "Diffusion",
+      "count": 4
+    },
+    {
+      "name": "Anthropic",
       "count": 4
     },
     {
@@ -101,12 +101,16 @@
       "count": 3
     },
     {
-      "name": "Diffusion",
+      "name": "Gemini",
       "count": 3
     },
     {
       "name": "Meta",
       "count": 2
+    },
+    {
+      "name": "Mistral",
+      "count": 1
     },
     {
       "name": "Llama",
@@ -116,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 168
+      "count": 174
     },
     {
       "name": "开源项目",
-      "count": 46
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -132,10 +136,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "06-28",
-      "count": 7
-    },
     {
       "date": "06-29",
       "count": 31
@@ -150,11 +150,15 @@
     },
     {
       "date": "07-02",
-      "count": 52
+      "count": 54
     },
     {
       "date": "07-03",
       "count": 41
+    },
+    {
+      "date": "07-04",
+      "count": 5
     },
     {
       "date": "08-14",
@@ -193,6 +197,18 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "1ebe252a09eb",
+      "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "373ef5d7cc70",
+      "title": "Designing a Schema-Guided Invoice Intelligence Pipeline with lift-pdf for Accounts-Payable Extraction, Validation, and Ledger Generation",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "5dfe15d5980d",
       "title": "msitarzewski /agency-agents",
       "score": 5,
@@ -207,18 +223,6 @@
     {
       "id": "7b6a865db4d6",
       "title": "santifer /career-ops",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "3a55db0d85d4",
-      "title": "browser-use /video-use",
       "score": 5,
       "source": "GitHub Trending"
     }

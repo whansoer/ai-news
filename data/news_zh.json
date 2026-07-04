@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T17:41:39Z",
+  "updated": "2026-07-04T03:22:38Z",
   "total": 20,
   "items": [
     {
@@ -65,6 +65,33 @@
         "Agent"
       ],
       "oneliner": "An open source design system that's fully customizable and agent ready",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1ebe252a09eb",
+      "title_zh": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
+      "summary_zh": "Mistral AI released Leanstral 1.5, a free Apache-2.0 code agent model for Lean 4. It saturates miniF2F and solves 587 of 672 PutnamBench problems. The 119B mixture-of-experts activates 6.5B parameters per token. We break down its architecture,...",
+      "tags_zh": [
+        "Mistral",
+        "Agent"
+      ],
+      "oneliner": "Mistral AI released Leanstral 1.5, a free Apache-2.0 code agent model for Lean 4. It saturates miniF",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "373ef5d7cc70",
+      "title_zh": "Designing a Schema-Guided Invoice Intelligence Pipeline with lift-pdf for Accounts-Payable Extraction, Validation, and Ledger Generation",
+      "summary_zh": "In this tutorial, we build an end-to-end accounts-payable extraction pipeline with lift-pdf, using synthetic invoice PDFs as controlled test documents and a structured JSON schema as the target output format. Instead of treating invoice parsing...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we build an end-to-end accounts-payable extraction pipeline with lift-pdf, using s",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -155,6 +182,32 @@
       }
     },
     {
+      "id": "edad82dcc6d1",
+      "title_zh": "Takeda signs US$600M AI drug discovery deal with Insilico",
+      "summary_zh": "Takeda has entered a strategic collaboration with Hong Kong-based Insilico Medicine to use AI in early-stage drug discovery across the Japanese pharmaceutical company’s therapeutic areas. The companies did not disclose which therapeutic areas or...",
+      "tags_zh": [],
+      "oneliner": "Takeda has entered a strategic collaboration with Hong Kong-based Insilico Medicine to use AI in ear",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "aa4dcc71f6e6",
+      "title_zh": "Meet WebBrain: An Open-Source, Local-First AI Browser Agent That Reads Pages and Automates Tasks in Chrome and Firefox",
+      "summary_zh": "WebBrain is a free, MIT-licensed AI browser agent for Chrome and Firefox. It reads pages, extracts data, and automates multi-step tasks through Ask and Act modes. Run it on local models like llama.cpp or Ollama for privacy, or connect any cloud...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "WebBrain is a free, MIT-licensed AI browser agent for Chrome and Firefox. It reads pages, extracts d",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "33d53cb0c8df",
       "title_zh": "TokenScope: Token-Level Explainability and Interpretability for Code-Oriented Tasks in Large Language Models",
       "summary_zh": "arXiv:2607.01235v1 Announce Type: new \nAbstract: Understanding how Large Language Models (LLMs) make token-level decisions during code generation remains a major challenge for both researchers and practitioners. While recent tools provide...",
@@ -217,63 +270,6 @@
         "LLM"
       ],
       "oneliner": "arXiv:2607.01239v1 Announce Type: new \nAbstract: Character-level perturbations bypass safety alignme",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "eaffab1edc4c",
-      "title_zh": "Prompt Framing Distorts Count-Based Evaluation of LLM Error Detection: Evidence from Numeric Anchoring",
-      "summary_zh": "arXiv:2607.01240v1 Announce Type: new \nAbstract: Count-based F1 is widely used as a proxy for LLM error-detection quality, but this paper shows that it can rise dramatically without a corresponding improvement in span localization, a gap termed...",
-      "tags_zh": [
-        "LLM",
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2607.01240v1 Announce Type: new \nAbstract: Count-based F1 is widely used as a proxy for LLM er",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3fc8a667b8d7",
-      "title_zh": "Mapping Text to Multiplex Graph: Prompt Compression as L\\'evy Walk-Guided Graph Pruning",
-      "summary_zh": "arXiv:2607.01241v1 Announce Type: new \nAbstract: Existing prompt compression methods treat text as flat token sequences, failing to capture the distributed nature of important information, which is often spread across multiple locations and...",
-      "tags_zh": [
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2607.01241v1 Announce Type: new \nAbstract: Existing prompt compression methods treat text as f",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "dc1d9157813c",
-      "title_zh": "Office Comprehension Benchmark",
-      "summary_zh": "arXiv:2607.01245v1 Announce Type: new \nAbstract: We introduce Office Comprehension Bench (OCB), the first public benchmark to jointly evaluate LLM systems on Word, Excel, and PowerPoint comprehension over native file formats (.docx, .xlsx, .pptx)...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2607.01245v1 Announce Type: new \nAbstract: We introduce Office Comprehension Bench (OCB), the ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "8c62d7487fe1",
-      "title_zh": "RuleChef: Grounding LLM Task Knowledge in Human-Editable Rules",
-      "summary_zh": "arXiv:2607.01293v1 Announce Type: new \nAbstract: We present RuleChef, a framework that uses large language models (LLMs) to generate executable rules for NLP tasks such as text classification, Named Entity Recognition (NER), or relation...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.01293v1 Announce Type: new \nAbstract: We present RuleChef, a framework that uses large la",
       "key_facts": [],
       "notable_quote": {
         "text": "",
