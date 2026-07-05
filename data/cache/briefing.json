@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-05T03:38:32Z",
-  "count": 152,
+  "updated": "2026-07-05T17:20:11Z",
+  "count": 153,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -9730,6 +9730,70 @@
         }
       },
       "_ts": 1783222712
+    },
+    "6c5c37861398c2bf": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录260篇AI新闻，分类分布：学术研究172篇, 开源项目46篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（64篇）。其中8%的文章有多来源交叉验证。\n\n▸ Zackriya-Solutions /meetily：Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diar\n\n▸ openai /codex-plugin-cc：Use Codex from Claude Code to review code or delegate tasks.\n\n▸ asgeirtj /system_prompts_leaks：Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open\n\n▸ Leonxlnx /taste-skill：Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop\n\n▸ alirezarezvani /claude-skills：337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, custo",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "Zackriya-Solutions/meetily",
+            "url": "https://github.com/Zackriya-Solutions/meetily",
+            "why_hot": "单日1409星，Rust项目",
+            "stars_today": 1409,
+            "total_stars": 16391
+          },
+          {
+            "full_name": "openai/codex-plugin-cc",
+            "url": "https://github.com/openai/codex-plugin-cc",
+            "why_hot": "单日1519星，JavaScript项目",
+            "stars_today": 1519,
+            "total_stars": 25270
+          },
+          {
+            "full_name": "ogulcancelik/herdr",
+            "url": "https://github.com/ogulcancelik/herdr",
+            "why_hot": "单日650星，Rust项目",
+            "stars_today": 650,
+            "total_stars": 11876
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "260"
+          },
+          {
+            "label": "多源验证率",
+            "value": "8%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+6287"
+          }
+        ],
+        "must_read_ids": [
+          "d194019407f9",
+          "e4a469811297",
+          "3675b0176088",
+          "36584af2f739",
+          "8b826b177eba"
+        ],
+        "text": "今日共收录260篇AI新闻，分类分布：学术研究172篇, 开源项目46篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（64篇）。其中8%的文章有多来源交叉验证。",
+        "top_items": [
+          "Zackriya-Solutions /meetily",
+          "openai /codex-plugin-cc",
+          "asgeirtj /system_prompts_leaks",
+          "Leonxlnx /taste-skill",
+          "alirezarezvani /claude-skills"
+        ],
+        "meta": {
+          "total_articles": 260,
+          "multi_source_pct": 8
+        }
+      },
+      "_ts": 1783272011
     }
   }
 }
