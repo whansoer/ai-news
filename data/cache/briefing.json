@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-06T03:45:22Z",
-  "count": 155,
+  "updated": "2026-07-06T12:12:25Z",
+  "count": 156,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -9922,6 +9922,70 @@
         }
       },
       "_ts": 1783309522
+    },
+    "2ddc0145372d1ef1": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录263篇AI新闻，分类分布：学术研究174篇, 开源项目46篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（63篇）。其中8%的文章有多来源交叉验证。\n\n▸ LeRobot v0.6.0: Imagine, Evaluate, Improve\n\n▸ asgeirtj /system_prompts_leaks：Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. Open\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ Zackriya-Solutions /meetily：Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diar\n\n▸ Leonxlnx /taste-skill：Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "Zackriya-Solutions/meetily",
+            "url": "https://github.com/Zackriya-Solutions/meetily",
+            "why_hot": "单日2493星，Rust项目",
+            "stars_today": 2493,
+            "total_stars": 18321
+          },
+          {
+            "full_name": "ogulcancelik/herdr",
+            "url": "https://github.com/ogulcancelik/herdr",
+            "why_hot": "单日783星，Rust项目",
+            "stars_today": 783,
+            "total_stars": 12499
+          },
+          {
+            "full_name": "openai/codex-plugin-cc",
+            "url": "https://github.com/openai/codex-plugin-cc",
+            "why_hot": "单日910星，JavaScript项目",
+            "stars_today": 910,
+            "total_stars": 26006
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "263"
+          },
+          {
+            "label": "多源验证率",
+            "value": "8%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+5152"
+          }
+        ],
+        "must_read_ids": [
+          "d798ac5f5ede",
+          "3675b0176088",
+          "0d1bd25a3199",
+          "d194019407f9",
+          "36584af2f739"
+        ],
+        "text": "今日共收录263篇AI新闻，分类分布：学术研究174篇, 开源项目46篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（63篇）。其中8%的文章有多来源交叉验证。",
+        "top_items": [
+          "LeRobot v0.6.0: Imagine, Evaluate, Impro",
+          "asgeirtj /system_prompts_leaks",
+          "addyosmani /agent-skills",
+          "Zackriya-Solutions /meetily",
+          "Leonxlnx /taste-skill"
+        ],
+        "meta": {
+          "total_articles": 263,
+          "multi_source_pct": 8
+        }
+      },
+      "_ts": 1783339945
     }
   }
 }

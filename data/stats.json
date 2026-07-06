@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T03:45:13Z",
-  "total": 257,
+  "updated": "2026-07-06T12:12:15Z",
+  "total": 263,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,18 +12,18 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 31
     },
     {
       "name": "MarkTechPost",
-      "count": 26
-    },
-    {
-      "name": "Google AI",
-      "count": 15
+      "count": 29
     },
     {
       "name": "Hugging Face",
+      "count": 15
+    },
+    {
+      "name": "Google AI",
       "count": 15
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 63
     },
     {
       "name": "LLM",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Benchmark",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Claude",
@@ -73,15 +73,15 @@
       "count": 6
     },
     {
-      "name": "OpenAI",
-      "count": 5
-    },
-    {
       "name": "GPT",
       "count": 5
     },
     {
       "name": "Gemini",
+      "count": 5
+    },
+    {
+      "name": "OpenAI",
       "count": 5
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 171
+      "count": 174
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 46
     },
     {
       "name": "模型发布",
@@ -136,14 +136,10 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 13
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-01",
-      "count": 30
-    },
     {
       "date": "07-02",
       "count": 54
@@ -162,7 +158,11 @@
     },
     {
       "date": "07-06",
-      "count": 8
+      "count": 15
+    },
+    {
+      "date": "07-07",
+      "count": 1
     },
     {
       "date": "08-14",
@@ -171,20 +171,26 @@
   ],
   "top10": [
     {
-      "id": "d194019407f9",
-      "title": "Zackriya-Solutions /meetily",
+      "id": "d798ac5f5ede",
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "e4a469811297",
-      "title": "openai /codex-plugin-cc",
-      "score": 5,
-      "source": "GitHub Trending"
+      "source": "Hugging Face"
     },
     {
       "id": "3675b0176088",
       "title": "asgeirtj /system_prompts_leaks",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "0d1bd25a3199",
+      "title": "addyosmani /agent-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "d194019407f9",
+      "title": "Zackriya-Solutions /meetily",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,34 +207,28 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "e4a469811297",
+      "title": "openai /codex-plugin-cc",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "cb3eddfe11b5",
+      "title": "mvanhorn /last30days-skill",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "db7f927fbf31",
       "title": "ogulcancelik /herdr",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d8d54e4bd4f0",
-      "title": "alibaba /page-agent",
+      "id": "dcc5b105e5c8",
+      "title": "China’s AI companion rules: what Beijing is really going after",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "11576ef07d08",
-      "title": "usestrix /strix",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "816491491b4c",
-      "title": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "b4212d4b4d44",
-      "title": "ChromeDevTools /chrome-devtools-mcp",
-      "score": 5,
-      "source": "GitHub Trending"
+      "source": "AI News"
     }
   ]
 }
