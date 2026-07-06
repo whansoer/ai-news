@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-06T03:38:00Z",
-  "total": 215,
-  "new_count": 41,
+  "updated": "2026-07-06T03:45:22Z",
+  "total": 216,
+  "new_count": 42,
   "items": [
     {
       "id": "d194019407f9",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai -https://meetily.ai) is the #1...",
-      "published": "2026-07-06T03:35:23Z",
+      "published": "2026-07-06T03:42:49Z",
       "tags": [
         "Llama"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Use Codex from Claude Code to review code or delegate tasks.",
-      "published": "2026-07-06T03:35:23Z",
+      "published": "2026-07-06T03:42:49Z",
       "tags": [
         "Claude",
         "OpenAI"
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code,...",
-      "published": "2026-07-06T03:35:23Z",
+      "published": "2026-07-06T03:42:49Z",
       "tags": [
         "GPT",
         "Claude",
@@ -101,7 +101,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "published": "2026-07-06T03:35:23Z",
+      "published": "2026-07-06T03:42:49Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -124,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance,...",
-      "published": "2026-07-06T03:35:23Z",
+      "published": "2026-07-06T03:42:49Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -155,7 +155,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "agent multiplexer that lives in your terminal.",
-      "published": "2026-07-06T03:35:23Z",
+      "published": "2026-07-06T03:42:49Z",
       "tags": [
         "Agent"
       ],
@@ -182,7 +182,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-      "published": "2026-07-06T03:35:23Z",
+      "published": "2026-07-06T03:42:49Z",
       "tags": [
         "Agent"
       ],
@@ -209,7 +209,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "published": "2026-07-06T03:35:23Z",
+      "published": "2026-07-06T03:42:49Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -224,6 +224,29 @@
       "summary_zh": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "tags_zh": [],
       "oneliner": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities."
+    },
+    {
+      "id": "816491491b4c",
+      "title": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
+      "url": "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Meituan has released LongCat-2.0, a 1.6 trillion-parameter Mixture-of-Experts model that activates about 48 billion parameters per token. It pairs a native 1-million-token context, built on LongCat Sparse Attention, with training and serving run...",
+      "published": "2026-07-05T21:25:10Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Meituan Releases LongCat-2.0: A 1.6T-Parameter Open MoE Model with Native 1M Context and LongCat Sparse Attention",
+      "summary_zh": "Meituan has released LongCat-2.0, a 1.6 trillion-parameter Mixture-of-Experts model that activates about 48 billion parameters per token. It pairs a native 1-million-token context, built on LongCat Sparse Attention, with training and serving run...",
+      "tags_zh": [],
+      "oneliner": "Meituan has released LongCat-2.0, a 1.6 trillion-parameter Mixture-of-Experts model that activates a"
     },
     {
       "id": "b4212d4b4d44",
@@ -546,12 +569,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "msitarzewski /agency-agents",
-      "summary_zh": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "ac45b546f1b9",
