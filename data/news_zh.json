@@ -1,7 +1,21 @@
 {
-  "updated": "2026-07-07T18:07:36Z",
+  "updated": "2026-07-08T02:52:56Z",
   "total": 20,
   "items": [
+    {
+      "id": "ce3a785ea3a9",
+      "title_zh": "MadsLorentzen /ai-job-search",
+      "summary_zh": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+      "tags_zh": [
+        "Claude"
+      ],
+      "oneliner": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Cl",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "d194019407f9",
       "title_zh": "Zackriya-Solutions /meetily",
@@ -106,11 +120,61 @@
       }
     },
     {
+      "id": "226becd24e33",
+      "title_zh": "NVIDIA Releases Audex (Nemotron-Labs-Audex-30B-A3B): A Unified Audio-Text LLM That Preserves the Text Intelligence of Its Backbone",
+      "summary_zh": "NVIDIA's Nemotron-Labs-Audex-30B-A3B unifies audio understanding, speech recognition, translation, TTS, and audio generation in one MoE model. It keeps the text intelligence of its Nemotron-Cascade-2 backbone with marginal regression.\nThe post...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "NVIDIA's Nemotron-Labs-Audex-30B-A3B unifies audio understanding, speech recognition, translation, T",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "830b87f8c5bf",
+      "title_zh": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "43d5fa5e1e01",
+      "title_zh": "Liquid AI Open-Sources Antidoom: A Final Token Preference Optimization (FTPO) Method that Reduces Doom Loops in Reasoning Models",
+      "summary_zh": "Liquid AI released Antidoom, an open-source method that targets doom loops in reasoning models. A doom loop repeats a span until the context window is exhausted. Antidoom finds the token that starts the loop and retrains only that position using...",
+      "tags_zh": [],
+      "oneliner": "Liquid AI released Antidoom, an open-source method that targets doom loops in reasoning models. A do",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "37a75100de70",
       "title_zh": "Hugging Face Models on Foundry Managed Compute",
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e8547c388b9f",
+      "title_zh": "Insilico Medicine advances AI drug for IPF to Phase III trials",
+      "summary_zh": "Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeting idiopathic pulmonary fibrosis (IPF). This progression supplies the computational drug discovery sector with empirical test cases, advancing an...",
+      "tags_zh": [],
+      "oneliner": "Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeti",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -206,77 +270,6 @@
       "summary_zh": "L’Oreal is using AI to shorten product development timelines and identify new uses for ingredients already present in its portfolio. The French cosmetics group has applied AI in its laboratories for the past four years, with Fabrice Megarbane,...",
       "tags_zh": [],
       "oneliner": "L’Oreal is using AI to shorten product development timelines and identify new uses for ingredients a",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c754a9a1d071",
-      "title_zh": "Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more",
-      "summary_zh": "Managed agents feature bundle launch",
-      "tags_zh": [
-        "Gemini",
-        "Agent",
-        "API"
-      ],
-      "oneliner": "Managed agents feature bundle launch",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1621fb11b0ec",
-      "title_zh": "Tencent Releases Hy3: An Open 295B Mixture-of-Experts (MoE) Model with 21B Active Parameters and 256K Context",
-      "summary_zh": "Tencent's Hy team released Hy3, a 295B Mixture-of-Experts (MoE) model that activates only 21B parameters per token. It ships under Apache 2.0 with a 256K context window, targeting reasoning, agentic, and long-context tasks. Hy3 reports 78.0 on...",
-      "tags_zh": [],
-      "oneliner": "Tencent's Hy team released Hy3, a 295B Mixture-of-Experts (MoE) model that activates only 21B parame",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a99a122065f5",
-      "title_zh": "OpenAI Releases GPT-Realtime-2.1 and GPT-Realtime-2.1-mini for Low-Latency Voice Agents in the API",
-      "summary_zh": "OpenAI added two Realtime models to its API. GPT-Realtime-2.1-mini is a mini reasoning model for voice, priced like the earlier gpt-realtime-mini. OpenAI also cut p95 latency by at least 25% through improved caching. Here is what changed, how...",
-      "tags_zh": [
-        "GPT",
-        "OpenAI",
-        "Agent",
-        "API"
-      ],
-      "oneliner": "OpenAI added two Realtime models to its API. GPT-Realtime-2.1-mini is a mini reasoning model for voi",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ce302d783fa5",
-      "title_zh": "Improving LLMs via Validator-to-Generator Alignment",
-      "summary_zh": "arXiv:2607.02668v1 Announce Type: new \nAbstract: Large language models are inconsistent: varying prompts or including unrelated information can lead to unexpected changes in model outputs. The generator-validator (G-V) gap is one manifestation of...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.02668v1 Announce Type: new \nAbstract: Large language models are inconsistent: varying pro",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3cfc78deed0b",
-      "title_zh": "Echoes of Unrest: A Multimodal NLP Framework for Early Warning of Fake News and Violence-Driven Mob Activity",
-      "summary_zh": "arXiv:2607.02734v1 Announce Type: new \nAbstract: Rapid growth in social media has transformed global communication by enabling fast information exchange, but it has also accelerated the spread of misinformation. Fake news, manipulated content,...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.02734v1 Announce Type: new \nAbstract: Rapid growth in social media has transformed global",
       "key_facts": [],
       "notable_quote": {
         "text": "",
