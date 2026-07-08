@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T10:26:59Z",
-  "total": 280,
+  "updated": "2026-07-08T17:45:56Z",
+  "total": 255,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,18 +8,22 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "GitHub Trending",
-      "count": 32
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 26
     },
     {
       "name": "Hugging Face",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -27,45 +31,37 @@
       "count": 15
     },
     {
-      "name": "OpenAI",
-      "count": 15
+      "name": "Synced",
+      "count": 10
     },
     {
       "name": "AI News",
-      "count": 14
-    },
-    {
-      "name": "Synced",
-      "count": 10
+      "count": 9
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 67
+      "count": 61
     },
     {
       "name": "LLM",
-      "count": 33
+      "count": 32
     },
     {
       "name": "Benchmark",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Claude",
-      "count": 13
-    },
-    {
-      "name": "OpenAI",
-      "count": 8
-    },
-    {
-      "name": "Google",
-      "count": 8
+      "count": 11
     },
     {
       "name": "GPT",
+      "count": 8
+    },
+    {
+      "name": "OpenAI",
       "count": 7
     },
     {
@@ -73,32 +69,36 @@
       "count": 6
     },
     {
-      "name": "Anthropic",
-      "count": 5
-    },
-    {
       "name": "Transformer",
-      "count": 5
+      "count": 6
     },
     {
-      "name": "Prompt",
-      "count": 5
-    },
-    {
-      "name": "RAG",
-      "count": 5
-    },
-    {
-      "name": "Diffusion",
-      "count": 5
+      "name": "Google",
+      "count": 6
     },
     {
       "name": "API",
+      "count": 5
+    },
+    {
+      "name": "Anthropic",
+      "count": 4
+    },
+    {
+      "name": "Prompt",
+      "count": 4
+    },
+    {
+      "name": "RAG",
+      "count": 4
+    },
+    {
+      "name": "Diffusion",
       "count": 4
     },
     {
       "name": "Embedding",
-      "count": 4
+      "count": 3
     },
     {
       "name": "DeepSeek",
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 171
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -132,13 +132,13 @@
     },
     {
       "name": "产品/API",
-      "count": 14
+      "count": 9
     }
   ],
   "dailyTrend": [
     {
       "date": "07-03",
-      "count": 42
+      "count": 41
     },
     {
       "date": "07-04",
@@ -154,11 +154,11 @@
     },
     {
       "date": "07-07",
-      "count": 49
+      "count": 48
     },
     {
       "date": "07-08",
-      "count": 41
+      "count": 48
     },
     {
       "date": "08-14",
@@ -173,38 +173,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "d194019407f9",
-      "title": "Zackriya-Solutions /meetily",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "0d1bd25a3199",
       "title": "addyosmani /agent-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "3675b0176088",
-      "title": "asgeirtj /system_prompts_leaks",
+      "id": "56030b62da13",
+      "title": "TencentCloud /TencentDB-Agent-Memory",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "3533f5ccf08e",
-      "title": "TencentCloud /CubeSandbox",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "8689ab58cebf",
-      "title": "steipete /CodexBar",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "5acadd2fc454",
-      "title": "dotnet /skills",
+      "id": "cb3eddfe11b5",
+      "title": "mvanhorn /last30days-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -215,16 +197,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "55f4ca81ac31",
-      "title": "NVIDIA’s Cosmos-Framework Tutorial: Designing a Colab-Friendly Miniature of Cosmos 3 World Models with Omnimodal Mixture-of-Transformers",
+      "id": "3675b0176088",
+      "title": "asgeirtj /system_prompts_leaks",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "2783086f7c5b",
-      "title": "How Personas Can Influence Agents to Play Split or Steal",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "dad44939bb24",
+      "title": "Data for Agents",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "d194019407f9",
+      "title": "Zackriya-Solutions /meetily",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "3533f5ccf08e",
+      "title": "TencentCloud /CubeSandbox",
+      "score": 5,
+      "source": "GitHub Trending"
     }
   ]
 }
