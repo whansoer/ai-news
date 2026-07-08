@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T02:52:56Z",
+  "updated": "2026-07-08T10:27:08Z",
   "total": 20,
   "items": [
     {
@@ -120,13 +120,13 @@
       }
     },
     {
-      "id": "226becd24e33",
-      "title_zh": "NVIDIA Releases Audex (Nemotron-Labs-Audex-30B-A3B): A Unified Audio-Text LLM That Preserves the Text Intelligence of Its Backbone",
-      "summary_zh": "NVIDIA's Nemotron-Labs-Audex-30B-A3B unifies audio understanding, speech recognition, translation, TTS, and audio generation in one MoE model. It keeps the text intelligence of its Nemotron-Cascade-2 backbone with marginal regression.\nThe post...",
+      "id": "55f4ca81ac31",
+      "title_zh": "NVIDIA’s Cosmos-Framework Tutorial: Designing a Colab-Friendly Miniature of Cosmos 3 World Models with Omnimodal Mixture-of-Transformers",
+      "summary_zh": "In this tutorial, we explore NVIDIA's cosmos-framework from a practical Colab angle while staying honest about the hardware needed for real Cosmos 3 checkpoints. We probe the runtime, then use the framework's real structure, CLI surface, and...",
       "tags_zh": [
-        "LLM"
+        "Transformer"
       ],
-      "oneliner": "NVIDIA's Nemotron-Labs-Audex-30B-A3B unifies audio understanding, speech recognition, translation, T",
+      "oneliner": "In this tutorial, we explore NVIDIA's cosmos-framework from a practical Colab angle while staying ho",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -134,104 +134,13 @@
       }
     },
     {
-      "id": "830b87f8c5bf",
-      "title_zh": "From Hugging Face to Amazon SageMaker Studio in one click",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "43d5fa5e1e01",
-      "title_zh": "Liquid AI Open-Sources Antidoom: A Final Token Preference Optimization (FTPO) Method that Reduces Doom Loops in Reasoning Models",
-      "summary_zh": "Liquid AI released Antidoom, an open-source method that targets doom loops in reasoning models. A doom loop repeats a span until the context window is exhausted. Antidoom finds the token that starts the loop and retrains only that position using...",
-      "tags_zh": [],
-      "oneliner": "Liquid AI released Antidoom, an open-source method that targets doom loops in reasoning models. A do",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "37a75100de70",
-      "title_zh": "Hugging Face Models on Foundry Managed Compute",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e8547c388b9f",
-      "title_zh": "Insilico Medicine advances AI drug for IPF to Phase III trials",
-      "summary_zh": "Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeting idiopathic pulmonary fibrosis (IPF). This progression supplies the computational drug discovery sector with empirical test cases, advancing an...",
-      "tags_zh": [],
-      "oneliner": "Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeti",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "36584af2f739",
-      "title_zh": "Leonxlnx /taste-skill",
-      "summary_zh": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "tags_zh": [],
-      "oneliner": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "8b826b177eba",
-      "title_zh": "alirezarezvani /claude-skills",
-      "summary_zh": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance,...",
-      "tags_zh": [
-        "Claude",
-        "Gemini",
-        "Agent"
-      ],
-      "oneliner": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, custo",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e4a469811297",
-      "title_zh": "openai /codex-plugin-cc",
-      "summary_zh": "Use Codex from Claude Code to review code or delegate tasks.",
-      "tags_zh": [
-        "Claude",
-        "OpenAI"
-      ],
-      "oneliner": "Use Codex from Claude Code to review code or delegate tasks.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "cb3eddfe11b5",
-      "title_zh": "mvanhorn /last30days-skill",
-      "summary_zh": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "id": "2783086f7c5b",
+      "title_zh": "How Personas Can Influence Agents to Play Split or Steal",
+      "summary_zh": "arXiv:2607.05398v1 Announce Type: new \nAbstract: Personas are often employed to guide large language model agents, yet their effectiveness in shaping strategic behavior in social dilemma settings remains uncertain. To address this, we examined...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th",
+      "oneliner": "arXiv:2607.05398v1 Announce Type: new \nAbstract: Personas are often employed to guide large language",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -239,13 +148,13 @@
       }
     },
     {
-      "id": "db7f927fbf31",
-      "title_zh": "ogulcancelik /herdr",
-      "summary_zh": "agent multiplexer that lives in your terminal.",
+      "id": "dede6621d46a",
+      "title_zh": "Benchmarking KV-Cache Optimizations across Task Quality and System Performance for Long-Context Serving",
+      "summary_zh": "arXiv:2607.05399v1 Announce Type: new \nAbstract: Large language model serving is increasingly limited by KV-cache growth under long-context workloads, yet existing KV-cache compression techniques are difficult to compare because they were...",
       "tags_zh": [
-        "Agent"
+        "Benchmark"
       ],
-      "oneliner": "agent multiplexer that lives in your terminal.",
+      "oneliner": "arXiv:2607.05399v1 Announce Type: new \nAbstract: Large language model serving is increasingly limite",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -253,11 +162,11 @@
       }
     },
     {
-      "id": "4a7c5ddd1bfa",
-      "title_zh": "Companies traded people for tokens. The returns haven’t shown up",
-      "summary_zh": "Jensen Huang has a test for whether an engineer is worth keeping, and it comes with a token budget attached. On the All-In Podcast at the close of GTC 2026, the Nvidia chief executive said that if a US$500,000&#160;engineer&#8217;s&#160;annual AI...",
+      "id": "32e73c6dd85d",
+      "title_zh": "Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective",
+      "summary_zh": "arXiv:2607.05416v1 Announce Type: new \nAbstract: We present a new method for structural sequence analysis grounded in Algorithmic Information Theory (AIT). At its core is the Ladderpath approach, which extracts nested and hierarchical...",
       "tags_zh": [],
-      "oneliner": "Jensen Huang has a test for whether an engineer is worth keeping, and it comes with a token budget a",
+      "oneliner": "arXiv:2607.05416v1 Announce Type: new \nAbstract: We present a new method for structural sequence ana",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -265,11 +174,103 @@
       }
     },
     {
-      "id": "a03b6b84cc7d",
-      "title_zh": "L’Oreal, Mondelez, and Nestle use AI to speed product development",
-      "summary_zh": "L’Oreal is using AI to shorten product development timelines and identify new uses for ingredients already present in its portfolio. The French cosmetics group has applied AI in its laboratories for the past four years, with Fabrice Megarbane,...",
+      "id": "5142248a3309",
+      "title_zh": "Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks",
+      "summary_zh": "arXiv:2607.05545v1 Announce Type: new \nAbstract: LLM conformity is often used to describe cases where a model changes a correct answer toward a peer or group response. We show that most of this apparent conformity survives even after the peer is...",
+      "tags_zh": [
+        "LLM",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2607.05545v1 Announce Type: new \nAbstract: LLM conformity is often used to describe cases wher",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ca8b6984af45",
+      "title_zh": "The yes-no bias of large language models reflects answer order and wording, not shifts in moral judgment",
+      "summary_zh": "arXiv:2607.05552v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly issue judgments read as binary verdicts, and a growing literature reports such judgments shifting under logically irrelevant changes of wording - among...",
       "tags_zh": [],
-      "oneliner": "L’Oreal is using AI to shorten product development timelines and identify new uses for ingredients a",
+      "oneliner": "arXiv:2607.05552v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly issue jud",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a875a013249e",
+      "title_zh": "Prompt Robustness Is Task-Dependent: Comparing Objective and Belief-Style Questions in LLM Evaluation",
+      "summary_zh": "arXiv:2607.05554v1 Announce Type: new \nAbstract: Survey-style evaluations of large language models often treat a prompted response as a measure of a model's values or beliefs. This assumption is particularly fragile when responses are read as...",
+      "tags_zh": [
+        "LLM",
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2607.05554v1 Announce Type: new \nAbstract: Survey-style evaluations of large language models o",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f74d1404ae41",
+      "title_zh": "ResonatorLM: Causal Resonant Field Mixing for Efficient Long-Context Language Modelin",
+      "summary_zh": "arXiv:2607.05583v1 Announce Type: new \nAbstract: Contemporary language models are dominated by the transformer architecture, which leverages self-attention mechanisms to enable more efficient, parallelized training across a wide set of documents...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.05583v1 Announce Type: new \nAbstract: Contemporary language models are dominated by the t",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "5783bdf761df",
+      "title_zh": "Revisiting the Relation Between Language Model Perplexity and ASR Word Error Rate for Modern End-to-End Speech Recognition",
+      "summary_zh": "arXiv:2607.05612v1 Announce Type: new \nAbstract: Language model (LM) perplexity (PPL) has historically been used as a proxy for automatic speech recognition (ASR) word error rate (WER), with prior work reporting an approximately linear relation...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.05612v1 Announce Type: new \nAbstract: Language model (LM) perplexity (PPL) has historical",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "00956e27fdc8",
+      "title_zh": "BaFCo: A Document Understanding Benchmark for Complex Bangla Form Comprehension",
+      "summary_zh": "arXiv:2607.05614v1 Announce Type: new \nAbstract: Document comprehension is a challenging yet impactful task for Multimodal Large Language Models, especially as these systems see growing adoption in real-world, human-centric applications. However,...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2607.05614v1 Announce Type: new \nAbstract: Document comprehension is a challenging yet impactf",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "35730e88713a",
+      "title_zh": "NAVER LABS System Re-implementation for the IWSLT 2026 Instruction-Following Task",
+      "summary_zh": "arXiv:2607.05623v1 Announce Type: new \nAbstract: We re-implement the NAVER LABS IWSLT 2025 instruction-following pipeline for the IWSLT 2026 Shared Task (constrained condition, short audio track), adapting it to the mandated components:...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.05623v1 Announce Type: new \nAbstract: We re-implement the NAVER LABS IWSLT 2025 instructi",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7c2c6d45a398",
+      "title_zh": "Population-Level Profiling of DSM-5 Depressive Symptoms Among Self-Reported ADHD and ASD Users on Twitter: An Exploratory Study Using Advanced NLP and Statistical Analysis",
+      "summary_zh": "arXiv:2607.05626v1 Announce Type: new \nAbstract: Background: Depression frequently co-occurs with ADHD and autism spectrum disorder (ASD), but population-level differences in symptom expression between these groups remain underexplored....",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.05626v1 Announce Type: new \nAbstract: Background: Depression frequently co-occurs with AD",
       "key_facts": [],
       "notable_quote": {
         "text": "",
