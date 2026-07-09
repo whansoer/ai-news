@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-09T03:30:21Z",
-  "total": 265,
+  "updated": "2026-07-09T11:13:06Z",
+  "total": 299,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
-    },
-    {
-      "name": "MarkTechPost",
-      "count": 31
+      "count": 75
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 33
+    },
+    {
+      "name": "MarkTechPost",
+      "count": 32
     },
     {
       "name": "Hugging Face",
@@ -42,30 +42,34 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 73
     },
     {
       "name": "LLM",
-      "count": 32
+      "count": 42
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Claude",
-      "count": 12
+      "count": 11
     },
     {
       "name": "OpenAI",
       "count": 9
     },
     {
+      "name": "Google",
+      "count": 8
+    },
+    {
       "name": "GPT",
       "count": 8
     },
     {
-      "name": "Google",
+      "name": "RAG",
       "count": 7
     },
     {
@@ -77,19 +81,19 @@
       "count": 6
     },
     {
+      "name": "Embedding",
+      "count": 5
+    },
+    {
+      "name": "Prompt",
+      "count": 5
+    },
+    {
       "name": "API",
       "count": 5
     },
     {
       "name": "Anthropic",
-      "count": 5
-    },
-    {
-      "name": "RAG",
-      "count": 5
-    },
-    {
-      "name": "Prompt",
       "count": 4
     },
     {
@@ -97,16 +101,12 @@
       "count": 4
     },
     {
-      "name": "Embedding",
+      "name": "Llama",
       "count": 3
     },
     {
       "name": "DeepSeek",
       "count": 3
-    },
-    {
-      "name": "Llama",
-      "count": 2
     },
     {
       "name": "Qwen",
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 176
+      "count": 207
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 48
     },
     {
       "name": "模型发布",
@@ -158,7 +158,7 @@
     },
     {
       "date": "07-09",
-      "count": 8
+      "count": 45
     },
     {
       "date": "08-14",
@@ -179,14 +179,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "56030b62da13",
-      "title": "TencentCloud /TencentDB-Agent-Memory",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "cb3eddfe11b5",
-      "title": "mvanhorn /last30days-skill",
+      "id": "4b4cf6b011e2",
+      "title": "VoltAgent /awesome-design-md",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -197,32 +191,38 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "3675b0176088",
-      "title": "asgeirtj /system_prompts_leaks",
+      "id": "85770197f1cb",
+      "title": "vxcontrol /pentagi",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
+      "id": "2db83a025fb2",
+      "title": "unclecode /crawl4ai",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "58aeb63bc8cf",
-      "title": "Robbyant Releases LingBot-VLA 2.0: An Open-Source 6B Vision-Language-Action (VLA) Model for Cross-Embodiment Robot Manipulation",
+      "id": "4e52bcd448d0",
+      "title": "NHS AI blood test could reduce invasive womb cancer checks",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "af2ce2919b9c",
+      "title": "NVIDIA Releases Nemotron-Labs-3-Puzzle-75B-A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput at Matched User Throughput",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "89aab620b849",
-      "title": "SpaceXAI Releases Grok 4.5, a Cursor-Trained Model for Coding, Agentic Tasks, and Knowledge Work at $2/M Input",
+      "id": "0a81a56c51f2",
+      "title": "Google AI Studio Adds Import from GitHub to Build a Deployable App",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "de4e93a11ff6",
-      "title": "Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID",
+      "id": "d9c3aef52cde",
+      "title": "Datalab Lift vs the Field: How a 9B Schema-First Extractor Compares with NuExtract3, LlamaExtract, Marker, and Docling",
       "score": 5,
       "source": "MarkTechPost"
     }
