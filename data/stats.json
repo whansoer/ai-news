@@ -1,29 +1,29 @@
 {
-  "updated": "2026-07-09T11:13:06Z",
-  "total": 299,
+  "updated": "2026-07-09T18:03:54Z",
+  "total": 248,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 60
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
-    },
-    {
-      "name": "GitHub Trending",
-      "count": 33
+      "count": 60
     },
     {
       "name": "MarkTechPost",
-      "count": 32
+      "count": 31
     },
     {
-      "name": "Hugging Face",
-      "count": 15
+      "name": "GitHub Trending",
+      "count": 28
     },
     {
       "name": "OpenAI",
+      "count": 15
+    },
+    {
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -42,54 +42,42 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 73
+      "count": 62
     },
     {
       "name": "LLM",
-      "count": 42
+      "count": 29
     },
     {
       "name": "Benchmark",
-      "count": 16
-    },
-    {
-      "name": "Claude",
       "count": 11
     },
     {
-      "name": "OpenAI",
-      "count": 9
-    },
-    {
-      "name": "Google",
-      "count": 8
+      "name": "Claude",
+      "count": 10
     },
     {
       "name": "GPT",
+      "count": 9
+    },
+    {
+      "name": "OpenAI",
       "count": 8
     },
     {
-      "name": "RAG",
+      "name": "Google",
       "count": 7
     },
     {
-      "name": "Gemini",
+      "name": "RAG",
       "count": 6
-    },
-    {
-      "name": "Transformer",
-      "count": 6
-    },
-    {
-      "name": "Embedding",
-      "count": 5
     },
     {
       "name": "Prompt",
       "count": 5
     },
     {
-      "name": "API",
+      "name": "Gemini",
       "count": 5
     },
     {
@@ -97,11 +85,23 @@
       "count": 4
     },
     {
-      "name": "Diffusion",
+      "name": "Transformer",
       "count": 4
     },
     {
       "name": "Llama",
+      "count": 3
+    },
+    {
+      "name": "Embedding",
+      "count": 3
+    },
+    {
+      "name": "API",
+      "count": 3
+    },
+    {
+      "name": "Diffusion",
       "count": 3
     },
     {
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 207
+      "count": 161
     },
     {
       "name": "开源项目",
-      "count": 48
+      "count": 43
     },
     {
       "name": "模型发布",
@@ -158,7 +158,7 @@
     },
     {
       "date": "07-09",
-      "count": 45
+      "count": 49
     },
     {
       "date": "08-14",
@@ -203,28 +203,28 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "6f0cc7a81fbe",
+      "title": "AWS GraphRAG deployment cuts drug research cycles by 87%",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
       "id": "4e52bcd448d0",
       "title": "NHS AI blood test could reduce invasive womb cancer checks",
       "score": 5,
       "source": "AI News"
     },
     {
-      "id": "af2ce2919b9c",
-      "title": "NVIDIA Releases Nemotron-Labs-3-Puzzle-75B-A9B: A Compressed Hybrid MoE LLM Delivering 2.03x Server Throughput at Matched User Throughput",
+      "id": "10a73f0831bf",
+      "title": "ChatGPT is now a partner for your most ambitious work",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "OpenAI"
     },
     {
-      "id": "0a81a56c51f2",
-      "title": "Google AI Studio Adds Import from GitHub to Build a Deployable App",
+      "id": "0453af9ffcc0",
+      "title": "GPT-5.5 Bio Bug Bounty",
       "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "d9c3aef52cde",
-      "title": "Datalab Lift vs the Field: How a 9B Schema-First Extractor Compares with NuExtract3, LlamaExtract, Marker, and Docling",
-      "score": 5,
-      "source": "MarkTechPost"
+      "source": "OpenAI"
     }
   ]
 }
