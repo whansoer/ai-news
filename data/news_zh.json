@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T17:46:05Z",
+  "updated": "2026-07-09T03:30:30Z",
   "total": 20,
   "items": [
     {
@@ -106,6 +106,73 @@
       }
     },
     {
+      "id": "58aeb63bc8cf",
+      "title_zh": "Robbyant Releases LingBot-VLA 2.0: An Open-Source 6B Vision-Language-Action (VLA) Model for Cross-Embodiment Robot Manipulation",
+      "summary_zh": "Ant Group's Robbyant has released LingBot-VLA 2.0, an Apache-2.0 vision-language-action model for cross-embodiment robot manipulation. The 6B checkpoint is pretrained on roughly 60,000 hours of data, spanning 50,000 hours of robot trajectories...",
+      "tags_zh": [],
+      "oneliner": "Ant Group's Robbyant has released LingBot-VLA 2.0, an Apache-2.0 vision-language-action model for cr",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "89aab620b849",
+      "title_zh": "SpaceXAI Releases Grok 4.5, a Cursor-Trained Model for Coding, Agentic Tasks, and Knowledge Work at $2/M Input",
+      "summary_zh": "SpaceXAI released Grok 4.5, a Cursor-trained model for coding, agentic tasks, and knowledge work. It serves at 80 TPS, costs $2/$6 per million tokens, and ranks #1 on Harvey's Legal Agent Benchmark.\nThe post SpaceXAI Releases Grok 4.5, a...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "SpaceXAI released Grok 4.5, a Cursor-trained model for coding, agentic tasks, and knowledge work. It",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "de4e93a11ff6",
+      "title_zh": "Netflix AI Team Cuts Wide-Partition Read Latency from Seconds to Milliseconds by Splitting Cassandra Partitions Per ID",
+      "summary_zh": "Netflix engineers detailed how they handle wide partitions in Apache Cassandra for the TimeSeries Abstraction. Two approaches work together: Time Slice re-partitioning tunes future partitions at the table level, while dynamic partitioning detects...",
+      "tags_zh": [],
+      "oneliner": "Netflix engineers detailed how they handle wide partitions in Apache Cassandra for the TimeSeries Ab",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2ed6309fa37e",
+      "title_zh": "Google AI Studio Adds ‘Import from GitHub’ to Build Mode, Turning an Existing Repo Into an Editable, Deployable App",
+      "summary_zh": "Google AI Studio is rolling out Import from GitHub in Build mode. It transforms an existing repo into a runtime-compatible format. You can then iterate on it, deploy it, and more. Here is what changes for developers.\nThe post Google AI Studio...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Google AI Studio is rolling out Import from GitHub in Build mode. It transforms an existing repo int",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "3f8de515ef38",
+      "title_zh": "OpenAI Releases GPT-Live and GPT-Live-1 mini: Full-Duplex Voice Models That Delegate Deeper Reasoning to GPT-5.5",
+      "summary_zh": "OpenAI released GPT-Live, a new generation of voice models now powering ChatGPT Voice. It uses a full-duplex architecture to listen and speak at once, and delegates search and reasoning to GPT-5.5.\nThe post OpenAI Releases GPT-Live and GPT-Live-1...",
+      "tags_zh": [
+        "GPT",
+        "OpenAI"
+      ],
+      "oneliner": "OpenAI released GPT-Live, a new generation of voice models now powering ChatGPT Voice. It uses a ful",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "dad44939bb24",
       "title_zh": "Data for Agents",
       "summary_zh": "",
@@ -113,6 +180,30 @@
         "Agent"
       ],
       "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "34adf3bd6731",
+      "title_zh": "Our approach to government and national security partnerships",
+      "summary_zh": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+      "tags_zh": [],
+      "oneliner": "Learn how OpenAI approaches government and national security partnerships, with principles for respo",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "18ab2ec4f8de",
+      "title_zh": "Separating signal from noise in coding evaluations",
+      "summary_zh": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+      "tags_zh": [],
+      "oneliner": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising conc",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -182,102 +273,6 @@
       "summary_zh": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
       "tags_zh": [],
       "oneliner": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 ed",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "55f4ca81ac31",
-      "title_zh": "NVIDIA’s Cosmos-Framework Tutorial: Designing a Colab-Friendly Miniature of Cosmos 3 World Models with Omnimodal Mixture-of-Transformers",
-      "summary_zh": "In this tutorial, we explore NVIDIA's cosmos-framework from a practical Colab angle while staying honest about the hardware needed for real Cosmos 3 checkpoints. We probe the runtime, then use the framework's real structure, CLI surface, and...",
-      "tags_zh": [
-        "Transformer"
-      ],
-      "oneliner": "In this tutorial, we explore NVIDIA's cosmos-framework from a practical Colab angle while staying ho",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "2783086f7c5b",
-      "title_zh": "How Personas Can Influence Agents to Play Split or Steal",
-      "summary_zh": "arXiv:2607.05398v1 Announce Type: new \nAbstract: Personas are often employed to guide large language model agents, yet their effectiveness in shaping strategic behavior in social dilemma settings remains uncertain. To address this, we examined...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2607.05398v1 Announce Type: new \nAbstract: Personas are often employed to guide large language",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "dede6621d46a",
-      "title_zh": "Benchmarking KV-Cache Optimizations across Task Quality and System Performance for Long-Context Serving",
-      "summary_zh": "arXiv:2607.05399v1 Announce Type: new \nAbstract: Large language model serving is increasingly limited by KV-cache growth under long-context workloads, yet existing KV-cache compression techniques are difficult to compare because they were...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2607.05399v1 Announce Type: new \nAbstract: Large language model serving is increasingly limite",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "32e73c6dd85d",
-      "title_zh": "Text Distance from Nested and Hierarchical Repetitions: A Compression-Based Perspective",
-      "summary_zh": "arXiv:2607.05416v1 Announce Type: new \nAbstract: We present a new method for structural sequence analysis grounded in Algorithmic Information Theory (AIT). At its core is the Ladderpath approach, which extracts nested and hierarchical...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.05416v1 Announce Type: new \nAbstract: We present a new method for structural sequence ana",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5142248a3309",
-      "title_zh": "Most LLM Conformity Needs No Speaker: Measuring the Speaker-Free Floor in Peer-Pressure Benchmarks",
-      "summary_zh": "arXiv:2607.05545v1 Announce Type: new \nAbstract: LLM conformity is often used to describe cases where a model changes a correct answer toward a peer or group response. We show that most of this apparent conformity survives even after the peer is...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2607.05545v1 Announce Type: new \nAbstract: LLM conformity is often used to describe cases wher",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ca8b6984af45",
-      "title_zh": "The yes-no bias of large language models reflects answer order and wording, not shifts in moral judgment",
-      "summary_zh": "arXiv:2607.05552v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly issue judgments read as binary verdicts, and a growing literature reports such judgments shifting under logically irrelevant changes of wording - among...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.05552v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly issue jud",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a875a013249e",
-      "title_zh": "Prompt Robustness Is Task-Dependent: Comparing Objective and Belief-Style Questions in LLM Evaluation",
-      "summary_zh": "arXiv:2607.05554v1 Announce Type: new \nAbstract: Survey-style evaluations of large language models often treat a prompted response as a measure of a model's values or beliefs. This assumption is particularly fragile when responses are read as...",
-      "tags_zh": [
-        "LLM",
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2607.05554v1 Announce Type: new \nAbstract: Survey-style evaluations of large language models o",
       "key_facts": [],
       "notable_quote": {
         "text": "",
