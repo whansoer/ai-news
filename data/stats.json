@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-10T11:13:12Z",
-  "total": 256,
+  "updated": "2026-07-10T17:53:22Z",
+  "total": 230,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 60
     },
     {
-      "name": "GitHub Trending",
-      "count": 30
+      "name": "ArXiv (cs.AI)",
+      "count": 45
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 32
+    },
+    {
+      "name": "GitHub Trending",
+      "count": 25
     },
     {
       "name": "OpenAI",
@@ -31,30 +31,26 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 13
     },
     {
-      "name": "AI News",
-      "count": 8
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 54
     },
     {
       "name": "LLM",
-      "count": 34
-    },
-    {
-      "name": "Benchmark",
-      "count": 11
+      "count": 28
     },
     {
       "name": "GPT",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Claude",
@@ -62,14 +58,18 @@
     },
     {
       "name": "Google",
-      "count": 7
+      "count": 8
+    },
+    {
+      "name": "Benchmark",
+      "count": 8
     },
     {
       "name": "OpenAI",
-      "count": 6
+      "count": 7
     },
     {
-      "name": "Prompt",
+      "name": "API",
       "count": 5
     },
     {
@@ -81,15 +81,19 @@
       "count": 5
     },
     {
-      "name": "Embedding",
+      "name": "Anthropic",
       "count": 4
     },
     {
-      "name": "Llama",
+      "name": "Embedding",
       "count": 3
     },
     {
-      "name": "API",
+      "name": "Prompt",
+      "count": 3
+    },
+    {
+      "name": "Llama",
       "count": 3
     },
     {
@@ -101,15 +105,15 @@
       "count": 3
     },
     {
-      "name": "Anthropic",
-      "count": 2
-    },
-    {
-      "name": "Diffusion",
-      "count": 2
+      "name": "Meta",
+      "count": 1
     },
     {
       "name": "Microsoft",
+      "count": 1
+    },
+    {
+      "name": "Diffusion",
       "count": 1
     },
     {
@@ -124,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 173
+      "count": 147
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 40
     },
     {
       "name": "模型发布",
@@ -136,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 8
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -158,11 +162,11 @@
     },
     {
       "date": "07-09",
-      "count": 34
+      "count": 37
     },
     {
       "date": "07-10",
-      "count": 35
+      "count": 38
     },
     {
       "date": "08-14",
@@ -195,10 +199,28 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "5b512ec8cd3c",
+      "title": "How to shrink the token budget without shrinking the team",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "91af24306d5b",
+      "title": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "31630fbac8b6",
       "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "score": 5,
       "source": "OpenAI"
+    },
+    {
+      "id": "6a2fd44f5fb8",
+      "title": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness",
+      "score": 5,
+      "source": "MarkTechPost"
     },
     {
       "id": "b86fee3590d6",
@@ -209,24 +231,6 @@
     {
       "id": "16732240069e",
       "title": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "58c20b9adec6",
-      "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "047570ae84db",
-      "title": "How Do I Know What to Say Next? Barenholtz's Autogenerative Theory as an Enrichment of Harrisean Integrationism",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "0884285108ab",
-      "title": "Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }
