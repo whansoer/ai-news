@@ -1,21 +1,21 @@
 {
-  "updated": "2026-07-10T03:32:50Z",
-  "total": 242,
+  "updated": "2026-07-10T11:13:12Z",
+  "total": 256,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
       "count": 60
     },
     {
-      "name": "MarkTechPost",
-      "count": 31
+      "name": "GitHub Trending",
+      "count": 30
     },
     {
-      "name": "GitHub Trending",
+      "name": "MarkTechPost",
       "count": 28
     },
     {
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 29
+      "count": 34
     },
     {
       "name": "Benchmark",
@@ -58,15 +58,11 @@
     },
     {
       "name": "Claude",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Google",
       "count": 7
-    },
-    {
-      "name": "RAG",
-      "count": 6
     },
     {
       "name": "OpenAI",
@@ -77,11 +73,15 @@
       "count": 5
     },
     {
+      "name": "RAG",
+      "count": 5
+    },
+    {
       "name": "Gemini",
       "count": 5
     },
     {
-      "name": "Transformer",
+      "name": "Embedding",
       "count": 4
     },
     {
@@ -89,15 +89,11 @@
       "count": 3
     },
     {
-      "name": "Embedding",
-      "count": 3
-    },
-    {
       "name": "API",
       "count": 3
     },
     {
-      "name": "Diffusion",
+      "name": "Transformer",
       "count": 3
     },
     {
@@ -106,6 +102,10 @@
     },
     {
       "name": "Anthropic",
+      "count": 2
+    },
+    {
+      "name": "Diffusion",
       "count": 2
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 161
+      "count": 173
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -158,11 +158,11 @@
     },
     {
       "date": "07-09",
-      "count": 44
+      "count": 34
     },
     {
       "date": "07-10",
-      "count": 6
+      "count": 35
     },
     {
       "date": "08-14",
@@ -171,64 +171,64 @@
   ],
   "top10": [
     {
-      "id": "ce3a785ea3a9",
-      "title": "MadsLorentzen /ai-job-search",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "0d1bd25a3199",
       "title": "addyosmani /agent-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "4b4cf6b011e2",
-      "title": "VoltAgent /awesome-design-md",
+      "id": "e0eb31222492",
+      "title": "jbeder /yaml-cpp",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "c7871622e500",
-      "title": "iOfficeAI /OfficeCLI",
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "85770197f1cb",
-      "title": "vxcontrol /pentagi",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "2db83a025fb2",
-      "title": "unclecode /crawl4ai",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "6f0cc7a81fbe",
-      "title": "AWS GraphRAG deployment cuts drug research cycles by 87%",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "a9ac60dc9fcf",
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+      "id": "31630fbac8b6",
+      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
       "score": 5,
       "source": "OpenAI"
     },
     {
-      "id": "4e52bcd448d0",
-      "title": "NHS AI blood test could reduce invasive womb cancer checks",
+      "id": "b86fee3590d6",
+      "title": "Unveiling Public Opinion: A Study of Sentiment Analysis Using LSTM and Traditional Models",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "10a73f0831bf",
-      "title": "ChatGPT is now a partner for your most ambitious work",
+      "id": "16732240069e",
+      "title": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
       "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "58c20b9adec6",
+      "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "047570ae84db",
+      "title": "How Do I Know What to Say Next? Barenholtz's Autogenerative Theory as an Enrichment of Harrisean Integrationism",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "0884285108ab",
+      "title": "Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
