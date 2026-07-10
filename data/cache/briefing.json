@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-09T18:04:03Z",
-  "count": 166,
+  "updated": "2026-07-10T03:32:59Z",
+  "count": 167,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -10626,6 +10626,70 @@
         }
       },
       "_ts": 1783620243
+    },
+    "3dca881a2709fe75": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录242篇AI新闻，分类分布：学术研究161篇, 开源项目43篇, 模型发布30篇, 产品/API8篇。热门标签：Agent（61篇）。其中16%的文章有多来源交叉验证。\n\n▸ MadsLorentzen /ai-job-search：AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Cl\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ VoltAgent /awesome-design-md：A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project\n\n▸ iOfficeAI /OfficeCLI：OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate\n\n▸ vxcontrol /pentagi：Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "MadsLorentzen/ai-job-search",
+            "url": "https://github.com/MadsLorentzen/ai-job-search",
+            "why_hot": "单日3716星，TypeScript项目",
+            "stars_today": 3716,
+            "total_stars": 19383
+          },
+          {
+            "full_name": "bradautomates/claude-video",
+            "url": "https://github.com/bradautomates/claude-video",
+            "why_hot": "单日718星，Python项目",
+            "stars_today": 718,
+            "total_stars": 6781
+          },
+          {
+            "full_name": "asgeirtj/system_prompts_leaks",
+            "url": "https://github.com/asgeirtj/system_prompts_leaks",
+            "why_hot": "单日1125星，JavaScript项目",
+            "stars_today": 1125,
+            "total_stars": 55246
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "242"
+          },
+          {
+            "label": "多源验证率",
+            "value": "16%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+11433"
+          }
+        ],
+        "must_read_ids": [
+          "ce3a785ea3a9",
+          "0d1bd25a3199",
+          "4b4cf6b011e2",
+          "c7871622e500",
+          "85770197f1cb"
+        ],
+        "text": "今日共收录242篇AI新闻，分类分布：学术研究161篇, 开源项目43篇, 模型发布30篇, 产品/API8篇。热门标签：Agent（61篇）。其中16%的文章有多来源交叉验证。",
+        "top_items": [
+          "MadsLorentzen /ai-job-search",
+          "addyosmani /agent-skills",
+          "VoltAgent /awesome-design-md",
+          "iOfficeAI /OfficeCLI",
+          "vxcontrol /pentagi"
+        ],
+        "meta": {
+          "total_articles": 242,
+          "multi_source_pct": 16
+        }
+      },
+      "_ts": 1783654379
     }
   }
 }
