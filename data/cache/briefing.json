@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-11T09:45:41Z",
-  "count": 171,
+  "updated": "2026-07-11T17:06:04Z",
+  "count": 172,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -10946,6 +10946,70 @@
         }
       },
       "_ts": 1783763141
+    },
+    "60a73673b3f6f802": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录248篇AI新闻，分类分布：学术研究162篇, 开源项目43篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（59篇）。其中15%的文章有多来源交叉验证。\n\n▸ google-labs-code /stitch-skills：A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent \n\n▸ hashicorp /terraform：Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a \n\n▸ openai /plugins：OpenAI Plugins\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ jbeder /yaml-cpp：A YAML parser and emitter in C++",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "wonderwhy-er/DesktopCommanderMCP",
+            "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+            "why_hot": "单日900星，TypeScript项目",
+            "stars_today": 900,
+            "total_stars": 7710
+          },
+          {
+            "full_name": "bradautomates/claude-video",
+            "url": "https://github.com/bradautomates/claude-video",
+            "why_hot": "单日0星，Python项目",
+            "stars_today": 0,
+            "total_stars": 7458
+          },
+          {
+            "full_name": "facebook/astryx",
+            "url": "https://github.com/facebook/astryx",
+            "why_hot": "单日0星，TypeScript项目",
+            "stars_today": 0,
+            "total_stars": 7875
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "248"
+          },
+          {
+            "label": "多源验证率",
+            "value": "15%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+1975"
+          }
+        ],
+        "must_read_ids": [
+          "f73b7c861bcc",
+          "97fa41567e13",
+          "8c9e20fc0efe",
+          "0d1bd25a3199",
+          "e0eb31222492"
+        ],
+        "text": "今日共收录248篇AI新闻，分类分布：学术研究162篇, 开源项目43篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（59篇）。其中15%的文章有多来源交叉验证。",
+        "top_items": [
+          "google-labs-code /stitch-skills",
+          "hashicorp /terraform",
+          "openai /plugins",
+          "addyosmani /agent-skills",
+          "jbeder /yaml-cpp"
+        ],
+        "meta": {
+          "total_articles": 248,
+          "multi_source_pct": 15
+        }
+      },
+      "_ts": 1783789564
     }
   }
 }

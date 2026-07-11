@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T09:45:31Z",
-  "total": 246,
+  "updated": "2026-07-11T17:05:55Z",
+  "total": 248,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 33
+      "count": 32
     },
     {
       "name": "GitHub Trending",
-      "count": 25
+      "count": 28
     },
     {
       "name": "OpenAI",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 59
     },
     {
       "name": "LLM",
@@ -54,10 +54,14 @@
     },
     {
       "name": "Claude",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Google",
+      "count": 9
+    },
+    {
+      "name": "OpenAI",
       "count": 8
     },
     {
@@ -65,19 +69,15 @@
       "count": 8
     },
     {
-      "name": "OpenAI",
-      "count": 7
+      "name": "Gemini",
+      "count": 6
     },
     {
       "name": "API",
-      "count": 5
+      "count": 6
     },
     {
       "name": "RAG",
-      "count": 5
-    },
-    {
-      "name": "Gemini",
       "count": 5
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 163
+      "count": 162
     },
     {
       "name": "开源项目",
-      "count": 40
+      "count": 43
     },
     {
       "name": "模型发布",
@@ -162,7 +162,7 @@
     },
     {
       "date": "07-11",
-      "count": 20
+      "count": 23
     },
     {
       "date": "08-14",
@@ -170,6 +170,24 @@
     }
   ],
   "top10": [
+    {
+      "id": "f73b7c861bcc",
+      "title": "google-labs-code /stitch-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "97fa41567e13",
+      "title": "hashicorp /terraform",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "8c9e20fc0efe",
+      "title": "openai /plugins",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "0d1bd25a3199",
       "title": "addyosmani /agent-skills",
@@ -209,24 +227,6 @@
     {
       "id": "22d041bcff3a",
       "title": "AI-integrated models for assessing agricultural resilience",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "db8da75a6ba0",
-      "title": "Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "55feb239ddd6",
-      "title": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "d79b100bac01",
-      "title": "Alignment Plausibility: A New Standard for Assuring AI in Healthcare",
       "score": 5,
       "source": "ArXiv (cs.AI)"
     }
