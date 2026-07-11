@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T02:49:11Z",
+  "updated": "2026-07-11T09:45:41Z",
   "total": 20,
   "items": [
     {
@@ -57,13 +57,11 @@
       }
     },
     {
-      "id": "10db20cdab10",
-      "title_zh": "Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI",
-      "summary_zh": "MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real recordings plus 1.45M synthetic MIDIs, it transcribes full multi-instrument mixes into MIDI. The article covers its three-stage pipeline,...",
-      "tags_zh": [
-        "Transformer"
-      ],
-      "oneliner": "MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real ",
+      "id": "76d90714efd6",
+      "title_zh": "Ant Group’s Robbyant Unveils LingBot-VA 2.0: A Causal Video-Action Model Built Natively for Physical AI",
+      "summary_zh": "Ant Group's Robbyant has released the LingBot-VA 2.0 technical report — a Physical AI video-action foundation model built from scratch for embodiment rather than fine-tuned from a video generator. It predicts future states ahead of execution...",
+      "tags_zh": [],
+      "oneliner": "Ant Group's Robbyant has released the LingBot-VA 2.0 technical report — a Physical AI video-action f",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -71,13 +69,13 @@
       }
     },
     {
-      "id": "44e356c9f317",
-      "title_zh": "How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B, Sandboxed Code Execution, and Iterative Analysis",
-      "summary_zh": "We build an autonomous data science agent around DeepAnalyze-8B and run it end to end. We prepare a stable Colab runtime, install the machine-learning dependencies, and load the tokenizer and model in 4-bit mode to fit limited GPU memory. We add...",
+      "id": "5d1c2e6998ea",
+      "title_zh": "Context Graphs for Proactive Enterprise Agents",
+      "summary_zh": "arXiv:2607.07721v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "We build an autonomous data science agent around DeepAnalyze-8B and run it end to end. We prepare a ",
+      "oneliner": "arXiv:2607.07721v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) and agentic fr",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -85,11 +83,11 @@
       }
     },
     {
-      "id": "5b512ec8cd3c",
-      "title_zh": "How to shrink the token budget without shrinking the team",
-      "summary_zh": "Jensen Huang has a test for whether an engineer is worth keeping, and it comes with a token budget attached. Speaking on the All-In Podcast at the close of GTC 2026, the Nvidia chief executive said that if a $500,000 engineer&#8217;s annual AI...",
+      "id": "22d041bcff3a",
+      "title_zh": "AI-integrated models for assessing agricultural resilience",
+      "summary_zh": "arXiv:2607.07759v1 Announce Type: new \nAbstract: Agricultural supply chains are vulnerable to disruptions through linked biophysical and economic systems. We develop an AI-powered tool that integrates economic models (GTAP) with biophysical...",
       "tags_zh": [],
-      "oneliner": "Jensen Huang has a test for whether an engineer is worth keeping, and it comes with a token budget a",
+      "oneliner": "arXiv:2607.07759v1 Announce Type: new \nAbstract: Agricultural supply chains are vulnerable to disrup",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -97,25 +95,11 @@
       }
     },
     {
-      "id": "91af24306d5b",
-      "title_zh": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data",
-      "summary_zh": "SensorFM, a wearable health foundation model from Google Research, Google DeepMind, and university collaborators. We walk through its ViT-1D masked-autoencoder backbone, pretrained on more than one trillion minutes of unlabeled sensor signals...",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "SensorFM, a wearable health foundation model from Google Research, Google DeepMind, and university c",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "31630fbac8b6",
-      "title_zh": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "summary_zh": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+      "id": "db8da75a6ba0",
+      "title_zh": "Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
+      "summary_zh": "arXiv:2607.07760v1 Announce Type: new \nAbstract: We outline an adversarial social epistemology (ASE) for densely interactive communicative landscapes in which public assertions are scaffolded by chains of testimony, inference, institutional...",
       "tags_zh": [],
-      "oneliner": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, emplo",
+      "oneliner": "arXiv:2607.07760v1 Announce Type: new \nAbstract: We outline an adversarial social epistemology (ASE)",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -123,77 +107,13 @@
       }
     },
     {
-      "id": "6a2fd44f5fb8",
-      "title_zh": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness",
-      "summary_zh": "Robbyant, Ant Group's embodied-intelligence unit, has released LingBot-World-Infinity (LingBot-World 2.0). It is a 14B causal video generation model that behaves as an interactive world simulator. The core idea is the Mixture of Bidirectional and...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Robbyant, Ant Group's embodied-intelligence unit, has released LingBot-World-Infinity (LingBot-World",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b86fee3590d6",
-      "title_zh": "Unveiling Public Opinion: A Study of Sentiment Analysis Using LSTM and Traditional Models",
-      "summary_zh": "arXiv:2607.07772v1 Announce Type: new \nAbstract: In this age of social media, sites like Twitter have become meeting places for people to share their views and feelings on a wide range of issues and current events as they unfold in real time....",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.07772v1 Announce Type: new \nAbstract: In this age of social media, sites like Twitter hav",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "16732240069e",
-      "title_zh": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
-      "summary_zh": "arXiv:2607.07779v1 Announce Type: new \nAbstract: Recent developments in AI for Mathematics (AI4Math), especially Large Language Model (LLM)-driven theorem provers, has achieved remarkable success in formal proof generation for well-defined...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.07779v1 Announce Type: new \nAbstract: Recent developments in AI for Mathematics (AI4Math)",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "58c20b9adec6",
-      "title_zh": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
-      "summary_zh": "arXiv:2607.07820v1 Announce Type: new \nAbstract: Training tool-use agents to improve from their own experience remains challenging, as supervised fine-tuning relies on fixed teacher-distilled trajectories, while sparse-reward reinforcement...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2607.07820v1 Announce Type: new \nAbstract: Training tool-use agents to improve from their own ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "047570ae84db",
-      "title_zh": "How Do I Know What to Say Next? Barenholtz's Autogenerative Theory as an Enrichment of Harrisean Integrationism",
-      "summary_zh": "arXiv:2607.07891v1 Announce Type: new \nAbstract: Roy Harris's Integrationist linguistics offers a compelling critique of the referentialist tradition embedded deep at the heart of computational approaches to language, arguing that language is not...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.07891v1 Announce Type: new \nAbstract: Roy Harris's Integrationist linguistics offers a co",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0884285108ab",
-      "title_zh": "Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration",
-      "summary_zh": "arXiv:2607.07895v1 Announce Type: new \nAbstract: Research on stereotypes in large language models (LLMs) has largely focused on English-speaking contexts, due to the lack of datasets in other languages and the high cost of manual annotation in...",
+      "id": "55feb239ddd6",
+      "title_zh": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
+      "summary_zh": "arXiv:2607.07761v1 Announce Type: new \nAbstract: Large language models (LLMs) have emerged as important tools in healthcare, showing growing potential for clinical reasoning and patient care. This survey examines recent progress in medical LLMs,...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "arXiv:2607.07895v1 Announce Type: new \nAbstract: Research on stereotypes in large language models (L",
+      "oneliner": "arXiv:2607.07761v1 Announce Type: new \nAbstract: Large language models (LLMs) have emerged as import",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -201,11 +121,11 @@
       }
     },
     {
-      "id": "315b48b0b82c",
-      "title_zh": "When Debiasing Backfires: Counterintuitive Side Effects of Preprocessing-Based Stereotype Mitigation",
-      "summary_zh": "arXiv:2607.07937v1 Announce Type: new \nAbstract: Preprocessing-based methods for stereotype mitigation, such as pre-/post-training on debiased corpora, are widely used in NLP. While these approaches reduce measurable stereotypes for targeted...",
+      "id": "d79b100bac01",
+      "title_zh": "Alignment Plausibility: A New Standard for Assuring AI in Healthcare",
+      "summary_zh": "arXiv:2607.07766v1 Announce Type: new \nAbstract: Large language models (LLMs) have become significant providers of mental health support, yet they remain products of an attention economy whose operational and commercial targets favour sustained...",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.07937v1 Announce Type: new \nAbstract: Preprocessing-based methods for stereotype mitigati",
+      "oneliner": "arXiv:2607.07766v1 Announce Type: new \nAbstract: Large language models (LLMs) have become significan",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -213,13 +133,11 @@
       }
     },
     {
-      "id": "53bf8795b33f",
-      "title_zh": "A Multi-cluster Boundary Learning Method for Out-of-Scope Intent Detection via MiniLM Embedding",
-      "summary_zh": "arXiv:2607.07974v1 Announce Type: new \nAbstract: Intent detection is a critical task that bridges human intents and system actions in human-machine interaction systems. However, there still exist challenges for detecting out-of-scope (OOS)...",
-      "tags_zh": [
-        "Embedding"
-      ],
-      "oneliner": "arXiv:2607.07974v1 Announce Type: new \nAbstract: Intent detection is a critical task that bridges hu",
+      "id": "f83ad9ba3b0b",
+      "title_zh": "Idiobionics: The Unification of Privacy and Intelligent Robotic Prostheses",
+      "summary_zh": "arXiv:2607.07775v1 Announce Type: new \nAbstract: The human body is at the center of a growing family of technologies designed to tightly and persistently couple biological and digital systems. Robotic prostheses are a representative example of...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.07775v1 Announce Type: new \nAbstract: The human body is at the center of a growing family",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -227,13 +145,25 @@
       }
     },
     {
-      "id": "c0de14ab5e71",
-      "title_zh": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
-      "summary_zh": "arXiv:2607.07976v1 Announce Type: new \nAbstract: Reinforcement learning (RL) has achieved remarkable success in enhancing the reasoning capabilities of large language models (LLMs). However, widely used critic-free RL methods rely on uniform...",
+      "id": "23225298ac6f",
+      "title_zh": "Infinity-Parser2 Technical Report",
+      "summary_zh": "arXiv:2607.07836v1 Announce Type: new \nAbstract: We present Infinity-Parser2, a large multimodal model that couples a controllable data-synthesis pipeline with multi-task reinforcement learning for end-to-end document parsing, addressing the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.07836v1 Announce Type: new \nAbstract: We present Infinity-Parser2, a large multimodal mod",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1db26e22ab19",
+      "title_zh": "VectorizationLLM: Smart Vectorization Based AI Assistant",
+      "summary_zh": "arXiv:2607.07846v1 Announce Type: new \nAbstract: VectorizationLLM is a specialized Large Language Model based on Google open-weight LLMs. The model is designed to assist students to learn smart vectorization, time/wave vector analysis, piecewise...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "arXiv:2607.07976v1 Announce Type: new \nAbstract: Reinforcement learning (RL) has achieved remarkable",
+      "oneliner": "arXiv:2607.07846v1 Announce Type: new \nAbstract: VectorizationLLM is a specialized Large Language Mo",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -241,13 +171,25 @@
       }
     },
     {
-      "id": "050f925c28a4",
-      "title_zh": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
-      "summary_zh": "arXiv:2607.07985v1 Announce Type: new \nAbstract: We report the empirical reliability of Gemini models as audio judges that score full-duplex agent conversations directly from the raw stereo waveform, tested across three models in the Gemini...",
+      "id": "8f0c59b1a14e",
+      "title_zh": "A Graph Neural Network Model for Real-Time Gesture Recognition Based on sEMG Signals",
+      "summary_zh": "arXiv:2607.07850v1 Announce Type: new \nAbstract: For seemless control of advanced hand prostheses and augmented reality, accurate and immediate hand gestures recognition is essential. Surface electromyography (sEMG) signals obtained from the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.07850v1 Announce Type: new \nAbstract: For seemless control of advanced hand prostheses an",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ba5efe486ef4",
+      "title_zh": "Agentic AI and Retrieval-Augmented Models in Straight-Through Underwriting",
+      "summary_zh": "arXiv:2607.07858v1 Announce Type: new \nAbstract: Artificial intelligence (AI) is beginning to reshape actuarial practice, particularly in domains that require reasoning over unstructured documents, heterogeneous data sources, and regulated...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "arXiv:2607.07985v1 Announce Type: new \nAbstract: We report the empirical reliability of Gemini model",
+      "oneliner": "arXiv:2607.07858v1 Announce Type: new \nAbstract: Artificial intelligence (AI) is beginning to reshap",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -255,11 +197,63 @@
       }
     },
     {
-      "id": "28b1754729b1",
-      "title_zh": "Hallucination Self-Play: Bootstrapping Reinforced Detector via Evolved Generator",
-      "summary_zh": "arXiv:2607.07993v1 Announce Type: new \nAbstract: Identifying faithfulness hallucinations in LLM-generated outputs remains challenging due to the scarcity of high-quality annotated data. Recent work relies on advanced LLMs to synthesize training...",
+      "id": "8bd13ad2adcd",
+      "title_zh": "Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning",
+      "summary_zh": "arXiv:2607.07859v1 Announce Type: new \nAbstract: Reinforcement learning (RL) research has increasingly shifted focus towards alignment, ensuring agents learn behaviors adhering to human values. While human demonstrations and feedback have proven...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2607.07859v1 Announce Type: new \nAbstract: Reinforcement learning (RL) research has increasing",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6ca973f78b51",
+      "title_zh": "Nigeria Machinery: A Low-Resource Industrial Dataset with a Domain-Grounded Reasoning Layer",
+      "summary_zh": "arXiv:2607.07883v1 Announce Type: new \nAbstract: There is relatively little, public, and model-ready data on industrial machinery for African economies. This makes it hard to do quantitative analysis or to train language models on numeric tasks...",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.07993v1 Announce Type: new \nAbstract: Identifying faithfulness hallucinations in LLM-gene",
+      "oneliner": "arXiv:2607.07883v1 Announce Type: new \nAbstract: There is relatively little, public, and model-ready",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6a5658580686",
+      "title_zh": "Persona Cartography: Charting Language Model Personality Traits in Weight Space",
+      "summary_zh": "arXiv:2607.07916v1 Announce Type: new \nAbstract: Large language models exhibit recurring behavioural patterns -- personas -- that shape generalisation and safety, but we lack reliable tools for decomposing, measuring, and controlling them. Our...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.07916v1 Announce Type: new \nAbstract: Large language models exhibit recurring behavioural",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "53aa943429ec",
+      "title_zh": "Evaluating the Effect of Frame Rate in Sequence-Based Classification of Autism-Related Self-Stimulatory Hand Idiosyncrasies",
+      "summary_zh": "arXiv:2607.07957v1 Announce Type: new \nAbstract: Autism spectrum disorder (ASD) affects over 75 million individuals worldwide, yet scalable computational methods for remote behavioral screening remain limited. This study addresses two...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.07957v1 Announce Type: new \nAbstract: Autism spectrum disorder (ASD) affects over 75 mill",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "910b6ceefc45",
+      "title_zh": "Agentic Neural Architecture Search",
+      "summary_zh": "arXiv:2607.07984v1 Announce Type: new \nAbstract: Neural architecture search (NAS) methods have grown increasingly efficient, yet they remain bounded by manually engineered search spaces that require substantial domain expertise and must be...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2607.07984v1 Announce Type: new \nAbstract: Neural architecture search (NAS) methods have grown",
       "key_facts": [],
       "notable_quote": {
         "text": "",
