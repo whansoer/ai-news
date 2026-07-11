@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-10T17:53:32Z",
+  "updated": "2026-07-11T02:49:11Z",
   "total": 190,
-  "new_count": 46,
+  "new_count": 42,
   "items": [
     {
       "id": "0d1bd25a3199",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-07-10T17:50:49Z",
+      "published": "2026-07-11T02:46:37Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A YAML parser and emitter in C++",
-      "published": "2026-07-10T17:50:49Z",
+      "published": "2026-07-11T02:46:37Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .claude directory.",
-      "published": "2026-07-10T17:50:49Z",
+      "published": "2026-07-11T02:46:37Z",
       "tags": [
         "Claude"
       ],
@@ -87,7 +87,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-07-10T17:50:49Z",
+      "published": "2026-07-11T02:46:37Z",
       "tags": [
         "Agent"
       ],
@@ -106,6 +106,60 @@
         "Agent"
       ],
       "oneliner": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "10db20cdab10",
+      "title": "Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI",
+      "url": "https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real recordings plus 1.45M synthetic MIDIs, it transcribes full multi-instrument mixes into MIDI. The article covers its three-stage pipeline,...",
+      "published": "2026-07-10T20:21:08Z",
+      "tags": [
+        "Transformer"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI",
+      "summary_zh": "MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real recordings plus 1.45M synthetic MIDIs, it transcribes full multi-instrument mixes into MIDI. The article covers its three-stage pipeline,...",
+      "tags_zh": [
+        "Transformer"
+      ],
+      "oneliner": "MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real "
+    },
+    {
+      "id": "44e356c9f317",
+      "title": "How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B, Sandboxed Code Execution, and Iterative Analysis",
+      "url": "https://www.marktechpost.com/2026/07/10/how-to-build-a-t4-friendly-autonomous-data-science-agent-with-deepanalyze-8b-sandboxed-code-execution-and-iterative-analysis/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We build an autonomous data science agent around DeepAnalyze-8B and run it end to end. We prepare a stable Colab runtime, install the machine-learning dependencies, and load the tokenizer and model in 4-bit mode to fit limited GPU memory. We add...",
+      "published": "2026-07-10T19:24:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B, Sandboxed Code Execution, and Iterative Analysis",
+      "summary_zh": "We build an autonomous data science agent around DeepAnalyze-8B and run it end to end. We prepare a stable Colab runtime, install the machine-learning dependencies, and load the tokenizer and model in 4-bit mode to fit limited GPU memory. We add...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "We build an autonomous data science agent around DeepAnalyze-8B and run it end to end. We prepare a "
     },
     {
       "id": "5b512ec8cd3c",
@@ -477,12 +531,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "From Execution to Education: A Bloom-Aligned Framework for Measuring Educational Control in LLMs",
-      "summary_zh": "arXiv:2607.08009v1 Announce Type: new \nAbstract: We introduce a Bloom-aligned framework for measuring educational control in Large Language Models (LLMs): the ability to preserve a task's instructional intent while shifting its cognitive demand...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.08009v1 Announce Type: new \nAbstract: We introduce a Bloom-aligned framework for measurin"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "49770875b65d",
@@ -505,13 +557,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems",
-      "summary_zh": "arXiv:2607.08010v1 Announce Type: new \nAbstract: Production LLM agents often waste latency and reliability by regenerating code for the same procedural steps on every request. We replace this inference-time coding loop with an agentic tool-making...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2607.08010v1 Announce Type: new \nAbstract: Production LLM agents often waste latency and relia"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "fd24ed43e8b8",
@@ -4672,55 +4721,6 @@
           "00a76be555b8"
         ],
         "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1ebe252a09eb",
-      "title": "Mistral AI Releases Leanstral 1.5: An Apache-2.0 Lean 4 Code Agent Model Solving 587 of 672 PutnamBench Problems",
-      "url": "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Mistral AI released Leanstral 1.5, a free Apache-2.0 code agent model for Lean 4. It saturates miniF2F and solves 587 of 672 PutnamBench problems. The 119B mixture-of-experts activates 6.5B parameters per token. We break down its architecture,...",
-      "published": "2026-07-03T22:20:26Z",
-      "tags": [
-        "Mistral",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "373ef5d7cc70",
-      "title": "Designing a Schema-Guided Invoice Intelligence Pipeline with lift-pdf for Accounts-Payable Extraction, Validation, and Ledger Generation",
-      "url": "https://www.marktechpost.com/2026/07/03/schema-guided-invoice-intelligence-pipeline-with-lift-pdf/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we build an end-to-end accounts-payable extraction pipeline with lift-pdf, using synthetic invoice PDFs as controlled test documents and a structured JSON schema as the target output format. Instead of treating invoice parsing...",
-      "published": "2026-07-03T21:25:33Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
