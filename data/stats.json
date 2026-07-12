@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T17:05:55Z",
-  "total": 248,
+  "updated": "2026-07-12T02:57:30Z",
+  "total": 246,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 28
+      "count": 26
     },
     {
       "name": "OpenAI",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 59
+      "count": 55
     },
     {
       "name": "LLM",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Claude",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Google",
@@ -66,7 +66,7 @@
     },
     {
       "name": "Benchmark",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Gemini",
@@ -85,10 +85,6 @@
       "count": 4
     },
     {
-      "name": "Anthropic",
-      "count": 4
-    },
-    {
       "name": "Embedding",
       "count": 3
     },
@@ -101,8 +97,16 @@
       "count": 3
     },
     {
+      "name": "Anthropic",
+      "count": 3
+    },
+    {
       "name": "DeepSeek",
       "count": 3
+    },
+    {
+      "name": "GPU",
+      "count": 1
     },
     {
       "name": "Meta",
@@ -128,7 +132,7 @@
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 41
     },
     {
       "name": "模型发布",
@@ -140,10 +144,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-06",
-      "count": 8
-    },
     {
       "date": "07-07",
       "count": 48
@@ -162,7 +162,11 @@
     },
     {
       "date": "07-11",
-      "count": 23
+      "count": 20
+    },
+    {
+      "date": "07-12",
+      "count": 5
     },
     {
       "date": "08-14",
@@ -187,6 +191,18 @@
       "title": "openai /plugins",
       "score": 5,
       "source": "GitHub Trending"
+    },
+    {
+      "id": "a56e029b9f9f",
+      "title": "Mira Murati’s Thinking Machines Lab Makes The Technical Case For Human-Centered AI Built On Customizable Model Weights",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "2347859ae63a",
+      "title": "A Coding Guide to NVIDIA’s Tile-Based GPU Programming: From cuTile and Triton Kernels to Flash Attention",
+      "score": 5,
+      "source": "MarkTechPost"
     },
     {
       "id": "0d1bd25a3199",
@@ -217,18 +233,6 @@
       "title": "Ant Group’s Robbyant Unveils LingBot-VA 2.0: A Causal Video-Action Model Built Natively for Physical AI",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "5d1c2e6998ea",
-      "title": "Context Graphs for Proactive Enterprise Agents",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "22d041bcff3a",
-      "title": "AI-integrated models for assessing agricultural resilience",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
     }
   ]
 }
