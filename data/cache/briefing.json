@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-13T02:52:26Z",
-  "count": 176,
+  "updated": "2026-07-13T02:58:46Z",
+  "count": 177,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -11266,6 +11266,70 @@
         }
       },
       "_ts": 1783911146
+    },
+    "311796f4363c8b51": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录248篇AI新闻，分类分布：学术研究160篇, 开源项目45篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（57篇）。其中15%的文章有多来源交叉验证。\n\n▸ Dicklesworthstone /destructive_command_guard：The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being exec\n\n▸ HKUDS /Vibe-Trading：\"Vibe-Trading: Your Personal Trading Agent\"\n\n▸ Shubhamsaboo /awesome-llm-apps：100+ AI Agent & RAG apps you can actually run — clone, customize, ship.\n\n▸ Crosstalk-Solutions /project-nomad：Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowle\n\n▸ ColeMurray /background-agents：An open-source background agents coding system",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "Dicklesworthstone/destructive_command_guard",
+            "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+            "why_hot": "单日444星，Rust项目",
+            "stars_today": 444,
+            "total_stars": 3037
+          },
+          {
+            "full_name": "wonderwhy-er/DesktopCommanderMCP",
+            "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+            "why_hot": "单日210星，TypeScript项目",
+            "stars_today": 210,
+            "total_stars": 8022
+          },
+          {
+            "full_name": "HKUDS/Vibe-Trading",
+            "url": "https://github.com/HKUDS/Vibe-Trading",
+            "why_hot": "单日768星，Python项目",
+            "stars_today": 768,
+            "total_stars": 20676
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "248"
+          },
+          {
+            "label": "多源验证率",
+            "value": "15%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+1422"
+          }
+        ],
+        "must_read_ids": [
+          "8c171384c4cd",
+          "3888eecb3f45",
+          "46405393d4f5",
+          "41a6a86637e6",
+          "b454287131ed"
+        ],
+        "text": "今日共收录248篇AI新闻，分类分布：学术研究160篇, 开源项目45篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（57篇）。其中15%的文章有多来源交叉验证。",
+        "top_items": [
+          "Dicklesworthstone /destructive_command_g",
+          "HKUDS /Vibe-Trading",
+          "Shubhamsaboo /awesome-llm-apps",
+          "Crosstalk-Solutions /project-nomad",
+          "ColeMurray /background-agents"
+        ],
+        "meta": {
+          "total_articles": 248,
+          "multi_source_pct": 15
+        }
+      },
+      "_ts": 1783911526
     }
   }
 }
