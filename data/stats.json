@@ -1,18 +1,18 @@
 {
-  "updated": "2026-07-13T02:58:36Z",
-  "total": 248,
+  "updated": "2026-07-13T11:21:43Z",
+  "total": 276,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 60
+      "name": "ArXiv (cs.CL)",
+      "count": 75
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 60
+      "name": "ArXiv (cs.AI)",
+      "count": 75
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 34
     },
     {
       "name": "MarkTechPost",
@@ -31,26 +31,34 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 13
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 7
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 57
+      "count": 68
     },
     {
       "name": "LLM",
-      "count": 31
+      "count": 38
     },
     {
       "name": "GPT",
       "count": 11
+    },
+    {
+      "name": "Benchmark",
+      "count": 10
+    },
+    {
+      "name": "RAG",
+      "count": 9
     },
     {
       "name": "Claude",
@@ -65,16 +73,8 @@
       "count": 8
     },
     {
-      "name": "Benchmark",
-      "count": 7
-    },
-    {
-      "name": "RAG",
-      "count": 6
-    },
-    {
       "name": "Gemini",
-      "count": 6
+      "count": 7
     },
     {
       "name": "API",
@@ -90,10 +90,6 @@
     },
     {
       "name": "Prompt",
-      "count": 3
-    },
-    {
-      "name": "Anthropic",
       "count": 3
     },
     {
@@ -117,6 +113,10 @@
       "count": 1
     },
     {
+      "name": "Anthropic",
+      "count": 1
+    },
+    {
       "name": "Diffusion",
       "count": 1
     }
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 160
+      "count": 190
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 49
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 13
+      "count": 7
     }
   ],
   "dailyTrend": [
@@ -162,7 +162,7 @@
     },
     {
       "date": "07-13",
-      "count": 6
+      "count": 40
     },
     {
       "date": "08-14",
@@ -183,52 +183,52 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "ebe69a8411ca",
+      "title": "moeru-ai /airi",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "46405393d4f5",
       "title": "Shubhamsaboo /awesome-llm-apps",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "41a6a86637e6",
-      "title": "Crosstalk-Solutions /project-nomad",
+      "id": "c88c01cfd244",
+      "title": "Nutlope /hallmark",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "b454287131ed",
-      "title": "ColeMurray /background-agents",
+      "id": "68a6c284cff5",
+      "title": "Graphify-Labs /graphify",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d4554956a292",
-      "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "94ea0b8e28a8",
-      "title": "Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "f73b7c861bcc",
-      "title": "google-labs-code /stitch-skills",
+      "id": "ac45b546f1b9",
+      "title": "hasaneyldrm /exercises-dataset",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "97fa41567e13",
-      "title": "hashicorp /terraform",
+      "id": "04efdb071d56",
+      "title": "HALO: Hybrid Adaptive Latent Reasoning for Language Models",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "8c9e20fc0efe",
-      "title": "openai /plugins",
+      "id": "a5c578e3a5d1",
+      "title": "An Emergent Mirage: Is Emergent Misalignment and Realignment Indeed a Robust Phenomenon?",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "9e62cad14112",
+      "title": "AgentKGV: Agentic LLM-RAG Framework with Two-Stage Training for the Fact Verification of Knowledge Graphs",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
