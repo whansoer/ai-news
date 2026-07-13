@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T11:21:43Z",
-  "total": 276,
+  "updated": "2026-07-13T18:01:50Z",
+  "total": 280,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 34
+      "count": 33
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 29
     },
     {
       "name": "OpenAI",
@@ -31,18 +31,18 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 13
     },
     {
-      "name": "AI News",
-      "count": 7
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 68
+      "count": 72
     },
     {
       "name": "LLM",
@@ -50,6 +50,10 @@
     },
     {
       "name": "GPT",
+      "count": 12
+    },
+    {
+      "name": "Claude",
       "count": 11
     },
     {
@@ -58,10 +62,6 @@
     },
     {
       "name": "RAG",
-      "count": 9
-    },
-    {
-      "name": "Claude",
       "count": 9
     },
     {
@@ -101,6 +101,10 @@
       "count": 2
     },
     {
+      "name": "Anthropic",
+      "count": 2
+    },
+    {
       "name": "GPU",
       "count": 1
     },
@@ -113,10 +117,6 @@
       "count": 1
     },
     {
-      "name": "Anthropic",
-      "count": 1
-    },
-    {
       "name": "Diffusion",
       "count": 1
     }
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 189
     },
     {
       "name": "开源项目",
-      "count": 49
+      "count": 48
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 7
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -150,7 +150,7 @@
     },
     {
       "date": "07-10",
-      "count": 36
+      "count": 37
     },
     {
       "date": "07-11",
@@ -162,7 +162,7 @@
     },
     {
       "date": "07-13",
-      "count": 40
+      "count": 44
     },
     {
       "date": "08-14",
@@ -170,12 +170,6 @@
     }
   ],
   "top10": [
-    {
-      "id": "8c171384c4cd",
-      "title": "Dicklesworthstone /destructive_command_guard",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
     {
       "id": "3888eecb3f45",
       "title": "HKUDS /Vibe-Trading",
@@ -213,22 +207,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "04efdb071d56",
-      "title": "HALO: Hybrid Adaptive Latent Reasoning for Language Models",
+      "id": "7344796a1c66",
+      "title": "coreyhaines31 /marketingskills",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "a5c578e3a5d1",
-      "title": "An Emergent Mirage: Is Emergent Misalignment and Realignment Indeed a Robust Phenomenon?",
+      "id": "8c171384c4cd",
+      "title": "Dicklesworthstone /destructive_command_guard",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "9e62cad14112",
-      "title": "AgentKGV: Agentic LLM-RAG Framework with Two-Stage Training for the Fact Verification of Knowledge Graphs",
+      "id": "b52f45f24505",
+      "title": "AI agent crawlers now need permission. Here’s how to get it",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "AI News"
+    },
+    {
+      "id": "1718314d0170",
+      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
