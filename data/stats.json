@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T18:01:50Z",
-  "total": 280,
+  "updated": "2026-07-14T02:39:31Z",
+  "total": 283,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 32
     },
     {
       "name": "OpenAI",
@@ -42,23 +42,23 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 74
     },
     {
       "name": "LLM",
       "count": 38
     },
     {
-      "name": "GPT",
+      "name": "Claude",
       "count": 12
     },
     {
-      "name": "Claude",
-      "count": 11
+      "name": "Benchmark",
+      "count": 12
     },
     {
-      "name": "Benchmark",
-      "count": 10
+      "name": "GPT",
+      "count": 12
     },
     {
       "name": "RAG",
@@ -78,11 +78,15 @@
     },
     {
       "name": "API",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Transformer",
       "count": 4
+    },
+    {
+      "name": "Anthropic",
+      "count": 3
     },
     {
       "name": "Embedding",
@@ -98,10 +102,6 @@
     },
     {
       "name": "Llama",
-      "count": 2
-    },
-    {
-      "name": "Anthropic",
       "count": 2
     },
     {
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 192
     },
     {
       "name": "开源项目",
@@ -140,10 +140,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-08",
-      "count": 47
-    },
     {
       "date": "07-09",
       "count": 37
@@ -162,7 +158,11 @@
     },
     {
       "date": "07-13",
-      "count": 44
+      "count": 39
+    },
+    {
+      "date": "07-14",
+      "count": 8
     },
     {
       "date": "08-14",
@@ -213,20 +213,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "8c171384c4cd",
-      "title": "Dicklesworthstone /destructive_command_guard",
+      "id": "1ab90ae5ecad",
+      "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     },
     {
-      "id": "b52f45f24505",
-      "title": "AI agent crawlers now need permission. Here’s how to get it",
+      "id": "084094000f12",
+      "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
       "score": 5,
-      "source": "AI News"
+      "source": "MarkTechPost"
     },
     {
-      "id": "1718314d0170",
-      "title": "Stanford Researchers Introduce TRACE: A Capability-Targeted Agentic Training System That Turns Recurrent Agent Failures Into Synthetic RL Environment",
+      "id": "8aa1f2304e3c",
+      "title": "Building a VideoAgent-Style Multi-Agent System: Intent Parsing, Graph Planning, and Tool Routing for Video Editing Tasks",
       "score": 5,
       "source": "MarkTechPost"
     }
