@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-14T02:39:31Z",
-  "total": 283,
+  "updated": "2026-07-14T10:06:31Z",
+  "total": 306,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "GitHub Trending",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 32
+      "count": 31
     },
     {
       "name": "OpenAI",
@@ -31,42 +31,46 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 13
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 7
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 74
+      "count": 77
     },
     {
       "name": "LLM",
-      "count": 38
-    },
-    {
-      "name": "Claude",
-      "count": 12
+      "count": 43
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 15
     },
     {
       "name": "GPT",
       "count": 12
     },
     {
+      "name": "Claude",
+      "count": 11
+    },
+    {
       "name": "RAG",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Google",
       "count": 9
+    },
+    {
+      "name": "API",
+      "count": 8
     },
     {
       "name": "OpenAI",
@@ -77,28 +81,24 @@
       "count": 7
     },
     {
-      "name": "API",
-      "count": 7
+      "name": "Prompt",
+      "count": 5
     },
     {
       "name": "Transformer",
       "count": 4
     },
     {
-      "name": "Anthropic",
-      "count": 3
-    },
-    {
       "name": "Embedding",
-      "count": 3
-    },
-    {
-      "name": "Prompt",
       "count": 3
     },
     {
       "name": "DeepSeek",
       "count": 3
+    },
+    {
+      "name": "Anthropic",
+      "count": 2
     },
     {
       "name": "Llama",
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 192
+      "count": 221
     },
     {
       "name": "开源项目",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 13
+      "count": 7
     }
   ],
   "dailyTrend": [
@@ -158,11 +158,11 @@
     },
     {
       "date": "07-13",
-      "count": 39
+      "count": 38
     },
     {
       "date": "07-14",
-      "count": 8
+      "count": 39
     },
     {
       "date": "08-14",
@@ -170,6 +170,12 @@
     }
   ],
   "top10": [
+    {
+      "id": "8c171384c4cd",
+      "title": "Dicklesworthstone /destructive_command_guard",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "3888eecb3f45",
       "title": "HKUDS /Vibe-Trading",
@@ -207,28 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "7344796a1c66",
-      "title": "coreyhaines31 /marketingskills",
+      "id": "aece5b1e2027",
+      "title": "CLIR-Bench: Benchmarking Multimodal Question Answering over Irregular Clinical Time Series",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "1ab90ae5ecad",
-      "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared",
+      "id": "713ec0d7a949",
+      "title": "Index SLM Technical Report",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "084094000f12",
-      "title": "Skyfall AI Releases MORPHEUS: A Persistent Enterprise Simulation Benchmark That Makes Continual Reinforcement Learning Necessary Under Structured Non-Stationarity",
+      "id": "ad42d0956b5e",
+      "title": "RouteRec: Strict Evaluation of Recommender-Agent Selection and Aggregation",
       "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "8aa1f2304e3c",
-      "title": "Building a VideoAgent-Style Multi-Agent System: Intent Parsing, Graph Planning, and Tool Routing for Video Editing Tasks",
-      "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
