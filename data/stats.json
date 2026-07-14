@@ -1,22 +1,26 @@
 {
-  "updated": "2026-07-14T10:06:31Z",
-  "total": 306,
+  "updated": "2026-07-14T17:22:22Z",
+  "total": 283,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "GitHub Trending",
-      "count": 33
+      "count": 34
     },
     {
       "name": "MarkTechPost",
       "count": 31
+    },
+    {
+      "name": "Google AI",
+      "count": 15
     },
     {
       "name": "OpenAI",
@@ -27,57 +31,53 @@
       "count": 15
     },
     {
-      "name": "Google AI",
-      "count": 15
+      "name": "AI News",
+      "count": 13
     },
     {
       "name": "Synced",
       "count": 10
-    },
-    {
-      "name": "AI News",
-      "count": 7
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 77
+      "count": 72
     },
     {
       "name": "LLM",
-      "count": 43
+      "count": 39
     },
     {
       "name": "Benchmark",
       "count": 15
     },
     {
+      "name": "Claude",
+      "count": 12
+    },
+    {
       "name": "GPT",
       "count": 12
     },
     {
-      "name": "Claude",
-      "count": 11
-    },
-    {
       "name": "RAG",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Google",
       "count": 9
     },
     {
+      "name": "Gemini",
+      "count": 7
+    },
+    {
       "name": "API",
-      "count": 8
+      "count": 7
     },
     {
       "name": "OpenAI",
-      "count": 8
-    },
-    {
-      "name": "Gemini",
       "count": 7
     },
     {
@@ -89,6 +89,10 @@
       "count": 4
     },
     {
+      "name": "Anthropic",
+      "count": 3
+    },
+    {
       "name": "Embedding",
       "count": 3
     },
@@ -97,12 +101,12 @@
       "count": 3
     },
     {
-      "name": "Anthropic",
+      "name": "Llama",
       "count": 2
     },
     {
-      "name": "Llama",
-      "count": 2
+      "name": "Mistral",
+      "count": 1
     },
     {
       "name": "GPU",
@@ -115,20 +119,16 @@
     {
       "name": "Microsoft",
       "count": 1
-    },
-    {
-      "name": "Diffusion",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 221
+      "count": 191
     },
     {
       "name": "开源项目",
-      "count": 48
+      "count": 49
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 7
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -150,7 +150,7 @@
     },
     {
       "date": "07-11",
-      "count": 20
+      "count": 19
     },
     {
       "date": "07-12",
@@ -162,7 +162,7 @@
     },
     {
       "date": "07-14",
-      "count": 39
+      "count": 48
     },
     {
       "date": "08-14",
@@ -171,26 +171,26 @@
   ],
   "top10": [
     {
+      "id": "46405393d4f5",
+      "title": "Shubhamsaboo /awesome-llm-apps",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "8c171384c4cd",
       "title": "Dicklesworthstone /destructive_command_guard",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "3888eecb3f45",
-      "title": "HKUDS /Vibe-Trading",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "ebe69a8411ca",
-      "title": "moeru-ai /airi",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "46405393d4f5",
-      "title": "Shubhamsaboo /awesome-llm-apps",
+      "id": "86aa53f1b076",
+      "title": "virattt /ai-hedge-fund",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,8 +201,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "68a6c284cff5",
-      "title": "Graphify-Labs /graphify",
+      "id": "3888eecb3f45",
+      "title": "HKUDS /Vibe-Trading",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -213,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "aece5b1e2027",
-      "title": "CLIR-Bench: Benchmarking Multimodal Question Answering over Irregular Clinical Time Series",
+      "id": "84e3af10ba85",
+      "title": "Celebrating 25 years of visual search innovation",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Google AI"
     },
     {
-      "id": "713ec0d7a949",
-      "title": "Index SLM Technical Report",
+      "id": "69b6059a93f0",
+      "title": "AWS and Bluesight build AI for hospital 340B compliance",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "AI News"
     },
     {
-      "id": "ad42d0956b5e",
-      "title": "RouteRec: Strict Evaluation of Recommender-Agent Selection and Aggregation",
+      "id": "ebe69a8411ca",
+      "title": "moeru-ai /airi",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     }
   ]
 }

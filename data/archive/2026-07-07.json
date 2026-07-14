@@ -1,8 +1,206 @@
 {
   "date": "2026-07-07",
-  "updated": "2026-07-14T10:06:40Z",
-  "total": 39,
+  "updated": "2026-07-14T17:22:32Z",
+  "total": 47,
   "items": [
+    {
+      "id": "43d5fa5e1e01",
+      "title": "Liquid AI Open-Sources Antidoom: A Final Token Preference Optimization (FTPO) Method that Reduces Doom Loops in Reasoning Models",
+      "url": "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Liquid AI released Antidoom, an open-source method that targets doom loops in reasoning models. A doom loop repeats a span until the context window is exhausted. Antidoom finds the token that starts the loop and retrains only that position using...",
+      "published": "2026-07-07T16:50:50Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "37a75100de70",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-07-07T15:20:06Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "830b87f8c5bf",
+          "38da928fb2b9"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e8547c388b9f",
+      "title": "Insilico Medicine advances AI drug for IPF to Phase III trials",
+      "url": "https://www.artificialintelligence-news.com/news/insilico-medicine-advances-ai-drug-for-ipf-to-phase-iii-trials/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Insilico Medicine is advancing to Phase III human trials for testing a drug identified by AI targeting idiopathic pulmonary fibrosis (IPF). This progression supplies the computational drug discovery sector with empirical test cases, advancing an...",
+      "published": "2026-07-07T14:00:06Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "36584af2f739",
+      "title": "Leonxlnx /taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "published": "2026-07-07T11:14:09Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8b826b177eba",
+      "title": "alirezarezvani /claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance,...",
+      "published": "2026-07-07T11:14:09Z",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e4a469811297",
+      "title": "openai /codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Use Codex from Claude Code to review code or delegate tasks.",
+      "published": "2026-07-07T11:14:09Z",
+      "tags": [
+        "Claude",
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "702fb607570e"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "db7f927fbf31",
+      "title": "ogulcancelik /herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "agent multiplexer that lives in your terminal.",
+      "published": "2026-07-07T11:14:09Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "4a7c5ddd1bfa",
+      "title": "Companies traded people for tokens. The returns haven’t shown up",
+      "url": "https://www.artificialintelligence-news.com/news/token-budgets-vs-people/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Jensen Huang has a test for whether an engineer is worth keeping, and it comes with a token budget attached. On the All-In Podcast at the close of GTC 2026, the Nvidia chief executive said that if a US$500,000&#160;engineer&#8217;s&#160;annual AI...",
+      "published": "2026-07-07T11:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "a03b6b84cc7d",
       "title": "L’Oreal, Mondelez, and Nestle use AI to speed product development",
