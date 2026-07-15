@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-14T17:22:32Z",
-  "count": 182,
+  "updated": "2026-07-15T02:38:21Z",
+  "count": 183,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -11650,6 +11650,70 @@
         }
       },
       "_ts": 1784049752
+    },
+    "f5c6a916ef3c0717": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录270篇AI新闻，分类分布：学术研究190篇, 开源项目45篇, 模型发布30篇, 产品/API5篇。热门标签：Agent（70篇）。其中11%的文章有多来源交叉验证。\n\n▸ Shubhamsaboo /awesome-llm-apps：100+ AI Agent & RAG apps you can actually run — clone, customize, ship.\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .claude directory.\n\n▸ Dicklesworthstone /destructive_command_guard：The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being exec\n\n▸ virattt /ai-hedge-fund：An AI Hedge Fund Team\n\n▸ Nutlope /hallmark：Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "Nutlope/hallmark",
+            "url": "https://github.com/Nutlope/hallmark",
+            "why_hot": "单日1015星，CSS项目",
+            "stars_today": 1015,
+            "total_stars": 6230
+          },
+          {
+            "full_name": "Shubhamsaboo/awesome-llm-apps",
+            "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+            "why_hot": "单日1106星，Python项目",
+            "stars_today": 1106,
+            "total_stars": 120921
+          },
+          {
+            "full_name": "Dicklesworthstone/destructive_command_guard",
+            "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+            "why_hot": "单日473星，Rust项目",
+            "stars_today": 473,
+            "total_stars": 4447
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "270"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+8231"
+          }
+        ],
+        "must_read_ids": [
+          "46405393d4f5",
+          "1ae169fb23a9",
+          "8c171384c4cd",
+          "86aa53f1b076",
+          "c88c01cfd244"
+        ],
+        "text": "今日共收录270篇AI新闻，分类分布：学术研究190篇, 开源项目45篇, 模型发布30篇, 产品/API5篇。热门标签：Agent（70篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "Shubhamsaboo /awesome-llm-apps",
+          "mattpocock /skills",
+          "Dicklesworthstone /destructive_command_g",
+          "virattt /ai-hedge-fund",
+          "Nutlope /hallmark"
+        ],
+        "meta": {
+          "total_articles": 270,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1784083101
     }
   }
 }
