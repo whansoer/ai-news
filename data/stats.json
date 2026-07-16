@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-15T17:25:00Z",
-  "total": 266,
+  "updated": "2026-07-16T02:46:24Z",
+  "total": 277,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,22 +8,22 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
-    },
-    {
-      "name": "GitHub Trending",
-      "count": 33
+      "count": 75
     },
     {
       "name": "MarkTechPost",
       "count": 31
     },
     {
-      "name": "OpenAI",
-      "count": 15
+      "name": "GitHub Trending",
+      "count": 29
     },
     {
       "name": "Hugging Face",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -42,26 +42,26 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 67
     },
     {
       "name": "LLM",
-      "count": 36
+      "count": 37
+    },
+    {
+      "name": "Benchmark",
+      "count": 13
     },
     {
       "name": "GPT",
       "count": 12
     },
     {
-      "name": "Benchmark",
-      "count": 12
-    },
-    {
-      "name": "Claude",
+      "name": "RAG",
       "count": 11
     },
     {
-      "name": "RAG",
+      "name": "Claude",
       "count": 10
     },
     {
@@ -77,23 +77,15 @@
       "count": 6
     },
     {
-      "name": "OpenAI",
-      "count": 5
-    },
-    {
       "name": "Prompt",
       "count": 4
     },
     {
-      "name": "Llama",
-      "count": 3
+      "name": "OpenAI",
+      "count": 4
     },
     {
       "name": "Anthropic",
-      "count": 3
-    },
-    {
-      "name": "Transformer",
       "count": 3
     },
     {
@@ -109,7 +101,15 @@
       "count": 2
     },
     {
+      "name": "Llama",
+      "count": 2
+    },
+    {
       "name": "Mistral",
+      "count": 2
+    },
+    {
+      "name": "Transformer",
       "count": 2
     },
     {
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 176
+      "count": 191
     },
     {
       "name": "开源项目",
-      "count": 48
+      "count": 44
     },
     {
       "name": "模型发布",
@@ -148,10 +148,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-10",
-      "count": 37
-    },
     {
       "date": "07-11",
       "count": 19
@@ -170,7 +166,11 @@
     },
     {
       "date": "07-15",
-      "count": 31
+      "count": 41
+    },
+    {
+      "date": "07-16",
+      "count": 8
     },
     {
       "date": "08-14",
@@ -227,16 +227,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "817e2aedd430",
-      "title": "The US is advancing AI safety through state and federal action",
+      "id": "534a04462ea2",
+      "title": "What building Shippy taught us about building agents",
       "score": 5,
-      "source": "OpenAI"
+      "source": "Hugging Face"
     },
     {
-      "id": "86aa53f1b076",
-      "title": "virattt /ai-hedge-fund",
+      "id": "6bf98bfe8790",
+      "title": "Model Routing Is Simple. Until It Isn’t.",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "Hugging Face"
     }
   ]
 }
