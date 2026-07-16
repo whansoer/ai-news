@@ -1,33 +1,33 @@
 {
-  "updated": "2026-07-16T10:18:26Z",
-  "total": 307,
+  "updated": "2026-07-16T17:26:49Z",
+  "total": 284,
   "sources": [
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 84
     },
     {
-      "name": "MarkTechPost",
-      "count": 31
+      "name": "ArXiv (cs.CL)",
+      "count": 75
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 30
+    },
+    {
+      "name": "MarkTechPost",
+      "count": 28
     },
     {
       "name": "Hugging Face",
       "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Google AI",
       "count": 15
     },
     {
-      "name": "Google AI",
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -42,26 +42,18 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 74
+      "count": 70
     },
     {
       "name": "LLM",
-      "count": 45
+      "count": 38
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 15
     },
     {
       "name": "RAG",
-      "count": 12
-    },
-    {
-      "name": "GPT",
-      "count": 11
-    },
-    {
-      "name": "Claude",
       "count": 10
     },
     {
@@ -69,35 +61,39 @@
       "count": 9
     },
     {
-      "name": "API",
+      "name": "GPT",
+      "count": 9
+    },
+    {
+      "name": "Claude",
       "count": 8
     },
     {
-      "name": "Gemini",
-      "count": 6
-    },
-    {
-      "name": "Embedding",
-      "count": 4
+      "name": "API",
+      "count": 7
     },
     {
       "name": "Prompt",
       "count": 4
     },
     {
+      "name": "Gemini",
+      "count": 4
+    },
+    {
+      "name": "Meta",
+      "count": 3
+    },
+    {
       "name": "GPU",
       "count": 3
     },
     {
-      "name": "Transformer",
-      "count": 3
-    },
-    {
-      "name": "Anthropic",
-      "count": 3
-    },
-    {
       "name": "OpenAI",
+      "count": 3
+    },
+    {
+      "name": "Transformer",
       "count": 3
     },
     {
@@ -109,11 +105,7 @@
       "count": 2
     },
     {
-      "name": "Meta",
-      "count": 2
-    },
-    {
-      "name": "Llama",
+      "name": "Embedding",
       "count": 2
     },
     {
@@ -121,7 +113,15 @@
       "count": 2
     },
     {
+      "name": "Llama",
+      "count": 1
+    },
+    {
       "name": "Qwen",
+      "count": 1
+    },
+    {
+      "name": "Anthropic",
       "count": 1
     },
     {
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 221
+      "count": 197
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -166,11 +166,11 @@
     },
     {
       "date": "07-15",
-      "count": 44
+      "count": 43
     },
     {
       "date": "07-16",
-      "count": 41
+      "count": 54
     },
     {
       "date": "08-14",
@@ -179,32 +179,20 @@
   ],
   "top10": [
     {
+      "id": "97c77c913c65",
+      "title": "apache /ossie",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "c88c01cfd244",
       "title": "Nutlope /hallmark",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "1ae169fb23a9",
-      "title": "mattpocock /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "ebe69a8411ca",
-      "title": "moeru-ai /airi",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "8c171384c4cd",
-      "title": "Dicklesworthstone /destructive_command_guard",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "3888eecb3f45",
-      "title": "HKUDS /Vibe-Trading",
+      "id": "6fb08428e288",
+      "title": "PostHog /posthog",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -215,28 +203,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "810a6b2984da",
-      "title": "HenryNdubuaku /maths-cs-ai-compendium",
+      "id": "3d98181abb04",
+      "title": "PrismML-Eng /Bonsai-demo",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "6b9408db8290",
-      "title": "Neko Health raises $700 million to expand AI body scans in the US",
+      "id": "ac45b546f1b9",
+      "title": "hasaneyldrm /exercises-dataset",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "46405393d4f5",
+      "title": "Shubhamsaboo /awesome-llm-apps",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "82164af40f45",
+      "title": "lobehub /lobehub",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "52bb467a6a0c",
+      "title": "Examining Google DeepMind’s AI bioresilience push",
       "score": 5,
       "source": "AI News"
     },
     {
-      "id": "b9efb73af2f0",
-      "title": "Patter SDK Guide to Building a Restaurant Booking Phone Agent with Dynamic Variables, Guardrails, Latency Dashboards, and Eval Checks",
+      "id": "2b7cf192edc1",
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
       "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "0f53347eed15",
-      "title": "SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI",
-      "score": 5,
-      "source": "MarkTechPost"
+      "source": "Hugging Face"
     }
   ]
 }

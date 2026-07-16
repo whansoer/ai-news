@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-16T10:18:35Z",
-  "count": 187,
+  "updated": "2026-07-16T17:26:59Z",
+  "count": 188,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -11970,6 +11970,70 @@
         }
       },
       "_ts": 1784197115
+    },
+    "1f17bc6e672c1b5c": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录284篇AI新闻，分类分布：学术研究197篇, 开源项目45篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（70篇）。其中8%的文章有多来源交叉验证。\n\n▸ apache /ossie：Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata ac\n\n▸ Nutlope /hallmark：Anti-AI-slop design skill for Claude Code, Cursor, and Codex.\n\n▸ PostHog /posthog：🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI obser\n\n▸ openinterpreter /openinterpreter：A coding agent for low-cost models\n\n▸ PrismML-Eng /Bonsai-demo：Bonsai Demo",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "Nutlope/hallmark",
+            "url": "https://github.com/Nutlope/hallmark",
+            "why_hot": "单日3181星，CSS项目",
+            "stars_today": 3181,
+            "total_stars": 10484
+          },
+          {
+            "full_name": "Shubhamsaboo/awesome-llm-apps",
+            "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+            "why_hot": "单日935星，Python项目",
+            "stars_today": 935,
+            "total_stars": 122643
+          },
+          {
+            "full_name": "PrismML-Eng/Bonsai-demo",
+            "url": "https://github.com/PrismML-Eng/Bonsai-demo",
+            "why_hot": "单日323星，Shell项目",
+            "stars_today": 323,
+            "total_stars": 1453
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "284"
+          },
+          {
+            "label": "多源验证率",
+            "value": "8%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+8980"
+          }
+        ],
+        "must_read_ids": [
+          "97c77c913c65",
+          "c88c01cfd244",
+          "6fb08428e288",
+          "be7c8f4e3a9e",
+          "3d98181abb04"
+        ],
+        "text": "今日共收录284篇AI新闻，分类分布：学术研究197篇, 开源项目45篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（70篇）。其中8%的文章有多来源交叉验证。",
+        "top_items": [
+          "apache /ossie",
+          "Nutlope /hallmark",
+          "PostHog /posthog",
+          "openinterpreter /openinterpreter",
+          "PrismML-Eng /Bonsai-demo"
+        ],
+        "meta": {
+          "total_articles": 284,
+          "multi_source_pct": 8
+        }
+      },
+      "_ts": 1784222819
     }
   }
 }
