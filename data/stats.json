@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-17T02:48:54Z",
-  "total": 286,
+  "updated": "2026-07-17T10:06:31Z",
+  "total": 299,
   "sources": [
+    {
+      "name": "ArXiv (cs.CL)",
+      "count": 90
+    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 84
-    },
-    {
-      "name": "ArXiv (cs.CL)",
-      "count": 75
     },
     {
       "name": "GitHub Trending",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 28
     },
     {
       "name": "Hugging Face",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 70
+      "count": 71
     },
     {
       "name": "LLM",
-      "count": 38
+      "count": 42
     },
     {
       "name": "Benchmark",
@@ -58,7 +58,7 @@
     },
     {
       "name": "GPT",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Google",
@@ -69,15 +69,15 @@
       "count": 8
     },
     {
-      "name": "API",
-      "count": 7
+      "name": "Prompt",
+      "count": 8
     },
     {
-      "name": "Prompt",
+      "name": "API",
       "count": 5
     },
     {
-      "name": "OpenAI",
+      "name": "Diffusion",
       "count": 4
     },
     {
@@ -85,7 +85,11 @@
       "count": 4
     },
     {
-      "name": "Meta",
+      "name": "Embedding",
+      "count": 3
+    },
+    {
+      "name": "OpenAI",
       "count": 3
     },
     {
@@ -101,11 +105,7 @@
       "count": 3
     },
     {
-      "name": "Diffusion",
-      "count": 2
-    },
-    {
-      "name": "Embedding",
+      "name": "Meta",
       "count": 2
     },
     {
@@ -132,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 199
+      "count": 212
     },
     {
       "name": "开源项目",
@@ -166,11 +166,11 @@
     },
     {
       "date": "07-16",
-      "count": 48
+      "count": 33
     },
     {
       "date": "07-17",
-      "count": 8
+      "count": 39
     },
     {
       "date": "08-14",
@@ -227,16 +227,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "7f5986339fc5",
-      "title": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With Kimi Delta Attention and 1M Context",
+      "id": "f4859e8788fd",
+      "title": "NVIDIA AI Releases Nemotron 3 Embed: An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "20b1a8c438c4",
-      "title": "OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection",
+      "id": "6d9bd4b21e75",
+      "title": "Just Keep Prompting: Evaluating Repetitive Socratic Prompting in VLMs",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

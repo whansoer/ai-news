@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-17T02:49:04Z",
-  "total": 240,
-  "new_count": 43,
+  "updated": "2026-07-17T10:06:41Z",
+  "total": 223,
+  "new_count": 59,
   "items": [
     {
       "id": "97c77c913c65",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
-      "published": "2026-07-17T02:46:16Z",
+      "published": "2026-07-17T10:03:55Z",
       "tags": [
         "Meta"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "published": "2026-07-17T02:46:16Z",
+      "published": "2026-07-17T10:03:55Z",
       "tags": [
         "Claude",
         "LLM"
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose...",
-      "published": "2026-07-17T02:46:16Z",
+      "published": "2026-07-17T10:03:55Z",
       "tags": [
         "Agent"
       ],
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A coding agent for open models like Kimi K3",
-      "published": "2026-07-17T02:46:16Z",
+      "published": "2026-07-17T10:03:55Z",
       "tags": [
         "Agent"
       ],
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Bonsai Demo",
-      "published": "2026-07-17T02:46:16Z",
+      "published": "2026-07-17T10:03:55Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -143,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
-      "published": "2026-07-17T02:46:16Z",
+      "published": "2026-07-17T10:03:55Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -166,7 +166,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-      "published": "2026-07-17T02:46:16Z",
+      "published": "2026-07-17T10:03:55Z",
       "tags": [
         "LLM",
         "Agent",
@@ -197,7 +197,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
-      "published": "2026-07-17T02:46:16Z",
+      "published": "2026-07-17T10:03:55Z",
       "tags": [
         "Agent"
       ],
@@ -218,6 +218,777 @@
       "oneliner": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, sched"
     },
     {
+      "id": "f4859e8788fd",
+      "title": "NVIDIA AI Releases Nemotron 3 Embed: An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB",
+      "url": "https://www.marktechpost.com/2026/07/17/nvidia-ai-releases-nemotron-3-embed-an-open-embedding-collection-whose-8b-checkpoint-ranks-1-on-rteb/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA released Nemotron 3 Embed on July 15 and 16, 2026. The collection has three open checkpoints: Nemotron-3-Embed-8B-BF16, Nemotron-3-Embed-1B-BF16, and Nemotron-3-Embed-1B-NVFP4. The 8B ranks #1 on RTEB at 78.46 average NDCG@10. The 1B came...",
+      "published": "2026-07-17T07:53:02Z",
+      "tags": [
+        "Embedding"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "2b7cf192edc1"
+        ],
+        "score": 5
+      },
+      "title_zh": "NVIDIA AI Releases Nemotron 3 Embed: An Open Embedding Collection Whose 8B Checkpoint Ranks #1 on RTEB",
+      "summary_zh": "NVIDIA released Nemotron 3 Embed on July 15 and 16, 2026. The collection has three open checkpoints: Nemotron-3-Embed-8B-BF16, Nemotron-3-Embed-1B-BF16, and Nemotron-3-Embed-1B-NVFP4. The 8B ranks #1 on RTEB at 78.46 average NDCG@10. The 1B came...",
+      "tags_zh": [
+        "Embedding"
+      ],
+      "oneliner": "NVIDIA released Nemotron 3 Embed on July 15 and 16, 2026. The collection has three open checkpoints:"
+    },
+    {
+      "id": "6d9bd4b21e75",
+      "title": "Just Keep Prompting: Evaluating Repetitive Socratic Prompting in VLMs",
+      "url": "https://arxiv.org/abs/2607.14099",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14099v1 Announce Type: new \nAbstract: Deploying Vision-Language Models (VLMs) in real-world settings requires not only strong visual reasoning but also stability under sustained conversational pressure. We introduce Just Keep Prompting...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Just Keep Prompting: Evaluating Repetitive Socratic Prompting in VLMs",
+      "summary_zh": "arXiv:2607.14099v1 Announce Type: new \nAbstract: Deploying Vision-Language Models (VLMs) in real-world settings requires not only strong visual reasoning but also stability under sustained conversational pressure. We introduce Just Keep Prompting...",
+      "tags_zh": [
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2607.14099v1 Announce Type: new \nAbstract: Deploying Vision-Language Models (VLMs) in real-wor"
+    },
+    {
+      "id": "e0db3f576715",
+      "title": "Quantum Compositional NLP for Arabic: Grammar, Morphology, and Word Sense in Circuit Topology",
+      "url": "https://arxiv.org/abs/2607.14100",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14100v1 Announce Type: new \nAbstract: We present the first application of pregroup grammar-based quantum compositional natural language processing (QNLP) to Arabic; a morphologically rich, free-word-order language whose structural...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Quantum Compositional NLP for Arabic: Grammar, Morphology, and Word Sense in Circuit Topology",
+      "summary_zh": "arXiv:2607.14100v1 Announce Type: new \nAbstract: We present the first application of pregroup grammar-based quantum compositional natural language processing (QNLP) to Arabic; a morphologically rich, free-word-order language whose structural...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.14100v1 Announce Type: new \nAbstract: We present the first application of pregroup gramma"
+    },
+    {
+      "id": "ab698b7af57e",
+      "title": "LBA: Textual Hard-Label Adversarial Attack under Low Query Budgets",
+      "url": "https://arxiv.org/abs/2607.14101",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14101v1 Announce Type: new \nAbstract: Generating high-quality adversarial texts with low query budgets remains a challenging problem in the hard-label scenario. Most existing approaches rely on greedy algorithms, where one position in...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "LBA: Textual Hard-Label Adversarial Attack under Low Query Budgets",
+      "summary_zh": "arXiv:2607.14101v1 Announce Type: new \nAbstract: Generating high-quality adversarial texts with low query budgets remains a challenging problem in the hard-label scenario. Most existing approaches rely on greedy algorithms, where one position in...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.14101v1 Announce Type: new \nAbstract: Generating high-quality adversarial texts with low "
+    },
+    {
+      "id": "bd80d6cb45c5",
+      "title": "UniSAGE: Unifying Static and Dynamic Attributes with Hyper-Structure",
+      "url": "https://arxiv.org/abs/2607.14102",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14102v1 Announce Type: new \nAbstract: With the rapid growth of digital data, real-world applications increasingly involve hierarchical information that combines static attributes with dynamic records. Modeling such heterogeneous data...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "UniSAGE: Unifying Static and Dynamic Attributes with Hyper-Structure",
+      "summary_zh": "arXiv:2607.14102v1 Announce Type: new \nAbstract: With the rapid growth of digital data, real-world applications increasingly involve hierarchical information that combines static attributes with dynamic records. Modeling such heterogeneous data...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.14102v1 Announce Type: new \nAbstract: With the rapid growth of digital data, real-world a"
+    },
+    {
+      "id": "e9a4f3418b84",
+      "title": "Latent Communication Between Language Model Agents: Channels, Alignment, and the Limits of Text",
+      "url": "https://arxiv.org/abs/2607.14103",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14103v1 Announce Type: new \nAbstract: Multi-agent systems (MAS) are utilized in many contexts and many professions. Those MAS rely on inter-agent communication, usually implemented by clear-text message passing. We hypothesize that...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Latent Communication Between Language Model Agents: Channels, Alignment, and the Limits of Text",
+      "summary_zh": "arXiv:2607.14103v1 Announce Type: new \nAbstract: Multi-agent systems (MAS) are utilized in many contexts and many professions. Those MAS rely on inter-agent communication, usually implemented by clear-text message passing. We hypothesize that...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2607.14103v1 Announce Type: new \nAbstract: Multi-agent systems (MAS) are utilized in many cont"
+    },
+    {
+      "id": "25a05ec13935",
+      "title": "UzWordnet and Generative AI for Learning Uzbek by Game Playing",
+      "url": "https://arxiv.org/abs/2607.14104",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14104v1 Announce Type: new \nAbstract: This paper presents an educational system architecture that enables learners to practice the Uzbek language through game-playing. The architecture integrates UzWordnet and the largest currently...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "UzWordnet and Generative AI for Learning Uzbek by Game Playing",
+      "summary_zh": "arXiv:2607.14104v1 Announce Type: new \nAbstract: This paper presents an educational system architecture that enables learners to practice the Uzbek language through game-playing. The architecture integrates UzWordnet and the largest currently...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.14104v1 Announce Type: new \nAbstract: This paper presents an educational system architect"
+    },
+    {
+      "id": "d126bc0a9a7a",
+      "title": "Automatically Evolving Prompt Guidelines for Task-Specific Optimization",
+      "url": "https://arxiv.org/abs/2607.14105",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14105v1 Announce Type: new \nAbstract: For Large Language Models to reliably answer user queries, users must clearly specify requirements, context, and constraints. In practice, however, user queries are often underspecified, forcing...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Automatically Evolving Prompt Guidelines for Task-Specific Optimization",
+      "summary_zh": "arXiv:2607.14105v1 Announce Type: new \nAbstract: For Large Language Models to reliably answer user queries, users must clearly specify requirements, context, and constraints. In practice, however, user queries are often underspecified, forcing...",
+      "tags_zh": [
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2607.14105v1 Announce Type: new \nAbstract: For Large Language Models to reliably answer user q"
+    },
+    {
+      "id": "b9fd8d7b5526",
+      "title": "Token Time Continuous Diffusion for Language Modeling",
+      "url": "https://arxiv.org/abs/2607.14106",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14106v1 Announce Type: new \nAbstract: In this paper we introduce token time continuous diffusion (TTCD), a new diffusion language model which (a) operates in continuous space, deterministically mapping Gaussian noise to a final token...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Token Time Continuous Diffusion for Language Modeling",
+      "summary_zh": "arXiv:2607.14106v1 Announce Type: new \nAbstract: In this paper we introduce token time continuous diffusion (TTCD), a new diffusion language model which (a) operates in continuous space, deterministically mapping Gaussian noise to a final token...",
+      "tags_zh": [
+        "Diffusion"
+      ],
+      "oneliner": "arXiv:2607.14106v1 Announce Type: new \nAbstract: In this paper we introduce token time continuous di"
+    },
+    {
+      "id": "360f11f21172",
+      "title": "Polestar: Drift-Aware Cache Calibration and Token Commitment for Efficient Inference of Diffusion LLMs",
+      "url": "https://arxiv.org/abs/2607.14107",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14107v1 Announce Type: new \nAbstract: The inference efficiency of diffusion large language models (dLLMs) is constrained by two challenges: bidirectional attention precludes efficient KV-cache reuse, while increasing decoding...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Polestar: Drift-Aware Cache Calibration and Token Commitment for Efficient Inference of Diffusion LLMs",
+      "summary_zh": "arXiv:2607.14107v1 Announce Type: new \nAbstract: The inference efficiency of diffusion large language models (dLLMs) is constrained by two challenges: bidirectional attention precludes efficient KV-cache reuse, while increasing decoding...",
+      "tags_zh": [
+        "LLM",
+        "Diffusion"
+      ],
+      "oneliner": "arXiv:2607.14107v1 Announce Type: new \nAbstract: The inference efficiency of diffusion large languag"
+    },
+    {
+      "id": "2cc707caa191",
+      "title": "Eta Given Delta: Defining LLM Tool Efficiency With Marginal Tool Utility",
+      "url": "https://arxiv.org/abs/2607.14108",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14108v1 Announce Type: new \nAbstract: This paper introduces tool efficiency, a new quantitative metric to evaluate the rate of useful tool calls in an LLM agent trajectory. To ensure that tool efficiency is well-defined, we also...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Eta Given Delta: Defining LLM Tool Efficiency With Marginal Tool Utility",
+      "summary_zh": "arXiv:2607.14108v1 Announce Type: new \nAbstract: This paper introduces tool efficiency, a new quantitative metric to evaluate the rate of useful tool calls in an LLM agent trajectory. To ensure that tool efficiency is well-defined, we also...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2607.14108v1 Announce Type: new \nAbstract: This paper introduces tool efficiency, a new quanti"
+    },
+    {
+      "id": "dce868bbadc6",
+      "title": "Simplicity Paradox: Debunking myths about prompting and datasets for LLM evaluation",
+      "url": "https://arxiv.org/abs/2607.14109",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14109v1 Announce Type: new \nAbstract: Probing the capabilities of Large Language Models (LLMs) and building robust solutions for Multiple-Choice Question Answering (MCQA) remain central challenges in natural language understanding....",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Simplicity Paradox: Debunking myths about prompting and datasets for LLM evaluation",
+      "summary_zh": "arXiv:2607.14109v1 Announce Type: new \nAbstract: Probing the capabilities of Large Language Models (LLMs) and building robust solutions for Multiple-Choice Question Answering (MCQA) remain central challenges in natural language understanding....",
+      "tags_zh": [
+        "LLM",
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2607.14109v1 Announce Type: new \nAbstract: Probing the capabilities of Large Language Models ("
+    },
+    {
+      "id": "8a7649c2ebb2",
+      "title": "MAPS: Modeling Co-Existing Subjective Perspectives and Shared Meaning in Multi-Agent Cognitive Dialogue",
+      "url": "https://arxiv.org/abs/2607.14110",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14110v1 Announce Type: new \nAbstract: Human dialogue involves more than exchanging information; it also expresses beliefs, emotions, and subjective cognitive styles. Yet current AI dialogue systems often enforce semantic uniformity,...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "111e70030ef3",
+      "title": "Introspection Fine-Tuning (IFT): Training Small LLMs to Introspect",
+      "url": "https://arxiv.org/abs/2607.14111",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14111v1 Announce Type: new \nAbstract: Can small language models detect and report on perturbations their own internal activations? We investigate this question through the lens of activation steering: injecting concept vectors into a...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a49c4010fe4e",
+      "title": "Information-Theoretic Limits of Reliability and Scaling in Language Models",
+      "url": "https://arxiv.org/abs/2607.14112",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14112v1 Announce Type: new \nAbstract: Large language models (LLMs) are evaluated as though perfect reliability is achievable for any task given sufficient scale. We show this assumption is information-theoretically unjustified. Every...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6bd7178d5696",
+      "title": "T5-CSBoost: Adversarial Perturbation Resistant LLM Fingerprinting",
+      "url": "https://arxiv.org/abs/2607.14113",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.14113v1 Announce Type: new \nAbstract: While many AI-generated text (AIGT) detectors achieve strong performance on clean inputs, their accuracy degrades significantly under light paraphrasing, word substitutions, character edits, and...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3d8b425b2bd1",
+      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
+      "url": "https://arxiv.org/abs/2607.13037",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13037v1 Announce Type: new \nAbstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author....",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "1cb3c32de26e",
+      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
+      "url": "https://arxiv.org/abs/2607.13049",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13049v1 Announce Type: new \nAbstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration....",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6003d0fd7fdb",
+      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
+      "url": "https://arxiv.org/abs/2607.13069",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13069v1 Announce Type: new \nAbstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises. We introduce interventional grounding audits, a...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9a3ac8f193cd",
+      "title": "Probabilistic Extension of Neuro-Symbolic AGI Robots based on Belnap's Typed Intensional FOL",
+      "url": "https://arxiv.org/abs/2607.13073",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13073v1 Announce Type: new \nAbstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and logical structure)...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e36e19e78e80",
+      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
+      "url": "https://arxiv.org/abs/2607.13104",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13104v1 Announce Type: new \nAbstract: Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a273275628f4",
+      "title": "Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools",
+      "url": "https://arxiv.org/abs/2607.13115",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13115v1 Announce Type: new \nAbstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence representations...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "67ab458968de",
+      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
+      "url": "https://arxiv.org/abs/2607.13157",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13157v1 Announce Type: new \nAbstract: Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ca702414f165",
+      "title": "Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models",
+      "url": "https://arxiv.org/abs/2607.13172",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13172v1 Announce Type: new \nAbstract: We address the problem of safely training an agent policy and deploying a good and safe policy, in settings where the environment dynamics are unknown and no suitable reward function is available....",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7212e5d7c4cc",
+      "title": "CayleyR: Solving the TopSpin puzzle via cycle intersection",
+      "url": "https://arxiv.org/abs/2607.13219",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13219v1 Announce Type: new \nAbstract: We present cayleyR, an R package for solving permutation puzzles by detecting cycle intersections in Cayley graphs. The core algorithm performs an iterative bidirectional search: from both the...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "45bf1fa476bf",
+      "title": "Networked Intelligence: Active Shared Context Graphs for Human-AI Team Science",
+      "url": "https://arxiv.org/abs/2607.13220",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13220v2 Announce Type: new \nAbstract: Most AI-for-science systems focus on scaling a single reasoning process by using better models, larger context windows, long-horizon agentic execution, or digital co-scientists working with one...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "936df0bfacd3",
+      "title": "AI-Native Insurance for Agentic AI: Pricing, Underwriting, and End-to-End Automation",
+      "url": "https://arxiv.org/abs/2607.13230",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13230v1 Announce Type: new \nAbstract: Agentic AI introduces new insurance challenges because autonomous AI systems can make decisions, invoke tools, modify external environments, and interact with third-party services. This paper...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "935f0c37544b",
+      "title": "Cost-Optimal Foundation Model Deployment Portfolio for Transportation Management",
+      "url": "https://arxiv.org/abs/2607.13239",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13239v1 Announce Type: new \nAbstract: Foundation models, including large language models (LLMs) and vision-language models (VLMs), are increasingly used for transportation management center (TMC) tasks such as anomaly detection,...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3bb9d0faf353",
+      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
+      "url": "https://arxiv.org/abs/2607.13285",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13285v1 Announce Type: new \nAbstract: The capability of a modern AI agent depends not only on its foundation model but also on its harness, which constructs prompts, manages state, invokes tools, and coordinates execution. As models,...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "930ba6f49222",
+      "title": "Theory-Level Autoformalization: From Isolated Statements to Unified Formal Knowledge Bases",
+      "url": "https://arxiv.org/abs/2607.13292",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13292v1 Announce Type: new \nAbstract: Autoformalization translates informal natural language into formal, machine-verifiable languages. While most work focuses on individual statements, real formalization efforts are inherently...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8d3d883a23aa",
+      "title": "EZSMT Version 3, Matured",
+      "url": "https://arxiv.org/abs/2607.13344",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.13344v1 Announce Type: new \nAbstract: Constraint Answer Set Programming (CASP) is a hybrid reasoning paradigm that combines Answer Set Programming (ASP) with Constraint Processing and Satisfiability Modulo Theories (SMT), enabling...",
+      "published": "2026-07-17T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "7f5986339fc5",
       "title": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With Kimi Delta Attention and 1M Context",
       "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
@@ -235,10 +1006,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With Kimi Delta Attention and 1M Context",
-      "summary_zh": "Moonshot AI released Kimi K3 on July 16, 2026. It is a 2.8-trillion-parameter open MoE model built on Kimi Delta Attention and Attention Residuals, activating 16 of 896 experts. \nThe post Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Moonshot AI released Kimi K3 on July 16, 2026. It is a 2.8-trillion-parameter open MoE model built o"
+      "oneliner": ""
     },
     {
       "id": "20b1a8c438c4",
@@ -264,14 +1035,10 @@
         ],
         "score": 5
       },
-      "title_zh": "OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection",
-      "summary_zh": "OpenAI trained GPT-Red, an internal-only attacker model, using self-play reinforcement learning against a population of defender LLMs. It beat human red-teamers 84% to 13% on a replicated indirect prompt injection arena, found a novel \"Fake...",
-      "tags_zh": [
-        "GPT",
-        "OpenAI",
-        "Prompt"
-      ],
-      "oneliner": "OpenAI trained GPT-Red, an internal-only attacker model, using self-play reinforcement learning agai"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "52bb467a6a0c",
@@ -295,12 +1062,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Examining Google DeepMind’s AI bioresilience push",
-      "summary_zh": "Google DeepMind and Isomorphic Labs outlined a bioresilience program to curb AI misuse in biology while aiding outbreak response. The two organisations published an update on a joint initiative that began quietly and has now built out more than...",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "Google DeepMind and Isomorphic Labs outlined a bioresilience program to curb AI misuse in biology wh"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "2b7cf192edc1",
@@ -318,15 +1083,15 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
+        "level": "multi-source",
+        "corroborating_ids": [
+          "f4859e8788fd"
+        ],
+        "score": 5
       },
-      "title_zh": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "title_zh": "",
       "summary_zh": "",
-      "tags_zh": [
-        "Agent"
-      ],
+      "tags_zh": [],
       "oneliner": ""
     },
     {
@@ -347,10 +1112,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Connect more of your apps to Search",
-      "summary_zh": "Connected apps rendering",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Connected apps rendering"
+      "oneliner": ""
     },
     {
       "id": "b1da67ab5327",
@@ -374,12 +1139,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Create, edit and star in videos with two Google Vids updates",
-      "summary_zh": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "fc1dde757a2d",
@@ -399,10 +1162,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Why teens deserve access to safe AI",
-      "summary_zh": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools,"
+      "oneliner": ""
     },
     {
       "id": "a075d60d6ba9",
@@ -422,7 +1185,7 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Newer Models, Same Advantage",
+      "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": ""
@@ -447,12 +1210,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "mattpocock /skills",
-      "summary_zh": "Skills for Real Engineers. Straight from my .claude directory.",
-      "tags_zh": [
-        "Claude"
-      ],
-      "oneliner": "Skills for Real Engineers. Straight from my .claude directory."
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "ebe69a8411ca",
@@ -472,10 +1233,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "moeru-ai /airi",
-      "summary_zh": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them"
+      "oneliner": ""
     },
     {
       "id": "8c171384c4cd",
@@ -497,12 +1258,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Dicklesworthstone /destructive_command_guard",
-      "summary_zh": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being exec"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "3888eecb3f45",
@@ -524,12 +1283,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "HKUDS /Vibe-Trading",
-      "summary_zh": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "\"Vibe-Trading: Your Personal Trading Agent\""
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "810a6b2984da",
@@ -997,365 +1754,6 @@
           "6096108c19db"
         ],
         "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3d8b425b2bd1",
-      "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
-      "url": "https://arxiv.org/abs/2607.13037",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13037v1 Announce Type: new \nAbstract: When a data contributor requests removal, model trainers face a practical gap: unlearning algorithms require a forget set, yet no tool can locate which training records belong to a given author....",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1cb3c32de26e",
-      "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
-      "url": "https://arxiv.org/abs/2607.13049",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13049v1 Announce Type: new \nAbstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration....",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6003d0fd7fdb",
-      "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
-      "url": "https://arxiv.org/abs/2607.13069",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13069v1 Announce Type: new \nAbstract: Large language models produce chain-of-thought (CoT) reasoning that appears logically sound yet may not genuinely depend on its stated premises. We introduce interventional grounding audits, a...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9a3ac8f193cd",
-      "title": "Probabilistic Extension of Neuro-Symbolic AGI Robots based on Belnap's Typed Intensional FOL",
-      "url": "https://arxiv.org/abs/2607.13073",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13073v1 Announce Type: new \nAbstract: Neuro-symbolic AI based on $IFOL_B$ is a way to combine neural learning and symbolic reasoning to overcome limitations of purely neural systems (like lack of interpretability and logical structure)...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e36e19e78e80",
-      "title": "Self-Improvements in Modern Agentic Systems: A Survey",
-      "url": "https://arxiv.org/abs/2607.13104",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13104v1 Announce Type: new \nAbstract: Self-improving autonomous agents are moving from research prototypes to deployed systems. The primary goal is controllable evolution, or adaptation, from experience with minimal or even no human...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a273275628f4",
-      "title": "Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools",
-      "url": "https://arxiv.org/abs/2607.13115",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13115v1 Announce Type: new \nAbstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence representations...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "67ab458968de",
-      "title": "Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents",
-      "url": "https://arxiv.org/abs/2607.13157",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13157v1 Announce Type: new \nAbstract: Agent memory is a systems problem for long-horizon agents. Practical deployments require retention of task state across extended conversations, recovery of user-specific facts and preferences...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ca702414f165",
-      "title": "Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models",
-      "url": "https://arxiv.org/abs/2607.13172",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13172v1 Announce Type: new \nAbstract: We address the problem of safely training an agent policy and deploying a good and safe policy, in settings where the environment dynamics are unknown and no suitable reward function is available....",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7212e5d7c4cc",
-      "title": "CayleyR: Solving the TopSpin puzzle via cycle intersection",
-      "url": "https://arxiv.org/abs/2607.13219",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13219v1 Announce Type: new \nAbstract: We present cayleyR, an R package for solving permutation puzzles by detecting cycle intersections in Cayley graphs. The core algorithm performs an iterative bidirectional search: from both the...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "45bf1fa476bf",
-      "title": "Networked Intelligence: Active Shared Context Graphs for Human-AI Team Science",
-      "url": "https://arxiv.org/abs/2607.13220",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13220v1 Announce Type: new \nAbstract: Most AI-for-science systems focus on scaling a single reasoning process through better models, larger context windows, long-horizon agentic execution, or digital co-scientists working with one...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "936df0bfacd3",
-      "title": "AI-Native Insurance for Agentic AI: Pricing, Underwriting, and End-to-End Automation",
-      "url": "https://arxiv.org/abs/2607.13230",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13230v1 Announce Type: new \nAbstract: Agentic AI introduces new insurance challenges because autonomous AI systems can make decisions, invoke tools, modify external environments, and interact with third-party services. This paper...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "935f0c37544b",
-      "title": "Cost-Optimal Foundation Model Deployment Portfolio for Transportation Management",
-      "url": "https://arxiv.org/abs/2607.13239",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13239v1 Announce Type: new \nAbstract: Foundation models, including large language models (LLMs) and vision-language models (VLMs), are increasingly used for transportation management center (TMC) tasks such as anomaly detection,...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3bb9d0faf353",
-      "title": "Harness Handbook: Making Evolving Agent Harnesses Readable,Navigable, and Editable",
-      "url": "https://arxiv.org/abs/2607.13285",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13285v1 Announce Type: new \nAbstract: The capability of a modern AI agent depends not only on its foundation model but also on its harness, which constructs prompts, manages state, invokes tools, and coordinates execution. As models,...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "930ba6f49222",
-      "title": "Theory-Level Autoformalization: From Isolated Statements to Unified Formal Knowledge Bases",
-      "url": "https://arxiv.org/abs/2607.13292",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13292v1 Announce Type: new \nAbstract: Autoformalization translates informal natural language into formal, machine-verifiable languages. While most work focuses on individual statements, real formalization efforts are inherently...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "8d3d883a23aa",
-      "title": "EZSMT Version 3, Matured",
-      "url": "https://arxiv.org/abs/2607.13344",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.13344v1 Announce Type: new \nAbstract: Constraint Answer Set Programming (CASP) is a hybrid reasoning paradigm that combines Answer Set Programming (ASP) with Constraint Processing and Satisfiability Modulo Theories (SMT), enabling...",
-      "published": "2026-07-16T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5064,810 +5462,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5b512ec8cd3c",
-      "title": "How to shrink the token budget without shrinking the team",
-      "url": "https://www.artificialintelligence-news.com/news/shrink-token-budget-not-team/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Jensen Huang has a test for whether an engineer is worth keeping, and it comes with a token budget attached. Speaking on the All-In Podcast at the close of GTC 2026, the Nvidia chief executive said that if a $500,000 engineer&#8217;s annual AI...",
-      "published": "2026-07-10T09:34:27Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "91af24306d5b",
-      "title": "Google Research Introduces SensorFM: A Wearable Health Foundation Model Pretrained on One Trillion Minutes of Sensor Data",
-      "url": "https://www.marktechpost.com/2026/07/10/google-research-introduces-sensorfm-a-wearable-health-foundation-model-pretrained-on-one-trillion-minutes-of-sensor-data/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "SensorFM, a wearable health foundation model from Google Research, Google DeepMind, and university collaborators. We walk through its ViT-1D masked-autoencoder backbone, pretrained on more than one trillion minutes of unlabeled sensor signals...",
-      "published": "2026-07-10T08:52:04Z",
-      "tags": [
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "31630fbac8b6",
-      "title": "How Deutsche Telekom is rewiring telecommunications with AI",
-      "url": "https://openai.com/index/deutsche-telekom",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
-      "published": "2026-07-10T07:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6a2fd44f5fb8",
-      "title": "Meet LingBot-World-Infinity: An Open Causal World Model With An Agentic Harness",
-      "url": "https://www.marktechpost.com/2026/07/09/meet-lingbot-world-infinity-an-open-causal-world-model-with-an-agentic-harness/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Robbyant, Ant Group's embodied-intelligence unit, has released LingBot-World-Infinity (LingBot-World 2.0). It is a 14B causal video generation model that behaves as an interactive world simulator. The core idea is the Mixture of Bidirectional and...",
-      "published": "2026-07-10T04:38:20Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b86fee3590d6",
-      "title": "Unveiling Public Opinion: A Study of Sentiment Analysis Using LSTM and Traditional Models",
-      "url": "https://arxiv.org/abs/2607.07772",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07772v1 Announce Type: new \nAbstract: In this age of social media, sites like Twitter have become meeting places for people to share their views and feelings on a wide range of issues and current events as they unfold in real time....",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "16732240069e",
-      "title": "From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier",
-      "url": "https://arxiv.org/abs/2607.07779",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07779v1 Announce Type: new \nAbstract: Recent developments in AI for Mathematics (AI4Math), especially Large Language Model (LLM)-driven theorem provers, has achieved remarkable success in formal proof generation for well-defined...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "58c20b9adec6",
-      "title": "DeepSearch-World: Self-Distillation for Deep Search Agents in a Verifiable Environment",
-      "url": "https://arxiv.org/abs/2607.07820",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07820v1 Announce Type: new \nAbstract: Training tool-use agents to improve from their own experience remains challenging, as supervised fine-tuning relies on fixed teacher-distilled trajectories, while sparse-reward reinforcement...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "047570ae84db",
-      "title": "How Do I Know What to Say Next? Barenholtz's Autogenerative Theory as an Enrichment of Harrisean Integrationism",
-      "url": "https://arxiv.org/abs/2607.07891",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07891v1 Announce Type: new \nAbstract: Roy Harris's Integrationist linguistics offers a compelling critique of the referentialist tradition embedded deep at the heart of computational approaches to language, arguing that language is not...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0884285108ab",
-      "title": "Scalable and Culturally Specific Stereotype Dataset Construction via Human-LLM Collaboration",
-      "url": "https://arxiv.org/abs/2607.07895",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07895v1 Announce Type: new \nAbstract: Research on stereotypes in large language models (LLMs) has largely focused on English-speaking contexts, due to the lack of datasets in other languages and the high cost of manual annotation in...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "315b48b0b82c",
-      "title": "When Debiasing Backfires: Counterintuitive Side Effects of Preprocessing-Based Stereotype Mitigation",
-      "url": "https://arxiv.org/abs/2607.07937",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07937v1 Announce Type: new \nAbstract: Preprocessing-based methods for stereotype mitigation, such as pre-/post-training on debiased corpora, are widely used in NLP. While these approaches reduce measurable stereotypes for targeted...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "53bf8795b33f",
-      "title": "A Multi-cluster Boundary Learning Method for Out-of-Scope Intent Detection via MiniLM Embedding",
-      "url": "https://arxiv.org/abs/2607.07974",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07974v1 Announce Type: new \nAbstract: Intent detection is a critical task that bridges human intents and system actions in human-machine interaction systems. However, there still exist challenges for detecting out-of-scope (OOS)...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "Embedding"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c0de14ab5e71",
-      "title": "When Implausible Tokens Get Reinforced: Tail-Aware Credit Calibration for LLM Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2607.07976",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07976v1 Announce Type: new \nAbstract: Reinforcement learning (RL) has achieved remarkable success in enhancing the reasoning capabilities of large language models (LLMs). However, widely used critic-free RL methods rely on uniform...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "050f925c28a4",
-      "title": "A Reliability Assessment of LALM Audio Judges for Full-Duplex Voice Agents",
-      "url": "https://arxiv.org/abs/2607.07985",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07985v1 Announce Type: new \nAbstract: We report the empirical reliability of Gemini models as audio judges that score full-duplex agent conversations directly from the raw stereo waveform, tested across three models in the Gemini...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "28b1754729b1",
-      "title": "Hallucination Self-Play: Bootstrapping Reinforced Detector via Evolved Generator",
-      "url": "https://arxiv.org/abs/2607.07993",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.07993v1 Announce Type: new \nAbstract: Identifying faithfulness hallucinations in LLM-generated outputs remains challenging due to the scarcity of high-quality annotated data. Recent work relies on advanced LLMs to synthesize training...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "aa01813b900b",
-      "title": "From Execution to Education: A Bloom-Aligned Framework for Measuring Educational Control in LLMs",
-      "url": "https://arxiv.org/abs/2607.08009",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.08009v1 Announce Type: new \nAbstract: We introduce a Bloom-aligned framework for measuring educational control in Large Language Models (LLMs): the ability to preserve a task's instructional intent while shifting its cognitive demand...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "49770875b65d",
-      "title": "Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems",
-      "url": "https://arxiv.org/abs/2607.08010",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.08010v1 Announce Type: new \nAbstract: Production LLM agents often waste latency and reliability by regenerating code for the same procedural steps on every request. We replace this inference-time coding loop with an agentic tool-making...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fd24ed43e8b8",
-      "title": "Can We Trust LLM's Logic? Quantifying Uncertainty, Coherence, and Robustness via a Graph-Based Framework",
-      "url": "https://arxiv.org/abs/2607.08017",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.08017v1 Announce Type: new \nAbstract: Large-Language Models (LLMs) can be prone to flawed and unfaithful reasoning that decoding strategies like Self-Consistency (SC) fail to detect as they evaluate only final-answer agreement while...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6e8e3caeb94b",
-      "title": "Structured Pruning of Large Language Models via Power Transformation and Sign-Preserving Score Aggregation with Adaptive Feature Retention",
-      "url": "https://arxiv.org/abs/2607.08027",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.08027v1 Announce Type: new \nAbstract: This paper proposes an improved structured pruning method for large language models (LLMs) that addresses key challenges in adapting Adaptive Feature Retention (AFR), an unstructured pruning...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "04fb43e12c36",
-      "title": "PLURAL: A Global Dataset for Value Alignment",
-      "url": "https://arxiv.org/abs/2607.08034",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.08034v1 Announce Type: new \nAbstract: Large language models (LLMs) are used worldwide, yet disproportionately reflect Western values, limiting their ability to represent diverse value systems. We introduce PLURAL, a large-scale,...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b6c1839ec9f3",
-      "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
-      "url": "https://arxiv.org/abs/2607.06624",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06624v1 Announce Type: new \nAbstract: We present AgentLens, a production-assessed benchmark for interactive code agents. Most code-agent benchmarks reduce a run to a single bit -- did the task pass? -- but the people who actually use...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "06806b5a402e",
-      "title": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
-      "url": "https://arxiv.org/abs/2607.06720",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06720v1 Announce Type: new \nAbstract: Training large language models (LLMs) with extended reasoning has enabled in-context search, in which models iteratively generate, critique, and revise solution attempts. We provide a theoretical...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "eb36c4a33435",
-      "title": "LLM-powered reasoning in agent-based modeling",
-      "url": "https://arxiv.org/abs/2607.06757",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06757v1 Announce Type: new \nAbstract: Agent-based modeling (ABM) has the capability to model millions of individuals and their interactions, which is useful for policy making. However, ABMs have traditionally relied on static prior,...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b62cfb9367a5",
-      "title": "QANTIS: Hardware-Calibrated Sequential POMDP Belief Updates on IBM Heron",
-      "url": "https://arxiv.org/abs/2607.06760",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06760v1 Announce Type: new \nAbstract: Autonomous systems under partial observability act on beliefs, not raw sensor events. QANTIS treats the quantum processor as a calibrated belief-update service in that loop: it receives a prior and...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5c71201a56b2",
-      "title": "Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1",
-      "url": "https://arxiv.org/abs/2607.06764",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06764v1 Announce Type: new \nAbstract: Recent progress on ARC-AGI-1 from disclosed architectures has come broadly from two regimes: heavy test-time compute over frontier models (evolutionary search, exhaustive sampling, extended...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "522b2d5d7ed0",
-      "title": "Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics",
-      "url": "https://arxiv.org/abs/2607.06820",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06820v1 Announce Type: new \nAbstract: Recent advances in AI for Mathematics have focused largely on autoformalization and theorem proving, leaving the role of Computer Algebra Systems (CAS) in agentic LLM workflows underexplored. We...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "979335df992a",
-      "title": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
-      "url": "https://arxiv.org/abs/2607.06906",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06906v1 Announce Type: new \nAbstract: Agentic AI development today runs on token maxing: buying capability with tokens -- longer reasoning traces, more turns, wider tool payloads, bigger replayed contexts -- so tokens per task grow...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5fb98e5adb0b",
-      "title": "Grounding Spatial Relations in a Compact World Model: Instruction Leakage and a Goal-Free Dynamics Fix",
-      "url": "https://arxiv.org/abs/2607.06925",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06925v1 Announce Type: new \nAbstract: Compact world models that condition on a language goal promise to ground relations such as ``put the red block left of the blue block'' using a sparse set of explicit \\emph{reference anchors}. We...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "793e899f0a14",
-      "title": "Large Behavior Model: A Promptable Digital Twin of the Retail Customer",
-      "url": "https://arxiv.org/abs/2607.06993",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.06993v1 Announce Type: new \nAbstract: Customer behavior modeling underpins recommendation, marketing, and decision support, yet existing approaches either optimize predictive accuracy without explaining decisions or simulate users...",
-      "published": "2026-07-10T04:00:00Z",
-      "tags": [
-        "Prompt"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ce3a785ea3a9",
-      "title": "MadsLorentzen /ai-job-search",
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-      "published": "2026-07-10T03:30:24Z",
-      "tags": [
-        "Claude"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4b4cf6b011e2",
-      "title": "VoltAgent /awesome-design-md",
-      "url": "https://github.com/VoltAgent/awesome-design-md",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-      "published": "2026-07-10T03:30:24Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c7871622e500",
-      "title": "iOfficeAI /OfficeCLI",
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "published": "2026-07-10T03:30:24Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "85770197f1cb",
-      "title": "vxcontrol /pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "published": "2026-07-10T03:30:24Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2db83a025fb2",
-      "title": "unclecode /crawl4ai",
-      "url": "https://github.com/unclecode/crawl4ai",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN",
-      "published": "2026-07-10T03:30:24Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
