@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T02:39:27Z",
-  "total": 273,
+  "updated": "2026-07-18T09:40:47Z",
+  "total": 274,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 29
     },
     {
       "name": "GitHub Trending",
@@ -46,7 +46,7 @@
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 35
     },
     {
       "name": "Benchmark",
@@ -54,15 +54,15 @@
     },
     {
       "name": "RAG",
-      "count": 10
+      "count": 11
+    },
+    {
+      "name": "Google",
+      "count": 9
     },
     {
       "name": "GPT",
       "count": 9
-    },
-    {
-      "name": "Google",
-      "count": 8
     },
     {
       "name": "Claude",
@@ -73,16 +73,16 @@
       "count": 7
     },
     {
-      "name": "API",
+      "name": "Gemini",
       "count": 5
     },
     {
       "name": "Diffusion",
-      "count": 4
+      "count": 5
     },
     {
-      "name": "Gemini",
-      "count": 4
+      "name": "API",
+      "count": 5
     },
     {
       "name": "OpenAI",
@@ -90,10 +90,6 @@
     },
     {
       "name": "GPU",
-      "count": 3
-    },
-    {
-      "name": "Transformer",
       "count": 3
     },
     {
@@ -106,6 +102,10 @@
     },
     {
       "name": "Embedding",
+      "count": 2
+    },
+    {
+      "name": "Transformer",
       "count": 2
     },
     {
@@ -136,7 +136,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 188
+      "count": 189
     },
     {
       "name": "开源项目",
@@ -174,7 +174,7 @@
     },
     {
       "date": "07-18",
-      "count": 6
+      "count": 9
     },
     {
       "date": "08-14",
@@ -219,28 +219,28 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "3e17462c3f59",
+      "title": "Google Cloud’s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "5f8b9e108e79",
+      "title": "How to Build Plasmid Engineering Workbench with Circular Mapping, Restriction Analysis, Virtual Gels, and Primer Design",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "ccbd072c3e5c",
+      "title": "Sakana AI’s Error Diffusion Trains Dale-Compliant Dual-Stream Networks, Reaching 96.7% MNIST and 61.7% CIFAR-10 Without Backpropagation",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "fb0d62fea060",
       "title": "Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "9a2283b48313",
-      "title": "Zyphra Releases ZUNA1.1: An Apache 2.0 EEG Foundation Model With Variable-Length Inputs From 0.5 To 30 Seconds",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "2bbdfc683665",
-      "title": "Bunkerhill raises $55M to scale agentic AI across health systems",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "2369b1fe4d4a",
-      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-      "score": 5,
-      "source": "Hugging Face"
     }
   ]
 }
