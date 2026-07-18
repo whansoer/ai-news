@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-17T17:19:54Z",
-  "total": 271,
+  "updated": "2026-07-18T02:39:27Z",
+  "total": 273,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -11,12 +11,12 @@
       "count": 75
     },
     {
-      "name": "GitHub Trending",
-      "count": 27
+      "name": "MarkTechPost",
+      "count": 28
     },
     {
-      "name": "MarkTechPost",
-      "count": 26
+      "name": "GitHub Trending",
+      "count": 27
     },
     {
       "name": "Hugging Face",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 62
     },
     {
       "name": "LLM",
@@ -136,7 +136,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 186
+      "count": 188
     },
     {
       "name": "开源项目",
@@ -152,10 +152,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-12",
-      "count": 6
-    },
     {
       "date": "07-13",
       "count": 38
@@ -174,7 +170,11 @@
     },
     {
       "date": "07-17",
-      "count": 45
+      "count": 41
+    },
+    {
+      "date": "07-18",
+      "count": 6
     },
     {
       "date": "08-14",
@@ -219,6 +219,18 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "fb0d62fea060",
+      "title": "Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "9a2283b48313",
+      "title": "Zyphra Releases ZUNA1.1: An Apache 2.0 EEG Foundation Model With Variable-Length Inputs From 0.5 To 30 Seconds",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "2bbdfc683665",
       "title": "Bunkerhill raises $55M to scale agentic AI across health systems",
       "score": 5,
@@ -229,18 +241,6 @@
       "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
       "score": 5,
       "source": "Hugging Face"
-    },
-    {
-      "id": "97c77c913c65",
-      "title": "apache /ossie",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "be7c8f4e3a9e",
-      "title": "openinterpreter /openinterpreter",
-      "score": 5,
-      "source": "GitHub Trending"
     }
   ]
 }

@@ -1,8 +1,58 @@
 {
   "date": "2026-07-10",
-  "updated": "2026-07-17T17:20:04Z",
-  "total": 35,
+  "updated": "2026-07-18T02:39:37Z",
+  "total": 37,
   "items": [
+    {
+      "id": "10db20cdab10",
+      "title": "Kyutai Releases MuScriptor: An Open-Weight Decoder-Only Transformer for Multi-Instrument Music Transcription to MIDI",
+      "url": "https://www.marktechpost.com/2026/07/10/kyutai-releases-muscriptor-an-open-weight-decoder-only-transformer-for-multi-instrument-music-transcription-to-midi/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "MuScriptor is an open-weight, decoder-only Transformer from Kyutai and Mirelo. Trained on 170k real recordings plus 1.45M synthetic MIDIs, it transcribes full multi-instrument mixes into MIDI. The article covers its three-stage pipeline,...",
+      "published": "2026-07-10T20:21:08Z",
+      "tags": [
+        "Transformer"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "44e356c9f317",
+      "title": "How to Build a T4-Friendly Autonomous Data Science Agent with DeepAnalyze-8B, Sandboxed Code Execution, and Iterative Analysis",
+      "url": "https://www.marktechpost.com/2026/07/10/how-to-build-a-t4-friendly-autonomous-data-science-agent-with-deepanalyze-8b-sandboxed-code-execution-and-iterative-analysis/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We build an autonomous data science agent around DeepAnalyze-8B and run it end to end. We prepare a stable Colab runtime, install the machine-learning dependencies, and load the tokenizer and model in 4-bit mode to fit limited GPU memory. We add...",
+      "published": "2026-07-10T19:24:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "5b512ec8cd3c",
       "title": "How to shrink the token budget without shrinking the team",
