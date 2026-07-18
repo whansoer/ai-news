@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T09:40:47Z",
-  "total": 274,
+  "updated": "2026-07-18T17:04:43Z",
+  "total": 256,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,15 +8,15 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
-    },
-    {
-      "name": "MarkTechPost",
-      "count": 29
+      "count": 60
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 31
+    },
+    {
+      "name": "MarkTechPost",
+      "count": 28
     },
     {
       "name": "Hugging Face",
@@ -31,22 +31,22 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 6
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 59
     },
     {
       "name": "LLM",
-      "count": 35
+      "count": 34
     },
     {
       "name": "Benchmark",
@@ -54,7 +54,7 @@
     },
     {
       "name": "RAG",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Google",
@@ -73,6 +73,10 @@
       "count": 7
     },
     {
+      "name": "API",
+      "count": 6
+    },
+    {
       "name": "Gemini",
       "count": 5
     },
@@ -81,15 +85,11 @@
       "count": 5
     },
     {
-      "name": "API",
-      "count": 5
+      "name": "GPU",
+      "count": 4
     },
     {
       "name": "OpenAI",
-      "count": 3
-    },
-    {
-      "name": "GPU",
       "count": 3
     },
     {
@@ -136,11 +136,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 173
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -148,7 +148,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 6
     }
   ],
   "dailyTrend": [
@@ -170,11 +170,11 @@
     },
     {
       "date": "07-17",
-      "count": 41
+      "count": 40
     },
     {
       "date": "07-18",
-      "count": 9
+      "count": 14
     },
     {
       "date": "08-14",
@@ -183,8 +183,44 @@
   ],
   "top10": [
     {
+      "id": "97c77c913c65",
+      "title": "apache /ossie",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "6fb08428e288",
       "title": "PostHog /posthog",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "49d53e226ac6",
+      "title": "tirth8205 /code-review-graph",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "db7ba6e66056",
+      "title": "elder-plinius /G0DM0D3",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "cef11b5e74b8",
+      "title": "lyogavin /airllm",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4e0f7b8afe94",
+      "title": "KnockOutEZ /wigolo",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -205,42 +241,6 @@
       "title": "github /copilot-sdk",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "3d98181abb04",
-      "title": "PrismML-Eng /Bonsai-demo",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "49d53e226ac6",
-      "title": "tirth8205 /code-review-graph",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "3e17462c3f59",
-      "title": "Google Cloud’s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "5f8b9e108e79",
-      "title": "How to Build Plasmid Engineering Workbench with Circular Mapping, Restriction Analysis, Virtual Gels, and Primer Design",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "ccbd072c3e5c",
-      "title": "Sakana AI’s Error Diffusion Trains Dale-Compliant Dual-Stream Networks, Reaching 96.7% MNIST and 61.7% CIFAR-10 Without Backpropagation",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "fb0d62fea060",
-      "title": "Build an Agentic Event Venue Operator with MongoDB Atlas, Voyage, and LangGraph",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
