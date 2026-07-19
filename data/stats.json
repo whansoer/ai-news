@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T09:58:54Z",
+  "updated": "2026-07-19T17:06:15Z",
   "total": 262,
   "sources": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "name": "LLM",
-      "count": 35
+      "count": 37
     },
     {
       "name": "Benchmark",
@@ -58,26 +58,22 @@
     },
     {
       "name": "Google",
-      "count": 10
+      "count": 9
     },
     {
       "name": "GPT",
       "count": 9
     },
     {
-      "name": "Claude",
-      "count": 7
-    },
-    {
       "name": "Prompt",
       "count": 7
     },
     {
-      "name": "API",
+      "name": "Claude",
       "count": 6
     },
     {
-      "name": "Gemini",
+      "name": "API",
       "count": 5
     },
     {
@@ -93,8 +89,16 @@
       "count": 4
     },
     {
-      "name": "OpenAI",
+      "name": "Gemini",
+      "count": 4
+    },
+    {
+      "name": "Transformer",
       "count": 3
+    },
+    {
+      "name": "Fine-tune",
+      "count": 2
     },
     {
       "name": "Meta",
@@ -109,16 +113,12 @@
       "count": 2
     },
     {
-      "name": "Transformer",
+      "name": "OpenAI",
       "count": 2
     },
     {
       "name": "Mistral",
       "count": 2
-    },
-    {
-      "name": "Fine-tune",
-      "count": 1
     },
     {
       "name": "Llama",
@@ -170,11 +170,11 @@
     },
     {
       "date": "07-18",
-      "count": 8
+      "count": 7
     },
     {
       "date": "07-19",
-      "count": 11
+      "count": 15
     },
     {
       "date": "08-14",
@@ -183,14 +183,14 @@
   ],
   "top10": [
     {
-      "id": "97c77c913c65",
-      "title": "apache /ossie",
+      "id": "49d53e226ac6",
+      "title": "tirth8205 /code-review-graph",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "6fb08428e288",
-      "title": "PostHog /posthog",
+      "id": "3cabe5488f9f",
+      "title": "kvcache-ai /ktransformers",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,20 +201,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "49d53e226ac6",
-      "title": "tirth8205 /code-review-graph",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "db7ba6e66056",
-      "title": "elder-plinius /G0DM0D3",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "cef11b5e74b8",
-      "title": "lyogavin /airllm",
+      "id": "bfeff07f7d86",
+      "title": "jamiepine /voicebox",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -225,22 +213,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "bdb8151165c0",
-      "title": "Perplexity AI Releases WANDR: An Open Benchmark Evaluating Research Agents That Must Search Wide And Deep",
+      "id": "06007b54a16f",
+      "title": "github /copilot-sdk",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "62d47b929e93",
-      "title": "10 Open-Source No-Code AI Platforms for Building LLM Apps, RAG Systems, and AI Agents",
+      "id": "6fb08428e288",
+      "title": "PostHog /posthog",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "d42cef06ba3a",
-      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost",
+      "id": "6a29aa0fa11a",
+      "title": "AstrBotDevs /AstrBot",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "97c77c913c65",
+      "title": "apache /ossie",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "db7ba6e66056",
+      "title": "elder-plinius /G0DM0D3",
+      "score": 5,
+      "source": "GitHub Trending"
     }
   ]
 }
