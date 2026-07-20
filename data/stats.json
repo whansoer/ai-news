@@ -1,14 +1,14 @@
 {
-  "updated": "2026-07-20T03:22:53Z",
-  "total": 257,
+  "updated": "2026-07-20T11:09:27Z",
+  "total": 297,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 31
     },
     {
       "name": "Hugging Face",
@@ -31,41 +31,45 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 6
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 59
+      "count": 71
     },
     {
       "name": "LLM",
-      "count": 38
+      "count": 43
     },
     {
       "name": "Benchmark",
-      "count": 18
+      "count": 21
     },
     {
       "name": "RAG",
-      "count": 11
+      "count": 12
+    },
+    {
+      "name": "GPT",
+      "count": 10
     },
     {
       "name": "Google",
       "count": 9
     },
     {
-      "name": "GPT",
-      "count": 9
+      "name": "Claude",
+      "count": 8
     },
     {
-      "name": "Claude",
+      "name": "Diffusion",
       "count": 7
     },
     {
@@ -73,11 +77,15 @@
       "count": 7
     },
     {
-      "name": "API",
+      "name": "DeepSeek",
+      "count": 6
+    },
+    {
+      "name": "Gemini",
       "count": 5
     },
     {
-      "name": "DeepSeek",
+      "name": "API",
       "count": 5
     },
     {
@@ -85,15 +93,11 @@
       "count": 5
     },
     {
-      "name": "Diffusion",
-      "count": 5
-    },
-    {
-      "name": "Qwen",
+      "name": "Transformer",
       "count": 4
     },
     {
-      "name": "Gemini",
+      "name": "Qwen",
       "count": 4
     },
     {
@@ -101,7 +105,11 @@
       "count": 3
     },
     {
-      "name": "Transformer",
+      "name": "OpenAI",
+      "count": 3
+    },
+    {
+      "name": "Meta",
       "count": 3
     },
     {
@@ -109,15 +117,11 @@
       "count": 3
     },
     {
-      "name": "Meta",
+      "name": "Anthropic",
       "count": 2
     },
     {
       "name": "Embedding",
-      "count": 2
-    },
-    {
-      "name": "OpenAI",
       "count": 2
     },
     {
@@ -129,10 +133,6 @@
       "count": 1
     },
     {
-      "name": "Anthropic",
-      "count": 1
-    },
-    {
       "name": "Microsoft",
       "count": 1
     }
@@ -140,11 +140,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 178
+      "count": 208
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -152,7 +152,7 @@
     },
     {
       "name": "产品/API",
-      "count": 6
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -178,7 +178,7 @@
     },
     {
       "date": "07-20",
-      "count": 10
+      "count": 46
     },
     {
       "date": "08-14",
@@ -187,20 +187,20 @@
   ],
   "top10": [
     {
-      "id": "b07d60e58753",
-      "title": "bojieli /ai-agent-book",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "49d53e226ac6",
       "title": "tirth8205 /code-review-graph",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "3cabe5488f9f",
-      "title": "kvcache-ai /ktransformers",
+      "id": "7d0e9c89c3e6",
+      "title": "1jehuang /jcode",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "10942d97d561",
+      "title": "diegosouzapw /OmniRoute",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -211,40 +211,40 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "5dfe15d5980d",
+      "title": "msitarzewski /agency-agents",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "3cabe5488f9f",
+      "title": "kvcache-ai /ktransformers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "bfeff07f7d86",
       "title": "jamiepine /voicebox",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "4e0f7b8afe94",
-      "title": "KnockOutEZ /wigolo",
+      "id": "194bbbbcb050",
+      "title": "topoteretes /cognee",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "06007b54a16f",
-      "title": "github /copilot-sdk",
+      "id": "d6a09501cf0a",
+      "title": "US public health agencies to test OpenAI and Anthropic AI models",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "AI News"
     },
     {
-      "id": "6fb08428e288",
-      "title": "PostHog /posthog",
+      "id": "272130dc4b4c",
+      "title": "Kimi K3 open-weight model: China’s biggest AI is a bet on memory, not compute",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "401be8004b15",
-      "title": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "20ef73922366",
-      "title": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
-      "score": 5,
-      "source": "MarkTechPost"
+      "source": "AI News"
     }
   ]
 }
