@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-20T11:09:38Z",
-  "total": 223,
-  "new_count": 77,
+  "updated": "2026-07-20T18:12:38Z",
+  "total": 225,
+  "new_count": 43,
   "items": [
     {
       "id": "49d53e226ac6",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "published": "2026-07-20T11:06:51Z",
+      "published": "2026-07-20T18:09:52Z",
       "tags": [
         "Benchmark"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The most intelligent agent harness for code",
-      "published": "2026-07-20T11:06:51Z",
+      "published": "2026-07-20T18:09:52Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression...",
-      "published": "2026-07-20T11:06:51Z",
+      "published": "2026-07-20T18:09:52Z",
       "tags": [
         "GPT",
         "Claude",
@@ -97,7 +97,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-07-20T11:06:51Z",
+      "published": "2026-07-20T18:09:52Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "published": "2026-07-20T11:06:51Z",
+      "published": "2026-07-20T18:09:52Z",
       "tags": [
         "Agent"
       ],
@@ -147,7 +147,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-      "published": "2026-07-20T11:06:51Z",
+      "published": "2026-07-20T18:09:52Z",
       "tags": [
         "LLM",
         "Fine-tune",
@@ -178,7 +178,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open-source AI voice studio. Clone, dictate, create.",
-      "published": "2026-07-20T11:06:51Z",
+      "published": "2026-07-20T18:09:52Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -201,7 +201,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-      "published": "2026-07-20T11:06:51Z",
+      "published": "2026-07-20T18:09:52Z",
       "tags": [
         "Agent"
       ],
@@ -220,6 +220,29 @@
         "Agent"
       ],
       "oneliner": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term me"
+    },
+    {
+      "id": "86f2663fd4b6",
+      "title": "Introducing Cosmos 3 Edge",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-07-20T15:58:51Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Introducing Cosmos 3 Edge",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d6a09501cf0a",
@@ -249,6 +272,29 @@
         "Anthropic"
       ],
       "oneliner": "Public health departments across the United States will test generative AI tools under a new program"
+    },
+    {
+      "id": "960e35dd4f7d",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "published": "2026-07-20T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Safety and alignment in an era of long-horizon models",
+      "summary_zh": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "tags_zh": [],
+      "oneliner": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed"
     },
     {
       "id": "272130dc4b4c",
@@ -495,10 +541,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning",
-      "summary_zh": "arXiv:2607.15736v1 Announce Type: new \nAbstract: Large reasoning models often solve problems through long chain-of-thought (CoT) traces, yet much of this computation is spent on redundant derivations, repeated self-verification, and detours that...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.15736v1 Announce Type: new \nAbstract: Large reasoning models often solve problems through"
+      "oneliner": ""
     },
     {
       "id": "0a8df54b5d8c",
@@ -521,13 +567,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Before the Action: Benchmarking LLMs on Prospective Hypothesis Discovery",
-      "summary_zh": "arXiv:2607.15766v1 Announce Type: new \nAbstract: Large language models (LLMs) excel at answering pre-specified questions, yet their ability to navigate the open-ended, pre-conclusion stage of discovery remains largely unmeasured. We introduce...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2607.15766v1 Announce Type: new \nAbstract: Large language models (LLMs) excel at answering pre"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "8f1d58e1379c",
@@ -4960,11 +5003,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "67810eda4329"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
