@@ -1,7 +1,22 @@
 {
-  "updated": "2026-07-19T17:06:24Z",
+  "updated": "2026-07-20T03:00:22Z",
   "total": 20,
   "items": [
+    {
+      "id": "b07d60e58753",
+      "title_zh": "bojieli /ai-agent-book",
+      "summary_zh": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "tags_zh": [
+        "Agent",
+        "开源"
+      ],
+      "oneliner": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "49d53e226ac6",
       "title_zh": "tirth8205 /code-review-graph",
@@ -93,6 +108,65 @@
         "Agent"
       ],
       "oneliner": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI obser",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "401be8004b15",
+      "title_zh": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
+      "summary_zh": "A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that runs fully local — a 657MB smallest build, 128K context, and visible reasoning. We verify every spec against the Hugging Face cards, separate...",
+      "tags_zh": [
+        "Claude",
+        "Fine-tune"
+      ],
+      "oneliner": "A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "20ef73922366",
+      "title_zh": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
+      "summary_zh": "A single 24GB GPU is the practical floor for serious local inference. This guide compares six open-weight models that fit one card at Q4_K_M. It covers Qwen3.6, Gemma 4, Mistral Small, gpt-oss-20b, and DeepSeek-R1-Distill. Each entry lists VRAM...",
+      "tags_zh": [
+        "Mistral",
+        "DeepSeek",
+        "Qwen",
+        "LLM",
+        "GPU"
+      ],
+      "oneliner": "A single 24GB GPU is the practical floor for serious local inference. This guide compares six open-w",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1d5f89a74ae5",
+      "title_zh": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
+      "summary_zh": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills...",
+      "tags_zh": [],
+      "oneliner": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only p",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "66f4015fb66b",
+      "title_zh": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "summary_zh": "Alibaba's Qwen team previewed Qwen3.8-Max-Preview, a 2.4 trillion-parameter multimodal MoE model it calls \"second only to Fable 5.\" The preview is live on Token Plan, Qoder, and QoderWork at 10% of standard pricing. What is not live: any...",
+      "tags_zh": [
+        "Qwen"
+      ],
+      "oneliner": "Alibaba's Qwen team previewed Qwen3.8-Max-Preview, a 2.4 trillion-parameter multimodal MoE model it ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -211,77 +285,6 @@
         "GPU"
       ],
       "oneliner": "We build an end-to-end NVIDIA NeMo AutoModel workflow in Google Colab using a single GPU. We verify ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ca4480ca7815",
-      "title_zh": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking",
-      "summary_zh": "NVIDIA DeepStream 9.1 introduces 13 agentic skills that let coding agents like Claude Code and Codex build multi-camera video analytics pipelines from natural-language prompts. Multi-View 3D Tracking (MV3DT) fuses per-camera detections into one...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "NVIDIA DeepStream 9.1 introduces 13 agentic skills that let coding agents like Claude Code and Codex",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "810a6b2984da",
-      "title_zh": "HenryNdubuaku /maths-cs-ai-compendium",
-      "summary_zh": "Become a cracked AI/ML Research Engineer",
-      "tags_zh": [],
-      "oneliner": "Become a cracked AI/ML Research Engineer",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c88c01cfd244",
-      "title_zh": "Nutlope /hallmark",
-      "summary_zh": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "tags_zh": [
-        "Claude",
-        "LLM"
-      ],
-      "oneliner": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3d98181abb04",
-      "title_zh": "PrismML-Eng /Bonsai-demo",
-      "summary_zh": "Bonsai Demo",
-      "tags_zh": [],
-      "oneliner": "Bonsai Demo",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3e17462c3f59",
-      "title_zh": "Google Cloud’s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
-      "summary_zh": "Google Cloud's generative-ai repository ships the Always-On Memory Agent, a reference implementation that treats memory as a running process. Built on Google ADK and Gemini 3.1 Flash-Lite, it uses no vector database and no embeddings. Instead, an...",
-      "tags_zh": [
-        "Gemini",
-        "Google",
-        "LLM",
-        "Agent",
-        "RAG"
-      ],
-      "oneliner": "Google Cloud's generative-ai repository ships the Always-On Memory Agent, a reference implementation",
       "key_facts": [],
       "notable_quote": {
         "text": "",

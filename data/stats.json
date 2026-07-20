@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T17:06:15Z",
-  "total": 262,
+  "updated": "2026-07-20T03:00:12Z",
+  "total": 267,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 35
     },
     {
       "name": "GitHub Trending",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Hugging Face",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 60
+      "count": 61
     },
     {
       "name": "LLM",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Benchmark",
@@ -65,15 +65,23 @@
       "count": 9
     },
     {
+      "name": "Claude",
+      "count": 7
+    },
+    {
       "name": "Prompt",
       "count": 7
     },
     {
-      "name": "Claude",
-      "count": 6
+      "name": "API",
+      "count": 5
     },
     {
-      "name": "API",
+      "name": "DeepSeek",
+      "count": 5
+    },
+    {
+      "name": "GPU",
       "count": 5
     },
     {
@@ -81,11 +89,7 @@
       "count": 5
     },
     {
-      "name": "GPU",
-      "count": 4
-    },
-    {
-      "name": "DeepSeek",
+      "name": "Qwen",
       "count": 4
     },
     {
@@ -93,19 +97,19 @@
       "count": 4
     },
     {
+      "name": "Fine-tune",
+      "count": 3
+    },
+    {
       "name": "Transformer",
       "count": 3
     },
     {
-      "name": "Fine-tune",
-      "count": 2
+      "name": "Mistral",
+      "count": 3
     },
     {
       "name": "Meta",
-      "count": 2
-    },
-    {
-      "name": "Qwen",
       "count": 2
     },
     {
@@ -117,8 +121,8 @@
       "count": 2
     },
     {
-      "name": "Mistral",
-      "count": 2
+      "name": "开源",
+      "count": 1
     },
     {
       "name": "Llama",
@@ -136,11 +140,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 176
+      "count": 180
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -152,10 +156,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-14",
-      "count": 43
-    },
     {
       "date": "07-15",
       "count": 43
@@ -174,7 +174,11 @@
     },
     {
       "date": "07-19",
-      "count": 15
+      "count": 10
+    },
+    {
+      "date": "07-20",
+      "count": 10
     },
     {
       "date": "08-14",
@@ -182,6 +186,12 @@
     }
   ],
   "top10": [
+    {
+      "id": "b07d60e58753",
+      "title": "bojieli /ai-agent-book",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "49d53e226ac6",
       "title": "tirth8205 /code-review-graph",
@@ -225,22 +235,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "6a29aa0fa11a",
-      "title": "AstrBotDevs /AstrBot",
+      "id": "401be8004b15",
+      "title": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     },
     {
-      "id": "97c77c913c65",
-      "title": "apache /ossie",
+      "id": "20ef73922366",
+      "title": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "db7ba6e66056",
-      "title": "elder-plinius /G0DM0D3",
-      "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     }
   ]
 }

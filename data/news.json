@@ -1,8 +1,37 @@
 {
-  "updated": "2026-07-19T17:06:24Z",
-  "total": 219,
-  "new_count": 46,
+  "updated": "2026-07-20T03:00:22Z",
+  "total": 220,
+  "new_count": 48,
   "items": [
+    {
+      "id": "b07d60e58753",
+      "title": "bojieli /ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "published": "2026-07-20T02:57:43Z",
+      "tags": [
+        "Agent",
+        "开源"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "bojieli /ai-agent-book",
+      "summary_zh": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "tags_zh": [
+        "Agent",
+        "开源"
+      ],
+      "oneliner": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码"
+    },
     {
       "id": "49d53e226ac6",
       "title": "tirth8205 /code-review-graph",
@@ -10,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "published": "2026-07-19T17:03:45Z",
+      "published": "2026-07-20T02:57:43Z",
       "tags": [
         "Benchmark"
       ],
@@ -37,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-      "published": "2026-07-19T17:03:45Z",
+      "published": "2026-07-20T02:57:43Z",
       "tags": [
         "LLM",
         "Fine-tune",
@@ -68,7 +97,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-07-19T17:03:45Z",
+      "published": "2026-07-20T02:57:43Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -91,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open-source AI voice studio. Clone, dictate, create.",
-      "published": "2026-07-19T17:03:45Z",
+      "published": "2026-07-20T02:57:43Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -114,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
-      "published": "2026-07-19T17:03:45Z",
+      "published": "2026-07-20T02:57:43Z",
       "tags": [
         "Agent",
         "API"
@@ -143,7 +172,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-      "published": "2026-07-19T17:03:45Z",
+      "published": "2026-07-20T02:57:43Z",
       "tags": [
         "Agent"
       ],
@@ -170,7 +199,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose...",
-      "published": "2026-07-19T17:03:45Z",
+      "published": "2026-07-20T02:57:43Z",
       "tags": [
         "Agent"
       ],
@@ -189,6 +218,122 @@
         "Agent"
       ],
       "oneliner": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI obser"
+    },
+    {
+      "id": "401be8004b15",
+      "title": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
+      "url": "https://www.marktechpost.com/2026/07/19/someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that runs fully local — a 657MB smallest build, 128K context, and visible reasoning. We verify every spec against the Hugging Face cards, separate...",
+      "published": "2026-07-20T01:56:50Z",
+      "tags": [
+        "Claude",
+        "Fine-tune"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
+      "summary_zh": "A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that runs fully local — a 657MB smallest build, 128K context, and visible reasoning. We verify every spec against the Hugging Face cards, separate...",
+      "tags_zh": [
+        "Claude",
+        "Fine-tune"
+      ],
+      "oneliner": "A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that"
+    },
+    {
+      "id": "20ef73922366",
+      "title": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
+      "url": "https://www.marktechpost.com/2026/07/19/best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwen-gemma-mistral-deepseek-compared/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "A single 24GB GPU is the practical floor for serious local inference. This guide compares six open-weight models that fit one card at Q4_K_M. It covers Qwen3.6, Gemma 4, Mistral Small, gpt-oss-20b, and DeepSeek-R1-Distill. Each entry lists VRAM...",
+      "published": "2026-07-20T01:18:46Z",
+      "tags": [
+        "Mistral",
+        "DeepSeek",
+        "Qwen",
+        "LLM",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "d42cef06ba3a"
+        ],
+        "score": 5
+      },
+      "title_zh": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
+      "summary_zh": "A single 24GB GPU is the practical floor for serious local inference. This guide compares six open-weight models that fit one card at Q4_K_M. It covers Qwen3.6, Gemma 4, Mistral Small, gpt-oss-20b, and DeepSeek-R1-Distill. Each entry lists VRAM...",
+      "tags_zh": [
+        "Mistral",
+        "DeepSeek",
+        "Qwen",
+        "LLM",
+        "GPU"
+      ],
+      "oneliner": "A single 24GB GPU is the practical floor for serious local inference. This guide compares six open-w"
+    },
+    {
+      "id": "1d5f89a74ae5",
+      "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
+      "url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills...",
+      "published": "2026-07-19T22:20:23Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
+      "summary_zh": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills...",
+      "tags_zh": [],
+      "oneliner": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only p"
+    },
+    {
+      "id": "66f4015fb66b",
+      "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Alibaba's Qwen team previewed Qwen3.8-Max-Preview, a 2.4 trillion-parameter multimodal MoE model it calls \"second only to Fable 5.\" The preview is live on Token Plan, Qoder, and QoderWork at 10% of standard pricing. What is not live: any...",
+      "published": "2026-07-19T21:42:50Z",
+      "tags": [
+        "Qwen"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
+      "summary_zh": "Alibaba's Qwen team previewed Qwen3.8-Max-Preview, a 2.4 trillion-parameter multimodal MoE model it calls \"second only to Fable 5.\" The preview is live on Token Plan, Qoder, and QoderWork at 10% of standard pricing. What is not live: any...",
+      "tags_zh": [
+        "Qwen"
+      ],
+      "oneliner": "Alibaba's Qwen team previewed Qwen3.8-Max-Preview, a 2.4 trillion-parameter multimodal MoE model it "
     },
     {
       "id": "6a29aa0fa11a",
@@ -375,9 +520,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
+        "level": "multi-source",
+        "corroborating_ids": [
+          "20ef73922366"
+        ],
+        "score": 5
       },
       "title_zh": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost",
       "summary_zh": "Three open MoE flagships face off on measured intelligence, MIT versus Modified MIT weights, and real serving cost\nThe post Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost...",
@@ -443,12 +590,10 @@
         ],
         "score": 5
       },
-      "title_zh": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking",
-      "summary_zh": "NVIDIA DeepStream 9.1 introduces 13 agentic skills that let coding agents like Claude Code and Codex build multi-camera video analytics pipelines from natural-language prompts. Multi-View 3D Tracking (MV3DT) fuses per-camera detections into one...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "NVIDIA DeepStream 9.1 introduces 13 agentic skills that let coding agents like Claude Code and Codex"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "810a6b2984da",
@@ -468,10 +613,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "HenryNdubuaku /maths-cs-ai-compendium",
-      "summary_zh": "Become a cracked AI/ML Research Engineer",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Become a cracked AI/ML Research Engineer"
+      "oneliner": ""
     },
     {
       "id": "c88c01cfd244",
@@ -494,13 +639,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Nutlope /hallmark",
-      "summary_zh": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "tags_zh": [
-        "Claude",
-        "LLM"
-      ],
-      "oneliner": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "3d98181abb04",
@@ -520,10 +662,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "PrismML-Eng /Bonsai-demo",
-      "summary_zh": "Bonsai Demo",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Bonsai Demo"
+      "oneliner": ""
     },
     {
       "id": "3e17462c3f59",
@@ -551,16 +693,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Google Cloud’s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
-      "summary_zh": "Google Cloud's generative-ai repository ships the Always-On Memory Agent, a reference implementation that treats memory as a running process. Built on Google ADK and Gemini 3.1 Flash-Lite, it uses no vector database and no embeddings. Instead, an...",
-      "tags_zh": [
-        "Gemini",
-        "Google",
-        "LLM",
-        "Agent",
-        "RAG"
-      ],
-      "oneliner": "Google Cloud's generative-ai repository ships the Always-On Memory Agent, a reference implementation"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "5f8b9e108e79",
@@ -5301,102 +5437,6 @@
       "published": "2026-07-13T04:00:00Z",
       "tags": [
         "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "41a6a86637e6",
-      "title": "Crosstalk-Solutions /project-nomad",
-      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-      "published": "2026-07-13T02:56:06Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b454287131ed",
-      "title": "ColeMurray /background-agents",
-      "url": "https://github.com/ColeMurray/background-agents",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "An open-source background agents coding system",
-      "published": "2026-07-13T02:56:06Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d4554956a292",
-      "title": "Meet NeuroVFM: A New Neuroimaging Foundation Model Trained With Vol-JEPA on Uncurated Clinical MRI and CT Volumes",
-      "url": "https://www.marktechpost.com/2026/07/12/meet-neurovfm-a-new-neuroimaging-foundation-model-trained-with-vol-jepa-on-uncurated-clinical-mri-and-ct-volumes/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "NeuroVFM is a generalist neuroimaging foundation model from the University of Michigan, trained on 5.24M clinical MRI and CT volumes. Its Vol-JEPA base extends I-JEPA and V-JEPA to volumetric medical imaging, learning brain anatomy and pathology...",
-      "published": "2026-07-13T00:35:36Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "94ea0b8e28a8",
-      "title": "Guide to Loop Engineering: How ‘autoresearch’ and ‘Bilevel Autoresearch’ Turn AI Agents Into Autonomous Machine Learning ML Research Loops",
-      "url": "https://www.marktechpost.com/2026/07/12/guide-to-loop-engineering/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Most people still use AI like a 2015 search box. You type, you read, you type again. A newer pattern replaces that manual back-and-forth with a loop. This guide explains loop engineering using two verified artifacts. The sources are Andrej...",
-      "published": "2026-07-12T20:07:02Z",
-      "tags": [
         "Agent"
       ],
       "score": 5,
