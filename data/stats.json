@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-21T10:31:37Z",
-  "total": 287,
+  "updated": "2026-07-21T17:29:04Z",
+  "total": 267,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 33
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 30
     },
     {
       "name": "Hugging Face",
@@ -31,33 +31,33 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 7
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 57
+      "count": 58
     },
     {
       "name": "LLM",
-      "count": 43
+      "count": 39
     },
     {
       "name": "Benchmark",
-      "count": 18
+      "count": 16
     },
     {
       "name": "GPT",
       "count": 10
     },
     {
-      "name": "RAG",
+      "name": "Google",
       "count": 10
     },
     {
@@ -65,12 +65,8 @@
       "count": 9
     },
     {
-      "name": "Google",
+      "name": "RAG",
       "count": 9
-    },
-    {
-      "name": "Prompt",
-      "count": 8
     },
     {
       "name": "Claude",
@@ -81,7 +77,15 @@
       "count": 6
     },
     {
+      "name": "Prompt",
+      "count": 6
+    },
+    {
       "name": "Gemini",
+      "count": 5
+    },
+    {
+      "name": "Qwen",
       "count": 5
     },
     {
@@ -97,11 +101,7 @@
       "count": 4
     },
     {
-      "name": "API",
-      "count": 4
-    },
-    {
-      "name": "Qwen",
+      "name": "Meta",
       "count": 4
     },
     {
@@ -109,12 +109,12 @@
       "count": 3
     },
     {
-      "name": "Meta",
+      "name": "API",
       "count": 3
     },
     {
       "name": "Mistral",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Embedding",
@@ -144,11 +144,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 203
+      "count": 175
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 50
     },
     {
       "name": "模型发布",
@@ -156,7 +156,7 @@
     },
     {
       "name": "产品/API",
-      "count": 7
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -174,15 +174,15 @@
     },
     {
       "date": "07-19",
-      "count": 10
+      "count": 9
     },
     {
       "date": "07-20",
-      "count": 39
+      "count": 40
     },
     {
       "date": "07-21",
-      "count": 40
+      "count": 53
     },
     {
       "date": "08-14",
@@ -190,6 +190,12 @@
     }
   ],
   "top10": [
+    {
+      "id": "56d33226bf40",
+      "title": "koala73 /worldmonitor",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "b07d60e58753",
       "title": "bojieli /ai-agent-book",
@@ -203,52 +209,46 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "ee7d6f2f5cec",
+      "title": "ayghri /i-have-adhd",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7a4b3790492a",
+      "title": "earthtojake /text-to-cad",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "7d0e9c89c3e6",
       "title": "1jehuang /jcode",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "10942d97d561",
-      "title": "diegosouzapw /OmniRoute",
+      "id": "6a29aa0fa11a",
+      "title": "AstrBotDevs /AstrBot",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "4d8e922de101",
-      "title": "rohitg00 /ai-engineering-from-scratch",
+      "id": "d84de85bb3f0",
+      "title": "tradesdontlie /tradingview-mcp",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "5dfe15d5980d",
-      "title": "msitarzewski /agency-agents",
+      "id": "9783627bd88c",
+      "title": "Introducing the ChatGPT for small business program",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "OpenAI"
     },
     {
-      "id": "3cabe5488f9f",
-      "title": "kvcache-ai /ktransformers",
+      "id": "9d5aed747833",
+      "title": "Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "bfeff07f7d86",
-      "title": "jamiepine /voicebox",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "194bbbbcb050",
-      "title": "topoteretes /cognee",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "e0013da58e01",
-      "title": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     }
   ]
 }

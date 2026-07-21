@@ -1,7 +1,19 @@
 {
-  "updated": "2026-07-21T10:31:47Z",
+  "updated": "2026-07-21T17:29:14Z",
   "total": 20,
   "items": [
+    {
+      "id": "56d33226bf40",
+      "title_zh": "koala73 /worldmonitor",
+      "summary_zh": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "tags_zh": [],
+      "oneliner": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "b07d60e58753",
       "title_zh": "bojieli /ai-agent-book",
@@ -32,6 +44,34 @@
       }
     },
     {
+      "id": "ee7d6f2f5cec",
+      "title_zh": "ayghri /i-have-adhd",
+      "summary_zh": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7a4b3790492a",
+      "title_zh": "earthtojake /text-to-cad",
+      "summary_zh": "A collection of agent skills for CAD, robotics and hardware design",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "A collection of agent skills for CAD, robotics and hardware design",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "7d0e9c89c3e6",
       "title_zh": "1jehuang /jcode",
       "summary_zh": "The most intelligent agent harness for code",
@@ -39,6 +79,92 @@
         "Agent"
       ],
       "oneliner": "The most intelligent agent harness for code",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6a29aa0fa11a",
+      "title_zh": "AstrBotDevs /AstrBot",
+      "summary_zh": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and A",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d84de85bb3f0",
+      "title_zh": "tradesdontlie /tradingview-mcp",
+      "summary_zh": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "tags_zh": [
+        "Claude"
+      ],
+      "oneliner": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for persona",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9783627bd88c",
+      "title_zh": "Introducing the ChatGPT for small business program",
+      "summary_zh": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, aut",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9d5aed747833",
+      "title_zh": "Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis",
+      "summary_zh": "In this tutorial, we explore NVIDIA’s srt-slurm framework and learn how we use srtctl to convert declarative YAML configurations into reproducible SLURM benchmark workflows for distributed LLM serving. We set up the project in Google Colab,...",
+      "tags_zh": [
+        "LLM",
+        "Benchmark"
+      ],
+      "oneliner": "In this tutorial, we explore NVIDIA’s srt-slurm framework and learn how we use srtctl to convert dec",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "629a5fdfb088",
+      "title_zh": "Google’s Gemini 3.6 Flash targets enterprise agent token costs",
+      "summary_zh": "Google has released Gemini 3.6 Flash and 3.5 Flash-Lite as new workhorses designed to cut latency and token costs for enterprise AI agents. The economics of running autonomous software agents inside a production environment come down to a fixed...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "Google has released Gemini 3.6 Flash and 3.5 Flash-Lite as new workhorses designed to cut latency an",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1b986bb6aa41",
+      "title_zh": "The AI Slot Machine Effect: Why Generative Feeds Disrupt Deep Work And How to Reclaim Focus",
+      "summary_zh": "You open a generative AI tool expecting a quick boost. Ten minutes later, you&#8217;re still there, refining a prompt for the fourth time. The task you started with has drifted off to the side somewhere. Sound familiar? Knowledge workers in 2026...",
+      "tags_zh": [],
+      "oneliner": "You open a generative AI tool expecting a quick boost. Ten minutes later, you&#8217;re still there, ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -131,11 +257,11 @@
       }
     },
     {
-      "id": "e0013da58e01",
-      "title_zh": "Multi-level context Modeling for consistent expert selection in Mixture-of-Experts",
-      "summary_zh": "arXiv:2607.16427v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) enables efficient scaling of Transformer models by routing tokens to a small subset of experts. However, existing routers typically condition expert selection on shallow or...",
+      "id": "bd4842a7b426",
+      "title_zh": "Bristol Myers Squibb buys Nvidia AI system for drug discovery",
+      "summary_zh": "Bristol Myers Squibb is purchasing an Nvidia DGX SuperPOD built on the chipmaker’s Vera Rubin architecture to support artificial intelligence use across its drug discovery and development operations. The pharmaceutical company said it will be the...",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.16427v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) enables efficient scaling ",
+      "oneliner": "Bristol Myers Squibb is purchasing an Nvidia DGX SuperPOD built on the chipmaker’s Vera Rubin archit",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -143,130 +269,14 @@
       }
     },
     {
-      "id": "9e3591dcb480",
-      "title_zh": "RIMS: Preference Optimization via Smoothed Multi-pair Aggregation for Small-Scale LLM Retrieval-Augmented Generation",
-      "summary_zh": "arXiv:2607.16431v1 Announce Type: new \nAbstract: Small-scale language models (SLMs) are attractive for retrieval-augmented generation (RAG) in resource-constrained settings, but their limited capacity makes them highly sensitive to noisy or...",
+      "id": "560cd9dff70e",
+      "title_zh": "Meta Open-Sources Astryx: An Agent-Ready React Design System With 150+ Accessible Components, Seven Themes, and a CLI",
+      "summary_zh": "Meta has open-sourced Astryx, the React and StyleX design system it ran internally for eight years across 13,000+ apps. It ships 150+ accessible components, seven themes, dark mode, templates, and an agent-ready CLI under MIT — with React 19+...",
       "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.16431v1 Announce Type: new \nAbstract: Small-scale language models (SLMs) are attractive f",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6f8f453d333d",
-      "title_zh": "Committed Before Reasoning: Behavioral Reproduction and Preliminary Activation-Level Evidence of Answer Pre-Commitment in an Open-Weight LLM",
-      "summary_zh": "arXiv:2607.16451v1 Announce Type: new \nAbstract: Chat models sometimes commit to an answer and then produce reasoning that justifies it rather than deriving it -- even when the answer contradicts a task premise. We study a minimal probe: \"I want...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.16451v1 Announce Type: new \nAbstract: Chat models sometimes commit to an answer and then ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "df9d1a7495e8",
-      "title_zh": "Encoding EEG Signals to Examine Human-Like Next-Word Prediction Behaviour in Language Models",
-      "summary_zh": "arXiv:2607.16549v1 Announce Type: new \nAbstract: Language models (LMs) are trained to excel at predicting the next word in the sequence given prior context, and humans also share this predictability in reading comprehension. Neuroscience research...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.16549v1 Announce Type: new \nAbstract: Language models (LMs) are trained to excel at predi",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "40a5d152c017",
-      "title_zh": "NOWJ@COLIEE 2026: Adaptive Pipelines for Legal Retrieval and Reasoning",
-      "summary_zh": "arXiv:2607.16603v1 Announce Type: new \nAbstract: This paper presents the methodologies and results of the NOWJ team's participation across all five tasks of the COLIEE 2026 competition. For Task 1 (Legal Case Retrieval), we propose a four-stage...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.16603v1 Announce Type: new \nAbstract: This paper presents the methodologies and results o",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bbec69f50de0",
-      "title_zh": "From Memory to Skills: Evidence-Grounded Co-Evolution Governance for Long-Horizon LLM Agents",
-      "summary_zh": "arXiv:2607.16621v1 Announce Type: new \nAbstract: Existing memory systems for long-horizon LLM agents often retrieve prior traces as passive context rather than converting them into executable capabilities. In this paper, we propose MSCE, a...",
-      "tags_zh": [
-        "LLM",
+        "Meta",
         "Agent"
       ],
-      "oneliner": "arXiv:2607.16621v1 Announce Type: new \nAbstract: Existing memory systems for long-horizon LLM agents",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e8cf912fd4da",
-      "title_zh": "OpenLanguageModel: Readable and Composable Small-Language-Model Pretraining for Education and Research",
-      "summary_zh": "arXiv:2607.16669v1 Announce Type: new \nAbstract: OpenLanguageModel (OLM) is an open-source PyTorch library for building and pretraining small language models while keeping their machinery visible. In OLM, model code reads like the architecture:...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.16669v1 Announce Type: new \nAbstract: OpenLanguageModel (OLM) is an open-source PyTorch l",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bddcecd3cedf",
-      "title_zh": "SpecLA: Efficient Speculative Decoding for Linear-Attention Models",
-      "summary_zh": "arXiv:2607.16673v1 Announce Type: new \nAbstract: Linear-attention models replace the growing KV cache with recurrent states, but autoregressive decoding still reads, updates, and writes these states one token at a time. Speculative decoding can...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.16673v1 Announce Type: new \nAbstract: Linear-attention models replace the growing KV cach",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4b3cc9398782",
-      "title_zh": "Are Arithmetic Heuristic Neurons Form-Invariant? A Mechanistic Analysis of Symbols, Text, and Code in LLMs",
-      "summary_zh": "arXiv:2607.16693v1 Announce Type: new \nAbstract: Large language models often succeed on one formulation of a problem while failing on an equivalent formulation. Whether these failures arise from distinct internal circuits or different activation...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.16693v1 Announce Type: new \nAbstract: Large language models often succeed on one formulat",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f436393e0b53",
-      "title_zh": "Though Language Models Err While They Strive: Conformal Prediction for Self-Correcting Scientific Generation",
-      "summary_zh": "arXiv:2607.16704v1 Announce Type: new \nAbstract: Large language models frequently violate fundamental scientific principles when generating technical content, undermining their reliability in scientific applications. We introduce Scientific...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.16704v1 Announce Type: new \nAbstract: Large language models frequently violate fundamenta",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c1727e8d62eb",
-      "title_zh": "JOR-Bench: Japanese Operations Research Benchmarks for Large Language Models",
-      "summary_zh": "arXiv:2607.16777v1 Announce Type: new \nAbstract: We present JOR-Bench, a collection of five Japanese-language benchmarks for evaluating the ability of large language models (LLMs) to formulate and solve operations research (OR) problems. Each...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2607.16777v1 Announce Type: new \nAbstract: We present JOR-Bench, a collection of five Japanese",
+      "oneliner": "Meta has open-sourced Astryx, the React and StyleX design system it ran internally for eight years a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
