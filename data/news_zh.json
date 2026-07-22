@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T02:49:11Z",
+  "updated": "2026-07-22T10:32:48Z",
   "total": 20,
   "items": [
     {
@@ -115,13 +115,14 @@
       }
     },
     {
-      "id": "5b878e0f0f7e",
-      "title_zh": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
-      "summary_zh": "Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B active parameters per token and a 1M-token context. It matches or beats models several times its size on agentic coding benchmarks, ships under...",
+      "id": "69d0c928de35",
+      "title_zh": "Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU",
+      "summary_zh": "Four open source projects dominate LLM fine-tuning today. Unsloth, Axolotl, TRL, and LLaMA-Factory all wrap the same underlying PyTorch and Hugging Face stack. They diverge on where they spend engineering effort. Unsloth rewrites kernels. Axolotl...",
       "tags_zh": [
-        "Agent"
+        "Llama",
+        "GPU"
       ],
-      "oneliner": "Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B activ",
+      "oneliner": "Four open source projects dominate LLM fine-tuning today. Unsloth, Axolotl, TRL, and LLaMA-Factory a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -129,11 +130,11 @@
       }
     },
     {
-      "id": "4be8433189bb",
-      "title_zh": "The State of Simulation for Physical AI: An Overview",
-      "summary_zh": "",
+      "id": "b7121dd28617",
+      "title_zh": "Cisco Foundation AI Releases Antares: 350M and 1B Open-Weight Models That Localize Known Vulnerabilities Inside Real Codebases",
+      "summary_zh": "Cisco Foundation AI has released Antares, a family of small language models trained to pinpoint where known vulnerabilities live inside a codebase. Antares-1B reaches 0.209 File F1 on the new Vulnerability Localization Benchmark, above GLM-5.2 at...",
       "tags_zh": [],
-      "oneliner": "",
+      "oneliner": "Cisco Foundation AI has released Antares, a family of small language models trained to pinpoint wher",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -141,15 +142,61 @@
       }
     },
     {
-      "id": "71f66b17dd4b",
-      "title_zh": "Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads",
-      "summary_zh": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs...",
+      "id": "9ad75b63f142",
+      "title_zh": "Decoding EEG Signals to Explore Next-Word Predictability in the Human Brain",
+      "summary_zh": "arXiv:2607.18321v1 Announce Type: new \nAbstract: Humans invented reading and have passed down this complex skill across generations through language. This study provides empirical evidence of the neural mechanisms underlying bottom-up (related to...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.18321v1 Announce Type: new \nAbstract: Humans invented reading and have passed down this c",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "21a65dddd978",
+      "title_zh": "A Classifier That Teaches Itself: Self-Improving, Frozen-gate Training (SIFT) for Dynamic Document Classification",
+      "summary_zh": "arXiv:2607.18358v1 Announce Type: new \nAbstract: Document classification is a solved problem in the laboratory and an unsolved one in the enterprise. The blocker is rarely model architecture; it is the labeling project that must precede a model...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.18358v1 Announce Type: new \nAbstract: Document classification is a solved problem in the ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "4959caa5d7cf",
+      "title_zh": "Convolution for Large Language Models",
+      "summary_zh": "arXiv:2607.18413v1 Announce Type: new \nAbstract: Large language models (LLMs) largely rely on Transformers, where self-attention provides global token interaction but does not explicitly encode the locality of natural language. We study whether...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.18413v1 Announce Type: new \nAbstract: Large language models (LLMs) largely rely on Transf",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "405b99e5ccfc",
+      "title_zh": "Building a European Multilingual Evaluation Dataset: The MMLU Localisation Project within the EMT Network",
+      "summary_zh": "arXiv:2607.18432v1 Announce Type: new \nAbstract: This paper reports on a collaboration between the Directorate-General for Translation (DGT) and the European Master's in Translation (EMT) to localise the MMLU dataset into 11 European languages....",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.18432v1 Announce Type: new \nAbstract: This paper reports on a collaboration between the D",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "661b884c6159",
+      "title_zh": "Relay-Bench: Evaluating LLMs on Multi-Domain Reasoning Chains",
+      "summary_zh": "arXiv:2607.18438v1 Announce Type: new \nAbstract: Introducing Relay-Bench, an unsaturated, holistic, text-only benchmark that measures LLMs' ability to complete an assortment of tasks from distinct domains in a single prompt. The leading model,...",
       "tags_zh": [
-        "Gemini",
-        "Google",
-        "Agent"
+        "LLM"
       ],
-      "oneliner": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash ti",
+      "oneliner": "arXiv:2607.18438v1 Announce Type: new \nAbstract: Introducing Relay-Bench, an unsaturated, holistic, ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -157,13 +204,13 @@
       }
     },
     {
-      "id": "9783627bd88c",
-      "title_zh": "Introducing the ChatGPT for small business program",
-      "summary_zh": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "id": "e91717c5a750",
+      "title_zh": "Computational models of pragmatic reasoning with flexible generation of meaning and expression alternatives",
+      "summary_zh": "arXiv:2607.18443v1 Announce Type: new \nAbstract: Pragmatic language use requires reasoning about alternatives: the alternative expressions a speaker might have chosen, or the alternative interpretations a listener might entertain. Formal and...",
       "tags_zh": [
-        "GPT"
+        "RAG"
       ],
-      "oneliner": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, aut",
+      "oneliner": "arXiv:2607.18443v1 Announce Type: new \nAbstract: Pragmatic language use requires reasoning about alt",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -171,14 +218,28 @@
       }
     },
     {
-      "id": "9d5aed747833",
-      "title_zh": "Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis",
-      "summary_zh": "In this tutorial, we explore NVIDIA’s srt-slurm framework and learn how we use srtctl to convert declarative YAML configurations into reproducible SLURM benchmark workflows for distributed LLM serving. We set up the project in Google Colab,...",
+      "id": "763545475177",
+      "title_zh": "Using Fine-Tuned LLMs to Identify Indicators of Vulnerability in UK Police Incident Logs",
+      "summary_zh": "arXiv:2607.18446v1 Announce Type: new \nAbstract: Purpose: Understanding how much of routine policing involves vulnerable people could inform resourcing, training, and multi-agency response, yet administrative data provide limited insight. We...",
       "tags_zh": [
         "LLM",
+        "Fine-tune"
+      ],
+      "oneliner": "arXiv:2607.18446v1 Announce Type: new \nAbstract: Purpose: Understanding how much of routine policing",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "521bf60c9af8",
+      "title_zh": "PathReportEval: A Systematic Benchmark for Pathology Report Generation",
+      "summary_zh": "arXiv:2607.18448v1 Announce Type: new \nAbstract: Pathology report generation from whole-slide images (WSIs) is a rapidly growing multimodal learning problem, yet progress is difficult to measure because existing studies use heterogeneous...",
+      "tags_zh": [
         "Benchmark"
       ],
-      "oneliner": "In this tutorial, we explore NVIDIA’s srt-slurm framework and learn how we use srtctl to convert dec",
+      "oneliner": "arXiv:2607.18448v1 Announce Type: new \nAbstract: Pathology report generation from whole-slide images",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -186,27 +247,11 @@
       }
     },
     {
-      "id": "629a5fdfb088",
-      "title_zh": "Google’s Gemini 3.6 Flash targets enterprise agent token costs",
-      "summary_zh": "Google has released Gemini 3.6 Flash and 3.5 Flash-Lite as new workhorses designed to cut latency and token costs for enterprise AI agents. The economics of running autonomous software agents inside a production environment come down to a fixed...",
-      "tags_zh": [
-        "Gemini",
-        "Google",
-        "Agent"
-      ],
-      "oneliner": "Google has released Gemini 3.6 Flash and 3.5 Flash-Lite as new workhorses designed to cut latency an",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1b986bb6aa41",
-      "title_zh": "The AI Slot Machine Effect: Why Generative Feeds Disrupt Deep Work And How to Reclaim Focus",
-      "summary_zh": "You open a generative AI tool expecting a quick boost. Ten minutes later, you&#8217;re still there, refining a prompt for the fourth time. The task you started with has drifted off to the side somewhere. Sound familiar? Knowledge workers in 2026...",
+      "id": "6a402b0dec2e",
+      "title_zh": "Structured Output Collapses Answer Diversity Across 44 Language Models",
+      "summary_zh": "arXiv:2607.18476v1 Announce Type: new \nAbstract: When a language model must choose one answer from a large space of equally valid options, a format clause -- \"Reply with JSON only\" -- changes which answer it chooses. We re-run the One-Word Census...",
       "tags_zh": [],
-      "oneliner": "You open a generative AI tool expecting a quick boost. Ten minutes later, you&#8217;re still there, ",
+      "oneliner": "arXiv:2607.18476v1 Announce Type: new \nAbstract: When a language model must choose one answer from a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -214,70 +259,11 @@
       }
     },
     {
-      "id": "10942d97d561",
-      "title_zh": "diegosouzapw /OmniRoute",
-      "summary_zh": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression...",
-      "tags_zh": [
-        "GPT",
-        "Claude",
-        "Gemini",
-        "DeepSeek"
-      ],
-      "oneliner": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claud",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4d8e922de101",
-      "title_zh": "rohitg00 /ai-engineering-from-scratch",
-      "summary_zh": "Learn it. Build it. Ship it for others.",
+      "id": "329bdde9aaef",
+      "title_zh": "Search-on-Graph-R1: Training Large Language Models to Search Knowledge Graphs with Reinforcement Learning",
+      "summary_zh": "arXiv:2607.18481v1 Announce Type: new \nAbstract: Knowledge graph question answering (KGQA) requires navigating from topic entities to an answer several relations away. Recent methods prompt a frontier LLM to explore the graph through a retrieval...",
       "tags_zh": [],
-      "oneliner": "Learn it. Build it. Ship it for others.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5dfe15d5980d",
-      "title_zh": "msitarzewski /agency-agents",
-      "summary_zh": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3cabe5488f9f",
-      "title_zh": "kvcache-ai /ktransformers",
-      "summary_zh": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-      "tags_zh": [
-        "LLM",
-        "Fine-tune",
-        "Transformer"
-      ],
-      "oneliner": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bfeff07f7d86",
-      "title_zh": "jamiepine /voicebox",
-      "summary_zh": "The open-source AI voice studio. Clone, dictate, create.",
-      "tags_zh": [],
-      "oneliner": "The open-source AI voice studio. Clone, dictate, create.",
+      "oneliner": "arXiv:2607.18481v1 Announce Type: new \nAbstract: Knowledge graph question answering (KGQA) requires ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
