@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T17:29:04Z",
-  "total": 267,
+  "updated": "2026-07-22T02:49:02Z",
+  "total": 270,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -16,11 +16,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 32
     },
     {
       "name": "Hugging Face",
-      "count": 17
+      "count": 18
     },
     {
       "name": "OpenAI",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 60
     },
     {
       "name": "LLM",
@@ -53,12 +53,8 @@
       "count": 16
     },
     {
-      "name": "GPT",
-      "count": 10
-    },
-    {
       "name": "Google",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Diffusion",
@@ -69,7 +65,15 @@
       "count": 9
     },
     {
+      "name": "GPT",
+      "count": 8
+    },
+    {
       "name": "Claude",
+      "count": 6
+    },
+    {
+      "name": "Gemini",
       "count": 6
     },
     {
@@ -81,7 +85,7 @@
       "count": 6
     },
     {
-      "name": "Gemini",
+      "name": "OpenAI",
       "count": 5
     },
     {
@@ -103,10 +107,6 @@
     {
       "name": "Meta",
       "count": 4
-    },
-    {
-      "name": "OpenAI",
-      "count": 3
     },
     {
       "name": "API",
@@ -144,11 +144,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 175
+      "count": 177
     },
     {
       "name": "开源项目",
-      "count": 50
+      "count": 51
     },
     {
       "name": "模型发布",
@@ -160,10 +160,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-16",
-      "count": 32
-    },
     {
       "date": "07-17",
       "count": 40
@@ -182,7 +178,11 @@
     },
     {
       "date": "07-21",
-      "count": 53
+      "count": 49
+    },
+    {
+      "date": "07-22",
+      "count": 9
     },
     {
       "date": "08-14",
@@ -239,16 +239,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9783627bd88c",
-      "title": "Introducing the ChatGPT for small business program",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "9d5aed747833",
-      "title": "Validating Distributed LLM Serving Benchmarks with NVIDIA srt-slurm, SLURM Recipes, Parameter Sweeps, and Pareto Analysis",
+      "id": "5b878e0f0f7e",
+      "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
       "score": 5,
       "source": "MarkTechPost"
+    },
+    {
+      "id": "4be8433189bb",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "score": 5,
+      "source": "Hugging Face"
     }
   ]
 }

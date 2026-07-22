@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-21T17:29:14Z",
+  "updated": "2026-07-22T02:49:11Z",
   "total": 227,
-  "new_count": 51,
+  "new_count": 43,
   "items": [
     {
       "id": "56d33226bf40",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "published": "2026-07-21T17:26:29Z",
+      "published": "2026-07-22T02:46:34Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "published": "2026-07-21T17:26:29Z",
+      "published": "2026-07-22T02:46:34Z",
       "tags": [
         "Agent",
         "开源"
@@ -62,7 +62,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "published": "2026-07-21T17:26:29Z",
+      "published": "2026-07-22T02:46:34Z",
       "tags": [
         "Benchmark"
       ],
@@ -89,7 +89,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
-      "published": "2026-07-21T17:26:29Z",
+      "published": "2026-07-22T02:46:34Z",
       "tags": [
         "Agent"
       ],
@@ -116,7 +116,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A collection of agent skills for CAD, robotics and hardware design",
-      "published": "2026-07-21T17:26:29Z",
+      "published": "2026-07-22T02:46:34Z",
       "tags": [
         "Agent"
       ],
@@ -143,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The most intelligent agent harness for code",
-      "published": "2026-07-21T17:26:29Z",
+      "published": "2026-07-22T02:46:34Z",
       "tags": [
         "Agent"
       ],
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "published": "2026-07-21T17:26:29Z",
+      "published": "2026-07-22T02:46:34Z",
       "tags": [
         "LLM",
         "Agent"
@@ -199,7 +199,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
-      "published": "2026-07-21T17:26:29Z",
+      "published": "2026-07-22T02:46:34Z",
       "tags": [
         "Claude"
       ],
@@ -218,6 +218,90 @@
         "Claude"
       ],
       "oneliner": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for persona"
+    },
+    {
+      "id": "5b878e0f0f7e",
+      "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
+      "url": "https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B active parameters per token and a 1M-token context. It matches or beats models several times its size on agentic coding benchmarks, ships under...",
+      "published": "2026-07-22T00:01:32Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
+      "summary_zh": "Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B active parameters per token and a 1M-token context. It matches or beats models several times its size on agentic coding benchmarks, ships under...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B activ"
+    },
+    {
+      "id": "4be8433189bb",
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-07-21T20:00:27Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "The State of Simulation for Physical AI: An Overview",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "71f66b17dd4b",
+      "title": "Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads",
+      "url": "https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs...",
+      "published": "2026-07-21T17:45:08Z",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "629a5fdfb088",
+          "3e17462c3f59"
+        ],
+        "score": 7
+      },
+      "title_zh": "Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads",
+      "summary_zh": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash ti"
     },
     {
       "id": "9783627bd88c",
@@ -298,9 +382,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "71f66b17dd4b",
           "3e17462c3f59"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "Google’s Gemini 3.6 Flash targets enterprise agent token costs",
       "summary_zh": "Google has released Gemini 3.6 Flash and 3.5 Flash-Lite as new workhorses designed to cut latency and token costs for enterprise AI agents. The economics of running autonomous software agents inside a production environment come down to a fixed...",
@@ -491,12 +576,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "topoteretes /cognee",
-      "summary_zh": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term me"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "bd4842a7b426",
@@ -519,10 +602,10 @@
         ],
         "score": 7
       },
-      "title_zh": "Bristol Myers Squibb buys Nvidia AI system for drug discovery",
-      "summary_zh": "Bristol Myers Squibb is purchasing an Nvidia DGX SuperPOD built on the chipmaker’s Vera Rubin architecture to support artificial intelligence use across its drug discovery and development operations. The pharmaceutical company said it will be the...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Bristol Myers Squibb is purchasing an Nvidia DGX SuperPOD built on the chipmaker’s Vera Rubin archit"
+      "oneliner": ""
     },
     {
       "id": "560cd9dff70e",
@@ -545,13 +628,10 @@
         "corroborating_ids": [],
         "score": 4
       },
-      "title_zh": "Meta Open-Sources Astryx: An Agent-Ready React Design System With 150+ Accessible Components, Seven Themes, and a CLI",
-      "summary_zh": "Meta has open-sourced Astryx, the React and StyleX design system it ran internally for eight years across 13,000+ apps. It ships 150+ accessible components, seven themes, dark mode, templates, and an agent-ready CLI under MIT — with React 19+...",
-      "tags_zh": [
-        "Meta",
-        "Agent"
-      ],
-      "oneliner": "Meta has open-sourced Astryx, the React and StyleX design system it ran internally for eight years a"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "5a1af7ba8f4e",
@@ -594,6 +674,34 @@
         "corroborating_ids": [
           "9d5aed747833",
           "bd4842a7b426"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "07a59789a1f9",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "published": "2026-07-21T07:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "10666aebf14a",
+          "d6a09501cf0a"
         ],
         "score": 7
       },
@@ -1353,6 +1461,30 @@
       "oneliner": ""
     },
     {
+      "id": "10666aebf14a",
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+      "published": "2026-07-21T00:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "07a59789a1f9",
+          "d6a09501cf0a"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "67da95f7c69f",
       "title": "Alibaba’s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages",
       "url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages/",
@@ -1415,9 +1547,12 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
+        "level": "multi-source",
+        "corroborating_ids": [
+          "07a59789a1f9",
+          "10666aebf14a"
+        ],
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -2690,10 +2825,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "71f66b17dd4b",
           "629a5fdfb088",
           "97aded860d3c"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5482,129 +5618,6 @@
       "summary": "arXiv:2607.12200v1 Announce Type: new \nAbstract: As frontier language models advance, policymakers and model developers need methods for assessing whether model access materially increases a non-expert actor's ability to plan high-consequence...",
       "published": "2026-07-15T04:00:00Z",
       "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4c932574880d",
-      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "url": "https://huggingface.co/blog/real-world-voiceeq",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-07-15T00:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "67a5bbc0f9e9",
-      "title": "Welcome Inkling by Thinking Machines",
-      "url": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-07-15T00:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d2ba4cb50530",
-      "title": "PrismML Releases Bonsai 27B: 1-bit and Ternary Builds of Qwen3.6-27B That Run on Laptops and Phones",
-      "url": "https://www.marktechpost.com/2026/07/14/prismml-releases-bonsai-27b-1-bit-and-ternary-builds-of-qwen3-6-27b-that-run-on-laptops-and-phones/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "PrismML just released Bonsai 27B. It is a low-bit representation of Qwen3.6-27B, not a new pretrain. The architecture is unchanged. Two variants ship under Apache 2.0. Ternary Bonsai 27B uses {−1, 0, +1} weights at a true 1.71 bits per weight....",
-      "published": "2026-07-14T22:51:34Z",
-      "tags": [
-        "Qwen"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "aa0f54c8de08",
-      "title": "Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task",
-      "url": "https://www.marktechpost.com/2026/07/14/mistral-vibe-for-code-vs-claude-code-vs-cursor-vs-codex-four-agents-scored-on-one-scaffold-to-pr-task/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "See how Vibe, Claude Code, Cursor, and Codex compare on cost, open weights, self-hosting, and async agent surfaces.\nThe post Mistral Vibe for Code vs Claude Code vs Cursor vs Codex: Four Agents Scored on One Scaffold-to-PR Task appeared first on...",
-      "published": "2026-07-14T20:52:41Z",
-      "tags": [
-        "Claude",
-        "Mistral",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9c1d499720bb",
-      "title": "OpenCoreDev Releases Domain SDK 0.2.0: One TypeScript API to Add, Verify, and Remove Customer Domains Across Five Platforms",
-      "url": "https://www.marktechpost.com/2026/07/14/opencoredev-releases-domain-sdk-0-2-0-one-typescript-api-to-add-verify-and-remove-customer-domains-across-five-platforms/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "OpenCoreDev has published Domain SDK 0.2.0, a TypeScript client for the custom domain lifecycle. It covers Vercel, Cloudflare for SaaS, Railway, Render, and Netlify behind one API. Status is modeled as an eight-value union, with separate...",
-      "published": "2026-07-14T20:16:51Z",
-      "tags": [
-        "API"
-      ],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
