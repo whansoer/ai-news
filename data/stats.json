@@ -1,79 +1,79 @@
 {
-  "updated": "2026-07-22T10:32:39Z",
-  "total": 299,
+  "updated": "2026-07-22T17:27:38Z",
+  "total": 264,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 33
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 30
     },
     {
       "name": "Hugging Face",
       "count": 18
     },
     {
-      "name": "OpenAI",
-      "count": 15
-    },
-    {
       "name": "Google AI",
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
+      "name": "OpenAI",
+      "count": 15
     },
     {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 9
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 58
     },
     {
       "name": "LLM",
-      "count": 46
+      "count": 42
     },
     {
       "name": "Benchmark",
-      "count": 18
+      "count": 16
     },
     {
       "name": "Google",
-      "count": 11
-    },
-    {
-      "name": "RAG",
       "count": 10
     },
     {
-      "name": "Diffusion",
-      "count": 9
-    },
-    {
-      "name": "GPT",
+      "name": "RAG",
       "count": 8
     },
     {
-      "name": "GPU",
+      "name": "Diffusion",
+      "count": 8
+    },
+    {
+      "name": "OpenAI",
+      "count": 7
+    },
+    {
+      "name": "GPT",
       "count": 6
     },
     {
-      "name": "Gemini",
+      "name": "Claude",
       "count": 6
     },
     {
@@ -81,11 +81,11 @@
       "count": 6
     },
     {
-      "name": "Prompt",
-      "count": 6
+      "name": "Gemini",
+      "count": 5
     },
     {
-      "name": "Claude",
+      "name": "GPU",
       "count": 5
     },
     {
@@ -97,7 +97,7 @@
       "count": 5
     },
     {
-      "name": "OpenAI",
+      "name": "Prompt",
       "count": 5
     },
     {
@@ -107,10 +107,6 @@
     {
       "name": "Qwen",
       "count": 4
-    },
-    {
-      "name": "Llama",
-      "count": 2
     },
     {
       "name": "RLHF",
@@ -129,26 +125,26 @@
       "count": 1
     },
     {
+      "name": "Llama",
+      "count": 1
+    },
+    {
       "name": "Anthropic",
       "count": 1
     },
     {
       "name": "Mistral",
       "count": 1
-    },
-    {
-      "name": "Microsoft",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 206
+      "count": 175
     },
     {
       "name": "开源项目",
-      "count": 51
+      "count": 50
     },
     {
       "name": "模型发布",
@@ -156,7 +152,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 9
     }
   ],
   "dailyTrend": [
@@ -178,11 +174,11 @@
     },
     {
       "date": "07-21",
-      "count": 49
+      "count": 47
     },
     {
       "date": "07-22",
-      "count": 41
+      "count": 48
     },
     {
       "date": "08-14",
@@ -197,6 +193,48 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "ee7d6f2f5cec",
+      "title": "ayghri /i-have-adhd",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "bfeff07f7d86",
+      "title": "jamiepine /voicebox",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "10942d97d561",
+      "title": "diegosouzapw /OmniRoute",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7e39ec2390d0",
+      "title": "ComposioHQ /awesome-claude-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "bf18d69a0505",
+      "title": "3 Google updates from Galaxy Unpacked 2026",
+      "score": 5,
+      "source": "Google AI"
+    },
+    {
+      "id": "4eb3751221ad",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "1de8660326e5",
+      "title": "Advancing the next era of national science",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
       "id": "b07d60e58753",
       "title": "bojieli /ai-agent-book",
       "score": 5,
@@ -207,48 +245,6 @@
       "title": "tirth8205 /code-review-graph",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "ee7d6f2f5cec",
-      "title": "ayghri /i-have-adhd",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7a4b3790492a",
-      "title": "earthtojake /text-to-cad",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7d0e9c89c3e6",
-      "title": "1jehuang /jcode",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "6a29aa0fa11a",
-      "title": "AstrBotDevs /AstrBot",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "d84de85bb3f0",
-      "title": "tradesdontlie /tradingview-mcp",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "69d0c928de35",
-      "title": "Unsloth vs Axolotl vs TRL vs LLaMA-Factory: A Fine-Tuning Framework Comparison on Speed, VRAM, and Multi-GPU",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "b7121dd28617",
-      "title": "Cisco Foundation AI Releases Antares: 350M and 1B Open-Weight Models That Localize Known Vulnerabilities Inside Real Codebases",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
