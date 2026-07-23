@@ -1,8 +1,557 @@
 {
   "date": "2026-07-16",
-  "updated": "2026-07-23T02:55:13Z",
-  "total": 2,
+  "updated": "2026-07-23T10:31:32Z",
+  "total": 24,
   "items": [
+    {
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Skills for Real Engineers. Straight from my .claude directory.",
+      "published": "2026-07-16T10:15:52Z",
+      "tags": [
+        "Claude"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ebe69a8411ca",
+      "title": "moeru-ai /airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows...",
+      "published": "2026-07-16T10:15:52Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8c171384c4cd",
+      "title": "Dicklesworthstone /destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "published": "2026-07-16T10:15:52Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3888eecb3f45",
+      "title": "HKUDS /Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "published": "2026-07-16T10:15:52Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6b9408db8290",
+      "title": "Neko Health raises $700 million to expand AI body scans in the US",
+      "url": "https://www.artificialintelligence-news.com/news/neko-health-700m-ai-body-scans-us/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Neko Health has raised $700 million to expand its AI body scans in the United States, starting with a clinic in New York. The company’s preventive screening service combines medical imaging, blood tests, proprietary sensors, and clinician review....",
+      "published": "2026-07-16T09:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b9efb73af2f0",
+      "title": "Patter SDK Guide to Building a Restaurant Booking Phone Agent with Dynamic Variables, Guardrails, Latency Dashboards, and Eval Checks",
+      "url": "https://www.marktechpost.com/2026/07/16/patter-sdk-guide-to-building-a-restaurant-booking-phone-agent-with-dynamic-variables-guardrails-latency-dashboards-and-eval-checks/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We explore the Patter SDK by building a voice-agent workflow for a restaurant booking use case. We define dynamic caller variables, register callable tools for availability, bookings, hours, and human transfer, and layer output guardrails over...",
+      "published": "2026-07-16T07:42:49Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0f53347eed15",
+      "title": "SpaceXAI Open-Sources Grok Build: The Rust Agent Harness, TUI, and Tool Layer Behind Its Coding CLI",
+      "url": "https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "SpaceXAI published the Grok Build source on July 15, 2026. The Apache 2.0 Rust tree covers the agent loop, tool dispatch, the TUI, and the extension system. Grok 4.5 stays closed, and external contributions are not accepted.\nThe post SpaceXAI...",
+      "published": "2026-07-16T06:35:54Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0b48250a9035",
+      "title": "FixItFlow: Automated Troubleshooting Guide Generation from Cloud Incidents",
+      "url": "https://arxiv.org/abs/2607.13035",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13035v1 Announce Type: new \nAbstract: Cloud services experience frequent incidents that require rapid diagnosis and resolution. Troubleshooting guides help engineers respond consistently, but creating them manually is labor-intensive,...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9ffbfcb43768",
+      "title": "Ask Before You Diagnose: Safe-Psych, a Sequential Evaluation Benchmark for LLMs in Psychiatry",
+      "url": "https://arxiv.org/abs/2607.13036",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13036v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used for decision support in healthcare, but clinical evidence is often incomplete or evolving. When the available information is insufficient to...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "914dc124f620",
+      "title": "The Perplexity Trap: When Patent Law Makes Human Writing Look Like AI",
+      "url": "https://arxiv.org/abs/2607.13044",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13044v1 Announce Type: new \nAbstract: The European Patent Office (EPO) reported record filings in 2025, and the 2026 EPO Guidelines hold applicants strictly responsible for LLM-assisted content under Article 83 and Rule 42, creating...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3b74a77eeddb",
+      "title": "Do LLMs Need Architectural Changes for Simultaneous Speech Translation? A Prefix-to-Prefix Data Driven Approach",
+      "url": "https://arxiv.org/abs/2607.13158",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13158v1 Announce Type: new \nAbstract: Simultaneous speech translation (SimulST) requires incremental translation under strict latency constraints, yet remains challenging for decoder-only LLM systems due to limited context and...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3e2de644f11f",
+      "title": "What Models Express, Suppress, and Resist: Auditing Open-Weight LLMs with Persona Vectors",
+      "url": "https://arxiv.org/abs/2607.13162",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13162v1 Announce Type: new \nAbstract: What a language model will and will not do is largely set during post-training, but which behaviors it expresses, hides, or resists is not revealed by prompting alone. Persona vectors, behavioral...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7eac8ced18aa",
+      "title": "Text2Sign: A Single-GPU Diffusion Baseline for Text-to-Sign Language Video Generation",
+      "url": "https://arxiv.org/abs/2607.13164",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13164v1 Announce Type: new \nAbstract: Sign language is a primary communication channel for millions of Deaf and hard-of-hearing people, yet text-to-signer video generation remains costly because video diffusion models are expensive to...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "Diffusion",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "cf7b94dac8f8",
+      "title": "RAGthoven at SemEval-2026 Task 1: A Multi-Stage Pipeline Walks Into a Benchmark and Barely Clears the Bar",
+      "url": "https://arxiv.org/abs/2607.13189",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13189v1 Announce Type: new \nAbstract: We present RAGthoven, our system for SemEval-2026 Task 1 (MWAHAHA), Subtask A (multilingual constrained humor generation in English, Spanish, and Chinese). RAGthoven decomposes creative text...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "RAG",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7a0e60fa1388",
+      "title": "Adaptive Filtering of the KV Cache: Diagnosing and Correcting Structural-Role Bias in LLM Inference",
+      "url": "https://arxiv.org/abs/2607.13205",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13205v1 Announce Type: new \nAbstract: Attention-based KV cache eviction (H2O and its descendants) compresses the memory-constrained state of a long-context model by ranking tokens on accumulated attention mass, treated here as signal...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6096108c19db",
+      "title": "GSM-Plus-BN: A Perturbation-Based Benchmark for Bangla Mathematical Reasoning in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.13248",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13248v1 Announce Type: new \nAbstract: The evaluation of mathematical reasoning in large language models (LLMs) has predominantly focused on high-resource languages like English. This has created a significant barrier to the equitable...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6d10917a00a3"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "1362f5461d93",
+      "title": "Discourse-Aware Policy Analysis with Argumentation: A Hybrid LLM-Symbolic Framework for Disaster Governance",
+      "url": "https://arxiv.org/abs/2607.13260",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13260v1 Announce Type: new \nAbstract: Policy documents shape governance outcomes, but their reasoning is often implicit. Participatory commitments and managerial control routinely coexist in the same text, and the tensions between them...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "cd913cb374df",
+      "title": "Finding the Right Tables and Columns: A Benchmark and Corpus-Adaptive Embeddings for SQL Schema Retrieval",
+      "url": "https://arxiv.org/abs/2607.13311",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13311v1 Announce Type: new \nAbstract: Retrieval in the SQL setting has largely been studied as the task of finding, within a large collection of SQL statements, the statement that answers a natural-language question. At scale, however,...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "Embedding",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "448a61e49a7a",
+      "title": "Meta-Learning Preferences for Multilingual LLM Alignment",
+      "url": "https://arxiv.org/abs/2607.13315",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13315v1 Announce Type: new \nAbstract: Unequal availability of human preference data across languages poses a significant challenge for aligning large language models in multilingual settings. To address the lack of sufficient data in...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "Meta",
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "abb94117d8c7",
+      "title": "Evaluation Ability Does Not Imply Optimization Utility: LLM-as-a-Judge Signals in Closed-Loop Table Recognition",
+      "url": "https://arxiv.org/abs/2607.13347",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13347v1 Announce Type: new \nAbstract: LLM-as-a-judge is widely used to provide feedback and selection signals in closedloop regeneration, but this use remains insufficiently validated. We study it in table recognition, where...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "683b043a3e5c",
+      "title": "A POS Tier Is the Key to Automated Annotation for Low-Resource Language Documentation: Neural Interlinear Glossing for Irabu, a Southern Ryukyuan Language",
+      "url": "https://arxiv.org/abs/2607.13372",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13372v1 Announce Type: new \nAbstract: Discourse data are the primary empirical basis of grammar writing in field linguistics, but producing interlinearized text is notoriously expensive - on the order of one hour of work per minute of...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6d10917a00a3",
+      "title": "GFlowRL: Scaling Distribution-Matching RL to Large Language Models",
+      "url": "https://arxiv.org/abs/2607.13394",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2607.13394v1 Announce Type: new \nAbstract: Generative Flow Networks (GFlowNets) offer a promising alternative to reward-maximizing reinforcement learning (RL) for large reasoning models, encouraging diverse reasoning paths by matching...",
+      "published": "2026-07-16T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "5c44c9bfe889",
+          "4959caa5d7cf",
+          "6096108c19db"
+        ],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "07a9214c693b",
       "title": "Security incident disclosure — July 2026",
