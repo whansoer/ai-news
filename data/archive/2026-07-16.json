@@ -1,8 +1,61 @@
 {
   "date": "2026-07-16",
-  "updated": "2026-07-23T17:38:31Z",
-  "total": 30,
+  "updated": "2026-07-24T02:49:55Z",
+  "total": 33,
   "items": [
+    {
+      "id": "7f5986339fc5",
+      "title": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With Kimi Delta Attention and 1M Context",
+      "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Moonshot AI released Kimi K3 on July 16, 2026. It is a 2.8-trillion-parameter open MoE model built on Kimi Delta Attention and Attention Residuals, activating 16 of 896 experts. \nThe post Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter...",
+      "published": "2026-07-16T23:47:05Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "20b1a8c438c4",
+      "title": "OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection",
+      "url": "https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "OpenAI trained GPT-Red, an internal-only attacker model, using self-play reinforcement learning against a population of defender LLMs. It beat human red-teamers 84% to 13% on a replicated indirect prompt injection arena, found a novel \"Fake...",
+      "published": "2026-07-16T18:48:04Z",
+      "tags": [
+        "GPT",
+        "OpenAI",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "41170cb100da",
+          "b57416a816cc"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "52bb467a6a0c",
       "title": "Examining Google DeepMind’s AI bioresilience push",
@@ -294,6 +347,30 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "41170cb100da",
+      "title": "How Codex became a collaborator for OpenAI’s creative team",
+      "url": "https://openai.com/index/codex-collaborator-creative-team",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+      "published": "2026-07-16T07:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "20b1a8c438c4",
+          "b57416a816cc"
+        ],
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",

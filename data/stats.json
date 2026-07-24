@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-23T17:38:21Z",
-  "total": 265,
+  "updated": "2026-07-24T02:49:46Z",
+  "total": 281,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,19 +8,19 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
+    },
+    {
+      "name": "MarkTechPost",
+      "count": 32
     },
     {
       "name": "GitHub Trending",
       "count": 30
     },
     {
-      "name": "MarkTechPost",
-      "count": 30
-    },
-    {
       "name": "Hugging Face",
-      "count": 18
+      "count": 17
     },
     {
       "name": "OpenAI",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 60
     },
     {
       "name": "LLM",
-      "count": 38
+      "count": 41
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Google",
@@ -62,11 +62,11 @@
     },
     {
       "name": "RAG",
-      "count": 8
+      "count": 9
     },
     {
       "name": "OpenAI",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Claude",
@@ -77,11 +77,11 @@
       "count": 6
     },
     {
-      "name": "GPT",
+      "name": "Gemini",
       "count": 5
     },
     {
-      "name": "Gemini",
+      "name": "GPU",
       "count": 5
     },
     {
@@ -93,7 +93,7 @@
       "count": 5
     },
     {
-      "name": "GPU",
+      "name": "GPT",
       "count": 4
     },
     {
@@ -140,11 +140,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 175
+      "count": 192
     },
     {
       "name": "开源项目",
-      "count": 48
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -156,10 +156,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-18",
-      "count": 7
-    },
     {
       "date": "07-19",
       "count": 9
@@ -178,7 +174,11 @@
     },
     {
       "date": "07-23",
-      "count": 45
+      "count": 56
+    },
+    {
+      "date": "07-24",
+      "count": 6
     },
     {
       "date": "08-14",
@@ -223,6 +223,18 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "42329be8bfd9",
+      "title": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "4e6fd6cc2dd6",
+      "title": "You Didn’t Get the AI Model You Paid For",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "862d19e6feb7",
       "title": "Nvidia bets physical AI can solve healthcare robotics’ data problem",
       "score": 5,
@@ -233,18 +245,6 @@
       "title": "ayghri /i-have-adhd",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "bfeff07f7d86",
-      "title": "jamiepine /voicebox",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "25c0421c684d",
-      "title": "AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-      "score": 5,
-      "source": "AI News"
     }
   ]
 }

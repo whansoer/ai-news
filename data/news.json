@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-23T17:38:31Z",
-  "total": 222,
-  "new_count": 45,
+  "updated": "2026-07-24T02:49:55Z",
+  "total": 237,
+  "new_count": 59,
   "items": [
     {
       "id": "56d33226bf40",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "published": "2026-07-23T17:35:54Z",
+      "published": "2026-07-24T02:47:22Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The best browser for both you and your AI agents work in parallel.",
-      "published": "2026-07-23T17:35:54Z",
+      "published": "2026-07-24T02:47:22Z",
       "tags": [
         "Agent"
       ],
@@ -59,8 +59,8 @@
       "url": "https://github.com/diegosouzapw/OmniRoute",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback,...",
-      "published": "2026-07-23T17:35:54Z",
+      "summary": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback,...",
+      "published": "2026-07-24T02:47:22Z",
       "tags": [
         "GPT",
         "Claude",
@@ -78,7 +78,7 @@
         "score": 10
       },
       "title_zh": "diegosouzapw /OmniRoute",
-      "summary_zh": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback,...",
+      "summary_zh": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback,...",
       "tags_zh": [
         "GPT",
         "Claude",
@@ -86,7 +86,7 @@
         "DeepSeek",
         "OpenAI"
       ],
-      "oneliner": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi,"
+      "oneliner": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi,"
     },
     {
       "id": "7e39ec2390d0",
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "published": "2026-07-23T17:35:54Z",
+      "published": "2026-07-24T02:47:22Z",
       "tags": [
         "Claude"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A collection of agent skills for CAD, robotics and hardware design",
-      "published": "2026-07-23T17:35:54Z",
+      "published": "2026-07-24T02:47:22Z",
       "tags": [
         "Agent"
       ],
@@ -149,7 +149,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Web UI for the pi coding agent",
-      "published": "2026-07-23T17:35:54Z",
+      "published": "2026-07-24T02:47:22Z",
       "tags": [
         "Agent"
       ],
@@ -170,6 +170,52 @@
       "oneliner": "Web UI for the pi coding agent"
     },
     {
+      "id": "42329be8bfd9",
+      "title": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
+      "url": "https://www.marktechpost.com/2026/07/23/andrew-ng-just-released-openworker-an-open-source-local-first-desktop-ai-coworker-that-returns-finished-deliverables-instead-of-chat/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Andrew Ng has released OpenWorker, an MIT-licensed desktop AI agent that returns finished deliverables instead of chat replies. It runs a local Python agent server under a Tauri shell, supports 30 curated tool-calling models plus fully local...",
+      "published": "2026-07-23T19:31:59Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
+      "summary_zh": "Andrew Ng has released OpenWorker, an MIT-licensed desktop AI agent that returns finished deliverables instead of chat replies. It runs a local Python agent server under a Tauri shell, supports 30 curated tool-calling models plus fully local...",
+      "tags_zh": [],
+      "oneliner": "Andrew Ng has released OpenWorker, an MIT-licensed desktop AI agent that returns finished deliverabl"
+    },
+    {
+      "id": "4e6fd6cc2dd6",
+      "title": "You Didn’t Get the AI Model You Paid For",
+      "url": "https://www.marktechpost.com/2026/07/23/you-didnt-get-the-ai-model-you-paid-for/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "The line in the response object You call the API. You pass model: &#8220;claude-fable-5&#8221;. You get back a completion, a token count, and a field that reads &#8220;model&#8221;: &#8220;claude-opus-4-8&#8221;. Nothing errored. Nothing retried....",
+      "published": "2026-07-23T18:07:55Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "You Didn’t Get the AI Model You Paid For",
+      "summary_zh": "The line in the response object You call the API. You pass model: &#8220;claude-fable-5&#8221;. You get back a completion, a token count, and a field that reads &#8220;model&#8221;: &#8220;claude-opus-4-8&#8221;. Nothing errored. Nothing retried....",
+      "tags_zh": [],
+      "oneliner": "The line in the response object You call the API. You pass model: &#8220;claude-fable-5&#8221;. You "
+    },
+    {
       "id": "862d19e6feb7",
       "title": "Nvidia bets physical AI can solve healthcare robotics’ data problem",
       "url": "https://www.artificialintelligence-news.com/news/nvidia-bets-physical-ai-solve-healthcare-robotics-data-problem/",
@@ -183,9 +229,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b149732a58dd"
+        ],
+        "score": 5
       },
       "title_zh": "Nvidia bets physical AI can solve healthcare robotics’ data problem",
       "summary_zh": "Nvidia&#8217;s new Medical Physics Simulation framework treats healthcare robots as physical AI systems that need embodied experience to learn, not just code. Physical AI is the term Nvidia and much of the robotics industry now use to describe...",
@@ -443,10 +491,13 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "6a4912dcfef3",
+          "c86739810563",
+          "69eabf6e6a21",
           "35f08210568b",
           "0cfe16d7bbd7"
         ],
-        "score": 7
+        "score": 10
       },
       "title_zh": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
       "summary_zh": "arXiv:2607.19604v1 Announce Type: new \nAbstract: Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection....",
@@ -497,13 +548,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Adaptive Capitulation: A Structural Failure Mode of LLM Responses in Vulnerability Contexts",
-      "summary_zh": "arXiv:2607.19629v1 Announce Type: new \nAbstract: Large language models operating in emotionally sensitive contexts face a structural trilemma: when users in vulnerable states request information that may reinforce maladaptive attribution, current...",
-      "tags_zh": [
-        "LLM",
-        "API"
-      ],
-      "oneliner": "arXiv:2607.19629v1 Announce Type: new \nAbstract: Large language models operating in emotionally sens"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "944d940ed911",
@@ -523,10 +571,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Reference-Free Evaluation of Reasoning in Open-Ended Question Answering",
-      "summary_zh": "arXiv:2607.19678v1 Announce Type: new \nAbstract: AI-generated answers in high-stakes domains are often fluent but difficult to verify, especially when they contain multi-step reasoning rather than a single final answer. We propose a...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.19678v1 Announce Type: new \nAbstract: AI-generated answers in high-stakes domains are oft"
+      "oneliner": ""
     },
     {
       "id": "95c0c8efcccf",
@@ -1025,9 +1073,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
+        "level": "multi-source",
+        "corroborating_ids": [
+          "122e2918ebff"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1078,6 +1128,344 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c247d0c70a3c",
+      "title": "FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads",
+      "url": "https://arxiv.org/abs/2607.19349",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19349v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed as always-on online services, making efficient LLM serving a critical systems challenge. Achieving low latency and high throughput under...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fd934223c54b",
+      "title": "Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience",
+      "url": "https://arxiv.org/abs/2607.19350",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19350v1 Announce Type: new \nAbstract: Financial institutions face significant challenges in detecting sophisticated money laundering patterns, such as smurfing and layering, due to extreme data imbalance (0.13% fraud rate) and evolving...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7811faba0ef0",
+      "title": "OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks",
+      "url": "https://arxiv.org/abs/2607.19351",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19351v1 Announce Type: new \nAbstract: LLM-based multi-agent systems (LLM-MAS) are increasingly deployed in safety-critical applications, where adversaries inject malicious instructions through inter-agent communication to propagate...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b149732a58dd",
+      "title": "Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX",
+      "url": "https://arxiv.org/abs/2607.19353",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19353v1 Announce Type: new \nAbstract: Confidential computing is becoming a practical deployment requirement for AI inference workloads that process sensitive inputs or protect proprietary model assets. However, the performance cost of...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [
+        "GPU",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "862d19e6feb7"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "122e2918ebff",
+      "title": "FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation",
+      "url": "https://arxiv.org/abs/2607.19354",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19354v1 Announce Type: new \nAbstract: Spreadsheet applications are used by hundreds of millions worldwide, yet writing formulas remains a significant barrier. Existing approaches rely on static supervised data, which quickly saturates...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "d37763684048"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6a4912dcfef3",
+      "title": "Information Discernment in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.19355",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19355v1 Announce Type: new \nAbstract: LLMs are increasingly used with external knowledge sources like the internet. Do they weigh information appropriately -- updating more for reliable sources (source discernment) and more when claims...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "5c44c9bfe889",
+          "c86739810563",
+          "69eabf6e6a21",
+          "4959caa5d7cf",
+          "0cfe16d7bbd7"
+        ],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "120799ce63ef",
+      "title": "NEXUS: Structured Runtime Safety for Tool-Using LLM Agents",
+      "url": "https://arxiv.org/abs/2607.19356",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19356v1 Announce Type: new \nAbstract: Tool-using LLM agents increasingly execute high-impact actions, making runtime safety monitoring essential. We present NEXUS (Neural EXecution Utility and Safety), a structured-plan safety monitor...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6bf3b55e7114",
+      "title": "Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems",
+      "url": "https://arxiv.org/abs/2607.19357",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19357v1 Announce Type: new \nAbstract: Recent advances in recommender systems (RS) have shown substantial performance gains through generative modelling. In practice, recommendation often involves constructing slates -- ordered lists of...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8f4cf8ee11b8",
+      "title": "LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning",
+      "url": "https://arxiv.org/abs/2607.19358",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19358v1 Announce Type: new \nAbstract: Recent advances in long chain-of-thought reasoning models such as DeepSeek-R1 have led to increasingly longer inference context lengths under the test-time scaling paradigm. However, the O(n^2)...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "93cb0a7e432e",
+      "title": "Profile-Graph Memory for LLM Agents: Implicit Cross-Entity Traversal through Narrative Profiles",
+      "url": "https://arxiv.org/abs/2607.19359",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19359v1 Announce Type: new \nAbstract: Long-term memory is essential for LLM agents that interact across sessions, yet current memory benchmarks primarily evaluate single-hop recall, leaving multi-hop association largely unmeasured. We...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3d02129be83c",
+      "title": "Lifted Representation Hypothesis in Language Models",
+      "url": "https://arxiv.org/abs/2607.19360",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19360v1 Announce Type: new \nAbstract: Large language models (LLMs) often answer queries by mapping individual observations to more general rule-like structures. However, it remains unclear how these structures are stored, selected, and...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e07928d2a87a",
+      "title": "GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods",
+      "url": "https://arxiv.org/abs/2607.19362",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19362v1 Announce Type: new \nAbstract: Graph RAG mitigates hallucinations and stale knowledge in LLMs, particularly for multi-hop question answering. However, existing approaches remain highly fragmented and incompatible. The structural...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [
+        "RAG"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "14bd52575344",
+      "title": "AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally",
+      "url": "https://arxiv.org/abs/2607.19363",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19363v1 Announce Type: new \nAbstract: Rotary Position Embedding (RoPE) is widely adopted in Transformers to encode positional information, yet standard implementations enforce a uniform frequency schedule and scaling across all...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c86739810563",
+      "title": "Statistically Grounded Sparse-Feature Interventions for Activation-Space Control in Large Language Models",
+      "url": "https://arxiv.org/abs/2607.19364",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19364v1 Announce Type: new \nAbstract: Activation steering offers a lightweight alternative to fine-tuning for behavioral control of large language models, but SAE-based steering methods often rely on learned steering objectives or...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "5c44c9bfe889",
+          "6a4912dcfef3",
+          "69eabf6e6a21"
+        ],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "69eabf6e6a21",
+      "title": "Logic-Guided Data Extraction with Answer Set Programming and Large Language Models",
+      "url": "https://arxiv.org/abs/2607.19365",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.19365v1 Announce Type: new \nAbstract: When Large Language Models (LLMs) are used for semantic data extraction from unstructured text, producing candidate relational facts from natural language, they may remain unreliable for tasks...",
+      "published": "2026-07-23T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "5c44c9bfe889",
+          "6a4912dcfef3",
+          "c86739810563"
+        ],
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1570,10 +1958,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "6a4912dcfef3",
           "4905361d289c",
           "0cfe16d7bbd7"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -3563,10 +3952,11 @@
         "level": "multi-source",
         "corroborating_ids": [
           "5c44c9bfe889",
+          "6a4912dcfef3",
           "4959caa5d7cf",
           "4905361d289c"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4580,10 +4970,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "f4859e8788fd",
-          "2b7cf192edc1"
+          "f4859e8788fd"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4731,10 +5120,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "2369b1fe4d4a",
-          "2b7cf192edc1"
+          "2369b1fe4d4a"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5461,58 +5849,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7f5986339fc5",
-      "title": "Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter Open MoE Model With Kimi Delta Attention and 1M Context",
-      "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Moonshot AI released Kimi K3 on July 16, 2026. It is a 2.8-trillion-parameter open MoE model built on Kimi Delta Attention and Attention Residuals, activating 16 of 896 experts. \nThe post Moonshot AI Releases Kimi K3: A 2.8 Trillion Parameter...",
-      "published": "2026-07-16T23:47:05Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "20b1a8c438c4",
-      "title": "OpenAI Details GPT-Red: An Internal Automated Red-Teaming Model That Beat Human Red-Teamers 84% To 13% On Prompt Injection",
-      "url": "https://www.marktechpost.com/2026/07/16/openai-details-gpt-red-an-internal-automated-red-teaming-model-that-beat-human-red-teamers-84-to-13-on-prompt-injection/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "OpenAI trained GPT-Red, an internal-only attacker model, using self-play reinforcement learning against a population of defender LLMs. It beat human red-teamers 84% to 13% on a replicated indirect prompt injection arena, found a novel \"Fake...",
-      "published": "2026-07-16T18:48:04Z",
-      "tags": [
-        "GPT",
-        "OpenAI",
-        "Prompt"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "b57416a816cc"
-        ],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
