@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T02:49:55Z",
+  "updated": "2026-07-24T10:27:00Z",
   "total": 20,
   "items": [
     {
@@ -89,49 +89,14 @@
       }
     },
     {
-      "id": "42329be8bfd9",
-      "title_zh": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
-      "summary_zh": "Andrew Ng has released OpenWorker, an MIT-licensed desktop AI agent that returns finished deliverables instead of chat replies. It runs a local Python agent server under a Tauri shell, supports 30 curated tool-calling models plus fully local...",
-      "tags_zh": [],
-      "oneliner": "Andrew Ng has released OpenWorker, an MIT-licensed desktop AI agent that returns finished deliverabl",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4e6fd6cc2dd6",
-      "title_zh": "You Didn’t Get the AI Model You Paid For",
-      "summary_zh": "The line in the response object You call the API. You pass model: &#8220;claude-fable-5&#8221;. You get back a completion, a token count, and a field that reads &#8220;model&#8221;: &#8220;claude-opus-4-8&#8221;. Nothing errored. Nothing retried....",
-      "tags_zh": [],
-      "oneliner": "The line in the response object You call the API. You pass model: &#8220;claude-fable-5&#8221;. You ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "862d19e6feb7",
-      "title_zh": "Nvidia bets physical AI can solve healthcare robotics’ data problem",
-      "summary_zh": "Nvidia&#8217;s new Medical Physics Simulation framework treats healthcare robots as physical AI systems that need embodied experience to learn, not just code. Physical AI is the term Nvidia and much of the robotics industry now use to describe...",
-      "tags_zh": [],
-      "oneliner": "Nvidia&#8217;s new Medical Physics Simulation framework treats healthcare robots as physical AI syst",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ee7d6f2f5cec",
-      "title_zh": "ayghri /i-have-adhd",
-      "summary_zh": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "id": "7636ac8433e3",
+      "title_zh": "OpenAI Presence sells enterprise AI agents with engineers attached",
+      "summary_zh": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is a managed product delivered through a limited general availability programme, and the company...",
       "tags_zh": [
+        "OpenAI",
         "Agent"
       ],
-      "oneliner": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "oneliner": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. Open",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -139,11 +104,11 @@
       }
     },
     {
-      "id": "bfeff07f7d86",
-      "title_zh": "jamiepine /voicebox",
-      "summary_zh": "The open-source AI voice studio. Clone, dictate, create.",
+      "id": "ebb786e5c81d",
+      "title_zh": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
+      "summary_zh": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document images and multi-page PDFs. From configuring the GPU environment to comparing high-detail tiled Gundam inference and faster Base modes, you'll...",
       "tags_zh": [],
-      "oneliner": "The open-source AI voice studio. Clone, dictate, create.",
+      "oneliner": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document i",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -151,67 +116,13 @@
       }
     },
     {
-      "id": "25c0421c684d",
-      "title_zh": "AMD to invest up to $5 billion in Anthropic under AI infrastructure deal",
-      "summary_zh": "AMD has agreed to invest up to $5 billion in Anthropic under an infrastructure agreement covering tens of billions of dollars’ worth of AI systems. Anthropic will deploy up to two gigawatts of capacity using AMD’s Instinct MI450-series...",
-      "tags_zh": [
-        "Anthropic"
-      ],
-      "oneliner": "AMD has agreed to invest up to $5 billion in Anthropic under an infrastructure agreement covering te",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ec0157df74ff",
-      "title_zh": "Best Open Speech Recognition (ASR) Models in 2026: WER, Languages, Latency, and License Compared",
-      "summary_zh": "Open speech recognition stopped being a Whisper monoculture in 2026. Cohere Transcribe, IBM Granite Speech 4.1, ARK-ASR and MOSS-Transcribe are now separated by less than one WER point on the Hugging Face Open ASR Leaderboard — which means rank...",
-      "tags_zh": [],
-      "oneliner": "Open speech recognition stopped being a Whisper monoculture in 2026. Cohere Transcribe, IBM Granite ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "51cf9d88e81a",
-      "title_zh": "Meet Gigatoken: A Rust BPE Tokenizer that Encodes Text at 24.53 GB/s, up to 989x Faster than HuggingFace Tokenizers",
-      "summary_zh": "Gigatoken is an MIT-licensed Rust BPE tokenizer that encodes text at gigabytes per second. On a 144-core AMD EPYC 9565, it runs GPT-2 tokenization at 24.53 GB/s. That is 989x HuggingFace tokenizers and 681x tiktoken, against baselines already...",
-      "tags_zh": [],
-      "oneliner": "Gigatoken is an MIT-licensed Rust BPE tokenizer that encodes text at gigabytes per second. On a 144-",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "fda3f226efcf",
-      "title_zh": "Anthropic Releases Claude Security Plugin for Claude Code in Beta: A Multi-Agent Vulnerability Scanner That Runs in Your Terminal",
-      "summary_zh": "Anthropic has released the Claude Security plugin for Claude Code in beta. The plugin runs a multi-agent vulnerability scan of a repository from inside an existing Claude Code session, then turns the findings you select into patch files that you...",
-      "tags_zh": [
-        "Claude",
-        "Anthropic",
-        "Agent"
-      ],
-      "oneliner": "Anthropic has released the Claude Security plugin for Claude Code in beta. The plugin runs a multi-a",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6ea74b540e4e",
-      "title_zh": "Stateful Guardrails for Multi-Turn LLM Systems: A Conversational Risk Accumulation Framework",
-      "summary_zh": "arXiv:2607.19361v1 Announce Type: new \nAbstract: Most safety guardrails for large language models (LLMs) evaluate each prompt-response pair in isolation, which misses failures that arise only over a dialogue as benign turns compose into harm. We...",
+      "id": "c4545465458e",
+      "title_zh": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
+      "summary_zh": "arXiv:2607.20425v1 Announce Type: new \nAbstract: What makes writing \"good\" remains a persistent question in literary studies and computational linguistics. We present a two-study investigation of how reasoning-enabled LLMs evaluate literary...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "arXiv:2607.19361v1 Announce Type: new \nAbstract: Most safety guardrails for large language models (L",
+      "oneliner": "arXiv:2607.20425v1 Announce Type: new \nAbstract: What makes writing \"good\" remains a persistent ques",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -219,13 +130,13 @@
       }
     },
     {
-      "id": "7f509aaa6bf0",
-      "title_zh": "When Reasoning Narrows the Move: Diversity Collapse in LLM Game Play",
-      "summary_zh": "arXiv:2607.19523v1 Announce Type: new \nAbstract: Supervised fine-tuning (SFT) is widely used to adapt large language models to downstream tasks, but its effect on behavioral diversity in sequential decision-making remains under-explored. We study...",
+      "id": "d550d1fb7b4c",
+      "title_zh": "Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations",
+      "summary_zh": "arXiv:2607.20426v1 Announce Type: new \nAbstract: Existing LLM hallucination mitigation methods, including prompt engineering and model optimization, either hardly alter models'internal knowledge or have poor cross-domain generalization....",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "arXiv:2607.19523v1 Announce Type: new \nAbstract: Supervised fine-tuning (SFT) is widely used to adap",
+      "oneliner": "arXiv:2607.20426v1 Announce Type: new \nAbstract: Existing LLM hallucination mitigation methods, incl",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -233,11 +144,11 @@
       }
     },
     {
-      "id": "dffd66deaf69",
-      "title_zh": "On the Computational Complexity of Structural Generalization",
-      "summary_zh": "arXiv:2607.19573v1 Announce Type: new \nAbstract: Structural generalization has been measured repeatedly by several benchmarks, yet it has never been formally defined. We give a definition that translates the two premises (compositional structure...",
+      "id": "b86f329d86d4",
+      "title_zh": "Is MoE Routing a Huffman Code? Discovering the Frequency-Diversity Law in Chain-of-Thought",
+      "summary_zh": "arXiv:2607.20427v1 Announce Type: new \nAbstract: Mixture-of-Experts architectures have revolutionized scaling, yet the underlying logic of their routing remains a black box. In this paper, we uncover a fundamental governing principle: MoE routing...",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.19573v1 Announce Type: new \nAbstract: Structural generalization has been measured repeate",
+      "oneliner": "arXiv:2607.20427v1 Announce Type: new \nAbstract: Mixture-of-Experts architectures have revolutionize",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -245,11 +156,11 @@
       }
     },
     {
-      "id": "5c44c9bfe889",
-      "title_zh": "Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models",
-      "summary_zh": "arXiv:2607.19604v1 Announce Type: new \nAbstract: Injecting factual knowledge into large language models (LLMs) reliably and at scale remains an open challenge. Hypernetworks provide a promising solution to large-scale knowledge injection....",
+      "id": "4778d363fcd6",
+      "title_zh": "Human-in-the-Loop Large Language Model Framework for Identification of Cutaneous Immune-Related Adverse Events",
+      "summary_zh": "arXiv:2607.20428v1 Announce Type: new \nAbstract: This study evaluated a retrieval-augmented, multi-agent large language model (LLM)-driven, human-in-the-loop framework for detecting cutaneous immune-related adverse events (cirAEs) from clinical...",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.19604v1 Announce Type: new \nAbstract: Injecting factual knowledge into large language mod",
+      "oneliner": "arXiv:2607.20428v1 Announce Type: new \nAbstract: This study evaluated a retrieval-augmented, multi-a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -257,11 +168,106 @@
       }
     },
     {
-      "id": "d3762d809f73",
-      "title_zh": "Task Competence Is Not Instruction Following: Evaluating Instruction-Conflicting Behavior in Small Language Models",
-      "summary_zh": "arXiv:2607.19608v1 Announce Type: new \nAbstract: Instruction tuning is meant to make language models follow user requests, yet it is unclear whether small models comply when an instruction conflicts with their usual task behavior. We study this...",
+      "id": "d5be5a386f8f",
+      "title_zh": "More Is Not More: What Matters for Diversity in LLM Opinions?",
+      "summary_zh": "arXiv:2607.20429v1 Announce Type: new \nAbstract: Large language models are increasingly used to simulate diverse human opinions in open-ended tasks such as synthetic surveys, focus group modeling, and public opinion prediction. However, LLM...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2607.20429v1 Announce Type: new \nAbstract: Large language models are increasingly used to simu",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c43ba9235317",
+      "title_zh": "LLM-INSTRUCT at UZH Shared Task 2026: Constraint-Aware Retrieval and Selective Debate for Paragraph-Level Argument Mining",
+      "summary_zh": "arXiv:2607.20430v1 Announce Type: new \nAbstract: We present LLM-INSTRUCT, the winning system for the UZH Shared Task at ArgMining 2026 on paragraph-level argument mining in UN and UNESCO resolutions. The task requires paragraph-type...",
+      "tags_zh": [
+        "LLM",
+        "RAG"
+      ],
+      "oneliner": "arXiv:2607.20430v1 Announce Type: new \nAbstract: We present LLM-INSTRUCT, the winning system for the",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e681d5e17ba5",
+      "title_zh": "Skill-Contracted Agents for Evidence-Aware Materials Literature Analysis",
+      "summary_zh": "arXiv:2607.20431v1 Announce Type: new \nAbstract: Materials science literature analysis requires simultaneous attention to composition, processing, characterization, and property relationships, yet conventional retrieval-augmented generation...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2607.20431v1 Announce Type: new \nAbstract: Materials science literature analysis requires simu",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b0ad06d966ec",
+      "title_zh": "Position: Natural Language Should Not Fully Replace Formal Languages",
+      "summary_zh": "arXiv:2607.20432v1 Announce Type: new \nAbstract: Recent advances in large language models and their widespread adoption have prompted claims that natural language could entirely replace formal languages, such as programming languages for software...",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.19608v1 Announce Type: new \nAbstract: Instruction tuning is meant to make language models",
+      "oneliner": "arXiv:2607.20432v1 Announce Type: new \nAbstract: Recent advances in large language models and their ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7c275578d094",
+      "title_zh": "Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing",
+      "summary_zh": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their training state, the world evolves continuously. Knowledge editing has emerged as a key alternative to full retraining, but its deployment is...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their traini",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "199c18788dd4",
+      "title_zh": "Break Through the Compression Bottleneck: From Theory to Practice",
+      "summary_zh": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues to grow, effective model compression is required to reduce their computational and memory overhead. Existing compression methods suffer from...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "482b13b4b485",
+      "title_zh": "Making Open-Source Text LLM Watermarks Durable Against Merging",
+      "summary_zh": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights....",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-th",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "53da7cfec413",
+      "title_zh": "Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models",
+      "summary_zh": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under...",
+      "tags_zh": [
+        "Fine-tune"
+      ],
+      "oneliner": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior obser",
       "key_facts": [],
       "notable_quote": {
         "text": "",

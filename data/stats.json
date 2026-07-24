@@ -1,18 +1,18 @@
 {
-  "updated": "2026-07-24T02:49:46Z",
-  "total": 281,
+  "updated": "2026-07-24T10:26:50Z",
+  "total": 310,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
-      "count": 32
+      "count": 31
     },
     {
       "name": "GitHub Trending",
@@ -42,15 +42,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 60
+      "count": 64
     },
     {
       "name": "LLM",
-      "count": 41
+      "count": 54
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 19
+    },
+    {
+      "name": "RAG",
+      "count": 11
     },
     {
       "name": "Google",
@@ -58,10 +62,6 @@
     },
     {
       "name": "Diffusion",
-      "count": 9
-    },
-    {
-      "name": "RAG",
       "count": 9
     },
     {
@@ -77,15 +77,15 @@
       "count": 6
     },
     {
+      "name": "Fine-tune",
+      "count": 6
+    },
+    {
       "name": "Gemini",
       "count": 5
     },
     {
-      "name": "GPU",
-      "count": 5
-    },
-    {
-      "name": "Fine-tune",
+      "name": "Meta",
       "count": 5
     },
     {
@@ -93,11 +93,11 @@
       "count": 5
     },
     {
-      "name": "GPT",
-      "count": 4
+      "name": "GPU",
+      "count": 5
     },
     {
-      "name": "Meta",
+      "name": "API",
       "count": 4
     },
     {
@@ -105,11 +105,11 @@
       "count": 4
     },
     {
-      "name": "Anthropic",
+      "name": "GPT",
       "count": 3
     },
     {
-      "name": "API",
+      "name": "Anthropic",
       "count": 3
     },
     {
@@ -140,7 +140,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 192
+      "count": 221
     },
     {
       "name": "开源项目",
@@ -178,7 +178,7 @@
     },
     {
       "date": "07-24",
-      "count": 6
+      "count": 38
     },
     {
       "date": "08-14",
@@ -223,28 +223,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "42329be8bfd9",
-      "title": "Andrew Ng Just Released OpenWorker: An Open-Source, Local-First Desktop AI Coworker That Returns Finished Deliverables Instead of Chat",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "4e6fd6cc2dd6",
-      "title": "You Didn’t Get the AI Model You Paid For",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "862d19e6feb7",
-      "title": "Nvidia bets physical AI can solve healthcare robotics’ data problem",
+      "id": "7636ac8433e3",
+      "title": "OpenAI Presence sells enterprise AI agents with engineers attached",
       "score": 5,
       "source": "AI News"
     },
     {
-      "id": "ee7d6f2f5cec",
-      "title": "ayghri /i-have-adhd",
+      "id": "ebb786e5c81d",
+      "title": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "c4545465458e",
+      "title": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "d550d1fb7b4c",
+      "title": "Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
