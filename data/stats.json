@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-24T10:26:50Z",
-  "total": 310,
+  "updated": "2026-07-24T17:44:47Z",
+  "total": 276,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 30
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 26
     },
     {
       "name": "Hugging Face",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 53
     },
     {
       "name": "LLM",
-      "count": 54
+      "count": 47
     },
     {
       "name": "Benchmark",
@@ -54,22 +54,26 @@
     },
     {
       "name": "RAG",
-      "count": 11
-    },
-    {
-      "name": "Google",
       "count": 10
     },
     {
-      "name": "Diffusion",
+      "name": "OpenAI",
       "count": 9
     },
     {
-      "name": "OpenAI",
-      "count": 8
+      "name": "Google",
+      "count": 9
     },
     {
       "name": "Claude",
+      "count": 7
+    },
+    {
+      "name": "Diffusion",
+      "count": 7
+    },
+    {
+      "name": "Meta",
       "count": 6
     },
     {
@@ -85,16 +89,12 @@
       "count": 5
     },
     {
-      "name": "Meta",
-      "count": 5
-    },
-    {
-      "name": "Prompt",
-      "count": 5
-    },
-    {
       "name": "GPU",
       "count": 5
+    },
+    {
+      "name": "GPT",
+      "count": 4
     },
     {
       "name": "API",
@@ -105,10 +105,6 @@
       "count": 4
     },
     {
-      "name": "GPT",
-      "count": 3
-    },
-    {
       "name": "Anthropic",
       "count": 3
     },
@@ -117,8 +113,16 @@
       "count": 3
     },
     {
+      "name": "Prompt",
+      "count": 2
+    },
+    {
       "name": "RLHF",
       "count": 2
+    },
+    {
+      "name": "Microsoft",
+      "count": 1
     },
     {
       "name": "开源",
@@ -131,20 +135,16 @@
     {
       "name": "Mistral",
       "count": 1
-    },
-    {
-      "name": "Embedding",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 221
+      "count": 190
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 43
     },
     {
       "name": "模型发布",
@@ -152,7 +152,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -178,7 +178,7 @@
     },
     {
       "date": "07-24",
-      "count": 38
+      "count": 40
     },
     {
       "date": "08-14",
@@ -193,20 +193,32 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "7e39ec2390d0",
+      "title": "ComposioHQ /awesome-claude-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "02e09efcdbd4",
       "title": "citrolabs /ego-lite",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "10942d97d561",
-      "title": "diegosouzapw /OmniRoute",
+      "id": "51bf72a920ba",
+      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "AI News"
     },
     {
-      "id": "7e39ec2390d0",
-      "title": "ComposioHQ /awesome-claude-skills",
+      "id": "a08aea45ac08",
+      "title": "OpenAI pushes ChatGPT into patient health records",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "10942d97d561",
+      "title": "diegosouzapw /OmniRoute",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -233,18 +245,6 @@
       "title": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "c4545465458e",
-      "title": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "d550d1fb7b4c",
-      "title": "Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
