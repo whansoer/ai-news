@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T02:49:16Z",
+  "updated": "2026-07-25T09:57:10Z",
   "total": 20,
   "items": [
     {
@@ -44,117 +44,14 @@
       }
     },
     {
-      "id": "b6fc968d094c",
-      "title_zh": "Datalab’s Marker 2 vs MinerU, Docling and LiteParse: 76.0 on olmOCR-bench at 5× MinerU’s Throughput",
-      "summary_zh": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.9 pages per second on one B200 — over 5× MinerU's pipeline backend, while beating Docling on both accuracy and speed. Here's how it compares...",
-      "tags_zh": [],
-      "oneliner": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a4edb8302b0d",
-      "title_zh": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
-      "summary_zh": "Today, Anthropic released Claude Opus 5. It replaces Claude Opus 4.8 as the Opus-tier flagship. Pricing is unchanged at $5 per million input tokens and $25 per million output tokens. The Anthropic team positions Opus 5 as approaching the...",
-      "tags_zh": [
-        "Claude",
-        "Agent"
-      ],
-      "oneliner": "Today, Anthropic released Claude Opus 5. It replaces Claude Opus 4.8 as the Opus-tier flagship. Pric",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "51bf72a920ba",
-      "title_zh": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
-      "summary_zh": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (PDF), carries signatures from a list that spans direct commercial rivals and organisations with...",
-      "tags_zh": [
-        "Meta",
-        "Microsoft"
-      ],
-      "oneliner": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-w",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a08aea45ac08",
-      "title_zh": "OpenAI pushes ChatGPT into patient health records",
-      "summary_zh": "OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health data and medical records to the chatbot. Logged-in users aged 18 and older can access it now on web and iOS, across the Free, Go, Plus, and Pro...",
-      "tags_zh": [
-        "GPT",
-        "OpenAI"
-      ],
-      "oneliner": "OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "10942d97d561",
-      "title_zh": "diegosouzapw /OmniRoute",
-      "summary_zh": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback,...",
-      "tags_zh": [
-        "GPT",
-        "Claude",
-        "Gemini",
-        "DeepSeek",
-        "OpenAI"
-      ],
-      "oneliner": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi,",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7a4b3790492a",
-      "title_zh": "earthtojake /text-to-cad",
-      "summary_zh": "A collection of agent skills for CAD, robotics and hardware design",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "A collection of agent skills for CAD, robotics and hardware design",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "fe5f46475117",
-      "title_zh": "agegr /pi-web",
-      "summary_zh": "Web UI for the pi coding agent",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Web UI for the pi coding agent",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7636ac8433e3",
-      "title_zh": "OpenAI Presence sells enterprise AI agents with engineers attached",
-      "summary_zh": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is a managed product delivered through a limited general availability programme, and the company...",
+      "id": "ccfb40d21097",
+      "title_zh": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
+      "summary_zh": "OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark. The models were not attacking a target — they were optimizing a score. Here is the mechanism, what the ExploitGym...",
       "tags_zh": [
         "OpenAI",
         "Agent"
       ],
-      "oneliner": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. Open",
+      "oneliner": "OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -162,11 +59,27 @@
       }
     },
     {
-      "id": "ebb786e5c81d",
-      "title_zh": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
-      "summary_zh": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document images and multi-page PDFs. From configuring the GPU environment to comparing high-detail tiled Gundam inference and faster Base modes, you'll...",
-      "tags_zh": [],
-      "oneliner": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document i",
+      "id": "b31dbc8f50a7",
+      "title_zh": "Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
+      "summary_zh": "Discover how to create self-evolving AI agents using the OpenSpace framework. This tutorial guides you through the entire workflow—from environment setup and custom skill creation to MCP integration and using SQLite to manage agent...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Discover how to create self-evolving AI agents using the OpenSpace framework. This tutorial guides y",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e28ffacc9d0d",
+      "title_zh": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown",
+      "summary_zh": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.9 pages per second on one B200 — over 5× MinerU's pipeline backend, while beating Docling on both accuracy and speed. Here's how it compares...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -274,6 +187,84 @@
       "summary_zh": "arXiv:2607.20432v1 Announce Type: new \nAbstract: Recent advances in large language models and their widespread adoption have prompted claims that natural language could entirely replace formal languages, such as programming languages for software...",
       "tags_zh": [],
       "oneliner": "arXiv:2607.20432v1 Announce Type: new \nAbstract: Recent advances in large language models and their ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7c275578d094",
+      "title_zh": "Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing",
+      "summary_zh": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their training state, the world evolves continuously. Knowledge editing has emerged as a key alternative to full retraining, but its deployment is...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their traini",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "199c18788dd4",
+      "title_zh": "Break Through the Compression Bottleneck: From Theory to Practice",
+      "summary_zh": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues to grow, effective model compression is required to reduce their computational and memory overhead. Existing compression methods suffer from...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "482b13b4b485",
+      "title_zh": "Making Open-Source Text LLM Watermarks Durable Against Merging",
+      "summary_zh": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights....",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-th",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "53da7cfec413",
+      "title_zh": "Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models",
+      "summary_zh": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under...",
+      "tags_zh": [
+        "Fine-tune"
+      ],
+      "oneliner": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior obser",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "12dd1b055dbc",
+      "title_zh": "TopoGuard: Graph Theory Based Defenses Against Split-Knowledge Attacks on RAG",
+      "summary_zh": "arXiv:2607.20437v1 Announce Type: new \nAbstract: Production Retrieval Augmented Generation (RAG) systems rely on aggregating multiple external documents to answer complex queries. However, the retrieved documents introduce a new threat surface...",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "arXiv:2607.20437v1 Announce Type: new \nAbstract: Production Retrieval Augmented Generation (RAG) sys",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7dc5c71d3544",
+      "title_zh": "Preference Tuning as Spectral Update Reorganization",
+      "summary_zh": "arXiv:2607.20438v1 Announce Type: new \nAbstract: Preference-based post-training is usually understood through endpoint behavior, yet the learned update that produces this behavior remains largely opaque. We study RLHF and related preference...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.20438v1 Announce Type: new \nAbstract: Preference-based post-training is usually understoo",
       "key_facts": [],
       "notable_quote": {
         "text": "",

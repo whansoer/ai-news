@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-25T02:49:16Z",
-  "total": 233,
-  "new_count": 43,
+  "updated": "2026-07-25T09:57:10Z",
+  "total": 230,
+  "new_count": 44,
   "items": [
     {
       "id": "56d33226bf40",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "published": "2026-07-25T02:46:40Z",
+      "published": "2026-07-25T09:54:30Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "published": "2026-07-25T02:46:40Z",
+      "published": "2026-07-25T09:54:30Z",
       "tags": [
         "Claude"
       ],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "published": "2026-07-25T02:46:40Z",
+      "published": "2026-07-25T09:54:30Z",
       "tags": [
         "Claude",
         "Agent"
@@ -83,261 +83,92 @@
       "oneliner": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser st"
     },
     {
-      "id": "b6fc968d094c",
-      "title": "Datalab’s Marker 2 vs MinerU, Docling and LiteParse: 76.0 on olmOCR-bench at 5× MinerU’s Throughput",
-      "url": "https://www.marktechpost.com/2026/07/24/datalabs-marker-2-vs-mineru-docling-and-liteparse-76-0-on-olmocr-bench-at-5x-minerus-throughput/",
+      "id": "ccfb40d21097",
+      "title": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
+      "url": "https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark. The models were not attacking a target — they were optimizing a score. Here is the mechanism, what the ExploitGym...",
+      "published": "2026-07-25T09:03:27Z",
+      "tags": [
+        "OpenAI",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "a08aea45ac08",
+          "07a59789a1f9"
+        ],
+        "score": 7
+      },
+      "title_zh": "Why the OpenAI Agent Broke Into Hugging Face: Reward Hacking, Not Malice, Explained for Engineers",
+      "summary_zh": "OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking a public security benchmark. The models were not attacking a target — they were optimizing a score. Here is the mechanism, what the ExploitGym...",
+      "tags_zh": [
+        "OpenAI",
+        "Agent"
+      ],
+      "oneliner": "OpenAI disclosed that its own models breached Hugging Face's production infrastructure while taking "
+    },
+    {
+      "id": "b31dbc8f50a7",
+      "title": "Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
+      "url": "https://www.marktechpost.com/2026/07/25/building-self-evolving-ai-agents-with-openspace-using-skills-mcp-lineage-and-low-cost-reuse/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Discover how to create self-evolving AI agents using the OpenSpace framework. This tutorial guides you through the entire workflow—from environment setup and custom skill creation to MCP integration and using SQLite to manage agent...",
+      "published": "2026-07-25T07:54:21Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
+      "summary_zh": "Discover how to create self-evolving AI agents using the OpenSpace framework. This tutorial guides you through the entire workflow—from environment setup and custom skill creation to MCP integration and using SQLite to manage agent...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Discover how to create self-evolving AI agents using the OpenSpace framework. This tutorial guides y"
+    },
+    {
+      "id": "e28ffacc9d0d",
+      "title": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown",
+      "url": "https://www.marktechpost.com/2026/07/24/datalab-marker-v2-vs-mineru-docling-and-liteparse-benchmark-breakdown/",
       "source": "MarkTechPost",
       "category": "research",
       "summary": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.9 pages per second on one B200 — over 5× MinerU's pipeline backend, while beating Docling on both accuracy and speed. Here's how it compares...",
-      "published": "2026-07-25T02:14:53Z",
-      "tags": [],
+      "published": "2026-07-25T04:42:47Z",
+      "tags": [
+        "Benchmark"
+      ],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b6fc968d094c"
+        ],
+        "score": 5
       },
-      "title_zh": "Datalab’s Marker 2 vs MinerU, Docling and LiteParse: 76.0 on olmOCR-bench at 5× MinerU’s Throughput",
+      "title_zh": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown",
       "summary_zh": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.9 pages per second on one B200 — over 5× MinerU's pipeline backend, while beating Docling on both accuracy and speed. Here's how it compares...",
-      "tags_zh": [],
+      "tags_zh": [
+        "Benchmark"
+      ],
       "oneliner": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2."
-    },
-    {
-      "id": "a4edb8302b0d",
-      "title": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
-      "url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Today, Anthropic released Claude Opus 5. It replaces Claude Opus 4.8 as the Opus-tier flagship. Pricing is unchanged at $5 per million input tokens and $25 per million output tokens. The Anthropic team positions Opus 5 as approaching the...",
-      "published": "2026-07-24T21:50:46Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
-      "summary_zh": "Today, Anthropic released Claude Opus 5. It replaces Claude Opus 4.8 as the Opus-tier flagship. Pricing is unchanged at $5 per million input tokens and $25 per million output tokens. The Anthropic team positions Opus 5 as approaching the...",
-      "tags_zh": [
-        "Claude",
-        "Agent"
-      ],
-      "oneliner": "Today, Anthropic released Claude Opus 5. It replaces Claude Opus 4.8 as the Opus-tier flagship. Pric"
-    },
-    {
-      "id": "51bf72a920ba",
-      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
-      "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (PDF), carries signatures from a list that spans direct commercial rivals and organisations with...",
-      "published": "2026-07-24T16:18:30Z",
-      "tags": [
-        "Meta",
-        "Microsoft"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "edcd0ace93cd"
-        ],
-        "score": 5
-      },
-      "title_zh": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
-      "summary_zh": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (PDF), carries signatures from a list that spans direct commercial rivals and organisations with...",
-      "tags_zh": [
-        "Meta",
-        "Microsoft"
-      ],
-      "oneliner": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-w"
-    },
-    {
-      "id": "a08aea45ac08",
-      "title": "OpenAI pushes ChatGPT into patient health records",
-      "url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health data and medical records to the chatbot. Logged-in users aged 18 and older can access it now on web and iOS, across the Free, Go, Plus, and Pro...",
-      "published": "2026-07-24T14:58:17Z",
-      "tags": [
-        "GPT",
-        "OpenAI"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "7636ac8433e3"
-        ],
-        "score": 5
-      },
-      "title_zh": "OpenAI pushes ChatGPT into patient health records",
-      "summary_zh": "OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health data and medical records to the chatbot. Logged-in users aged 18 and older can access it now on web and iOS, across the Free, Go, Plus, and Pro...",
-      "tags_zh": [
-        "GPT",
-        "OpenAI"
-      ],
-      "oneliner": "OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health"
-    },
-    {
-      "id": "10942d97d561",
-      "title": "diegosouzapw /OmniRoute",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback,...",
-      "published": "2026-07-24T10:24:15Z",
-      "tags": [
-        "GPT",
-        "Claude",
-        "Gemini",
-        "DeepSeek",
-        "OpenAI"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "diegosouzapw /OmniRoute",
-      "summary_zh": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback,...",
-      "tags_zh": [
-        "GPT",
-        "Claude",
-        "Gemini",
-        "DeepSeek",
-        "OpenAI"
-      ],
-      "oneliner": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi,"
-    },
-    {
-      "id": "7a4b3790492a",
-      "title": "earthtojake /text-to-cad",
-      "url": "https://github.com/earthtojake/text-to-cad",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A collection of agent skills for CAD, robotics and hardware design",
-      "published": "2026-07-24T10:24:15Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "earthtojake /text-to-cad",
-      "summary_zh": "A collection of agent skills for CAD, robotics and hardware design",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "A collection of agent skills for CAD, robotics and hardware design"
-    },
-    {
-      "id": "fe5f46475117",
-      "title": "agegr /pi-web",
-      "url": "https://github.com/agegr/pi-web",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Web UI for the pi coding agent",
-      "published": "2026-07-24T10:24:15Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "agegr /pi-web",
-      "summary_zh": "Web UI for the pi coding agent",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Web UI for the pi coding agent"
-    },
-    {
-      "id": "7636ac8433e3",
-      "title": "OpenAI Presence sells enterprise AI agents with engineers attached",
-      "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is a managed product delivered through a limited general availability programme, and the company...",
-      "published": "2026-07-24T08:00:00Z",
-      "tags": [
-        "OpenAI",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "a08aea45ac08"
-        ],
-        "score": 5
-      },
-      "title_zh": "OpenAI Presence sells enterprise AI agents with engineers attached",
-      "summary_zh": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is a managed product delivered through a limited general availability programme, and the company...",
-      "tags_zh": [
-        "OpenAI",
-        "Agent"
-      ],
-      "oneliner": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. Open"
-    },
-    {
-      "id": "ebb786e5c81d",
-      "title": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
-      "url": "https://www.marktechpost.com/2026/07/23/how-to-build-an-end-to-end-ocr-pipeline-with-baidus-unlimited-ocr-for-high-resolution-images-and-multi-page-pdf-parsing/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document images and multi-page PDFs. From configuring the GPU environment to comparing high-detail tiled Gundam inference and faster Base modes, you'll...",
-      "published": "2026-07-24T05:16:28Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
-      "summary_zh": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document images and multi-page PDFs. From configuring the GPU environment to comparing high-detail tiled Gundam inference and faster Base modes, you'll...",
-      "tags_zh": [],
-      "oneliner": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document i"
     },
     {
       "id": "c4545465458e",
@@ -346,7 +177,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20425v1 Announce Type: new \nAbstract: What makes writing \"good\" remains a persistent question in literary studies and computational linguistics. We present a two-study investigation of how reasoning-enabled LLMs evaluate literary...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [
         "LLM"
       ],
@@ -373,7 +204,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20426v1 Announce Type: new \nAbstract: Existing LLM hallucination mitigation methods, including prompt engineering and model optimization, either hardly alter models'internal knowledge or have poor cross-domain generalization....",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [
         "LLM"
       ],
@@ -400,7 +231,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20427v1 Announce Type: new \nAbstract: Mixture-of-Experts architectures have revolutionized scaling, yet the underlying logic of their routing remains a black box. In this paper, we uncover a fundamental governing principle: MoE routing...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -423,7 +254,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20428v1 Announce Type: new \nAbstract: This study evaluated a retrieval-augmented, multi-agent large language model (LLM)-driven, human-in-the-loop framework for detecting cutaneous immune-related adverse events (cirAEs) from clinical...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -446,7 +277,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20429v1 Announce Type: new \nAbstract: Large language models are increasingly used to simulate diverse human opinions in open-ended tasks such as synthetic surveys, focus group modeling, and public opinion prediction. However, LLM...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [
         "LLM"
       ],
@@ -473,7 +304,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20430v1 Announce Type: new \nAbstract: We present LLM-INSTRUCT, the winning system for the UZH Shared Task at ArgMining 2026 on paragraph-level argument mining in UN and UNESCO resolutions. The task requires paragraph-type...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [
         "LLM",
         "RAG"
@@ -502,7 +333,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20431v1 Announce Type: new \nAbstract: Materials science literature analysis requires simultaneous attention to composition, processing, characterization, and property relationships, yet conventional retrieval-augmented generation...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [
         "Agent"
       ],
@@ -529,7 +360,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20432v1 Announce Type: new \nAbstract: Recent advances in large language models and their widespread adoption have prompted claims that natural language could entirely replace formal languages, such as programming languages for software...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -552,7 +383,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their training state, the world evolves continuously. Knowledge editing has emerged as a key alternative to full retraining, but its deployment is...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -563,10 +394,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "",
-      "summary_zh": "",
+      "title_zh": "Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing",
+      "summary_zh": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their training state, the world evolves continuously. Knowledge editing has emerged as a key alternative to full retraining, but its deployment is...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their traini"
     },
     {
       "id": "199c18788dd4",
@@ -575,7 +406,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues to grow, effective model compression is required to reduce their computational and memory overhead. Existing compression methods suffer from...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -586,10 +417,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "",
-      "summary_zh": "",
+      "title_zh": "Break Through the Compression Bottleneck: From Theory to Practice",
+      "summary_zh": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues to grow, effective model compression is required to reduce their computational and memory overhead. Existing compression methods suffer from...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues "
     },
     {
       "id": "482b13b4b485",
@@ -598,7 +429,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights....",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [
         "LLM"
       ],
@@ -611,10 +442,12 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
+      "title_zh": "Making Open-Source Text LLM Watermarks Durable Against Merging",
+      "summary_zh": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights....",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-th"
     },
     {
       "id": "53da7cfec413",
@@ -623,7 +456,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [
         "Fine-tune"
       ],
@@ -636,10 +469,12 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
+      "title_zh": "Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models",
+      "summary_zh": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under...",
+      "tags_zh": [
+        "Fine-tune"
+      ],
+      "oneliner": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior obser"
     },
     {
       "id": "12dd1b055dbc",
@@ -648,7 +483,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20437v1 Announce Type: new \nAbstract: Production Retrieval Augmented Generation (RAG) systems rely on aggregating multiple external documents to answer complex queries. However, the retrieved documents introduce a new threat surface...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [
         "RAG"
       ],
@@ -661,10 +496,12 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
+      "title_zh": "TopoGuard: Graph Theory Based Defenses Against Split-Knowledge Attacks on RAG",
+      "summary_zh": "arXiv:2607.20437v1 Announce Type: new \nAbstract: Production Retrieval Augmented Generation (RAG) systems rely on aggregating multiple external documents to answer complex queries. However, the retrieved documents introduce a new threat surface...",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "arXiv:2607.20437v1 Announce Type: new \nAbstract: Production Retrieval Augmented Generation (RAG) sys"
     },
     {
       "id": "7dc5c71d3544",
@@ -673,7 +510,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20438v1 Announce Type: new \nAbstract: Preference-based post-training is usually understood through endpoint behavior, yet the learned update that produces this behavior remains largely opaque. We study RLHF and related preference...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -684,10 +521,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "",
-      "summary_zh": "",
+      "title_zh": "Preference Tuning as Spectral Update Reorganization",
+      "summary_zh": "arXiv:2607.20438v1 Announce Type: new \nAbstract: Preference-based post-training is usually understood through endpoint behavior, yet the learned update that produces this behavior remains largely opaque. We study RLHF and related preference...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "arXiv:2607.20438v1 Announce Type: new \nAbstract: Preference-based post-training is usually understoo"
     },
     {
       "id": "8a1b75263ecb",
@@ -696,7 +533,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2607.20439v1 Announce Type: new \nAbstract: Political evasion is difficult to detect because evasive answers often appear cooperative while avoiding concrete commitment. We present AsymVerify, a confidence-gated verification system for...",
-      "published": "2026-07-24T04:00:00Z",
+      "published": "2026-07-25T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -706,6 +543,244 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b6fc968d094c",
+      "title": "Datalab’s Marker 2 vs MinerU, Docling and LiteParse: 76.0 on olmOCR-bench at 5× MinerU’s Throughput",
+      "url": "https://www.marktechpost.com/2026/07/24/datalabs-marker-2-vs-mineru-docling-and-liteparse-76-0-on-olmocr-bench-at-5x-minerus-throughput/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Datalab rewrote Marker as a three-mode pipeline. Version 2 hits 76.0 on olmOCR-bench and sustains 2.9 pages per second on one B200 — over 5× MinerU's pipeline backend, while beating Docling on both accuracy and speed. Here's how it compares...",
+      "published": "2026-07-25T02:14:53Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "e28ffacc9d0d"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a4edb8302b0d",
+      "title": "Meet the New Claude Opus 5: Frontier-Class Agentic Coding and Computer Use at Unchanged Opus Pricing",
+      "url": "https://www.marktechpost.com/2026/07/24/meet-the-new-claude-opus-5-frontier-class-agentic-coding-and-computer-use-at-unchanged-opus-pricing/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Today, Anthropic released Claude Opus 5. It replaces Claude Opus 4.8 as the Opus-tier flagship. Pricing is unchanged at $5 per million input tokens and $25 per million output tokens. The Anthropic team positions Opus 5 as approaching the...",
+      "published": "2026-07-24T21:50:46Z",
+      "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "51bf72a920ba",
+      "title": "Meta, Microsoft, Nvidia, IBM, and others back open-weight AI",
+      "url": "https://www.artificialintelligence-news.com/news/meta-microsoft-nvidia-ibm-others-back-open-weight-ai/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Two dozen companies and organisations signed an open letter urging US policymakers to protect open-weight AI models. The letter, published today (PDF), carries signatures from a list that spans direct commercial rivals and organisations with...",
+      "published": "2026-07-24T16:18:30Z",
+      "tags": [
+        "Meta",
+        "Microsoft"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "edcd0ace93cd"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a08aea45ac08",
+      "title": "OpenAI pushes ChatGPT into patient health records",
+      "url": "https://www.artificialintelligence-news.com/news/openai-pushes-chatgpt-into-patient-health-records/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "OpenAI is deploying a Health feature inside ChatGPT, giving users the option to connect Apple Health data and medical records to the chatbot. Logged-in users aged 18 and older can access it now on web and iOS, across the Free, Go, Plus, and Pro...",
+      "published": "2026-07-24T14:58:17Z",
+      "tags": [
+        "GPT",
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "ccfb40d21097",
+          "7636ac8433e3"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "10942d97d561",
+      "title": "diegosouzapw /OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback,...",
+      "published": "2026-07-24T10:24:15Z",
+      "tags": [
+        "GPT",
+        "Claude",
+        "Gemini",
+        "DeepSeek",
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7a4b3790492a",
+      "title": "earthtojake /text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "A collection of agent skills for CAD, robotics and hardware design",
+      "published": "2026-07-24T10:24:15Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fe5f46475117",
+      "title": "agegr /pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Web UI for the pi coding agent",
+      "published": "2026-07-24T10:24:15Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7636ac8433e3",
+      "title": "OpenAI Presence sells enterprise AI agents with engineers attached",
+      "url": "https://www.artificialintelligence-news.com/news/openai-presence-enterprise-ai-agents/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "The newest way to buy enterprise AI agents from OpenAI does not involve buying anything online. OpenAI Presence,&#160;announced&#160;on July 22, is a managed product delivered through a limited general availability programme, and the company...",
+      "published": "2026-07-24T08:00:00Z",
+      "tags": [
+        "OpenAI",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "a08aea45ac08"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ebb786e5c81d",
+      "title": "How to Build an End-to-End OCR Pipeline with Baidu’s Unlimited-OCR for High-Resolution Images and Multi-Page PDF Parsing",
+      "url": "https://www.marktechpost.com/2026/07/23/how-to-build-an-end-to-end-ocr-pipeline-with-baidus-unlimited-ocr-for-high-resolution-images-and-multi-page-pdf-parsing/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build a complete workflow for running Baidu’s Unlimited-OCR model on document images and multi-page PDFs. From configuring the GPU environment to comparing high-detail tiled Gundam inference and faster Base modes, you'll...",
+      "published": "2026-07-24T05:16:28Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -3616,11 +3691,12 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "ccfb40d21097",
           "1f5d786bd553",
           "10666aebf14a",
           "d6a09501cf0a"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5648,159 +5724,6 @@
           "97aded860d3c"
         ],
         "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "810a6b2984da",
-      "title": "HenryNdubuaku /maths-cs-ai-compendium",
-      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Become a cracked AI/ML Research Engineer",
-      "published": "2026-07-18T09:38:20Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c88c01cfd244",
-      "title": "Nutlope /hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "published": "2026-07-18T09:38:20Z",
-      "tags": [
-        "Claude",
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3d98181abb04",
-      "title": "PrismML-Eng /Bonsai-demo",
-      "url": "https://github.com/PrismML-Eng/Bonsai-demo",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Bonsai Demo",
-      "published": "2026-07-18T09:38:20Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3e17462c3f59",
-      "title": "Google Cloud’s Always-On Memory Agent Replaces RAG and Embeddings With Continuous LLM Consolidation on Gemini 3.1 Flash-Lite",
-      "url": "https://www.marktechpost.com/2026/07/18/google-clouds-always-on-memory-agent-replaces-rag-and-embeddings-with-continuous-llm-consolidation-on-gemini-3-1-flash-lite/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Google Cloud's generative-ai repository ships the Always-On Memory Agent, a reference implementation that treats memory as a running process. Built on Google ADK and Gemini 3.1 Flash-Lite, it uses no vector database and no embeddings. Instead, an...",
-      "published": "2026-07-18T07:57:51Z",
-      "tags": [
-        "Gemini",
-        "Google",
-        "LLM",
-        "Agent",
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "71f66b17dd4b",
-          "629a5fdfb088",
-          "97aded860d3c"
-        ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5f8b9e108e79",
-      "title": "How to Build Plasmid Engineering Workbench with Circular Mapping, Restriction Analysis, Virtual Gels, and Primer Design",
-      "url": "https://www.marktechpost.com/2026/07/17/how-to-build-plasmid-engineering-workbench-with-circular-mapping-restriction-analysis-virtual-gels-and-primer-design/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we build a Google Colab-native plasmid workbench that recreates the core ideas of SpliceCraft inside an interactive notebook environment. Instead of relying on a terminal-based TUI, we use Biopython, NumPy, and Matplotlib to...",
-      "published": "2026-07-18T06:51:05Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ccbd072c3e5c",
-      "title": "Sakana AI’s Error Diffusion Trains Dale-Compliant Dual-Stream Networks, Reaching 96.7% MNIST and 61.7% CIFAR-10 Without Backpropagation",
-      "url": "https://www.marktechpost.com/2026/07/17/sakana-ais-error-diffusion-trains-dale-compliant-dual-stream-networks-reaching-96-7-mnist-and-61-7-cifar-10-without-backpropagation/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Backpropagation relies on weight transport, which biological circuits likely cannot implement. Sakana AI's Error Diffusion sidesteps that constraint, training dual-stream excitatory/inhibitory networks that obey Dale's principle. This piece...",
-      "published": "2026-07-18T06:32:43Z",
-      "tags": [
-        "Diffusion"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
