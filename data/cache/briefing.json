@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-25T09:57:10Z",
-  "count": 215,
+  "updated": "2026-07-25T17:08:01Z",
+  "count": 216,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -13762,6 +13762,70 @@
         }
       },
       "_ts": 1784973430
+    },
+    "d0b3341e9b3534b6": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录273篇AI新闻，分类分布：学术研究190篇, 开源项目41篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（55篇）。其中21%的文章有多来源交叉验证。\n\n▸ alibaba /open-code-review：Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: determi\n\n▸ citrolabs /ego-lite：The fastest browser for AI agents to run web automation, built for sharing your logged-in browser st\n\n▸ ComposioHQ /awesome-claude-skills：A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.\n\n▸ koala73 /worldmonitor：Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and i",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills",
+            "why_hot": "单日1743星，Shell项目",
+            "stars_today": 1743,
+            "total_stars": 187945
+          },
+          {
+            "full_name": "ComposioHQ/awesome-claude-skills",
+            "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+            "why_hot": "单日574星，Python项目",
+            "stars_today": 574,
+            "total_stars": 70450
+          },
+          {
+            "full_name": "citrolabs/ego-lite",
+            "url": "https://github.com/citrolabs/ego-lite",
+            "why_hot": "单日986星，JavaScript项目",
+            "stars_today": 986,
+            "total_stars": 3320
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "273"
+          },
+          {
+            "label": "多源验证率",
+            "value": "21%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4327"
+          }
+        ],
+        "must_read_ids": [
+          "9cd514d03f14",
+          "02e09efcdbd4",
+          "7e39ec2390d0",
+          "c3257d531a3c",
+          "56d33226bf40"
+        ],
+        "text": "今日共收录273篇AI新闻，分类分布：学术研究190篇, 开源项目41篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（55篇）。其中21%的文章有多来源交叉验证。",
+        "top_items": [
+          "alibaba /open-code-review",
+          "citrolabs /ego-lite",
+          "ComposioHQ /awesome-claude-skills",
+          "obra /superpowers",
+          "koala73 /worldmonitor"
+        ],
+        "meta": {
+          "total_articles": 273,
+          "multi_source_pct": 21
+        }
+      },
+      "_ts": 1784999281
     }
   }
 }

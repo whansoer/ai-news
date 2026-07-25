@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T09:57:01Z",
-  "total": 277,
+  "updated": "2026-07-25T17:07:51Z",
+  "total": 273,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 33
+      "count": 30
     },
     {
       "name": "GitHub Trending",
-      "count": 26
+      "count": 25
     },
     {
       "name": "Hugging Face",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 54
+      "count": 55
     },
     {
       "name": "LLM",
-      "count": 47
+      "count": 46
     },
     {
       "name": "Benchmark",
@@ -54,23 +54,23 @@
     },
     {
       "name": "OpenAI",
-      "count": 10
+      "count": 11
     },
     {
       "name": "RAG",
-      "count": 10
-    },
-    {
-      "name": "Google",
       "count": 9
     },
     {
-      "name": "Claude",
+      "name": "Google",
       "count": 8
     },
     {
-      "name": "Diffusion",
+      "name": "Claude",
       "count": 7
+    },
+    {
+      "name": "Fine-tune",
+      "count": 6
     },
     {
       "name": "Meta",
@@ -81,19 +81,23 @@
       "count": 6
     },
     {
-      "name": "Fine-tune",
-      "count": 5
-    },
-    {
-      "name": "Gemini",
-      "count": 5
+      "name": "Diffusion",
+      "count": 6
     },
     {
       "name": "GPU",
       "count": 5
     },
     {
+      "name": "Anthropic",
+      "count": 4
+    },
+    {
       "name": "GPT",
+      "count": 4
+    },
+    {
+      "name": "Gemini",
       "count": 4
     },
     {
@@ -103,10 +107,6 @@
     {
       "name": "Qwen",
       "count": 4
-    },
-    {
-      "name": "Anthropic",
-      "count": 3
     },
     {
       "name": "Transformer",
@@ -140,11 +140,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 193
+      "count": 190
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 41
     },
     {
       "name": "模型发布",
@@ -178,7 +178,7 @@
     },
     {
       "date": "07-25",
-      "count": 22
+      "count": 24
     },
     {
       "date": "08-14",
@@ -187,8 +187,14 @@
   ],
   "top10": [
     {
-      "id": "56d33226bf40",
-      "title": "koala73 /worldmonitor",
+      "id": "9cd514d03f14",
+      "title": "alibaba /open-code-review",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "02e09efcdbd4",
+      "title": "citrolabs /ego-lite",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -199,8 +205,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "02e09efcdbd4",
-      "title": "citrolabs /ego-lite",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "56d33226bf40",
+      "title": "koala73 /worldmonitor",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -231,18 +243,6 @@
     {
       "id": "d550d1fb7b4c",
       "title": "Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "b86f329d86d4",
-      "title": "Is MoE Routing a Huffman Code? Discovering the Frequency-Diversity Law in Chain-of-Thought",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "4778d363fcd6",
-      "title": "Human-in-the-Loop Large Language Model Framework for Identification of Cutaneous Immune-Related Adverse Events",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }
