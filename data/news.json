@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-25T17:08:01Z",
+  "updated": "2026-07-26T02:57:47Z",
   "total": 232,
-  "new_count": 43,
+  "new_count": 44,
   "items": [
     {
       "id": "9cd514d03f14",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-07-25T17:05:19Z",
+      "published": "2026-07-26T02:55:13Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -45,7 +45,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "published": "2026-07-25T17:05:19Z",
+      "published": "2026-07-26T02:55:13Z",
       "tags": [
         "Claude",
         "Agent"
@@ -74,7 +74,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "published": "2026-07-25T17:05:19Z",
+      "published": "2026-07-26T02:55:13Z",
       "tags": [
         "Claude"
       ],
@@ -101,7 +101,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-07-25T17:05:19Z",
+      "published": "2026-07-26T02:55:13Z",
       "tags": [
         "Agent"
       ],
@@ -120,6 +120,79 @@
         "Agent"
       ],
       "oneliner": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "e66b3577e6ea",
+      "title": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
+      "url": "https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Sakana AI has released Fugu-Cyber, a security-tuned endpoint on its Fugu orchestration model. It reports 86.9% on CyberGym and 72.1% on CTI-REALM, edging past GPT-5.5-Cyber and Claude Mythos Preview. Access is gated behind manual approval, a...",
+      "published": "2026-07-26T00:12:57Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
+      "summary_zh": "Sakana AI has released Fugu-Cyber, a security-tuned endpoint on its Fugu orchestration model. It reports 86.9% on CyberGym and 72.1% on CTI-REALM, edging past GPT-5.5-Cyber and Claude Mythos Preview. Access is gated behind manual approval, a...",
+      "tags_zh": [],
+      "oneliner": "Sakana AI has released Fugu-Cyber, a security-tuned endpoint on its Fugu orchestration model. It rep"
+    },
+    {
+      "id": "b51db6ba2a4f",
+      "title": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
+      "url": "https://www.marktechpost.com/2026/07/25/meet-open-dreamer-a-jax-flax-reproduction-of-the-dreamer-4-world-model-pipeline-with-the-full-training-recipe-published/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the Dreamer 4 world-model pipeline written in JAX and Flax NNX. What actually shipped Two repositories were released. next-state/open-dreamer holds...",
+      "published": "2026-07-25T18:59:54Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
+      "summary_zh": "A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the Dreamer 4 world-model pipeline written in JAX and Flax NNX. What actually shipped Two repositories were released. next-state/open-dreamer holds...",
+      "tags_zh": [],
+      "oneliner": "A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the "
+    },
+    {
+      "id": "e1bdef68fe94",
+      "title": "Designing High-Performance GPU Kernels with TileLang: Tensor-Core GEMM, Fused Softmax, FlashAttention, and Autotuning",
+      "url": "https://www.marktechpost.com/2026/07/25/designing-high-performance-gpu-kernels-with-tilelang-tensor-core-gemm-fused-softmax-flashattention-and-autotuning/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Explore TileLang, a high-level Python domain-specific language that simplifies the design of high-performance GPU kernels. This tutorial provides a step-by-step approach to implementing complex workloads—including tiled tensor-core GEMM, fused...",
+      "published": "2026-07-25T18:08:12Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Designing High-Performance GPU Kernels with TileLang: Tensor-Core GEMM, Fused Softmax, FlashAttention, and Autotuning",
+      "summary_zh": "Explore TileLang, a high-level Python domain-specific language that simplifies the design of high-performance GPU kernels. This tutorial provides a step-by-step approach to implementing complex workloads—including tiled tensor-core GEMM, fused...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "Explore TileLang, a high-level Python domain-specific language that simplifies the design of high-pe"
     },
     {
       "id": "56d33226bf40",
@@ -479,10 +552,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Break Through the Compression Bottleneck: From Theory to Practice",
-      "summary_zh": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues to grow, effective model compression is required to reduce their computational and memory overhead. Existing compression methods suffer from...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues "
+      "oneliner": ""
     },
     {
       "id": "482b13b4b485",
@@ -504,12 +577,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Making Open-Source Text LLM Watermarks Durable Against Merging",
-      "summary_zh": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights....",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-th"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "53da7cfec413",
@@ -531,12 +602,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models",
-      "summary_zh": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under...",
-      "tags_zh": [
-        "Fine-tune"
-      ],
-      "oneliner": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior obser"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "12dd1b055dbc",
@@ -5697,90 +5766,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d42cef06ba3a",
-      "title": "Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost",
-      "url": "https://www.marktechpost.com/2026/07/18/kimi-k3-vs-deepseek-v4-pro-vs-glm-5-2-open-trillion-scale-moe-models-compared-on-benchmarks-license-and-serving-cost/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Three open MoE flagships face off on measured intelligence, MIT versus Modified MIT weights, and real serving cost\nThe post Kimi K3 vs DeepSeek V4 Pro vs GLM-5.2: Open Trillion-Scale MoE Models Compared on Benchmarks, License, and Serving Cost...",
-      "published": "2026-07-19T01:41:33Z",
-      "tags": [
-        "DeepSeek",
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "20ef73922366"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "97aded860d3c",
-      "title": "Fine-Tuning Qwen3 with LoRA Using NVIDIA NeMo AutoModel: A Complete Single-GPU Google Colab Workflow Tutorial",
-      "url": "https://www.marktechpost.com/2026/07/18/fine-tuning-qwen3-with-lora-using-nvidia-nemo-automodel-a-complete-single-gpu-google-colab-workflow-tutorial/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "We build an end-to-end NVIDIA NeMo AutoModel workflow in Google Colab using a single GPU. We verify CUDA hardware and precision support, install NeMo AutoModel from source, and load an official Qwen3-0.6B LoRA recipe. We then adapt its precision,...",
-      "published": "2026-07-19T01:08:52Z",
-      "tags": [
-        "Qwen",
-        "Google",
-        "GPU"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "ca4480ca7815"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ca4480ca7815",
-      "title": "NVIDIA Released DeepStream 9.1: Bringing Agentic AI to Vision AI With 13 Skills and Multi-View 3D Tracking",
-      "url": "https://www.marktechpost.com/2026/07/18/nvidia-released-deepstream-9-1-bringing-agentic-ai-to-vision-ai-with-13-skills-and-multi-view-3d-tracking/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "NVIDIA DeepStream 9.1 introduces 13 agentic skills that let coding agents like Claude Code and Codex build multi-camera video analytics pipelines from natural-language prompts. Multi-View 3D Tracking (MV3DT) fuses per-camera detections into one...",
-      "published": "2026-07-18T19:16:22Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "97aded860d3c"
-        ],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",

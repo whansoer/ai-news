@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T17:08:01Z",
+  "updated": "2026-07-26T02:57:47Z",
   "total": 20,
   "items": [
     {
@@ -57,6 +57,44 @@
         "Agent"
       ],
       "oneliner": "An agentic skills framework & software development methodology that works.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e66b3577e6ea",
+      "title_zh": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
+      "summary_zh": "Sakana AI has released Fugu-Cyber, a security-tuned endpoint on its Fugu orchestration model. It reports 86.9% on CyberGym and 72.1% on CTI-REALM, edging past GPT-5.5-Cyber and Claude Mythos Preview. Access is gated behind manual approval, a...",
+      "tags_zh": [],
+      "oneliner": "Sakana AI has released Fugu-Cyber, a security-tuned endpoint on its Fugu orchestration model. It rep",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b51db6ba2a4f",
+      "title_zh": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
+      "summary_zh": "A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the Dreamer 4 world-model pipeline written in JAX and Flax NNX. What actually shipped Two repositories were released. next-state/open-dreamer holds...",
+      "tags_zh": [],
+      "oneliner": "A small group of AI researchers (Reactor) have released Open Dreamer, an open implementation of the ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e1bdef68fe94",
+      "title_zh": "Designing High-Performance GPU Kernels with TileLang: Tensor-Core GEMM, Fused Softmax, FlashAttention, and Autotuning",
+      "summary_zh": "Explore TileLang, a high-level Python domain-specific language that simplifies the design of high-performance GPU kernels. This tutorial provides a step-by-step approach to implementing complex workloads—including tiled tensor-core GEMM, fused...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "Explore TileLang, a high-level Python domain-specific language that simplifies the design of high-pe",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -231,46 +269,6 @@
       "summary_zh": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their training state, the world evolves continuously. Knowledge editing has emerged as a key alternative to full retraining, but its deployment is...",
       "tags_zh": [],
       "oneliner": "arXiv:2607.20433v1 Announce Type: new \nAbstract: While language models remain frozen at their traini",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "199c18788dd4",
-      "title_zh": "Break Through the Compression Bottleneck: From Theory to Practice",
-      "summary_zh": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues to grow, effective model compression is required to reduce their computational and memory overhead. Existing compression methods suffer from...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.20434v1 Announce Type: new \nAbstract: As the parameter size of language models continues ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "482b13b4b485",
-      "title_zh": "Making Open-Source Text LLM Watermarks Durable Against Merging",
-      "summary_zh": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights....",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.20435v1 Announce Type: new \nAbstract: Open-source LLMs (OSMs)arereaching near state-of-th",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "53da7cfec413",
-      "title_zh": "Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models",
-      "summary_zh": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under...",
-      "tags_zh": [
-        "Fine-tune"
-      ],
-      "oneliner": "arXiv:2607.20436v1 Announce Type: new \nAbstract: Safety evaluations often assume that behavior obser",
       "key_facts": [],
       "notable_quote": {
         "text": "",

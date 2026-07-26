@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T17:07:51Z",
-  "total": 273,
+  "updated": "2026-07-26T02:57:37Z",
+  "total": 276,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 33
     },
     {
       "name": "GitHub Trending",
@@ -73,6 +73,10 @@
       "count": 6
     },
     {
+      "name": "GPU",
+      "count": 6
+    },
+    {
       "name": "Meta",
       "count": 6
     },
@@ -83,10 +87,6 @@
     {
       "name": "Diffusion",
       "count": 6
-    },
-    {
-      "name": "GPU",
-      "count": 5
     },
     {
       "name": "Anthropic",
@@ -140,7 +140,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 193
     },
     {
       "name": "开源项目",
@@ -156,10 +156,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-20",
-      "count": 40
-    },
     {
       "date": "07-21",
       "count": 47
@@ -178,7 +174,11 @@
     },
     {
       "date": "07-25",
-      "count": 24
+      "count": 22
+    },
+    {
+      "date": "07-26",
+      "count": 5
     },
     {
       "date": "08-14",
@@ -211,6 +211,24 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "e66b3577e6ea",
+      "title": "Sakana AI Releases Fugu-Cyber: An Orchestration Model Reporting 86.9% on CyberGym and 72.1% on CTI-REALM",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "b51db6ba2a4f",
+      "title": "Meet Open Dreamer: A JAX/Flax Reproduction of the Dreamer 4 World Model Pipeline, With the Full Training Recipe Published",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "e1bdef68fe94",
+      "title": "Designing High-Performance GPU Kernels with TileLang: Tensor-Core GEMM, Fused Softmax, FlashAttention, and Autotuning",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "56d33226bf40",
       "title": "koala73 /worldmonitor",
       "score": 5,
@@ -227,24 +245,6 @@
       "title": "Building Self-Evolving AI Agents with OpenSpace Using Skills, MCP, Lineage, and Low-Cost Reuse",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "e28ffacc9d0d",
-      "title": "Datalab Marker v2 vs MinerU, Docling, and Liteparse: Benchmark Breakdown",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "c4545465458e",
-      "title": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "d550d1fb7b4c",
-      "title": "Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
