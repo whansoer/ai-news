@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-26T17:10:42Z",
-  "total": 233,
-  "new_count": 45,
+  "updated": "2026-07-27T02:58:57Z",
+  "total": 230,
+  "new_count": 42,
   "items": [
     {
       "id": "02e09efcdbd4",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-      "published": "2026-07-26T17:08:08Z",
+      "published": "2026-07-27T02:56:32Z",
       "tags": [
         "Claude",
         "Agent"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-      "published": "2026-07-26T17:08:08Z",
+      "published": "2026-07-27T02:56:32Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
-      "published": "2026-07-26T17:08:08Z",
+      "published": "2026-07-27T02:56:32Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -89,7 +89,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The design language that makes your AI harness better at design.",
-      "published": "2026-07-26T17:08:08Z",
+      "published": "2026-07-27T02:56:32Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -104,6 +104,29 @@
       "summary_zh": "The design language that makes your AI harness better at design.",
       "tags_zh": [],
       "oneliner": "The design language that makes your AI harness better at design."
+    },
+    {
+      "id": "927a7f3e957f",
+      "title": "Black Forest Labs Releases FLUX 3: A Multimodal Flow Model for Image, Video, Audio and Robot Action Prediction",
+      "url": "https://www.marktechpost.com/2026/07/26/black-forest-labs-releases-flux-3-a-multimodal-flow-model-for-image-video-audio-and-robot-action-prediction/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Black Forest Labs (BFL) has released FLUX 3, a multimodal foundation model that learns from images, videos and audio inside a single architecture. It is also the first FLUX model to ship video, audio and action prediction from one set of weights....",
+      "published": "2026-07-26T17:50:23Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Black Forest Labs Releases FLUX 3: A Multimodal Flow Model for Image, Video, Audio and Robot Action Prediction",
+      "summary_zh": "Black Forest Labs (BFL) has released FLUX 3, a multimodal foundation model that learns from images, videos and audio inside a single architecture. It is also the first FLUX model to ship video, audio and action prediction from one set of weights....",
+      "tags_zh": [],
+      "oneliner": "Black Forest Labs (BFL) has released FLUX 3, a multimodal foundation model that learns from images, "
     },
     {
       "id": "6a63ae14a87d",
@@ -523,10 +546,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Is MoE Routing a Huffman Code? Discovering the Frequency-Diversity Law in Chain-of-Thought",
-      "summary_zh": "arXiv:2607.20427v1 Announce Type: new \nAbstract: Mixture-of-Experts architectures have revolutionized scaling, yet the underlying logic of their routing remains a black box. In this paper, we uncover a fundamental governing principle: MoE routing...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.20427v1 Announce Type: new \nAbstract: Mixture-of-Experts architectures have revolutionize"
+      "oneliner": ""
     },
     {
       "id": "4778d363fcd6",
@@ -5671,111 +5694,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "401be8004b15",
-      "title": "Someone Fine-Tuned OpenBMB’s MiniCPM5-1B on Claude Fable 5 Traces to Ship a 657MB Local Thinking Model",
-      "url": "https://www.marktechpost.com/2026/07/19/someone-fine-tuned-openbmbs-minicpm5-1b-on-claude-fable-5-traces-to-ship-a-657mb-local-thinking-model/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "A community developer fine-tuned OpenBMB's MiniCPM5-1B on Claude Fable 5 traces into a 1B model that runs fully local — a 657MB smallest build, 128K context, and visible reasoning. We verify every spec against the Hugging Face cards, separate...",
-      "published": "2026-07-20T01:56:50Z",
-      "tags": [
-        "Claude",
-        "Fine-tune"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "20ef73922366",
-      "title": "Best Local LLMs You Can Run on a Single 24GB GPU in 2026: Qwen, Gemma, Mistral, DeepSeek Compared",
-      "url": "https://www.marktechpost.com/2026/07/19/best-local-llms-you-can-run-on-a-single-24gb-gpu-in-2026-qwen-gemma-mistral-deepseek-compared/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "A single 24GB GPU is the practical floor for serious local inference. This guide compares six open-weight models that fit one card at Q4_K_M. It covers Qwen3.6, Gemma 4, Mistral Small, gpt-oss-20b, and DeepSeek-R1-Distill. Each entry lists VRAM...",
-      "published": "2026-07-20T01:18:46Z",
-      "tags": [
-        "Mistral",
-        "DeepSeek",
-        "Qwen",
-        "LLM",
-        "GPU"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1d5f89a74ae5",
-      "title": "Feyn AI Releases SQRL, a Text-to-SQL Model Family That Inspects the Database Before Writing a Query",
-      "url": "https://www.marktechpost.com/2026/07/19/feyn-ai-releases-sqrl-a-text-to-sql-model-family-that-inspects-the-database-before-writing-a-query/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Feyn Labs has released SQRL, a family of text-to-SQL models that inspect a database with read-only probes before committing to a query. The flagship SQRL-35B-A3B reports 70.6% execution accuracy on BIRD Dev, edging Claude Opus 4.6, and distills...",
-      "published": "2026-07-19T22:20:23Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "66f4015fb66b",
-      "title": "Alibaba Previews Qwen3.8-Max, a 2.4 Trillion-Parameter Multimodal Model, Days After Moonshot’s Kimi K3 Open-Weight Launch",
-      "url": "https://www.marktechpost.com/2026/07/19/alibaba-previews-qwen3-8-max-a-2-4-trillion-parameter-multimodal-model-days-after-moonshots-kimi-k3-open-weight-launch/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Alibaba's Qwen team previewed Qwen3.8-Max-Preview, a 2.4 trillion-parameter multimodal MoE model it calls \"second only to Fable 5.\" The preview is live on Token Plan, Qoder, and QoderWork at 10% of standard pricing. What is not live: any...",
-      "published": "2026-07-19T21:42:50Z",
-      "tags": [
-        "Qwen"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "67da95f7c69f"
-        ],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
