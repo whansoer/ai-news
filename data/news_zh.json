@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T02:41:33Z",
+  "updated": "2026-07-28T10:42:58Z",
   "total": 20,
   "items": [
     {
@@ -45,13 +45,54 @@
       }
     },
     {
-      "id": "bb9255bcb9ec",
-      "title_zh": "Kimi AI and kvcache-ai Open Sources ‘AgentENV’: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
-      "summary_zh": "Moonshot AI's Kimi team and kvcache-ai open-sourced AgentENV (AENV) under MIT, as part of Kimi K3 Open Day. It runs agent sandboxes as Firecracker microVMs with millisecond snapshot, resume, and 16-way fork, behind an E2B-compatible API.\nThe post...",
+      "id": "1660d85584af",
+      "title_zh": "Armenia’s AI Bet Is Not Chip Manufacturing. It Is Compute Sovereignty",
+      "summary_zh": "Armenia is not a big country. It’s not a wealthy country. It’s not a famous country. And yet, it has become not only a consumer of different AI products akin to Clideo subtitles generator for video editing, or giants like OpenAI, but also entered...",
+      "tags_zh": [],
+      "oneliner": "Armenia is not a big country. It’s not a wealthy country. It’s not a famous country. And yet, it has",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9ba89d4ce57f",
+      "title_zh": "Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym",
+      "summary_zh": "Microsoft AI has released MAI-Cyber-1-Flash, its first model built specifically for cyber defense. It is a 137B total, 5B active sparse MoE fine-tune of MAI-Code-1-Flash with a 256k context window. The model does not ship as a standalone endpoint...",
+      "tags_zh": [
+        "Microsoft"
+      ],
+      "oneliner": "Microsoft AI has released MAI-Cyber-1-Flash, its first model built specifically for cyber defense. I",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "21917608727f",
+      "title_zh": "Deploying a 1-Bit Bonsai-27B Model with PrismML llama.cpp and OpenAI-Compatible Local Inference Workflows",
+      "summary_zh": "In this tutorial, we deploy the 1-bit Bonsai-27B language model using the PrismML fork of llama.cpp, which provides the specialized CUDA kernels required to decode the model’s Q1_0_g128 GGUF quantization format\nThe post Deploying a 1-Bit...",
+      "tags_zh": [
+        "Llama",
+        "OpenAI"
+      ],
+      "oneliner": "In this tutorial, we deploy the 1-bit Bonsai-27B language model using the PrismML fork of llama.cpp,",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8d23ebd1b276",
+      "title_zh": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "summary_zh": "arXiv:2607.21596v1 Announce Type: new \nAbstract: Large language model agents increasingly solve complex tasks by constructing inference-time workflows that combine reasoning, tool use, and code execution. While such workflows enable flexible...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "Moonshot AI's Kimi team and kvcache-ai open-sourced AgentENV (AENV) under MIT, as part of Kimi K3 Op",
+      "oneliner": "arXiv:2607.21596v1 Announce Type: new \nAbstract: Large language model agents increasingly solve comp",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -59,14 +100,63 @@
       }
     },
     {
-      "id": "1f4b87705fc7",
-      "title_zh": "Designing Skill-Driven Financial Analysis Agents with Claude, Python, MCP Connectors, and Automated Deliverables",
-      "summary_zh": "In this tutorial, we build an advanced workflow around Anthropic’s financial-services repository and reproduce its skill-driven architecture in pure Python. We begin by installing the required libraries, cloning the repository, and...",
+      "id": "9be98bbc887a",
+      "title_zh": "Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals",
+      "summary_zh": "arXiv:2607.21597v1 Announce Type: new \nAbstract: Evaluating wildfire risk systems using standard machine-learning metrics such as F1-score or IoU is fundamentally flawed: these metrics assess event prediction accuracy, not the operational...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.21597v1 Announce Type: new \nAbstract: Evaluating wildfire risk systems using standard mac",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "3562d30ea97b",
+      "title_zh": "Securing Multimodal AI through Internal Information Decomposition",
+      "summary_zh": "arXiv:2607.21600v1 Announce Type: new \nAbstract: Multimodal large language models introduce attack surfaces absent in unimodal systems: adversaries can distribute malicious intent across modalities to evade unimodal safeguards. This motivates...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.21600v1 Announce Type: new \nAbstract: Multimodal large language models introduce attack s",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "02727977114e",
+      "title_zh": "From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction",
+      "summary_zh": "arXiv:2607.21601v1 Announce Type: new \nAbstract: Public-space gesture interaction is often evaluated as a frame-level recognition problem, but deployed systems expose a different failure boundary. In scenic kiosks, exhibition halls, and service...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.21601v1 Announce Type: new \nAbstract: Public-space gesture interaction is often evaluated",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7a89d59d36d1",
+      "title_zh": "Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices",
+      "summary_zh": "arXiv:2607.21602v1 Announce Type: new \nAbstract: Accurate latency prediction is critical for deploying large language models (LLMs) on heterogeneous edge devices, where inference latency is affected by model architecture, prompt behavior, runtime...",
       "tags_zh": [
-        "Claude",
+        "LLM"
+      ],
+      "oneliner": "arXiv:2607.21602v1 Announce Type: new \nAbstract: Accurate latency prediction is critical for deployi",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "53261bea112e",
+      "title_zh": "AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems",
+      "summary_zh": "arXiv:2607.21604v1 Announce Type: new \nAbstract: Memory-augmented LLM agents maintain context across hundreds of interactions through agentic memory systems that actively curate retrieved content with LLM-generated metadata such as summaries,...",
+      "tags_zh": [
         "Agent"
       ],
-      "oneliner": "In this tutorial, we build an advanced workflow around Anthropic’s financial-services repository and",
+      "oneliner": "arXiv:2607.21604v1 Announce Type: new \nAbstract: Memory-augmented LLM agents maintain context across",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -74,14 +164,13 @@
       }
     },
     {
-      "id": "7966439dda81",
-      "title_zh": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents",
-      "summary_zh": "Perplexity has released pplx, an official command line client for its Search API. The tool exposes two commands — pplx search web and pplx content fetch — and returns exactly one JSON object on stdout. It ships as a checksum-verified single...",
+      "id": "2699f06212c0",
+      "title_zh": "TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward",
+      "summary_zh": "arXiv:2607.21606v1 Announce Type: new \nAbstract: Recent advances in powerful text-to-image generation models have made it increasingly important to develop test-time methods that modify the sampling trajectory to produce images more faithful to...",
       "tags_zh": [
-        "Agent",
-        "API"
+        "Diffusion"
       ],
-      "oneliner": "Perplexity has released pplx, an official command line client for its Search API. The tool exposes t",
+      "oneliner": "arXiv:2607.21606v1 Announce Type: new \nAbstract: Recent advances in powerful text-to-image generatio",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -89,11 +178,11 @@
       }
     },
     {
-      "id": "7a04ab0d5258",
-      "title_zh": "How AI is shortening drug discovery timelines in China",
-      "summary_zh": "Insilico Medicine has reduced the time needed to produce some drug development candidates to about one year by combining artificial intelligence with laboratory research in China, according to CEO Alex Zhavoronkov. The Hong Kong-listed company’s...",
+      "id": "cf41fc50ec9a",
+      "title_zh": "Spectral Flow Certificates for Depth-Aware Long-Range Propagation in Graph Neural Networks",
+      "summary_zh": "arXiv:2607.21607v1 Announce Type: new \nAbstract: Graph Neural Networks propagate information through local message passing, but the graph topologies themselves can silently prevent any amount of training from solving long-range tasks. When we...",
       "tags_zh": [],
-      "oneliner": "Insilico Medicine has reduced the time needed to produce some drug development candidates to about o",
+      "oneliner": "arXiv:2607.21607v1 Announce Type: new \nAbstract: Graph Neural Networks propagate information through",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -101,25 +190,13 @@
       }
     },
     {
-      "id": "b24ba3574e2e",
-      "title_zh": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ae81dfaed4cb",
-      "title_zh": "America’s AI Investment Boom Is Reshaping the Economy",
-      "summary_zh": "America&#8217;s AI Investment Boom Is Reshaping the Economy Artificial intelligence has become one of the defining investment stories in the United States, and the numbers continue to grow. Microsoft, Meta, Amazon and Alphabet are collectively...",
+      "id": "e44f3a8dc92a",
+      "title_zh": "Coupled Hierarchical Search over Topology and Execution for Agentic Workflow Synthesis",
+      "summary_zh": "arXiv:2607.21609v1 Announce Type: new \nAbstract: Although structured workflows empower Large Language Models (LLMs) to tackle complex problems, automating their creation is severely hindered by a vast combinatorial search space, frequently...",
       "tags_zh": [
-        "API"
+        "Agent"
       ],
-      "oneliner": "America&#8217;s AI Investment Boom Is Reshaping the Economy Artificial intelligence has become one o",
+      "oneliner": "arXiv:2607.21609v1 Announce Type: new \nAbstract: Although structured workflows empower Large Languag",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -127,37 +204,13 @@
       }
     },
     {
-      "id": "4cffa154bb6c",
-      "title_zh": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
-      "summary_zh": "arXiv:2607.21619v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) have achieved impressive performance, but their safety alignment remains vulnerable to jailbreak attacks. Existing content-based jailbreaks are often...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.21619v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) have achie",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d73c25e8dfe8",
-      "title_zh": "A Consensus-Based Framework for Relative Preference Evaluation of Large Language Models",
-      "summary_zh": "arXiv:2607.21632v1 Announce Type: new \nAbstract: Traditional benchmarks for LLMs primarily rely on static datasets and objective scoring metrics, which often fail to capture differences in response quality when multiple answers are acceptable. In...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.21632v1 Announce Type: new \nAbstract: Traditional benchmarks for LLMs primarily rely on s",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e7047833ea6e",
-      "title_zh": "Evaluation design conditions the expert-vs-auto MeSH gap: a controlled comparison of bag-of-words and BiomedBERT on the Cohen benchmark",
-      "summary_zh": "arXiv:2607.21685v1 Announce Type: new \nAbstract: A systematic review begins with someone reading thousands of abstracts to identify the few that are relevant, and classifiers are used to prioritise that reading. Their inputs are often augmented...",
+      "id": "c4e109ea76ee",
+      "title_zh": "SCOPE and SCION: A Benchmark and an Auditable Reference Pipeline for Schema Induction and Fusion from Text",
+      "summary_zh": "arXiv:2607.21610v1 Announce Type: new \nAbstract: Schema graphs are an upstream bottleneck of schema-grounded information extraction and knowledge graph construction, yet most extraction systems assume the schema is already available. We introduce...",
       "tags_zh": [
         "Benchmark"
       ],
-      "oneliner": "arXiv:2607.21685v1 Announce Type: new \nAbstract: A systematic review begins with someone reading tho",
+      "oneliner": "arXiv:2607.21610v1 Announce Type: new \nAbstract: Schema graphs are an upstream bottleneck of schema-",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -165,11 +218,11 @@
       }
     },
     {
-      "id": "610487a730d5",
-      "title_zh": "Humanly: A Configurable and Traceable Environment for Human-AI Collaborative Writing",
-      "summary_zh": "arXiv:2607.21758v1 Announce Type: new \nAbstract: Teachers, conference chairs, and public readers all judge writing from limited evidence, seeing only a finished document and not the process that produced it. Final text alone cannot reveal whether...",
+      "id": "aea0056f4c3d",
+      "title_zh": "Procedural Knowledge Is Not Low-Rank: Why LoRA Fails to Internalize Multi-Step Procedures",
+      "summary_zh": "arXiv:2607.21612v1 Announce Type: new \nAbstract: Parameter-efficient fine-tuning methods like LoRA have become the default for adapting large language models, succeeding across instruction following, style transfer, and factual adaptation. We...",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.21758v1 Announce Type: new \nAbstract: Teachers, conference chairs, and public readers all",
+      "oneliner": "arXiv:2607.21612v1 Announce Type: new \nAbstract: Parameter-efficient fine-tuning methods like LoRA h",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -177,13 +230,13 @@
       }
     },
     {
-      "id": "c8980b18dbfe",
-      "title_zh": "Probing Latent Colombian Identity Inferences in Qwen2.5-7B with Natural Language Autoencoders",
-      "summary_zh": "arXiv:2607.21774v1 Announce Type: new \nAbstract: Large language models may infer demographic attributes from subtle linguistic cues even when those attributes are not explicitly stated. This pilot study examines whether Qwen2.5-7B-Instruct...",
+      "id": "591530be4bd3",
+      "title_zh": "The Hard Decision Layer: Evidence for Committed Inference in Transformers",
+      "summary_zh": "arXiv:2607.21613v1 Announce Type: new \nAbstract: We investigate where and how transformer-based language models commit to predictions in multiple-choice question answering. We identify the _Hard Decision Layer_ (HDL), a natural architectural...",
       "tags_zh": [
-        "Qwen"
+        "Transformer"
       ],
-      "oneliner": "arXiv:2607.21774v1 Announce Type: new \nAbstract: Large language models may infer demographic attribu",
+      "oneliner": "arXiv:2607.21613v1 Announce Type: new \nAbstract: We investigate where and how transformer-based lang",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -191,13 +244,13 @@
       }
     },
     {
-      "id": "e8b5da140f7e",
-      "title_zh": "Khondo: A Multimodal Benchmark for Document Packet Splitting of Bangla Forms",
-      "summary_zh": "arXiv:2607.21780v1 Announce Type: new \nAbstract: Document packets, multiple documents concatenated into a single file, are common in government and administrative workflows, yet splitting them into their constituent documents is difficult,...",
+      "id": "09003bf90817",
+      "title_zh": "Household Movement Detection in Mixed-Format Occupancy Data Using LLM-Based Entity Resolution",
+      "summary_zh": "arXiv:2607.21614v1 Announce Type: new \nAbstract: Entity resolution (ER) typically relies on pairwise similarity comparisons between records, which limits its ability to capture indirect relationships present in demographic occupancy data. An...",
       "tags_zh": [
-        "Benchmark"
+        "LLM"
       ],
-      "oneliner": "arXiv:2607.21780v1 Announce Type: new \nAbstract: Document packets, multiple documents concatenated i",
+      "oneliner": "arXiv:2607.21614v1 Announce Type: new \nAbstract: Entity resolution (ER) typically relies on pairwise",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -205,65 +258,11 @@
       }
     },
     {
-      "id": "337c3d377384",
-      "title_zh": "Agentic Evaluation of Copyright Law Compliance",
-      "summary_zh": "arXiv:2607.21799v1 Announce Type: new \nAbstract: Large language model (LLM) agents increasingly perform commercial tasks that involve retrieving external content such as images and, where appropriate, reproducing that content. LLM agents should...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2607.21799v1 Announce Type: new \nAbstract: Large language model (LLM) agents increasingly perf",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f2fc0ac0bd22",
-      "title_zh": "Data Quality over Capacity: Internalizing Documents into LoRA Adapters for Closed-Book QA",
-      "summary_zh": "arXiv:2607.21861v1 Announce Type: new \nAbstract: We study baking documents directly into the weights of a 4-bit Gemma-4-e4b model via LoRA, so a system can answer questions about a corpus closed-book: no retrieval and no context-window budget....",
+      "id": "00dceeaef991",
+      "title_zh": "FrED: External Data Influence Estimation via Domain Knowledge Graph Grounding",
+      "summary_zh": "arXiv:2607.21615v1 Announce Type: new \nAbstract: The rapid deployment of generative AI has amplified the critical need for Training Data Attribution to ensure transparency and accountability. However, current parametric approaches require...",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.21861v1 Announce Type: new \nAbstract: We study baking documents directly into the weights",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a6e16f71424f",
-      "title_zh": "Leveraging External Knowledge for Historical Document Restoration via Retrieval-Augmented Large Language Models",
-      "summary_zh": "arXiv:2607.21936v1 Announce Type: new \nAbstract: Historical documents act as invaluable knowledge archives but often suffer from illegibility due to physical deterioration and damage. While existing restoration methods based on masked language...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "arXiv:2607.21936v1 Announce Type: new \nAbstract: Historical documents act as invaluable knowledge ar",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b24437c14695",
-      "title_zh": "On Improving Faithfulness of Podcasts from Documents",
-      "summary_zh": "arXiv:2607.21961v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used to generate long-form conversational content such as podcasts from textual sources. While these systems produce fluent and engaging narratives,...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.21961v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a9c9004e7344",
-      "title_zh": "Ground Truth First: A Longitudinal Evaluation Instrument for Agent Memory, and the Tenure Crossover in Memory-Architecture Rankings",
-      "summary_zh": "arXiv:2607.21962v1 Announce Type: new \nAbstract: Benchmarks for LLM-agent memory typically generate conversations first and extract answer keys afterwards -- with documented label-error and contamination problems -- and they overwhelmingly...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2607.21962v1 Announce Type: new \nAbstract: Benchmarks for LLM-agent memory typically generate ",
+      "oneliner": "arXiv:2607.21615v1 Announce Type: new \nAbstract: The rapid deployment of generative AI has amplified",
       "key_facts": [],
       "notable_quote": {
         "text": "",
