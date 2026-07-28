@@ -1,18 +1,18 @@
 {
-  "updated": "2026-07-28T10:42:48Z",
-  "total": 289,
+  "updated": "2026-07-28T17:42:07Z",
+  "total": 255,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "MarkTechPost",
-      "count": 32
+      "count": 30
     },
     {
       "name": "GitHub Trending",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 13
+      "count": 11
     },
     {
       "name": "Synced",
@@ -42,54 +42,42 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 50
+      "count": 47
     },
     {
       "name": "LLM",
-      "count": 45
+      "count": 38
     },
     {
       "name": "Benchmark",
-      "count": 18
+      "count": 16
     },
     {
       "name": "OpenAI",
-      "count": 11
-    },
-    {
-      "name": "RAG",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Claude",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Google",
       "count": 7
     },
     {
-      "name": "Fine-tune",
-      "count": 5
-    },
-    {
-      "name": "Diffusion",
-      "count": 5
+      "name": "RAG",
+      "count": 7
     },
     {
       "name": "API",
-      "count": 5
-    },
-    {
-      "name": "Meta",
-      "count": 4
-    },
-    {
-      "name": "GPT",
-      "count": 4
+      "count": 6
     },
     {
       "name": "Gemini",
+      "count": 5
+    },
+    {
+      "name": "GPT",
       "count": 4
     },
     {
@@ -97,11 +85,19 @@
       "count": 4
     },
     {
+      "name": "Microsoft",
+      "count": 3
+    },
+    {
       "name": "Anthropic",
       "count": 3
     },
     {
-      "name": "Transformer",
+      "name": "Fine-tune",
+      "count": 3
+    },
+    {
+      "name": "Diffusion",
       "count": 3
     },
     {
@@ -109,23 +105,27 @@
       "count": 3
     },
     {
-      "name": "Microsoft",
-      "count": 2
+      "name": "Meta",
+      "count": 3
     },
     {
       "name": "Llama",
       "count": 2
     },
     {
-      "name": "Prompt",
-      "count": 2
-    },
-    {
-      "name": "RLHF",
+      "name": "Transformer",
       "count": 2
     },
     {
       "name": "Qwen",
+      "count": 1
+    },
+    {
+      "name": "Prompt",
+      "count": 1
+    },
+    {
+      "name": "RLHF",
       "count": 1
     },
     {
@@ -136,7 +136,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 207
+      "count": 175
     },
     {
       "name": "开源项目",
@@ -148,7 +148,7 @@
     },
     {
       "name": "产品/API",
-      "count": 13
+      "count": 11
     }
   ],
   "dailyTrend": [
@@ -174,7 +174,7 @@
     },
     {
       "date": "07-28",
-      "count": 36
+      "count": 46
     },
     {
       "date": "08-14",
@@ -189,58 +189,58 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "be8acfaf1118",
-      "title": "pbakaus /impeccable",
+      "id": "b627289da26a",
+      "title": "andrewyng /aisuite",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "9cd514d03f14",
-      "title": "alibaba /open-code-review",
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "1660d85584af",
-      "title": "Armenia’s AI Bet Is Not Chip Manufacturing. It Is Compute Sovereignty",
+      "id": "861d4c5ecdff",
+      "title": "huggingface /speech-to-speech",
       "score": 5,
-      "source": "AI News"
+      "source": "GitHub Trending"
     },
     {
-      "id": "9ba89d4ce57f",
-      "title": "Microsoft AI Releases MAI-Cyber-1-Flash: A 5B-Active-Parameter Cyber Model That Pushes MDASH to 95.95% on CyberGym",
+      "id": "2b9d770ccfd9",
+      "title": "microsoft /agent-governance-toolkit",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "21917608727f",
-      "title": "Deploying a 1-Bit Bonsai-27B Model with PrismML llama.cpp and OpenAI-Compatible Local Inference Workflows",
+      "id": "8cc1ba4abc29",
+      "title": "Scientific computing in the age of agentic AI",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "OpenAI"
     },
     {
-      "id": "8d23ebd1b276",
-      "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+      "id": "f57b088c9d04",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "Hugging Face"
     },
     {
-      "id": "9be98bbc887a",
-      "title": "Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals",
+      "id": "85f9e2233c0c",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "Google AI"
     },
     {
-      "id": "3562d30ea97b",
-      "title": "Securing Multimodal AI through Internal Information Decomposition",
+      "id": "9a40059e627f",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "Hugging Face"
     },
     {
-      "id": "02727977114e",
-      "title": "From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction",
+      "id": "ed733c91dec4",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "Google AI"
     }
   ]
 }
