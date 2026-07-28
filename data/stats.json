@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-27T17:49:31Z",
-  "total": 270,
+  "updated": "2026-07-28T02:41:23Z",
+  "total": 272,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 31
     },
     {
       "name": "GitHub Trending",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Hugging Face",
-      "count": 17
+      "count": 16
     },
     {
       "name": "OpenAI",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 47
+      "count": 50
     },
     {
       "name": "LLM",
@@ -61,24 +61,24 @@
       "count": 9
     },
     {
-      "name": "Google",
+      "name": "Claude",
       "count": 7
     },
     {
-      "name": "Claude",
-      "count": 6
+      "name": "Google",
+      "count": 7
     },
     {
       "name": "Fine-tune",
       "count": 5
     },
     {
-      "name": "Diffusion",
+      "name": "API",
       "count": 5
     },
     {
-      "name": "API",
-      "count": 4
+      "name": "Diffusion",
+      "count": 5
     },
     {
       "name": "Meta",
@@ -136,11 +136,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 188
+      "count": 191
     },
     {
       "name": "开源项目",
-      "count": 40
+      "count": 39
     },
     {
       "name": "模型发布",
@@ -152,10 +152,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-22",
-      "count": 32
-    },
     {
       "date": "07-23",
       "count": 56
@@ -175,6 +171,10 @@
     {
       "date": "07-27",
       "count": 40
+    },
+    {
+      "date": "07-28",
+      "count": 3
     },
     {
       "date": "08-14",
@@ -201,6 +201,24 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "bb9255bcb9ec",
+      "title": "Kimi AI and kvcache-ai Open Sources ‘AgentENV’: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "1f4b87705fc7",
+      "title": "Designing Skill-Driven Financial Analysis Agents with Claude, Python, MCP Connectors, and Automated Deliverables",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "7966439dda81",
+      "title": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "7a04ab0d5258",
       "title": "How AI is shortening drug discovery timelines in China",
       "score": 5,
@@ -221,24 +239,6 @@
     {
       "id": "4cffa154bb6c",
       "title": "Adversarial Style Optimization: Enhancing VLM Jailbreaks by GRPO-based Stylistic Triggers Optimization",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "d73c25e8dfe8",
-      "title": "A Consensus-Based Framework for Relative Preference Evaluation of Large Language Models",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "e7047833ea6e",
-      "title": "Evaluation design conditions the expert-vs-auto MeSH gap: a controlled comparison of bag-of-words and BiomedBERT on the Cohen benchmark",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "610487a730d5",
-      "title": "Humanly: A Configurable and Traceable Environment for Human-AI Collaborative Writing",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }

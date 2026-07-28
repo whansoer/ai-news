@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-27T17:49:40Z",
+  "updated": "2026-07-28T02:41:33Z",
   "total": 228,
-  "new_count": 41,
+  "new_count": 44,
   "items": [
     {
       "id": "ebe69a8411ca",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows...",
-      "published": "2026-07-27T17:46:59Z",
+      "published": "2026-07-28T02:39:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The design language that makes your AI harness better at design.",
-      "published": "2026-07-27T17:46:59Z",
+      "published": "2026-07-28T02:39:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -56,7 +56,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-07-27T17:46:59Z",
+      "published": "2026-07-28T02:39:00Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -83,6 +83,91 @@
         "Fine-tune"
       ],
       "oneliner": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: determi"
+    },
+    {
+      "id": "bb9255bcb9ec",
+      "title": "Kimi AI and kvcache-ai Open Sources ‘AgentENV’: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
+      "url": "https://www.marktechpost.com/2026/07/27/kimi-ai-and-kvcache-ai-open-sources-agentenv/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Moonshot AI's Kimi team and kvcache-ai open-sourced AgentENV (AENV) under MIT, as part of Kimi K3 Open Day. It runs agent sandboxes as Firecracker microVMs with millisecond snapshot, resume, and 16-way fork, behind an E2B-compatible API.\nThe post...",
+      "published": "2026-07-27T20:48:53Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Kimi AI and kvcache-ai Open Sources ‘AgentENV’: A Distributed System that Powers Agentic Reinforcement Learning (RL) Training for Kimi K3",
+      "summary_zh": "Moonshot AI's Kimi team and kvcache-ai open-sourced AgentENV (AENV) under MIT, as part of Kimi K3 Open Day. It runs agent sandboxes as Firecracker microVMs with millisecond snapshot, resume, and 16-way fork, behind an E2B-compatible API.\nThe post...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Moonshot AI's Kimi team and kvcache-ai open-sourced AgentENV (AENV) under MIT, as part of Kimi K3 Op"
+    },
+    {
+      "id": "1f4b87705fc7",
+      "title": "Designing Skill-Driven Financial Analysis Agents with Claude, Python, MCP Connectors, and Automated Deliverables",
+      "url": "https://www.marktechpost.com/2026/07/27/designing-skill-driven-financial-analysis-agents-with-claude-python-mcp-connectors-and-automated-deliverables/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build an advanced workflow around Anthropic’s financial-services repository and reproduce its skill-driven architecture in pure Python. We begin by installing the required libraries, cloning the repository, and...",
+      "published": "2026-07-27T18:08:24Z",
+      "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Designing Skill-Driven Financial Analysis Agents with Claude, Python, MCP Connectors, and Automated Deliverables",
+      "summary_zh": "In this tutorial, we build an advanced workflow around Anthropic’s financial-services repository and reproduce its skill-driven architecture in pure Python. We begin by installing the required libraries, cloning the repository, and...",
+      "tags_zh": [
+        "Claude",
+        "Agent"
+      ],
+      "oneliner": "In this tutorial, we build an advanced workflow around Anthropic’s financial-services repository and"
+    },
+    {
+      "id": "7966439dda81",
+      "title": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents",
+      "url": "https://www.marktechpost.com/2026/07/27/perplexity-releases-pplx/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Perplexity has released pplx, an official command line client for its Search API. The tool exposes two commands — pplx search web and pplx content fetch — and returns exactly one JSON object on stdout. It ships as a checksum-verified single...",
+      "published": "2026-07-27T16:32:47Z",
+      "tags": [
+        "Agent",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Perplexity Releases pplx, a Single-Binary CLI That Puts Its Search API in the Terminal for Coding Agents",
+      "summary_zh": "Perplexity has released pplx, an official command line client for its Search API. The tool exposes two commands — pplx search web and pplx content fetch — and returns exactly one JSON object on stdout. It ships as a checksum-verified single...",
+      "tags_zh": [
+        "Agent",
+        "API"
+      ],
+      "oneliner": "Perplexity has released pplx, an official command line client for its Search API. The tool exposes t"
     },
     {
       "id": "7a04ab0d5258",
@@ -454,10 +539,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "MoE$^2$-LoRA: When MoE Models Meet MoE-style Low-Rank Adaptation",
-      "summary_zh": "arXiv:2607.21978v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) architectures have been widely adopted in large language models, yet parameter-efficient fine-tuning (PEFT) for MoE models remains underexplored. Existing PEFT methods for...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.21978v1 Announce Type: new \nAbstract: Mixture-of-Experts (MoE) architectures have been wi"
+      "oneliner": ""
     },
     {
       "id": "3b5dd8746936",
@@ -477,10 +562,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Analyzing Toxic Behavior and Its Impact on the Mastodon Community",
-      "summary_zh": "arXiv:2607.21980v1 Announce Type: new \nAbstract: Mastodon as a decentralized federation of independently moderated social servers poses unique challenges for the detection and mitigation of toxic content. There are no unified moderation...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.21980v1 Announce Type: new \nAbstract: Mastodon as a decentralized federation of independe"
+      "oneliner": ""
     },
     {
       "id": "dd47111b3682",
@@ -500,10 +585,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "J-CoT: Chain-of-Thought in J-Space",
-      "summary_zh": "arXiv:2607.21981v1 Announce Type: new \nAbstract: Chain-of-thought prompting improves language-model reasoning by carrying intermediate states across successive computation steps. However, relying on natural language as the only recurrent...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2607.21981v1 Announce Type: new \nAbstract: Chain-of-thought prompting improves language-model "
+      "oneliner": ""
     },
     {
       "id": "c929bdb9db44",
@@ -5539,73 +5624,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4e39045e2d76",
-      "title": "Grabette: an open system to record robot-manipulation data",
-      "url": "https://huggingface.co/blog/grabette",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-07-21T00:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "10666aebf14a",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
-      "published": "2026-07-21T00:00:00Z",
-      "tags": [
-        "OpenAI"
-      ],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "07a59789a1f9"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "67da95f7c69f",
-      "title": "Alibaba’s Tongyi Lab Releases Qwen-Audio-3.0-TTS, a Hosted Text-to-Speech Model in Flash and Plus Tiers Across 16 Languages",
-      "url": "https://www.marktechpost.com/2026/07/20/alibabas-tongyi-lab-releases-qwen-audio-3-0-tts-a-hosted-text-to-speech-model-in-flash-and-plus-tiers-across-16-languages/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Alibaba&#8217;s Tongyi Lab has released Qwen-Audio-3.0-TTS, a production-oriented text-to-speech (TTS) system. The model ships in two variants from the same lineage. Flash targets real-time interaction. Plus targets high-quality generation. Both...",
-      "published": "2026-07-20T21:14:19Z",
-      "tags": [
-        "Qwen"
-      ],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
