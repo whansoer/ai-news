@@ -1,29 +1,29 @@
 {
-  "updated": "2026-07-29T02:48:13Z",
-  "total": 267,
+  "updated": "2026-07-29T10:46:52Z",
+  "total": 300,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 75
+      "name": "ArXiv (cs.CL)",
+      "count": 90
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 75
+      "name": "ArXiv (cs.AI)",
+      "count": 90
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 30
     },
     {
       "name": "GitHub Trending",
       "count": 23
     },
     {
-      "name": "Hugging Face",
-      "count": 16
+      "name": "OpenAI",
+      "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -31,26 +31,26 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 9
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 52
+      "count": 58
     },
     {
       "name": "LLM",
-      "count": 41
+      "count": 46
     },
     {
       "name": "Benchmark",
-      "count": 16
+      "count": 17
     },
     {
       "name": "OpenAI",
@@ -61,23 +61,27 @@
       "count": 8
     },
     {
+      "name": "Google",
+      "count": 7
+    },
+    {
+      "name": "Diffusion",
+      "count": 7
+    },
+    {
+      "name": "RAG",
+      "count": 7
+    },
+    {
       "name": "API",
       "count": 6
     },
     {
-      "name": "Google",
-      "count": 6
-    },
-    {
-      "name": "RAG",
-      "count": 6
-    },
-    {
-      "name": "Gemini",
+      "name": "Meta",
       "count": 4
     },
     {
-      "name": "Diffusion",
+      "name": "Gemini",
       "count": 4
     },
     {
@@ -93,6 +97,10 @@
       "count": 3
     },
     {
+      "name": "Transformer",
+      "count": 3
+    },
+    {
       "name": "Anthropic",
       "count": 3
     },
@@ -105,15 +113,7 @@
       "count": 3
     },
     {
-      "name": "Meta",
-      "count": 3
-    },
-    {
       "name": "Llama",
-      "count": 2
-    },
-    {
-      "name": "Transformer",
       "count": 2
     },
     {
@@ -136,11 +136,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 220
     },
     {
       "name": "开源项目",
-      "count": 39
+      "count": 38
     },
     {
       "name": "模型发布",
@@ -148,7 +148,7 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -170,11 +170,11 @@
     },
     {
       "date": "07-28",
-      "count": 57
+      "count": 59
     },
     {
       "date": "07-29",
-      "count": 4
+      "count": 37
     },
     {
       "date": "08-14",
@@ -213,34 +213,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "8cc1ba4abc29",
-      "title": "Scientific computing in the age of agentic AI",
+      "id": "6b8a55852aa9",
+      "title": "Google AI Overviews become more common in search",
       "score": 5,
-      "source": "OpenAI"
+      "source": "AI News"
     },
     {
-      "id": "f57b088c9d04",
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "id": "83afb0c273ea",
+      "title": "Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "MarkTechPost"
     },
     {
-      "id": "85f9e2233c0c",
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "id": "4f733c728cb5",
+      "title": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking",
       "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "9a40059e627f",
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "id": "b39d5d2f3505",
+      "title": "Measuring and Improving Behavioral Consistency in Large Language Models through Fact-Heuristic-Emotion State Enforcement",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "ed733c91dec4",
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "id": "5efc18a7a830",
+      "title": "Neuromorphic Diffusion Language Models: Addressing Compute and Memory Bottlenecks via Sparsity and Block Denoising",
       "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
