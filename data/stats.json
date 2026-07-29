@@ -1,22 +1,22 @@
 {
-  "updated": "2026-07-29T10:46:52Z",
-  "total": 300,
+  "updated": "2026-07-29T17:23:00Z",
+  "total": 280,
   "sources": [
-    {
-      "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 90
     },
     {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
+    {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 28
     },
     {
       "name": "GitHub Trending",
-      "count": 23
+      "count": 20
     },
     {
       "name": "OpenAI",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 54
     },
     {
       "name": "LLM",
-      "count": 46
+      "count": 42
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 15
     },
     {
       "name": "OpenAI",
@@ -61,31 +61,27 @@
       "count": 8
     },
     {
-      "name": "Google",
-      "count": 7
-    },
-    {
       "name": "Diffusion",
       "count": 7
     },
     {
+      "name": "Google",
+      "count": 6
+    },
+    {
       "name": "RAG",
-      "count": 7
+      "count": 6
     },
     {
       "name": "API",
       "count": 6
     },
     {
-      "name": "Meta",
-      "count": 4
-    },
-    {
-      "name": "Gemini",
-      "count": 4
-    },
-    {
       "name": "GPT",
+      "count": 5
+    },
+    {
+      "name": "Microsoft",
       "count": 4
     },
     {
@@ -93,11 +89,15 @@
       "count": 4
     },
     {
-      "name": "Microsoft",
+      "name": "Transformer",
       "count": 3
     },
     {
-      "name": "Transformer",
+      "name": "Meta",
+      "count": 3
+    },
+    {
+      "name": "Gemini",
       "count": 3
     },
     {
@@ -106,19 +106,19 @@
     },
     {
       "name": "Fine-tune",
-      "count": 3
-    },
-    {
-      "name": "GPU",
-      "count": 3
-    },
-    {
-      "name": "Llama",
       "count": 2
     },
     {
       "name": "Prompt",
       "count": 2
+    },
+    {
+      "name": "GPU",
+      "count": 2
+    },
+    {
+      "name": "Llama",
+      "count": 1
     },
     {
       "name": "Qwen",
@@ -127,20 +127,16 @@
     {
       "name": "RLHF",
       "count": 1
-    },
-    {
-      "name": "开源",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 220
+      "count": 203
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 35
     },
     {
       "name": "模型发布",
@@ -162,7 +158,7 @@
     },
     {
       "date": "07-26",
-      "count": 7
+      "count": 6
     },
     {
       "date": "07-27",
@@ -174,7 +170,7 @@
     },
     {
       "date": "07-29",
-      "count": 37
+      "count": 42
     },
     {
       "date": "08-14",
@@ -185,12 +181,6 @@
     {
       "id": "ebe69a8411ca",
       "title": "moeru-ai /airi",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "b627289da26a",
-      "title": "andrewyng /aisuite",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -207,6 +197,36 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "104b57e9a431",
+      "title": "microsoft /VibeVoice",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "2c86d2ef6461",
+      "title": "different-ai /openwork",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "a16ac88ada68",
+      "title": "OpenAI report links coding agents to faster science software builds",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "b627289da26a",
+      "title": "andrewyng /aisuite",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "2b9d770ccfd9",
       "title": "microsoft /agent-governance-toolkit",
       "score": 5,
@@ -217,30 +237,6 @@
       "title": "Google AI Overviews become more common in search",
       "score": 5,
       "source": "AI News"
-    },
-    {
-      "id": "83afb0c273ea",
-      "title": "Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "4f733c728cb5",
-      "title": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "b39d5d2f3505",
-      "title": "Measuring and Improving Behavioral Consistency in Large Language Models through Fact-Heuristic-Emotion State Enforcement",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "5efc18a7a830",
-      "title": "Neuromorphic Diffusion Language Models: Addressing Compute and Memory Bottlenecks via Sparsity and Block Denoising",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
