@@ -1,7 +1,7 @@
 {
-  "updated": "2026-07-28T17:42:17Z",
-  "total": 213,
-  "new_count": 48,
+  "updated": "2026-07-29T02:48:22Z",
+  "total": 225,
+  "new_count": 54,
   "items": [
     {
       "id": "ebe69a8411ca",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows...",
-      "published": "2026-07-28T17:39:32Z",
+      "published": "2026-07-29T02:45:39Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Simple, unified interface to multiple Generative AI providers",
-      "published": "2026-07-28T17:39:32Z",
+      "published": "2026-07-29T02:45:39Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -56,7 +56,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-07-28T17:39:32Z",
+      "published": "2026-07-29T02:45:39Z",
       "tags": [
         "Claude",
         "Agent"
@@ -85,7 +85,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Build local voice agents with open-source models",
-      "published": "2026-07-28T17:39:32Z",
+      "published": "2026-07-29T02:45:39Z",
       "tags": [
         "Agent"
       ],
@@ -593,9 +593,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
+        "level": "multi-source",
+        "corroborating_ids": [
+          "2c20a38122c0"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -788,10 +790,11 @@
         "level": "multi-source",
         "corroborating_ids": [
           "abd429f9192e",
+          "78bb406caef5",
           "6a4912dcfef3",
           "4959caa5d7cf"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1123,9 +1126,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "0b1d2fad412a"
+          "0b1d2fad412a",
+          "78bb406caef5"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1145,6 +1149,335 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2c20a38122c0",
+      "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+      "url": "https://arxiv.org/abs/2607.22544",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22544v1 Announce Type: new \nAbstract: Visual counterfactual explanations aim to answer \"what minimal change to this image would flip the model's prediction?\", and are increasingly important as vision models are deployed in...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "2699f06212c0"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7e3b83a653fe",
+      "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+      "url": "https://arxiv.org/abs/2607.22548",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22548v1 Announce Type: new \nAbstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "351fdd7fd732",
+      "title": "QFoldAgent: An Autonomous Quantum Optimization Multi-Agent System for Protein Structure Prediction",
+      "url": "https://arxiv.org/abs/2607.22549",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22549v1 Announce Type: new \nAbstract: Hybrid quantum-classical protein structure prediction depends strongly on Hamiltonian penalty weights, yet existing lattice-based workflows typically fix these coefficients by hand and evaluate...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3b6a8532d721",
+      "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
+      "url": "https://arxiv.org/abs/2607.22554",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22554v1 Announce Type: new \nAbstract: Large language models (LLMs) often achieve strong accuracy on benchmarks, yet it remains unclear how reliably they apply this knowledge when the same question is phrased in different but equivalent...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a13418747cc1",
+      "title": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+      "url": "https://arxiv.org/abs/2607.22555",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22555v1 Announce Type: new \nAbstract: Medical diagnosis is a multi-stage process: extract facts, consult knowledge, generate a differential analysis, and select the best diagnosis with explanations. Frontier LLMs are strong...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c18262666a11",
+      "title": "MIITA: Memory-Induced Inference-Time Adaptation for Continual Learning with Small Language Models",
+      "url": "https://arxiv.org/abs/2607.22556",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22556v1 Announce Type: new \nAbstract: Continual learning (CL) is essential for small language models (SLMs) to adapt to evolving real-world needs in resource-constrained deployments. However, directly updating their limited parameter...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f3e17f633a01",
+      "title": "Codifying the Judge: Scalable Evaluation via Program Distillation",
+      "url": "https://arxiv.org/abs/2607.22561",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22561v1 Announce Type: new \nAbstract: LLM-as-a-judge has become the standard for automated evaluation, but it suffers from high cost, significant latency, and opaque decisions -- limitations that undermine its scalability and...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7668c2c03324",
+      "title": "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent",
+      "url": "https://arxiv.org/abs/2607.22562",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22562v1 Announce Type: new \nAbstract: Managing long-context dependencies remains a primary bottleneck in LLM agents, as redundant and irrelevant information can degrade multi-step reasoning. Strategic Forgetting for Agent Memory...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6374b235e521",
+      "title": "Synthetic Scenario Generation for Evaluation of Industry 4.0 Agents",
+      "url": "https://arxiv.org/abs/2607.22563",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22563v1 Announce Type: new \nAbstract: Industrial agent benchmarks require realistic evaluation scenarios that integrate telemetry, failure modes, maintenance records, and domain standards. However, existing benchmarks such as...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7d2e7f6db423",
+      "title": "Loss-Aware Feature-Map Pruning in Convolutional Neural Networks Using Multi-Armed Bandits",
+      "url": "https://arxiv.org/abs/2607.22564",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22564v1 Announce Type: new \nAbstract: Convolutional neural networks often contain redundant feature maps that increase storage and inference cost. This paper presents a loss-aware feature-map pruning framework using multi-armed...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "006248776959",
+      "title": "DSTFView: Multi-View Cloud-Edge Workload Forecasting with Dual-Input Spatio-Temporal-Frequency Modeling",
+      "url": "https://arxiv.org/abs/2607.22565",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22565v1 Announce Type: new \nAbstract: With the widespread deployment of edge-side AI inference, edge platforms are increasingly required to support latency-sensitive, highly concurrent, and reliability-critical applications. However,...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "78bb406caef5",
+      "title": "MedLoCoMo: A Long-Context Multi-Session Medical Dialogue Benchmark for Large Language Models",
+      "url": "https://arxiv.org/abs/2607.22566",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22566v1 Announce Type: new \nAbstract: MedLoCoMo is a Medical Long-Context Memory benchmark for patient-specific clinical reasoning over multi-admission medical dialogue. Existing medical QA benchmarks largely test short context...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "0b1d2fad412a",
+          "abd429f9192e"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8759bf8deab7",
+      "title": "Keyword Matters: Unveiling the Energy Sensitivity of On-Device LLM Prompting",
+      "url": "https://arxiv.org/abs/2607.22568",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22568v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed on mobile and embedded devices to improve privacy and reduce network latency. Yet on-device inference faces a fundamental constraint: high...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Prompt"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a4dcadd635bd",
+      "title": "Execution-Grounded Security Testing for Coding Agents in Software Engineering Pipelines",
+      "url": "https://arxiv.org/abs/2607.22569",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22569v1 Announce Type: new \nAbstract: Coding agents are increasingly integrated into system operations, where their tool use can directly modify project artifacts, execution environments, and the underlying system. For example, if a...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "7966439dda81"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "958c8007467a",
+      "title": "Reference Feature Atlases for Mechanistic Auditing of Language Models",
+      "url": "https://arxiv.org/abs/2607.22570",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2607.22570v1 Announce Type: new \nAbstract: Auditing a new language model usually means relearning and reinterpreting its internal features from scratch. We propose a reference feature atlas: a sparse feature library trained once on a...",
+      "published": "2026-07-28T04:00:00Z",
+      "tags": [],
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
@@ -1223,9 +1556,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
+        "level": "multi-source",
+        "corroborating_ids": [
+          "a4dcadd635bd"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1751,6 +2086,27 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "45ee50f08ad3",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-07-27T00:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4478,10 +4834,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "71f66b17dd4b",
-          "629a5fdfb088"
+          "71f66b17dd4b"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5141,103 +5496,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5b878e0f0f7e",
-      "title": "Poolside Releases Laguna S 2.1, an Open-Weight Agentic Coding Model Punching Above Its Weight Class on SWE-Bench Multilingual",
-      "url": "https://www.marktechpost.com/2026/07/21/poolside-releases-laguna-s-2-1/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Poolside has released Laguna S 2.1, a 118B open-weight Mixture-of-Experts coding model with 8B active parameters per token and a 1M-token context. It matches or beats models several times its size on agentic coding benchmarks, ships under...",
-      "published": "2026-07-22T00:01:32Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0723f553c0b8",
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "url": "https://openai.com/index/ntt-data",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "published": "2026-07-22T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4be8433189bb",
-      "title": "The State of Simulation for Physical AI: An Overview",
-      "url": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-07-21T20:00:27Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "71f66b17dd4b",
-      "title": "Google Releases Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber: A Cheaper, More Token-Efficient Flash Tier Built for Agentic Workloads",
-      "url": "https://www.marktechpost.com/2026/07/21/google-releases-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber-a-cheaper-more-token-efficient-flash-tier-built-for-agentic-workloads/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Google released Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber on July 21, 2026. The Flash tier gets cheaper and more token-efficient, with 3.6 Flash cutting output tokens 17% and dropping its output price to $7.50 per 1M. Flash-Lite runs...",
-      "published": "2026-07-21T17:45:08Z",
-      "tags": [
-        "Gemini",
-        "Google",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "bf18d69a0505",
-          "629a5fdfb088"
-        ],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
