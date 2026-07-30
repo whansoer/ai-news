@@ -1,29 +1,29 @@
 {
-  "updated": "2026-07-30T10:32:32Z",
-  "total": 313,
+  "updated": "2026-07-30T17:43:22Z",
+  "total": 265,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 105
+      "name": "ArXiv (cs.CL)",
+      "count": 75
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 90
+      "name": "ArXiv (cs.AI)",
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 28
     },
     {
       "name": "GitHub Trending",
-      "count": 20
-    },
-    {
-      "name": "OpenAI",
-      "count": 15
+      "count": 22
     },
     {
       "name": "Hugging Face",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Synced",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 56
     },
     {
       "name": "LLM",
-      "count": 47
+      "count": 37
     },
     {
       "name": "Benchmark",
-      "count": 18
+      "count": 15
     },
     {
       "name": "OpenAI",
@@ -58,35 +58,35 @@
     },
     {
       "name": "Claude",
-      "count": 9
-    },
-    {
-      "name": "RAG",
-      "count": 9
-    },
-    {
-      "name": "Diffusion",
-      "count": 7
-    },
-    {
-      "name": "Google",
-      "count": 6
+      "count": 8
     },
     {
       "name": "GPT",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "RAG",
+      "count": 7
     },
     {
       "name": "API",
       "count": 6
     },
     {
-      "name": "Prompt",
-      "count": 5
+      "name": "Google",
+      "count": 6
+    },
+    {
+      "name": "Diffusion",
+      "count": 6
     },
     {
       "name": "Microsoft",
-      "count": 4
+      "count": 5
+    },
+    {
+      "name": "Prompt",
+      "count": 5
     },
     {
       "name": "DeepSeek",
@@ -109,12 +109,12 @@
       "count": 3
     },
     {
-      "name": "Anthropic",
-      "count": 3
-    },
-    {
       "name": "GPU",
       "count": 2
+    },
+    {
+      "name": "Anthropic",
+      "count": 1
     },
     {
       "name": "Llama",
@@ -123,20 +123,16 @@
     {
       "name": "Qwen",
       "count": 1
-    },
-    {
-      "name": "RLHF",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 236
+      "count": 188
     },
     {
       "name": "开源项目",
-      "count": 35
+      "count": 37
     },
     {
       "name": "模型发布",
@@ -144,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 10
     }
   ],
   "dailyTrend": [
@@ -170,7 +166,7 @@
     },
     {
       "date": "07-30",
-      "count": 40
+      "count": 46
     },
     {
       "date": "08-14",
@@ -178,6 +174,48 @@
     }
   ],
   "top10": [
+    {
+      "id": "861d4c5ecdff",
+      "title": "huggingface /speech-to-speech",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "e67e2c38cce6",
+      "title": "microsoft /AI-For-Beginners",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "2c86d2ef6461",
+      "title": "different-ai /openwork",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1057d7f3dcb6",
+      "title": "WhiskeySockets /Baileys",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "cb3eddfe11b5",
+      "title": "mvanhorn /last30days-skill",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "d66865b90c76",
+      "title": "ansible /ansible",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "bac0f01a5321",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "score": 5,
+      "source": "Hugging Face"
+    },
     {
       "id": "ebe69a8411ca",
       "title": "moeru-ai /airi",
@@ -191,52 +229,10 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "861d4c5ecdff",
-      "title": "huggingface /speech-to-speech",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "104b57e9a431",
       "title": "microsoft /VibeVoice",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "2c86d2ef6461",
-      "title": "different-ai /openwork",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "1745c4005508",
-      "title": "Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "6dad3e2c3c8b",
-      "title": "Meet Token Saver: An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "ef7d0e672816",
-      "title": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "7ff9545400b4",
-      "title": "Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
