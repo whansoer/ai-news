@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30T02:33:47Z",
+  "updated": "2026-07-30T10:32:42Z",
   "total": 20,
   "items": [
     {
@@ -86,7 +86,34 @@
       }
     },
     {
-      "id": "59b478f409dc",
+      "id": "1745c4005508",
+      "title_zh": "Tencent Open-Sources AngelSpec: A Unified Training Framework for MTP and Block-Parallel Speculative Decoding on Hy3 Models",
+      "summary_zh": "Tencent has released AngelSpec, an open-source torch-native framework for training speculative-decoding draft models across six architectures. It introduces DFly, a block-diffusion drafter with hybrid target conditioning and a hidden-correction...",
+      "tags_zh": [],
+      "oneliner": "Tencent has released AngelSpec, an open-source torch-native framework for training speculative-decod",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6dad3e2c3c8b",
+      "title_zh": "Meet Token Saver: An Open-Source MCP Extension Using Local Hybrid RAG to Cut Claude PDF Token Costs 90-99%",
+      "summary_zh": "Marktechpost AI has released Token Saver, an open-source MCP extension for Claude Desktop that uses local Hybrid RAG to slash PDF token consumption by up to 99% while ensuring absolute document privacy.\nThe post Meet Token Saver: An Open-Source...",
+      "tags_zh": [
+        "Claude",
+        "RAG"
+      ],
+      "oneliner": "Marktechpost AI has released Token Saver, an open-source MCP extension for Claude Desktop that uses ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ef7d0e672816",
       "title_zh": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer",
       "summary_zh": "Three terms now compete for the same line in AI engineering job descriptions. Prompt engineering is the established one. Loop engineering entered the AI vocabulary in late 2025 and dominated developer discussion through June 2026. Graph...",
       "tags_zh": [
@@ -100,13 +127,11 @@
       }
     },
     {
-      "id": "232de1e55cde",
-      "title_zh": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "summary_zh": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by re",
+      "id": "7ff9545400b4",
+      "title_zh": "Moonshot AI Open-Sources MoonEP: A Perfectly Balanced Expert Parallelism Library for MoE Training",
+      "summary_zh": "Moonshot AI has open-sourced MoonEP, an Expert Parallelism (EP) communication library for distributed Mixture-of-Experts (MoE) workloads. The team announced the release as a library built to make expert-parallel communication more efficient at...",
+      "tags_zh": [],
+      "oneliner": "Moonshot AI has open-sourced MoonEP, an Expert Parallelism (EP) communication library for distribute",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -114,157 +139,126 @@
       }
     },
     {
-      "id": "a16ac88ada68",
-      "title_zh": "OpenAI report links coding agents to faster science software builds",
-      "summary_zh": "OpenAI has released a new field report tracking eight scientific computing projects where coding agents cut runtimes. The report documents projects that used Codex on its own in five cases and a combination of Codex and Anthropic&#8217;s Claude...",
+      "id": "9fdb6242b68b",
+      "title_zh": "Large-Scale ChatBot Validation Through Customer Digital Twin Simulations",
+      "summary_zh": "arXiv:2607.26060v1 Announce Type: new \nAbstract: LLM-based chatbots are transforming customer service in regulated domains such as banking, but scalable and cost-effective validation remains a critical barrier to safe deployment. We present a...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.26060v1 Announce Type: new \nAbstract: LLM-based chatbots are transforming customer servic",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ad87878656b4",
+      "title_zh": "Do Methods Support the Claims? Intra-Paper Verification for Peer Review",
+      "summary_zh": "arXiv:2607.26066v1 Announce Type: new \nAbstract: The growing volume of scientific submissions has motivated interest in using large language models (LLMs) to assist peer review. Existing automated novelty assessment approaches typically compare a...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.26066v1 Announce Type: new \nAbstract: The growing volume of scientific submissions has mo",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d9aef94ca07a",
+      "title_zh": "DuplexGen: Adaptive Synthesis of Human-AI Turn-Taking Dialogues",
+      "summary_zh": "arXiv:2607.26178v1 Announce Type: new \nAbstract: Turn-taking is a central component of full-duplex interaction. Which turn-taking behaviors are appropriate varies with the scenario, yet current models apply a single norm regardless of context....",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.26178v1 Announce Type: new \nAbstract: Turn-taking is a central component of full-duplex i",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "0d36bdc9d489",
+      "title_zh": "Choosing Where and How to Moderate: End-to-End Trade-offs in Filter Placement and Response Rewriting",
+      "summary_zh": "arXiv:2607.26200v1 Announce Type: new \nAbstract: Content-moderation classifiers are usually evaluated in isolation, but deployment requires choosing where to intervene and what follows a flag. We evaluate these choices using two end-to-end...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.26200v1 Announce Type: new \nAbstract: Content-moderation classifiers are usually evaluate",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f26308dd2389",
+      "title_zh": "Characterizing Human-Likeness in AI Generated Poetry: A Zero-shot Classification Study",
+      "summary_zh": "arXiv:2607.26221v1 Announce Type: new \nAbstract: With the advancement of AI technologies, Generative AI (GenAI) and human written text have become nearly indistinguishable. Additionally, the global standardization of AI chatbots made academic...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.26221v1 Announce Type: new \nAbstract: With the advancement of AI technologies, Generative",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "aba2b5b87db0",
+      "title_zh": "Steering Instruction Hierarchies at Inference Time",
+      "summary_zh": "arXiv:2607.26228v1 Announce Type: new \nAbstract: Instruction hierarchies are a core safety assumption of language model deployment: higher priority inputs, such as system prompts, should override conflicting lower priority inputs from users or...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.26228v1 Announce Type: new \nAbstract: Instruction hierarchies are a core safety assumptio",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7dfb26bf4c55",
+      "title_zh": "A large-scale corpus of religious radio broadcast transcripts from webstream recordings in the United States",
+      "summary_zh": "arXiv:2607.26249v1 Announce Type: new \nAbstract: Religious radio is a widespread but understudied form of mass communication in the United States, and content-level analysis of it has been constrained by the absence of large-scale transcript...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2607.26249v1 Announce Type: new \nAbstract: Religious radio is a widespread but understudied fo",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f364b157a32a",
+      "title_zh": "Robostreet Flow: A Lightweight, Ultra-Low-Drag Electric Tractor and Four-Truck Hybrid Convoy Architecture for Minimum-Cost Point-to-Point Freight",
+      "summary_zh": "arXiv:2607.26250v1 Announce Type: new \nAbstract: Line-haul trucking costs are dominated by three comparably sized components: energy, driver labor, and equipment. Most efficiency technologies address only one component at a time. This paper...",
       "tags_zh": [
-        "OpenAI",
+        "RAG"
+      ],
+      "oneliner": "arXiv:2607.26250v1 Announce Type: new \nAbstract: Line-haul trucking costs are dominated by three com",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "023d90929536",
+      "title_zh": "Evaluating Prompt Scope and Demonstration Similarity in Local LLM Machine Translation",
+      "summary_zh": "arXiv:2607.26286v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as general-purpose translation systems, but their behavior is usually evaluated under a single prompt shape: translate one source sentence into...",
+      "tags_zh": [
+        "LLM",
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2607.26286v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bcf38a26773e",
+      "title_zh": "AgentGUI: An Interface for Observing and Steering Long-Running AI Agents",
+      "summary_zh": "arXiv:2607.26300v1 Announce Type: new \nAbstract: AI agents are increasingly adept at tackling complex, long-running tasks. With the rapid surge of autonomous capabilities, human oversight is systematically lagging behind due to limited...",
+      "tags_zh": [
         "Agent"
       ],
-      "oneliner": "OpenAI has released a new field report tracking eight scientific computing projects where coding age",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b627289da26a",
-      "title_zh": "andrewyng /aisuite",
-      "summary_zh": "Simple, unified interface to multiple Generative AI providers",
-      "tags_zh": [],
-      "oneliner": "Simple, unified interface to multiple Generative AI providers",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "2b9d770ccfd9",
-      "title_zh": "microsoft /agent-governance-toolkit",
-      "summary_zh": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-      "tags_zh": [
-        "Microsoft",
-        "Agent"
-      ],
-      "oneliner": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and rel",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6b8a55852aa9",
-      "title_zh": "Google AI Overviews become more common in search",
-      "summary_zh": "Google’s AI-generated summaries appeared in 43% of US searches measured by Similarweb, up from 15% a year earlier, according to the market intelligence firm’s 2026 Generative AI Landscape report. AI Overviews display generated summaries within...",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "Google’s AI-generated summaries appeared in 43% of US searches measured by Similarweb, up from 15% a",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e787c3a2ddc0",
-      "title_zh": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "summary_zh": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to ac",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "83afb0c273ea",
-      "title_zh": "Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU",
-      "summary_zh": "Liquid AI released two open-weight bidirectional encoders, LFM2.5-Encoder-230M and LFM2.5-Encoder-350M. Both carry an 8,192-token context and are built on the LFM2 hybrid backbone. The 350M ranks fourth of 14 models on a 17-task GLUE, SuperGLUE,...",
-      "tags_zh": [],
-      "oneliner": "Liquid AI released two open-weight bidirectional encoders, LFM2.5-Encoder-230M and LFM2.5-Encoder-35",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4f733c728cb5",
-      "title_zh": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking",
-      "summary_zh": "arXiv:2607.24750v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are temporally overexposed: trained on vast contemporary corpora, they encode present-day concepts that make them unreliable narrators of the past. We present...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.24750v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are temporally overexp",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b39d5d2f3505",
-      "title_zh": "Measuring and Improving Behavioral Consistency in Large Language Models through Fact-Heuristic-Emotion State Enforcement",
-      "summary_zh": "arXiv:2607.24765v1 Announce Type: new \nAbstract: Large language models (LLMs) can give different answers to the same decision problem across runs, and reverse a decision when their own prior answer returns as context. We ask whether this...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.24765v1 Announce Type: new \nAbstract: Large language models (LLMs) can give different ans",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5efc18a7a830",
-      "title_zh": "Neuromorphic Diffusion Language Models: Addressing Compute and Memory Bottlenecks via Sparsity and Block Denoising",
-      "summary_zh": "arXiv:2607.24841v1 Announce Type: new \nAbstract: Autoregressive (AR) large language models (LLMs) are inherently inefficient at inference time because each generated token requires accessing the full set of model parameters, leading to low...",
-      "tags_zh": [
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2607.24841v1 Announce Type: new \nAbstract: Autoregressive (AR) large language models (LLMs) ar",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "2d9ae59bb038",
-      "title_zh": "Research Report on Noise-Shaped One-Bit Coefficients in Discrete Polynomial Fourier Extension",
-      "summary_zh": "arXiv:2607.24868v1 Announce Type: new \nAbstract: This report studies noise-shaped one-bit coefficients in normalized discrete polynomial Fourier extension. For first-order Sigma-Delta quantization, the error is written as $e_k=u_k-q_k=\\Delta v_k$...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.24868v1 Announce Type: new \nAbstract: This report studies noise-shaped one-bit coefficien",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a393284f5561",
-      "title_zh": "CogArena: A Multimethod Evaluation of Cognitive Ability Structure in Large Language Models",
-      "summary_zh": "arXiv:2607.24999v1 Announce Type: new \nAbstract: LLM cognitive scores are increasingly summarized as per-ability profiles whose dimensions should converge across tasks, respond selectively to matched interventions, and generalize beyond the...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2607.24999v1 Announce Type: new \nAbstract: LLM cognitive scores are increasingly summarized as",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "920443a24a8a",
-      "title_zh": "DS@GT ARC at CheckThat! 2026: LLM-Based Trace Ranking and Grouped Reward Modeling for Multilingual Numerical Claim Verification",
-      "summary_zh": "arXiv:2607.25069v1 Announce Type: new \nAbstract: Automated verification of numerical claims is a challenging problem, as it requires both language understanding and quantitative reasoning. This paper describes our system for CLEF 2026 CheckThat!...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2607.25069v1 Announce Type: new \nAbstract: Automated verification of numerical claims is a cha",
+      "oneliner": "arXiv:2607.26300v1 Announce Type: new \nAbstract: AI agents are increasingly adept at tackling comple",
       "key_facts": [],
       "notable_quote": {
         "text": "",
