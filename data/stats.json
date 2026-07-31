@@ -1,10 +1,10 @@
 {
-  "updated": "2026-07-31T02:58:35Z",
-  "total": 268,
+  "updated": "2026-07-31T10:47:34Z",
+  "total": 285,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
@@ -12,18 +12,18 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "GitHub Trending",
       "count": 22
     },
     {
-      "name": "Hugging Face",
+      "name": "OpenAI",
       "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -42,18 +42,18 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 57
+      "count": 61
     },
     {
       "name": "LLM",
-      "count": 37
+      "count": 40
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 18
     },
     {
-      "name": "OpenAI",
+      "name": "RAG",
       "count": 9
     },
     {
@@ -61,15 +61,19 @@
       "count": 8
     },
     {
-      "name": "GPT",
+      "name": "OpenAI",
       "count": 8
+    },
+    {
+      "name": "Diffusion",
+      "count": 7
     },
     {
       "name": "Google",
       "count": 7
     },
     {
-      "name": "RAG",
+      "name": "GPT",
       "count": 7
     },
     {
@@ -77,15 +81,11 @@
       "count": 6
     },
     {
-      "name": "Diffusion",
+      "name": "Prompt",
       "count": 6
     },
     {
       "name": "Microsoft",
-      "count": 5
-    },
-    {
-      "name": "Prompt",
       "count": 5
     },
     {
@@ -113,6 +113,10 @@
       "count": 2
     },
     {
+      "name": "Embedding",
+      "count": 1
+    },
+    {
       "name": "Anthropic",
       "count": 1
     },
@@ -128,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 206
     },
     {
       "name": "开源项目",
@@ -162,11 +166,11 @@
     },
     {
       "date": "07-30",
-      "count": 44
+      "count": 29
     },
     {
       "date": "07-31",
-      "count": 6
+      "count": 42
     },
     {
       "date": "08-14",
@@ -174,6 +178,12 @@
     }
   ],
   "top10": [
+    {
+      "id": "5b3393f6cb74",
+      "title": "Advancing responsible AI across Europe",
+      "score": 5,
+      "source": "OpenAI"
+    },
     {
       "id": "861d4c5ecdff",
       "title": "huggingface /speech-to-speech",
@@ -211,28 +221,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "f3a363f83daa",
-      "title": "Google DeepMind Ships Three Physical AI Models For Whole Body Control, Dexterity And Multi Robot Collaboration",
+      "id": "a163460cab42",
+      "title": "JetBrains Open-Sources KotlinLLM: Smart Macros That Generate Kotlin Source Code at Runtime and Hot-Reload It Through JDI",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "bac0f01a5321",
-      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "id": "2a133ebca32f",
+      "title": "Nous Research Ships Three Integration Paths for Hermes Agent and Buzz, Block’s Open Source Nostr Workspace for Humans and Agents",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "MarkTechPost"
     },
     {
-      "id": "0ebae200f312",
-      "title": "Zuckerberg details Meta’s personal AI superintelligence strategy",
+      "id": "dc984bc27293",
+      "title": "Univé builds an AI-ready workforce",
       "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "768d31009db0",
-      "title": "How AI is Changing Linux VPS Security for Businesses",
-      "score": 5,
-      "source": "AI News"
+      "source": "OpenAI"
     }
   ]
 }

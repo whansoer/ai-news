@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-07-31T02:58:45Z",
-  "count": 233,
+  "updated": "2026-07-31T10:47:44Z",
+  "count": 234,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -14914,6 +14914,70 @@
         }
       },
       "_ts": 1785466725
+    },
+    "3685940e9b9f5e24": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录285篇AI新闻，分类分布：学术研究206篇, 开源项目37篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（61篇）。其中12%的文章有多来源交叉验证。\n\n▸ Advancing responsible AI across Europe：OpenAI shares how its safety, security, transparency, and provenance practices support responsible A\n\n▸ huggingface /speech-to-speech：Build local voice agents with open-source models\n\n▸ microsoft /AI-For-Beginners：12 Weeks, 24 Lessons, AI for All!\n\n▸ different-ai /openwork：The open-source alternative to Claude Cowork (powered by opencode)\n\n▸ WhiskeySockets /Baileys：Socket-based TS/JavaScript API for WhatsApp Web",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "huggingface/speech-to-speech",
+            "url": "https://github.com/huggingface/speech-to-speech",
+            "why_hot": "单日628星，Python项目",
+            "stars_today": 628,
+            "total_stars": 9520
+          },
+          {
+            "full_name": "different-ai/openwork",
+            "url": "https://github.com/different-ai/openwork",
+            "why_hot": "单日915星，TypeScript项目",
+            "stars_today": 915,
+            "total_stars": 19095
+          },
+          {
+            "full_name": "citrolabs/ego-lite",
+            "url": "https://github.com/citrolabs/ego-lite",
+            "why_hot": "单日0星，JavaScript项目",
+            "stars_today": 0,
+            "total_stars": 6812
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "285"
+          },
+          {
+            "label": "多源验证率",
+            "value": "12%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+2347"
+          }
+        ],
+        "must_read_ids": [
+          "5b3393f6cb74",
+          "861d4c5ecdff",
+          "e67e2c38cce6",
+          "2c86d2ef6461",
+          "1057d7f3dcb6"
+        ],
+        "text": "今日共收录285篇AI新闻，分类分布：学术研究206篇, 开源项目37篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（61篇）。其中12%的文章有多来源交叉验证。",
+        "top_items": [
+          "Advancing responsible AI across Europe",
+          "huggingface /speech-to-speech",
+          "microsoft /AI-For-Beginners",
+          "different-ai /openwork",
+          "WhiskeySockets /Baileys"
+        ],
+        "meta": {
+          "total_articles": 285,
+          "multi_source_pct": 12
+        }
+      },
+      "_ts": 1785494864
     }
   }
 }
