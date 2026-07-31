@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T10:47:34Z",
-  "total": 285,
+  "updated": "2026-07-31T17:47:21Z",
+  "total": 268,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,15 +8,15 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 30
     },
     {
       "name": "GitHub Trending",
-      "count": 22
+      "count": 23
     },
     {
       "name": "OpenAI",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Synced",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 57
     },
     {
       "name": "LLM",
-      "count": 40
+      "count": 32
     },
     {
       "name": "Benchmark",
-      "count": 18
+      "count": 14
     },
     {
       "name": "RAG",
@@ -58,10 +58,6 @@
     },
     {
       "name": "Claude",
-      "count": 8
-    },
-    {
-      "name": "OpenAI",
       "count": 8
     },
     {
@@ -74,14 +70,6 @@
     },
     {
       "name": "GPT",
-      "count": 7
-    },
-    {
-      "name": "API",
-      "count": 6
-    },
-    {
-      "name": "Prompt",
       "count": 6
     },
     {
@@ -89,15 +77,23 @@
       "count": 5
     },
     {
-      "name": "Meta",
-      "count": 4
+      "name": "API",
+      "count": 5
     },
     {
-      "name": "DeepSeek",
-      "count": 4
+      "name": "Prompt",
+      "count": 5
+    },
+    {
+      "name": "OpenAI",
+      "count": 5
     },
     {
       "name": "Fine-tune",
+      "count": 3
+    },
+    {
+      "name": "Meta",
       "count": 3
     },
     {
@@ -105,11 +101,15 @@
       "count": 3
     },
     {
-      "name": "Gemini",
+      "name": "DeepSeek",
       "count": 3
     },
     {
       "name": "GPU",
+      "count": 2
+    },
+    {
+      "name": "Gemini",
       "count": 2
     },
     {
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 206
+      "count": 190
     },
     {
       "name": "开源项目",
-      "count": 37
+      "count": 38
     },
     {
       "name": "模型发布",
@@ -144,14 +144,10 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 10
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-26",
-      "count": 6
-    },
     {
       "date": "07-27",
       "count": 26
@@ -170,7 +166,11 @@
     },
     {
       "date": "07-31",
-      "count": 42
+      "count": 47
+    },
+    {
+      "date": "08-04",
+      "count": 1
     },
     {
       "date": "08-14",
@@ -179,20 +179,14 @@
   ],
   "top10": [
     {
-      "id": "5b3393f6cb74",
-      "title": "Advancing responsible AI across Europe",
+      "id": "e2b8f86303a2",
+      "title": "Disrupting a Criminal Scam Operation",
       "score": 5,
       "source": "OpenAI"
     },
     {
-      "id": "861d4c5ecdff",
-      "title": "huggingface /speech-to-speech",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "e67e2c38cce6",
-      "title": "microsoft /AI-For-Beginners",
+      "id": "7445d3b513ae",
+      "title": "zhaoxuya520 /reverse-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -203,38 +197,44 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "1057d7f3dcb6",
-      "title": "WhiskeySockets /Baileys",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "cb3eddfe11b5",
       "title": "mvanhorn /last30days-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d66865b90c76",
-      "title": "ansible /ansible",
+      "id": "e67e2c38cce6",
+      "title": "microsoft /AI-For-Beginners",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "a163460cab42",
-      "title": "JetBrains Open-Sources KotlinLLM: Smart Macros That Generate Kotlin Source Code at Runtime and Hot-Reload It Through JDI",
+      "id": "06007b54a16f",
+      "title": "github /copilot-sdk",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "2a133ebca32f",
-      "title": "Nous Research Ships Three Integration Paths for Hermes Agent and Buzz, Block’s Open Source Nostr Workspace for Humans and Agents",
+      "id": "81f110db7624",
+      "title": "chatwoot /chatwoot",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "dc984bc27293",
-      "title": "Univé builds an AI-ready workforce",
+      "id": "e46fc4b3de88",
+      "title": "usekaneo /kaneo",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5b3393f6cb74",
+      "title": "Advancing responsible AI across Europe",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "ef7e135bdd5a",
+      "title": "Building abundant intelligence",
       "score": 5,
       "source": "OpenAI"
     }
