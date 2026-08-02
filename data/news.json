@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-02T02:57:04Z",
-  "total": 214,
-  "new_count": 35,
+  "updated": "2026-08-02T10:04:31Z",
+  "total": 216,
+  "new_count": 42,
   "items": [
     {
       "id": "e2b8f86303a2",
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "12 Weeks, 24 Lessons, AI for All!",
-      "published": "2026-08-02T02:54:26Z",
+      "published": "2026-08-02T10:01:55Z",
       "tags": [
         "Microsoft"
       ],
@@ -63,7 +63,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
-      "published": "2026-08-02T02:54:26Z",
+      "published": "2026-08-02T10:01:55Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -86,7 +86,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding...",
-      "published": "2026-08-02T02:54:26Z",
+      "published": "2026-08-02T10:01:55Z",
       "tags": [
         "Claude"
       ],
@@ -113,7 +113,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "21 Lessons, Get Started Building with Generative AI",
-      "published": "2026-08-02T02:54:26Z",
+      "published": "2026-08-02T10:01:55Z",
       "tags": [
         "Microsoft"
       ],
@@ -142,7 +142,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-      "published": "2026-08-02T02:54:26Z",
+      "published": "2026-08-02T10:01:55Z",
       "tags": [
         "Agent"
       ],
@@ -169,7 +169,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Build local voice agents with open-source models",
-      "published": "2026-08-02T02:54:26Z",
+      "published": "2026-08-02T10:01:55Z",
       "tags": [
         "Agent"
       ],
@@ -196,7 +196,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.",
-      "published": "2026-08-02T02:54:26Z",
+      "published": "2026-08-02T10:01:55Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -211,6 +211,120 @@
       "summary_zh": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation.",
       "tags_zh": [],
       "oneliner": "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice C"
+    },
+    {
+      "id": "b30bb02b6597",
+      "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework",
+      "url": "https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Agentic RL research is constant algorithm modification, and in mainstream frameworks every change threads through trainer, distributed backend, and rollout glue. NVIDIA's Molt targets that cost with about 8.6K lines of RL code, composing Ray,...",
+      "published": "2026-08-02T06:21:26Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b51c6a7821cf"
+        ],
+        "score": 5
+      },
+      "title_zh": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework",
+      "summary_zh": "Agentic RL research is constant algorithm modification, and in mainstream frameworks every change threads through trainer, distributed backend, and rollout glue. NVIDIA's Molt targets that cost with about 8.6K lines of RL code, composing Ray,...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Agentic RL research is constant algorithm modification, and in mainstream frameworks every change th"
+    },
+    {
+      "id": "d4cf4e7717d0",
+      "title": "End-to-End Forecasting with TimesFM 2.5: Backtesting, Covariates, Anomaly Detection, and Scalable Colab Deployment",
+      "url": "https://www.marktechpost.com/2026/08/01/end-to-end-forecasting-with-timesfm-2-5-backtesting-covariates-anomaly-detection-and-scalable-colab-deployment/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build an advanced end-to-end time-series forecasting workflow with TimesFM 2.5. We begin by configuring the runtime, installing the required dependencies, detecting available hardware, and generating a realistic multi-store...",
+      "published": "2026-08-02T05:44:14Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "End-to-End Forecasting with TimesFM 2.5: Backtesting, Covariates, Anomaly Detection, and Scalable Colab Deployment",
+      "summary_zh": "In this tutorial, we build an advanced end-to-end time-series forecasting workflow with TimesFM 2.5. We begin by configuring the runtime, installing the required dependencies, detecting available hardware, and generating a realistic multi-store...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we build an advanced end-to-end time-series forecasting workflow with TimesFM 2.5."
+    },
+    {
+      "id": "dc4247e717d2",
+      "title": "AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
+      "url": "https://www.marktechpost.com/2026/08/01/amd-instella-moe-16b-a3b-fully-open-mixture-of-experts-llm/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "AMD released Instella-MoE-16B-A3B, a fully open Mixture-of-Experts language model trained from scratch on Instinct MI300X and MI325X GPUs. It holds 16B total parameters but activates only 2.8B per token, using Gated MLA and FarSkip-Collective....",
+      "published": "2026-08-01T19:01:42Z",
+      "tags": [
+        "LLM",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "AMD Releases Instella-MoE-16B-A3B: A Fully Open Mixture-of-Experts LLM With 2.8B Active Parameters Trained On Instinct GPUs",
+      "summary_zh": "AMD released Instella-MoE-16B-A3B, a fully open Mixture-of-Experts language model trained from scratch on Instinct MI300X and MI325X GPUs. It holds 16B total parameters but activates only 2.8B per token, using Gated MLA and FarSkip-Collective....",
+      "tags_zh": [
+        "LLM",
+        "GPU"
+      ],
+      "oneliner": "AMD released Instella-MoE-16B-A3B, a fully open Mixture-of-Experts language model trained from scrat"
+    },
+    {
+      "id": "b51c6a7821cf",
+      "title": "Accelerating Transformer Training with NVIDIA Transformer Engine, Fused Kernels, BF16, FP8, and GPU Benchmarking",
+      "url": "https://www.marktechpost.com/2026/08/01/accelerating-transformer-training-with-nvidia-transformer-engine-fused-kernels-bf16-fp8-and-gpu-benchmarking/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Discover how to optimize transformer workloads using the NVIDIA Transformer Engine. This tutorial guides you through configuring fused GPU kernels, implementing FP8 delayed scaling, and benchmarking model performance. Learn to build and train...",
+      "published": "2026-08-01T18:31:15Z",
+      "tags": [
+        "Transformer",
+        "GPU",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b30bb02b6597"
+        ],
+        "score": 5
+      },
+      "title_zh": "Accelerating Transformer Training with NVIDIA Transformer Engine, Fused Kernels, BF16, FP8, and GPU Benchmarking",
+      "summary_zh": "Discover how to optimize transformer workloads using the NVIDIA Transformer Engine. This tutorial guides you through configuring fused GPU kernels, implementing FP8 delayed scaling, and benchmarking model performance. Learn to build and train...",
+      "tags_zh": [
+        "Transformer",
+        "GPU",
+        "Benchmark"
+      ],
+      "oneliner": "Discover how to optimize transformer workloads using the NVIDIA Transformer Engine. This tutorial gu"
     },
     {
       "id": "2c86d2ef6461",
@@ -440,12 +554,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "OpenAI aligns safety practices with EU AI Act’s GPAI Code",
-      "summary_zh": "OpenAI has outlined how it aligns safety, security, and transparency work with the EU AI Act&#8217;s GPAI Code as enforcement approaches. The company has contributed to and endorsed the EU&#8217;s General-Purpose AI (GPAI) Code of Practice and...",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "OpenAI has outlined how it aligns safety, security, and transparency work with the EU AI Act&#8217;s"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "5b3393f6cb74",
@@ -465,10 +577,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Advancing responsible AI across Europe",
-      "summary_zh": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible A"
+      "oneliner": ""
     },
     {
       "id": "ef7e135bdd5a",
@@ -488,10 +600,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Building abundant intelligence",
-      "summary_zh": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful."
+      "oneliner": ""
     },
     {
       "id": "1057d7f3dcb6",
@@ -513,12 +625,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "WhiskeySockets /Baileys",
-      "summary_zh": "Socket-based TS/JavaScript API for WhatsApp Web",
-      "tags_zh": [
-        "API"
-      ],
-      "oneliner": "Socket-based TS/JavaScript API for WhatsApp Web"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d66865b90c76",
@@ -5173,52 +5283,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "744059aeb2de",
-      "title": "Induction Labs Photon-1 Simulates Desktops, Plays Checkers, and Models Billiard Physics From One Pretraining Run",
-      "url": "https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Most agents that learn from video need to know what action produced each frame. Induction Labs is arguing that this requirement is the bottleneck. Last week, they released imagination models, a foundation model architecture that pretrains on raw...",
-      "published": "2026-07-26T09:14:22Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1ae1008d55d7",
-      "title": "FAIRChem v2 UMA for Multidomain Atomistic Simulation across Molecules, Catalysts, Materials, Vibrations, and Molecular Dynamics",
-      "url": "https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we explore FAIRChem v2 and the UMA universal machine-learning interatomic potential as a unified framework for atomistic simulation across molecular chemistry, catalysis, and inorganic materials. We configure an environment,...",
-      "published": "2026-07-26T08:38:09Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
