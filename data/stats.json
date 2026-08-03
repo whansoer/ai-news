@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-03T11:34:46Z",
-  "total": 290,
+  "updated": "2026-08-03T17:58:39Z",
+  "total": 272,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 24
     },
     {
       "name": "OpenAI",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 57
     },
     {
       "name": "LLM",
@@ -50,15 +50,7 @@
     },
     {
       "name": "Benchmark",
-      "count": 19
-    },
-    {
-      "name": "Claude",
-      "count": 7
-    },
-    {
-      "name": "RAG",
-      "count": 7
+      "count": 17
     },
     {
       "name": "Diffusion",
@@ -67,6 +59,10 @@
     {
       "name": "Google",
       "count": 7
+    },
+    {
+      "name": "Claude",
+      "count": 6
     },
     {
       "name": "Microsoft",
@@ -81,7 +77,7 @@
       "count": 6
     },
     {
-      "name": "GPT",
+      "name": "RAG",
       "count": 6
     },
     {
@@ -93,7 +89,7 @@
       "count": 5
     },
     {
-      "name": "OpenAI",
+      "name": "GPT",
       "count": 5
     },
     {
@@ -101,12 +97,12 @@
       "count": 4
     },
     {
-      "name": "Meta",
-      "count": 3
+      "name": "OpenAI",
+      "count": 4
     },
     {
-      "name": "Qwen",
-      "count": 2
+      "name": "Meta",
+      "count": 3
     },
     {
       "name": "Llama",
@@ -121,6 +117,10 @@
       "count": 2
     },
     {
+      "name": "Qwen",
+      "count": 1
+    },
+    {
       "name": "Embedding",
       "count": 1
     },
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 206
+      "count": 191
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 39
     },
     {
       "name": "模型发布",
@@ -166,7 +166,7 @@
     },
     {
       "date": "08-03",
-      "count": 43
+      "count": 44
     },
     {
       "date": "08-04",
@@ -221,6 +221,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "11864555477a",
+      "title": "EU AI Act Article 50 transparency rules enter force",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
       "id": "ef2a15177280",
       "title": "Why biological data matters more in AI drug discovery",
       "score": 5,
@@ -229,12 +235,6 @@
     {
       "id": "5dbc844c847b",
       "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "7be16585df22",
-      "title": "Cogent AI Team Releases VR-1: A Frontier Cyber Reasoning Model That Composes and Verifies Enterprise Attack Paths",
       "score": 5,
       "source": "MarkTechPost"
     }
