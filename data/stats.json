@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-03T02:58:11Z",
-  "total": 254,
+  "updated": "2026-08-03T11:34:46Z",
+  "total": 290,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "GitHub Trending",
-      "count": 26
+      "count": 27
     },
     {
       "name": "OpenAI",
@@ -31,26 +31,26 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 9
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 61
     },
     {
       "name": "LLM",
-      "count": 30
+      "count": 39
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 19
     },
     {
       "name": "Claude",
@@ -69,23 +69,31 @@
       "count": 7
     },
     {
+      "name": "Microsoft",
+      "count": 6
+    },
+    {
+      "name": "Prompt",
+      "count": 6
+    },
+    {
       "name": "API",
       "count": 6
     },
     {
-      "name": "Microsoft",
-      "count": 5
+      "name": "GPT",
+      "count": 6
     },
     {
       "name": "GPU",
       "count": 5
     },
     {
-      "name": "Prompt",
+      "name": "DeepSeek",
       "count": 5
     },
     {
-      "name": "GPT",
+      "name": "OpenAI",
       "count": 5
     },
     {
@@ -93,19 +101,19 @@
       "count": 4
     },
     {
-      "name": "DeepSeek",
-      "count": 4
+      "name": "Meta",
+      "count": 3
     },
     {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
-      "name": "Fine-tune",
+      "name": "Qwen",
       "count": 2
     },
     {
-      "name": "Meta",
+      "name": "Llama",
+      "count": 2
+    },
+    {
+      "name": "Fine-tune",
       "count": 2
     },
     {
@@ -119,24 +127,16 @@
     {
       "name": "Anthropic",
       "count": 1
-    },
-    {
-      "name": "Llama",
-      "count": 1
-    },
-    {
-      "name": "Qwen",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 174
+      "count": 206
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -144,7 +144,7 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -166,7 +166,7 @@
     },
     {
       "date": "08-03",
-      "count": 9
+      "count": 43
     },
     {
       "date": "08-04",
@@ -185,18 +185,6 @@
       "source": "OpenAI"
     },
     {
-      "id": "e67e2c38cce6",
-      "title": "microsoft /AI-For-Beginners",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "e46fc4b3de88",
-      "title": "usekaneo /kaneo",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "cef11b5e74b8",
       "title": "lyogavin /airllm",
       "score": 5,
@@ -209,20 +197,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "2c86d2ef6461",
-      "title": "different-ai /openwork",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "4e308eb7afe6",
-      "title": "microsoft /generative-ai-for-beginners",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "81fb0b6406ba",
-      "title": "Panniantong /Agent-Reach",
+      "id": "af92210f8dd3",
+      "title": "esengine /DeepSeek-Reasonix",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -233,8 +209,32 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "d65b84534453",
-      "title": "Onton Releases Ontology 1: A Neurosymbolic Search Model That is 2.7x More Accurate than the World’s Best E-commerce Search Engines",
+      "id": "e67e2c38cce6",
+      "title": "microsoft /AI-For-Beginners",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4e308eb7afe6",
+      "title": "microsoft /generative-ai-for-beginners",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ef2a15177280",
+      "title": "Why biological data matters more in AI drug discovery",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "5dbc844c847b",
+      "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "7be16585df22",
+      "title": "Cogent AI Team Releases VR-1: A Frontier Cyber Reasoning Model That Composes and Verifies Enterprise Attack Paths",
       "score": 5,
       "source": "MarkTechPost"
     }
