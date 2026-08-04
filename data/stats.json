@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-04T02:42:49Z",
-  "total": 268,
+  "updated": "2026-08-04T10:47:20Z",
+  "total": 296,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 28
     },
     {
       "name": "GitHub Trending",
@@ -42,26 +42,30 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 60
     },
     {
       "name": "LLM",
-      "count": 39
+      "count": 50
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 21
     },
     {
       "name": "Diffusion",
-      "count": 7
+      "count": 9
+    },
+    {
+      "name": "RAG",
+      "count": 8
     },
     {
       "name": "Google",
       "count": 7
     },
     {
-      "name": "Claude",
+      "name": "GPU",
       "count": 6
     },
     {
@@ -69,11 +73,7 @@
       "count": 6
     },
     {
-      "name": "RAG",
-      "count": 6
-    },
-    {
-      "name": "GPU",
+      "name": "Claude",
       "count": 5
     },
     {
@@ -89,16 +89,20 @@
       "count": 5
     },
     {
-      "name": "GPT",
-      "count": 5
-    },
-    {
       "name": "API",
       "count": 4
     },
     {
       "name": "Transformer",
       "count": 4
+    },
+    {
+      "name": "GPT",
+      "count": 4
+    },
+    {
+      "name": "Embedding",
+      "count": 2
     },
     {
       "name": "Llama",
@@ -121,10 +125,6 @@
       "count": 1
     },
     {
-      "name": "Embedding",
-      "count": 1
-    },
-    {
       "name": "Anthropic",
       "count": 1
     }
@@ -132,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 218
     },
     {
       "name": "开源项目",
@@ -166,11 +166,11 @@
     },
     {
       "date": "08-03",
-      "count": 40
+      "count": 41
     },
     {
       "date": "08-04",
-      "count": 7
+      "count": 37
     },
     {
       "date": "08-14",
@@ -215,28 +215,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "e2b8f86303a2",
-      "title": "Disrupting a Criminal Scam Operation",
+      "id": "d4c285b8fcc7",
+      "title": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
       "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "11864555477a",
-      "title": "EU AI Act Article 50 transparency rules enter force",
+      "id": "f4243103cca3",
+      "title": "RubricReviewer: From Direct Critique to Objective and Comprehensive Rubric-Driven Peer Review",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "ef2a15177280",
-      "title": "Why biological data matters more in AI drug discovery",
+      "id": "e83655236ea6",
+      "title": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "5dbc844c847b",
-      "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
+      "id": "44ceca7fc616",
+      "title": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
