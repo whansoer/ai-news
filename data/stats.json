@@ -1,33 +1,33 @@
 {
-  "updated": "2026-08-04T10:47:20Z",
-  "total": 296,
+  "updated": "2026-08-04T17:55:37Z",
+  "total": 248,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 60
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 26
     },
     {
       "name": "GitHub Trending",
-      "count": 24
-    },
-    {
-      "name": "OpenAI",
-      "count": 15
+      "count": 23
     },
     {
       "name": "Hugging Face",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Google AI",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -36,29 +36,29 @@
     },
     {
       "name": "AI News",
-      "count": 9
+      "count": 8
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 60
+      "count": 53
     },
     {
       "name": "LLM",
-      "count": 50
+      "count": 38
     },
     {
       "name": "Benchmark",
-      "count": 21
-    },
-    {
-      "name": "Diffusion",
-      "count": 9
+      "count": 20
     },
     {
       "name": "RAG",
       "count": 8
+    },
+    {
+      "name": "Diffusion",
+      "count": 7
     },
     {
       "name": "Google",
@@ -66,10 +66,6 @@
     },
     {
       "name": "GPU",
-      "count": 6
-    },
-    {
-      "name": "Prompt",
       "count": 6
     },
     {
@@ -81,35 +77,31 @@
       "count": 5
     },
     {
-      "name": "Microsoft",
+      "name": "GPT",
       "count": 5
     },
     {
-      "name": "OpenAI",
+      "name": "Prompt",
       "count": 5
+    },
+    {
+      "name": "Microsoft",
+      "count": 4
     },
     {
       "name": "API",
       "count": 4
     },
     {
-      "name": "Transformer",
-      "count": 4
+      "name": "OpenAI",
+      "count": 3
     },
     {
-      "name": "GPT",
-      "count": 4
+      "name": "Transformer",
+      "count": 3
     },
     {
       "name": "Embedding",
-      "count": 2
-    },
-    {
-      "name": "Llama",
-      "count": 2
-    },
-    {
-      "name": "Fine-tune",
       "count": 2
     },
     {
@@ -125,14 +117,18 @@
       "count": 1
     },
     {
-      "name": "Anthropic",
+      "name": "Llama",
+      "count": 1
+    },
+    {
+      "name": "Fine-tune",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 218
+      "count": 171
     },
     {
       "name": "开源项目",
@@ -144,13 +140,13 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 8
     }
   ],
   "dailyTrend": [
     {
       "date": "07-30",
-      "count": 29
+      "count": 28
     },
     {
       "date": "07-31",
@@ -166,11 +162,11 @@
     },
     {
       "date": "08-03",
-      "count": 41
+      "count": 42
     },
     {
       "date": "08-04",
-      "count": 37
+      "count": 42
     },
     {
       "date": "08-14",
@@ -179,8 +175,8 @@
   ],
   "top10": [
     {
-      "id": "cef11b5e74b8",
-      "title": "lyogavin /airllm",
+      "id": "56030b62da13",
+      "title": "TencentCloud /TencentDB-Agent-Memory",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -191,20 +187,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "af92210f8dd3",
-      "title": "esengine /DeepSeek-Reasonix",
+      "id": "4f8373d66b0b",
+      "title": "uber /ADR",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "56030b62da13",
-      "title": "TencentCloud /TencentDB-Agent-Memory",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "e67e2c38cce6",
-      "title": "microsoft /AI-For-Beginners",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -215,28 +205,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "d4c285b8fcc7",
-      "title": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
+      "id": "cef11b5e74b8",
+      "title": "lyogavin /airllm",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "f4243103cca3",
-      "title": "RubricReviewer: From Direct Critique to Objective and Comprehensive Rubric-Driven Peer Review",
+      "id": "4d42e33f51cb",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Hugging Face"
     },
     {
-      "id": "e83655236ea6",
-      "title": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
+      "id": "34a7f3824c27",
+      "title": "The latest AI news we announced in July 2026",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Google AI"
     },
     {
-      "id": "44ceca7fc616",
-      "title": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
+      "id": "af92210f8dd3",
+      "title": "esengine /DeepSeek-Reasonix",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "e67e2c38cce6",
+      "title": "microsoft /AI-For-Beginners",
+      "score": 5,
+      "source": "GitHub Trending"
     }
   ]
 }
