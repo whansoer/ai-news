@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04T17:55:37Z",
-  "total": 248,
+  "updated": "2026-08-05T02:41:11Z",
+  "total": 254,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,22 +12,22 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 34
     },
     {
       "name": "GitHub Trending",
       "count": 23
     },
     {
-      "name": "Hugging Face",
-      "count": 16
-    },
-    {
-      "name": "Google AI",
+      "name": "OpenAI",
       "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
+      "count": 15
+    },
+    {
+      "name": "Google AI",
       "count": 15
     },
     {
@@ -36,17 +36,17 @@
     },
     {
       "name": "AI News",
-      "count": 8
+      "count": 7
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 53
+      "count": 54
     },
     {
       "name": "LLM",
-      "count": 38
+      "count": 39
     },
     {
       "name": "Benchmark",
@@ -54,7 +54,7 @@
     },
     {
       "name": "RAG",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Diffusion",
@@ -89,12 +89,12 @@
       "count": 4
     },
     {
-      "name": "API",
+      "name": "OpenAI",
       "count": 4
     },
     {
-      "name": "OpenAI",
-      "count": 3
+      "name": "API",
+      "count": 4
     },
     {
       "name": "Transformer",
@@ -128,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 171
+      "count": 179
     },
     {
       "name": "开源项目",
-      "count": 39
+      "count": 38
     },
     {
       "name": "模型发布",
@@ -140,14 +140,10 @@
     },
     {
       "name": "产品/API",
-      "count": 8
+      "count": 7
     }
   ],
   "dailyTrend": [
-    {
-      "date": "07-30",
-      "count": 28
-    },
     {
       "date": "07-31",
       "count": 42
@@ -162,11 +158,15 @@
     },
     {
       "date": "08-03",
-      "count": 42
+      "count": 44
     },
     {
       "date": "08-04",
-      "count": 42
+      "count": 43
+    },
+    {
+      "date": "08-05",
+      "count": 6
     },
     {
       "date": "08-14",
@@ -211,28 +211,28 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "884f8e03df4d",
+      "title": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "899f3cac4020",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "73394aaf21fa",
+      "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "4d42e33f51cb",
       "title": "Deploy local agents everywhere with LFM2.5-2.6B",
       "score": 5,
       "source": "Hugging Face"
-    },
-    {
-      "id": "34a7f3824c27",
-      "title": "The latest AI news we announced in July 2026",
-      "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "af92210f8dd3",
-      "title": "esengine /DeepSeek-Reasonix",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "e67e2c38cce6",
-      "title": "microsoft /AI-For-Beginners",
-      "score": 5,
-      "source": "GitHub Trending"
     }
   ]
 }

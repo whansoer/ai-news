@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T17:55:46Z",
+  "updated": "2026-08-05T02:41:21Z",
   "total": 20,
   "items": [
     {
@@ -90,6 +90,46 @@
       }
     },
     {
+      "id": "884f8e03df4d",
+      "title_zh": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
+      "summary_zh": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages and PDFs as images. This tutorial explores the complete pipeline—from rendering and tiling to multimodal embedding and hybrid search—enabling...",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "899f3cac4020",
+      "title_zh": "Third-party cyber evaluations involving OpenAI models",
+      "summary_zh": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "73394aaf21fa",
+      "title_zh": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+      "summary_zh": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, and runs up to 2.37x faster than...",
+      "tags_zh": [],
+      "oneliner": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Co",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "4d42e33f51cb",
       "title_zh": "Deploy local agents everywhere with LFM2.5-2.6B",
       "summary_zh": "",
@@ -145,6 +185,44 @@
       }
     },
     {
+      "id": "42d5eee6d757",
+      "title_zh": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
+      "summary_zh": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client. It holds roughly 0.08 seconds render time from 10,000 to 100 million points, exports a 10-million-point...",
+      "tags_zh": [],
+      "oneliner": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a nativ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "468c06ae219d",
+      "title_zh": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
+      "summary_zh": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA SkillSpector and LangGraph. In this tutorial, we construct a synthetic skill marketplace, scan for malicious prompt injection, credential access, and...",
+      "tags_zh": [],
+      "oneliner": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA Skill",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "112ee24e6989",
+      "title_zh": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
+      "summary_zh": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting, legal, events, and engineering. Released July 31, 2026 under an MIT license, QM gives each employee an isolated workspace and each Slack room...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "d4c285b8fcc7",
       "title_zh": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
       "summary_zh": "arXiv:2608.00004v1 Announce Type: new \nAbstract: Grading natural-language mathematical proofs is a recurring cost in evaluating math-reasoning systems, and frontier LLM judges are expensive. We ask whether cheap open-weight models can serve as...",
@@ -192,87 +270,6 @@
         "Benchmark"
       ],
       "oneliner": "arXiv:2608.00009v1 Announce Type: new \nAbstract: Long-term memory remains a critical bottleneck for ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "84a70b60501e",
-      "title_zh": "DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis",
-      "summary_zh": "arXiv:2608.00011v1 Announce Type: new \nAbstract: Current text-to-speech systems face a trade-off: autoregres- sive codec language models produce highly intelligible speech but require large-scale models and training data and decode tokens...",
-      "tags_zh": [
-        "LLM",
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2608.00011v1 Announce Type: new \nAbstract: Current text-to-speech systems face a trade-off: au",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "898ec467ec0c",
-      "title_zh": "Obshazard-bench: Benchmarking Multimodal Foundation Models for Real-Time Disaster Intelligence from Raw Earth Observation Streams",
-      "summary_zh": "arXiv:2608.00012v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) are increasingly used to interpret Earth observation data, yet their capability to support real-world disaster emergency response remains insufficiently...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2608.00012v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) are increa",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "295a9f805682",
-      "title_zh": "What Transfers from Text to Vision? Capability Scaling Laws and Transfer Dynamics for VLMs",
-      "summary_zh": "arXiv:2608.00013v1 Announce Type: new \nAbstract: Choosing the right large language model (LLM) backbone is the most consequential decision when building a vision-language model (VLM), yet it remains fundamentally unprincipled: compute-based...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.00013v1 Announce Type: new \nAbstract: Choosing the right large language model (LLM) backb",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "12b08c2a1fe2",
-      "title_zh": "Role Steering of Language Models for Social Simulations",
-      "summary_zh": "arXiv:2608.00023v1 Announce Type: new \nAbstract: Social simulations built from language-model agents need role-conditioned behavior that can be checked before agents are placed into a simulated population. We introduce an activation-steering...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.00023v1 Announce Type: new \nAbstract: Social simulations built from language-model agents",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bb983f0927be",
-      "title_zh": "Exploring More to Solve More: Boosting Diversity in Text Diffusion Models via Entropy-Based Guidance",
-      "summary_zh": "arXiv:2608.00024v1 Announce Type: new \nAbstract: Although diffusion models have revolutionized continuous domains like image synthesis through high quality generations and controllable guidance mechanisms, bringing this controllability to the...",
-      "tags_zh": [
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2608.00024v1 Announce Type: new \nAbstract: Although diffusion models have revolutionized conti",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ba368d02a63c",
-      "title_zh": "SLMs as Multi-Agent Routers: A Progressive SFT and Reinforcement Learning Approach",
-      "summary_zh": "arXiv:2608.00030v1 Announce Type: new \nAbstract: Specialised retrieval agents typically surface higher quality results than general-purpose search, but selecting the optimal agent for a given query remains an open problem. Current approaches...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.00030v1 Announce Type: new \nAbstract: Specialised retrieval agents typically surface high",
       "key_facts": [],
       "notable_quote": {
         "text": "",

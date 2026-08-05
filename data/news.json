@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-04T17:55:46Z",
-  "total": 209,
-  "new_count": 37,
+  "updated": "2026-08-05T02:41:21Z",
+  "total": 215,
+  "new_count": 45,
   "items": [
     {
       "id": "56030b62da13",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "published": "2026-08-04T17:53:04Z",
+      "published": "2026-08-05T02:38:46Z",
       "tags": [
         "LLM",
         "Agent"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding...",
-      "published": "2026-08-04T17:53:04Z",
+      "published": "2026-08-05T02:38:46Z",
       "tags": [
         "Claude"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
-      "published": "2026-08-04T17:53:04Z",
+      "published": "2026-08-05T02:38:46Z",
       "tags": [
         "Agent",
         "Benchmark"
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-08-04T17:53:04Z",
+      "published": "2026-08-05T02:38:46Z",
       "tags": [
         "Agent"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "21 Lessons, Get Started Building with Generative AI",
-      "published": "2026-08-04T17:53:04Z",
+      "published": "2026-08-05T02:38:46Z",
       "tags": [
         "Microsoft"
       ],
@@ -151,7 +151,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AirLLM 70B inference with single 4GB GPU",
-      "published": "2026-08-04T17:53:04Z",
+      "published": "2026-08-05T02:38:46Z",
       "tags": [
         "LLM",
         "GPU"
@@ -172,6 +172,83 @@
         "GPU"
       ],
       "oneliner": "AirLLM 70B inference with single 4GB GPU"
+    },
+    {
+      "id": "884f8e03df4d",
+      "title": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
+      "url": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages and PDFs as images. This tutorial explores the complete pipeline—from rendering and tiling to multimodal embedding and hybrid search—enabling...",
+      "published": "2026-08-04T22:27:38Z",
+      "tags": [
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
+      "summary_zh": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages and PDFs as images. This tutorial explores the complete pipeline—from rendering and tiling to multimodal embedding and hybrid search—enabling...",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages"
+    },
+    {
+      "id": "899f3cac4020",
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "published": "2026-08-04T19:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Third-party cyber evaluations involving OpenAI models",
+      "summary_zh": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to"
+    },
+    {
+      "id": "73394aaf21fa",
+      "title": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+      "url": "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, and runs up to 2.37x faster than...",
+      "published": "2026-08-04T18:38:41Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
+      "summary_zh": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, and runs up to 2.37x faster than...",
+      "tags_zh": [],
+      "oneliner": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Co"
     },
     {
       "id": "4d42e33f51cb",
@@ -283,6 +360,79 @@
         "Microsoft"
       ],
       "oneliner": "12 Weeks, 24 Lessons, AI for All!"
+    },
+    {
+      "id": "42d5eee6d757",
+      "title": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
+      "url": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client. It holds roughly 0.08 seconds render time from 10,000 to 100 million points, exports a 10-million-point...",
+      "published": "2026-08-04T09:45:40Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
+      "summary_zh": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client. It holds roughly 0.08 seconds render time from 10,000 to 100 million points, exports a 10-million-point...",
+      "tags_zh": [],
+      "oneliner": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a nativ"
+    },
+    {
+      "id": "468c06ae219d",
+      "title": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
+      "url": "https://www.marktechpost.com/2026/08/04/building-an-advanced-ai-skill-security-auditing-pipeline-with-nvidia-skillspector-langgraph-yara-rules-sarif-and-ci-policy-gates/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA SkillSpector and LangGraph. In this tutorial, we construct a synthetic skill marketplace, scan for malicious prompt injection, credential access, and...",
+      "published": "2026-08-04T08:12:36Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
+      "summary_zh": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA SkillSpector and LangGraph. In this tutorial, we construct a synthetic skill marketplace, scan for malicious prompt injection, credential access, and...",
+      "tags_zh": [],
+      "oneliner": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA Skill"
+    },
+    {
+      "id": "112ee24e6989",
+      "title": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
+      "url": "https://www.marktechpost.com/2026/08/03/y-combinator-open-sources-qm-multiplayer-ai-agent-harness/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting, legal, events, and engineering. Released July 31, 2026 under an MIT license, QM gives each employee an isolated workspace and each Slack room...",
+      "published": "2026-08-04T04:17:18Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
+      "summary_zh": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting, legal, events, and engineering. Released July 31, 2026 under an MIT license, QM gives each employee an isolated workspace and each Slack room...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting"
     },
     {
       "id": "d4c285b8fcc7",
@@ -409,13 +559,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "DLLM-TTS: Block Discrete Diffusion Language Model for Text-to-Speech Synthesis",
-      "summary_zh": "arXiv:2608.00011v1 Announce Type: new \nAbstract: Current text-to-speech systems face a trade-off: autoregres- sive codec language models produce highly intelligible speech but require large-scale models and training data and decode tokens...",
-      "tags_zh": [
-        "LLM",
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2608.00011v1 Announce Type: new \nAbstract: Current text-to-speech systems face a trade-off: au"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "898ec467ec0c",
@@ -439,12 +586,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Obshazard-bench: Benchmarking Multimodal Foundation Models for Real-Time Disaster Intelligence from Raw Earth Observation Streams",
-      "summary_zh": "arXiv:2608.00012v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) are increasingly used to interpret Earth observation data, yet their capability to support real-world disaster emergency response remains insufficiently...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2608.00012v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) are increa"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "295a9f805682",
@@ -464,10 +609,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "What Transfers from Text to Vision? Capability Scaling Laws and Transfer Dynamics for VLMs",
-      "summary_zh": "arXiv:2608.00013v1 Announce Type: new \nAbstract: Choosing the right large language model (LLM) backbone is the most consequential decision when building a vision-language model (VLM), yet it remains fundamentally unprincipled: compute-based...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.00013v1 Announce Type: new \nAbstract: Choosing the right large language model (LLM) backb"
+      "oneliner": ""
     },
     {
       "id": "12b08c2a1fe2",
@@ -489,10 +634,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Role Steering of Language Models for Social Simulations",
-      "summary_zh": "arXiv:2608.00023v1 Announce Type: new \nAbstract: Social simulations built from language-model agents need role-conditioned behavior that can be checked before agents are placed into a simulated population. We introduce an activation-steering...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.00023v1 Announce Type: new \nAbstract: Social simulations built from language-model agents"
+      "oneliner": ""
     },
     {
       "id": "bb983f0927be",
@@ -514,12 +659,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Exploring More to Solve More: Boosting Diversity in Text Diffusion Models via Entropy-Based Guidance",
-      "summary_zh": "arXiv:2608.00024v1 Announce Type: new \nAbstract: Although diffusion models have revolutionized continuous domains like image synthesis through high quality generations and controllable guidance mechanisms, bringing this controllability to the...",
-      "tags_zh": [
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2608.00024v1 Announce Type: new \nAbstract: Although diffusion models have revolutionized conti"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "ba368d02a63c",
@@ -541,12 +684,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "SLMs as Multi-Agent Routers: A Progressive SFT and Reinforcement Learning Approach",
-      "summary_zh": "arXiv:2608.00030v1 Announce Type: new \nAbstract: Specialised retrieval agents typically surface higher quality results than general-purpose search, but selecting the optimal agent for a given query remains an open problem. Current approaches...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.00030v1 Announce Type: new \nAbstract: Specialised retrieval agents typically surface high"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "c77edd34dba8",
@@ -1045,6 +1186,29 @@
       "oneliner": ""
     },
     {
+      "id": "23741ecc7c7a",
+      "title": "Genspark Open Sources GenOffice: A Free, Ad-Free AI Office Suite for macOS and Windows with Docs, Sheets, Slides, PDF",
+      "url": "https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Genspark has open sourced GenOffice under the Apache License 2.0. It is an AI-native office suite for macOS and Windows, covering Docs, Sheets, Slides and PDF as five Electron apps over one shared engine layer. The notable engineering claim is a...",
+      "published": "2026-08-04T03:46:16Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "e2b8f86303a2",
       "title": "Disrupting a Criminal Scam Operation",
       "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
@@ -1093,6 +1257,29 @@
       "oneliner": ""
     },
     {
+      "id": "10162f4554c3",
+      "title": "Evaluating Multimodal Vision Models with Moonshot PerceptionBench Using Robust Data Loading and Automated Judging",
+      "url": "https://www.marktechpost.com/2026/08/03/evaluating-multimodal-vision-models-with-moonshot-perceptionbench-using-robust-data-loading-and-automated-judging/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we design an end-to-end evaluation workflow for PerceptionBench. This multimodal benchmark measures fine-grained visual perception capabilities across tasks such as OCR, counting, localization, contextual reasoning, comparison,...",
+      "published": "2026-08-03T22:26:32Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "39d4fd006a36",
       "title": "Apple is getting this wrong",
       "url": "https://openai.com/index/apple-is-getting-this-wrong",
@@ -1109,6 +1296,28 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a2fe76702221",
+      "title": "How to Secure AI Agents, MCP Servers, and LLM Apps in Production",
+      "url": "https://www.marktechpost.com/2026/08/03/how-to-secure-ai-agents-mcp-servers-and-llm-apps-in-production/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "AI agents, MCP servers, and LLM apps break the core AppSec assumption that applications do what their code says. This guide walks through a practical see-fix-protect framework: a five-layer agentic AI attack surface map, a 12-point...",
+      "published": "2026-08-03T20:16:56Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4356,11 +4565,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "9a40059e627f"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5099,79 +5306,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2c718aeef192",
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "published": "2026-07-29T00:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "20c7d6a49c11",
-      "title": "Building Non-Interactive Agentic Coding Workflows with Moonshot AI’s Kimi CLI, JSONL Streaming, Testing, and Session Memory",
-      "url": "https://www.marktechpost.com/2026/07/28/building-non-interactive-agentic-coding-workflows-with-moonshot-ais-kimi-cli-jsonl-streaming-testing-and-session-memory/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we configure and operate Kimi CLI as a fully non-interactive AI coding agent. We install the CLI through uv with an isolated Python 3.13 environment, configure Moonshot API authentication through a TOML-based provider and model...",
-      "published": "2026-07-28T23:04:44Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c0fff3833cd6",
-      "title": "Fireworks AI Releases Fireworks Nexus: A Drop-In Routing and Cost-Control Layer That Moves Routine Coding Work to Open-Weight Models",
-      "url": "https://www.marktechpost.com/2026/07/28/fireworks-ai-releases-fireworks-nexus-a-drop-in-routing-and-cost-control-layer-that-moves-routine-coding-work-to-open-weight-models/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Fireworks AI has released Fireworks Nexus, an AI management and routing platform aimed at engineering organizations. It connects the coding tools developers already use to a managed layer of open-weight models. The problem it targets is well...",
-      "published": "2026-07-28T22:45:56Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
