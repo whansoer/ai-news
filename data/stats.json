@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-05T10:44:35Z",
-  "total": 269,
+  "updated": "2026-08-05T17:53:30Z",
+  "total": 238,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 45
     },
     {
       "name": "MarkTechPost",
-      "count": 34
+      "count": 33
     },
     {
       "name": "GitHub Trending",
-      "count": 23
+      "count": 24
     },
     {
       "name": "OpenAI",
@@ -36,44 +36,40 @@
     },
     {
       "name": "AI News",
-      "count": 7
+      "count": 6
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 52
     },
     {
       "name": "LLM",
-      "count": 42
+      "count": 37
     },
     {
       "name": "Benchmark",
-      "count": 24
+      "count": 23
     },
     {
       "name": "RAG",
-      "count": 9
-    },
-    {
-      "name": "Diffusion",
       "count": 8
     },
     {
-      "name": "Google",
-      "count": 7
+      "name": "Claude",
+      "count": 6
     },
     {
       "name": "GPU",
       "count": 6
     },
     {
-      "name": "Claude",
-      "count": 5
+      "name": "Google",
+      "count": 6
     },
     {
-      "name": "Microsoft",
+      "name": "DeepSeek",
       "count": 5
     },
     {
@@ -81,7 +77,7 @@
       "count": 5
     },
     {
-      "name": "DeepSeek",
+      "name": "Diffusion",
       "count": 5
     },
     {
@@ -93,19 +89,19 @@
       "count": 5
     },
     {
-      "name": "API",
+      "name": "Microsoft",
       "count": 4
     },
     {
-      "name": "Transformer",
-      "count": 3
+      "name": "API",
+      "count": 4
     },
     {
       "name": "Embedding",
       "count": 2
     },
     {
-      "name": "Meta",
+      "name": "Transformer",
       "count": 2
     },
     {
@@ -123,16 +119,20 @@
     {
       "name": "Fine-tune",
       "count": 1
+    },
+    {
+      "name": "Meta",
+      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 194
+      "count": 163
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 39
     },
     {
       "name": "模型发布",
@@ -140,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 7
+      "count": 6
     }
   ],
   "dailyTrend": [
@@ -162,11 +162,11 @@
     },
     {
       "date": "08-04",
-      "count": 28
+      "count": 27
     },
     {
       "date": "08-05",
-      "count": 38
+      "count": 42
     },
     {
       "date": "08-14",
@@ -175,8 +175,38 @@
   ],
   "top10": [
     {
+      "id": "710e3cb1a40c",
+      "title": "cloudflare /computer",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "0134ddc144f0",
+      "title": "huangruiteng /loopx",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "56030b62da13",
       "title": "TencentCloud /TencentDB-Agent-Memory",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "af92210f8dd3",
+      "title": "esengine /DeepSeek-Reasonix",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "0d1bd25a3199",
+      "title": "addyosmani /agent-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -193,12 +223,6 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "4e308eb7afe6",
       "title": "microsoft /generative-ai-for-beginners",
       "score": 5,
@@ -209,30 +233,6 @@
       "title": "lyogavin /airllm",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "aae962e8bc38",
-      "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "d84c0fe1c999",
-      "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "59c85cc7853d",
-      "title": "TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "9bb011379e4f",
-      "title": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
