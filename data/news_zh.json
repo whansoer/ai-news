@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T02:41:21Z",
+  "updated": "2026-08-05T10:44:44Z",
   "total": 20,
   "items": [
     {
@@ -90,39 +90,11 @@
       }
     },
     {
-      "id": "884f8e03df4d",
-      "title_zh": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
-      "summary_zh": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages and PDFs as images. This tutorial explores the complete pipeline—from rendering and tiling to multimodal embedding and hybrid search—enabling...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "899f3cac4020",
-      "title_zh": "Third-party cyber evaluations involving OpenAI models",
-      "summary_zh": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "73394aaf21fa",
-      "title_zh": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
-      "summary_zh": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, and runs up to 2.37x faster than...",
+      "id": "aae962e8bc38",
+      "title_zh": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+      "summary_zh": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under OpenMDW-1.1 — a permissive license covering fine-tuning, derivatives and commercial redistribution. It pairs a 32B Cosmos 3 Super Reasoner backbone...",
       "tags_zh": [],
-      "oneliner": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Co",
+      "oneliner": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under O",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -130,13 +102,14 @@
       }
     },
     {
-      "id": "4d42e33f51cb",
-      "title_zh": "Deploy local agents everywhere with LFM2.5-2.6B",
-      "summary_zh": "",
+      "id": "d84c0fe1c999",
+      "title_zh": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+      "summary_zh": "CopilotKit has published the Channels SDK, an MIT licensed library that runs an existing AG-UI agent inside Slack and Microsoft Teams. Version 0.5.0 ships five platform adapters and a documented runtime contract. This breakdown covers the...",
       "tags_zh": [
+        "Microsoft",
         "Agent"
       ],
-      "oneliner": "",
+      "oneliner": "CopilotKit has published the Channels SDK, an MIT licensed library that runs an existing AG-UI agent",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -144,11 +117,11 @@
       }
     },
     {
-      "id": "34a7f3824c27",
-      "title_zh": "The latest AI news we announced in July 2026",
-      "summary_zh": "July AI recap header",
+      "id": "59c85cc7853d",
+      "title_zh": "TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering",
+      "summary_zh": "arXiv:2608.02609v1 Announce Type: new \nAbstract: Half a million cuneiform clay tablets survive in museums worldwide, yet modern users can neither read nor write in the world's oldest writing system, leaving a 4,000-year cultural barrier that...",
       "tags_zh": [],
-      "oneliner": "July AI recap header",
+      "oneliner": "arXiv:2608.02609v1 Announce Type: new \nAbstract: Half a million cuneiform clay tablets survive in mu",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -156,14 +129,13 @@
       }
     },
     {
-      "id": "af92210f8dd3",
-      "title_zh": "esengine /DeepSeek-Reasonix",
-      "summary_zh": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "id": "9bb011379e4f",
+      "title_zh": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
+      "summary_zh": "arXiv:2608.02612v1 Announce Type: new \nAbstract: Formulating an optimization problem strongly affects the quality of the final solution, yet good formulations usually require substantial expertise. Recent studies have therefore examined how to...",
       "tags_zh": [
-        "DeepSeek",
-        "Agent"
+        "LLM"
       ],
-      "oneliner": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave ",
+      "oneliner": "arXiv:2608.02612v1 Announce Type: new \nAbstract: Formulating an optimization problem strongly affect",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -171,105 +143,135 @@
       }
     },
     {
-      "id": "e67e2c38cce6",
-      "title_zh": "microsoft /AI-For-Beginners",
-      "summary_zh": "12 Weeks, 24 Lessons, AI for All!",
-      "tags_zh": [
-        "Microsoft"
-      ],
-      "oneliner": "12 Weeks, 24 Lessons, AI for All!",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "42d5eee6d757",
-      "title_zh": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
-      "summary_zh": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client. It holds roughly 0.08 seconds render time from 10,000 to 100 million points, exports a 10-million-point...",
-      "tags_zh": [],
-      "oneliner": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a nativ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "468c06ae219d",
-      "title_zh": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
-      "summary_zh": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA SkillSpector and LangGraph. In this tutorial, we construct a synthetic skill marketplace, scan for malicious prompt injection, credential access, and...",
-      "tags_zh": [],
-      "oneliner": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA Skill",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "112ee24e6989",
-      "title_zh": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
-      "summary_zh": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting, legal, events, and engineering. Released July 31, 2026 under an MIT license, QM gives each employee an isolated workspace and each Slack room...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d4c285b8fcc7",
-      "title_zh": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
-      "summary_zh": "arXiv:2608.00004v1 Announce Type: new \nAbstract: Grading natural-language mathematical proofs is a recurring cost in evaluating math-reasoning systems, and frontier LLM judges are expensive. We ask whether cheap open-weight models can serve as...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.00004v1 Announce Type: new \nAbstract: Grading natural-language mathematical proofs is a r",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f4243103cca3",
-      "title_zh": "RubricReviewer: From Direct Critique to Objective and Comprehensive Rubric-Driven Peer Review",
-      "summary_zh": "arXiv:2608.00005v1 Announce Type: new \nAbstract: Peer review at major venues is under unprecedented submission pressure, motivating the use of large language models (LLMs) as review assistants. Existing LLM-based reviewers, however, face two...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.00005v1 Announce Type: new \nAbstract: Peer review at major venues is under unprecedented ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e83655236ea6",
-      "title_zh": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
-      "summary_zh": "arXiv:2608.00007v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) with human-like personas is crucial for agentic applications, such as role-play and user simulation. Traditional prompt-based methods rely on descriptive...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.00007v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) with human-l",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "44ceca7fc616",
-      "title_zh": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
-      "summary_zh": "arXiv:2608.00009v1 Announce Type: new \nAbstract: Long-term memory remains a critical bottleneck for conversational AI agents, whose finite context windows cannot support coherent recall across thousands of turns. We present AgentMemBench, a...",
+      "id": "b05279b53be9",
+      "title_zh": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
+      "summary_zh": "arXiv:2608.02613v1 Announce Type: new \nAbstract: Edge-deployed personal memory assistants must handle private interpersonal conversations on-device with open-weight models. Yet, existing memory benchmarks often under-test the combination of...",
       "tags_zh": [
         "Agent",
         "Benchmark"
       ],
-      "oneliner": "arXiv:2608.00009v1 Announce Type: new \nAbstract: Long-term memory remains a critical bottleneck for ",
+      "oneliner": "arXiv:2608.02613v1 Announce Type: new \nAbstract: Edge-deployed personal memory assistants must handl",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "dcc15e760c5e",
+      "title_zh": "OncoTriad-QA: A Patient-Level Radiology-Pathology-Genomics Benchmark for Pan-Cancer Reasoning",
+      "summary_zh": "arXiv:2608.02615v1 Announce Type: new \nAbstract: Cancer diagnosis and characterization require integrating complementary evidence from radiology, pathology, genomics, and clinical metadata. However, most medical large language model (LLM) and...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.02615v1 Announce Type: new \nAbstract: Cancer diagnosis and characterization require integ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "111436ff6281",
+      "title_zh": "Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks",
+      "summary_zh": "arXiv:2608.02616v1 Announce Type: new \nAbstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5...",
+      "tags_zh": [
+        "OpenAI",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.02616v1 Announce Type: new \nAbstract: We present the first independent, systematic evalua",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "61cd3d1b469d",
+      "title_zh": "Preferred, Not Safer: Pairwise Preference Is a Poor Proxy for Clinical Safety",
+      "summary_zh": "arXiv:2608.02617v1 Announce Type: new \nAbstract: We evaluate whether clinician pairwise preferences provide a reliable signal of clinical safety in large language model (LLM) evaluation using expert feedback from MOOVE (Massive Open Online...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.02617v1 Announce Type: new \nAbstract: We evaluate whether clinician pairwise preferences ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "91586f00c702",
+      "title_zh": "JudgeArena: A Unified Framework for Reproducible LLM-Judge Evaluation",
+      "summary_zh": "arXiv:2608.02620v1 Announce Type: new \nAbstract: LLM-as-a-judge evaluation has become a dominant paradigm for ranking language models, yet the ecosystem remains fragmented: most benchmarks ship their own code base, hardcode a specific...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2608.02620v1 Announce Type: new \nAbstract: LLM-as-a-judge evaluation has become a dominant par",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6e87d20a409f",
+      "title_zh": "Knowing the Form, Not the Function: Automatically Auditing Answer--Authority Decoupling in Legal Benchmarks",
+      "summary_zh": "arXiv:2608.02621v1 Announce Type: new \nAbstract: Legal benchmarks typically score final answers even when models also state legal authority. We test whether answer correctness can serve as a proxy for authority grounding. Under ordinary reasoning...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.02621v1 Announce Type: new \nAbstract: Legal benchmarks typically score final answers even",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c22c1ac7ce68",
+      "title_zh": "Speculative Correction: Draft-then-Refine Decoding for Diffusion Language Models",
+      "summary_zh": "arXiv:2608.02625v1 Announce Type: new \nAbstract: Diffusion language models (DLMs) can revise tokens bidirectionally, but standard decoding procedures often adapt them to left-to-right generation by producing text block by block. We study a simple...",
+      "tags_zh": [
+        "Diffusion"
+      ],
+      "oneliner": "arXiv:2608.02625v1 Announce Type: new \nAbstract: Diffusion language models (DLMs) can revise tokens ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "21d92844c062",
+      "title_zh": "Stuck on \"A\": Diagnosing and Repairing Interface Injury in Attention-to-KDA Linearization of a 0.6B Language Model",
+      "summary_zh": "arXiv:2608.02689v1 Announce Type: new \nAbstract: We convert 21 of 28 full-attention layers of Qwen3-0.6B-Base into KDA (Kimi Delta Attention) linear-attention layers on a single consumer-grade GPU budget, and ask a simple question: what exactly...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.02689v1 Announce Type: new \nAbstract: We convert 21 of 28 full-attention layers of Qwen3-",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ae0ee1ec2c65",
+      "title_zh": "Crayotter: Learning Long-Horizon Video Editing Agents via Group-Relative Preference Backpropagation",
+      "summary_zh": "arXiv:2608.02694v1 Announce Type: new \nAbstract: Long-horizon video editing agents receive final-product feedback only after many interdependent decisions. Yet editing quality is subjective, admits multiple valid solutions, and is not...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2608.02694v1 Announce Type: new \nAbstract: Long-horizon video editing agents receive final-pro",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c12682b59ea1",
+      "title_zh": "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads",
+      "summary_zh": "arXiv:2608.02703v1 Announce Type: new \nAbstract: Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.02703v1 Announce Type: new \nAbstract: Weight-only quantization substantially reduces the ",
       "key_facts": [],
       "notable_quote": {
         "text": "",

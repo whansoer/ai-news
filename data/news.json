@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-05T02:41:21Z",
-  "total": 215,
-  "new_count": 45,
+  "updated": "2026-08-05T10:44:44Z",
+  "total": 197,
+  "new_count": 54,
   "items": [
     {
       "id": "56030b62da13",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "published": "2026-08-05T02:38:46Z",
+      "published": "2026-08-05T10:42:01Z",
       "tags": [
         "LLM",
         "Agent"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding...",
-      "published": "2026-08-05T02:38:46Z",
+      "published": "2026-08-05T10:42:01Z",
       "tags": [
         "Claude"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
-      "published": "2026-08-05T02:38:46Z",
+      "published": "2026-08-05T10:42:01Z",
       "tags": [
         "Agent",
         "Benchmark"
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-08-05T02:38:46Z",
+      "published": "2026-08-05T10:42:01Z",
       "tags": [
         "Agent"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "21 Lessons, Get Started Building with Generative AI",
-      "published": "2026-08-05T02:38:46Z",
+      "published": "2026-08-05T10:42:01Z",
       "tags": [
         "Microsoft"
       ],
@@ -133,9 +133,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "d84c0fe1c999",
           "e67e2c38cce6"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "microsoft /generative-ai-for-beginners",
       "summary_zh": "21 Lessons, Get Started Building with Generative AI",
@@ -151,7 +152,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AirLLM 70B inference with single 4GB GPU",
-      "published": "2026-08-05T02:38:46Z",
+      "published": "2026-08-05T10:42:01Z",
       "tags": [
         "LLM",
         "GPU"
@@ -174,6 +175,817 @@
       "oneliner": "AirLLM 70B inference with single 4GB GPU"
     },
     {
+      "id": "aae962e8bc38",
+      "title": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+      "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under OpenMDW-1.1 — a permissive license covering fine-tuning, derivatives and commercial redistribution. It pairs a 32B Cosmos 3 Super Reasoner backbone...",
+      "published": "2026-08-05T08:25:11Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "NVIDIA Releases Alpamayo 2 Super: A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+      "summary_zh": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under OpenMDW-1.1 — a permissive license covering fine-tuning, derivatives and commercial redistribution. It pairs a 32B Cosmos 3 Super Reasoner backbone...",
+      "tags_zh": [],
+      "oneliner": "NVIDIA released Alpamayo 2 Super, a 34B vision-language-action model for autonomous driving, under O"
+    },
+    {
+      "id": "d84c0fe1c999",
+      "title": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+      "url": "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "CopilotKit has published the Channels SDK, an MIT licensed library that runs an existing AG-UI agent inside Slack and Microsoft Teams. Version 0.5.0 ships five platform adapters and a documented runtime contract. This breakdown covers the...",
+      "published": "2026-08-05T04:43:17Z",
+      "tags": [
+        "Microsoft",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "4e308eb7afe6",
+          "e67e2c38cce6"
+        ],
+        "score": 7
+      },
+      "title_zh": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
+      "summary_zh": "CopilotKit has published the Channels SDK, an MIT licensed library that runs an existing AG-UI agent inside Slack and Microsoft Teams. Version 0.5.0 ships five platform adapters and a documented runtime contract. This breakdown covers the...",
+      "tags_zh": [
+        "Microsoft",
+        "Agent"
+      ],
+      "oneliner": "CopilotKit has published the Channels SDK, an MIT licensed library that runs an existing AG-UI agent"
+    },
+    {
+      "id": "59c85cc7853d",
+      "title": "TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering",
+      "url": "https://arxiv.org/abs/2608.02609",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02609v1 Announce Type: new \nAbstract: Half a million cuneiform clay tablets survive in museums worldwide, yet modern users can neither read nor write in the world's oldest writing system, leaving a 4,000-year cultural barrier that...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "TabletCraft: Bridging a 4,000-Year Cultural Gap with Bidirectional Akkadian NMT and Cuneiform Rendering",
+      "summary_zh": "arXiv:2608.02609v1 Announce Type: new \nAbstract: Half a million cuneiform clay tablets survive in museums worldwide, yet modern users can neither read nor write in the world's oldest writing system, leaving a 4,000-year cultural barrier that...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.02609v1 Announce Type: new \nAbstract: Half a million cuneiform clay tablets survive in mu"
+    },
+    {
+      "id": "9bb011379e4f",
+      "title": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
+      "url": "https://arxiv.org/abs/2608.02612",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02612v1 Announce Type: new \nAbstract: Formulating an optimization problem strongly affects the quality of the final solution, yet good formulations usually require substantial expertise. Recent studies have therefore examined how to...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "BBOWP-Bench: Evaluating LLMs on Black-Box Optimization Word Problems",
+      "summary_zh": "arXiv:2608.02612v1 Announce Type: new \nAbstract: Formulating an optimization problem strongly affects the quality of the final solution, yet good formulations usually require substantial expertise. Recent studies have therefore examined how to...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2608.02612v1 Announce Type: new \nAbstract: Formulating an optimization problem strongly affect"
+    },
+    {
+      "id": "b05279b53be9",
+      "title": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
+      "url": "https://arxiv.org/abs/2608.02613",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02613v1 Announce Type: new \nAbstract: Edge-deployed personal memory assistants must handle private interpersonal conversations on-device with open-weight models. Yet, existing memory benchmarks often under-test the combination of...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "MemArena: An Ego-Centric Benchmark for On-Device Agentic Personal Memory Assistants at Scale",
+      "summary_zh": "arXiv:2608.02613v1 Announce Type: new \nAbstract: Edge-deployed personal memory assistants must handle private interpersonal conversations on-device with open-weight models. Yet, existing memory benchmarks often under-test the combination of...",
+      "tags_zh": [
+        "Agent",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.02613v1 Announce Type: new \nAbstract: Edge-deployed personal memory assistants must handl"
+    },
+    {
+      "id": "dcc15e760c5e",
+      "title": "OncoTriad-QA: A Patient-Level Radiology-Pathology-Genomics Benchmark for Pan-Cancer Reasoning",
+      "url": "https://arxiv.org/abs/2608.02615",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02615v1 Announce Type: new \nAbstract: Cancer diagnosis and characterization require integrating complementary evidence from radiology, pathology, genomics, and clinical metadata. However, most medical large language model (LLM) and...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "OncoTriad-QA: A Patient-Level Radiology-Pathology-Genomics Benchmark for Pan-Cancer Reasoning",
+      "summary_zh": "arXiv:2608.02615v1 Announce Type: new \nAbstract: Cancer diagnosis and characterization require integrating complementary evidence from radiology, pathology, genomics, and clinical metadata. However, most medical large language model (LLM) and...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.02615v1 Announce Type: new \nAbstract: Cancer diagnosis and characterization require integ"
+    },
+    {
+      "id": "111436ff6281",
+      "title": "Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks",
+      "url": "https://arxiv.org/abs/2608.02616",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02616v1 Announce Type: new \nAbstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "OpenAI",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "899f3cac4020"
+        ],
+        "score": 5
+      },
+      "title_zh": "Evaluating OpenAI's Privacy Filter: Cross-Lingual, Cross-Domain PII Detection Across 42 Benchmarks",
+      "summary_zh": "arXiv:2608.02616v1 Announce Type: new \nAbstract: We present the first independent, systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter bidirectional PII detector, across 42 synthetic benchmarks spanning 22 languages and 5...",
+      "tags_zh": [
+        "OpenAI",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.02616v1 Announce Type: new \nAbstract: We present the first independent, systematic evalua"
+    },
+    {
+      "id": "61cd3d1b469d",
+      "title": "Preferred, Not Safer: Pairwise Preference Is a Poor Proxy for Clinical Safety",
+      "url": "https://arxiv.org/abs/2608.02617",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02617v1 Announce Type: new \nAbstract: We evaluate whether clinician pairwise preferences provide a reliable signal of clinical safety in large language model (LLM) evaluation using expert feedback from MOOVE (Massive Open Online...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Preferred, Not Safer: Pairwise Preference Is a Poor Proxy for Clinical Safety",
+      "summary_zh": "arXiv:2608.02617v1 Announce Type: new \nAbstract: We evaluate whether clinician pairwise preferences provide a reliable signal of clinical safety in large language model (LLM) evaluation using expert feedback from MOOVE (Massive Open Online...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.02617v1 Announce Type: new \nAbstract: We evaluate whether clinician pairwise preferences "
+    },
+    {
+      "id": "91586f00c702",
+      "title": "JudgeArena: A Unified Framework for Reproducible LLM-Judge Evaluation",
+      "url": "https://arxiv.org/abs/2608.02620",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02620v1 Announce Type: new \nAbstract: LLM-as-a-judge evaluation has become a dominant paradigm for ranking language models, yet the ecosystem remains fragmented: most benchmarks ship their own code base, hardcode a specific...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "JudgeArena: A Unified Framework for Reproducible LLM-Judge Evaluation",
+      "summary_zh": "arXiv:2608.02620v1 Announce Type: new \nAbstract: LLM-as-a-judge evaluation has become a dominant paradigm for ranking language models, yet the ecosystem remains fragmented: most benchmarks ship their own code base, hardcode a specific...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2608.02620v1 Announce Type: new \nAbstract: LLM-as-a-judge evaluation has become a dominant par"
+    },
+    {
+      "id": "6e87d20a409f",
+      "title": "Knowing the Form, Not the Function: Automatically Auditing Answer--Authority Decoupling in Legal Benchmarks",
+      "url": "https://arxiv.org/abs/2608.02621",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02621v1 Announce Type: new \nAbstract: Legal benchmarks typically score final answers even when models also state legal authority. We test whether answer correctness can serve as a proxy for authority grounding. Under ordinary reasoning...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Knowing the Form, Not the Function: Automatically Auditing Answer--Authority Decoupling in Legal Benchmarks",
+      "summary_zh": "arXiv:2608.02621v1 Announce Type: new \nAbstract: Legal benchmarks typically score final answers even when models also state legal authority. We test whether answer correctness can serve as a proxy for authority grounding. Under ordinary reasoning...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.02621v1 Announce Type: new \nAbstract: Legal benchmarks typically score final answers even"
+    },
+    {
+      "id": "c22c1ac7ce68",
+      "title": "Speculative Correction: Draft-then-Refine Decoding for Diffusion Language Models",
+      "url": "https://arxiv.org/abs/2608.02625",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02625v1 Announce Type: new \nAbstract: Diffusion language models (DLMs) can revise tokens bidirectionally, but standard decoding procedures often adapt them to left-to-right generation by producing text block by block. We study a simple...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Speculative Correction: Draft-then-Refine Decoding for Diffusion Language Models",
+      "summary_zh": "arXiv:2608.02625v1 Announce Type: new \nAbstract: Diffusion language models (DLMs) can revise tokens bidirectionally, but standard decoding procedures often adapt them to left-to-right generation by producing text block by block. We study a simple...",
+      "tags_zh": [
+        "Diffusion"
+      ],
+      "oneliner": "arXiv:2608.02625v1 Announce Type: new \nAbstract: Diffusion language models (DLMs) can revise tokens "
+    },
+    {
+      "id": "21d92844c062",
+      "title": "Stuck on \"A\": Diagnosing and Repairing Interface Injury in Attention-to-KDA Linearization of a 0.6B Language Model",
+      "url": "https://arxiv.org/abs/2608.02689",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02689v1 Announce Type: new \nAbstract: We convert 21 of 28 full-attention layers of Qwen3-0.6B-Base into KDA (Kimi Delta Attention) linear-attention layers on a single consumer-grade GPU budget, and ask a simple question: what exactly...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Stuck on \"A\": Diagnosing and Repairing Interface Injury in Attention-to-KDA Linearization of a 0.6B Language Model",
+      "summary_zh": "arXiv:2608.02689v1 Announce Type: new \nAbstract: We convert 21 of 28 full-attention layers of Qwen3-0.6B-Base into KDA (Kimi Delta Attention) linear-attention layers on a single consumer-grade GPU budget, and ask a simple question: what exactly...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.02689v1 Announce Type: new \nAbstract: We convert 21 of 28 full-attention layers of Qwen3-"
+    },
+    {
+      "id": "ae0ee1ec2c65",
+      "title": "Crayotter: Learning Long-Horizon Video Editing Agents via Group-Relative Preference Backpropagation",
+      "url": "https://arxiv.org/abs/2608.02694",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02694v1 Announce Type: new \nAbstract: Long-horizon video editing agents receive final-product feedback only after many interdependent decisions. Yet editing quality is subjective, admits multiple valid solutions, and is not...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Crayotter: Learning Long-Horizon Video Editing Agents via Group-Relative Preference Backpropagation",
+      "summary_zh": "arXiv:2608.02694v1 Announce Type: new \nAbstract: Long-horizon video editing agents receive final-product feedback only after many interdependent decisions. Yet editing quality is subjective, admits multiple valid solutions, and is not...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2608.02694v1 Announce Type: new \nAbstract: Long-horizon video editing agents receive final-pro"
+    },
+    {
+      "id": "c12682b59ea1",
+      "title": "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads",
+      "url": "https://arxiv.org/abs/2608.02703",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02703v1 Announce Type: new \nAbstract: Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "ARCHead: Activation-Metric Residual Correction for Large Language Model Output Heads",
+      "summary_zh": "arXiv:2608.02703v1 Announce Type: new \nAbstract: Weight-only quantization substantially reduces the storage of large language model (LLM) transformer blocks, but practical backends often retain the final language-modeling head (LM-head) in BF16...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.02703v1 Announce Type: new \nAbstract: Weight-only quantization substantially reduces the "
+    },
+    {
+      "id": "db34a8ccbe55",
+      "title": "Learning a Vector-Symbolic Model for Socio-Cultural Tasks",
+      "url": "https://arxiv.org/abs/2608.02807",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02807v1 Announce Type: new \nAbstract: How can we better represent the impact of sociocultural structures on decision making in computational cognitive models? Modeling this impact requires traversing multiple levels of semantic...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "054060eded94",
+      "title": "BODHI: Do LLMs Branch Out and Discover Heterogeneous Inferences?",
+      "url": "https://arxiv.org/abs/2608.02867",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02867v1 Announce Type: new \nAbstract: Although reinforcement learning with verifiable rewards (RLVR) has improved the performance of large language models (LLMs) across a variety of reasoning tasks, there is significant debate as to...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "aea07aeaac99",
+      "title": "FLARE: Few-shot Learning-based Adaptive Reflective Engine",
+      "url": "https://arxiv.org/abs/2608.02919",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2608.02919v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed in complex, compound AI systems where performance hinges on the quality of prompts. Recent state-of-the-art optimizers like GEPA...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "14a81196b368",
+      "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
+      "url": "https://arxiv.org/abs/2608.00001",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00001v1 Announce Type: new \nAbstract: This research note revisits Leibniz's mill, Turing's imitation game, and Searle's Chinese Room through the Conservation-Congruent Encoding (CCE) framework. It formalises a toy symbolic setting in...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0f0f2d9daa18",
+      "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
+      "url": "https://arxiv.org/abs/2608.00003",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00003v1 Announce Type: new \nAbstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "67866d370ce3",
+      "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
+      "url": "https://arxiv.org/abs/2608.00006",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00006v1 Announce Type: new \nAbstract: Large Language Models (LLMs), a part of artificial intelligence (AI), are increasingly being adopted by Small and Medium Enterprises (SMEs) to enhance question-answering capabilities and support...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a4f388f817d4",
+      "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
+      "url": "https://arxiv.org/abs/2608.00008",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00008v1 Announce Type: new \nAbstract: The local deployment of large language models (LLMs) is gaining traction due to privacy concerns and the desire for on-premise inference. However, the energy costs on consumer hardware remain...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM",
+        "GPU",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "58a0408d59fa",
+      "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
+      "url": "https://arxiv.org/abs/2608.00014",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00014v1 Announce Type: new \nAbstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2b1f2e0f2842",
+      "title": "Optimization and Constraint Modeling using LLMs with a Retrieval Augmented Generation Process",
+      "url": "https://arxiv.org/abs/2608.00015",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00015v1 Announce Type: new \nAbstract: Both optimization modeling and constraint modeling are non-trivial problems requiring deep domain expertise and proficiency in modeling formalism languages. Despite their importance across...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "089fbcd50659",
+      "title": "Memory Reward Inflation in Self-Improving LLM Agents",
+      "url": "https://arxiv.org/abs/2608.00017",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00017v1 Announce Type: new \nAbstract: Self-improving LLM agents increasingly learn from experience without updating any weights. Each episode is stored in an external memory, scored, and retrieved for similar future tasks to shape...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d192900f291e",
+      "title": "Request-Level Energy Attribution for Batched LLM Serving",
+      "url": "https://arxiv.org/abs/2608.00026",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00026v1 Announce Type: new \nAbstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c02ad938468e",
+      "title": "Motif-Mamba: network motif improved mamba for long-range sequence modeling",
+      "url": "https://arxiv.org/abs/2608.00027",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00027v1 Announce Type: new \nAbstract: Efficient long-sequence modeling remains a central challenge for large language models, as self-attention scales quadratically with sequence length. Mamba offers a linear-time alternative through...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7980ae7d953d",
+      "title": "Nova: An End-to-End MLIR Compiler for Deep Learning",
+      "url": "https://arxiv.org/abs/2608.00029",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00029v1 Announce Type: new \nAbstract: The performance of deep learning models at scale relies heavily on how effectively high-level mathematical operations are mapped to underlying physical hardware. While high-level tensor frameworks...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "207d644dc35d",
+      "title": "SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems",
+      "url": "https://arxiv.org/abs/2608.00033",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00033v1 Announce Type: new \nAbstract: SIRIN (Semantic Inconsistency Recognition and Inspection Nexus) is a unified toolkit and interactive web UI for detecting contextual hallucinations (fluent, plausible responses unsupported by the...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b647a443ca10",
+      "title": "Linguistic Context Recodes Visual Representations in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2608.00035",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00035v1 Announce Type: new \nAbstract: Goal-directed visual processing is a hallmark of human visual intelligence, resulting in representations that support downstream tasks such as categorization or search. Though vision-language...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2da38e4cf10a",
+      "title": "RAG-TESTER: Automated End-to-End Testing of Retrieval-Augmented Large Language Models",
+      "url": "https://arxiv.org/abs/2608.00054",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00054v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) enables Large Language Models (LLMs) to use external and domain-specific knowledge, but its reliability depends on the interaction between the generative model,...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "41c9c30f18a0",
+      "title": "H+ Embedding: Harmonizing Global and Token-Level Retrieval with Context-Dependent Phrases",
+      "url": "https://arxiv.org/abs/2608.00065",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00065v1 Announce Type: new \nAbstract: Terminology-intensive retrieval, especially in medical settings, depends on preserving multi-word entities, abbreviations, numerical constraints, and compositional concepts. However, existing...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Embedding"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "025acdbcbd59",
+      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
+      "url": "https://arxiv.org/abs/2608.00101",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.00101v1 Announce Type: new \nAbstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "884f8e03df4d",
       "title": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
       "url": "https://www.marktechpost.com/2026/08/04/pixel-native-rag-a-practical-guide-to-visual-document-indexing/",
@@ -193,12 +1005,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Pixel-Native RAG: A Practical Guide to Visual Document Indexing",
-      "summary_zh": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages and PDFs as images. This tutorial explores the complete pipeline—from rendering and tiling to multimodal embedding and hybrid search—enabling...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "Move beyond traditional text-based parsing with PixelRAG, an end-to-end system that treats web pages"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "899f3cac4020",
@@ -216,16 +1026,16 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "111436ff6281"
+        ],
+        "score": 5
       },
-      "title_zh": "Third-party cyber evaluations involving OpenAI models",
-      "summary_zh": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "73394aaf21fa",
@@ -245,10 +1055,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Cursor Open-Sources Mixture-of-Kittens (MoK): A Deterministic MoE Training Megakernel for GB300 NVL72 Racks",
-      "summary_zh": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, and runs up to 2.37x faster than...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Cursor Research has open-sourced Mixture-of-Kittens (MoK), the MoE training megakernel behind its Co"
+      "oneliner": ""
     },
     {
       "id": "4d42e33f51cb",
@@ -270,11 +1080,9 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "title_zh": "",
       "summary_zh": "",
-      "tags_zh": [
-        "Agent"
-      ],
+      "tags_zh": [],
       "oneliner": ""
     },
     {
@@ -297,10 +1105,10 @@
         ],
         "score": 5
       },
-      "title_zh": "The latest AI news we announced in July 2026",
-      "summary_zh": "July AI recap header",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "July AI recap header"
+      "oneliner": ""
     },
     {
       "id": "af92210f8dd3",
@@ -323,13 +1131,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "esengine /DeepSeek-Reasonix",
-      "summary_zh": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "tags_zh": [
-        "DeepSeek",
-        "Agent"
-      ],
-      "oneliner": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "e67e2c38cce6",
@@ -350,16 +1155,15 @@
         "level": "multi-source",
         "corroborating_ids": [
           "4e308eb7afe6",
+          "d84c0fe1c999",
           "104b57e9a431"
         ],
-        "score": 7
+        "score": 9
       },
-      "title_zh": "microsoft /AI-For-Beginners",
-      "summary_zh": "12 Weeks, 24 Lessons, AI for All!",
-      "tags_zh": [
-        "Microsoft"
-      ],
-      "oneliner": "12 Weeks, 24 Lessons, AI for All!"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "42d5eee6d757",
@@ -379,10 +1183,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Reflex Open Sources XY: A Rust-Backed Super-Fast Python Charting Library That Keeps 100 Million Point Charts Interactive",
-      "summary_zh": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a native Rust core and a WebGL2 client. It holds roughly 0.08 seconds render time from 10,000 to 100 million points, exports a 10-million-point...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Reflex has released XY, an Apache-2.0 Python charting library that moves rendering work into a nativ"
+      "oneliner": ""
     },
     {
       "id": "468c06ae219d",
@@ -402,10 +1206,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Building an Advanced AI Skill Security Auditing Pipeline with NVIDIA SkillSpector, LangGraph, YARA Rules, SARIF, and CI Policy Gates",
-      "summary_zh": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA SkillSpector and LangGraph. In this tutorial, we construct a synthetic skill marketplace, scan for malicious prompt injection, credential access, and...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Learn how to build an end-to-end security assessment pipeline for AI agent skills using NVIDIA Skill"
+      "oneliner": ""
     },
     {
       "id": "112ee24e6989",
@@ -427,12 +1231,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Y Combinator Open-Sources QM: An MIT-Licensed Multiplayer Agent Harness That Runs In Slack And The Web",
-      "summary_zh": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting, legal, events, and engineering. Released July 31, 2026 under an MIT license, QM gives each employee an isolated workspace and each Slack room...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Y Combinator has open-sourced QM, the multiplayer agent harness it uses internally across accounting"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d4c285b8fcc7",
@@ -452,10 +1254,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Cost-Effective Automated Judging of Natural-Language Mathematical Proofs",
-      "summary_zh": "arXiv:2608.00004v1 Announce Type: new \nAbstract: Grading natural-language mathematical proofs is a recurring cost in evaluating math-reasoning systems, and frontier LLM judges are expensive. We ask whether cheap open-weight models can serve as...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.00004v1 Announce Type: new \nAbstract: Grading natural-language mathematical proofs is a r"
+      "oneliner": ""
     },
     {
       "id": "f4243103cca3",
@@ -475,10 +1277,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "RubricReviewer: From Direct Critique to Objective and Comprehensive Rubric-Driven Peer Review",
-      "summary_zh": "arXiv:2608.00005v1 Announce Type: new \nAbstract: Peer review at major venues is under unprecedented submission pressure, motivating the use of large language models (LLMs) as review assistants. Existing LLM-based reviewers, however, face two...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.00005v1 Announce Type: new \nAbstract: Peer review at major venues is under unprecedented "
+      "oneliner": ""
     },
     {
       "id": "e83655236ea6",
@@ -501,13 +1303,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "MemoryForge: Synthesize Lifelong Memory for Human-Like LLM Agents",
-      "summary_zh": "arXiv:2608.00007v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) with human-like personas is crucial for agentic applications, such as role-play and user simulation. Traditional prompt-based methods rely on descriptive...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.00007v1 Announce Type: new \nAbstract: Equipping Large Language Models (LLMs) with human-l"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "44ceca7fc616",
@@ -530,13 +1329,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "AgentMemBench: A Systematic Benchmark for Evaluating Long-Term Memory Management Strategies in Conversational AI Agents",
-      "summary_zh": "arXiv:2608.00009v1 Announce Type: new \nAbstract: Long-term memory remains a critical bottleneck for conversational AI agents, whose finite context windows cannot support coherent recall across thousands of turns. We present AgentMemBench, a...",
-      "tags_zh": [
-        "Agent",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2608.00009v1 Announce Type: new \nAbstract: Long-term memory remains a critical bottleneck for "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "84a70b60501e",
@@ -580,11 +1376,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "14a81196b368"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
@@ -628,11 +1422,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "b647a443ca10"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -795,381 +1587,6 @@
       "published": "2026-08-04T04:00:00Z",
       "tags": [
         "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "14a81196b368",
-      "title": "Revisiting Classic Thought Experiments to Measure Consciousness for Artificial Intelligence Safety",
-      "url": "https://arxiv.org/abs/2608.00001",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00001v1 Announce Type: new \nAbstract: This research note revisits Leibniz's mill, Turing's imitation game, and Searle's Chinese Room through the Conservation-Congruent Encoding (CCE) framework. It formalises a toy symbolic setting in...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "898ec467ec0c"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0f0f2d9daa18",
-      "title": "AutoFOAM: The Self-Refining Autonomous OpenFOAM Agent",
-      "url": "https://arxiv.org/abs/2608.00003",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00003v1 Announce Type: new \nAbstract: Computational Fluid Dynamics (CFD) plays an important role in modern engineering, but using open-source solvers such as OpenFOAM requires considerable knowledge and skills, as well as...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "67866d370ce3",
-      "title": "Enhancing LLMs with Context-Specific Knowledge for Mitigating Misinformation in SMEs: A RAG-based Modeling and Analysis",
-      "url": "https://arxiv.org/abs/2608.00006",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00006v1 Announce Type: new \nAbstract: Large Language Models (LLMs), a part of artificial intelligence (AI), are increasingly being adopted by Small and Medium Enterprises (SMEs) to enhance question-answering capabilities and support...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "LLM",
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a4f388f817d4",
-      "title": "Energy Efficiency of Locally Deployed LLMs: A Preliminary Quantitative GPU Power Benchmark on Consumer Hardware",
-      "url": "https://arxiv.org/abs/2608.00008",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00008v1 Announce Type: new \nAbstract: The local deployment of large language models (LLMs) is gaining traction due to privacy concerns and the desire for on-premise inference. However, the energy costs on consumer hardware remain...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "LLM",
-        "GPU",
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "58a0408d59fa",
-      "title": "CoT-Core: Accelerating LLM Evaluation via CoT-Aware Coreset Selection",
-      "url": "https://arxiv.org/abs/2608.00014",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00014v1 Announce Type: new \nAbstract: Evaluating Large Language Models (LLMs) incurs prohibitive computational overhead during continuous development processes. While coreset selection accelerates evaluation, existing methods either...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2b1f2e0f2842",
-      "title": "Optimization and Constraint Modeling using LLMs with a Retrieval Augmented Generation Process",
-      "url": "https://arxiv.org/abs/2608.00015",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00015v1 Announce Type: new \nAbstract: Both optimization modeling and constraint modeling are non-trivial problems requiring deep domain expertise and proficiency in modeling formalism languages. Despite their importance across...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "089fbcd50659",
-      "title": "Memory Reward Inflation in Self-Improving LLM Agents",
-      "url": "https://arxiv.org/abs/2608.00017",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00017v1 Announce Type: new \nAbstract: Self-improving LLM agents increasingly learn from experience without updating any weights. Each episode is stored in an external memory, scored, and retrieved for similar future tasks to shape...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d192900f291e",
-      "title": "Request-Level Energy Attribution for Batched LLM Serving",
-      "url": "https://arxiv.org/abs/2608.00026",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00026v1 Announce Type: new \nAbstract: Batched LLM serving improves throughput but complicates energy accounting. GPU power telemetry is aggregate, whereas sustainability reporting, chargeback, and workload analysis often require...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c02ad938468e",
-      "title": "Motif-Mamba: network motif improved mamba for long-range sequence modeling",
-      "url": "https://arxiv.org/abs/2608.00027",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00027v1 Announce Type: new \nAbstract: Efficient long-sequence modeling remains a central challenge for large language models, as self-attention scales quadratically with sequence length. Mamba offers a linear-time alternative through...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7980ae7d953d",
-      "title": "Nova: An End-to-End MLIR Compiler for Deep Learning",
-      "url": "https://arxiv.org/abs/2608.00029",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00029v1 Announce Type: new \nAbstract: The performance of deep learning models at scale relies heavily on how effectively high-level mathematical operations are mapped to underlying physical hardware. While high-level tensor frameworks...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "207d644dc35d",
-      "title": "SIRIN: A Unified Toolkit for Detecting Contextual Hallucinations in Retrieval-Augmented and Memory-Grounded LLM Systems",
-      "url": "https://arxiv.org/abs/2608.00033",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00033v1 Announce Type: new \nAbstract: SIRIN (Semantic Inconsistency Recognition and Inspection Nexus) is a unified toolkit and interactive web UI for detecting contextual hallucinations (fluent, plausible responses unsupported by the...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b647a443ca10",
-      "title": "Linguistic Context Recodes Visual Representations in Vision-Language Models",
-      "url": "https://arxiv.org/abs/2608.00035",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00035v1 Announce Type: new \nAbstract: Goal-directed visual processing is a hallmark of human visual intelligence, resulting in representations that support downstream tasks such as categorization or search. Though vision-language...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "12b08c2a1fe2"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2da38e4cf10a",
-      "title": "RAG-TESTER: Automated End-to-End Testing of Retrieval-Augmented Large Language Models",
-      "url": "https://arxiv.org/abs/2608.00054",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00054v1 Announce Type: new \nAbstract: Retrieval-Augmented Generation (RAG) enables Large Language Models (LLMs) to use external and domain-specific knowledge, but its reliability depends on the interaction between the generative model,...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "41c9c30f18a0",
-      "title": "H+ Embedding: Harmonizing Global and Token-Level Retrieval with Context-Dependent Phrases",
-      "url": "https://arxiv.org/abs/2608.00065",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00065v1 Announce Type: new \nAbstract: Terminology-intensive retrieval, especially in medical settings, depends on preserving multi-word entities, abbreviations, numerical constraints, and compositional concepts. However, existing...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "Embedding"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "025acdbcbd59",
-      "title": "Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale",
-      "url": "https://arxiv.org/abs/2608.00101",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2608.00101v1 Announce Type: new \nAbstract: AI coding agents like GitHub Copilot, Claude Code, and Codex interleave multi-step LLM inference with tool execution, creating a workload different from chatbots. We present the first...",
-      "published": "2026-08-04T04:00:00Z",
-      "tags": [
-        "Agent"
       ],
       "score": 5,
       "relations": [],
@@ -4442,870 +4859,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b627289da26a",
-      "title": "andrewyng /aisuite",
-      "url": "https://github.com/andrewyng/aisuite",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Simple, unified interface to multiple Generative AI providers",
-      "published": "2026-07-29T10:44:18Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2b9d770ccfd9",
-      "title": "microsoft /agent-governance-toolkit",
-      "url": "https://github.com/microsoft/agent-governance-toolkit",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-      "published": "2026-07-29T10:44:18Z",
-      "tags": [
-        "Microsoft",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "104b57e9a431"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6b8a55852aa9",
-      "title": "Google AI Overviews become more common in search",
-      "url": "https://www.artificialintelligence-news.com/news/google-ai-overviews-us-searches/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Google’s AI-generated summaries appeared in 43% of US searches measured by Similarweb, up from 15% a year earlier, according to the market intelligence firm’s 2026 Generative AI Landscape report. AI Overviews display generated summaries within...",
-      "published": "2026-07-29T10:00:00Z",
-      "tags": [
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "cd8e20ce04a2"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e787c3a2ddc0",
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "url": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "published": "2026-07-29T10:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "83afb0c273ea",
-      "title": "Liquid AI Releases LFM2.5-Encoder-230M and LFM2.5-Encoder-350M: Bidirectional Encoders That Stay Fast at 8K Context on CPU",
-      "url": "https://www.marktechpost.com/2026/07/29/liquid-ai-releases-lfm2-5-encoder-230m-and-lfm2-5-encoder-350m-bidirectional-encoders-that-stay-fast-at-8k-context-on-cpu/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Liquid AI released two open-weight bidirectional encoders, LFM2.5-Encoder-230M and LFM2.5-Encoder-350M. Both carry an 8,192-token context and are built on the LFM2 hybrid backbone. The 350M ranks fourth of 14 models on a 17-task GLUE, SuperGLUE,...",
-      "published": "2026-07-29T09:38:42Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4f733c728cb5",
-      "title": "TimeCapsule: Generative Hallucination as a Method for Historical Sensemaking",
-      "url": "https://arxiv.org/abs/2607.24750",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.24750v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are temporally overexposed: trained on vast contemporary corpora, they encode present-day concepts that make them unreliable narrators of the past. We present...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b39d5d2f3505",
-      "title": "Measuring and Improving Behavioral Consistency in Large Language Models through Fact-Heuristic-Emotion State Enforcement",
-      "url": "https://arxiv.org/abs/2607.24765",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.24765v1 Announce Type: new \nAbstract: Large language models (LLMs) can give different answers to the same decision problem across runs, and reverse a decision when their own prior answer returns as context. We ask whether this...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "a393284f5561",
-          "8eba08643101",
-          "5e095b4b2271"
-        ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5efc18a7a830",
-      "title": "Neuromorphic Diffusion Language Models: Addressing Compute and Memory Bottlenecks via Sparsity and Block Denoising",
-      "url": "https://arxiv.org/abs/2607.24841",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.24841v1 Announce Type: new \nAbstract: Autoregressive (AR) large language models (LLMs) are inherently inefficient at inference time because each generated token requires accessing the full set of model parameters, leading to low...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Diffusion"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2d9ae59bb038",
-      "title": "Research Report on Noise-Shaped One-Bit Coefficients in Discrete Polynomial Fourier Extension",
-      "url": "https://arxiv.org/abs/2607.24868",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.24868v1 Announce Type: new \nAbstract: This report studies noise-shaped one-bit coefficients in normalized discrete polynomial Fourier extension. For first-order Sigma-Delta quantization, the error is written as $e_k=u_k-q_k=\\Delta v_k$...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a393284f5561",
-      "title": "CogArena: A Multimethod Evaluation of Cognitive Ability Structure in Large Language Models",
-      "url": "https://arxiv.org/abs/2607.24999",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.24999v1 Announce Type: new \nAbstract: LLM cognitive scores are increasingly summarized as per-ability profiles whose dimensions should converge across tasks, respond selectively to matched interventions, and generalize beyond the...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "b39d5d2f3505",
-          "8eba08643101",
-          "5e095b4b2271"
-        ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "920443a24a8a",
-      "title": "DS@GT ARC at CheckThat! 2026: LLM-Based Trace Ranking and Grouped Reward Modeling for Multilingual Numerical Claim Verification",
-      "url": "https://arxiv.org/abs/2607.25069",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25069v1 Announce Type: new \nAbstract: Automated verification of numerical claims is a challenging problem, as it requires both language understanding and quantitative reasoning. This paper describes our system for CLEF 2026 CheckThat!...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "8eba08643101",
-      "title": "Evaluating Communicative Belief Updates in Large Language Models via Implicature Recognition and Cancellation",
-      "url": "https://arxiv.org/abs/2607.25094",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25094v1 Announce Type: new \nAbstract: Human language is driven by unspoken beliefs and belief updates, making these critical to model for successful communication between large language models (LLMs) and their users. In this paper, we...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "b39d5d2f3505",
-          "a393284f5561",
-          "5e095b4b2271"
-        ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "27cab65abb2c",
-      "title": "Deep Label-Wise Attentive Temporal Convolutional Networks Improve Medical Coding",
-      "url": "https://arxiv.org/abs/2607.25129",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25129v1 Announce Type: new \nAbstract: Medical coding is the task of assigning a set of diagnosis and procedure codes for a hospitalization using recorded notes. It requires aggregating information from different parts of the text and...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "453361e968a7",
-      "title": "TabRank: Chain-of-Thought Distillation for Table Re-Rankers",
-      "url": "https://arxiv.org/abs/2607.25182",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25182v1 Announce Type: new \nAbstract: The ability to retrieve relevant tables for answering questions is a key task for structured information retrieval. Multi-stage retrieval systems rely heavily on rerankers to refine candidate lists...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "069c98edb380",
-      "title": "A scaling law of contextual persistence in human language",
-      "url": "https://arxiv.org/abs/2607.25184",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25184v1 Announce Type: new \nAbstract: Human language exhibits lawful structure at the level of words (frequency, vocabulary growth) and word pairs (co-occurrence across distance). Here we show that the arrangement of words in sequence...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "df17b67243f1",
-      "title": "MyoCardBench: A Real-World Data Benchmark for Evaluating Large Language Models in Clinically Authentic Cardiovascular Care Scenarios",
-      "url": "https://arxiv.org/abs/2607.25186",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25186v1 Announce Type: new \nAbstract: Background: Most medical large language model (LLM) benchmarks focus on examination knowledge or isolated tasks and may not reflect the longitudinal, multimodal, and safety-critical workflow of...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "68f69b3d78ae",
-      "title": "A Cross-lingual Comparison of Human and Classification Model Entrainment Behavior in Code-switched Speech Settings",
-      "url": "https://arxiv.org/abs/2607.25202",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25202v1 Announce Type: new \nAbstract: Conversational entrainment is well-studied in monolingual and written contexts, but remains underexplored in spoken code-switching (CSW). We present a novel cross-lingual analysis of entrainment in...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0e1c2a27eb4e",
-      "title": "Interpretable Column Annotation with LLM-Symbolized Decision Process Materialization",
-      "url": "https://arxiv.org/abs/2607.25228",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25228v1 Announce Type: new \nAbstract: Column annotation (CA), including column type annotation (CTA) and column property annotation (CPA), aims to identify the meanings of table columns and the semantic relationships among them. Recent...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d9e6160ba6ea",
-      "title": "VisualPatchWorld: Code World Models as Latent Structured Representations for Planning",
-      "url": "https://arxiv.org/abs/2607.25236",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25236v1 Announce Type: new \nAbstract: Different research lines use the term world model in different ways, yet they share a common aim: to capture how the world evolves under action in a form that supports perception, simulation, and...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5a74e8c77d0d",
-      "title": "Where Steering Signals Come From: Activation Source Selection in Activation Steering",
-      "url": "https://arxiv.org/abs/2607.25270",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2607.25270v1 Announce Type: new \nAbstract: Activation steering controls language models by adding vectors or features to hidden states at inference time, but the upstream source of these steering signals is often treated as a secondary...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "504a0623e51a",
-      "title": "Do Models Fake Alignment Without Clear Consequences?",
-      "url": "https://arxiv.org/abs/2607.24758",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24758v1 Announce Type: new \nAbstract: Large language models are capable of recognizing evaluation contexts and altering their behavior to reflect evaluator expectations rather than typical deployment behaviors, a phenomenon known as...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d7aa5458abe7",
-      "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
-      "url": "https://arxiv.org/abs/2607.24759",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24759v1 Announce Type: new \nAbstract: Research projects, educational efforts, and adjacent knowledge work accumulate findings, decisions, and reasoning that future collaborators rarely recover. The parts most useful to that work,...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "312815cf8346",
-      "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-      "url": "https://arxiv.org/abs/2607.24762",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24762v1 Announce Type: new \nAbstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "140880e4ecb1",
-      "title": "CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models",
-      "url": "https://arxiv.org/abs/2607.24763",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24763v1 Announce Type: new \nAbstract: Masked diffusion language models (MDLMs) are advancing rapidly, yet the evaluation standards needed to reliably interpret their progress have not kept pace. Despite MDLMs becoming competitive with...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Diffusion"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5e095b4b2271",
-      "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
-      "url": "https://arxiv.org/abs/2607.24764",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24764v1 Announce Type: new \nAbstract: The rapid growth of online grocery shopping requires recommendation systems that capture cyclical purchasing behavior and diverse user intents. Traditional item-level methods face scalability and...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "b39d5d2f3505",
-          "a393284f5561",
-          "8eba08643101"
-        ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fc0f6d2f20d1",
-      "title": "Crystalis: Progressive Nucleation and Semantic Annealing for Coordinated Multi-View Visualization Generation",
-      "url": "https://arxiv.org/abs/2607.24766",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24766v1 Announce Type: new \nAbstract: Large language models (LLMs) can generate individual charts, but coordinated multi-view visualizations (CMVs), where views share data flows and cross-view interactions, remain out of reach. Tight...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0bbb79bd97b7",
-      "title": "PATHFinder Agent for Tailored Prenatal Care",
-      "url": "https://arxiv.org/abs/2607.24768",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24768v1 Announce Type: new \nAbstract: Prenatal care is an important preventive service designed to improve outcomes for pregnant individuals. The American College of Obstetricians and Gynecologists (ACOG) recently introduced guidelines...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fa13bc752d72",
-      "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
-      "url": "https://arxiv.org/abs/2607.24769",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24769v1 Announce Type: new \nAbstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming --...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "LLM",
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1b4ed3e8c9f9",
-      "title": "ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop",
-      "url": "https://arxiv.org/abs/2607.24770",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24770v1 Announce Type: new \nAbstract: Procedural tasks such as furniture assembly and home repair impose substantial cognitive demands because users must interpret instructions, track task progress, reason about spatial state, and...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "620d9988f721",
-      "title": "RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection",
-      "url": "https://arxiv.org/abs/2607.24771",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24771v1 Announce Type: new \nAbstract: Knowledge injection updates pretrained MLLMs with new factual or domain-specific knowledge, but fitting full authoritative answers can cause drift in non-updated behavior. Online distillation...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f2b68e169ce6",
-      "title": "RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation",
-      "url": "https://arxiv.org/abs/2607.24772",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24772v1 Announce Type: new \nAbstract: Geoscience research requires complex analysis and domain expertise, with remote sensing (RS) observations as a key foundation. However, existing RS agents built on general-purpose LLMs remain...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f00e7182aa8f",
-      "title": "Right-sizing Recommendations (RSR): Cloud Workload Conformal Prediction for Virtual Machines in Data Center Operations",
-      "url": "https://arxiv.org/abs/2607.24773",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24773v1 Announce Type: new \nAbstract: Managing cloud infrastructure efficiently, especially in environments of large cloud providers or hyperscalers, requires optimizing the use of physical resources to minimize costs and maximize...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9b622b01eff6",
-      "title": "Atmospheric Diffusion-Guided Spatio-Temporal Transformer for Nuclear Radiation Forecasting",
-      "url": "https://arxiv.org/abs/2607.24774",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24774v1 Announce Type: new \nAbstract: Nuclear radiation, the energy released during atomic decay, poses persistent risks to public health and the environment, and concerns have only grown since the Fukushima accident and the recent...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Transformer",
-        "Diffusion"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "18ba358de140",
-      "title": "Steering topology distributions for unified generative design of architected metamaterials",
-      "url": "https://arxiv.org/abs/2607.24777",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24777v1 Announce Type: new \nAbstract: Architected metamaterials derive their functions from structure, creating vast opportunities to program physical responses through topology design. However, existing design methods are often...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Meta"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7a420abb3693",
-      "title": "HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising",
-      "url": "https://arxiv.org/abs/2607.24779",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2607.24779v1 Announce Type: new \nAbstract: Online advertising bidding systems typically deploy multiple offline-trained expert models (e.g., PID controllers, model predictive control, offline RL policies) but face two critical limitations:...",
-      "published": "2026-07-29T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
