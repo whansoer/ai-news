@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-05T17:53:39Z",
-  "total": 198,
-  "new_count": 41,
+  "updated": "2026-08-06T02:43:35Z",
+  "total": 214,
+  "new_count": 57,
   "items": [
     {
       "id": "710e3cb1a40c",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Give your agent a computer 👾",
-      "published": "2026-08-05T17:50:52Z",
+      "published": "2026-08-06T02:40:59Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
-      "published": "2026-08-05T17:50:52Z",
+      "published": "2026-08-06T02:40:59Z",
       "tags": [
         "Claude",
         "Agent"
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-      "published": "2026-08-05T17:50:52Z",
+      "published": "2026-08-06T02:40:59Z",
       "tags": [
         "LLM",
         "Agent"
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "published": "2026-08-05T17:50:52Z",
+      "published": "2026-08-06T02:40:59Z",
       "tags": [
         "DeepSeek",
         "Agent"
@@ -124,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-08-05T17:50:52Z",
+      "published": "2026-08-06T02:40:59Z",
       "tags": [
         "Agent"
       ],
@@ -151,7 +151,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-08-05T17:50:52Z",
+      "published": "2026-08-06T02:40:59Z",
       "tags": [
         "Agent"
       ],
@@ -170,6 +170,98 @@
         "Agent"
       ],
       "oneliner": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "6024ce9d163d",
+      "title": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
+      "url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted...",
+      "published": "2026-08-06T00:37:42Z",
+      "tags": [
+        "Claude",
+        "Microsoft",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "4e308eb7afe6",
+          "d84c0fe1c999"
+        ],
+        "score": 7
+      },
+      "title_zh": "Microsoft’s SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
+      "summary_zh": "Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is in Section 4.3: the exported best_skill.md keeps working in environments it was never trained on. A Codex-trained SpreadsheetBench skill lifted...",
+      "tags_zh": [
+        "Claude",
+        "Microsoft",
+        "Agent"
+      ],
+      "oneliner": "Most coverage of Microsoft's SkillOpt centers on its 52/52 result. The more consequential finding is"
+    },
+    {
+      "id": "51a909346367",
+      "title": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
+      "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we build a complete Bayesian marketing mix modeling workflow using Google Meridian. We begin by installing the required libraries, verifying GPU availability, and exploring a geo-level marketing dataset that includes media...",
+      "published": "2026-08-05T21:56:03Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian: Media Measurement, ROI Analysis, and Budget Optimization",
+      "summary_zh": "In this tutorial, we build a complete Bayesian marketing mix modeling workflow using Google Meridian. We begin by installing the required libraries, verifying GPU availability, and exploring a geo-level marketing dataset that includes media...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "In this tutorial, we build a complete Bayesian marketing mix modeling workflow using Google Meridian"
+    },
+    {
+      "id": "b22e25c1b975",
+      "title": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
+      "url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.2 model. Muse Code plans changes, writes code, and validates results across large repositories. Async background agents stay...",
+      "published": "2026-08-05T20:07:32Z",
+      "tags": [
+        "Meta",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "e607ec089268"
+        ],
+        "score": 5
+      },
+      "title_zh": "Meta AI Releases Muse Code (Beta): A Terminal Coding Agent Powered by the New Muse Spark 1.2 Model",
+      "summary_zh": "Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the new Muse Spark 1.2 model. Muse Code plans changes, writes code, and validates results across large repositories. Async background agents stay...",
+      "tags_zh": [
+        "Meta",
+        "Agent"
+      ],
+      "oneliner": "Meta Superintelligence Labs has released Muse Code, a terminal coding agent in beta, powered by the "
     },
     {
       "id": "7445d3b513ae",
@@ -245,10 +337,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "6024ce9d163d",
           "d84c0fe1c999",
           "e67e2c38cce6"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "microsoft /generative-ai-for-beginners",
       "summary_zh": "21 Lessons, Get Started Building with Generative AI",
@@ -328,10 +421,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "6024ce9d163d",
           "4e308eb7afe6",
           "e67e2c38cce6"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "CopilotKit Open Sources Channels SDK: An MIT Licensed Library That Runs Any AG-UI Agent Inside Slack And Microsoft Teams",
       "summary_zh": "CopilotKit has published the Channels SDK, an MIT licensed library that runs an existing AG-UI agent inside Slack and Microsoft Teams. Version 0.5.0 ships five platform adapters and a documented runtime contract. This breakdown covers the...",
@@ -496,10 +590,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Preferred, Not Safer: Pairwise Preference Is a Poor Proxy for Clinical Safety",
-      "summary_zh": "arXiv:2608.02617v1 Announce Type: new \nAbstract: We evaluate whether clinician pairwise preferences provide a reliable signal of clinical safety in large language model (LLM) evaluation using expert feedback from MOOVE (Massive Open Online...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.02617v1 Announce Type: new \nAbstract: We evaluate whether clinician pairwise preferences "
+      "oneliner": ""
     },
     {
       "id": "91586f00c702",
@@ -521,12 +615,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "JudgeArena: A Unified Framework for Reproducible LLM-Judge Evaluation",
-      "summary_zh": "arXiv:2608.02620v1 Announce Type: new \nAbstract: LLM-as-a-judge evaluation has become a dominant paradigm for ranking language models, yet the ecosystem remains fragmented: most benchmarks ship their own code base, hardcode a specific...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2608.02620v1 Announce Type: new \nAbstract: LLM-as-a-judge evaluation has become a dominant par"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "6e87d20a409f",
@@ -548,12 +640,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Knowing the Form, Not the Function: Automatically Auditing Answer--Authority Decoupling in Legal Benchmarks",
-      "summary_zh": "arXiv:2608.02621v1 Announce Type: new \nAbstract: Legal benchmarks typically score final answers even when models also state legal authority. We test whether answer correctness can serve as a proxy for authority grounding. Under ordinary reasoning...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2608.02621v1 Announce Type: new \nAbstract: Legal benchmarks typically score final answers even"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "c22c1ac7ce68",
@@ -736,9 +826,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
+        "level": "multi-source",
+        "corroborating_ids": [
+          "ccd6cd7e0acb"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1083,6 +1175,329 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "31105ccd72f3",
+      "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
+      "url": "https://arxiv.org/abs/2608.02604",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02604v1 Announce Type: new \nAbstract: LLM-based agents are increasingly being deployed for data-related tasks, including data sense-making, exploration, and retrieval. However, their performance heavily depends on the clarity and...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ada229d049a3",
+      "title": "Self-Organising Digital Circuits",
+      "url": "https://arxiv.org/abs/2608.02606",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02606v1 Announce Type: new \nAbstract: Fault tolerance in classical computing has traditionally relied on static strategies like hardware redundancy and error-correcting codes. Biological systems, in contrast, exhibit adaptive...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e607ec089268",
+      "title": "Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
+      "url": "https://arxiv.org/abs/2608.02618",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02618v1 Announce Type: new \nAbstract: Recent studies have identified an ``Artificial Hivemind'' effect in Large Language Models (LLMs) causing models to converge on a narrow, homogenized consensus even for open questions. This semantic...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Meta",
+        "LLM",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b22e25c1b975"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "678308525265",
+      "title": "PULSE: An Executable Contract Language for Spatiotemporal Knowledge Graph Engineering",
+      "url": "https://arxiv.org/abs/2608.02630",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02630v1 Announce Type: new \nAbstract: Knowledge graph engineering often distributes accepted state, observations, constraints, processes, and hypothetical scenarios across artifacts whose combined execution contract remains external....",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "91aad0498ead",
+      "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+      "url": "https://arxiv.org/abs/2608.02650",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02650v1 Announce Type: new \nAbstract: Large language model (LLM) agents increasingly rely on external tools to complete complex real-world tasks. However, reliable tool-use planning remains challenging due to the limitations of...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7039a18ac9b0",
+      "title": "Explainable AI for the EU Right to Explanation: A Systematic Review of the Law-XAI Translation Gap",
+      "url": "https://arxiv.org/abs/2608.02699",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02699v1 Announce Type: new \nAbstract: When algorithms make or influence consequential decisions---about loan eligibility, hiring, or healthcare---EU law grants affected individuals a Right to Explanation. Yet whether (and how)...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3c2644ee10c4",
+      "title": "Predictive Set Theory: A Generative Framework for Cognitive Architecture with Operationalized Core Mechanisms",
+      "url": "https://arxiv.org/abs/2608.02704",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02704v1 Announce Type: new \nAbstract: Predictive processing theories portray the brain as a hierarchical prediction engine that minimizes prediction error, yet they lack operational definitions for the structure of a \"prediction,\" the...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ccd6cd7e0acb",
+      "title": "Towards a new paradigm of scientific discovery with socialized artificial intelligence",
+      "url": "https://arxiv.org/abs/2608.02775",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02775v1 Announce Type: new \nAbstract: Scientific discovery has advanced through successive transformations in the organization of knowledge. Observation and experimentation established the empirical foundations of science. Theory made...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "14a81196b368"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "cc6a228b6e4a",
+      "title": "BAP-SQL: Budget-Aware Observation Planning for Agentic Text-to-SQL",
+      "url": "https://arxiv.org/abs/2608.02876",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02876v1 Announce Type: new \nAbstract: Tool-using agents do not merely consume observations: their actions determine what arrives next. In agentic text-to-SQL, a broad query can spend context and database work before useful evidence...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5a49428cf6c2",
+      "title": "VeriTrace: Human-Like Temporal Exploration Completes Agentic Action Space",
+      "url": "https://arxiv.org/abs/2608.02878",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02878v1 Announce Type: new \nAbstract: Large language models have shown promise for automated Verilog RTL generation, yet state-of-the-art multi-agent systems plateau at ~95% accuracy on standard benchmarks. We trace this ceiling to an...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f4d86d1e84f0",
+      "title": "Interpreting Black-Box Large Language Models with Sentence-Level Energy Landscapes",
+      "url": "https://arxiv.org/abs/2608.02879",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02879v1 Announce Type: new \nAbstract: The widespread adoption of proprietary Large Language Models (LLMs) accessed strictly through closed APIs has created a critical challenge for responsible deployment: a fundamental lack of...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9c590bbf96af",
+      "title": "Hypercubes, Hyperplanes, and Constraint-Induced Complexity Collapse in Atomic Concept Learning",
+      "url": "https://arxiv.org/abs/2608.02930",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02930v1 Announce Type: new \nAbstract: We revisit higher-arity atomic concept learning through the geometry of hypercubes and hyperplanes of ground instances. Our starting point is the observation that the ambient r-dimensional...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "45147e1743f3",
+      "title": "When Compression Scores Cannot Decide: Information Boundaries for Group-Robust LLM Pruning",
+      "url": "https://arxiv.org/abs/2608.02940",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02940v1 Announce Type: new \nAbstract: A reproducible compression statistic can still select the wrong candidate. A dense pruning score with 0.906 split-half reliability predicted a 16.1% gain. Its selected endpoint was 6.0% and 7.7%...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e79e58d28366",
+      "title": "On the missing data layer and a potential solution",
+      "url": "https://arxiv.org/abs/2608.02949",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02949v1 Announce Type: new \nAbstract: Latin America is missing two foundational layers of AI infrastructure: the dataset layer and the benchmark layer. This paper targets the dataset layer. The dataset layer faces two compounding...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "cab188b43bc7",
+      "title": "Neurosymbolic Reasoning with Incremental Knowledge for Sample Efficient Hierarchical Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.02993",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2608.02993v1 Announce Type: new \nAbstract: (Flat) Reinforcement Learning (RL) agents face significant challenges in environments with sparse rewards that require long-horizon reasoning. A compelling approach to improve sample efficiency is...",
+      "published": "2026-08-05T04:00:00Z",
+      "tags": [],
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
@@ -4836,59 +5251,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4ff655ca49b9",
-      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
-      "url": "https://openai.com/index/avatarin",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
-      "published": "2026-07-30T00:00:00Z",
-      "tags": [
-        "GPT",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "59b478f409dc",
-      "title": "Prompt Engineering vs Loop Engineering vs Graph Engineering: What Changes at Each Layer",
-      "url": "https://www.marktechpost.com/2026/07/29/prompt-engineering-vs-loop-engineering-vs-graph-engineering-what-changes-at-each-layer/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Three terms now compete for the same line in AI engineering job descriptions. Prompt engineering is the established one. Loop engineering entered the AI vocabulary in late 2025 and dominated developer discussion through June 2026. Graph...",
-      "published": "2026-07-29T19:30:35Z",
-      "tags": [
-        "Prompt"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "ef7d0e672816"
-        ],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
