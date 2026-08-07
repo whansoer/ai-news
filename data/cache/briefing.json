@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-08-07T09:07:55Z",
-  "count": 255,
+  "updated": "2026-08-07T17:00:37Z",
+  "count": 256,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -16322,6 +16322,70 @@
         }
       },
       "_ts": 1786093675
+    },
+    "768176c090a1d093": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录267篇AI新闻，分类分布：学术研究193篇, 开源项目41篇, 模型发布30篇, 产品/API3篇。热门标签：Agent（59篇）。其中9%的文章有多来源交叉验证。\n\n▸ PrimeIntellect-ai /prime-agent：A self-improving RLM agent for coding workflows and long-running autonomous tasks.\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ cloudflare /computer：Give your agent a computer 👾\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "PrimeIntellect-ai/prime-agent",
+            "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+            "why_hot": "单日2271星，TypeScript项目",
+            "stars_today": 2271,
+            "total_stars": 5839
+          },
+          {
+            "full_name": "cloudflare/computer",
+            "url": "https://github.com/cloudflare/computer",
+            "why_hot": "单日894星，TypeScript项目",
+            "stars_today": 894,
+            "total_stars": 5374
+          },
+          {
+            "full_name": "zhaoxuya520/reverse-skill",
+            "url": "https://github.com/zhaoxuya520/reverse-skill",
+            "why_hot": "单日0星，PowerShell项目",
+            "stars_today": 0,
+            "total_stars": 20411
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "267"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7270"
+          }
+        ],
+        "must_read_ids": [
+          "fd5ece9fb422",
+          "0d1bd25a3199",
+          "710e3cb1a40c",
+          "1ae169fb23a9",
+          "c3257d531a3c"
+        ],
+        "text": "今日共收录267篇AI新闻，分类分布：学术研究193篇, 开源项目41篇, 模型发布30篇, 产品/API3篇。热门标签：Agent（59篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "PrimeIntellect-ai /prime-agent",
+          "addyosmani /agent-skills",
+          "cloudflare /computer",
+          "mattpocock /skills",
+          "obra /superpowers"
+        ],
+        "meta": {
+          "total_articles": 267,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1786122037
     }
   }
 }
