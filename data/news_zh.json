@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T01:46:50Z",
+  "updated": "2026-08-08T08:51:57Z",
   "total": 20,
   "items": [
     {
@@ -85,6 +85,62 @@
       }
     },
     {
+      "id": "efc5b7e8b949",
+      "title_zh": "Mistral AI Releases Shieldstral 1.0 3B: An Open-Weights Policy-Adaptive Multimodal Safety Classifier Matching Models 7× Its Size",
+      "summary_zh": "Mistral AI has released Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety classifier that frames content moderation as a single yes/no question instead of a fixed harm taxonomy. Operators supply the policy as a plain-language...",
+      "tags_zh": [
+        "Mistral"
+      ],
+      "oneliner": "Mistral AI has released Shieldstral 1.0 3B, an open-weights, policy-adaptive multimodal safety class",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ac2ff8dce738",
+      "title_zh": "Tencent Cloud Open-Sources TencentDB Agent Memory v2.0: A Team-Level Memory Hub for AI Coding Agents",
+      "summary_zh": "Tencent Cloud has open-sourced TencentDB Agent Memory v2.0, a team-level memory hub that turns conversations, documents and code into four governed, reusable assets — Chat Memory, Skill, LLM-Wiki and Code-Graph. It is MIT-licensed, self-hosted...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Tencent Cloud has open-sourced TencentDB Agent Memory v2.0, a team-level memory hub that turns conve",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b439fecb5beb",
+      "title_zh": "Building a Multimodal RAG Pipeline with NVIDIA NeMo Retriever, Hosted NIMs, LanceDB, Reranking, and Grounded Generation",
+      "summary_zh": "In this tutorial, we build an advanced multimodal retrieval-augmented generation pipeline with NVIDIA NeMo Retriever. We begin by configuring a Python 3.12 environment, installing the required packages, and performing offline PDF text extraction...",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "In this tutorial, we build an advanced multimodal retrieval-augmented generation pipeline with NVIDI",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "0a479aee3db2",
+      "title_zh": "NVIDIA AI Releases NOOA: An Object-Oriented Python Framework That Turns an AI Agent Into a Single Python Class",
+      "summary_zh": "NVIDIA Labs has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework for building AI agents. Agent development today is split across prompt templates, tool schemas, callback code, and workflow graphs. NOOA...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "NVIDIA Labs has open-sourced NOOA (NVIDIA Object-Oriented Agents), a model-agnostic Python framework",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "420b06b98db6",
       "title_zh": "TutorMoments: Do AI tutors know when to help and when to hold back?",
       "summary_zh": "",
@@ -102,6 +158,44 @@
       "summary_zh": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
       "tags_zh": [],
       "oneliner": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to stre",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8deadbb2e7e9",
+      "title_zh": "Stanford Evo 2 AI model generates phages against E. coli",
+      "summary_zh": "Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 generative AI model. Laboratory testing narrowed the group to 16 phages that showed particularly strong E. coli-killing activity. The work centres on...",
+      "tags_zh": [],
+      "oneliner": "Stanford researchers have synthesised nearly 300 phages from DNA sequences produced by the Evo 2 gen",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "700c939878da",
+      "title_zh": "How AI Is changing Instagram engagement without replacing the human touch",
+      "summary_zh": "Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is now decided by its AI system. With over three billion people using it, that’s not a small detail; it&#8217;s the whole algorithm. But here’s the...",
+      "tags_zh": [],
+      "oneliner": "Every post you see, every Reel that autoplays, and every ‘Explore’ page suggestion on Instagram is n",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "004bd258b033",
+      "title_zh": "Alibaba tests new business model for Qwen open-source AI",
+      "summary_zh": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans. The arrangement would require larger companies that generate...",
+      "tags_zh": [
+        "Qwen"
+      ],
+      "oneliner": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-wei",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -172,97 +266,6 @@
       "summary_zh": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
       "tags_zh": [],
       "oneliner": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and cre",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "db681a5d25ec",
-      "title_zh": "Microsoft Open Sources code-testing-generator: a Polyglot Unit-Test Agent That Hits 92.1% Task Completion Versus 78.9% for Stock Copilot",
-      "summary_zh": "Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-licensed dotnet/skills repository. It reads a repository before writing anything — detecting the language, test framework, existing conventions, and...",
-      "tags_zh": [
-        "Microsoft",
-        "Agent"
-      ],
-      "oneliner": "Microsoft has open sourced code-testing-generator, a polyglot unit-test agent shipping in the MIT-li",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c215af6e7d30",
-      "title_zh": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
-      "summary_zh": "arXiv:2608.05151v1 Announce Type: new \nAbstract: Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.05151v1 Announce Type: new \nAbstract: Wastewater operators need answers grounded in how t",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "04b09705bba6",
-      "title_zh": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
-      "summary_zh": "arXiv:2608.05152v1 Announce Type: new \nAbstract: Large language models (LLMs) with chain-of-thought reasoning have been widely applied in recent years, and theoretical explanations of their behavior may help deepen our understanding and guide...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.05152v1 Announce Type: new \nAbstract: Large language models (LLMs) with chain-of-thought ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "89369f252dd7",
-      "title_zh": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
-      "summary_zh": "arXiv:2608.05153v1 Announce Type: new \nAbstract: GraphRAG underperforms vector RAG on citation precision in many reports, but where and why have remained corpus-bound. We present a triple-robustness analysis that holds the retrieval architecture...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "arXiv:2608.05153v1 Announce Type: new \nAbstract: GraphRAG underperforms vector RAG on citation preci",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7c54bf54574f",
-      "title_zh": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
-      "summary_zh": "arXiv:2608.05154v1 Announce Type: new \nAbstract: Rotary positional encoding (RoPE) is a core component of modern language models and has been extended to multimodal LLMs through multidimensional variants such as multimodal RoPE (M-RoPE), which...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.05154v1 Announce Type: new \nAbstract: Rotary positional encoding (RoPE) is a core compone",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "605a986f0b2d",
-      "title_zh": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
-      "summary_zh": "arXiv:2608.05155v1 Announce Type: new \nAbstract: Traditional sentiment analysis (SA) models, while effective for polarity classification, provide limited insight into the rhetorical, ideological, and framing dimensions of political discourse --...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2608.05155v1 Announce Type: new \nAbstract: Traditional sentiment analysis (SA) models, while e",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "403a61bb8214",
-      "title_zh": "Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs",
-      "summary_zh": "arXiv:2608.05156v1 Announce Type: new \nAbstract: Post-training of large language models optimizes only parameters, while inference-time procedural scaffolds are typically designed independently of parameter training. This disconnect makes it...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.05156v1 Announce Type: new \nAbstract: Post-training of large language models optimizes on",
       "key_facts": [],
       "notable_quote": {
         "text": "",
