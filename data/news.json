@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-08T08:51:57Z",
+  "updated": "2026-08-08T16:42:12Z",
   "total": 231,
-  "new_count": 53,
+  "new_count": 45,
   "items": [
     {
       "id": "fd5ece9fb422",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "published": "2026-08-08T08:49:14Z",
+      "published": "2026-08-08T16:39:34Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-08-08T08:49:14Z",
+      "published": "2026-08-08T16:39:34Z",
       "tags": [
         "Agent"
       ],
@@ -56,6 +56,118 @@
         "Agent"
       ],
       "oneliner": "Production-grade engineering skills for AI coding agents."
+    },
+    {
+      "id": "69c7eb76fe0b",
+      "title": "google /skills",
+      "url": "https://github.com/google/skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Agent Skills for Google products and technologies",
+      "published": "2026-08-08T16:39:34Z",
+      "tags": [
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "1ae169fb23a9"
+        ],
+        "score": 5
+      },
+      "title_zh": "google /skills",
+      "summary_zh": "Agent Skills for Google products and technologies",
+      "tags_zh": [
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "Agent Skills for Google products and technologies"
+    },
+    {
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+      "published": "2026-08-08T16:39:34Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "69c7eb76fe0b"
+        ],
+        "score": 5
+      },
+      "title_zh": "mattpocock /skills",
+      "summary_zh": "Skills for Real Engineers. Straight from my .agents directory.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "id": "afdace39e749",
+      "title": "TauricResearch /TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "published": "2026-08-08T16:39:34Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "TauricResearch /TradingAgents",
+      "summary_zh": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "id": "2315d61b1043",
+      "title": "Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export",
+      "url": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial guides you through building high-performance, interactive charts—from handling million-point datasets and real-time streaming to creating custom mark...",
+      "published": "2026-08-08T09:42:18Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export",
+      "summary_zh": "Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial guides you through building high-performance, interactive charts—from handling million-point datasets and real-time streaming to creating custom mark...",
+      "tags_zh": [],
+      "oneliner": "Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial gui"
     },
     {
       "id": "710e3cb1a40c",
@@ -83,33 +195,6 @@
         "Agent"
       ],
       "oneliner": "Give your agent a computer 👾"
-    },
-    {
-      "id": "1ae169fb23a9",
-      "title": "mattpocock /skills",
-      "url": "https://github.com/mattpocock/skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-08-08T08:49:14Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "mattpocock /skills",
-      "summary_zh": "Skills for Real Engineers. Straight from my .agents directory.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Skills for Real Engineers. Straight from my .agents directory."
     },
     {
       "id": "c3257d531a3c",
@@ -474,12 +559,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Significant-Gravitas /AutoGPT",
-      "summary_zh": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provi"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "49d53e226ac6",
@@ -501,12 +584,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "tirth8205 /code-review-graph",
-      "summary_zh": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "04dbcdd1e1d9",
@@ -526,10 +607,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "How HSP GRUPPE builds AI capabilities for tax advisory",
-      "summary_zh": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and cre"
+      "oneliner": ""
     },
     {
       "id": "db681a5d25ec",
@@ -5526,80 +5607,6 @@
           "b30bb02b6597"
         ],
         "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "cb3eddfe11b5",
-      "title": "mvanhorn /last30days-skill",
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-08-01T10:03:44Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "81f110db7624",
-      "title": "chatwoot /chatwoot",
-      "url": "https://github.com/chatwoot/chatwoot",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
-      "published": "2026-08-01T10:03:44Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b00e63ff485d",
-      "title": "Supabase Releases Evals: an Open Source Benchmark That Scores Claude Code, Codex and OpenCode on Real Supabase Tasks",
-      "url": "https://www.marktechpost.com/2026/08/01/supabase-releases-evals-an-open-source-benchmark-that-scores-claude-code-codex-and-opencode-on-real-supabase-tasks/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Supabase has open sourced supabase/evals, an Apache-2.0 benchmark and framework that runs coding agents including Claude Code, Codex and OpenCode against real Supabase tasks — building schemas, debugging Edge Functions, fixing RLS policies —...",
-      "published": "2026-08-01T09:52:49Z",
-      "tags": [
-        "Claude",
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
