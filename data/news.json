@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-09T01:52:33Z",
-  "total": 231,
-  "new_count": 44,
+  "updated": "2026-08-09T08:53:12Z",
+  "total": 230,
+  "new_count": 43,
   "items": [
     {
       "id": "fd5ece9fb422",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "published": "2026-08-09T01:50:06Z",
+      "published": "2026-08-09T08:50:42Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-08-09T01:50:06Z",
+      "published": "2026-08-09T08:50:42Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agent Skills for Google products and technologies",
-      "published": "2026-08-09T01:50:06Z",
+      "published": "2026-08-09T08:50:42Z",
       "tags": [
         "Google",
         "Agent"
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-08-09T01:50:06Z",
+      "published": "2026-08-09T08:50:42Z",
       "tags": [
         "Agent"
       ],
@@ -124,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "published": "2026-08-09T01:50:06Z",
+      "published": "2026-08-09T08:50:42Z",
       "tags": [
         "LLM",
         "Agent"
@@ -145,6 +145,29 @@
         "Agent"
       ],
       "oneliner": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "id": "4d45d836485f",
+      "title": "IMDb Sentiment Analysis with DistilBERT LoRA, TF-IDF Baselines, Calibration, Interpretability, Robustness Testing, and Semi-Supervised Learning",
+      "url": "https://www.marktechpost.com/2026/08/09/imdb-sentiment-analysis-with-distilbert-lora-tf-idf-baselines-calibration-interpretability-robustness-testing-and-semi-supervised-learning/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "This tutorial provides a comprehensive guide to building a robust sentiment analysis workflow. By combining classical TF-IDF baselines with modern parameter-efficient fine-tuning (DistilBERT + LoRA), we explore deep model interpretability,...",
+      "published": "2026-08-09T07:17:35Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "IMDb Sentiment Analysis with DistilBERT LoRA, TF-IDF Baselines, Calibration, Interpretability, Robustness Testing, and Semi-Supervised Learning",
+      "summary_zh": "This tutorial provides a comprehensive guide to building a robust sentiment analysis workflow. By combining classical TF-IDF baselines with modern parameter-efficient fine-tuning (DistilBERT + LoRA), we explore deep model interpretability,...",
+      "tags_zh": [],
+      "oneliner": "This tutorial provides a comprehensive guide to building a robust sentiment analysis workflow. By co"
     },
     {
       "id": "9ea0529b9504",
@@ -528,12 +551,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Alibaba tests new business model for Qwen open-source AI",
-      "summary_zh": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-weight AI model, Reuters reported, citing two people familiar with the company’s plans. The arrangement would require larger companies that generate...",
-      "tags_zh": [
-        "Qwen"
-      ],
-      "oneliner": "Alibaba plans to introduce revenue-sharing terms for some commercial users of its next Qwen open-wei"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "56030b62da13",
@@ -5552,56 +5573,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b30bb02b6597",
-      "title": "NVIDIA AI Releases Molt: A PyTorch-Native Agentic Reinforcement Learning Framework",
-      "url": "https://www.marktechpost.com/2026/08/01/nvidia-ai-releases-molt-a-pytorch-native-agentic-reinforcement-learning-framework/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Agentic RL research is constant algorithm modification, and in mainstream frameworks every change threads through trainer, distributed backend, and rollout glue. NVIDIA's Molt targets that cost with about 8.6K lines of RL code, composing Ray,...",
-      "published": "2026-08-02T06:21:26Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "b51c6a7821cf"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d4cf4e7717d0",
-      "title": "End-to-End Forecasting with TimesFM 2.5: Backtesting, Covariates, Anomaly Detection, and Scalable Colab Deployment",
-      "url": "https://www.marktechpost.com/2026/08/01/end-to-end-forecasting-with-timesfm-2-5-backtesting-covariates-anomaly-detection-and-scalable-colab-deployment/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we build an advanced end-to-end time-series forecasting workflow with TimesFM 2.5. We begin by configuring the runtime, installing the required dependencies, detecting available hardware, and generating a realistic multi-store...",
-      "published": "2026-08-02T05:44:14Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
