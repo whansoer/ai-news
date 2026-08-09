@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-08-09T08:53:12Z",
-  "count": 261,
+  "updated": "2026-08-09T16:44:01Z",
+  "count": 262,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -16706,6 +16706,70 @@
         }
       },
       "_ts": 1786265592
+    },
+    "878894b3c5ef4db7": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录276篇AI新闻，分类分布：学术研究191篇, 开源项目43篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（61篇）。其中12%的文章有多来源交叉验证。\n\n▸ PrimeIntellect-ai /prime-agent：A self-improving RLM agent for coding workflows and long-running autonomous tasks.\n\n▸ vitali87 /code-graph-rag：The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the po\n\n▸ msitarzewski /agency-agents：A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi\n\n▸ pranshuparmar /witr：Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "google/skills",
+            "url": "https://github.com/google/skills",
+            "why_hot": "单日532星，Python项目",
+            "stars_today": 532,
+            "total_stars": 17091
+          },
+          {
+            "full_name": "Comfy-Org/ComfyUI",
+            "url": "https://github.com/Comfy-Org/ComfyUI",
+            "why_hot": "单日333星，Python项目",
+            "stars_today": 333,
+            "total_stars": 125297
+          },
+          {
+            "full_name": "PrimeIntellect-ai/prime-agent",
+            "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+            "why_hot": "单日2319星，TypeScript项目",
+            "stars_today": 2319,
+            "total_stars": 10426
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "276"
+          },
+          {
+            "label": "多源验证率",
+            "value": "12%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+3941"
+          }
+        ],
+        "must_read_ids": [
+          "fd5ece9fb422",
+          "9df15693a325",
+          "5dfe15d5980d",
+          "5c6b792d638d",
+          "0d1bd25a3199"
+        ],
+        "text": "今日共收录276篇AI新闻，分类分布：学术研究191篇, 开源项目43篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（61篇）。其中12%的文章有多来源交叉验证。",
+        "top_items": [
+          "PrimeIntellect-ai /prime-agent",
+          "vitali87 /code-graph-rag",
+          "msitarzewski /agency-agents",
+          "pranshuparmar /witr",
+          "addyosmani /agent-skills"
+        ],
+        "meta": {
+          "total_articles": 276,
+          "multi_source_pct": 12
+        }
+      },
+      "_ts": 1786293841
     }
   }
 }
