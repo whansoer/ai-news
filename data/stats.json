@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-11T01:53:05Z",
-  "total": 268,
+  "updated": "2026-08-11T09:06:27Z",
+  "total": 301,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
@@ -20,7 +20,7 @@
     },
     {
       "name": "OpenAI",
-      "count": 17
+      "count": 15
     },
     {
       "name": "Hugging Face",
@@ -31,42 +31,50 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 7
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 67
     },
     {
       "name": "LLM",
-      "count": 45
+      "count": 47
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 23
     },
     {
       "name": "RAG",
       "count": 10
     },
     {
+      "name": "Meta",
+      "count": 9
+    },
+    {
       "name": "GPT",
       "count": 8
     },
     {
-      "name": "Meta",
-      "count": 7
-    },
-    {
       "name": "Google",
       "count": 6
+    },
+    {
+      "name": "API",
+      "count": 5
+    },
+    {
+      "name": "GPU",
+      "count": 5
     },
     {
       "name": "Diffusion",
@@ -81,12 +89,8 @@
       "count": 5
     },
     {
-      "name": "GPU",
-      "count": 4
-    },
-    {
-      "name": "API",
-      "count": 4
+      "name": "Embedding",
+      "count": 3
     },
     {
       "name": "OpenAI",
@@ -95,10 +99,6 @@
     {
       "name": "Claude",
       "count": 3
-    },
-    {
-      "name": "Embedding",
-      "count": 2
     },
     {
       "name": "Gemini",
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 220
     },
     {
       "name": "开源项目",
@@ -132,11 +132,11 @@
     },
     {
       "name": "模型发布",
-      "count": 32
+      "count": 30
     },
     {
       "name": "产品/API",
-      "count": 7
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -158,11 +158,11 @@
     },
     {
       "date": "08-10",
-      "count": 48
+      "count": 50
     },
     {
       "date": "08-11",
-      "count": 6
+      "count": 39
     },
     {
       "date": "08-14",
@@ -207,28 +207,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "1b4a121cfec6",
-      "title": "What building an AI-native finance function taught me",
+      "id": "8e4ff1ddcf0a",
+      "title": "How AI is changing the vulnerability response timeline",
       "score": 5,
-      "source": "OpenAI"
+      "source": "AI News"
     },
     {
-      "id": "8bec2762d3f7",
-      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "b45c61329b3a",
-      "title": "Meta AI Releases Muse Glimmer: A 30B Open-Weights Agentic Model That Runs on One Consumer GPU",
+      "id": "4c9391866617",
+      "title": "webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autoformalization on Local Hardware",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "34b94057b7c1",
-      "title": "Evolve your marketing with new AI tools",
+      "id": "73b1605af863",
+      "title": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
       "score": 5,
-      "source": "Google AI"
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "d9154315b527",
+      "title": "Unified Hallucination Fuzzing for Multimodal Large Language Models",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
