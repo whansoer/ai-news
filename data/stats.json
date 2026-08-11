@@ -1,25 +1,25 @@
 {
-  "updated": "2026-08-11T09:06:27Z",
-  "total": 301,
+  "updated": "2026-08-11T17:03:44Z",
+  "total": 283,
   "sources": [
-    {
-      "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 90
     },
     {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
+    {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 27
     },
     {
       "name": "GitHub Trending",
-      "count": 24
+      "count": 26
     },
     {
-      "name": "OpenAI",
+      "name": "Google AI",
       "count": 15
     },
     {
@@ -27,12 +27,12 @@
       "count": 15
     },
     {
-      "name": "Google AI",
+      "name": "OpenAI",
       "count": 15
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Synced",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 67
+      "count": 64
     },
     {
       "name": "LLM",
-      "count": 47
+      "count": 43
     },
     {
       "name": "Benchmark",
-      "count": 23
+      "count": 20
     },
     {
       "name": "RAG",
@@ -77,16 +77,16 @@
       "count": 5
     },
     {
-      "name": "Diffusion",
-      "count": 5
-    },
-    {
       "name": "Microsoft",
       "count": 5
     },
     {
       "name": "DeepSeek",
       "count": 5
+    },
+    {
+      "name": "Claude",
+      "count": 4
     },
     {
       "name": "Embedding",
@@ -97,12 +97,16 @@
       "count": 3
     },
     {
-      "name": "Claude",
+      "name": "Diffusion",
       "count": 3
     },
     {
       "name": "Gemini",
       "count": 2
+    },
+    {
+      "name": "Anthropic",
+      "count": 1
     },
     {
       "name": "Mistral",
@@ -124,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 220
+      "count": 202
     },
     {
       "name": "开源项目",
-      "count": 39
+      "count": 41
     },
     {
       "name": "模型发布",
@@ -136,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 10
     }
   ],
   "dailyTrend": [
@@ -158,11 +162,11 @@
     },
     {
       "date": "08-10",
-      "count": 50
+      "count": 48
     },
     {
       "date": "08-11",
-      "count": 39
+      "count": 46
     },
     {
       "date": "08-14",
@@ -171,8 +175,8 @@
   ],
   "top10": [
     {
-      "id": "a7f9890fb36a",
-      "title": "semantica-agi /semantica",
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -183,52 +187,52 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "a7f9890fb36a",
+      "title": "semantica-agi /semantica",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "0d1bd25a3199",
       "title": "addyosmani /agent-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "e596fc31d0dc",
-      "title": "paperclipai /paperclip",
+      "id": "4ec6d5af71ee",
+      "title": "ZhuLinsen /daily_stock_analysis",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "fd5ece9fb422",
-      "title": "PrimeIntellect-ai /prime-agent",
+      "id": "9df15693a325",
+      "title": "vitali87 /code-graph-rag",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "5d466100c8b3",
-      "title": "danielmiessler /LifeOS",
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "8e4ff1ddcf0a",
-      "title": "How AI is changing the vulnerability response timeline",
+      "id": "af6b566103fd",
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
       "score": 5,
-      "source": "AI News"
+      "source": "Google AI"
     },
     {
-      "id": "4c9391866617",
-      "title": "webAI Releases TwIL-LM: A 1.7B and 3B Formal-Logic Model Family for Autoformalization on Local Hardware",
+      "id": "e55e02c2188c",
+      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "Hugging Face"
     },
     {
-      "id": "73b1605af863",
-      "title": "Implementing a MiniMax-H3 Multimodal Video and Audio Generation Pipeline with ComfyUI APIs",
+      "id": "16251d7b149e",
+      "title": "Testing ads in ChatGPT",
       "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "d9154315b527",
-      "title": "Unified Hallucination Fuzzing for Multimodal Large Language Models",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "OpenAI"
     }
   ]
 }
