@@ -1,26 +1,22 @@
 {
-  "updated": "2026-08-12T02:05:19Z",
-  "total": 287,
+  "updated": "2026-08-12T09:18:25Z",
+  "total": 297,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
+      "name": "ArXiv (cs.CL)",
       "count": 90
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 75
-    },
-    {
-      "name": "MarkTechPost",
-      "count": 28
+      "name": "ArXiv (cs.AI)",
+      "count": 90
     },
     {
       "name": "GitHub Trending",
       "count": 26
     },
     {
-      "name": "OpenAI",
-      "count": 16
+      "name": "MarkTechPost",
+      "count": 26
     },
     {
       "name": "Google AI",
@@ -31,8 +27,12 @@
       "count": 15
     },
     {
+      "name": "OpenAI",
+      "count": 15
+    },
+    {
       "name": "AI News",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Synced",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 66
+      "count": 69
     },
     {
       "name": "LLM",
-      "count": 43
+      "count": 47
     },
     {
       "name": "Benchmark",
-      "count": 20
+      "count": 21
     },
     {
       "name": "RAG",
@@ -67,6 +67,10 @@
     {
       "name": "Google",
       "count": 6
+    },
+    {
+      "name": "Embedding",
+      "count": 5
     },
     {
       "name": "API",
@@ -89,16 +93,16 @@
       "count": 4
     },
     {
-      "name": "Embedding",
-      "count": 3
-    },
-    {
-      "name": "OpenAI",
+      "name": "Transformer",
       "count": 3
     },
     {
       "name": "Diffusion",
       "count": 3
+    },
+    {
+      "name": "OpenAI",
+      "count": 2
     },
     {
       "name": "Gemini",
@@ -117,10 +121,6 @@
       "count": 1
     },
     {
-      "name": "Transformer",
-      "count": 1
-    },
-    {
       "name": "Prompt",
       "count": 1
     }
@@ -128,7 +128,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 203
+      "count": 216
     },
     {
       "name": "开源项目",
@@ -136,11 +136,11 @@
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 30
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 10
     }
   ],
   "dailyTrend": [
@@ -162,11 +162,11 @@
     },
     {
       "date": "08-11",
-      "count": 44
+      "count": 28
     },
     {
       "date": "08-12",
-      "count": 7
+      "count": 38
     },
     {
       "date": "08-14",
@@ -174,6 +174,12 @@
     }
   ],
   "top10": [
+    {
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "5dfe15d5980d",
       "title": "msitarzewski /agency-agents",
@@ -211,28 +217,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "d7dc32f00be2",
-      "title": "stablyai /orca",
+      "id": "2369b7b932d9",
+      "title": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "e1b194a35ac5",
-      "title": "The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model",
+      "id": "b674f8ab093c",
+      "title": "Conflict or Strategy? Asymmetric Role Framing of La France insoumise and Rassemblement National in French News Headlines, 2022-2025",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "f0faec98f86e",
-      "title": "cathrynlavery /diagram-design",
+      "id": "4d0f88287a62",
+      "title": "Carefully Considering Culture: Analyzing LLM Alignment in Single- and Multi-Cultural Settings using Cultural Consensus Theory",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "af6b566103fd",
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
