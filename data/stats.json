@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T17:03:44Z",
-  "total": 283,
+  "updated": "2026-08-12T02:05:19Z",
+  "total": 287,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,11 +12,15 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 28
     },
     {
       "name": "GitHub Trending",
       "count": 26
+    },
+    {
+      "name": "OpenAI",
+      "count": 16
     },
     {
       "name": "Google AI",
@@ -27,12 +31,8 @@
       "count": 15
     },
     {
-      "name": "OpenAI",
-      "count": 15
-    },
-    {
       "name": "AI News",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 66
     },
     {
       "name": "LLM",
@@ -77,15 +77,15 @@
       "count": 5
     },
     {
-      "name": "Microsoft",
-      "count": 5
-    },
-    {
       "name": "DeepSeek",
       "count": 5
     },
     {
       "name": "Claude",
+      "count": 4
+    },
+    {
+      "name": "Microsoft",
       "count": 4
     },
     {
@@ -128,7 +128,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 202
+      "count": 203
     },
     {
       "name": "开源项目",
@@ -136,18 +136,14 @@
     },
     {
       "name": "模型发布",
-      "count": 30
+      "count": 31
     },
     {
       "name": "产品/API",
-      "count": 10
+      "count": 12
     }
   ],
   "dailyTrend": [
-    {
-      "date": "08-06",
-      "count": 55
-    },
     {
       "date": "08-07",
       "count": 45
@@ -166,7 +162,11 @@
     },
     {
       "date": "08-11",
-      "count": 46
+      "count": 44
+    },
+    {
+      "date": "08-12",
+      "count": 7
     },
     {
       "date": "08-14",
@@ -174,12 +174,6 @@
     }
   ],
   "top10": [
-    {
-      "id": "f0faec98f86e",
-      "title": "cathrynlavery /diagram-design",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
     {
       "id": "5dfe15d5980d",
       "title": "msitarzewski /agency-agents",
@@ -217,22 +211,28 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "d7dc32f00be2",
+      "title": "stablyai /orca",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "e1b194a35ac5",
+      "title": "The Video Production Stack Now Fits on One Desk: LTX-2.5 Launches as NVIDIA-Accelerated Open Weights World Model",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "af6b566103fd",
       "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
       "score": 5,
       "source": "Google AI"
-    },
-    {
-      "id": "e55e02c2188c",
-      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "16251d7b149e",
-      "title": "Testing ads in ChatGPT",
-      "score": 5,
-      "source": "OpenAI"
     }
   ]
 }

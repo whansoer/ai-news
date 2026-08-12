@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-08-11T17:03:54Z",
-  "count": 269,
+  "updated": "2026-08-12T02:05:29Z",
+  "count": 270,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -17218,6 +17218,70 @@
         }
       },
       "_ts": 1786467834
+    },
+    "b9fe55b5e3edcfe9": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录287篇AI新闻，分类分布：学术研究203篇, 开源项目41篇, 模型发布31篇, 产品/API12篇。热门标签：Agent（66篇）。其中11%的文章有多来源交叉验证。\n\n▸ msitarzewski /agency-agents：A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi\n\n▸ semantica-agi /semantica：Graph-Native Infrastructure for Context and Accountable AI Systems\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ ZhuLinsen /daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit\n\n▸ vitali87 /code-graph-rag：The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the po",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "semantica-agi/semantica",
+            "url": "https://github.com/semantica-agi/semantica",
+            "why_hot": "单日893星，Python项目",
+            "stars_today": 893,
+            "total_stars": 4933
+          },
+          {
+            "full_name": "vitali87/code-graph-rag",
+            "url": "https://github.com/vitali87/code-graph-rag",
+            "why_hot": "单日341星，Python项目",
+            "stars_today": 341,
+            "total_stars": 3848
+          },
+          {
+            "full_name": "huangruiteng/loopx",
+            "url": "https://github.com/huangruiteng/loopx",
+            "why_hot": "单日0星，Python项目",
+            "stars_today": 0,
+            "total_stars": 4189
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "287"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4953"
+          }
+        ],
+        "must_read_ids": [
+          "5dfe15d5980d",
+          "a7f9890fb36a",
+          "0d1bd25a3199",
+          "4ec6d5af71ee",
+          "9df15693a325"
+        ],
+        "text": "今日共收录287篇AI新闻，分类分布：学术研究203篇, 开源项目41篇, 模型发布31篇, 产品/API12篇。热门标签：Agent（66篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "msitarzewski /agency-agents",
+          "semantica-agi /semantica",
+          "addyosmani /agent-skills",
+          "ZhuLinsen /daily_stock_analysis",
+          "vitali87 /code-graph-rag"
+        ],
+        "meta": {
+          "total_articles": 287,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1786500329
     }
   }
 }
