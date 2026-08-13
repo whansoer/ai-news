@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-08-13T09:19:35Z",
-  "count": 274,
+  "updated": "2026-08-13T17:03:09Z",
+  "count": 275,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -17538,6 +17538,70 @@
         }
       },
       "_ts": 1786612775
+    },
+    "f62dfa219762e800": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录275篇AI新闻，分类分布：学术研究186篇, 开源项目45篇, 模型发布32篇, 产品/API12篇。热门标签：Agent（63篇）。其中8%的文章有多来源交叉验证。\n\n▸ cathrynlavery /diagram-design：29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.\n\n▸ semantica-agi /semantica：Graph-Native Infrastructure for Context and Accountable AI Systems\n\n▸ anthropics /skills：Public repository for Agent Skills\n\n▸ altic-dev /FluidVoice：Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A l\n\n▸ unslothai /unsloth：Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "semantica-agi/semantica",
+            "url": "https://github.com/semantica-agi/semantica",
+            "why_hot": "单日727星，Python项目",
+            "stars_today": 727,
+            "total_stars": 6343
+          },
+          {
+            "full_name": "macro-inc/macro",
+            "url": "https://github.com/macro-inc/macro",
+            "why_hot": "单日1180星，Rust项目",
+            "stars_today": 1180,
+            "total_stars": 2485
+          },
+          {
+            "full_name": "NVIDIA-NeMo/Switchyard",
+            "url": "https://github.com/NVIDIA-NeMo/Switchyard",
+            "why_hot": "单日408星，Rust项目",
+            "stars_today": 408,
+            "total_stars": 1110
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "275"
+          },
+          {
+            "label": "多源验证率",
+            "value": "8%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+6819"
+          }
+        ],
+        "must_read_ids": [
+          "f0faec98f86e",
+          "a7f9890fb36a",
+          "ea97e2f9b307",
+          "cf22fb2fe760",
+          "4242e51e337a"
+        ],
+        "text": "今日共收录275篇AI新闻，分类分布：学术研究186篇, 开源项目45篇, 模型发布32篇, 产品/API12篇。热门标签：Agent（63篇）。其中8%的文章有多来源交叉验证。",
+        "top_items": [
+          "cathrynlavery /diagram-design",
+          "semantica-agi /semantica",
+          "anthropics /skills",
+          "altic-dev /FluidVoice",
+          "unslothai /unsloth"
+        ],
+        "meta": {
+          "total_articles": 275,
+          "multi_source_pct": 8
+        }
+      },
+      "_ts": 1786640589
     }
   }
 }

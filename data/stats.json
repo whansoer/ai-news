@@ -1,29 +1,29 @@
 {
-  "updated": "2026-08-13T09:19:26Z",
-  "total": 315,
+  "updated": "2026-08-13T17:02:59Z",
+  "total": 275,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 105
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
+    },
+    {
+      "name": "GitHub Trending",
+      "count": 29
     },
     {
       "name": "MarkTechPost",
       "count": 26
     },
     {
-      "name": "GitHub Trending",
-      "count": 25
+      "name": "OpenAI",
+      "count": 17
     },
     {
       "name": "Hugging Face",
-      "count": 16
-    },
-    {
-      "name": "OpenAI",
       "count": 16
     },
     {
@@ -42,27 +42,27 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 73
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 45
+      "count": 38
     },
     {
       "name": "Benchmark",
-      "count": 22
+      "count": 17
     },
     {
       "name": "RAG",
-      "count": 10
-    },
-    {
-      "name": "Meta",
-      "count": 7
+      "count": 9
     },
     {
       "name": "GPT",
-      "count": 7
+      "count": 8
+    },
+    {
+      "name": "DeepSeek",
+      "count": 6
     },
     {
       "name": "Embedding",
@@ -73,7 +73,11 @@
       "count": 6
     },
     {
-      "name": "DeepSeek",
+      "name": "Meta",
+      "count": 6
+    },
+    {
+      "name": "API",
       "count": 5
     },
     {
@@ -81,27 +85,27 @@
       "count": 4
     },
     {
-      "name": "Transformer",
-      "count": 4
-    },
-    {
       "name": "GPU",
       "count": 4
     },
     {
-      "name": "API",
-      "count": 4
+      "name": "OpenAI",
+      "count": 3
+    },
+    {
+      "name": "Transformer",
+      "count": 3
     },
     {
       "name": "Claude",
       "count": 2
     },
     {
-      "name": "Prompt",
+      "name": "Anthropic",
       "count": 2
     },
     {
-      "name": "OpenAI",
+      "name": "Qwen",
       "count": 2
     },
     {
@@ -109,15 +113,11 @@
       "count": 2
     },
     {
-      "name": "Anthropic",
+      "name": "Prompt",
       "count": 1
     },
     {
       "name": "Mistral",
-      "count": 1
-    },
-    {
-      "name": "Qwen",
       "count": 1
     },
     {
@@ -128,15 +128,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 231
+      "count": 186
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 45
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 32
     },
     {
       "name": "产品/API",
@@ -162,11 +162,11 @@
     },
     {
       "date": "08-12",
-      "count": 57
+      "count": 56
     },
     {
       "date": "08-13",
-      "count": 40
+      "count": 50
     },
     {
       "date": "08-14",
@@ -181,58 +181,58 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "bbfc2ca772d5",
-      "title": "macro-inc /macro",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "a7f9890fb36a",
       "title": "semantica-agi /semantica",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d7dc32f00be2",
-      "title": "stablyai /orca",
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "5dfe15d5980d",
-      "title": "msitarzewski /agency-agents",
+      "id": "cf22fb2fe760",
+      "title": "altic-dev /FluidVoice",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "26454b4b1f40",
-      "title": "hugohe3 /ppt-master",
+      "id": "4242e51e337a",
+      "title": "unslothai /unsloth",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d7078bd14038",
-      "title": "infiniflow /ragflow",
+      "id": "bbfc2ca772d5",
+      "title": "macro-inc /macro",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "e596fc31d0dc",
-      "title": "paperclipai /paperclip",
+      "id": "30f62a06b3c4",
+      "title": "megadose /holehe",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "7badb1832b4f",
-      "title": "Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+      "id": "515eeefe62e3",
+      "title": "NVIDIA-NeMo /Switchyard",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "72ebe4eadb5b",
+      "title": "Liquid AI Releases LFM2.5-VL-3B: A 3B Vision-Language Model That Reads Screens, Grounds Objects, and Calls Tools On-Device",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "73a49b7e2c97",
-      "title": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+      "id": "b66fa57c04f1",
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "OpenAI"
     }
   ]
 }
