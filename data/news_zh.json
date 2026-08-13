@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T02:07:44Z",
+  "updated": "2026-08-13T09:19:35Z",
   "total": 20,
   "items": [
     {
@@ -113,11 +113,11 @@
       }
     },
     {
-      "id": "1a64fb652c30",
-      "title_zh": "AllenAI Open Instruct Tulu 3 Post-Training with SFT, DPO, RLVR, GRPO, and Verifier-Based Evaluation",
-      "summary_zh": "Build a custom LLM post-training pipeline using AllenAI’s Open Instruct framework. This comprehensive guide walks through Supervised Fine-Tuning (SFT), Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards...",
+      "id": "7badb1832b4f",
+      "title_zh": "Dyna Robotics Introduces Dyna-2: A World-Action Model Pre-Trained on 1 Million Hours of Human Video",
+      "summary_zh": "Dyna Robotics has released Dyna-2, a world-action model pre-trained on more than one million hours of egocentric human video. The technical report establishes three results: a scaling law on human data to 1M hours, the first transfer of that law...",
       "tags_zh": [],
-      "oneliner": "Build a custom LLM post-training pipeline using AllenAI’s Open Instruct framework. This comprehensiv",
+      "oneliner": "Dyna Robotics has released Dyna-2, a world-action model pre-trained on more than one million hours o",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -125,53 +125,13 @@
       }
     },
     {
-      "id": "1110b810dc4d",
-      "title_zh": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
-      "summary_zh": "",
-      "tags_zh": [
-        "Embedding"
-      ],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bb6d6bfcce4d",
-      "title_zh": "Google tests AMIE for clinical video consultations",
-      "summary_zh": "Google’s research medical AI system, AMIE (Video), conducted synchronous video consultations with professional patient actors and received clinical evaluator ratings on par with primary care physicians across several core measures. Fifteen...",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "Google’s research medical AI system, AMIE (Video), conducted synchronous video consultations with pr",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9fea4b35a86f",
-      "title_zh": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0d1bd25a3199",
-      "title_zh": "addyosmani /agent-skills",
-      "summary_zh": "Production-grade engineering skills for AI coding agents.",
+      "id": "73a49b7e2c97",
+      "title_zh": "SpaceXAI Releases Grok 4.6: A 500K-Context Frontier Model Tuned for Long-Running Agents, Coding, and Knowledge Work",
+      "summary_zh": "SpaceXAI released Grok 4.6 on August 12, 2026 — a post-training upgrade over Grok 4.5, not a larger base model. It ties GPT-5.6 Sol Max at 61 on the Artificial Analysis Intelligence Index, ships 500K context and a new xhigh reasoning level, and...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "Production-grade engineering skills for AI coding agents.",
+      "oneliner": "SpaceXAI released Grok 4.6 on August 12, 2026 — a post-training upgrade over Grok 4.5, not a larger ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -179,95 +139,136 @@
       }
     },
     {
-      "id": "4ec6d5af71ee",
-      "title_zh": "ZhuLinsen /daily_stock_analysis",
-      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "id": "0b334be44a31",
+      "title_zh": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
+      "summary_zh": "arXiv:2608.11232v1 Announce Type: new \nAbstract: Evaluating LLM coding agents in algorithmic trading is difficult because static benchmarks risk data contamination and numerical backtest outputs require ground truth from actual code execution. We...",
+      "tags_zh": [
+        "LLM",
+        "Agent",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.11232v1 Announce Type: new \nAbstract: Evaluating LLM coding agents in algorithmic trading",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a40b4ffb927a",
+      "title_zh": "Retrofitting Recurrent Depth into a Pretrained Language Model: Installation, Extrapolation, Transfer, and Retention at Two Parameter Budgets",
+      "summary_zh": "arXiv:2608.11233v1 Announce Type: new \nAbstract: A dense, pretrained language model can be retrofitted with recurrent depth and learn an iterative latent transition that persists after outcome-only annealing. Qwen2.5-0.5B-Instruct is split into a...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.11233v1 Announce Type: new \nAbstract: A dense, pretrained language model can be retrofitt",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "21f1dea18b56",
+      "title_zh": "TRACE Bench: Task-driven Roleplay Agentic Checklist Evaluation",
+      "summary_zh": "arXiv:2608.11236v1 Announce Type: new \nAbstract: Roleplay evaluation should do more than assign a single score: it should reveal which role requirements were tested, which failed, and which dialogue evidence supports the judgment. We propose...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2608.11236v1 Announce Type: new \nAbstract: Roleplay evaluation should do more than assign a si",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8272ee95bd9e",
+      "title_zh": "Lost in Compaction: Evaluating Side-Constraint Loss under Context Compaction",
+      "summary_zh": "arXiv:2608.11242v1 Announce Type: new \nAbstract: When the context window is under pressure, LLM systems compact prior context to continue ongoing tasks. We identify a class of user-issued instructions, Session Constraints (SCs), such as \"do not...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.11242v1 Announce Type: new \nAbstract: When the context window is under pressure, LLM syst",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "29e49a3fe641",
+      "title_zh": "Diffuse to Compress: Leveraging Diffusion LMs for Lossless Compression",
+      "summary_zh": "arXiv:2608.11249v1 Announce Type: new \nAbstract: We study the problem of lossless text compression, motivated by the rapid growth in the collection and storage of digital textual data - including plain text, source code, and structured formats...",
+      "tags_zh": [
+        "RAG",
+        "Diffusion"
+      ],
+      "oneliner": "arXiv:2608.11249v1 Announce Type: new \nAbstract: We study the problem of lossless text compression, ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6bdb7afbc8df",
+      "title_zh": "Gloss-Free Representation Learning for Cross-Dataset Sign Spotting",
+      "summary_zh": "arXiv:2608.11332v1 Announce Type: new \nAbstract: Sign-language research for resource-constrained languages is often limited by the cost of dense linguistic labels such as glosses, temporal boundaries, and sign order. Broadcast news offers a...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.11332v1 Announce Type: new \nAbstract: Sign-language research for resource-constrained lan",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "45c91b6c1524",
+      "title_zh": "Better, Faster, Stronger: Programmatic Skill Learning Best Reduces Agent Cost",
+      "summary_zh": "arXiv:2608.11338v1 Announce Type: new \nAbstract: Recently, the practice of augmenting LLM agent capability with skills has gained prevalence. We explore the cost effective adaptation of agents to novel domains by means of learning skills....",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2608.11338v1 Announce Type: new \nAbstract: Recently, the practice of augmenting LLM agent capa",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c5f7c096681f",
+      "title_zh": "Self-Evolving Embodied Agents via Skill-Harness Evolution",
+      "summary_zh": "arXiv:2608.11350v1 Announce Type: new \nAbstract: Embodied agents are increasingly built as systems around foundation models, where performance depends not only on model weights but also on the skills, context, action interfaces, and execution...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2608.11350v1 Announce Type: new \nAbstract: Embodied agents are increasingly built as systems a",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d5c8056a3af4",
+      "title_zh": "ODE-Based Transformer Decoders for Iterative Sign Language Translation",
+      "summary_zh": "arXiv:2608.11352v1 Announce Type: new \nAbstract: Sign language translation has achieved strong results with Transformer architectures, yet recent improvements largely rely on scaling model capacity at the cost of increased computation. We propose...",
+      "tags_zh": [
+        "Transformer"
+      ],
+      "oneliner": "arXiv:2608.11352v1 Announce Type: new \nAbstract: Sign language translation has achieved strong resul",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b4ccd8101f9a",
+      "title_zh": "Measure, Don't Optimize: Forecasting Recovery in LLM Unlearning",
+      "summary_zh": "arXiv:2608.11408v1 Announce Type: new \nAbstract: Prior white-box studies show that large language models can retain latent traces of target knowledge after unlearning, even when the knowledge is no longer expressed in their outputs. However,...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9df15693a325",
-      "title_zh": "vitali87 /code-graph-rag",
-      "summary_zh": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the po",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ea97e2f9b307",
-      "title_zh": "anthropics /skills",
-      "summary_zh": "Public repository for Agent Skills",
-      "tags_zh": [
-        "Anthropic",
-        "Agent"
-      ],
-      "oneliner": "Public repository for Agent Skills",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f46089dff4bb",
-      "title_zh": "NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model Router",
-      "summary_zh": "NVIDIA's open 30B MoE targets the agent execution layer, with Switchyard routing each step to the cheapest capable model.\nThe post NVIDIA AI Releases Nemotron 3.5 Lightning: A 30B Open MoE with 3B Active Parameters, and NeMo Switchyard Model...",
-      "tags_zh": [],
-      "oneliner": "NVIDIA's open 30B MoE targets the agent execution layer, with Switchyard routing each step to the ch",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "143a56c3831e",
-      "title_zh": "From assistance to execution: How enterprises put AI to work",
-      "summary_zh": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "tags_zh": [],
-      "oneliner": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how fr",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bae029fc5024",
-      "title_zh": "Xiaomi’s MiLM Plus Releases PROVE: Perception-Aligned Object Removal Metrics RC-S and RC-T With a Real-World Video Benchmark",
-      "summary_zh": "Object removal models have improved faster than the metrics used to judge them. Diffusion erasers now reconstruct shadows, reflections and occluded structure convincingly, yet PSNR, SSIM, LPIPS, ReMOVE and CFD frequently rank their outputs the...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "Object removal models have improved faster than the metrics used to judge them. Diffusion erasers no",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "2369b7b932d9",
-      "title_zh": "LLM Agents Factory: Retrieval of Domain-Specific LLM Agents",
-      "summary_zh": "arXiv:2608.09934v1 Announce Type: new \nAbstract: Large language model (LLM) agents improve task performance by decomposing problems into role-specialized behaviors. However, their practical deployment is often limited by the computational cost...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.09934v1 Announce Type: new \nAbstract: Large language model (LLM) agents improve task perf",
+      "oneliner": "arXiv:2608.11408v1 Announce Type: new \nAbstract: Prior white-box studies show that large language mo",
       "key_facts": [],
       "notable_quote": {
         "text": "",
