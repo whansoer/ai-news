@@ -1,29 +1,29 @@
 {
-  "updated": "2026-08-14T09:14:06Z",
-  "total": 276,
+  "updated": "2026-08-14T17:01:03Z",
+  "total": 239,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "GitHub Trending",
-      "count": 28
+      "count": 27
     },
     {
       "name": "MarkTechPost",
-      "count": 28
-    },
-    {
-      "name": "OpenAI",
-      "count": 17
+      "count": 26
     },
     {
       "name": "Hugging Face",
+      "count": 16
+    },
+    {
+      "name": "OpenAI",
       "count": 16
     },
     {
@@ -31,33 +31,29 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 9
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 57
     },
     {
       "name": "LLM",
-      "count": 39
+      "count": 34
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 15
     },
     {
       "name": "RAG",
-      "count": 10
-    },
-    {
-      "name": "GPT",
       "count": 8
     },
     {
@@ -65,11 +61,11 @@
       "count": 7
     },
     {
-      "name": "Embedding",
-      "count": 6
+      "name": "GPT",
+      "count": 7
     },
     {
-      "name": "DeepSeek",
+      "name": "GPU",
       "count": 5
     },
     {
@@ -77,16 +73,24 @@
       "count": 5
     },
     {
+      "name": "Embedding",
+      "count": 5
+    },
+    {
       "name": "Meta",
       "count": 5
+    },
+    {
+      "name": "DeepSeek",
+      "count": 4
     },
     {
       "name": "Diffusion",
       "count": 4
     },
     {
-      "name": "GPU",
-      "count": 4
+      "name": "Claude",
+      "count": 3
     },
     {
       "name": "OpenAI",
@@ -101,7 +105,7 @@
       "count": 3
     },
     {
-      "name": "Claude",
+      "name": "Prompt",
       "count": 2
     },
     {
@@ -113,34 +117,26 @@
       "count": 2
     },
     {
-      "name": "Prompt",
-      "count": 1
-    },
-    {
       "name": "Mistral",
-      "count": 1
-    },
-    {
-      "name": "Microsoft",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 188
+      "count": 156
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 43
     },
     {
       "name": "模型发布",
-      "count": 32
+      "count": 31
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 9
     }
   ],
   "dailyTrend": [
@@ -166,17 +162,53 @@
     },
     {
       "date": "08-13",
-      "count": 31
+      "count": 30
     },
     {
       "date": "08-14",
-      "count": 27
+      "count": 32
     }
   ],
   "top10": [
     {
       "id": "f0faec98f86e",
       "title": "cathrynlavery /diagram-design",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "30f62a06b3c4",
+      "title": "megadose /holehe",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "bbfc2ca772d5",
+      "title": "macro-inc /macro",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "02e09efcdbd4",
+      "title": "citrolabs /ego-lite",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7cc067ca58c9",
+      "title": "holaboss-ai /holaOS",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f252ba96214e",
+      "title": "lightningpixel /modly",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "d7078bd14038",
+      "title": "infiniflow /ragflow",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -197,42 +229,6 @@
       "title": "altic-dev /FluidVoice",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "4242e51e337a",
-      "title": "unslothai /unsloth",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "bbfc2ca772d5",
-      "title": "macro-inc /macro",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "30f62a06b3c4",
-      "title": "megadose /holehe",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "515eeefe62e3",
-      "title": "NVIDIA-NeMo /Switchyard",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "e21e9951d554",
-      "title": "Z.ai Ships GLM-5.3 Without Retraining the Base Model: Better at Complex Coding and Long-Horizon Tasks",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "70f39197e820",
-      "title": "Meet Needle 2: An Open 45M-Parameter Tool-Calling Model That Ships as a 14MB Binary and Runs a Full Session in 28MB of RAM",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
