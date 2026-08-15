@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T08:37:12Z",
-  "total": 248,
+  "updated": "2026-08-15T16:32:38Z",
+  "total": 253,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 28
     },
     {
       "name": "MarkTechPost",
@@ -31,12 +31,12 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 8
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
@@ -46,7 +46,7 @@
     },
     {
       "name": "LLM",
-      "count": 40
+      "count": 42
     },
     {
       "name": "Benchmark",
@@ -65,12 +65,12 @@
       "count": 7
     },
     {
-      "name": "Meta",
+      "name": "GPU",
       "count": 6
     },
     {
-      "name": "GPU",
-      "count": 5
+      "name": "Meta",
+      "count": 6
     },
     {
       "name": "API",
@@ -81,10 +81,6 @@
       "count": 5
     },
     {
-      "name": "Transformer",
-      "count": 4
-    },
-    {
       "name": "DeepSeek",
       "count": 4
     },
@@ -93,7 +89,15 @@
       "count": 4
     },
     {
+      "name": "Transformer",
+      "count": 4
+    },
+    {
       "name": "Claude",
+      "count": 3
+    },
+    {
+      "name": "Qwen",
       "count": 3
     },
     {
@@ -113,11 +117,7 @@
       "count": 2
     },
     {
-      "name": "Qwen",
-      "count": 1
-    },
-    {
-      "name": "Mistral",
+      "name": "Fine-tune",
       "count": 1
     }
   ],
@@ -128,7 +128,7 @@
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 43
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 8
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -162,11 +162,11 @@
     },
     {
       "date": "08-14",
-      "count": 27
+      "count": 25
     },
     {
       "date": "08-15",
-      "count": 22
+      "count": 26
     }
   ],
   "top10": [
@@ -177,10 +177,34 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "4242e51e337a",
+      "title": "unslothai /unsloth",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "839948fdcd0c",
+      "title": "MakazhanAlpamys /Soup",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "30f62a06b3c4",
       "title": "megadose /holehe",
       "score": 5,
       "source": "GitHub Trending"
+    },
+    {
+      "id": "cf22fb2fe760",
+      "title": "altic-dev /FluidVoice",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7bb7c238f855",
+      "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
+      "score": 5,
+      "source": "MarkTechPost"
     },
     {
       "id": "bbfc2ca772d5",
@@ -205,30 +229,6 @@
       "title": "lightningpixel /modly",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "d7078bd14038",
-      "title": "infiniflow /ragflow",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "3695b874da57",
-      "title": "Position: Reasoning is a Learnable Rule-Based Process",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "bdea41f6ff14",
-      "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "a5cfea95d9ea",
-      "title": "Position: The Alignment Community is Unintentionally Building a Censor's Toolkit",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
     }
   ]
 }

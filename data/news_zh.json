@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T08:37:21Z",
+  "updated": "2026-08-15T16:32:47Z",
   "total": 20,
   "items": [
     {
@@ -17,11 +17,71 @@
       }
     },
     {
+      "id": "4242e51e337a",
+      "title_zh": "unslothai /unsloth",
+      "summary_zh": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "tags_zh": [
+        "DeepSeek",
+        "Qwen",
+        "LLM",
+        "Diffusion"
+      ],
+      "oneliner": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "839948fdcd0c",
+      "title_zh": "MakazhanAlpamys /Soup",
+      "summary_zh": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "tags_zh": [
+        "LLM",
+        "Fine-tune",
+        "GPU"
+      ],
+      "oneliner": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "30f62a06b3c4",
       "title_zh": "megadose /holehe",
       "summary_zh": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
       "tags_zh": [],
       "oneliner": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will r",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "cf22fb2fe760",
+      "title_zh": "altic-dev /FluidVoice",
+      "summary_zh": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+      "tags_zh": [],
+      "oneliner": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A l",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7bb7c238f855",
+      "title_zh": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
+      "summary_zh": "Implement an end-to-end fine-tuning pipeline for tool-calling language models. This tutorial covers parsing trajectories, structured tool-call extraction, Qwen-compatible ChatML rendering, and efficient LoRA adaptation using PyTorch.\nThe post...",
+      "tags_zh": [
+        "Qwen",
+        "LLM"
+      ],
+      "oneliner": "Implement an end-to-end fine-tuning pipeline for tool-calling language models. This tutorial covers ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -219,60 +279,6 @@
         "LLM"
       ],
       "oneliner": "arXiv:2608.12389v1 Announce Type: new \nAbstract: Cross-domain zero- or few-shot personalization aims",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f52cdc3cbc97",
-      "title_zh": "Research Assistant: AstraZeneca's Agentic System for R&D",
-      "summary_zh": "arXiv:2608.12395v1 Announce Type: new \nAbstract: We describe Research Assistant, an internal LLM-based system developed at AstraZeneca to help scientists and clinicians explore biomedical questions across a broad range of data sources. The system...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.12395v1 Announce Type: new \nAbstract: We describe Research Assistant, an internal LLM-bas",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b2c570d99d43",
-      "title_zh": "Large Language Models Can Follow Instructions, But Not Many at Once: Phase Transitions in Compositional Constraint Satisfaction",
-      "summary_zh": "arXiv:2608.12426v1 Announce Type: new \nAbstract: Large language models are increasingly deployed in settings that require simultaneous adherence to multiple explicit constraints - reasoning structure, safety boundaries, output schemas. Individual...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.12426v1 Announce Type: new \nAbstract: Large language models are increasingly deployed in ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5fe283aea7ba",
-      "title_zh": "MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents",
-      "summary_zh": "arXiv:2608.12428v1 Announce Type: new \nAbstract: Memory is a core component of AI agents, enabling them to accumulate experience, maintain personalization, and adapt over long-term interactions. However, existing memory systems often remain fixed...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.12428v1 Announce Type: new \nAbstract: Memory is a core component of AI agents, enabling t",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "69c9da91e0e6",
-      "title_zh": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
-      "summary_zh": "arXiv:2608.12476v1 Announce Type: new \nAbstract: Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.12476v1 Announce Type: new \nAbstract: Long-term agent memory is usually treated as select",
       "key_facts": [],
       "notable_quote": {
         "text": "",

@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-15T08:37:21Z",
-  "total": 219,
-  "new_count": 43,
+  "updated": "2026-08-15T16:32:47Z",
+  "total": 218,
+  "new_count": 34,
   "items": [
     {
       "id": "f0faec98f86e",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "published": "2026-08-15T08:35:14Z",
+      "published": "2026-08-15T16:30:41Z",
       "tags": [
         "Claude"
       ],
@@ -31,13 +31,77 @@
       "oneliner": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
     },
     {
+      "id": "4242e51e337a",
+      "title": "unslothai /unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "published": "2026-08-15T16:30:41Z",
+      "tags": [
+        "DeepSeek",
+        "Qwen",
+        "LLM",
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "unslothai /unsloth",
+      "summary_zh": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "tags_zh": [
+        "DeepSeek",
+        "Qwen",
+        "LLM",
+        "Diffusion"
+      ],
+      "oneliner": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4"
+    },
+    {
+      "id": "839948fdcd0c",
+      "title": "MakazhanAlpamys /Soup",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "published": "2026-08-15T16:30:41Z",
+      "tags": [
+        "LLM",
+        "Fine-tune",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "MakazhanAlpamys /Soup",
+      "summary_zh": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "tags_zh": [
+        "LLM",
+        "Fine-tune",
+        "GPU"
+      ],
+      "oneliner": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU."
+    },
+    {
       "id": "30f62a06b3c4",
       "title": "megadose /holehe",
       "url": "https://github.com/megadose/holehe",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-      "published": "2026-08-15T08:35:14Z",
+      "published": "2026-08-15T16:30:41Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -52,6 +116,58 @@
       "summary_zh": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
       "tags_zh": [],
       "oneliner": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will r"
+    },
+    {
+      "id": "cf22fb2fe760",
+      "title": "altic-dev /FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+      "published": "2026-08-15T16:30:41Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "altic-dev /FluidVoice",
+      "summary_zh": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+      "tags_zh": [],
+      "oneliner": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A l"
+    },
+    {
+      "id": "7bb7c238f855",
+      "title": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
+      "url": "https://www.marktechpost.com/2026/08/15/fine-tuning-tool-calling-llms-a-complete-guide-using-xyz-aquila-sft-and-qwen3/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Implement an end-to-end fine-tuning pipeline for tool-calling language models. This tutorial covers parsing trajectories, structured tool-call extraction, Qwen-compatible ChatML rendering, and efficient LoRA adaptation using PyTorch.\nThe post...",
+      "published": "2026-08-15T11:28:29Z",
+      "tags": [
+        "Qwen",
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Fine-Tuning Tool-Calling LLMs: A Complete Guide Using XYZ-Aquila-SFT and Qwen3",
+      "summary_zh": "Implement an end-to-end fine-tuning pipeline for tool-calling language models. This tutorial covers parsing trajectories, structured tool-call extraction, Qwen-compatible ChatML rendering, and efficient LoRA adaptation using PyTorch.\nThe post...",
+      "tags_zh": [
+        "Qwen",
+        "LLM"
+      ],
+      "oneliner": "Implement an end-to-end fine-tuning pipeline for tool-calling language models. This tutorial covers "
     },
     {
       "id": "bbfc2ca772d5",
@@ -453,12 +569,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Research Assistant: AstraZeneca's Agentic System for R&D",
-      "summary_zh": "arXiv:2608.12395v1 Announce Type: new \nAbstract: We describe Research Assistant, an internal LLM-based system developed at AstraZeneca to help scientists and clinicians explore biomedical questions across a broad range of data sources. The system...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.12395v1 Announce Type: new \nAbstract: We describe Research Assistant, an internal LLM-bas"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b2c570d99d43",
@@ -478,10 +592,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Large Language Models Can Follow Instructions, But Not Many at Once: Phase Transitions in Compositional Constraint Satisfaction",
-      "summary_zh": "arXiv:2608.12426v1 Announce Type: new \nAbstract: Large language models are increasingly deployed in settings that require simultaneous adherence to multiple explicit constraints - reasoning structure, safety boundaries, output schemas. Individual...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.12426v1 Announce Type: new \nAbstract: Large language models are increasingly deployed in "
+      "oneliner": ""
     },
     {
       "id": "5fe283aea7ba",
@@ -503,12 +617,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents",
-      "summary_zh": "arXiv:2608.12428v1 Announce Type: new \nAbstract: Memory is a core component of AI agents, enabling them to accumulate experience, maintain personalization, and adapt over long-term interactions. However, existing memory systems often remain fixed...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.12428v1 Announce Type: new \nAbstract: Memory is a core component of AI agents, enabling t"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "69c9da91e0e6",
@@ -530,12 +642,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Governed Persistent Memory: Source-Bound State Semantics and Fail-Closed Release for Long-Horizon Agents",
-      "summary_zh": "arXiv:2608.12476v1 Announce Type: new \nAbstract: Long-term agent memory is usually treated as select--store--retrieve, but retrieval does not decide whether contradictory, superseded, retracted, deleted, or stale records may support an outgoing...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.12476v1 Announce Type: new \nAbstract: Long-term agent memory is usually treated as select"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "8e81ce77efc7",
@@ -678,57 +788,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "cf22fb2fe760",
-      "title": "altic-dev /FluidVoice",
-      "url": "https://github.com/altic-dev/FluidVoice",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
-      "published": "2026-08-14T09:12:09Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4242e51e337a",
-      "title": "unslothai /unsloth",
-      "url": "https://github.com/unslothai/unsloth",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "published": "2026-08-14T09:12:09Z",
-      "tags": [
-        "DeepSeek",
-        "Qwen",
-        "LLM",
-        "Diffusion"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5241,79 +5300,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2315d61b1043",
-      "title": "Designing Scalable Interactive Visualizations with Reflex XY: Composition, Million-Point Rendering, Streaming, Custom Marks, and Export",
-      "url": "https://www.marktechpost.com/2026/08/08/designing-scalable-interactive-visualizations-with-reflex-xy-composition-million-point-rendering-streaming-custom-marks-and-export/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Dive into the advanced visualization capabilities of the Reflex XY Python library. This tutorial guides you through building high-performance, interactive charts—from handling million-point datasets and real-time streaming to creating custom mark...",
-      "published": "2026-08-08T09:42:18Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "710e3cb1a40c",
-      "title": "cloudflare /computer",
-      "url": "https://github.com/cloudflare/computer",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Give your agent a computer 👾",
-      "published": "2026-08-08T08:49:14Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-08-08T08:49:14Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
