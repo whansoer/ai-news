@@ -1,29 +1,25 @@
 {
-  "updated": "2026-08-17T08:52:13Z",
-  "total": 275,
+  "updated": "2026-08-17T16:35:25Z",
+  "total": 246,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.CL)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.CL)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 26
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 17
+      "count": 16
     },
     {
       "name": "Google AI",
-      "count": 15
-    },
-    {
-      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -31,34 +27,34 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
+      "name": "Hugging Face",
+      "count": 15
     },
     {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 8
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 61
     },
     {
       "name": "LLM",
-      "count": 46
+      "count": 37
     },
     {
       "name": "Benchmark",
-      "count": 16
-    },
-    {
-      "name": "GPT",
-      "count": 8
+      "count": 13
     },
     {
       "name": "RAG",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Google",
@@ -69,15 +65,23 @@
       "count": 6
     },
     {
+      "name": "Claude",
+      "count": 5
+    },
+    {
+      "name": "Gemini",
+      "count": 5
+    },
+    {
       "name": "Transformer",
       "count": 5
     },
     {
-      "name": "Meta",
+      "name": "GPT",
       "count": 5
     },
     {
-      "name": "API",
+      "name": "Meta",
       "count": 5
     },
     {
@@ -89,15 +93,19 @@
       "count": 4
     },
     {
+      "name": "OpenAI",
+      "count": 4
+    },
+    {
+      "name": "API",
+      "count": 4
+    },
+    {
+      "name": "Anthropic",
+      "count": 3
+    },
+    {
       "name": "Diffusion",
-      "count": 4
-    },
-    {
-      "name": "Gemini",
-      "count": 4
-    },
-    {
-      "name": "Qwen",
       "count": 3
     },
     {
@@ -105,15 +113,7 @@
       "count": 3
     },
     {
-      "name": "Claude",
-      "count": 3
-    },
-    {
-      "name": "OpenAI",
-      "count": 3
-    },
-    {
-      "name": "Anthropic",
+      "name": "Qwen",
       "count": 2
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 192
+      "count": 161
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 8
     }
   ],
   "dailyTrend": [
@@ -162,14 +162,56 @@
     },
     {
       "date": "08-16",
-      "count": 5
+      "count": 4
     },
     {
       "date": "08-17",
-      "count": 33
+      "count": 43
     }
   ],
   "top10": [
+    {
+      "id": "7c09473f1ffc",
+      "title": "harry0703 /MoneyPrinterTurbo",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "11576ef07d08",
+      "title": "usestrix /strix",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "44154b46b32c",
+      "title": "akitaonrails /ai-memory",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ebc3b4fe22b6",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "018703fab583",
+      "title": "AlexsJones /llmfit",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7b6a865db4d6",
+      "title": "santifer /career-ops",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f4f993b4bf74",
+      "title": "jundot /omlx",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "4242e51e337a",
       "title": "unslothai /unsloth",
@@ -187,48 +229,6 @@
       "title": "Get closer to the game with Gemini and Pixel",
       "score": 5,
       "source": "Google AI"
-    },
-    {
-      "id": "62023633469b",
-      "title": "Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "cb5307c4d102",
-      "title": "Think in Latent, Explain in Language: Self-Explainable Latent Reasoning",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "a71f07a6f593",
-      "title": "Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "0cebeb3da39f",
-      "title": "BCMT: Blockwise Causal Memory Transformer",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "e6882265ad38",
-      "title": "Jais 2: A Family of Arabic-Centric Open Large Language Models",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "1fab4c86fd4a",
-      "title": "IterCOMP: Reasoning-aware Adaptive Prompt Compression for Multi-hop Question Answering",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "e4f3a167e643",
-      "title": "Measuring Fairness in Large Audio Language Models via Semantic-Aware Bias Estimation",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
