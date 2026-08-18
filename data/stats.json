@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-18T01:19:34Z",
-  "total": 251,
+  "updated": "2026-08-18T08:44:37Z",
+  "total": 260,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
@@ -31,18 +31,18 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 6
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 62
     },
     {
       "name": "LLM",
@@ -50,7 +50,7 @@
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 15
     },
     {
       "name": "RAG",
@@ -69,10 +69,6 @@
       "count": 5
     },
     {
-      "name": "DeepSeek",
-      "count": 5
-    },
-    {
       "name": "Transformer",
       "count": 5
     },
@@ -81,7 +77,7 @@
       "count": 5
     },
     {
-      "name": "GPU",
+      "name": "DeepSeek",
       "count": 5
     },
     {
@@ -89,11 +85,15 @@
       "count": 5
     },
     {
+      "name": "Meta",
+      "count": 4
+    },
+    {
       "name": "OpenAI",
       "count": 4
     },
     {
-      "name": "Meta",
+      "name": "GPU",
       "count": 4
     },
     {
@@ -105,7 +105,7 @@
       "count": 3
     },
     {
-      "name": "Qwen",
+      "name": "Prompt",
       "count": 3
     },
     {
@@ -113,8 +113,8 @@
       "count": 3
     },
     {
-      "name": "Prompt",
-      "count": 3
+      "name": "Qwen",
+      "count": 2
     },
     {
       "name": "Fine-tune",
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 164
+      "count": 179
     },
     {
       "name": "开源项目",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 6
     }
   ],
   "dailyTrend": [
@@ -162,11 +162,11 @@
     },
     {
       "date": "08-17",
-      "count": 40
+      "count": 25
     },
     {
       "date": "08-18",
-      "count": 8
+      "count": 38
     }
   ],
   "top10": [
@@ -213,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "568a94b54691",
-      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
+      "id": "62023633469b",
+      "title": "Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "74fdd9bd89c5",
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "id": "cb5307c4d102",
+      "title": "Think in Latent, Explain in Language: Self-Explainable Latent Reasoning",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "f810c2a5dd94",
-      "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
+      "id": "a71f07a6f593",
+      "title": "Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
