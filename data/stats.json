@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T08:44:37Z",
-  "total": 260,
+  "updated": "2026-08-18T16:38:50Z",
+  "total": 244,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -8,15 +8,19 @@
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 45
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 19
+      "count": 17
+    },
+    {
+      "name": "OpenAI",
+      "count": 15
     },
     {
       "name": "Hugging Face",
@@ -27,34 +31,38 @@
       "count": 15
     },
     {
-      "name": "OpenAI",
-      "count": 15
-    },
-    {
       "name": "Synced",
       "count": 10
     },
     {
       "name": "AI News",
-      "count": 6
+      "count": 5
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 37
+      "count": 36
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 12
     },
     {
       "name": "RAG",
-      "count": 7
+      "count": 8
+    },
+    {
+      "name": "GPT",
+      "count": 6
+    },
+    {
+      "name": "Transformer",
+      "count": 6
     },
     {
       "name": "Google",
@@ -69,19 +77,11 @@
       "count": 5
     },
     {
-      "name": "Transformer",
-      "count": 5
-    },
-    {
-      "name": "GPT",
+      "name": "Embedding",
       "count": 5
     },
     {
       "name": "DeepSeek",
-      "count": 5
-    },
-    {
-      "name": "Embedding",
       "count": 5
     },
     {
@@ -97,10 +97,6 @@
       "count": 4
     },
     {
-      "name": "API",
-      "count": 4
-    },
-    {
       "name": "Anthropic",
       "count": 3
     },
@@ -109,11 +105,15 @@
       "count": 3
     },
     {
-      "name": "Diffusion",
+      "name": "API",
       "count": 3
     },
     {
       "name": "Qwen",
+      "count": 2
+    },
+    {
+      "name": "Diffusion",
       "count": 2
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 179
+      "count": 162
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 6
+      "count": 5
     }
   ],
   "dailyTrend": [
@@ -166,7 +166,7 @@
     },
     {
       "date": "08-18",
-      "count": 38
+      "count": 44
     }
   ],
   "top10": [
@@ -177,8 +177,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "11576ef07d08",
-      "title": "usestrix /strix",
+      "id": "c611600453f2",
+      "title": "chaitanyagiri /munder-difflin",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -189,20 +189,14 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "91af1ab046d3",
+      "title": "volcengine /OpenViking",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "ebc3b4fe22b6",
       "title": "mukul975 /Anthropic-Cybersecurity-Skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "018703fab583",
-      "title": "AlexsJones /llmfit",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7b6a865db4d6",
-      "title": "santifer /career-ops",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -213,22 +207,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "62023633469b",
-      "title": "Does a Language Server Save Tokens for Coding Agents? A Measurement Methodology and Preliminary Study",
+      "id": "f7788bfa76bc",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "OpenAI"
     },
     {
-      "id": "cb5307c4d102",
-      "title": "Think in Latent, Explain in Language: Self-Explainable Latent Reasoning",
+      "id": "48f9d5cfe56c",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "OpenAI"
     },
     {
-      "id": "a71f07a6f593",
-      "title": "Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems",
+      "id": "11576ef07d08",
+      "title": "usestrix /strix",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "018703fab583",
+      "title": "AlexsJones /llmfit",
+      "score": 5,
+      "source": "GitHub Trending"
     }
   ]
 }

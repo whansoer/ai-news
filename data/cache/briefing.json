@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-08-18T08:44:47Z",
-  "count": 290,
+  "updated": "2026-08-18T16:38:59Z",
+  "count": 291,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -18562,6 +18562,70 @@
         }
       },
       "_ts": 1787042687
+    },
+    "d708b5aeb3429c1f": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录244篇AI新闻，分类分布：学术研究162篇, 开源项目47篇, 模型发布30篇, 产品/API5篇。热门标签：Agent（63篇）。其中7%的文章有多来源交叉验证。\n\n▸ harry0703 /MoneyPrinterTurbo：利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automate\n\n▸ chaitanyagiri /munder-difflin：local multi-agent harness\n\n▸ akitaonrails /ai-memory：Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen\n\n▸ volcengine /OpenViking：Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.\n\n▸ mukul975 /Anthropic-Cybersecurity-Skills：817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "akitaonrails/ai-memory",
+            "url": "https://github.com/akitaonrails/ai-memory",
+            "why_hot": "单日730星，Rust项目",
+            "stars_today": 730,
+            "total_stars": 2577
+          },
+          {
+            "full_name": "macro-inc/macro",
+            "url": "https://github.com/macro-inc/macro",
+            "why_hot": "单日0星，Rust项目",
+            "stars_today": 0,
+            "total_stars": 3633
+          },
+          {
+            "full_name": "chaitanyagiri/munder-difflin",
+            "url": "https://github.com/chaitanyagiri/munder-difflin",
+            "why_hot": "单日256星，TypeScript项目",
+            "stars_today": 256,
+            "total_stars": 1825
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "244"
+          },
+          {
+            "label": "多源验证率",
+            "value": "7%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4018"
+          }
+        ],
+        "must_read_ids": [
+          "7c09473f1ffc",
+          "c611600453f2",
+          "44154b46b32c",
+          "91af1ab046d3",
+          "ebc3b4fe22b6"
+        ],
+        "text": "今日共收录244篇AI新闻，分类分布：学术研究162篇, 开源项目47篇, 模型发布30篇, 产品/API5篇。热门标签：Agent（63篇）。其中7%的文章有多来源交叉验证。",
+        "top_items": [
+          "harry0703 /MoneyPrinterTurbo",
+          "chaitanyagiri /munder-difflin",
+          "akitaonrails /ai-memory",
+          "volcengine /OpenViking",
+          "mukul975 /Anthropic-Cybersecurity-Skills"
+        ],
+        "meta": {
+          "total_articles": 244,
+          "multi_source_pct": 7
+        }
+      },
+      "_ts": 1787071139
     }
   }
 }

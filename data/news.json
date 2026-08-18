@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-18T08:44:47Z",
-  "total": 207,
-  "new_count": 50,
+  "updated": "2026-08-18T16:38:59Z",
+  "total": 206,
+  "new_count": 37,
   "items": [
     {
       "id": "7c09473f1ffc",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "published": "2026-08-18T08:42:42Z",
+      "published": "2026-08-18T16:36:52Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -27,14 +27,16 @@
       "oneliner": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automate"
     },
     {
-      "id": "11576ef07d08",
-      "title": "usestrix /strix",
-      "url": "https://github.com/usestrix/strix",
+      "id": "c611600453f2",
+      "title": "chaitanyagiri /munder-difflin",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "published": "2026-08-18T08:42:42Z",
-      "tags": [],
+      "summary": "local multi-agent harness",
+      "published": "2026-08-18T16:36:52Z",
+      "tags": [
+        "Agent"
+      ],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
@@ -44,10 +46,12 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "usestrix /strix",
-      "summary_zh": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "tags_zh": [],
-      "oneliner": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities."
+      "title_zh": "chaitanyagiri /munder-difflin",
+      "summary_zh": "local multi-agent harness",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "local multi-agent harness"
     },
     {
       "id": "44154b46b32c",
@@ -56,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "published": "2026-08-18T08:42:42Z",
+      "published": "2026-08-18T16:36:52Z",
       "tags": [
         "Agent"
       ],
@@ -77,13 +81,42 @@
       "oneliner": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen"
     },
     {
+      "id": "91af1ab046d3",
+      "title": "volcengine /OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "published": "2026-08-18T16:36:52Z",
+      "tags": [
+        "Agent",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "volcengine /OpenViking",
+      "summary_zh": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "tags_zh": [
+        "Agent",
+        "RAG"
+      ],
+      "oneliner": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills."
+    },
+    {
       "id": "ebc3b4fe22b6",
       "title": "mukul975 /Anthropic-Cybersecurity-Skills",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI,...",
-      "published": "2026-08-18T08:42:42Z",
+      "published": "2026-08-18T16:36:52Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -108,6 +141,106 @@
         "Agent"
       ],
       "oneliner": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2"
+    },
+    {
+      "id": "f4f993b4bf74",
+      "title": "jundot /omlx",
+      "url": "https://github.com/jundot/omlx",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "published": "2026-08-18T16:36:52Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "jundot /omlx",
+      "summary_zh": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the mac"
+    },
+    {
+      "id": "f7788bfa76bc",
+      "title": "Partnering with CodeAI to prepare the first AI generation",
+      "url": "https://openai.com/index/partnering-with-codeai",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "published": "2026-08-18T11:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Partnering with CodeAI to prepare the first AI generation",
+      "summary_zh": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
+      "tags_zh": [],
+      "oneliner": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and "
+    },
+    {
+      "id": "48f9d5cfe56c",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "url": "https://openai.com/index/chatgpt-for-teens",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "published": "2026-08-18T11:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "summary_zh": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger bui"
+    },
+    {
+      "id": "11576ef07d08",
+      "title": "usestrix /strix",
+      "url": "https://github.com/usestrix/strix",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "published": "2026-08-18T08:42:42Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "usestrix /strix",
+      "summary_zh": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "tags_zh": [],
+      "oneliner": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities."
     },
     {
       "id": "018703fab583",
@@ -164,16 +297,14 @@
       "oneliner": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1"
     },
     {
-      "id": "f4f993b4bf74",
-      "title": "jundot /omlx",
-      "url": "https://github.com/jundot/omlx",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-      "published": "2026-08-18T08:42:42Z",
-      "tags": [
-        "LLM"
-      ],
+      "id": "eaf7eab1e8f7",
+      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "url": "https://openai.com/index/asana",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "published": "2026-08-18T07:00:00Z",
+      "tags": [],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
@@ -183,12 +314,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "jundot /omlx",
-      "summary_zh": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the mac"
+      "title_zh": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "summary_zh": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
+      "tags_zh": [],
+      "oneliner": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected"
     },
     {
       "id": "62023633469b",
@@ -412,12 +541,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "CLAIR-Fin: An Adversarial Multi-Agent Framework for Claim-Level Verification and Adaptive Debate in Cross-Modal Financial QA",
-      "summary_zh": "arXiv:2608.13706v1 Announce Type: new \nAbstract: Existing defenses against hallucination in retrieval-augmented and multi-agent pipelines remain partial: evidence is trusted despite modality disagreement, debate verifies an aggregate report...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.13706v1 Announce Type: new \nAbstract: Existing defenses against hallucination in retrieva"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "2d32fdf97d0d",
@@ -440,13 +567,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "TeachMateGPT: A Multi-Agent Knowledge-Grounded Framework for Pedagogical Assessment Generation from Science Curriculum Materials",
-      "summary_zh": "arXiv:2608.13708v1 Announce Type: new \nAbstract: Automatically generating textbook-grounded assessment items can reduce science teachers' workload, but existing retrieval-augmented generation (RAG) systems rely on flat retrieval, support only...",
-      "tags_zh": [
-        "GPT",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.13708v1 Announce Type: new \nAbstract: Automatically generating textbook-grounded assessme"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "492b0d8d35d0",
@@ -466,10 +590,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "StreamHear: Domain-Adapted Pseudo-Labeling for Semi-Supervised Streaming Speech Recognition",
-      "summary_zh": "arXiv:2608.13717v1 Announce Type: new \nAbstract: Streaming automatic speech recognition (ASR) underperforms on domain-shifted target audio, where labeled in-domain data is costly to prepare while unlabeled audio is abundant. We present...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.13717v1 Announce Type: new \nAbstract: Streaming automatic speech recognition (ASR) underp"
+      "oneliner": ""
     },
     {
       "id": "ef34551d73f1",
@@ -489,10 +613,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "BM25-Augmented Many-Shot Translation for Low-Resource North-Eastern Indian Languages",
-      "summary_zh": "arXiv:2608.13722v1 Announce Type: new \nAbstract: This paper describes the University of Florida Gators submission to the WMT26 Low-Resource Indic Language Translation shared task. We adapt the retrieval-augmented many-shot translation pipeline...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.13722v1 Announce Type: new \nAbstract: This paper describes the University of Florida Gato"
+      "oneliner": ""
     },
     {
       "id": "8f98e454ebd4",
@@ -512,10 +636,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "GALA: Generation-Aware Cross-Modal Alignment for Text-to-Time-Series Synthesis",
-      "summary_zh": "arXiv:2608.13741v2 Announce Type: new \nAbstract: Synthesizing time series from natural language is emerging as the most expressive form of controllable time series generation. However, existing text-conditioned generators either take caption...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.13741v2 Announce Type: new \nAbstract: Synthesizing time series from natural language is e"
+      "oneliner": ""
     },
     {
       "id": "69f97c085600",
@@ -928,6 +1052,32 @@
       "published": "2026-08-18T01:10:28Z",
       "tags": [
         "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7550eaf867a9",
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-08-18T00:00:00Z",
+      "tags": [
+        "Transformer",
+        "Embedding"
       ],
       "score": 5,
       "relations": [],
@@ -4836,175 +4986,6 @@
       "category": "model",
       "summary": "AMIE promotional video",
       "published": "2026-08-11T17:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9d9bb7bcee86",
-      "title": "Building and Validating a Quantitative Trading Strategy with OctoBot, Walk-Forward Backtesting, Parameter Optimization, and Interactive Analysis",
-      "url": "https://www.marktechpost.com/2026/08/11/building-and-validating-a-quantitative-trading-strategy-with-octobot-walk-forward-backtesting-parameter-optimization-and-interactive-analysis/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we build a complete quantitative backtesting workflow with OctoBot and OctoBot-Script while keeping the environment isolated from Colab’s preinstalled dependencies. We configure a rule-based trading strategy that combines...",
-      "published": "2026-08-11T15:17:29Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e55e02c2188c",
-      "title": "Thinking of ACE? We Can Do It with Fewer Tokens",
-      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-08-11T13:37:10Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "16251d7b149e",
-      "title": "Testing ads in ChatGPT",
-      "url": "https://openai.com/index/testing-ads-in-chatgpt",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "published": "2026-08-11T10:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ca8161387cd4",
-      "title": "Daybreak models are now available on AWS",
-      "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI and AWS are making Daybreak cybersecurity capabilities available through Amazon Bedrock to support enterprise security workflows.",
-      "published": "2026-08-11T10:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "485d42d301c2",
-      "title": "Novo Nordisk and AWS bring agentic AI into drug discovery",
-      "url": "https://www.artificialintelligence-news.com/news/novo-nordisk-ai-drug-discovery-aws/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Novo Nordisk is expanding its use of AWS artificial intelligence tools across drug discovery, including AI agents for target identification, therapy design, and research workflows. Under the agreement announced recently, AWS will become Novo...",
-      "published": "2026-08-11T10:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fd5ece9fb422",
-      "title": "PrimeIntellect-ai /prime-agent",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "published": "2026-08-11T09:04:31Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "21a32c583e27"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5d466100c8b3",
-      "title": "danielmiessler /LifeOS",
-      "url": "https://github.com/danielmiessler/LifeOS",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "⛰️A General Hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work.",
-      "published": "2026-08-11T09:04:31Z",
       "tags": [],
       "score": 5,
       "relations": [],
