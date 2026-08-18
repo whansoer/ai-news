@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T16:35:34Z",
+  "updated": "2026-08-18T01:19:43Z",
   "total": 20,
   "items": [
     {
@@ -93,6 +93,73 @@
         "LLM"
       ],
       "oneliner": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the mac",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "568a94b54691",
+      "title_zh": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
+      "summary_zh": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system that trains a large language model to write GPU kernels that beat a compiler. The gap it targets is narrow but stubborn: frontier models already...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system t",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "74fdd9bd89c5",
+      "title_zh": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f810c2a5dd94",
+      "title_zh": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
+      "summary_zh": "MiniMax released MiniMax-Music3, an open-weights text-to-music model. Given lyrics with section tags and a structured caption, it generates a complete song of up to five minutes in a single pass, as 32 kHz, 16-bit stereo WAV. Here is the...",
+      "tags_zh": [],
+      "oneliner": "MiniMax released MiniMax-Music3, an open-weights text-to-music model. Given lyrics with section tags",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "3ce5e666ea20",
+      "title_zh": "Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs",
+      "summary_zh": "Develop a complete document intelligence pipeline with docTR, integrating OCR, layout analysis, and KIE for production-oriented extraction and searchable PDF creation.\nThe post Developing an End-to-End Document Intelligence Pipeline with docTR...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "Develop a complete document intelligence pipeline with docTR, integrating OCR, layout analysis, and ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "569a800c04e1",
+      "title_zh": "DeepSeek AI Releases DeepSeek Harness in Developer Preview: An MIT-Licensed Agent Harness Where Everything is a Plugin",
+      "summary_zh": "DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Four runtime modes, append-only session logs, and provider-agnostic model routing.\nThe post DeepSeek AI Releases DeepSeek Harness in Developer...",
+      "tags_zh": [
+        "DeepSeek",
+        "Agent"
+      ],
+      "oneliner": "DeepSeek Harness v0.1 is an MIT-licensed agent harness where every capability is a Cordis plugin. Fo",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -205,70 +272,6 @@
         "Agent"
       ],
       "oneliner": "arXiv:2608.13571v1 Announce Type: new \nAbstract: When a language model fails to answer a query on th",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0cebeb3da39f",
-      "title_zh": "BCMT: Blockwise Causal Memory Transformer",
-      "summary_zh": "arXiv:2608.13578v1 Announce Type: new \nAbstract: Transformer architectures rely on dense self-attention to model long-range dependencies, but this mechanism exhibits quadratic complexity with respect to sequence length. We introduce BCMT...",
-      "tags_zh": [
-        "Transformer"
-      ],
-      "oneliner": "arXiv:2608.13578v1 Announce Type: new \nAbstract: Transformer architectures rely on dense self-attent",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e6882265ad38",
-      "title_zh": "Jais 2: A Family of Arabic-Centric Open Large Language Models",
-      "summary_zh": "arXiv:2608.13580v1 Announce Type: new \nAbstract: Jais 2 is a family of Arabic-centric large language models developed jointly by MBZUAI, Cerebras, and Inception, designed to advance Arabic-centric language modeling, with strong performance across...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.13580v1 Announce Type: new \nAbstract: Jais 2 is a family of Arabic-centric large language",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1fab4c86fd4a",
-      "title_zh": "IterCOMP: Reasoning-aware Adaptive Prompt Compression for Multi-hop Question Answering",
-      "summary_zh": "arXiv:2608.13588v1 Announce Type: new \nAbstract: Multi-hop question answering requires complex reasoning across multiple evidence segments, which often overwhelms retrieval-augmented generation systems with lengthy and noisy contexts, thereby...",
-      "tags_zh": [
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2608.13588v1 Announce Type: new \nAbstract: Multi-hop question answering requires complex reaso",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e4f3a167e643",
-      "title_zh": "Measuring Fairness in Large Audio Language Models via Semantic-Aware Bias Estimation",
-      "summary_zh": "arXiv:2608.13624v1 Announce Type: new \nAbstract: Large Audio Language Models (LALMs) have seen increasing use for audio understanding tasks such as speech recognition and audio question answering, raising concerns about fairness across...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.13624v1 Announce Type: new \nAbstract: Large Audio Language Models (LALMs) have seen incre",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7c1da568b31e",
-      "title_zh": "GRPO Beyond English: A Large-Scale Study of GRPO in Non-English and Multilingual Settings",
-      "summary_zh": "arXiv:2608.13698v1 Announce Type: new \nAbstract: Reinforcement Learning with Verifiable Rewards (RLVR), often optimized with Group Relative Policy Optimization (GRPO), has become a central recipe for improving the reasoning capabilities of...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.13698v1 Announce Type: new \nAbstract: Reinforcement Learning with Verifiable Rewards (RLV",
       "key_facts": [],
       "notable_quote": {
         "text": "",

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T16:35:25Z",
-  "total": 246,
+  "updated": "2026-08-18T01:19:34Z",
+  "total": 251,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,11 +12,15 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 32
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 16
+      "count": 19
+    },
+    {
+      "name": "Hugging Face",
+      "count": 15
     },
     {
       "name": "Google AI",
@@ -27,16 +31,12 @@
       "count": 15
     },
     {
-      "name": "Hugging Face",
-      "count": 15
+      "name": "AI News",
+      "count": 12
     },
     {
       "name": "Synced",
       "count": 10
-    },
-    {
-      "name": "AI News",
-      "count": 8
     }
   ],
   "tags": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 14
     },
     {
       "name": "RAG",
@@ -58,10 +58,6 @@
     },
     {
       "name": "Google",
-      "count": 7
-    },
-    {
-      "name": "GPU",
       "count": 6
     },
     {
@@ -73,6 +69,10 @@
       "count": 5
     },
     {
+      "name": "DeepSeek",
+      "count": 5
+    },
+    {
       "name": "Transformer",
       "count": 5
     },
@@ -81,7 +81,7 @@
       "count": 5
     },
     {
-      "name": "Meta",
+      "name": "GPU",
       "count": 5
     },
     {
@@ -89,11 +89,11 @@
       "count": 5
     },
     {
-      "name": "DeepSeek",
+      "name": "OpenAI",
       "count": 4
     },
     {
-      "name": "OpenAI",
+      "name": "Meta",
       "count": 4
     },
     {
@@ -105,16 +105,16 @@
       "count": 3
     },
     {
+      "name": "Qwen",
+      "count": 3
+    },
+    {
       "name": "Diffusion",
       "count": 3
     },
     {
       "name": "Prompt",
       "count": 3
-    },
-    {
-      "name": "Qwen",
-      "count": 2
     },
     {
       "name": "Fine-tune",
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 161
+      "count": 164
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -136,14 +136,10 @@
     },
     {
       "name": "产品/API",
-      "count": 8
+      "count": 12
     }
   ],
   "dailyTrend": [
-    {
-      "date": "08-11",
-      "count": 27
-    },
     {
       "date": "08-12",
       "count": 56
@@ -166,7 +162,11 @@
     },
     {
       "date": "08-17",
-      "count": 43
+      "count": 40
+    },
+    {
+      "date": "08-18",
+      "count": 8
     }
   ],
   "top10": [
@@ -213,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "4242e51e337a",
-      "title": "unslothai /unsloth",
+      "id": "568a94b54691",
+      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     },
     {
-      "id": "c2363e257b82",
-      "title": "ToolJet /ToolJet",
+      "id": "74fdd9bd89c5",
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "Hugging Face"
     },
     {
-      "id": "4b1422325725",
-      "title": "Get closer to the game with Gemini and Pixel",
+      "id": "f810c2a5dd94",
+      "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
       "score": 5,
-      "source": "Google AI"
+      "source": "MarkTechPost"
     }
   ]
 }
