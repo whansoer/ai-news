@@ -1,29 +1,29 @@
 {
-  "updated": "2026-08-19T08:45:24Z",
-  "total": 276,
+  "updated": "2026-08-19T16:38:34Z",
+  "total": 232,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 105
+      "count": 75
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 45
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 19
-    },
-    {
-      "name": "OpenAI",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Hugging Face",
+      "count": 16
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -42,31 +42,23 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 73
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 40
+      "count": 32
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 8
     },
     {
       "name": "RAG",
-      "count": 9
-    },
-    {
-      "name": "Embedding",
-      "count": 6
+      "count": 7
     },
     {
       "name": "GPT",
-      "count": 6
-    },
-    {
-      "name": "Transformer",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Google",
@@ -101,11 +93,19 @@
       "count": 4
     },
     {
-      "name": "Meta",
+      "name": "Transformer",
       "count": 4
     },
     {
       "name": "Anthropic",
+      "count": 3
+    },
+    {
+      "name": "Embedding",
+      "count": 3
+    },
+    {
+      "name": "Meta",
       "count": 3
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 194
+      "count": 147
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 48
     },
     {
       "name": "模型发布",
@@ -162,11 +162,11 @@
     },
     {
       "date": "08-18",
-      "count": 50
+      "count": 49
     },
     {
       "date": "08-19",
-      "count": 36
+      "count": 41
     }
   ],
   "top10": [
@@ -177,20 +177,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "c611600453f2",
-      "title": "chaitanyagiri /munder-difflin",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "44154b46b32c",
-      "title": "akitaonrails /ai-memory",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "91af1ab046d3",
       "title": "volcengine /OpenViking",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c611600453f2",
+      "title": "chaitanyagiri /munder-difflin",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,34 +195,40 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "44154b46b32c",
+      "title": "akitaonrails /ai-memory",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "f4f993b4bf74",
       "title": "jundot /omlx",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "245ddeee916c",
-      "title": "Margin-Regularized Structured Semantic Alignment for Brain-Language Correspondence",
+      "id": "7b6a865db4d6",
+      "title": "santifer /career-ops",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "32294e06ff86",
-      "title": "Cross-Model Memory Transfer via Target-Side Reader Adaptation",
+      "id": "34372b36cf13",
+      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "e3b62829b23d",
-      "title": "Institution-Specific LLM Prompting Recovers PHI That De-identification Systems and Their Gold Standards Both Miss",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "15655d087a60",
-      "title": "Foundation Agents Meet Agentic Deep Research: Evidence-Grounded Clinical Code Forecasting",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Hugging Face"
     }
   ]
 }
