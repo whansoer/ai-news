@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20T08:48:02Z",
-  "total": 262,
+  "updated": "2026-08-20T16:42:00Z",
+  "total": 244,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -8,14 +8,14 @@
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 45
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 30
     },
     {
-      "name": "MarkTechPost",
+      "name": "OpenAI",
       "count": 16
     },
     {
@@ -23,57 +23,49 @@
       "count": 15
     },
     {
-      "name": "OpenAI",
-      "count": 15
-    },
-    {
       "name": "Hugging Face",
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
+      "name": "MarkTechPost",
+      "count": 14
     },
     {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 9
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 70
+      "count": 64
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 32
     },
     {
       "name": "Benchmark",
-      "count": 11
+      "count": 10
     },
     {
       "name": "GPT",
-      "count": 8
-    },
-    {
-      "name": "RAG",
-      "count": 6
+      "count": 9
     },
     {
       "name": "Claude",
       "count": 6
     },
     {
-      "name": "Google",
-      "count": 6
-    },
-    {
-      "name": "Gemini",
+      "name": "RAG",
       "count": 5
     },
     {
-      "name": "Transformer",
+      "name": "Gemini",
       "count": 5
     },
     {
@@ -89,7 +81,15 @@
       "count": 5
     },
     {
+      "name": "Google",
+      "count": 5
+    },
+    {
       "name": "Meta",
+      "count": 4
+    },
+    {
+      "name": "Transformer",
       "count": 4
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "name": "Diffusion",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Fine-tune",
@@ -124,19 +124,19 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 176
+      "count": 159
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 45
     },
     {
       "name": "模型发布",
-      "count": 30
+      "count": 31
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 9
     }
   ],
   "dailyTrend": [
@@ -166,40 +166,10 @@
     },
     {
       "date": "08-20",
-      "count": 42
+      "count": 44
     }
   ],
   "top10": [
-    {
-      "id": "7c09473f1ffc",
-      "title": "harry0703 /MoneyPrinterTurbo",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "91af1ab046d3",
-      "title": "volcengine /OpenViking",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c611600453f2",
-      "title": "chaitanyagiri /munder-difflin",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "ebc3b4fe22b6",
-      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "44154b46b32c",
-      "title": "akitaonrails /ai-memory",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
     {
       "id": "1ae169fb23a9",
       "title": "mattpocock /skills",
@@ -213,22 +183,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "f4f993b4bf74",
-      "title": "jundot /omlx",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "7b6a865db4d6",
       "title": "santifer /career-ops",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "90accb9ed72d",
-      "title": "A third of ChatGPT ads appear in irrelevant conversations",
+      "id": "44154b46b32c",
+      "title": "akitaonrails /ai-memory",
       "score": 5,
-      "source": "AI News"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7c09473f1ffc",
+      "title": "harry0703 /MoneyPrinterTurbo",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "9b897d36ce84",
+      "title": "agent-substrate /substrate",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c611600453f2",
+      "title": "chaitanyagiri /munder-difflin",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "91af1ab046d3",
+      "title": "volcengine /OpenViking",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ebc3b4fe22b6",
+      "title": "mukul975 /Anthropic-Cybersecurity-Skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f4f993b4bf74",
+      "title": "jundot /omlx",
+      "score": 5,
+      "source": "GitHub Trending"
     }
   ]
 }
