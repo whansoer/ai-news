@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20T16:42:00Z",
-  "total": 244,
+  "updated": "2026-08-21T01:24:13Z",
+  "total": 239,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,11 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 26
+    },
+    {
+      "name": "Hugging Face",
+      "count": 16
     },
     {
       "name": "OpenAI",
@@ -23,12 +27,8 @@
       "count": 15
     },
     {
-      "name": "Hugging Face",
-      "count": 15
-    },
-    {
       "name": "MarkTechPost",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Synced",
@@ -36,13 +36,13 @@
     },
     {
       "name": "AI News",
-      "count": 9
+      "count": 8
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 60
     },
     {
       "name": "LLM",
@@ -97,15 +97,15 @@
       "count": 4
     },
     {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
       "name": "Anthropic",
       "count": 3
     },
     {
       "name": "Embedding",
+      "count": 3
+    },
+    {
+      "name": "OpenAI",
       "count": 3
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 159
+      "count": 158
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -136,14 +136,10 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 8
     }
   ],
   "dailyTrend": [
-    {
-      "date": "08-14",
-      "count": 25
-    },
     {
       "date": "08-15",
       "count": 21
@@ -166,7 +162,11 @@
     },
     {
       "date": "08-20",
-      "count": 44
+      "count": 40
+    },
+    {
+      "date": "08-21",
+      "count": 7
     }
   ],
   "top10": [
@@ -213,6 +213,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "b1eabc16d142",
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
       "id": "91af1ab046d3",
       "title": "volcengine /OpenViking",
       "score": 5,
@@ -221,12 +227,6 @@
     {
       "id": "ebc3b4fe22b6",
       "title": "mukul975 /Anthropic-Cybersecurity-Skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "f4f993b4bf74",
-      "title": "jundot /omlx",
       "score": 5,
       "source": "GitHub Trending"
     }
