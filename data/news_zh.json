@@ -1,7 +1,22 @@
 {
-  "updated": "2026-08-22T08:38:35Z",
+  "updated": "2026-08-22T16:32:17Z",
   "total": 20,
   "items": [
+    {
+      "id": "1a57528ba5a4",
+      "title_zh": "openai /codex",
+      "summary_zh": "Lightweight coding agent that runs in your terminal",
+      "tags_zh": [
+        "OpenAI",
+        "Agent"
+      ],
+      "oneliner": "Lightweight coding agent that runs in your terminal",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "1ae169fb23a9",
       "title_zh": "mattpocock /skills",
@@ -10,6 +25,95 @@
         "Agent"
       ],
       "oneliner": "Skills for Real Engineers. Straight from my .agents directory.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a90d342e2181",
+      "title_zh": "affaan-m /ECC",
+      "summary_zh": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "tags_zh": [
+        "Claude",
+        "Agent"
+      ],
+      "oneliner": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c3257d531a3c",
+      "title_zh": "obra /superpowers",
+      "summary_zh": "An agentic skills framework & software development methodology that works.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "An agentic skills framework & software development methodology that works.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e1a6696969ac",
+      "title_zh": "Wei-Shaw /sub2api",
+      "summary_zh": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "tags_zh": [
+        "Claude",
+        "Gemini",
+        "OpenAI",
+        "开源",
+        "API"
+      ],
+      "oneliner": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "feb34faf0b30",
+      "title_zh": "n8n-io /n8n",
+      "summary_zh": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "tags_zh": [],
+      "oneliner": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with cus",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1e61851c7eb0",
+      "title_zh": "anthropics /claude-code",
+      "summary_zh": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "tags_zh": [
+        "Claude",
+        "Anthropic",
+        "Agent"
+      ],
+      "oneliner": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "32fa6346cbad",
+      "title_zh": "Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each",
+      "summary_zh": "Most teams treat &#8216;which model&#8217; as the important decision. The harness engineering literature keeps pointing somewhere else. In LangChain&#8217;s Terminal-Bench experiment, changing only the harness—same model throughout—moved a coding...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Most teams treat &#8216;which model&#8217; as the important decision. The harness engineering litera",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -43,20 +147,6 @@
       }
     },
     {
-      "id": "c3257d531a3c",
-      "title_zh": "obra /superpowers",
-      "summary_zh": "An agentic skills framework & software development methodology that works.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "An agentic skills framework & software development methodology that works.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
       "id": "7b6a865db4d6",
       "title_zh": "santifer /career-ops",
       "summary_zh": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
@@ -64,21 +154,6 @@
         "Claude"
       ],
       "oneliner": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a90d342e2181",
-      "title_zh": "affaan-m /ECC",
-      "summary_zh": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "tags_zh": [
-        "Claude",
-        "Agent"
-      ],
-      "oneliner": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -202,73 +277,6 @@
         "Transformer"
       ],
       "oneliner": "arXiv:2608.19200v1 Announce Type: new \nAbstract: Text summarization refers to the task of condensing",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e4b533e9f4b6",
-      "title_zh": "Automatic bioinformatic software named entity recognition from literature",
-      "summary_zh": "arXiv:2608.19201v1 Announce Type: new \nAbstract: Bioinformatics software and databases are essential components of modern life science research, yet their mentions in the scientific literature are often inconsistent and difficult to...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.19201v1 Announce Type: new \nAbstract: Bioinformatics software and databases are essential",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "266c0152eea6",
-      "title_zh": "Asymmetric Attention Heads: Structured Head-Wise Context Allocation for Transformer Attention",
-      "summary_zh": "arXiv:2608.19203v1 Announce Type: new \nAbstract: Standard multi-head attention (MHA) gives every head the same full causal context span, although heads can serve different contextual roles. Some heads may rely mainly on nearby lexical or...",
-      "tags_zh": [
-        "Transformer"
-      ],
-      "oneliner": "arXiv:2608.19203v1 Announce Type: new \nAbstract: Standard multi-head attention (MHA) gives every hea",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5be78e0c048e",
-      "title_zh": "Hallucination as a Feature, not a Defect: Evaluating a multi-agent architecture to transform speculative language-model outputs into testable scientific hypotheses",
-      "summary_zh": "arXiv:2608.19206v1 Announce Type: new \nAbstract: Contemporary Large Language Models (LLMs) are increasingly aligned to suppress hallucinations, prioritizing factual retrieval over combinatorial creativity. While crucial for mitigating...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.19206v1 Announce Type: new \nAbstract: Contemporary Large Language Models (LLMs) are incre",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4f5c80882624",
-      "title_zh": "Compliance, Capability, and Conflict: Benchmarking Multimodal LLMs under System Messages",
-      "summary_zh": "arXiv:2608.19207v1 Announce Type: new \nAbstract: Production deployments of Multimodal Large Language Models (MLLMs) increasingly rely on system messages to govern model behavior. Yet existing benchmarks either evaluate constraints in text only or...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2608.19207v1 Announce Type: new \nAbstract: Production deployments of Multimodal Large Language",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "763f384b5e85",
-      "title_zh": "When Irrelevant Text Matters: Affine Margin Shifts in Multimodal Large Language Models",
-      "summary_zh": "arXiv:2608.19208v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) are frequently exposed to auxiliary textual context, the impact of which on visually grounded tasks remains underexplored. In this paper, we investigate the...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.19208v1 Announce Type: new \nAbstract: Multimodal large language models (MLLMs) are freque",
       "key_facts": [],
       "notable_quote": {
         "text": "",

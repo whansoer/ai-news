@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-22T08:38:24Z",
-  "total": 243,
+  "updated": "2026-08-22T16:32:07Z",
+  "total": 230,
   "sources": [
-    {
-      "name": "ArXiv (cs.AI)",
-      "count": 75
-    },
     {
       "name": "ArXiv (cs.CL)",
       "count": 60
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 25
+      "count": 24
     },
     {
       "name": "MarkTechPost",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Hugging Face",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 56
     },
     {
       "name": "LLM",
-      "count": 28
+      "count": 21
     },
     {
       "name": "Benchmark",
@@ -61,15 +61,11 @@
       "count": 8
     },
     {
-      "name": "Transformer",
-      "count": 6
-    },
-    {
-      "name": "GPU",
+      "name": "Gemini",
       "count": 5
     },
     {
-      "name": "RAG",
+      "name": "Transformer",
       "count": 5
     },
     {
@@ -77,19 +73,35 @@
       "count": 5
     },
     {
-      "name": "Meta",
+      "name": "OpenAI",
       "count": 4
     },
     {
-      "name": "Gemini",
-      "count": 4
-    },
-    {
-      "name": "Prompt",
+      "name": "API",
       "count": 4
     },
     {
       "name": "Anthropic",
+      "count": 4
+    },
+    {
+      "name": "GPU",
+      "count": 4
+    },
+    {
+      "name": "RAG",
+      "count": 4
+    },
+    {
+      "name": "Google",
+      "count": 4
+    },
+    {
+      "name": "Meta",
+      "count": 3
+    },
+    {
+      "name": "Prompt",
       "count": 3
     },
     {
@@ -97,20 +109,12 @@
       "count": 3
     },
     {
-      "name": "API",
-      "count": 3
-    },
-    {
-      "name": "Google",
-      "count": 3
-    },
-    {
-      "name": "OpenAI",
-      "count": 2
-    },
-    {
       "name": "Qwen",
       "count": 2
+    },
+    {
+      "name": "开源",
+      "count": 1
     },
     {
       "name": "RLHF",
@@ -128,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 161
+      "count": 147
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 40
     },
     {
       "name": "模型发布",
@@ -140,7 +144,7 @@
     },
     {
       "name": "产品/API",
-      "count": 10
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -170,37 +174,19 @@
     },
     {
       "date": "08-22",
-      "count": 6
+      "count": 11
     }
   ],
   "top10": [
     {
+      "id": "1a57528ba5a4",
+      "title": "openai /codex",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "1ae169fb23a9",
       "title": "mattpocock /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7c09473f1ffc",
-      "title": "harry0703 /MoneyPrinterTurbo",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "6fb08428e288",
-      "title": "PostHog /posthog",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7b6a865db4d6",
-      "title": "santifer /career-ops",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -211,26 +197,44 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "611580ddf24a",
-      "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "e1a6696969ac",
+      "title": "Wei-Shaw /sub2api",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "feb34faf0b30",
+      "title": "n8n-io /n8n",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1e61851c7eb0",
+      "title": "anthropics /claude-code",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "32fa6346cbad",
+      "title": "Decoding AI’s Open-Source Course Maps Three Ways to Run an Agent Loop and the Provider Economics Behind Each",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "212c857ed3e8",
-      "title": "Building Agentic Document Intelligence Pipelines: Creating Scientific Figures with AutoFigure",
+      "id": "7c09473f1ffc",
+      "title": "harry0703 /MoneyPrinterTurbo",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "4354fda665c8",
-      "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "44154b46b32c",
-      "title": "akitaonrails /ai-memory",
+      "id": "6fb08428e288",
+      "title": "PostHog /posthog",
       "score": 5,
       "source": "GitHub Trending"
     }
