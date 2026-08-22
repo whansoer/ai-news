@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T01:19:12Z",
-  "total": 239,
+  "updated": "2026-08-22T08:38:24Z",
+  "total": 243,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,11 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 24
+      "count": 25
+    },
+    {
+      "name": "MarkTechPost",
+      "count": 16
     },
     {
       "name": "Hugging Face",
@@ -27,10 +31,6 @@
       "count": 15
     },
     {
-      "name": "MarkTechPost",
-      "count": 13
-    },
-    {
       "name": "AI News",
       "count": 10
     },
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 59
+      "count": 61
     },
     {
       "name": "LLM",
@@ -58,11 +58,15 @@
     },
     {
       "name": "Claude",
-      "count": 6
+      "count": 8
     },
     {
       "name": "Transformer",
       "count": 6
+    },
+    {
+      "name": "GPU",
+      "count": 5
     },
     {
       "name": "RAG",
@@ -85,8 +89,8 @@
       "count": 4
     },
     {
-      "name": "GPU",
-      "count": 4
+      "name": "Anthropic",
+      "count": 3
     },
     {
       "name": "Embedding",
@@ -99,10 +103,6 @@
     {
       "name": "Google",
       "count": 3
-    },
-    {
-      "name": "Anthropic",
-      "count": 2
     },
     {
       "name": "OpenAI",
@@ -128,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 158
+      "count": 161
     },
     {
       "name": "开源项目",
-      "count": 40
+      "count": 41
     },
     {
       "name": "模型发布",
@@ -166,11 +166,11 @@
     },
     {
       "date": "08-21",
-      "count": 35
+      "count": 38
     },
     {
       "date": "08-22",
-      "count": 5
+      "count": 6
     }
   ],
   "top10": [
@@ -205,34 +205,34 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "611580ddf24a",
+      "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "212c857ed3e8",
+      "title": "Building Agentic Document Intelligence Pipelines: Creating Scientific Figures with AutoFigure",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "4354fda665c8",
+      "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "44154b46b32c",
       "title": "akitaonrails /ai-memory",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "9b897d36ce84",
-      "title": "agent-substrate /substrate",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c611600453f2",
-      "title": "chaitanyagiri /munder-difflin",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "25360e89e79a",
-      "title": "How AI coding tools are contributing to the popularity of JavaScript",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "15a8d0dd977d",
-      "title": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
