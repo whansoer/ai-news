@@ -1,63 +1,63 @@
 {
   "headline": "今日AI速览：学术研究最活跃",
-  "narrative": "今日共收录228篇AI新闻，分类分布：学术研究147篇, 开源项目40篇, 模型发布31篇, 产品/API10篇。热门标签：Agent（56篇）。其中5%的文章有多来源交叉验证。\n\n▸ openai /codex：Lightweight coding agent that runs in your terminal\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ affaan-m /ECC：The agent harness performance optimization system. Skills, instincts, memory, security, and research\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.\n\n▸ Wei-Shaw /sub2api：Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+  "narrative": "今日共收录230篇AI新闻，分类分布：学术研究150篇, 开源项目39篇, 模型发布31篇, 产品/API10篇。热门标签：Agent（59篇）。其中6%的文章有多来源交叉验证。\n\n▸ openai /codex：Lightweight coding agent that runs in your terminal\n\n▸ freestylefly /awesome-gpt-image-2：Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ apache /maka：Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool resul\n\n▸ tinyhumansai /openhuman：Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantas",
   "trends": [],
   "hot_projects": [
+    {
+      "full_name": "anthropics/claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "why_hot": "单日257星，Python项目",
+      "stars_today": 257,
+      "total_stars": 810
+    },
     {
       "full_name": "akitaonrails/ai-memory",
       "url": "https://github.com/akitaonrails/ai-memory",
       "why_hot": "单日0星，Rust项目",
       "stars_today": 0,
-      "total_stars": 4090
+      "total_stars": 4193
     },
     {
-      "full_name": "openai/codex",
-      "url": "https://github.com/openai/codex",
-      "why_hot": "单日1544星，Rust项目",
-      "stars_today": 1544,
-      "total_stars": 113431
-    },
-    {
-      "full_name": "mattpocock/skills",
-      "url": "https://github.com/mattpocock/skills",
-      "why_hot": "单日2683星，Shell项目",
-      "stars_today": 2683,
-      "total_stars": 232091
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "why_hot": "单日628星，JavaScript项目",
+      "stars_today": 628,
+      "total_stars": 12574
     }
   ],
   "key_numbers": [
     {
       "label": "文章总数",
-      "value": "228"
+      "value": "230"
     },
     {
       "label": "多源验证率",
-      "value": "5%"
+      "value": "6%"
     },
     {
       "label": "GitHub星增",
-      "value": "+4819"
+      "value": "+7621"
     }
   ],
   "must_read_ids": [
     "1a57528ba5a4",
+    "7694793c4136",
     "1ae169fb23a9",
-    "a90d342e2181",
-    "c3257d531a3c",
-    "e1a6696969ac"
+    "6dc9b530b388",
+    "e5348c5ff3f9"
   ],
-  "text": "今日共收录228篇AI新闻，分类分布：学术研究147篇, 开源项目40篇, 模型发布31篇, 产品/API10篇。热门标签：Agent（56篇）。其中5%的文章有多来源交叉验证。",
+  "text": "今日共收录230篇AI新闻，分类分布：学术研究150篇, 开源项目39篇, 模型发布31篇, 产品/API10篇。热门标签：Agent（59篇）。其中6%的文章有多来源交叉验证。",
   "top_items": [
     "openai /codex",
+    "freestylefly /awesome-gpt-image-2",
     "mattpocock /skills",
-    "affaan-m /ECC",
-    "obra /superpowers",
-    "Wei-Shaw /sub2api"
+    "apache /maka",
+    "tinyhumansai /openhuman"
   ],
+  "_fallback": true,
   "meta": {
-    "total_articles": 228,
-    "multi_source_pct": 5
+    "total_articles": 230,
+    "multi_source_pct": 6
   },
-  "_from_cache": true,
-  "updated": "2026-08-23T08:38:06Z"
+  "updated": "2026-08-23T16:33:50Z"
 }

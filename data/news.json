@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-23T08:38:06Z",
-  "total": 190,
-  "new_count": 34,
+  "updated": "2026-08-23T16:33:50Z",
+  "total": 196,
+  "new_count": 40,
   "items": [
     {
       "id": "1a57528ba5a4",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Lightweight coding agent that runs in your terminal",
-      "published": "2026-08-23T08:36:11Z",
+      "published": "2026-08-23T16:31:48Z",
       "tags": [
         "OpenAI",
         "Agent"
@@ -33,13 +33,42 @@
       "oneliner": "Lightweight coding agent that runs in your terminal"
     },
     {
+      "id": "7694793c4136",
+      "title": "freestylefly /awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "published": "2026-08-23T16:31:48Z",
+      "tags": [
+        "GPT",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "freestylefly /awesome-gpt-image-2",
+      "summary_zh": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "tags_zh": [
+        "GPT",
+        "Prompt"
+      ],
+      "oneliner": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中"
+    },
+    {
       "id": "1ae169fb23a9",
       "title": "mattpocock /skills",
       "url": "https://github.com/mattpocock/skills",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-08-23T08:36:11Z",
+      "published": "2026-08-23T16:31:48Z",
       "tags": [
         "Agent"
       ],
@@ -60,13 +89,67 @@
       "oneliner": "Skills for Real Engineers. Straight from my .agents directory."
     },
     {
+      "id": "6dc9b530b388",
+      "title": "apache /maka",
+      "url": "https://github.com/apache/maka",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "published": "2026-08-23T16:31:48Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "apache /maka",
+      "summary_zh": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool resul"
+    },
+    {
+      "id": "e5348c5ff3f9",
+      "title": "tinyhumansai /openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "published": "2026-08-23T16:31:48Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "tinyhumansai /openhuman",
+      "summary_zh": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantas"
+    },
+    {
       "id": "a90d342e2181",
       "title": "affaan-m /ECC",
       "url": "https://github.com/affaan-m/ECC",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-08-23T08:36:11Z",
+      "published": "2026-08-23T16:31:48Z",
       "tags": [
         "Claude",
         "Agent"
@@ -87,6 +170,33 @@
         "Agent"
       ],
       "oneliner": "The agent harness performance optimization system. Skills, instincts, memory, security, and research"
+    },
+    {
+      "id": "463c0bade552",
+      "title": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
+      "url": "https://www.marktechpost.com/2026/08/23/meet-freetoken-an-edge-native-moe-serving-engine-that-runs-753b-glm-5-2-on-a-single-workstation-gpu/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, unlocking frontier models locally\nThe post Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU...",
+      "published": "2026-08-23T10:44:59Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU",
+      "summary_zh": "FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, unlocking frontier models locally\nThe post Meet FreeToken: An Edge-Native MoE Serving Engine that Runs 753B GLM-5.2 on a Single Workstation GPU...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "FreeToken splits MoE cache misses between PCIe fills and CPU execution using measured bandwidths, un"
     },
     {
       "id": "c3257d531a3c",
@@ -203,6 +313,58 @@
         "Agent"
       ],
       "oneliner": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he"
+    },
+    {
+      "id": "be1755d3aeaa",
+      "title": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
+      "url": "https://www.marktechpost.com/2026/08/23/building-an-end-to-end-document-intelligence-pipeline-with-deepdoctection/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Build an end-to-end document intelligence pipeline with deepDoctection. This tutorial covers configuring layout analysis, DocTR OCR, and table extraction, while demonstrating how to implement custom services for entity recognition and generate...",
+      "published": "2026-08-23T07:51:22Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "3ce5e666ea20"
+        ],
+        "score": 5
+      },
+      "title_zh": "Building an End-to-End Document Intelligence Pipeline with deepDoctection",
+      "summary_zh": "Build an end-to-end document intelligence pipeline with deepDoctection. This tutorial covers configuring layout analysis, DocTR OCR, and table extraction, while demonstrating how to implement custom services for entity recognition and generate...",
+      "tags_zh": [],
+      "oneliner": "Build an end-to-end document intelligence pipeline with deepDoctection. This tutorial covers configu"
+    },
+    {
+      "id": "988168f624f9",
+      "title": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
+      "url": "https://www.marktechpost.com/2026/08/23/vercel-introduces-is-agentic-a-free-agent-readiness-scoring-tool-that-audits-public-websites-using-oras-100-checks/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks.\nThe post Vercel Introduces &#8216;Is Agentic&#8217;, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora&#8217;s...",
+      "published": "2026-08-23T07:37:14Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "Vercel Introduces ‘Is Agentic’, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora’s 100+ Checks",
+      "summary_zh": "Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 checks.\nThe post Vercel Introduces &#8216;Is Agentic&#8217;, a Free Agent-Readiness Scoring Tool That Audits Public Websites Using Ora&#8217;s...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Vercel and Ora launched Is Agentic, a free audit scoring website readiness for AI agents across 118 "
     },
     {
       "id": "d628ff23ff57",
@@ -406,13 +568,10 @@
         "corroborating_ids": [],
         "score": 4
       },
-      "title_zh": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
-      "summary_zh": "Anthropic has moved its most cyber-capable model into a product security teams can switch on themselves. Claude Security scans now run on Claude Mythos 5, in public beta for Claude Enterprise customers with no separate model add-on. The scan...",
-      "tags_zh": [
-        "Claude",
-        "Anthropic"
-      ],
-      "oneliner": "Anthropic has moved its most cyber-capable model into a product security teams can switch on themsel"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "44154b46b32c",
@@ -434,12 +593,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "akitaonrails /ai-memory",
-      "summary_zh": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "9b897d36ce84",
@@ -461,12 +618,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "agent-substrate /substrate",
-      "summary_zh": "Agent Substrate: the core system",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Agent Substrate: the core system"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "c611600453f2",
@@ -488,12 +643,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "chaitanyagiri /munder-difflin",
-      "summary_zh": "local multi-agent harness",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "local multi-agent harness"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "25360e89e79a",
@@ -513,10 +666,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "How AI coding tools are contributing to the popularity of JavaScript",
-      "summary_zh": "In August 2025, TypeScript became the most used language on GitHub. This was the largest shift in GitHub&#8217;s language rankings in the last ten years and it occurred during the period of most accelerated adoption of coding AI agents. Coding AI...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "In August 2025, TypeScript became the most used language on GitHub. This was the largest shift in Gi"
+      "oneliner": ""
     },
     {
       "id": "15a8d0dd977d",
@@ -536,10 +689,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "A Virtual Member of a Community of Practice for the Society of Petroleum Engineers: From Prototype to Deployment",
-      "summary_zh": "arXiv:2608.19199v1 Announce Type: new \nAbstract: We describe the evolution of a virtual assistant, called ATHENA, designed to support the capture, retrieval, and dissemination of knowledge for members of a Community of Practice (CoP) related to...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.19199v1 Announce Type: new \nAbstract: We describe the evolution of a virtual assistant, c"
+      "oneliner": ""
     },
     {
       "id": "7c12bfb72852",
@@ -4091,9 +4244,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "be1755d3aeaa",
           "e5221d6f877f"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
