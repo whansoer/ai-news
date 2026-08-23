@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-08-22T16:32:17Z",
-  "count": 303,
+  "updated": "2026-08-23T01:27:11Z",
+  "count": 304,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -19394,6 +19394,70 @@
         }
       },
       "_ts": 1787416337
+    },
+    "a648f4471d52e793": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录228篇AI新闻，分类分布：学术研究147篇, 开源项目40篇, 模型发布31篇, 产品/API10篇。热门标签：Agent（56篇）。其中5%的文章有多来源交叉验证。\n\n▸ openai /codex：Lightweight coding agent that runs in your terminal\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ affaan-m /ECC：The agent harness performance optimization system. Skills, instincts, memory, security, and research\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.\n\n▸ Wei-Shaw /sub2api：Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "akitaonrails/ai-memory",
+            "url": "https://github.com/akitaonrails/ai-memory",
+            "why_hot": "单日0星，Rust项目",
+            "stars_today": 0,
+            "total_stars": 4090
+          },
+          {
+            "full_name": "openai/codex",
+            "url": "https://github.com/openai/codex",
+            "why_hot": "单日1544星，Rust项目",
+            "stars_today": 1544,
+            "total_stars": 113431
+          },
+          {
+            "full_name": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills",
+            "why_hot": "单日2683星，Shell项目",
+            "stars_today": 2683,
+            "total_stars": 232091
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "228"
+          },
+          {
+            "label": "多源验证率",
+            "value": "5%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4819"
+          }
+        ],
+        "must_read_ids": [
+          "1a57528ba5a4",
+          "1ae169fb23a9",
+          "a90d342e2181",
+          "c3257d531a3c",
+          "e1a6696969ac"
+        ],
+        "text": "今日共收录228篇AI新闻，分类分布：学术研究147篇, 开源项目40篇, 模型发布31篇, 产品/API10篇。热门标签：Agent（56篇）。其中5%的文章有多来源交叉验证。",
+        "top_items": [
+          "openai /codex",
+          "mattpocock /skills",
+          "affaan-m /ECC",
+          "obra /superpowers",
+          "Wei-Shaw /sub2api"
+        ],
+        "meta": {
+          "total_articles": 228,
+          "multi_source_pct": 5
+        }
+      },
+      "_ts": 1787448431
     }
   }
 }

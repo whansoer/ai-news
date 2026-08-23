@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-22T16:32:17Z",
-  "total": 193,
-  "new_count": 41,
+  "updated": "2026-08-23T01:27:11Z",
+  "total": 194,
+  "new_count": 35,
   "items": [
     {
       "id": "1a57528ba5a4",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Lightweight coding agent that runs in your terminal",
-      "published": "2026-08-22T16:30:14Z",
+      "published": "2026-08-23T01:24:56Z",
       "tags": [
         "OpenAI",
         "Agent"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-08-22T16:30:14Z",
+      "published": "2026-08-23T01:24:56Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-08-22T16:30:14Z",
+      "published": "2026-08-23T01:24:56Z",
       "tags": [
         "Claude",
         "Agent"
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-08-22T16:30:14Z",
+      "published": "2026-08-23T01:24:56Z",
       "tags": [
         "Agent"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "published": "2026-08-22T16:30:14Z",
+      "published": "2026-08-23T01:24:56Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -157,7 +157,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "published": "2026-08-22T16:30:14Z",
+      "published": "2026-08-23T01:24:56Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -180,7 +180,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "published": "2026-08-22T16:30:14Z",
+      "published": "2026-08-23T01:24:56Z",
       "tags": [
         "Claude",
         "Anthropic",
@@ -191,11 +191,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "4354fda665c8"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "anthropics /claude-code",
       "summary_zh": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
@@ -205,6 +203,29 @@
         "Agent"
       ],
       "oneliner": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he"
+    },
+    {
+      "id": "d628ff23ff57",
+      "title": "The Developer’s Guide to NeMo Guardrails for Enterprise AI Safety",
+      "url": "https://www.marktechpost.com/2026/08/22/the-developers-guide-to-nemo-guardrails-for-enterprise-ai-safety/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In this tutorial, we explore how to design production-grade safety for LLM-based applications using the NeMo Guardrails framework. We move beyond simple prompt filtering to implement a layered architecture, featuring deterministic PII redaction,...",
+      "published": "2026-08-22T23:49:38Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "The Developer’s Guide to NeMo Guardrails for Enterprise AI Safety",
+      "summary_zh": "In this tutorial, we explore how to design production-grade safety for LLM-based applications using the NeMo Guardrails framework. We move beyond simple prompt filtering to implement a layered architecture, featuring deterministic PII redaction,...",
+      "tags_zh": [],
+      "oneliner": "In this tutorial, we explore how to design production-grade safety for LLM-based applications using "
     },
     {
       "id": "32fa6346cbad",
@@ -381,11 +402,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "1e61851c7eb0"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 4
       },
       "title_zh": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
       "summary_zh": "Anthropic has moved its most cyber-capable model into a product security teams can switch on themselves. Claude Security scans now run on Claude Mythos 5, in public beta for Claude Enterprise customers with no separate model add-on. The scan...",
@@ -542,12 +561,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Transformer Models for Text Summarization: A Comparative Study of BART, BERT, and RoBERTa",
-      "summary_zh": "arXiv:2608.19200v1 Announce Type: new \nAbstract: Text summarization refers to the task of condensing a document into a shorter version while preserving its key information. Automatic text summarization (ATS), driven by advancements in natural...",
-      "tags_zh": [
-        "Transformer"
-      ],
-      "oneliner": "arXiv:2608.19200v1 Announce Type: new \nAbstract: Text summarization refers to the task of condensing"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "e4b533e9f4b6",
