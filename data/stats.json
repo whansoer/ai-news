@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24T08:56:07Z",
-  "total": 265,
+  "updated": "2026-08-24T16:45:35Z",
+  "total": 253,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,15 +8,15 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
-    },
-    {
-      "name": "GitHub Trending",
-      "count": 23
+      "count": 60
     },
     {
       "name": "MarkTechPost",
-      "count": 23
+      "count": 25
+    },
+    {
+      "name": "GitHub Trending",
+      "count": 24
     },
     {
       "name": "Hugging Face",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 69
+      "count": 64
     },
     {
       "name": "LLM",
-      "count": 21
+      "count": 17
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 12
     },
     {
       "name": "GPT",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Claude",
-      "count": 7
+      "count": 9
     },
     {
       "name": "Prompt",
@@ -66,10 +66,6 @@
     },
     {
       "name": "GPU",
-      "count": 5
-    },
-    {
-      "name": "RAG",
       "count": 5
     },
     {
@@ -81,11 +77,19 @@
       "count": 5
     },
     {
-      "name": "DeepSeek",
-      "count": 5
+      "name": "OpenAI",
+      "count": 4
     },
     {
-      "name": "OpenAI",
+      "name": "Google",
+      "count": 4
+    },
+    {
+      "name": "Embedding",
+      "count": 4
+    },
+    {
+      "name": "RAG",
       "count": 4
     },
     {
@@ -97,15 +101,11 @@
       "count": 4
     },
     {
-      "name": "Google",
+      "name": "DeepSeek",
       "count": 4
     },
     {
       "name": "Meta",
-      "count": 3
-    },
-    {
-      "name": "Embedding",
       "count": 3
     },
     {
@@ -115,24 +115,16 @@
     {
       "name": "RLHF",
       "count": 1
-    },
-    {
-      "name": "Qwen",
-      "count": 1
-    },
-    {
-      "name": "Diffusion",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 183
+      "count": 170
     },
     {
       "name": "开源项目",
-      "count": 39
+      "count": 40
     },
     {
       "name": "模型发布",
@@ -162,7 +154,7 @@
     },
     {
       "date": "08-22",
-      "count": 5
+      "count": 4
     },
     {
       "date": "08-23",
@@ -170,7 +162,7 @@
     },
     {
       "date": "08-24",
-      "count": 38
+      "count": 45
     }
   ],
   "top10": [
@@ -181,14 +173,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "7694793c4136",
-      "title": "freestylefly /awesome-gpt-image-2",
+      "id": "ce3a785ea3a9",
+      "title": "MadsLorentzen /ai-job-search",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "1ae169fb23a9",
-      "title": "mattpocock /skills",
+      "id": "39ec5846ae4b",
+      "title": "multica-ai /andrej-karpathy-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "978e35c60717",
+      "title": "NousResearch /hermes-agent",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -199,40 +197,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "e5348c5ff3f9",
-      "title": "tinyhumansai /openhuman",
+      "id": "6fb08428e288",
+      "title": "PostHog /posthog",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
+      "id": "5f1d04b47c3e",
+      "title": "XPENG IRON humanoid robot draws record physical AI funding",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "AI News"
     },
     {
-      "id": "a25531a25645",
-      "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
+      "id": "487030103e1e",
+      "title": "Generalist AI Releases GEN-1.5: A Robot Foundation Model That Learns New Tasks From One 3–12 Second Demo",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "65fca4571a1a",
-      "title": "Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins",
+      "id": "cf056b3d3b06",
+      "title": "Google Research Introduces ME-POIs: A Mobility-Informed Framework that Adds “How a Place Is Used” to Text-Based POI Embeddings",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     },
     {
-      "id": "bf699d4123d6",
-      "title": "When Vocabulary Comprehension Fails Clinical Reasoning: Evaluating Therapy Bots' Safety Risks for Generation Alpha",
+      "id": "7694793c4136",
+      "title": "freestylefly /awesome-gpt-image-2",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "9483cc4ce6a9",
-      "title": "Building and Evaluating a Synthetic Bengali Speech Resource for Telecom Customer Care",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     }
   ]
 }
