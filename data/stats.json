@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-25T08:51:39Z",
-  "total": 279,
+  "updated": "2026-08-25T16:44:34Z",
+  "total": 251,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 24
+      "count": 26
     },
     {
       "name": "MarkTechPost",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Hugging Face",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,47 +42,35 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 68
+      "count": 61
     },
     {
       "name": "LLM",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Benchmark",
-      "count": 12
-    },
-    {
-      "name": "GPT",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Claude",
+      "count": 10
+    },
+    {
+      "name": "GPT",
       "count": 9
     },
     {
       "name": "RAG",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Prompt",
-      "count": 6
-    },
-    {
-      "name": "Gemini",
       "count": 5
-    },
-    {
-      "name": "Transformer",
-      "count": 5
-    },
-    {
-      "name": "OpenAI",
-      "count": 4
     },
     {
       "name": "Google",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Embedding",
@@ -93,7 +81,7 @@
       "count": 4
     },
     {
-      "name": "API",
+      "name": "Gemini",
       "count": 4
     },
     {
@@ -101,7 +89,15 @@
       "count": 4
     },
     {
-      "name": "Meta",
+      "name": "Transformer",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
+      "count": 3
+    },
+    {
+      "name": "API",
       "count": 3
     },
     {
@@ -113,6 +109,10 @@
       "count": 1
     },
     {
+      "name": "Meta",
+      "count": 1
+    },
+    {
       "name": "RLHF",
       "count": 1
     }
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 197
+      "count": 166
     },
     {
       "name": "开源项目",
-      "count": 40
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -132,7 +132,7 @@
     },
     {
       "name": "产品/API",
-      "count": 11
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -146,7 +146,7 @@
     },
     {
       "date": "08-21",
-      "count": 38
+      "count": 39
     },
     {
       "date": "08-22",
@@ -158,17 +158,17 @@
     },
     {
       "date": "08-24",
-      "count": 41
+      "count": 39
     },
     {
       "date": "08-25",
-      "count": 37
+      "count": 50
     }
   ],
   "top10": [
     {
-      "id": "1a57528ba5a4",
-      "title": "openai /codex",
+      "id": "7694793c4136",
+      "title": "freestylefly /awesome-gpt-image-2",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -179,52 +179,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "39ec5846ae4b",
-      "title": "multica-ai /andrej-karpathy-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "978e35c60717",
-      "title": "NousResearch /hermes-agent",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "6dc9b530b388",
       "title": "apache /maka",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "6fb08428e288",
-      "title": "PostHog /posthog",
+      "id": "afdace39e749",
+      "title": "TauricResearch /TradingAgents",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "c9e5f3b371bf",
-      "title": "Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation",
+      "id": "d2c746ee30ee",
+      "title": "AgriciDaniel /claude-obsidian",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "edbcef2da9d8",
-      "title": "KSE-Web: An Analysis of Hybrid Retrieval and LLM-Assisted Query Expansion for Low-Resource Khmer Semantic Search",
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "0131ff95d2b1",
-      "title": "Wazobia Eval: A Benchmark for Nigerian Pidgin Emotion Understanding, Sarcasm Detection, and Cultural Reasoning",
+      "id": "e5348c5ff3f9",
+      "title": "tinyhumansai /openhuman",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "aad42dea9887",
-      "title": "On the Role of Citations in Preference Data",
+      "id": "46405393d4f5",
+      "title": "Shubhamsaboo /awesome-llm-apps",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "74af7ce45836",
+      "title": "5 ways to upgrade your home decor with Google Search",
+      "score": 5,
+      "source": "Google AI"
+    },
+    {
+      "id": "afa866e58f41",
+      "title": "MIT AI forecasts extreme weather without historical data",
+      "score": 5,
+      "source": "AI News"
     }
   ]
 }

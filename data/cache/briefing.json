@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-08-25T08:51:49Z",
-  "count": 310,
+  "updated": "2026-08-25T16:44:44Z",
+  "count": 311,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -19842,6 +19842,70 @@
         }
       },
       "_ts": 1787647909
+    },
+    "f34b311abdb6283f": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录251篇AI新闻，分类分布：学术研究166篇, 开源项目42篇, 模型发布31篇, 产品/API12篇。热门标签：Agent（61篇）。其中4%的文章有多来源交叉验证。\n\n▸ freestylefly /awesome-gpt-image-2：Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中\n\n▸ MadsLorentzen /ai-job-search：The job search that runs on your machine. AI job application framework built on Claude Code: evaluat\n\n▸ apache /maka：Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool resul\n\n▸ TauricResearch /TradingAgents：TradingAgents: Multi-Agents LLM Financial Trading Framework\n\n▸ AgriciDaniel /claude-obsidian：Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links,",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "apache/maka",
+            "url": "https://github.com/apache/maka",
+            "why_hot": "单日538星，TypeScript项目",
+            "stars_today": 538,
+            "total_stars": 3213
+          },
+          {
+            "full_name": "freestylefly/awesome-gpt-image-2",
+            "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+            "why_hot": "单日1698星，JavaScript项目",
+            "stars_today": 1698,
+            "total_stars": 17226
+          },
+          {
+            "full_name": "anthropics/claude-plugins-community",
+            "url": "https://github.com/anthropics/claude-plugins-community",
+            "why_hot": "单日350星，Python项目",
+            "stars_today": 350,
+            "total_stars": 1624
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "251"
+          },
+          {
+            "label": "多源验证率",
+            "value": "4%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7617"
+          }
+        ],
+        "must_read_ids": [
+          "7694793c4136",
+          "ce3a785ea3a9",
+          "6dc9b530b388",
+          "afdace39e749",
+          "d2c746ee30ee"
+        ],
+        "text": "今日共收录251篇AI新闻，分类分布：学术研究166篇, 开源项目42篇, 模型发布31篇, 产品/API12篇。热门标签：Agent（61篇）。其中4%的文章有多来源交叉验证。",
+        "top_items": [
+          "freestylefly /awesome-gpt-image-2",
+          "MadsLorentzen /ai-job-search",
+          "apache /maka",
+          "TauricResearch /TradingAgents",
+          "AgriciDaniel /claude-obsidian"
+        ],
+        "meta": {
+          "total_articles": 251,
+          "multi_source_pct": 4
+        }
+      },
+      "_ts": 1787676284
     }
   }
 }
