@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T16:45:35Z",
+  "updated": "2026-08-25T01:21:27Z",
   "total": 253,
   "sources": [
     {
@@ -19,11 +19,11 @@
       "count": 24
     },
     {
-      "name": "Hugging Face",
+      "name": "OpenAI",
       "count": 16
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 16
     },
     {
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 63
     },
     {
       "name": "LLM",
@@ -101,11 +101,11 @@
       "count": 4
     },
     {
-      "name": "DeepSeek",
-      "count": 4
+      "name": "Meta",
+      "count": 3
     },
     {
-      "name": "Meta",
+      "name": "DeepSeek",
       "count": 3
     },
     {
@@ -137,10 +137,6 @@
   ],
   "dailyTrend": [
     {
-      "date": "08-18",
-      "count": 49
-    },
-    {
       "date": "08-19",
       "count": 34
     },
@@ -162,7 +158,11 @@
     },
     {
       "date": "08-24",
-      "count": 45
+      "count": 41
+    },
+    {
+      "date": "08-25",
+      "count": 6
     }
   ],
   "top10": [
@@ -203,6 +203,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "c54abe3cc6e4",
+      "title": "Fastino Releases GLiNER2.5: A Boundary-Prediction Architecture That Removes Span Enumeration From Information Extraction",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "5f1d04b47c3e",
       "title": "XPENG IRON humanoid robot draws record physical AI funding",
       "score": 5,
@@ -219,12 +225,6 @@
       "title": "Google Research Introduces ME-POIs: A Mobility-Informed Framework that Adds “How a Place Is Used” to Text-Based POI Embeddings",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "7694793c4136",
-      "title": "freestylefly /awesome-gpt-image-2",
-      "score": 5,
-      "source": "GitHub Trending"
     }
   ]
 }

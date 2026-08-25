@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-24T16:45:44Z",
-  "total": 213,
-  "new_count": 45,
+  "updated": "2026-08-25T01:21:37Z",
+  "total": 209,
+  "new_count": 40,
   "items": [
     {
       "id": "1a57528ba5a4",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Lightweight coding agent that runs in your terminal",
-      "published": "2026-08-24T16:43:35Z",
+      "published": "2026-08-25T01:19:35Z",
       "tags": [
         "OpenAI",
         "Agent"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "published": "2026-08-24T16:43:35Z",
+      "published": "2026-08-25T01:19:35Z",
       "tags": [
         "Claude"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-08-24T16:43:35Z",
+      "published": "2026-08-25T01:19:35Z",
       "tags": [
         "Claude",
         "LLM"
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent that grows with you",
-      "published": "2026-08-24T16:43:35Z",
+      "published": "2026-08-25T01:19:35Z",
       "tags": [
         "Agent"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-      "published": "2026-08-24T16:43:35Z",
+      "published": "2026-08-25T01:19:35Z",
       "tags": [
         "Agent"
       ],
@@ -149,7 +149,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose...",
-      "published": "2026-08-24T16:43:35Z",
+      "published": "2026-08-25T01:19:35Z",
       "tags": [
         "Agent"
       ],
@@ -168,6 +168,29 @@
         "Agent"
       ],
       "oneliner": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI obser"
+    },
+    {
+      "id": "c54abe3cc6e4",
+      "title": "Fastino Releases GLiNER2.5: A Boundary-Prediction Architecture That Removes Span Enumeration From Information Extraction",
+      "url": "https://www.marktechpost.com/2026/08/24/fastino-releases-gliner2-5-a-boundary-prediction-architecture-that-removes-span-enumeration-from-information-extraction/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Fastino released GLiNER2.5, replacing span enumeration with boundary prediction so entity width no longer costs compute. Three Apache 2.0 checkpoints ship at 74M, 194M, and 287M parameters, all CPU-runnable. The release adds joint entity-relation...",
+      "published": "2026-08-24T22:21:22Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Fastino Releases GLiNER2.5: A Boundary-Prediction Architecture That Removes Span Enumeration From Information Extraction",
+      "summary_zh": "Fastino released GLiNER2.5, replacing span enumeration with boundary prediction so entity width no longer costs compute. Three Apache 2.0 checkpoints ship at 74M, 194M, and 287M parameters, all CPU-runnable. The release adds joint entity-relation...",
+      "tags_zh": [],
+      "oneliner": "Fastino released GLiNER2.5, replacing span enumeration with boundary prediction so entity width no l"
     },
     {
       "id": "5f1d04b47c3e",
@@ -243,6 +266,33 @@
         "Embedding"
       ],
       "oneliner": "framework that folds aggregate human movement into text-based place embeddings. Language models desc"
+    },
+    {
+      "id": "b4f331f2e15c",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "url": "https://openai.com/index/gpt-5-6-in-kiro",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "published": "2026-08-24T12:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "summary_zh": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with bet"
     },
     {
       "id": "7694793c4136",
@@ -499,10 +549,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Inhibitory Attention for Clinical Long-Context Reasoning: Characterizing and Mitigating Lost-in-the-Middle Effects in EHR Processing",
-      "summary_zh": "arXiv:2608.20348v1 Announce Type: new \nAbstract: Electronic health records now routinely exceed 100,000 tokens per patient. Yet large language models exhibit the lost-in-the-middle (LitM) effect: information near the center of a long context is...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.20348v1 Announce Type: new \nAbstract: Electronic health records now routinely exceed 100,"
+      "oneliner": ""
     },
     {
       "id": "49639590a082",
@@ -524,12 +574,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
-      "summary_zh": "arXiv:2608.20349v1 Announce Type: new \nAbstract: Large Language Models (LLMs) exhibit extreme sensitivity to surface-level prompt variations, in which minor lexical changes can trigger disproportionate performance fluctuations. Moving beyond...",
-      "tags_zh": [
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2608.20349v1 Announce Type: new \nAbstract: Large Language Models (LLMs) exhibit extreme sensit"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "f8757fbe2d3c",
@@ -5036,154 +5084,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "568a94b54691",
-      "title": "ByteDance Seed and Tsinghua AIR Introduces CUDA Agent: A Large-Scale Agentic RL System for CUDA Kernel Generation",
-      "url": "https://www.marktechpost.com/2026/08/17/bytedance-seed-and-tsinghua-air-introduces-cuda-agent-a-large-scale-agentic-rl-system-for-cuda-kernel-generation/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "ByteDance Seed and Tsinghua AIR have released CUDA Agent, an agentic reinforcement learning system that trains a large language model to write GPU kernels that beat a compiler. The gap it targets is narrow but stubborn: frontier models already...",
-      "published": "2026-08-18T01:10:28Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7550eaf867a9",
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "url": "https://huggingface.co/blog/multi-vector-encoder",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-08-18T00:00:00Z",
-      "tags": [
-        "Transformer",
-        "Embedding"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b308f27228d7",
-      "title": "How NVIDIA scales expertise with ChatGPT Work",
-      "url": "https://openai.com/index/nvidia/chatgpt-work",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "NVIDIA teams use ChatGPT Work to reduce manual tasks, connect fast-moving signals, and scale successful workflows globally.",
-      "published": "2026-08-18T00:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "707bbefcb2d1"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "74fdd9bd89c5",
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-08-17T19:46:21Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f810c2a5dd94",
-      "title": "MiniMax Releases MiniMax-Music3: An Open-Weights Music Model Generating Complete Five-Minute Songs From Lyrics and a Structured Caption",
-      "url": "https://www.marktechpost.com/2026/08/17/minimax-releases-minimax-music3/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "MiniMax released MiniMax-Music3, an open-weights text-to-music model. Given lyrics with section tags and a structured caption, it generates a complete song of up to five minutes in a single pass, as 32 kHz, 16-bit stereo WAV. Here is the...",
-      "published": "2026-08-17T18:36:40Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3ce5e666ea20",
-      "title": "Developing an End-to-End Document Intelligence Pipeline with docTR for OCR, Layout Analysis, KIE, Benchmarking, and Searchable PDFs",
-      "url": "https://www.marktechpost.com/2026/08/17/end-to-end-document-intelligence-pipeline-with-doctr-for-ocr/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Develop a complete document intelligence pipeline with docTR, integrating OCR, layout analysis, and KIE for production-oriented extraction and searchable PDF creation.\nThe post Developing an End-to-End Document Intelligence Pipeline with docTR...",
-      "published": "2026-08-17T17:52:50Z",
-      "tags": [
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "be1755d3aeaa",
-          "e5221d6f877f"
-        ],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
