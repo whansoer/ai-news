@@ -1,22 +1,22 @@
 {
-  "updated": "2026-08-26T08:52:52Z",
-  "total": 282,
+  "updated": "2026-08-26T16:52:48Z",
+  "total": 256,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 26
+      "count": 28
     },
     {
       "name": "MarkTechPost",
-      "count": 22
+      "count": 24
     },
     {
       "name": "Hugging Face",
@@ -42,43 +42,39 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 66
+      "count": 59
     },
     {
       "name": "LLM",
-      "count": 31
+      "count": 27
     },
     {
       "name": "Benchmark",
-      "count": 13
-    },
-    {
-      "name": "GPT",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Claude",
       "count": 10
     },
     {
-      "name": "RAG",
+      "name": "GPT",
       "count": 9
+    },
+    {
+      "name": "RAG",
+      "count": 8
     },
     {
       "name": "Embedding",
       "count": 7
     },
     {
-      "name": "Prompt",
+      "name": "Transformer",
       "count": 5
     },
     {
       "name": "Google",
       "count": 5
-    },
-    {
-      "name": "GPU",
-      "count": 4
     },
     {
       "name": "Gemini",
@@ -89,15 +85,15 @@
       "count": 4
     },
     {
-      "name": "Transformer",
-      "count": 4
+      "name": "Prompt",
+      "count": 3
     },
     {
       "name": "OpenAI",
       "count": 3
     },
     {
-      "name": "API",
+      "name": "GPU",
       "count": 3
     },
     {
@@ -107,6 +103,14 @@
     {
       "name": "Meta",
       "count": 2
+    },
+    {
+      "name": "API",
+      "count": 2
+    },
+    {
+      "name": "Qwen",
+      "count": 1
     },
     {
       "name": "开源",
@@ -120,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 197
+      "count": 169
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 44
     },
     {
       "name": "模型发布",
@@ -162,10 +166,16 @@
     },
     {
       "date": "08-26",
-      "count": 39
+      "count": 47
     }
   ],
   "top10": [
+    {
+      "id": "717af6605a95",
+      "title": "tt-a1i /archify",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "7694793c4136",
       "title": "freestylefly /awesome-gpt-image-2",
@@ -175,18 +185,6 @@
     {
       "id": "ce3a785ea3a9",
       "title": "MadsLorentzen /ai-job-search",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "6dc9b530b388",
-      "title": "apache /maka",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "afdace39e749",
-      "title": "TauricResearch /TradingAgents",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -209,22 +207,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "46405393d4f5",
-      "title": "Shubhamsaboo /awesome-llm-apps",
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "ebc1436831ca",
-      "title": "IBM Releases Granite 4.2: Bringing Native Reasoning and Agentic RL to Open Enterprise Models",
+      "id": "69f03bede522",
+      "title": "Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "dc9af779e9ad",
-      "title": "Taming Visual Neglect: A Variational Information Bottleneck Framework for Adaptive Attention in Multimodal In-Context Learning",
+      "id": "76f643504ea5",
+      "title": "What Would Have to Be True for Agentic Coding to Replace Junior Engineers",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "f5e441e0e9f8",
+      "title": "Gatik raises $200M to scale AI-powered autonomous freight",
+      "score": 5,
+      "source": "AI News"
     }
   ]
 }
