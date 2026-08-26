@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T01:24:45Z",
+  "updated": "2026-08-26T08:53:01Z",
   "total": 20,
   "items": [
     {
@@ -118,13 +118,13 @@
       }
     },
     {
-      "id": "3a6b50def178",
-      "title_zh": "Liquid AI Open-Sources Pipette: A Reproducible Benchmarking Suite That Measures On-Device Models, Quantization, Runtime and Hardware Together",
-      "summary_zh": "Model cards report quality under server-class, full-precision conditions. Those numbers rarely predict how the same model behaves on a phone. This week, Liquid AI released Pipette. It is an open-source platform for benchmarking foundation models...",
+      "id": "ebc1436831ca",
+      "title_zh": "IBM Releases Granite 4.2: Bringing Native Reasoning and Agentic RL to Open Enterprise Models",
+      "summary_zh": "IBM has released Granite 4.2, a family of open reasoning language models in 3B, 8B, and 30B sizes, all under Apache 2.0. Every model exposes a thinking / low-effort / non-thinking switch and native tool calling. The 8B and 30B additionally go...",
       "tags_zh": [
-        "Benchmark"
+        "Agent"
       ],
-      "oneliner": "Model cards report quality under server-class, full-precision conditions. Those numbers rarely predi",
+      "oneliner": "IBM has released Granite 4.2, a family of open reasoning language models in 3B, 8B, and 30B sizes, a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -132,11 +132,11 @@
       }
     },
     {
-      "id": "f9fce6eb28cc",
-      "title_zh": "Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and Zero Per-Token Cost for Local Steps",
-      "summary_zh": "Perplexity releases Portable Computer, packaging local models, harness, sandbox, and connectors into one system running on NVIDIA DGX Spark.\nThe post Perplexity Ships Portable Computer on NVIDIA DGX Spark: Local Harness, OS-Enforced Sandbox, and...",
+      "id": "dc9af779e9ad",
+      "title_zh": "Taming Visual Neglect: A Variational Information Bottleneck Framework for Adaptive Attention in Multimodal In-Context Learning",
+      "summary_zh": "arXiv:2608.23570v1 Announce Type: new \nAbstract: Large vision-language models exhibit strong in-context learning (ICL) capabilities, yet when and why visual context helps multimodal ICL remains poorly understood. Empirical studies show a puzzling...",
       "tags_zh": [],
-      "oneliner": "Perplexity releases Portable Computer, packaging local models, harness, sandbox, and connectors into",
+      "oneliner": "arXiv:2608.23570v1 Announce Type: new \nAbstract: Large vision-language models exhibit strong in-cont",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -144,39 +144,11 @@
       }
     },
     {
-      "id": "77e98c5142e8",
-      "title_zh": "Meta AI Introduces MetaRoCE: A Clean-Sheet RDMA Transport Built for AI-Scale Ethernet",
-      "summary_zh": "Training and serving frontier models is now a networking problem as much as a compute problem. Collective operations like all-reduce and all-to-all synchronize thousands of accelerators during training, and the slowest transfer sets the pace for...",
-      "tags_zh": [
-        "Meta"
-      ],
-      "oneliner": "Training and serving frontier models is now a networking problem as much as a compute problem. Colle",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "74af7ce45836",
-      "title_zh": "5 ways to upgrade your home decor with Google Search",
-      "summary_zh": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple backgrou",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "afa866e58f41",
-      "title_zh": "MIT AI forecasts extreme weather without historical data",
-      "summary_zh": "MIT engineers have built an AI tool that forecasts extreme weather without training on historical disaster data. Kai Chang, a mechanical engineering graduate student, and Professor Themis Sapsis developed the tool. It produces maps of events that...",
+      "id": "e3c61d30b9d5",
+      "title_zh": "From Triage to Discharge: A Survey of NLP Tasks, Methods, and Open Challenges in the Emergency Department",
+      "summary_zh": "arXiv:2608.23627v1 Announce Type: new \nAbstract: Emergency departments (EDs) operate under time pressure, generating multimodal data such as clinical conversations, triage notes, and discharge documents. Recent advances in natural language...",
       "tags_zh": [],
-      "oneliner": "MIT engineers have built an AI tool that forecasts extreme weather without training on historical di",
+      "oneliner": "arXiv:2608.23627v1 Announce Type: new \nAbstract: Emergency departments (EDs) operate under time pres",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -184,13 +156,65 @@
       }
     },
     {
-      "id": "6ad1fb7a7cca",
-      "title_zh": "Granite 4.2 LLMs: How They're Built",
-      "summary_zh": "",
+      "id": "f5768e69ee77",
+      "title_zh": "Contextual Embedding Evidence for Main--Light Verb Distinctions in Urdu",
+      "summary_zh": "arXiv:2608.23645v1 Announce Type: new \nAbstract: Urdu light verbs contribute schematic event-structural meaning while remaining lexically related to corresponding main verbs. This study tests representational predictions derived from Butt's...",
+      "tags_zh": [
+        "Embedding"
+      ],
+      "oneliner": "arXiv:2608.23645v1 Announce Type: new \nAbstract: Urdu light verbs contribute schematic event-structu",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "810ed2ffd523",
+      "title_zh": "The Limits of Automatic Evaluation of Creativity in Large Language Models",
+      "summary_zh": "arXiv:2608.23705v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly capable of generating text that challenges human performance in domains requiring creativity, yet evaluating creativity in LLM-generated content...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.23705v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly capab",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "14fdab54dbc0",
+      "title_zh": "ADE: Agentic Data Evolution Framework for Human-Centered Objectives",
+      "summary_zh": "arXiv:2608.23719v1 Announce Type: new \nAbstract: Aligning large language models to human-centered objectives is difficult when targets are non-executable and context-dependent, limiting reliable verification and scalable supervision. Although...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2608.23719v1 Announce Type: new \nAbstract: Aligning large language models to human-centered ob",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "93aceba32bb8",
+      "title_zh": "What Reaches Expert Review? Representation, Structural Screening, and Candidate-Form Dependence in AI-Assisted Item Development",
+      "summary_zh": "arXiv:2608.23766v1 Announce Type: new \nAbstract: Between AI-assisted item generation and expert review sits a computational evaluator whose decisions are usually treated as technical preliminaries. Yet representation, structural reduction, and...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.23766v1 Announce Type: new \nAbstract: Between AI-assisted item generation and expert revi",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1245fed8e092",
+      "title_zh": "When Youth Enter The Chat: An Epistemic Shift in the Validation of LLM-Based Measures of Student Talk",
+      "summary_zh": "arXiv:2608.23780v1 Announce Type: new \nAbstract: LLMs are being used increasingly to measure aspects of student discourse (e.g. talk moves, collaboration, equity of voice) at scale. Typically, LLM-based measures of student talk use transcriptions...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "",
+      "oneliner": "arXiv:2608.23780v1 Announce Type: new \nAbstract: LLMs are being used increasingly to measure aspects",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -198,11 +222,11 @@
       }
     },
     {
-      "id": "ba39c4d2772e",
-      "title_zh": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "summary_zh": "",
+      "id": "359df42792cf",
+      "title_zh": "Inter-dimension Dependence for Multi-Dimensional Evaluation of Open-Ended Text",
+      "summary_zh": "arXiv:2608.23783v1 Announce Type: new \nAbstract: LLM-as-a-judge methods are widely used for evaluating the quality of generated open-ended text. Such evaluations are generally multi-dimensional, since the error patterns in texts can be different...",
       "tags_zh": [],
-      "oneliner": "",
+      "oneliner": "arXiv:2608.23783v1 Announce Type: new \nAbstract: LLM-as-a-judge methods are widely used for evaluati",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -210,14 +234,13 @@
       }
     },
     {
-      "id": "1a57528ba5a4",
-      "title_zh": "openai /codex",
-      "summary_zh": "Lightweight coding agent that runs in your terminal",
+      "id": "c908827e5224",
+      "title_zh": "Giga-Embeddings: Mixture-of-Experts Encoders for High-Throughput Text Embeddings",
+      "summary_zh": "arXiv:2608.23806v1 Announce Type: new \nAbstract: We introduce Giga-Embeddings, a family of text embedding models designed to combine strong retrieval quality with efficient serving. Its largest member is a sparse 10B-parameter Mixture-of-Experts...",
       "tags_zh": [
-        "OpenAI",
-        "Agent"
+        "Embedding"
       ],
-      "oneliner": "Lightweight coding agent that runs in your terminal",
+      "oneliner": "arXiv:2608.23806v1 Announce Type: new \nAbstract: We introduce Giga-Embeddings, a family of text embe",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -225,54 +248,23 @@
       }
     },
     {
-      "id": "39ec5846ae4b",
-      "title_zh": "multica-ai /andrej-karpathy-skills",
-      "summary_zh": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "tags_zh": [
-        "Claude",
-        "LLM"
-      ],
-      "oneliner": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "978e35c60717",
-      "title_zh": "NousResearch /hermes-agent",
-      "summary_zh": "The agent that grows with you",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "The agent that grows with you",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6fb08428e288",
-      "title_zh": "PostHog /posthog",
-      "summary_zh": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI obser",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1c0de2ab3229",
-      "title_zh": "The full stack behind abundant intelligence",
-      "summary_zh": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "id": "9ef1e123c190",
+      "title_zh": "From Preferences to Principles: Rubric-Based Alignment for Grounded Knowledge Answers",
+      "summary_zh": "arXiv:2608.23812v1 Announce Type: new \nAbstract: Designing effective reward signals for open-domain question answering is challenging because high-quality responses must simultaneously satisfy multiple aspects of answer quality that are difficult...",
       "tags_zh": [],
-      "oneliner": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to",
+      "oneliner": "arXiv:2608.23812v1 Announce Type: new \nAbstract: Designing effective reward signals for open-domain ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "58b6f36a8db4",
+      "title_zh": "Beyond Static and Linear: What Attention Constraints Best Fit Human Reading Times?",
+      "summary_zh": "arXiv:2608.23818v1 Announce Type: new \nAbstract: Transformer-based language models are widely used as models of human language processing, yet their attention mechanisms allow lossless access to the full preceding context, unlike the limited...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.23818v1 Announce Type: new \nAbstract: Transformer-based language models are widely used a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
