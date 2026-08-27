@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T16:52:58Z",
+  "updated": "2026-08-27T08:06:30Z",
   "total": 20,
   "items": [
     {
@@ -101,13 +101,13 @@
       }
     },
     {
-      "id": "69f03bede522",
-      "title_zh": "Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture",
-      "summary_zh": "We look at Qwen3.8-Flash-Next, Alibaba's open-weight multimodal Mixture-of-Experts model and an early preview of the Qwen4 architecture. We break down where the 180B parameters actually sit: a 125B backbone, a 51B N-gram embedding table, and a 4B...",
+      "id": "6bc67e67e3f7",
+      "title_zh": "Google Research Introduces GlucoFM: A 0.72M-Parameter Dual-Stream Foundation Model for Continuous Glucose Monitoring",
+      "summary_zh": "Google Research and UNSW Sydney released GlucoFM, a self-supervised foundation model that splits a CGM trace into a slow physiological stream and a transient event stream instead of encoding it as one sequence. At 0.72M parameters it reached 58.8...",
       "tags_zh": [
-        "Qwen"
+        "Google"
       ],
-      "oneliner": "We look at Qwen3.8-Flash-Next, Alibaba's open-weight multimodal Mixture-of-Experts model and an earl",
+      "oneliner": "Google Research and UNSW Sydney released GlucoFM, a self-supervised foundation model that splits a C",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -115,25 +115,11 @@
       }
     },
     {
-      "id": "76f643504ea5",
-      "title_zh": "What Would Have to Be True for Agentic Coding to Replace Junior Engineers",
-      "summary_zh": "Four falsifiable conditions for agentic coding replacing juniors, tested against METR, OpenAI, DORA and Stanford primary source evidence\nThe post What Would Have to Be True for Agentic Coding to Replace Junior Engineers appeared first on...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Four falsifiable conditions for agentic coding replacing juniors, tested against METR, OpenAI, DORA ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f5e441e0e9f8",
-      "title_zh": "Gatik raises $200M to scale AI-powered autonomous freight",
-      "summary_zh": "Autonomous trucking company Gatik has raised $200 million in Series D funding to expand its driverless freight operations across North America. The round was led by Qatar Investment Authority and Koch Disruptive Technologies, with participation...",
+      "id": "b24538aca1c1",
+      "title_zh": "Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores",
+      "summary_zh": "arXiv:2608.24901v1 Announce Type: new \nAbstract: A decodable \"empathy\" direction is routinely read as a causal lever, conflating decodability, automated-metric control, and human-perceived change. We test this for two EPITOME-derived facets --...",
       "tags_zh": [],
-      "oneliner": "Autonomous trucking company Gatik has raised $200 million in Series D funding to expand its driverle",
+      "oneliner": "arXiv:2608.24901v1 Announce Type: new \nAbstract: A decodable \"empathy\" direction is routinely read a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -141,25 +127,13 @@
       }
     },
     {
-      "id": "813c205aa1a4",
-      "title_zh": "NVIDIA Jetson Orin Nano 2 brings physical AI to drones and robots",
-      "summary_zh": "NVIDIA has unveiled the Jetson Orin Nano 2, an edge robotics computer aimed at bringing physical AI to drones, robots, and vision systems. The company is positioning the new board as an entry-level option for developers who want generative AI...",
-      "tags_zh": [],
-      "oneliner": "NVIDIA has unveiled the Jetson Orin Nano 2, an edge robotics computer aimed at bringing physical AI ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6dc9b530b388",
-      "title_zh": "apache /maka",
-      "summary_zh": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "id": "2731a1dc6dc8",
+      "title_zh": "Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment",
+      "summary_zh": "arXiv:2608.24920v1 Announce Type: new \nAbstract: This study examines whether LLM-generated replies remain semantically consistent when the underlying LLM changes. Using messages from real collaborative conversations, we compared the semantic...",
       "tags_zh": [
-        "Agent"
+        "LLM"
       ],
-      "oneliner": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool resul",
+      "oneliner": "arXiv:2608.24920v1 Announce Type: new \nAbstract: This study examines whether LLM-generated replies r",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -167,14 +141,100 @@
       }
     },
     {
-      "id": "afdace39e749",
-      "title_zh": "TauricResearch /TradingAgents",
-      "summary_zh": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "id": "7b963a12f390",
+      "title_zh": "The Dialect Tax: Dialectal Biases Persist throughout the Language Modeling Pipeline",
+      "summary_zh": "arXiv:2608.24952v1 Announce Type: new \nAbstract: Systematic dialectal performance gaps in language models (LMs) are well documented, but the source of these disparities within the modern language modeling pipeline remains unclear. Our study...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.24952v1 Announce Type: new \nAbstract: Systematic dialectal performance gaps in language m",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2813c09df136",
+      "title_zh": "Unsupervised Post-Training of Foundation Models: A Survey",
+      "summary_zh": "arXiv:2608.24982v1 Announce Type: new \nAbstract: Foundation-model post-training usually relies on human labels, preference data, stronger teachers, or executable verifiers. We study Unsupervised Post-Training (UPT): update-bearing adaptation on...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.24982v1 Announce Type: new \nAbstract: Foundation-model post-training usually relies on hu",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c74b8644e4e9",
+      "title_zh": "Does Fine-Tuning Undo Activation Steering? Behavioural Recovery Without Weight-Edit Reversal",
+      "summary_zh": "arXiv:2608.24988v1 Announce Type: new \nAbstract: Activation steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention and offering a way to encode alignment prior to release. However,...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.24988v1 Announce Type: new \nAbstract: Activation steering can be embedded directly into a",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d1acab53cfa7",
+      "title_zh": "The Imperfective Paradox Is Not Necessarily in Large Language Models: A Benchmark Failure Before a Model Failure",
+      "summary_zh": "arXiv:2608.25005v1 Announce Type: new \nAbstract: The imperfective paradox provides a useful test of compositional semantic analysis. Recent work constructs an NLI benchmark and reports that models frequently infer completed telic events from...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2608.25005v1 Announce Type: new \nAbstract: The imperfective paradox provides a useful test of ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9c164d0cff5d",
+      "title_zh": "A Primer on Computational Semantics for Artificial Intelligence Systems",
+      "summary_zh": "arXiv:2608.25022v1 Announce Type: new \nAbstract: As people adopt transformer-based language models (e.g., ChatGPT and Gemini) for an increasing number of use-cases, it is important to know how such models learn and represent the meaning of the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.25022v1 Announce Type: new \nAbstract: As people adopt transformer-based language models (",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b67706c6598f",
+      "title_zh": "Behind the [MASK]: Disentangling Representation and Faithfulness in DAPF-Based Dementia Detection",
+      "summary_zh": "arXiv:2608.25028v1 Announce Type: new \nAbstract: Spoken-language analysis via prompt-based domain-adaptive models is a promising direction for low-resource, non-invasive dementia screening, but such models remain internally opaque. We study the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.25028v1 Announce Type: new \nAbstract: Spoken-language analysis via prompt-based domain-ad",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "662bec2bfbf7",
+      "title_zh": "Padamitra: Grounded Glossary Generation for Classical Sanskrit",
+      "summary_zh": "arXiv:2608.25038v1 Announce Type: new \nAbstract: We introduce grounded glossary generation, a structured task requiring models to recover semantically meaningful Sanskrit phrases and produce translation-grounded meanings from a sloka-translation...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2608.25038v1 Announce Type: new \nAbstract: We introduce grounded glossary generation, a struct",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ae840fc0c36f",
+      "title_zh": "DataKernelBench: Can LLMs Optimize Database Queries on GPUs?",
+      "summary_zh": "arXiv:2608.25061v1 Announce Type: new \nAbstract: GPUs increasingly accelerate database systems, but query-specific peak performance still often relies on hand-written kernels. Existing LLM kernel benchmarks focus on machine learning operators,...",
       "tags_zh": [
         "LLM",
-        "Agent"
+        "GPU"
       ],
-      "oneliner": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "oneliner": "arXiv:2608.25061v1 Announce Type: new \nAbstract: GPUs increasingly accelerate database systems, but ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -182,15 +242,13 @@
       }
     },
     {
-      "id": "46405393d4f5",
-      "title_zh": "Shubhamsaboo /awesome-llm-apps",
-      "summary_zh": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "id": "94916c665286",
+      "title_zh": "HealthBench-Psych: A Mental Health Subset of OpenAI's HealthBench",
+      "summary_zh": "arXiv:2608.25071v1 Announce Type: new \nAbstract: General-purpose health benchmarks increasingly anchor claims about LLM medical performance, but they are not always resolved by clinical specialty, making domain-specific performance hard to...",
       "tags_zh": [
-        "LLM",
-        "Agent",
-        "RAG"
+        "OpenAI"
       ],
-      "oneliner": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "oneliner": "arXiv:2608.25071v1 Announce Type: new \nAbstract: General-purpose health benchmarks increasingly anch",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -198,77 +256,13 @@
       }
     },
     {
-      "id": "ebc1436831ca",
-      "title_zh": "IBM Releases Granite 4.2: Bringing Native Reasoning and Agentic RL to Open Enterprise Models",
-      "summary_zh": "IBM has released Granite 4.2, a family of open reasoning language models in 3B, 8B, and 30B sizes, all under Apache 2.0. Every model exposes a thinking / low-effort / non-thinking switch and native tool calling. The 8B and 30B additionally go...",
+      "id": "29e7a59d5c53",
+      "title_zh": "MTDiag: A Multi-Turn Diagnostic Dataset Towards Clinically Meaningful LLM Evaluation",
+      "summary_zh": "arXiv:2608.25085v1 Announce Type: new \nAbstract: Clinical diagnosis is fundamentally interactive and incremental, yet the dominant paradigm for evaluating Large Language Models (LLMs) in medicine remains static QA benchmarks or template-based...",
       "tags_zh": [
-        "Agent"
+        "LLM"
       ],
-      "oneliner": "IBM has released Granite 4.2, a family of open reasoning language models in 3B, 8B, and 30B sizes, a",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "dc9af779e9ad",
-      "title_zh": "Taming Visual Neglect: A Variational Information Bottleneck Framework for Adaptive Attention in Multimodal In-Context Learning",
-      "summary_zh": "arXiv:2608.23570v1 Announce Type: new \nAbstract: Large vision-language models exhibit strong in-context learning (ICL) capabilities, yet when and why visual context helps multimodal ICL remains poorly understood. Empirical studies show a puzzling...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.23570v1 Announce Type: new \nAbstract: Large vision-language models exhibit strong in-cont",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e3c61d30b9d5",
-      "title_zh": "From Triage to Discharge: A Survey of NLP Tasks, Methods, and Open Challenges in the Emergency Department",
-      "summary_zh": "arXiv:2608.23627v1 Announce Type: new \nAbstract: Emergency departments (EDs) operate under time pressure, generating multimodal data such as clinical conversations, triage notes, and discharge documents. Recent advances in natural language...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.23627v1 Announce Type: new \nAbstract: Emergency departments (EDs) operate under time pres",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f5768e69ee77",
-      "title_zh": "Contextual Embedding Evidence for Main--Light Verb Distinctions in Urdu",
-      "summary_zh": "arXiv:2608.23645v1 Announce Type: new \nAbstract: Urdu light verbs contribute schematic event-structural meaning while remaining lexically related to corresponding main verbs. This study tests representational predictions derived from Butt's...",
-      "tags_zh": [
-        "Embedding"
-      ],
-      "oneliner": "arXiv:2608.23645v1 Announce Type: new \nAbstract: Urdu light verbs contribute schematic event-structu",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "810ed2ffd523",
-      "title_zh": "The Limits of Automatic Evaluation of Creativity in Large Language Models",
-      "summary_zh": "arXiv:2608.23705v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly capable of generating text that challenges human performance in domains requiring creativity, yet evaluating creativity in LLM-generated content...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.23705v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly capab",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "14fdab54dbc0",
-      "title_zh": "ADE: Agentic Data Evolution Framework for Human-Centered Objectives",
-      "summary_zh": "arXiv:2608.23719v1 Announce Type: new \nAbstract: Aligning large language models to human-centered objectives is difficult when targets are non-executable and context-dependent, limiting reliable verification and scalable supervision. Although...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.23719v1 Announce Type: new \nAbstract: Aligning large language models to human-centered ob",
+      "oneliner": "arXiv:2608.25085v1 Announce Type: new \nAbstract: Clinical diagnosis is fundamentally interactive and",
       "key_facts": [],
       "notable_quote": {
         "text": "",

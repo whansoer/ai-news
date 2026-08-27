@@ -1,10 +1,10 @@
 {
-  "updated": "2026-08-26T16:52:48Z",
-  "total": 256,
+  "updated": "2026-08-27T08:06:19Z",
+  "total": 273,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
@@ -16,15 +16,15 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 24
-    },
-    {
-      "name": "Hugging Face",
-      "count": 16
+      "count": 26
     },
     {
       "name": "OpenAI",
-      "count": 16
+      "count": 17
+    },
+    {
+      "name": "Hugging Face",
+      "count": 15
     },
     {
       "name": "Google AI",
@@ -46,14 +46,18 @@
     },
     {
       "name": "LLM",
-      "count": 27
+      "count": 30
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Claude",
+      "count": 10
+    },
+    {
+      "name": "RAG",
       "count": 10
     },
     {
@@ -61,20 +65,24 @@
       "count": 9
     },
     {
-      "name": "RAG",
-      "count": 8
-    },
-    {
       "name": "Embedding",
       "count": 7
+    },
+    {
+      "name": "Google",
+      "count": 6
     },
     {
       "name": "Transformer",
       "count": 5
     },
     {
-      "name": "Google",
-      "count": 5
+      "name": "GPU",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
+      "count": 4
     },
     {
       "name": "Gemini",
@@ -86,14 +94,6 @@
     },
     {
       "name": "Prompt",
-      "count": 3
-    },
-    {
-      "name": "OpenAI",
-      "count": 3
-    },
-    {
-      "name": "GPU",
       "count": 3
     },
     {
@@ -124,15 +124,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 169
+      "count": 186
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 43
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 32
     },
     {
       "name": "产品/API",
@@ -140,10 +140,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "08-20",
-      "count": 32
-    },
     {
       "date": "08-21",
       "count": 39
@@ -166,7 +162,11 @@
     },
     {
       "date": "08-26",
-      "count": 47
+      "count": 29
+    },
+    {
+      "date": "08-27",
+      "count": 38
     }
   ],
   "top10": [
@@ -213,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "69f03bede522",
-      "title": "Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture",
+      "id": "6bc67e67e3f7",
+      "title": "Google Research Introduces GlucoFM: A 0.72M-Parameter Dual-Stream Foundation Model for Continuous Glucose Monitoring",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "76f643504ea5",
-      "title": "What Would Have to Be True for Agentic Coding to Replace Junior Engineers",
+      "id": "b24538aca1c1",
+      "title": "Detection != Reliable Control: Decodable Empathy Directions Yield at Most Partial Shifts in Automated Empathy Scores",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "f5e441e0e9f8",
-      "title": "Gatik raises $200M to scale AI-powered autonomous freight",
+      "id": "2731a1dc6dc8",
+      "title": "Semantic Variability of Replies Across LLMs: Implications for Designing Conversation-Based Assessment",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
