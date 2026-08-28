@@ -1,18 +1,18 @@
 {
-  "updated": "2026-08-28T10:09:01Z",
-  "total": 279,
+  "updated": "2026-08-28T20:08:58Z",
+  "total": 250,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "GitHub Trending",
-      "count": 28
+      "count": 30
     },
     {
       "name": "MarkTechPost",
@@ -36,28 +36,28 @@
     },
     {
       "name": "AI News",
-      "count": 6
+      "count": 5
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 56
     },
     {
       "name": "LLM",
-      "count": 35
-    },
-    {
-      "name": "Benchmark",
-      "count": 12
+      "count": 32
     },
     {
       "name": "RAG",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Claude",
+      "count": 9
+    },
+    {
+      "name": "Benchmark",
       "count": 9
     },
     {
@@ -71,10 +71,6 @@
     {
       "name": "Google",
       "count": 6
-    },
-    {
-      "name": "Transformer",
-      "count": 5
     },
     {
       "name": "GPU",
@@ -97,7 +93,7 @@
       "count": 3
     },
     {
-      "name": "Meta",
+      "name": "Transformer",
       "count": 2
     },
     {
@@ -113,6 +109,10 @@
       "count": 1
     },
     {
+      "name": "Meta",
+      "count": 1
+    },
+    {
       "name": "开源",
       "count": 1
     }
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 200
+      "count": 170
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -132,7 +132,7 @@
     },
     {
       "name": "产品/API",
-      "count": 6
+      "count": 5
     }
   ],
   "dailyTrend": [
@@ -162,25 +162,13 @@
     },
     {
       "date": "08-28",
-      "count": 38
+      "count": 40
     }
   ],
   "top10": [
     {
-      "id": "7694793c4136",
-      "title": "freestylefly /awesome-gpt-image-2",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "717af6605a95",
       "title": "tt-a1i /archify",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7ee06cf44cee",
-      "title": "JetBrains /go-modern-guidelines",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -191,14 +179,38 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "2526d3aeeaaf",
-      "title": "DietrichGebert /ponytail",
+      "id": "46e24096af5a",
+      "title": "abhigyanpatwari /GitNexus",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7ee06cf44cee",
+      "title": "JetBrains /go-modern-guidelines",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
       "id": "20703a86e2b0",
       "title": "calesthio /OpenMontage",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "0ba40d78bf1a",
+      "title": "abi /screenshot-to-code",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "7694793c4136",
+      "title": "freestylefly /awesome-gpt-image-2",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -211,18 +223,6 @@
     {
       "id": "3e2484b21de6",
       "title": "TreeGraft: Adaptive Multi-Drafter Grafting for Tree-Based Speculative Decoding",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "2eac9969a39b",
-      "title": "ElementCheck: Complexity-Aware Long-Form Text Factuality Evaluation via Sentence Elements",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "670c4d76e27e",
-      "title": "DeflectBench: A Benchmark for Evaluating Rhetorical Fallacy Generation in LLMs",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }
