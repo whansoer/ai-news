@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T20:09:08Z",
+  "updated": "2026-08-29T00:31:56Z",
   "total": 20,
   "items": [
     {
@@ -102,6 +102,35 @@
       }
     },
     {
+      "id": "6b361f2658a9",
+      "title_zh": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+      "summary_zh": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training.\nThe post GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same...",
+      "tags_zh": [
+        "Qwen"
+      ],
+      "oneliner": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed ind",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1ee5809f2355",
+      "title_zh": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+      "summary_zh": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node.js via Dawn, and in a deterministic CI...",
+      "tags_zh": [
+        "Agent",
+        "GPU"
+      ],
+      "oneliner": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It trea",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "2526d3aeeaaf",
       "title_zh": "DietrichGebert /ponytail",
       "summary_zh": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
@@ -121,6 +150,22 @@
       "summary_zh": "Learn it. Build it. Ship it for others.",
       "tags_zh": [],
       "oneliner": "Learn it. Build it. Ship it for others.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a93398dd2637",
+      "title_zh": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
+      "summary_zh": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint delivers sub-second transcription but drops speaker diarization and word timestamps. The batch endpoint...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "RAG"
+      ],
+      "oneliner": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoin",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -224,47 +269,6 @@
       "summary_zh": "arXiv:2608.26125v1 Announce Type: new \nAbstract: Online hate against Muslim communities often appears in culturally coded, multilingual forms that evade conventional AI moderation. Such systems, though accurate, remain opaque and risk bias,...",
       "tags_zh": [],
       "oneliner": "arXiv:2608.26125v1 Announce Type: new \nAbstract: Online hate against Muslim communities often appear",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0e43faf30ca2",
-      "title_zh": "TelecomGPT-R1: A Unified Open-Source Reasoner for the Telecom Stack",
-      "summary_zh": "arXiv:2608.26126v1 Announce Type: new \nAbstract: Telecommunications is a high-leverage domain for large language model (LLM)-based reasoning because routine engineering workflows require joint grounding in normative specifications, operational...",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "arXiv:2608.26126v1 Announce Type: new \nAbstract: Telecommunications is a high-leverage domain for la",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d5b0cb41e9d1",
-      "title_zh": "FIRSTPASS: A Multi-Domain, Multi-Round Peer Review Dataset Grounded in Real Editorial Outcomes",
-      "summary_zh": "arXiv:2608.26129v1 Announce Type: new \nAbstract: Scientific peer review datasets have trained AI systems exclusively on Computer Science and Machine Learning venues, producing models that critique ablation studies yet have never seen a biology...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2608.26129v1 Announce Type: new \nAbstract: Scientific peer review datasets have trained AI sys",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "cb8b596842bc",
-      "title_zh": "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses",
-      "summary_zh": "arXiv:2608.26130v1 Announce Type: new \nAbstract: Coding agents built on large language models (LLMs), such as Claude Code, Cursor, OpenAI Codex, GitHub Copilot, and Aider, receive tool responses that routinely exceed the agent's per-turn token...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.26130v1 Announce Type: new \nAbstract: Coding agents built on large language models (LLMs)",
       "key_facts": [],
       "notable_quote": {
         "text": "",

@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-28T20:09:08Z",
-  "total": 210,
-  "new_count": 39,
+  "updated": "2026-08-29T00:31:56Z",
+  "total": 211,
+  "new_count": 47,
   "items": [
     {
       "id": "717af6605a95",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-      "published": "2026-08-28T20:07:00Z",
+      "published": "2026-08-29T00:29:49Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery....",
-      "published": "2026-08-28T20:07:00Z",
+      "published": "2026-08-29T00:29:49Z",
       "tags": [
         "Claude",
         "Agent"
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph...",
-      "published": "2026-08-28T20:07:00Z",
+      "published": "2026-08-29T00:29:49Z",
       "tags": [
         "Agent",
         "RAG"
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Help AI coding agents write modern Go",
-      "published": "2026-08-28T20:07:00Z",
+      "published": "2026-08-29T00:29:49Z",
       "tags": [
         "Agent"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-08-28T20:07:00Z",
+      "published": "2026-08-29T00:29:49Z",
       "tags": [
         "Agent"
       ],
@@ -149,7 +149,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
-      "published": "2026-08-28T20:07:00Z",
+      "published": "2026-08-29T00:29:49Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -172,7 +172,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-      "published": "2026-08-28T20:07:00Z",
+      "published": "2026-08-29T00:29:49Z",
       "tags": [
         "GPT",
         "Prompt"
@@ -193,6 +193,62 @@
         "Prompt"
       ],
       "oneliner": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中"
+    },
+    {
+      "id": "6b361f2658a9",
+      "title": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+      "url": "https://www.marktechpost.com/2026/08/28/glm-5-3-flash-vs-qwen3-8-flash-next-two-chinese-ai-labs-independently-converge-on-the-same-model-architecture/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training.\nThe post GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same...",
+      "published": "2026-08-28T19:12:21Z",
+      "tags": [
+        "Qwen"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same Model Architecture",
+      "summary_zh": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed indexers, gated residuals, and Muon training.\nThe post GLM-5.3-Flash vs Qwen3.8-Flash-Next: Two Chinese AI Labs Independently Converge on the Same...",
+      "tags_zh": [
+        "Qwen"
+      ],
+      "oneliner": "Z.ai and Qwen independently shipped near-identical architectures: 3:1 linear hybrids, compressed ind"
+    },
+    {
+      "id": "1ee5809f2355",
+      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+      "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node.js via Dawn, and in a deterministic CI...",
+      "published": "2026-08-28T17:28:47Z",
+      "tags": [
+        "Agent",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+      "summary_zh": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node.js via Dawn, and in a deterministic CI...",
+      "tags_zh": [
+        "Agent",
+        "GPU"
+      ],
+      "oneliner": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It trea"
     },
     {
       "id": "2526d3aeeaaf",
@@ -243,6 +299,37 @@
       "summary_zh": "Learn it. Build it. Ship it for others.",
       "tags_zh": [],
       "oneliner": "Learn it. Build it. Ship it for others."
+    },
+    {
+      "id": "a93398dd2637",
+      "title": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
+      "url": "https://www.marktechpost.com/2026/08/27/google-ai-releases-gemini-3-5-transcribe-a-speech-to-text-model-reporting-2-6-average-wer-across-85-languages/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint delivers sub-second transcription but drops speaker diarization and word timestamps. The batch endpoint...",
+      "published": "2026-08-28T05:00:38Z",
+      "tags": [
+        "Gemini",
+        "Google",
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Google AI Releases Gemini 3.5 Transcribe: A Speech-to-Text Model Reporting 2.6% Average WER Across 85+ Languages",
+      "summary_zh": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoints rather than one. The streaming endpoint delivers sub-second transcription but drops speaker diarization and word timestamps. The batch endpoint...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "RAG"
+      ],
+      "oneliner": "Google has released Gemini 3.5 Transcribe, a speech-to-text model that ships as two separate endpoin"
     },
     {
       "id": "3e2484b21de6",
@@ -462,12 +549,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "TelecomGPT-R1: A Unified Open-Source Reasoner for the Telecom Stack",
-      "summary_zh": "arXiv:2608.26126v1 Announce Type: new \nAbstract: Telecommunications is a high-leverage domain for large language model (LLM)-based reasoning because routine engineering workflows require joint grounding in normative specifications, operational...",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "arXiv:2608.26126v1 Announce Type: new \nAbstract: Telecommunications is a high-leverage domain for la"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d5b0cb41e9d1",
@@ -487,10 +572,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "FIRSTPASS: A Multi-Domain, Multi-Round Peer Review Dataset Grounded in Real Editorial Outcomes",
-      "summary_zh": "arXiv:2608.26129v1 Announce Type: new \nAbstract: Scientific peer review datasets have trained AI systems exclusively on Computer Science and Machine Learning venues, producing models that critique ablation studies yet have never seen a biology...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2608.26129v1 Announce Type: new \nAbstract: Scientific peer review datasets have trained AI sys"
+      "oneliner": ""
     },
     {
       "id": "cb8b596842bc",
@@ -513,13 +598,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Agents Don't Paginate: First-Chunk Selection for LLM Tool Responses",
-      "summary_zh": "arXiv:2608.26130v1 Announce Type: new \nAbstract: Coding agents built on large language models (LLMs), such as Claude Code, Cursor, OpenAI Codex, GitHub Copilot, and Aider, receive tool responses that routinely exceed the agent's per-turn token...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2608.26130v1 Announce Type: new \nAbstract: Coding agents built on large language models (LLMs)"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "9d63e64478f5",
@@ -993,6 +1075,29 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5f64da983ca6",
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-08-28T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5044,84 +5149,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "611580ddf24a",
-      "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, and Groq Ranked by Published Pricing and Contracted Power",
-      "url": "https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "The five largest GPU neoclouds now run on very different models. CoreWeave and Nebius report to the SEC; Lambda and Crusoe are private and heading toward IPOs; Groq rebuilt itself as an inference cloud after licensing its LPU technology to...",
-      "published": "2026-08-21T23:20:12Z",
-      "tags": [
-        "GPU"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "a25531a25645"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "212c857ed3e8",
-      "title": "Building Agentic Document Intelligence Pipelines: Creating Scientific Figures with AutoFigure",
-      "url": "https://www.marktechpost.com/2026/08/21/building-agentic-document-intelligence-pipelines-creating-scientific-figures-with-autofigure/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "This tutorial explores AutoFigure, a practical toolkit for generating professional scientific figures directly from text descriptions and research papers. We walk through setting up the environment, configuring an API-backed generation workflow,...",
-      "published": "2026-08-21T22:00:25Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4354fda665c8",
-      "title": "Anthropic Brings Claude Mythos 5 to Claude Security: Enterprise Teams Get Frontier Vulnerability Scanning Without Direct Model Access",
-      "url": "https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Anthropic has moved its most cyber-capable model into a product security teams can switch on themselves. Claude Security scans now run on Claude Mythos 5, in public beta for Claude Enterprise customers with no separate model add-on. The scan...",
-      "published": "2026-08-21T21:15:53Z",
-      "tags": [
-        "Claude",
-        "Anthropic"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 4
       },
       "title_zh": "",
       "summary_zh": "",
