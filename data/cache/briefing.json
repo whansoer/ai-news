@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-08-29T19:21:26Z",
-  "count": 323,
+  "updated": "2026-08-30T04:15:02Z",
+  "count": 324,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -20674,6 +20674,70 @@
         }
       },
       "_ts": 1788031286
+    },
+    "369703567cf4210e": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录251篇AI新闻，分类分布：学术研究172篇, 开源项目44篇, 模型发布30篇, 产品/API5篇。热门标签：Agent（53篇）。其中7%的文章有多来源交叉验证。\n\n▸ tt-a1i /archify：Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle dia\n\n▸ K-Dense-AI /scientific-agent-skills：Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ sc\n\n▸ tailscale /tailcat：like netcat, but over Tailscale's data plane, without Tailscale's control plane\n\n▸ THU-MAIC /OpenMAIC：Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just o\n\n▸ bigskysoftware /htmx：htmx - high power tools for HTML",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "tt-a1i/archify",
+            "url": "https://github.com/tt-a1i/archify",
+            "why_hot": "单日3902星，JavaScript项目",
+            "stars_today": 3902,
+            "total_stars": 31525
+          },
+          {
+            "full_name": "K-Dense-AI/scientific-agent-skills",
+            "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+            "why_hot": "单日1587星，Python项目",
+            "stars_today": 1587,
+            "total_stars": 38047
+          },
+          {
+            "full_name": "tailscale/tailcat",
+            "url": "https://github.com/tailscale/tailcat",
+            "why_hot": "单日789星，Go项目",
+            "stars_today": 789,
+            "total_stars": 3623
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "251"
+          },
+          {
+            "label": "多源验证率",
+            "value": "7%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7223"
+          }
+        ],
+        "must_read_ids": [
+          "717af6605a95",
+          "bf559441b24d",
+          "2e99c10b71a9",
+          "c2f4cce08f40",
+          "aca988ca8dd4"
+        ],
+        "text": "今日共收录251篇AI新闻，分类分布：学术研究172篇, 开源项目44篇, 模型发布30篇, 产品/API5篇。热门标签：Agent（53篇）。其中7%的文章有多来源交叉验证。",
+        "top_items": [
+          "tt-a1i /archify",
+          "K-Dense-AI /scientific-agent-skills",
+          "tailscale /tailcat",
+          "THU-MAIC /OpenMAIC",
+          "bigskysoftware /htmx"
+        ],
+        "meta": {
+          "total_articles": 251,
+          "multi_source_pct": 7
+        }
+      },
+      "_ts": 1788063302
     }
   }
 }

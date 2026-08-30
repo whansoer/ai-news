@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T19:21:16Z",
-  "total": 254,
+  "updated": "2026-08-30T04:14:53Z",
+  "total": 251,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -11,12 +11,12 @@
       "count": 60
     },
     {
-      "name": "MarkTechPost",
-      "count": 27
+      "name": "GitHub Trending",
+      "count": 29
     },
     {
-      "name": "GitHub Trending",
-      "count": 25
+      "name": "MarkTechPost",
+      "count": 27
     },
     {
       "name": "OpenAI",
@@ -31,18 +31,18 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 5
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 54
+      "count": 53
     },
     {
       "name": "LLM",
@@ -65,12 +65,12 @@
       "count": 8
     },
     {
-      "name": "GPT",
+      "name": "Embedding",
       "count": 7
     },
     {
-      "name": "Embedding",
-      "count": 7
+      "name": "GPT",
+      "count": 6
     },
     {
       "name": "Gemini",
@@ -124,7 +124,7 @@
     },
     {
       "name": "开源项目",
-      "count": 40
+      "count": 44
     },
     {
       "name": "模型发布",
@@ -132,14 +132,10 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 5
     }
   ],
   "dailyTrend": [
-    {
-      "date": "08-23",
-      "count": 8
-    },
     {
       "date": "08-24",
       "count": 39
@@ -162,7 +158,11 @@
     },
     {
       "date": "08-29",
-      "count": 10
+      "count": 6
+    },
+    {
+      "date": "08-30",
+      "count": 8
     }
   ],
   "top10": [
@@ -179,8 +179,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "46e24096af5a",
-      "title": "abhigyanpatwari /GitNexus",
+      "id": "2e99c10b71a9",
+      "title": "tailscale /tailcat",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c2f4cce08f40",
+      "title": "THU-MAIC /OpenMAIC",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "aca988ca8dd4",
+      "title": "bigskysoftware /htmx",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -191,8 +203,20 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "7e39ec2390d0",
+      "title": "ComposioHQ /awesome-claude-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "20703a86e2b0",
       "title": "calesthio /OpenMontage",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "46e24096af5a",
+      "title": "abhigyanpatwari /GitNexus",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,30 +225,6 @@
       "title": "abi /screenshot-to-code",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "7694793c4136",
-      "title": "freestylefly /awesome-gpt-image-2",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "544ed80ee1bf",
-      "title": "Building Custom Batched Ensemble Weather Forecasting with NVIDIA Earth2Studio",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "07b5c7ec7f62",
-      "title": "Google AI Releases Gemini Omni 1.1 Flash: 40-Second Scene Extension, First/Last Frame Control, and 4K Upscaling",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "992ca5a2a104",
-      "title": "Hugging Face Unveils Microduck: A $399 Open-Source 25 cm Biped You Train with Reinforcement Learning",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
