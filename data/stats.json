@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-30T19:15:13Z",
-  "total": 247,
+  "updated": "2026-08-31T04:06:14Z",
+  "total": 276,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "GitHub Trending",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 24
     },
     {
       "name": "OpenAI",
@@ -42,27 +42,27 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 53
+      "count": 57
     },
     {
       "name": "LLM",
-      "count": 33
+      "count": 37
     },
     {
       "name": "RAG",
-      "count": 12
+      "count": 15
     },
     {
       "name": "Benchmark",
-      "count": 9
+      "count": 11
+    },
+    {
+      "name": "Embedding",
+      "count": 8
     },
     {
       "name": "Google",
       "count": 8
-    },
-    {
-      "name": "Embedding",
-      "count": 7
     },
     {
       "name": "Claude",
@@ -101,6 +101,10 @@
       "count": 2
     },
     {
+      "name": "Diffusion",
+      "count": 1
+    },
+    {
       "name": "Anthropic",
       "count": 1
     },
@@ -116,7 +120,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 170
+      "count": 199
     },
     {
       "name": "开源项目",
@@ -132,10 +136,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "08-24",
-      "count": 39
-    },
     {
       "date": "08-25",
       "count": 46
@@ -158,7 +158,11 @@
     },
     {
       "date": "08-30",
-      "count": 12
+      "count": 7
+    },
+    {
+      "date": "08-31",
+      "count": 35
     }
   ],
   "top10": [
@@ -193,34 +197,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "51aa9f2e1c5c",
-      "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for  AI Agents to Safely Operate Physical Devices",
+      "id": "0ed290828e7b",
+      "title": "Accelerating LLM Inference via Vector Index Based Output Embeddings",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "2e99c10b71a9",
-      "title": "tailscale /tailcat",
+      "id": "809c1570e658",
+      "title": "SciReC: Diagnostic Evaluation of Multimodal, Multi-Turn Relational Reasoning with Adaptive Interaction",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "aca988ca8dd4",
-      "title": "bigskysoftware /htmx",
+      "id": "63623c178442",
+      "title": "Sledgehammer or Scalpel? A Fine-grained Adaptive Framework for Implicit Hate Speech",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "7ee06cf44cee",
-      "title": "JetBrains /go-modern-guidelines",
+      "id": "201b361073c5",
+      "title": "The Effect of Emotional Context on Large Language Models' Endorsement of Premature Decisions: Comparing Emotional Vulnerability Across Six Commercial Models",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "7e39ec2390d0",
-      "title": "ComposioHQ /awesome-claude-skills",
+      "id": "9ad4a2a827c4",
+      "title": "PACE: Publisher-Adaptive Content Extraction via Agentic Automation",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
