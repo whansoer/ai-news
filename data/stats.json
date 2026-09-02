@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-02T03:27:22Z",
-  "total": 244,
+  "updated": "2026-09-02T12:42:34Z",
+  "total": 282,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "GitHub Trending",
-      "count": 26
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 27
     },
     {
       "name": "Hugging Face",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 47
+      "count": 60
     },
     {
       "name": "LLM",
-      "count": 32
+      "count": 38
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 14
     },
     {
       "name": "RAG",
@@ -58,7 +58,7 @@
     },
     {
       "name": "Google",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Claude",
@@ -81,16 +81,16 @@
       "count": 4
     },
     {
+      "name": "Anthropic",
+      "count": 3
+    },
+    {
       "name": "GPU",
       "count": 3
     },
     {
       "name": "DeepSeek",
       "count": 3
-    },
-    {
-      "name": "Anthropic",
-      "count": 2
     },
     {
       "name": "Prompt",
@@ -109,6 +109,14 @@
       "count": 2
     },
     {
+      "name": "Meta",
+      "count": 1
+    },
+    {
+      "name": "Fine-tune",
+      "count": 1
+    },
+    {
       "name": "Diffusion",
       "count": 1
     }
@@ -116,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 170
+      "count": 202
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -138,7 +146,7 @@
     },
     {
       "date": "08-28",
-      "count": 38
+      "count": 37
     },
     {
       "date": "08-29",
@@ -158,67 +166,67 @@
     },
     {
       "date": "09-02",
-      "count": 4
+      "count": 44
     }
   ],
   "top10": [
     {
-      "id": "c2f4cce08f40",
-      "title": "THU-MAIC /OpenMAIC",
+      "id": "17a133fee8f3",
+      "title": "google-research /timesfm",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "73c10ecbf681",
-      "title": "jingyaogong /minimind",
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "3a55db0d85d4",
-      "title": "browser-use /video-use",
+      "id": "e60d19bcbc87",
+      "title": "sngyai /Sequoia-X",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "bf559441b24d",
-      "title": "K-Dense-AI /scientific-agent-skills",
+      "id": "b4212d4b4d44",
+      "title": "ChromeDevTools /chrome-devtools-mcp",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "c0fa2da8b87b",
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "id": "978e35c60717",
+      "title": "NousResearch /hermes-agent",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "GitHub Trending"
     },
     {
-      "id": "e2c119acd909",
-      "title": "The latest AI news we announced in August 2026",
+      "id": "9b3165d8618f",
+      "title": "superlinked /sie",
       "score": 5,
-      "source": "Google AI"
+      "source": "GitHub Trending"
     },
     {
-      "id": "0128337c7dc1",
-      "title": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads",
+      "id": "f798f6349b39",
+      "title": "pacifio /atlas",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "a74404bc73b9",
+      "title": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "4be3ed23a721",
-      "title": "How AI-native companies turn workflows into operating capability",
+      "id": "409f5d94aff0",
+      "title": "Meta Superintelligence Labs Releases Muse Voice Transcribe: One Real-Time Model for Streaming ASR, Diarization, and Endpointing",
       "score": 5,
-      "source": "OpenAI"
+      "source": "MarkTechPost"
     },
     {
-      "id": "4320c69e5f6d",
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "6b5bda482bf2",
-      "title": "Researchers from Princeton, Ant Group and Stanford Introduce AQuA: A Two-Part Agentic Framework for Autonomous Factor Discovery and Model Development in Quantitative Finance",
+      "id": "e99b6e34e4b5",
+      "title": "Perplexity Releases Hybrid Compute on Mac: Cloud Agents Orchestrate Down to a Local Model, Gated On Device",
       "score": 5,
       "source": "MarkTechPost"
     }
