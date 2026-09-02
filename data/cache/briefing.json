@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-09-02T12:42:44Z",
-  "count": 335,
+  "updated": "2026-09-02T19:20:30Z",
+  "count": 336,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -21442,6 +21442,70 @@
         }
       },
       "_ts": 1788352964
+    },
+    "1233f1ef30631ebc": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录274篇AI新闻，分类分布：学术研究188篇, 开源项目44篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（55篇）。其中11%的文章有多来源交叉验证。\n\n▸ google-research /timesfm：TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Goo\n\n▸ DietrichGebert /ponytail：Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev\n\n▸ sngyai /Sequoia-X：A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书\n\n▸ ChromeDevTools /chrome-devtools-mcp：Chrome DevTools for coding agents\n\n▸ NousResearch /hermes-agent：The agent that grows with you",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "pacifio/atlas",
+            "url": "https://github.com/pacifio/atlas",
+            "why_hot": "单日895星，Rust项目",
+            "stars_today": 895,
+            "total_stars": 2792
+          },
+          {
+            "full_name": "anthropics/claude-plugins-community",
+            "url": "https://github.com/anthropics/claude-plugins-community",
+            "why_hot": "单日0星，Python项目",
+            "stars_today": 0,
+            "total_stars": 3259
+          },
+          {
+            "full_name": "tt-a1i/archify",
+            "url": "https://github.com/tt-a1i/archify",
+            "why_hot": "单日0星，JavaScript项目",
+            "stars_today": 0,
+            "total_stars": 43618
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "274"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+5434"
+          }
+        ],
+        "must_read_ids": [
+          "17a133fee8f3",
+          "2526d3aeeaaf",
+          "e60d19bcbc87",
+          "b4212d4b4d44",
+          "978e35c60717"
+        ],
+        "text": "今日共收录274篇AI新闻，分类分布：学术研究188篇, 开源项目44篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（55篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "google-research /timesfm",
+          "DietrichGebert /ponytail",
+          "sngyai /Sequoia-X",
+          "ChromeDevTools /chrome-devtools-mcp",
+          "NousResearch /hermes-agent"
+        ],
+        "meta": {
+          "total_articles": 274,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1788376830
     }
   }
 }

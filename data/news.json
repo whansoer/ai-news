@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-02T12:42:45Z",
-  "total": 223,
-  "new_count": 75,
+  "updated": "2026-09-02T19:20:30Z",
+  "total": 228,
+  "new_count": 51,
   "items": [
     {
       "id": "17a133fee8f3",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-09-02T12:40:37Z",
+      "published": "2026-09-02T19:18:31Z",
       "tags": [
         "Google"
       ],
@@ -21,7 +21,7 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "4320c69e5f6d"
+          "e1de7b83c193"
         ],
         "score": 5
       },
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "published": "2026-09-02T12:40:37Z",
+      "published": "2026-09-02T19:18:31Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
-      "published": "2026-09-02T12:40:37Z",
+      "published": "2026-09-02T19:18:31Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -89,7 +89,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Chrome DevTools for coding agents",
-      "published": "2026-09-02T12:40:37Z",
+      "published": "2026-09-02T19:18:31Z",
       "tags": [
         "Agent"
       ],
@@ -116,7 +116,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent that grows with you",
-      "published": "2026-09-02T12:40:37Z",
+      "published": "2026-09-02T19:18:31Z",
       "tags": [
         "Agent"
       ],
@@ -143,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source inference server and production cluster for all the models your agent needs.",
-      "published": "2026-09-02T12:40:37Z",
+      "published": "2026-09-02T19:18:31Z",
       "tags": [
         "Agent"
       ],
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
-      "published": "2026-09-02T12:40:37Z",
+      "published": "2026-09-02T19:18:31Z",
       "tags": [
         "Agent"
       ],
@@ -191,6 +191,145 @@
       "oneliner": "Source control for agents. Use multiple coding agents, track their changes and query them in one pla"
     },
     {
+      "id": "f4f32c43cdae",
+      "title": "Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs",
+      "url": "https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with passthrough, random, LLM-classifier, or stage-router algorithms, and translates responses back...",
+      "published": "2026-09-02T18:05:52Z",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "LLM",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "a74404bc73b9",
+          "0128337c7dc1"
+        ],
+        "score": 7
+      },
+      "title_zh": "Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs",
+      "summary_zh": "NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with passthrough, random, LLM-classifier, or stage-router algorithms, and translates responses back...",
+      "tags_zh": [
+        "OpenAI",
+        "Anthropic",
+        "LLM",
+        "API"
+      ],
+      "oneliner": "NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes req"
+    },
+    {
+      "id": "e1de7b83c193",
+      "title": "Google DeepMind Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber: One Core Model, Two Access Envelopes",
+      "url": "https://www.marktechpost.com/2026/09/02/google-deepmind-releases-gemini-3-8-flash-and-gemini-3-8-flash-cyber-one-core-model-two-access-envelopes/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber on September 2, 2026. Both variants run on the same foundational intelligence, split by safety mitigations rather than model size. Gemini 3.8 Flash is generally available at $0.75 and...",
+      "published": "2026-09-02T17:20:24Z",
+      "tags": [
+        "Gemini",
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "17a133fee8f3",
+          "a93398dd2637"
+        ],
+        "score": 7
+      },
+      "title_zh": "Google DeepMind Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber: One Core Model, Two Access Envelopes",
+      "summary_zh": "Google released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber on September 2, 2026. Both variants run on the same foundational intelligence, split by safety mitigations rather than model size. Gemini 3.8 Flash is generally available at $0.75 and...",
+      "tags_zh": [
+        "Gemini",
+        "Google"
+      ],
+      "oneliner": "Google released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber on September 2, 2026. Both variants run "
+    },
+    {
+      "id": "9fef7b06147a",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "Introducing Fairwind Program",
+      "published": "2026-09-02T15:40:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Proactive cyber defense for governments and enterprises",
+      "summary_zh": "Introducing Fairwind Program",
+      "tags_zh": [],
+      "oneliner": "Introducing Fairwind Program"
+    },
+    {
+      "id": "306368423a90",
+      "title": "Motional and MIT AI explains self-driving car decisions",
+      "url": "https://www.artificialintelligence-news.com/news/motional-and-mit-ai-explains-self-driving-car-decisions/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Motional and MIT researchers have built a system that lets self-driving cars explain their decisions in real-time, tackling the black-box problem in autonomous vehicle AI. The work, published in Nature, comes from a team at Motional that includes...",
+      "published": "2026-09-02T15:25:12Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Motional and MIT AI explains self-driving car decisions",
+      "summary_zh": "Motional and MIT researchers have built a system that lets self-driving cars explain their decisions in real-time, tackling the black-box problem in autonomous vehicle AI. The work, published in Nature, comes from a team at Motional that includes...",
+      "tags_zh": [],
+      "oneliner": "Motional and MIT researchers have built a system that lets self-driving cars explain their decisions"
+    },
+    {
+      "id": "d23fc469a2f7",
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-09-02T13:49:14Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "409f5d94aff0"
+        ],
+        "score": 5
+      },
+      "title_zh": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "a74404bc73b9",
       "title": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection",
       "url": "https://www.marktechpost.com/2026/09/02/anthropic-enterprise-frontier-safeguards-efs/",
@@ -208,9 +347,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "f4f32c43cdae",
           "0128337c7dc1"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "Anthropic Introduces Enterprise Frontier Safeguards (EFS): Zero-Data-Retention Privacy Plus Cross-Session Misuse Detection",
       "summary_zh": "Anthropic announced Enterprise Frontier Safeguards on September 1, 2026, an architecture that stores monitoring data in the customer's own cloud account rather than Anthropic's. Detection stays automated and Anthropic-run; custody, encryption...",
@@ -235,8 +375,10 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
+        "level": "multi-source",
+        "corroborating_ids": [
+          "d23fc469a2f7"
+        ],
         "score": 5
       },
       "title_zh": "Meta Superintelligence Labs Releases Muse Voice Transcribe: One Real-Time Model for Streaming ASR, Diarization, and Endpointing",
@@ -426,10 +568,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "ValueGraph: Value-Signal Guided Graph Pre-training for Contextualized User Representation",
-      "summary_zh": "arXiv:2609.00057v1 Announce Type: new \nAbstract: Value signals are aggregated user-level moral representations that capture users' inferred value-related tendencies from their online discourse. User behavior on social media is shaped not only by...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.00057v1 Announce Type: new \nAbstract: Value signals are aggregated user-level moral repre"
+      "oneliner": ""
     },
     {
       "id": "5a30cead0e06",
@@ -451,12 +593,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language",
-      "summary_zh": "arXiv:2609.00058v1 Announce Type: new \nAbstract: Developing high-performance CUDA kernels demands specialized knowledge in algorithm implementation, correctness validation, and hardware-aware parallel optimization, creating a substantial...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.00058v1 Announce Type: new \nAbstract: Developing high-performance CUDA kernels demands sp"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "8b9bf8b5585e",
@@ -479,13 +619,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "RePro: Proof-Verified Benchmark Rewriting for Reliable Evaluation of LLM Mathematical Problem Solving",
-      "summary_zh": "arXiv:2609.00062v1 Announce Type: new \nAbstract: Data contamination undermines the reliable evaluation of large language models (LLMs) on mathematical problem solving. While rewriting-based evaluation mitigates memorization, existing methods lack...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.00062v1 Announce Type: new \nAbstract: Data contamination undermines the reliable evaluati"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "96b381a61d45",
@@ -505,10 +642,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Medical Causal Hypothesis Verification with Large Language Models",
-      "summary_zh": "arXiv:2609.00063v1 Announce Type: new \nAbstract: The growing use of large language models (LLMs) for search and information retrieval underscores the need to evaluate their reliability in high-stakes domains such as healthcare. Although LLMs can...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.00063v1 Announce Type: new \nAbstract: The growing use of large language models (LLMs) for"
+      "oneliner": ""
     },
     {
       "id": "ed19066ef682",
@@ -532,12 +669,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
-      "summary_zh": "arXiv:2609.00065v1 Announce Type: new \nAbstract: A language-model agent asked to analyse an experiment will usually return working code. Whether the analysis is defensible is a different question. A defensible analysis depends on procedural...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.00065v1 Announce Type: new \nAbstract: A language-model agent asked to analyse an experime"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b70bf59cdca4",
@@ -1186,9 +1321,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "f4f32c43cdae",
           "a74404bc73b9"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1219,6 +1355,27 @@
       "oneliner": ""
     },
     {
+      "id": "58675a144907",
+      "title": "ChatGPT Ads passes $1B run rate in 200 days",
+      "url": "https://www.artificialintelligence-news.com/news/chatgpt-ads-passes-1b-run-rate-in-200-days/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "ChatGPT Ads has hit $1 billion in annualised revenue run rate in under 200 days, and OpenAI is expanding self-service ads to new regions. Tens of thousands of advertisers now use the platform and self-service access through Ads Manager is...",
+      "published": "2026-09-01T16:05:27Z",
+      "tags": [
+        "GPT"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "4320c69e5f6d",
       "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
       "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
@@ -1236,10 +1393,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "17a133fee8f3",
           "f173b7f568cb"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1309,6 +1465,25 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2c18a48084e1",
+      "title": "Why MCP servers are becoming AI’s newest attack surface",
+      "url": "https://www.artificialintelligence-news.com/news/why-mcp-servers-are-becoming-ais-newest-attack-surface/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "As AI adoption gathers pace, so does the evolution of the infrastructure that supports it. New standards and connectors keep appearing, and the ones that catch on spread through the ecosystem within months rather than years. That speed...",
+      "published": "2026-09-01T07:37:26Z",
+      "tags": [],
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
@@ -3567,9 +3742,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
+        "level": "multi-source",
+        "corroborating_ids": [
+          "e1de7b83c193"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5359,56 +5536,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "69f03bede522",
-      "title": "Alibaba’s Qwen Team Releases Qwen3.8-Flash-Next: A 125B Multimodal MoE With 6B Active Parameters Previewing the Qwen4 Architecture",
-      "url": "https://www.marktechpost.com/2026/08/26/alibabas-qwen-team-releases-qwen3-8-flash-next-a-125b-multimodal-moe-with-6b-active-parameters-previewing-the-qwen4-architecture/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "We look at Qwen3.8-Flash-Next, Alibaba's open-weight multimodal Mixture-of-Experts model and an early preview of the Qwen4 architecture. We break down where the 180B parameters actually sit: a 125B backbone, a 51B N-gram embedding table, and a 4B...",
-      "published": "2026-08-26T15:20:00Z",
-      "tags": [
-        "Qwen"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "76f643504ea5",
-      "title": "What Would Have to Be True for Agentic Coding to Replace Junior Engineers",
-      "url": "https://www.marktechpost.com/2026/08/26/what-would-have-to-be-true-for-agentic-coding-to-replace-junior-engineers/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Four falsifiable conditions for agentic coding replacing juniors, tested against METR, OpenAI, DORA and Stanford primary source evidence\nThe post What Would Have to Be True for Agentic Coding to Replace Junior Engineers appeared first on...",
-      "published": "2026-08-26T14:20:35Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",

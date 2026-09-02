@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T12:42:45Z",
+  "updated": "2026-09-02T19:20:30Z",
   "total": 20,
   "items": [
     {
@@ -92,6 +92,74 @@
         "Agent"
       ],
       "oneliner": "Source control for agents. Use multiple coding agents, track their changes and query them in one pla",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f4f32c43cdae",
+      "title_zh": "Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs",
+      "summary_zh": "NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes requests into provider-neutral types, routes them with passthrough, random, LLM-classifier, or stage-router algorithms, and translates responses back...",
+      "tags_zh": [
+        "OpenAI",
+        "Anthropic",
+        "LLM",
+        "API"
+      ],
+      "oneliner": "NVIDIA has released Switchyard, an Apache-2.0 Rust proxy and library for LLM traffic. It decodes req",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e1de7b83c193",
+      "title_zh": "Google DeepMind Releases Gemini 3.8 Flash and Gemini 3.8 Flash Cyber: One Core Model, Two Access Envelopes",
+      "summary_zh": "Google released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber on September 2, 2026. Both variants run on the same foundational intelligence, split by safety mitigations rather than model size. Gemini 3.8 Flash is generally available at $0.75 and...",
+      "tags_zh": [
+        "Gemini",
+        "Google"
+      ],
+      "oneliner": "Google released Gemini 3.8 Flash and Gemini 3.8 Flash Cyber on September 2, 2026. Both variants run ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9fef7b06147a",
+      "title_zh": "Proactive cyber defense for governments and enterprises",
+      "summary_zh": "Introducing Fairwind Program",
+      "tags_zh": [],
+      "oneliner": "Introducing Fairwind Program",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "306368423a90",
+      "title_zh": "Motional and MIT AI explains self-driving car decisions",
+      "summary_zh": "Motional and MIT researchers have built a system that lets self-driving cars explain their decisions in real-time, tackling the black-box problem in autonomous vehicle AI. The work, published in Nature, comes from a team at Motional that includes...",
+      "tags_zh": [],
+      "oneliner": "Motional and MIT researchers have built a system that lets self-driving cars explain their decisions",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d23fc469a2f7",
+      "title_zh": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -204,73 +272,6 @@
         "LLM"
       ],
       "oneliner": "arXiv:2609.00055v1 Announce Type: new \nAbstract: Self-supervised respiratory encoders lack semantic ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e59ca8ebcfdb",
-      "title_zh": "ValueGraph: Value-Signal Guided Graph Pre-training for Contextualized User Representation",
-      "summary_zh": "arXiv:2609.00057v1 Announce Type: new \nAbstract: Value signals are aggregated user-level moral representations that capture users' inferred value-related tendencies from their online discourse. User behavior on social media is shaped not only by...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.00057v1 Announce Type: new \nAbstract: Value signals are aggregated user-level moral repre",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5a30cead0e06",
-      "title_zh": "CUDA-Harness: Harnessing Agentic CUDA Kernel Generation and Optimization from Natural Language",
-      "summary_zh": "arXiv:2609.00058v1 Announce Type: new \nAbstract: Developing high-performance CUDA kernels demands specialized knowledge in algorithm implementation, correctness validation, and hardware-aware parallel optimization, creating a substantial...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.00058v1 Announce Type: new \nAbstract: Developing high-performance CUDA kernels demands sp",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "8b9bf8b5585e",
-      "title_zh": "RePro: Proof-Verified Benchmark Rewriting for Reliable Evaluation of LLM Mathematical Problem Solving",
-      "summary_zh": "arXiv:2609.00062v1 Announce Type: new \nAbstract: Data contamination undermines the reliable evaluation of large language models (LLMs) on mathematical problem solving. While rewriting-based evaluation mitigates memorization, existing methods lack...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.00062v1 Announce Type: new \nAbstract: Data contamination undermines the reliable evaluati",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "96b381a61d45",
-      "title_zh": "Medical Causal Hypothesis Verification with Large Language Models",
-      "summary_zh": "arXiv:2609.00063v1 Announce Type: new \nAbstract: The growing use of large language models (LLMs) for search and information retrieval underscores the need to evaluate their reliability in high-stakes domains such as healthcare. Although LLMs can...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.00063v1 Announce Type: new \nAbstract: The growing use of large language models (LLMs) for",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ed19066ef682",
-      "title_zh": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
-      "summary_zh": "arXiv:2609.00065v1 Announce Type: new \nAbstract: A language-model agent asked to analyse an experiment will usually return working code. Whether the analysis is defensible is a different question. A defensible analysis depends on procedural...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.00065v1 Announce Type: new \nAbstract: A language-model agent asked to analyse an experime",
       "key_facts": [],
       "notable_quote": {
         "text": "",
