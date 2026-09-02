@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-01T19:20:32Z",
-  "total": 230,
+  "updated": "2026-09-02T03:27:22Z",
+  "total": 244,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,7 +8,7 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 45
+      "count": 60
     },
     {
       "name": "GitHub Trending",
@@ -19,7 +19,7 @@
       "count": 25
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -27,7 +27,7 @@
       "count": 15
     },
     {
-      "name": "Hugging Face",
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -36,25 +36,25 @@
     },
     {
       "name": "AI News",
-      "count": 4
+      "count": 3
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 44
+      "count": 47
     },
     {
       "name": "LLM",
-      "count": 30
-    },
-    {
-      "name": "RAG",
-      "count": 12
+      "count": 32
     },
     {
       "name": "Benchmark",
-      "count": 11
+      "count": 13
+    },
+    {
+      "name": "RAG",
+      "count": 13
     },
     {
       "name": "Google",
@@ -62,7 +62,7 @@
     },
     {
       "name": "Claude",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Embedding",
@@ -73,6 +73,10 @@
       "count": 5
     },
     {
+      "name": "OpenAI",
+      "count": 4
+    },
+    {
       "name": "Gemini",
       "count": 4
     },
@@ -81,12 +85,12 @@
       "count": 3
     },
     {
-      "name": "OpenAI",
+      "name": "DeepSeek",
       "count": 3
     },
     {
-      "name": "DeepSeek",
-      "count": 3
+      "name": "Anthropic",
+      "count": 2
     },
     {
       "name": "Prompt",
@@ -107,20 +111,12 @@
     {
       "name": "Diffusion",
       "count": 1
-    },
-    {
-      "name": "Anthropic",
-      "count": 1
-    },
-    {
-      "name": "Meta",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 155
+      "count": 170
     },
     {
       "name": "开源项目",
@@ -132,14 +128,10 @@
     },
     {
       "name": "产品/API",
-      "count": 4
+      "count": 3
     }
   ],
   "dailyTrend": [
-    {
-      "date": "08-26",
-      "count": 29
-    },
     {
       "date": "08-27",
       "count": 41
@@ -162,7 +154,11 @@
     },
     {
       "date": "09-01",
-      "count": 43
+      "count": 60
+    },
+    {
+      "date": "09-02",
+      "count": 4
     }
   ],
   "top10": [
@@ -191,6 +187,24 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "c0fa2da8b87b",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "e2c119acd909",
+      "title": "The latest AI news we announced in August 2026",
+      "score": 5,
+      "source": "Google AI"
+    },
+    {
+      "id": "0128337c7dc1",
+      "title": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "4be3ed23a721",
       "title": "How AI-native companies turn workflows into operating capability",
       "score": 5,
@@ -203,28 +217,10 @@
       "source": "Google AI"
     },
     {
-      "id": "56641fe02914",
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "id": "6b5bda482bf2",
+      "title": "Researchers from Princeton, Ant Group and Stanford Introduce AQuA: A Two-Part Agentic Framework for Autonomous Factor Discovery and Model Development in Quantitative Finance",
       "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "717af6605a95",
-      "title": "tt-a1i /archify",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "85717f608dd9",
-      "title": "Osmantic /ODS",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7445d3b513ae",
-      "title": "zhaoxuya520 /reverse-skill",
-      "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     }
   ]
 }
