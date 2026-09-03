@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-03T12:45:45Z",
-  "total": 227,
-  "new_count": 69,
+  "updated": "2026-09-03T19:14:59Z",
+  "total": 230,
+  "new_count": 46,
   "items": [
     {
       "id": "1ae169fb23a9",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-09-03T12:43:38Z",
+      "published": "2026-09-03T19:12:48Z",
       "tags": [
         "Agent"
       ],
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent that grows with you",
-      "published": "2026-09-03T12:43:38Z",
+      "published": "2026-09-03T19:12:48Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "published": "2026-09-03T12:43:38Z",
+      "published": "2026-09-03T19:12:48Z",
       "tags": [
         "Agent"
       ],
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Public repository for Agent Skills",
-      "published": "2026-09-03T12:43:38Z",
+      "published": "2026-09-03T19:12:48Z",
       "tags": [
         "Anthropic",
         "Agent"
@@ -105,10 +105,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "1ae169fb23a9",
-          "f4f32c43cdae"
+          "1ae169fb23a9"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "anthropics /skills",
       "summary_zh": "Public repository for Agent Skills",
@@ -125,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-09-03T12:43:38Z",
+      "published": "2026-09-03T19:12:48Z",
       "tags": [
         "Claude",
         "Agent"
@@ -154,7 +153,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agent skill that removes signs of AI-generated writing from text",
-      "published": "2026-09-03T12:43:38Z",
+      "published": "2026-09-03T19:12:48Z",
       "tags": [
         "Agent"
       ],
@@ -181,7 +180,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-09-03T12:43:38Z",
+      "published": "2026-09-03T19:12:48Z",
       "tags": [
         "Google"
       ],
@@ -190,11 +189,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "e1de7b83c193"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "google-research /timesfm",
       "summary_zh": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
@@ -202,6 +199,143 @@
         "Google"
       ],
       "oneliner": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Goo"
+    },
+    {
+      "id": "8d9ef31eeb73",
+      "title": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2",
+      "url": "https://www.marktechpost.com/2026/09/03/meta-ai-released-muse-spark-1-3-an-agentic-coding-model-that-uses-20-fewer-tool-calls-and-25-fewer-tokens-than-muse-spark-1-2/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Perplexity has shipped hybrid compute for its Mac app, splitting a single Perplexity Computer task between frontier models in the cloud and a compact model running on the user's machine. Tasks start in the cloud for search, planning and...",
+      "published": "2026-09-03T18:51:52Z",
+      "tags": [
+        "Meta",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "ba05de810031",
+          "8843dc819e4d"
+        ],
+        "score": 7
+      },
+      "title_zh": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2",
+      "summary_zh": "Perplexity has shipped hybrid compute for its Mac app, splitting a single Perplexity Computer task between frontier models in the cloud and a compact model running on the user's machine. Tasks start in the cloud for search, planning and...",
+      "tags_zh": [
+        "Meta",
+        "Agent"
+      ],
+      "oneliner": "Perplexity has shipped hybrid compute for its Mac app, splitting a single Perplexity Computer task b"
+    },
+    {
+      "id": "6a6bda6195d8",
+      "title": "OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
+      "url": "https://www.artificialintelligence-news.com/news/ai-last-mile-delivery-optimisation/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "OneRail has launched an AI-powered delivery platform that uses Nvidia technology to help retailers, wholesalers, and distributors decide how individual orders should be delivered. Called OmniSTAR, the system evaluates options including owned...",
+      "published": "2026-09-03T16:07:18Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "93d3506cb2c0"
+        ],
+        "score": 5
+      },
+      "title_zh": "OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
+      "summary_zh": "OneRail has launched an AI-powered delivery platform that uses Nvidia technology to help retailers, wholesalers, and distributors decide how individual orders should be delivered. Called OmniSTAR, the system evaluates options including owned...",
+      "tags_zh": [],
+      "oneliner": "OneRail has launched an AI-powered delivery platform that uses Nvidia technology to help retailers, "
+    },
+    {
+      "id": "93d3506cb2c0",
+      "title": "NVIDIA to acquire Hugging Face for $12.93B",
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-to-acquire-hugging-face-for-12-93b/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model repository&#8217;s platform and infrastructure. The transaction targets platform growth and infrastructure investment, aiming to expand AI access for...",
+      "published": "2026-09-03T15:50:31Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6a6bda6195d8"
+        ],
+        "score": 5
+      },
+      "title_zh": "NVIDIA to acquire Hugging Face for $12.93B",
+      "summary_zh": "NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model repository&#8217;s platform and infrastructure. The transaction targets platform growth and infrastructure investment, aiming to expand AI access for...",
+      "tags_zh": [],
+      "oneliner": "NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model reposito"
+    },
+    {
+      "id": "aad76210e0dc",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-09-03T13:13:48Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ba05de810031",
+      "title": "Perplexity Open Sources Lily: A Rust + Metal Inference Engine for Qwen3.6-35B-A3B on Apple Silicon",
+      "url": "https://www.marktechpost.com/2026/09/02/perplexity-open-sources-lily-a-rust-metal-inference-engine-for-qwen3-6-35b-a3b-on-apple-silicon/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Perplexity has open sourced Lily, the local inference engine behind Hybrid Compute in Perplexity Computer. Built in Rust with custom Metal kernels for one model on one chip family, it averages 1.23x MLX-LM's prefill throughput and 1.35x its...",
+      "published": "2026-09-03T06:57:07Z",
+      "tags": [
+        "Qwen",
+        "Meta"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "8d9ef31eeb73",
+          "8843dc819e4d"
+        ],
+        "score": 7
+      },
+      "title_zh": "Perplexity Open Sources Lily: A Rust + Metal Inference Engine for Qwen3.6-35B-A3B on Apple Silicon",
+      "summary_zh": "Perplexity has open sourced Lily, the local inference engine behind Hybrid Compute in Perplexity Computer. Built in Rust with custom Metal kernels for one model on one chip family, it averages 1.23x MLX-LM's prefill throughput and 1.35x its...",
+      "tags_zh": [
+        "Qwen",
+        "Meta"
+      ],
+      "oneliner": "Perplexity has open sourced Lily, the local inference engine behind Hybrid Compute in Perplexity Com"
     },
     {
       "id": "694c16a6fda4",
@@ -425,10 +559,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "AVERT: Audio-Verified Adjudication for Spoken Dialogue State Tracking",
-      "summary_zh": "arXiv:2609.01828v1 Announce Type: new \nAbstract: Spoken dialogue state tracking recovers slot-value pairs from speech, where ASR errors concentrate in entity values and persist across turns, making it both a generation and an editing problem. A...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.01828v1 Announce Type: new \nAbstract: Spoken dialogue state tracking recovers slot-value "
+      "oneliner": ""
     },
     {
       "id": "471e4bdb153c",
@@ -448,10 +582,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Interpretable Symptom Vectors for Depression in a Large Language Model",
-      "summary_zh": "arXiv:2609.01832v1 Announce Type: new \nAbstract: Patients with depression present with diverse symptom profiles, yet clinical practice routinely reduces this variation to a single severity score. Large language models (LLMs) can potentially...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.01832v1 Announce Type: new \nAbstract: Patients with depression present with diverse sympt"
+      "oneliner": ""
     },
     {
       "id": "2121d964ad81",
@@ -471,10 +605,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Candidate Generation and Definition-Guided Verification for Sentence-Level Depression Symptom Recognition",
-      "summary_zh": "arXiv:2609.01833v1 Announce Type: new \nAbstract: Sentence-level recognition of depression symptoms is challenging because similar expressions can differ in symptom relevance, and language-model inference is insufficiently grounded in diagnostic...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.01833v1 Announce Type: new \nAbstract: Sentence-level recognition of depression symptoms i"
+      "oneliner": ""
     },
     {
       "id": "c9507fc6cae1",
@@ -494,10 +628,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Cite or Decline: A Strict Course-Grounded Chatbot for STEM Lecture Videos",
-      "summary_zh": "arXiv:2609.01846v1 Announce Type: new \nAbstract: Recorded lecture videos, often enhanced with search and summarization features, are a standard study resource. However, students cannot easily ask course specific questions or verify answers...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.01846v1 Announce Type: new \nAbstract: Recorded lecture videos, often enhanced with search"
+      "oneliner": ""
     },
     {
       "id": "61d35b4dc61d",
@@ -517,10 +651,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Thinking effort aligns between humans and reasoning models in abductive reasoning",
-      "summary_zh": "arXiv:2609.01867v1 Announce Type: new \nAbstract: A major question in cognitive modeling concerns the behavioral alignment between large language models and humans across linguistic and non-linguistic tasks. Unlike standard LLMs, large reasoning...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.01867v1 Announce Type: new \nAbstract: A major question in cognitive modeling concerns the"
+      "oneliner": ""
     },
     {
       "id": "c3d20aadfb3d",
@@ -614,9 +748,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "8d9ef31eeb73",
+          "ba05de810031",
           "409f5d94aff0"
         ],
-        "score": 5
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1110,6 +1246,31 @@
       "oneliner": ""
     },
     {
+      "id": "d3f1aefcf4e4",
+      "title": "Qwen Developers Open-Sources zg (zvec-grep): A Local-First Search Layer Unifying ripgrep, BM25, and Vector Search",
+      "url": "https://www.marktechpost.com/2026/09/02/qwen-developers-open-sources-zg-zvec-grep-a-local-first-search-layer-unifying-ripgrep-bm25-and-vector-search/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We look at zg (zvec-grep), the local-first search layer that Qwen Developers just open-sourced under Apache 2.0. We explain how it puts ripgrep, BM25, and vector search behind a single interface, so an agent can move from a plain-language...",
+      "published": "2026-09-02T23:48:47Z",
+      "tags": [
+        "Qwen"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "f4f32c43cdae",
       "title": "Meet Switchyard: A Rust Proxy and Library That Routes and Translates LLM Traffic Across OpenAI and Anthropic APIs",
       "url": "https://www.marktechpost.com/2026/09/02/nvidia-releases-switchyard-rust-proxy-llm-traffic-openai-anthropic-api-translation/",
@@ -1130,11 +1291,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "ea97e2f9b307",
           "a74404bc73b9",
           "0128337c7dc1"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1160,10 +1320,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "17a133fee8f3",
           "a93398dd2637"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5432,77 +5591,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0e7fdf363488",
-      "title": "Best Agent Sandboxes in 2026: Cold Start, Per-Second Pricing, and Network Policy Across E2B, Daytona, Modal, Cloudflare, and Vercel",
-      "url": "https://www.marktechpost.com/2026/08/27/best-agent-sandboxes-2026-cold-start-pricing-network-policy/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Every agent that writes code needs somewhere to run it, and no two vendors quote the same units. This comparison measures burst cold start across E2B, Daytona, Modal, Cloudflare, and Vercel, normalizes per-second rates to cost per 1,000...",
-      "published": "2026-08-27T17:04:49Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6a67ad8b8f04",
-      "title": "3 new ways to plan and book travel in Search",
-      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "Graphic depicting new travel features for AI Mode in Search",
-      "published": "2026-08-27T16:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5858bd0f8a93",
-      "title": "From In-Silico to Wet-Lab: Evaluating AI Protein Design Performance",
-      "url": "https://www.marktechpost.com/2026/08/27/from-in-silico-to-wet-lab-evaluating-ai-protein-design-performance/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "In this tutorial, we analyze Anthropic’s 1,440 AI-designed protein binder dataset to benchmark 10 leading structure predictors. Discover how target identity, expression titers, and consensus scoring impact experimental success and learn best...",
-      "published": "2026-08-27T15:36:29Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
