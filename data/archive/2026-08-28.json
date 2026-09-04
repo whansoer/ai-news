@@ -1,8 +1,34 @@
 {
   "date": "2026-08-28",
-  "updated": "2026-09-04T12:39:27Z",
-  "total": 35,
+  "updated": "2026-09-04T18:57:19Z",
+  "total": 36,
   "items": [
+    {
+      "id": "1ee5809f2355",
+      "title": "Vercel AI Open-Sources vgpu: A TypeScript WebGPU Library for AI Agent Shaders",
+      "url": "https://www.marktechpost.com/2026/08/28/vercel-vgpu-webgpu-library-open-source/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Vercel has open-sourced vgpu, the WebGPU library it built to ship the shaders on vercel.com. It treats .wgsl files as importable TypeScript modules, runs the same shader in the browser, in headless Node.js via Dawn, and in a deterministic CI...",
+      "published": "2026-08-28T17:28:47Z",
+      "tags": [
+        "Agent",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "4d8e922de101",
       "title": "rohitg00 /ai-engineering-from-scratch",
