@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-03T19:14:59Z",
-  "total": 230,
-  "new_count": 46,
+  "updated": "2026-09-04T03:27:11Z",
+  "total": 231,
+  "new_count": 34,
   "items": [
     {
       "id": "1ae169fb23a9",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-09-03T19:12:48Z",
+      "published": "2026-09-04T03:25:01Z",
       "tags": [
         "Agent"
       ],
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent that grows with you",
-      "published": "2026-09-03T19:12:48Z",
+      "published": "2026-09-04T03:25:01Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "published": "2026-09-03T19:12:48Z",
+      "published": "2026-09-04T03:25:01Z",
       "tags": [
         "Agent"
       ],
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Public repository for Agent Skills",
-      "published": "2026-09-03T19:12:48Z",
+      "published": "2026-09-04T03:25:01Z",
       "tags": [
         "Anthropic",
         "Agent"
@@ -124,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-09-03T19:12:48Z",
+      "published": "2026-09-04T03:25:01Z",
       "tags": [
         "Claude",
         "Agent"
@@ -153,7 +153,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agent skill that removes signs of AI-generated writing from text",
-      "published": "2026-09-03T19:12:48Z",
+      "published": "2026-09-04T03:25:01Z",
       "tags": [
         "Agent"
       ],
@@ -180,7 +180,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-09-03T19:12:48Z",
+      "published": "2026-09-04T03:25:01Z",
       "tags": [
         "Google"
       ],
@@ -283,6 +283,29 @@
       "oneliner": "NVIDIA has agreed to acquire Hugging Face for $12.93 billion to scale the open-source model reposito"
     },
     {
+      "id": "30eec5aa5b07",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "published": "2026-09-03T13:15:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary_zh": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "tags_zh": [],
+      "oneliner": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to fronti"
+    },
+    {
       "id": "aad76210e0dc",
       "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
       "url": "https://huggingface.co/blog/Hcompany/neomme",
@@ -304,6 +327,60 @@
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": ""
+    },
+    {
+      "id": "d54e7a3a2a74",
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "published": "2026-09-03T12:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "summary_zh": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve"
+    },
+    {
+      "id": "9a8f1e3af0e0",
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "published": "2026-09-03T12:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "summary_zh": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and report"
     },
     {
       "id": "ba05de810031",
@@ -480,10 +557,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Disentangling Statistical Preemption from Entrenchment in Language Models' Avoidance of Overgeneralization",
-      "summary_zh": "arXiv:2609.01794v1 Announce Type: new \nAbstract: How do learners avoid overgeneralizations such as Tom laughed me without explicit negative evidence? Constructionists have posited two proposals that describe indirect negative evidence against...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.01794v1 Announce Type: new \nAbstract: How do learners avoid overgeneralizations such as T"
+      "oneliner": ""
     },
     {
       "id": "a68376f335e2",
@@ -506,13 +583,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "How Do Prompt Variations Affect Energy Consumption in On-Device LLMs?",
-      "summary_zh": "arXiv:2609.01798v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deployed on mobile devices, making energy efficiency a key deployment constraint, yet the energy impact of prompt design remains underexplored. This...",
-      "tags_zh": [
-        "LLM",
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2609.01798v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly deplo"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "e5554d93ab4d",
@@ -534,12 +608,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "TalkFa: A Unified Benchmark for Farsi Dialogue Generation and Understanding",
-      "summary_zh": "arXiv:2609.01810v1 Announce Type: new \nAbstract: Farsi, spoken by more than 120 million people, lacks a comprehensive benchmark for dialogue generation and understanding. We introduce TALKFA, a unified benchmark comprising three complementary...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.01810v1 Announce Type: new \nAbstract: Farsi, spoken by more than 120 million people, lack"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "16f08081bf0f",
@@ -1235,6 +1307,27 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "af3b8492cad0",
+      "title": "Safety overview: GPT-6 Astra",
+      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "published": "2026-09-03T00:00:00Z",
+      "tags": [
+        "GPT"
+      ],
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
@@ -5522,75 +5615,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "8a2a589ad996",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "published": "2026-08-28T02:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5f64da983ca6",
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-08-28T00:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e2e8424543d3",
-      "title": "Cohere Releases Parse 5 (parse-v5.0): A 2.3B Vision Language Model That Turns Enterprise Documents Into Markdown",
-      "url": "https://www.marktechpost.com/2026/08/27/cohere-releases-parse-5-parse-v5-0-a-2-3b-vision-language-model-that-turns-enterprise-documents-into-markdown/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Cohere has released Parse (parse-v5.0), a 2.3B-parameter vision language model that converts PDFs, slides and images into Markdown with HTML tables, bounding boxes and image descriptions. It runs at $1.50 per 1,000 pages through the API, or on...",
-      "published": "2026-08-27T20:05:49Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
