@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-04T03:27:00Z",
-  "total": 264,
+  "updated": "2026-09-04T12:39:16Z",
+  "total": 304,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 27
     },
     {
       "name": "OpenAI",
@@ -31,50 +31,62 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 5
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 68
     },
     {
       "name": "LLM",
-      "count": 31
+      "count": 36
     },
     {
       "name": "Benchmark",
-      "count": 16
+      "count": 18
     },
     {
       "name": "RAG",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Google",
-      "count": 9
+      "count": 10
     },
     {
       "name": "GPT",
-      "count": 9
-    },
-    {
-      "name": "Anthropic",
-      "count": 5
+      "count": 10
     },
     {
       "name": "Claude",
+      "count": 7
+    },
+    {
+      "name": "Anthropic",
+      "count": 6
+    },
+    {
+      "name": "API",
       "count": 5
     },
     {
       "name": "Gemini",
       "count": 5
+    },
+    {
+      "name": "Prompt",
+      "count": 4
+    },
+    {
+      "name": "OpenAI",
+      "count": 4
     },
     {
       "name": "Meta",
@@ -85,15 +97,7 @@
       "count": 4
     },
     {
-      "name": "API",
-      "count": 4
-    },
-    {
-      "name": "Prompt",
-      "count": 3
-    },
-    {
-      "name": "OpenAI",
+      "name": "Embedding",
       "count": 3
     },
     {
@@ -109,10 +113,6 @@
       "count": 2
     },
     {
-      "name": "Embedding",
-      "count": 2
-    },
-    {
       "name": "Fine-tune",
       "count": 1
     },
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 185
+      "count": 217
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 5
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -162,11 +162,11 @@
     },
     {
       "date": "09-03",
-      "count": 46
+      "count": 48
     },
     {
       "date": "09-04",
-      "count": 7
+      "count": 41
     }
   ],
   "top10": [
@@ -177,20 +177,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "978e35c60717",
-      "title": "NousResearch /hermes-agent",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "2526d3aeeaaf",
       "title": "DietrichGebert /ponytail",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "ea97e2f9b307",
-      "title": "anthropics /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,34 +189,46 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "786d914db71c",
       "title": "blader /humanizer",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "17a133fee8f3",
-      "title": "google-research /timesfm",
+      "id": "978e35c60717",
+      "title": "NousResearch /hermes-agent",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "8d9ef31eeb73",
-      "title": "Meta AI Released Muse Spark 1.3: An Agentic Coding Model That Uses ~20% Fewer Tool Calls and ~25% Fewer Tokens Than Muse Spark 1.2",
+      "id": "2f51b72af43a",
+      "title": "magnitudedev /magnitude",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "6a6bda6195d8",
-      "title": "OneRail uses Nvidia AI for real-time last-mile delivery optimisation",
+      "id": "a081a11168ff",
+      "title": "M&T Bank expands enterprise AI after years of technology overhaul",
       "score": 5,
       "source": "AI News"
     },
     {
-      "id": "93d3506cb2c0",
-      "title": "NVIDIA to acquire Hugging Face for $12.93B",
+      "id": "5a21b6934652",
+      "title": "50.5% of Americans Say AI Romance Can Count as Cheating",
       "score": 5,
       "source": "AI News"
+    },
+    {
+      "id": "54e405233703",
+      "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
