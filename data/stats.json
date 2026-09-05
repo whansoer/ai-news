@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-05T03:28:58Z",
-  "total": 266,
+  "updated": "2026-09-05T11:47:16Z",
+  "total": 276,
   "sources": [
-    {
-      "name": "ArXiv (cs.CL)",
-      "count": 75
-    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
+    {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 27
     },
     {
       "name": "OpenAI",
@@ -31,18 +31,18 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 7
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 66
     },
     {
       "name": "LLM",
@@ -54,10 +54,14 @@
     },
     {
       "name": "RAG",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Google",
+      "count": 10
+    },
+    {
+      "name": "Claude",
       "count": 9
     },
     {
@@ -65,12 +69,16 @@
       "count": 9
     },
     {
-      "name": "Claude",
-      "count": 7
-    },
-    {
       "name": "Anthropic",
       "count": 6
+    },
+    {
+      "name": "Meta",
+      "count": 5
+    },
+    {
+      "name": "Gemini",
+      "count": 5
     },
     {
       "name": "API",
@@ -85,19 +93,11 @@
       "count": 4
     },
     {
-      "name": "Meta",
-      "count": 4
+      "name": "Embedding",
+      "count": 3
     },
     {
       "name": "Qwen",
-      "count": 4
-    },
-    {
-      "name": "Gemini",
-      "count": 4
-    },
-    {
-      "name": "Embedding",
       "count": 3
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 185
+      "count": 187
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 7
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -162,11 +162,11 @@
     },
     {
       "date": "09-04",
-      "count": 34
+      "count": 19
     },
     {
       "date": "09-05",
-      "count": 7
+      "count": 28
     }
   ],
   "top10": [
@@ -177,26 +177,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "2526d3aeeaaf",
-      "title": "DietrichGebert /ponytail",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "a90d342e2181",
       "title": "affaan-m /ECC",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "ea97e2f9b307",
-      "title": "anthropics /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "786d914db71c",
-      "title": "blader /humanizer",
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -207,28 +195,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "2f51b72af43a",
-      "title": "magnitudedev /magnitude",
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "a081a11168ff",
-      "title": "M&T Bank expands enterprise AI after years of technology overhaul",
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
       "score": 5,
-      "source": "AI News"
+      "source": "GitHub Trending"
     },
     {
-      "id": "5a21b6934652",
-      "title": "50.5% of Americans Say AI Romance Can Count as Cheating",
+      "id": "9bde5582e8ba",
+      "title": "anomalyco /opencode",
       "score": 5,
-      "source": "AI News"
+      "source": "GitHub Trending"
     },
     {
-      "id": "54e405233703",
-      "title": "Where Does Harness-Optimization Value Live? Localized Gains and the Budget-Splitting Trap in Self-Evolving LLM Agents",
+      "id": "9a16f8b0667e",
+      "title": "ruvnet /ruflo",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "aa588c39b981",
+      "title": "Adaption Labs Introduces ‘Invent a Dataset’: Training Data Generated From a Task Description, Not a Seed Corpus",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "51a4c943d1cf",
+      "title": "Google Launches Agentic Video Understanding for Gemini Flash Models, Cutting Video Tokens by Up to 88%",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
