@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-06T03:29:29Z",
-  "total": 232,
-  "new_count": 32,
+  "updated": "2026-09-06T12:05:02Z",
+  "total": 230,
+  "new_count": 41,
   "items": [
     {
       "id": "1ae169fb23a9",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-09-06T03:27:24Z",
+      "published": "2026-09-06T12:03:04Z",
       "tags": [
         "Agent"
       ],
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-09-06T03:27:24Z",
+      "published": "2026-09-06T12:03:04Z",
       "tags": [
         "Claude",
         "Agent"
@@ -68,7 +68,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "published": "2026-09-06T03:27:24Z",
+      "published": "2026-09-06T12:03:04Z",
       "tags": [
         "Agent"
       ],
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent that grows with you",
-      "published": "2026-09-06T03:27:24Z",
+      "published": "2026-09-06T12:03:04Z",
       "tags": [
         "Agent"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Public repository for Agent Skills",
-      "published": "2026-09-06T03:27:24Z",
+      "published": "2026-09-06T12:03:04Z",
       "tags": [
         "Anthropic",
         "Agent"
@@ -153,7 +153,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-09-06T03:27:24Z",
+      "published": "2026-09-06T12:03:04Z",
       "tags": [
         "Claude"
       ],
@@ -180,7 +180,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open source coding agent.",
-      "published": "2026-09-06T03:27:24Z",
+      "published": "2026-09-06T12:03:04Z",
       "tags": [
         "Agent"
       ],
@@ -207,7 +207,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex...",
-      "published": "2026-09-06T03:27:24Z",
+      "published": "2026-09-06T12:03:04Z",
       "tags": [
         "Claude",
         "Meta",
@@ -232,6 +232,108 @@
         "RAG"
       ],
       "oneliner": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous wor"
+    },
+    {
+      "id": "6e14c88174a9",
+      "title": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
+      "url": "https://www.marktechpost.com/2026/09/05/uc-berkeley-researchers-release-cua-lite-an-open-platform-unifying-sandboxes-data-evaluation-and-rl-for-computer-use-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind...",
+      "published": "2026-09-06T06:11:02Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
+      "summary_zh": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and"
+    },
+    {
+      "id": "0ceb24e10cbb",
+      "title": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
+      "url": "https://www.marktechpost.com/2026/09/05/perplexity-details-its-gpu-embedding-stack-how-ivy-tulip-and-rose-serve-pplx-embed/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood...",
+      "published": "2026-09-06T03:20:47Z",
+      "tags": [
+        "Embedding",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
+      "summary_zh": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood...",
+      "tags_zh": [
+        "Embedding",
+        "GPU"
+      ],
+      "oneliner": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is,"
+    },
+    {
+      "id": "82b1a470656d",
+      "title": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI",
+      "url": "https://www.marktechpost.com/2026/09/05/github-introduces-project-hydrafusion-runtime-multi-model-orchestration-that-builds-a-workflow-per-coding-task-in-copilot-cli/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate,...",
+      "published": "2026-09-05T19:40:11Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI",
+      "summary_zh": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate,...",
+      "tags_zh": [],
+      "oneliner": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optim"
+    },
+    {
+      "id": "14ce067fa151",
+      "title": "Nous Research Adds One-Click Local Model Setup to Hermes Desktop",
+      "url": "https://www.marktechpost.com/2026/09/05/nous-research-hermes-desktop-one-click-local-model-setup/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your GPU, picks the highest-quality build that fits, downloads it, and configures llama.cpp — with a...",
+      "published": "2026-09-05T19:12:02Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Nous Research Adds One-Click Local Model Setup to Hermes Desktop",
+      "summary_zh": "Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your GPU, picks the highest-quality build that fits, downloads it, and configures llama.cpp — with a...",
+      "tags_zh": [],
+      "oneliner": "Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads y"
     },
     {
       "id": "aa588c39b981",
@@ -463,12 +565,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
-      "summary_zh": "arXiv:2609.03416v1 Announce Type: new \nAbstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the manual review capability. However, the limited context capacity and...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.03416v1 Announce Type: new \nAbstract: LLM-empowered paper-code discrepancy detection has "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "136b9d188c88",
@@ -490,12 +590,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
-      "summary_zh": "arXiv:2609.03423v1 Announce Type: new \nAbstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.03423v1 Announce Type: new \nAbstract: Full-duplex voice agents must continuously decide w"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "776244ff7243",
@@ -517,12 +615,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
-      "summary_zh": "arXiv:2609.03438v1 Announce Type: new \nAbstract: Graphical user interface (GUI) agents are increasingly used to execute natural-language instructions on user interfaces, yet real users may issue infeasible instructions due to benign mistakes. A...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.03438v1 Announce Type: new \nAbstract: Graphical user interface (GUI) agents are increasin"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b42f99c0f6bb",
@@ -542,10 +638,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Beyond \"Made with AI\": Visualizing Provenance Density to Mitigate the Transparency Penalty",
-      "summary_zh": "arXiv:2609.03460v1 Announce Type: new \nAbstract: As generative AI makes polished prose cheap to produce, users can no longer rely on fluency as a proxy for truth. We call this failure mode the Fluency Trap: users trust fluent hallucinations while...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.03460v1 Announce Type: new \nAbstract: As generative AI makes polished prose cheap to prod"
+      "oneliner": ""
     },
     {
       "id": "573df8a52dff",
@@ -5521,153 +5617,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "51aa9f2e1c5c",
-      "title": "Anthropic Opens a Research Preview of the Model Hardware Standard (MHS): A Shared Specification for  AI Agents to Safely Operate Physical Devices",
-      "url": "https://www.marktechpost.com/2026/08/29/anthropic-opens-a-research-preview-of-the-model-hardware-standard-mhs-a-shared-specification-for-ai-agents-to-safely-operate-physical-devices/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Anthropic has opened a research preview of the Model Hardware Standard (MHS), a shared driver specification that lets AI agents discover and safely operate physical devices. Instrument integration that normally takes weeks or months drops to...",
-      "published": "2026-08-30T06:12:21Z",
-      "tags": [
-        "Anthropic",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 4
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2e99c10b71a9",
-      "title": "tailscale /tailcat",
-      "url": "https://github.com/tailscale/tailcat",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "published": "2026-08-30T04:13:02Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "aca988ca8dd4",
-      "title": "bigskysoftware /htmx",
-      "url": "https://github.com/bigskysoftware/htmx",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "htmx - high power tools for HTML",
-      "published": "2026-08-30T04:13:02Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7ee06cf44cee",
-      "title": "JetBrains /go-modern-guidelines",
-      "url": "https://github.com/JetBrains/go-modern-guidelines",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Help AI coding agents write modern Go",
-      "published": "2026-08-30T04:13:02Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7e39ec2390d0",
-      "title": "ComposioHQ /awesome-claude-skills",
-      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "published": "2026-08-30T04:13:02Z",
-      "tags": [
-        "Claude"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "20703a86e2b0",
-      "title": "calesthio /OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-08-30T04:13:02Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T03:29:29Z",
+  "updated": "2026-09-06T12:05:02Z",
   "total": 20,
   "items": [
     {
@@ -120,6 +120,59 @@
       }
     },
     {
+      "id": "6e14c88174a9",
+      "title_zh": "UC Berkeley Researchers Release CUA-Lite, an Open Platform Unifying Sandboxes, Data, Evaluation and RL for Computer-Use Agents",
+      "summary_zh": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and a framework to evaluate and train them — and all four ship in incompatible formats today. CUA-Lite, from a UC Berkeley led team, puts them behind...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Training and benchmarking a computer-use agent needs four things — agents, environments, traces, and",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "0ceb24e10cbb",
+      "title_zh": "Perplexity Details Its GPU Embedding Stack: How Ivy, Tulip and ROSE Serve pplx-embed",
+      "summary_zh": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is, and how cheaply you can run it across an index. This week, Perplexity Engineering team published Fast Embeddings on GPUs, an under-the-hood...",
+      "tags_zh": [
+        "Embedding",
+        "GPU"
+      ],
+      "oneliner": "Retrieval quality in an AI search product is bounded by two things: how good the embedding model is,",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "82b1a470656d",
+      "title_zh": "GitHub Introduces Project HydraFusion: Runtime Multi-Model Orchestration That Builds a Workflow Per Coding Task in Copilot CLI",
+      "summary_zh": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optimization problem rather than a model picker. We break down the three execution patterns it routes between — Single, Cascade with a quality gate,...",
+      "tags_zh": [],
+      "oneliner": "We look at Project HydraFusion, GitHub's research preview that treats workflow selection as an optim",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "14ce067fa151",
+      "title_zh": "Nous Research Adds One-Click Local Model Setup to Hermes Desktop",
+      "summary_zh": "Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads your hardware, fit-checks the catalog against your GPU, picks the highest-quality build that fits, downloads it, and configures llama.cpp — with a...",
+      "tags_zh": [],
+      "oneliner": "Nous Research has collapsed local model setup into a single click in Hermes Desktop. The app reads y",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "aa588c39b981",
       "title_zh": "Adaption Labs Introduces ‘Invent a Dataset’: Training Data Generated From a Task Description, Not a Seed Corpus",
       "summary_zh": "Adaption Labs has released Invent a Dataset, which generates a structured, training-ready dataset from a description of the behavior you want a model to learn. There is no seed corpus, no schema design, and no labeling guide. A single...",
@@ -222,60 +275,6 @@
         "LLM"
       ],
       "oneliner": "arXiv:2609.03407v1 Announce Type: new \nAbstract: People increasingly turn to large language models (",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7f17222f018b",
-      "title_zh": "Dude: A Dual-Detection Multi-Agent System for Paper-Code Discrepancy Detection",
-      "summary_zh": "arXiv:2609.03416v1 Announce Type: new \nAbstract: LLM-empowered paper-code discrepancy detection has received growing concern since the scaling of research submissions exceeds the manual review capability. However, the limited context capacity and...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.03416v1 Announce Type: new \nAbstract: LLM-empowered paper-code discrepancy detection has ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "136b9d188c88",
-      "title_zh": "DuplexSpeechBench-IFEval: Evaluating Implicit Instruction Following in Full-Duplex Voice Agents",
-      "summary_zh": "arXiv:2609.03423v1 Announce Type: new \nAbstract: Full-duplex voice agents must continuously decide when to listen, backchannel, interrupt, handle speech overlaps, take the floor, and yield. Existing benchmarks largely test these behaviors through...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.03423v1 Announce Type: new \nAbstract: Full-duplex voice agents must continuously decide w",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "776244ff7243",
-      "title_zh": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
-      "summary_zh": "arXiv:2609.03438v1 Announce Type: new \nAbstract: Graphical user interface (GUI) agents are increasingly used to execute natural-language instructions on user interfaces, yet real users may issue infeasible instructions due to benign mistakes. A...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.03438v1 Announce Type: new \nAbstract: Graphical user interface (GUI) agents are increasin",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b42f99c0f6bb",
-      "title_zh": "Beyond \"Made with AI\": Visualizing Provenance Density to Mitigate the Transparency Penalty",
-      "summary_zh": "arXiv:2609.03460v1 Announce Type: new \nAbstract: As generative AI makes polished prose cheap to produce, users can no longer rely on fluency as a proxy for truth. We call this failure mode the Fluency Trap: users trust fluent hallucinations while...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.03460v1 Announce Type: new \nAbstract: As generative AI makes polished prose cheap to prod",
       "key_facts": [],
       "notable_quote": {
         "text": "",
