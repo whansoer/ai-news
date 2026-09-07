@@ -1,26 +1,26 @@
 {
-  "updated": "2026-09-07T03:28:42Z",
-  "total": 269,
+  "updated": "2026-09-07T14:10:12Z",
+  "total": 307,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 75
+      "name": "ArXiv (cs.CL)",
+      "count": 90
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 75
+      "name": "ArXiv (cs.AI)",
+      "count": 90
     },
     {
       "name": "GitHub Trending",
-      "count": 26
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 27
     },
     {
       "name": "OpenAI",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Hugging Face",
@@ -42,23 +42,23 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 60
+      "count": 72
     },
     {
       "name": "LLM",
-      "count": 28
+      "count": 34
     },
     {
       "name": "Benchmark",
-      "count": 16
+      "count": 18
     },
     {
       "name": "RAG",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Claude",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Google",
@@ -69,16 +69,24 @@
       "count": 8
     },
     {
+      "name": "Meta",
+      "count": 7
+    },
+    {
       "name": "OpenAI",
       "count": 6
     },
     {
-      "name": "Meta",
-      "count": 6
+      "name": "API",
+      "count": 5
     },
     {
       "name": "Anthropic",
       "count": 5
+    },
+    {
+      "name": "Prompt",
+      "count": 4
     },
     {
       "name": "Embedding",
@@ -89,15 +97,11 @@
       "count": 4
     },
     {
-      "name": "API",
-      "count": 4
-    },
-    {
-      "name": "GPU",
+      "name": "Transformer",
       "count": 3
     },
     {
-      "name": "Prompt",
+      "name": "GPU",
       "count": 3
     },
     {
@@ -107,10 +111,6 @@
     {
       "name": "DeepSeek",
       "count": 3
-    },
-    {
-      "name": "Transformer",
-      "count": 2
     },
     {
       "name": "Fine-tune",
@@ -124,15 +124,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 186
+      "count": 217
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 47
     },
     {
       "name": "模型发布",
-      "count": 30
+      "count": 31
     },
     {
       "name": "产品/API",
@@ -166,10 +166,28 @@
     },
     {
       "date": "09-07",
-      "count": 10
+      "count": 49
     }
   ],
   "top10": [
+    {
+      "id": "1c708e2373ce",
+      "title": "heygen-com /hyperframes",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1bcf0237559d",
+      "title": "mksglu /context-mode",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1fbaa3734f80",
+      "title": "jo-inc /camofox-browser",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "a90d342e2181",
       "title": "affaan-m /ECC",
@@ -177,58 +195,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "1ae169fb23a9",
-      "title": "mattpocock /skills",
+      "id": "7344796a1c66",
+      "title": "coreyhaines31 /marketingskills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "f0faec98f86e",
-      "title": "cathrynlavery /diagram-design",
+      "id": "b78843cbbd77",
+      "title": "The-Swarm-Corporation /AutoHedge",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "978e35c60717",
-      "title": "NousResearch /hermes-agent",
+      "id": "8715d70f7c6f",
+      "title": "bytedance /deer-flow",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "e60f6498c318",
-      "title": "openai /skills",
+      "id": "f455244d709f",
+      "title": "MG Ship adds AI route optimisation as logistics returns accelerate",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "AI News"
     },
     {
-      "id": "9bde5582e8ba",
-      "title": "anomalyco /opencode",
+      "id": "f025b06bf343",
+      "title": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     },
     {
-      "id": "786d914db71c",
-      "title": "blader /humanizer",
+      "id": "538da88ea195",
+      "title": "How Much Does Corpus Choice Change Dependency-Distance Estimates?",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "eeb7198dc2eb",
-      "title": "llvm /llvm-project",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "2526d3aeeaaf",
-      "title": "DietrichGebert /ponytail",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "9a16f8b0667e",
-      "title": "ruvnet /ruflo",
-      "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
