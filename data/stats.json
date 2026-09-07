@@ -1,26 +1,26 @@
 {
-  "updated": "2026-09-07T14:10:12Z",
-  "total": 307,
+  "updated": "2026-09-07T19:47:39Z",
+  "total": 290,
   "sources": [
-    {
-      "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 90
     },
     {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
+    {
       "name": "GitHub Trending",
-      "count": 32
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 28
     },
     {
       "name": "OpenAI",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Hugging Face",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 69
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 31
     },
     {
       "name": "Benchmark",
@@ -89,10 +89,6 @@
       "count": 4
     },
     {
-      "name": "Embedding",
-      "count": 4
-    },
-    {
       "name": "Gemini",
       "count": 4
     },
@@ -102,6 +98,10 @@
     },
     {
       "name": "GPU",
+      "count": 3
+    },
+    {
+      "name": "Embedding",
       "count": 3
     },
     {
@@ -115,24 +115,20 @@
     {
       "name": "Fine-tune",
       "count": 1
-    },
-    {
-      "name": "Diffusion",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 217
+      "count": 203
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 45
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 30
     },
     {
       "name": "产品/API",
@@ -166,7 +162,7 @@
     },
     {
       "date": "09-07",
-      "count": 49
+      "count": 51
     }
   ],
   "top10": [
@@ -213,22 +209,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "f455244d709f",
-      "title": "MG Ship adds AI route optimisation as logistics returns accelerate",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "f025b06bf343",
-      "title": "IFM Releases K2 Horizon: Six Apache 2.0 Models From 0.9B to 375B",
+      "id": "448a30ce1afe",
+      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "538da88ea195",
-      "title": "How Much Does Corpus Choice Change Dependency-Distance Estimates?",
+      "id": "382438f539b7",
+      "title": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "f455244d709f",
+      "title": "MG Ship adds AI route optimisation as logistics returns accelerate",
+      "score": 5,
+      "source": "AI News"
     }
   ]
 }

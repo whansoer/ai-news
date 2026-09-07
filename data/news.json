@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-07T14:10:22Z",
-  "total": 252,
-  "new_count": 73,
+  "updated": "2026-09-07T19:47:48Z",
+  "total": 254,
+  "new_count": 38,
   "items": [
     {
       "id": "1c708e2373ce",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Write HTML. Render video. Built for agents.",
-      "published": "2026-09-07T14:07:58Z",
+      "published": "2026-09-07T19:45:42Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "published": "2026-09-07T14:07:58Z",
+      "published": "2026-09-07T19:45:42Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
-      "published": "2026-09-07T14:07:58Z",
+      "published": "2026-09-07T19:45:42Z",
       "tags": [
         "Agent",
         "API"
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-09-07T14:07:58Z",
+      "published": "2026-09-07T19:45:42Z",
       "tags": [
         "Claude",
         "Agent"
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "published": "2026-09-07T14:07:58Z",
+      "published": "2026-09-07T19:45:42Z",
       "tags": [
         "Claude",
         "Agent"
@@ -151,7 +151,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
-      "published": "2026-09-07T14:07:58Z",
+      "published": "2026-09-07T19:45:42Z",
       "tags": [
         "Agent"
       ],
@@ -178,7 +178,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "published": "2026-09-07T14:07:58Z",
+      "published": "2026-09-07T19:45:42Z",
       "tags": [
         "Agent",
         "RAG"
@@ -199,6 +199,58 @@
         "RAG"
       ],
       "oneliner": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of"
+    },
+    {
+      "id": "448a30ce1afe",
+      "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
+      "url": "https://www.marktechpost.com/2026/09/07/openbmb-releases-minicpm5-2b-a-2-52b-dense-model-averaging-53-9-across-34-benchmarks-and-built-to-run-on-device/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. It averages 53.9 across the 34 benchmarks in its model card, ahead of Qwen3.5-4B at 51.1, with its clearest leads in...",
+      "published": "2026-09-07T19:18:07Z",
+      "tags": [
+        "RAG",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
+      "summary_zh": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a native 131,072 token context. It averages 53.9 across the 34 benchmarks in its model card, ahead of Qwen3.5-4B at 51.1, with its clearest leads in...",
+      "tags_zh": [
+        "RAG",
+        "Benchmark"
+      ],
+      "oneliner": "OpenBMB has released MiniCPM5-2B, a dense causal language model with 2,516,756,480 parameters and a "
+    },
+    {
+      "id": "382438f539b7",
+      "title": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
+      "url": "https://www.marktechpost.com/2026/09/07/axis-robotics-releases-axis-a-browser-based-data-engine-with-207-robot-manipulation-tasks-and-50129-trajectories/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Robot datasets have grown far slower than the models trained on them, mostly because collection stays locked to lab hardware. AXIS moves demonstration collection into a web browser and pushes everything expensive to backend GPUs. The result is...",
+      "published": "2026-09-07T18:38:47Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
+      "summary_zh": "Robot datasets have grown far slower than the models trained on them, mostly because collection stays locked to lab hardware. AXIS moves demonstration collection into a web browser and pushes everything expensive to backend GPUs. The result is...",
+      "tags_zh": [],
+      "oneliner": "Robot datasets have grown far slower than the models trained on them, mostly because collection stay"
     },
     {
       "id": "f455244d709f",
@@ -479,10 +531,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "A Systematic Evaluation of Cross-Lingual Consistency Enhancement Methods in Multilingual Language Models",
-      "summary_zh": "arXiv:2609.04409v1 Announce Type: new \nAbstract: Multilingual language models often produce inconsistent answers to semantically equivalent questions across languages, motivating methods to improve cross-lingual consistency (CLC). However,...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.04409v1 Announce Type: new \nAbstract: Multilingual language models often produce inconsis"
+      "oneliner": ""
     },
     {
       "id": "9667ec4045f4",
@@ -502,10 +554,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "What Attention Recalls and Recurrence Controls in Hybrid Language Models",
-      "summary_zh": "arXiv:2609.04434v1 Announce Type: new \nAbstract: Hybrid language models combine attention with a fixed-size recurrent state, but the role of each channel remains unclear. We introduce two cache-level interventions. Split-prefill keeps only the KV...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.04434v1 Announce Type: new \nAbstract: Hybrid language models combine attention with a fix"
+      "oneliner": ""
     },
     {
       "id": "e96cac8342a4",
