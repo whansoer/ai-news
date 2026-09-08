@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-07T19:47:39Z",
-  "total": 290,
+  "updated": "2026-09-08T03:34:47Z",
+  "total": 291,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 29
     },
     {
       "name": "OpenAI",
@@ -120,7 +120,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 203
+      "count": 204
     },
     {
       "name": "开源项目",
@@ -136,10 +136,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-01",
-      "count": 61
-    },
     {
       "date": "09-02",
       "count": 44
@@ -162,7 +158,11 @@
     },
     {
       "date": "09-07",
-      "count": 51
+      "count": 44
+    },
+    {
+      "date": "09-08",
+      "count": 8
     }
   ],
   "top10": [
@@ -209,6 +209,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "bfc471546b18",
+      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "448a30ce1afe",
       "title": "OpenBMB Releases MiniCPM5-2B: A 2.52B Dense Model Averaging 53.9 Across 34 Benchmarks and Built to Run On Device",
       "score": 5,
@@ -219,12 +225,6 @@
       "title": "Axis Robotics Releases AXIS: A Browser-Based Data Engine With 207 Robot Manipulation Tasks and 50,129 Trajectories",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "f455244d709f",
-      "title": "MG Ship adds AI route optimisation as logistics returns accelerate",
-      "score": 5,
-      "source": "AI News"
     }
   ]
 }
