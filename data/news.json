@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-08T19:23:08Z",
-  "total": 210,
-  "new_count": 39,
+  "updated": "2026-09-09T03:39:12Z",
+  "total": 205,
+  "new_count": 35,
   "items": [
     {
       "id": "ee7d6f2f5cec",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "Claude"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills Catalog for Codex",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "OpenAI"
       ],
@@ -73,11 +73,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "8c676d139375"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "openai /skills",
       "summary_zh": "Skills Catalog for Codex",
@@ -93,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "Claude",
         "Agent"
@@ -122,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Write HTML. Render video. Built for agents.",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "Agent"
       ],
@@ -149,7 +147,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "Claude",
         "Agent"
@@ -178,7 +176,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "Agent"
       ],
@@ -205,7 +203,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "Claude",
         "LLM"
@@ -234,7 +232,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
-      "published": "2026-09-08T19:21:02Z",
+      "published": "2026-09-09T03:37:11Z",
       "tags": [
         "Agent",
         "API"
@@ -255,6 +253,33 @@
         "API"
       ],
       "oneliner": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-i"
+    },
+    {
+      "id": "661b60bc53ad",
+      "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+      "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA has announced CUDA Rust, a push to make Rust a first-class language for GPU kernels. Two open-source NVlabs projects cover the two CUDA programming models: cuda-oxide compiles SIMT kernels from Rust MIR through Pliron and LLVM to PTX,...",
+      "published": "2026-09-08T19:51:54Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+      "summary_zh": "NVIDIA has announced CUDA Rust, a push to make Rust a first-class language for GPU kernels. Two open-source NVlabs projects cover the two CUDA programming models: cuda-oxide compiles SIMT kernels from Rust MIR through Pliron and LLVM to PTX,...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "NVIDIA has announced CUDA Rust, a push to make Rust a first-class language for GPU kernels. Two open"
     },
     {
       "id": "37de730054f7",
@@ -287,6 +312,33 @@
         "Google"
       ],
       "oneliner": "DeepMind's AlphaGenome Atlas maps every single-letter change in the human genome with 1 impact score"
+    },
+    {
+      "id": "48232c1c3bd8",
+      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "published": "2026-09-08T17:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "How GPT-5.6 Sol helps run quantum computing experiments",
+      "summary_zh": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experime"
     },
     {
       "id": "c847825e0f68",
@@ -506,12 +558,10 @@
         ],
         "score": 7
       },
-      "title_zh": "YouTube Appears in 53% of Google AI Overviews for Vitamin and Supplement Searches",
-      "summary_zh": "YouTube was the most frequently cited website in Google AI Overviews across a panel of vitamin and supplement searches, according to new research. The video platform appeared in 186 of 350 AI-generated answers, or 53.1%, making it the only...",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "YouTube was the most frequently cited website in Google AI Overviews across a panel of vitamin and s"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "1bcf0237559d",
@@ -533,12 +583,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "mksglu /context-mode",
-      "summary_zh": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b78843cbbd77",
@@ -630,11 +678,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "e60f6498c318"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5026,189 +5072,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c2f4cce08f40",
-      "title": "THU-MAIC /OpenMAIC",
-      "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-      "published": "2026-09-02T03:25:26Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "73c10ecbf681",
-      "title": "jingyaogong /minimind",
-      "url": "https://github.com/jingyaogong/minimind",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-      "published": "2026-09-02T03:25:26Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3a55db0d85d4",
-      "title": "browser-use /video-use",
-      "url": "https://github.com/browser-use/video-use",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Edit videos with coding agents",
-      "published": "2026-09-02T03:25:26Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "bf559441b24d",
-      "title": "K-Dense-AI /scientific-agent-skills",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery....",
-      "published": "2026-09-02T03:25:26Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "ed19066ef682"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c0fa2da8b87b",
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "url": "https://huggingface.co/blog/allenai/benchmirt",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-09-01T21:39:07Z",
-      "tags": [
-        "LLM",
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e2c119acd909",
-      "title": "The latest AI news we announced in August 2026",
-      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "Transitioning cards: 1. Text \"Gemini 3.7 Flash\" next to the Gemini logo icon; 2. a photo of a pixel phone; 3. Google Gemini logo above the text \"Claim your student plan for 1 year at no cost\"",
-      "published": "2026-09-01T20:45:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "34a7f3824c27"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0128337c7dc1",
-      "title": "Anthropic Releases Claude Fable 5.1 and Claude Mythos 5.1: 52.6% on Terminal-Bench-Science and 75% Cheaper Cache Reads",
-      "url": "https://www.marktechpost.com/2026/09/01/anthropic-releases-claude-fable-5-1-and-claude-mythos-5-1-52-6-on-terminal-bench-science-and-75-cheaper-cache-reads/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Anthropic has released Claude Fable 5.1 and Claude Mythos 5.1, the same model behind two different safeguard layers. Fable 5.1 is generally available on the Claude API, AWS, Google Cloud, and Microsoft Foundry; Mythos 5.1 remains restricted to...",
-      "published": "2026-09-01T20:30:21Z",
-      "tags": [
-        "Claude",
-        "Anthropic"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "f4f32c43cdae",
-          "a74404bc73b9"
-        ],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
