@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09T19:12:53Z",
-  "total": 245,
+  "updated": "2026-09-10T03:36:39Z",
+  "total": 247,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 31
+      "count": 32
     },
     {
       "name": "MarkTechPost",
@@ -20,14 +20,14 @@
     },
     {
       "name": "OpenAI",
-      "count": 16
-    },
-    {
-      "name": "Hugging Face",
-      "count": 16
+      "count": 18
     },
     {
       "name": "Google AI",
+      "count": 15
+    },
+    {
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -42,18 +42,18 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 60
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 26
+      "count": 25
     },
     {
       "name": "Benchmark",
       "count": 14
     },
     {
-      "name": "RAG",
+      "name": "GPT",
       "count": 9
     },
     {
@@ -61,15 +61,11 @@
       "count": 9
     },
     {
-      "name": "GPT",
-      "count": 8
+      "name": "RAG",
+      "count": 9
     },
     {
       "name": "Claude",
-      "count": 7
-    },
-    {
-      "name": "OpenAI",
       "count": 7
     },
     {
@@ -77,12 +73,16 @@
       "count": 7
     },
     {
+      "name": "OpenAI",
+      "count": 6
+    },
+    {
       "name": "Prompt",
       "count": 6
     },
     {
       "name": "API",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Transformer",
@@ -93,15 +93,11 @@
       "count": 4
     },
     {
-      "name": "Gemini",
-      "count": 4
-    },
-    {
-      "name": "Anthropic",
+      "name": "Embedding",
       "count": 3
     },
     {
-      "name": "Embedding",
+      "name": "Gemini",
       "count": 3
     },
     {
@@ -111,6 +107,10 @@
     {
       "name": "DeepSeek",
       "count": 3
+    },
+    {
+      "name": "Anthropic",
+      "count": 2
     },
     {
       "name": "Mistral",
@@ -128,7 +128,7 @@
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 33
     },
     {
       "name": "产品/API",
@@ -136,10 +136,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-03",
-      "count": 49
-    },
     {
       "date": "09-04",
       "count": 19
@@ -162,7 +158,11 @@
     },
     {
       "date": "09-09",
-      "count": 52
+      "count": 47
+    },
+    {
+      "date": "09-10",
+      "count": 10
     }
   ],
   "top10": [
@@ -181,6 +181,12 @@
     {
       "id": "c3257d531a3c",
       "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f3ea32c160be",
+      "title": "pascalorg /editor",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -215,16 +221,10 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "bb894e920169",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "id": "0ff2f04c8402",
+      "title": "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity",
       "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "43d2948c369a",
-      "title": "Get ready for the game with new football features in Search",
-      "score": 5,
-      "source": "Google AI"
+      "source": "MarkTechPost"
     }
   ]
 }
