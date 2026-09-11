@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T19:04:20Z",
+  "updated": "2026-09-11T03:34:58Z",
   "total": 20,
   "items": [
     {
@@ -113,6 +113,65 @@
       }
     },
     {
+      "id": "b1404f7a4b57",
+      "title_zh": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
+      "summary_zh": "Production LLM applications rarely receive a question nobody has asked before. Support assistants and RAG pipelines field the same intents thousands of times a day, each phrased differently, and most stacks treat every phrasing as a fresh, fully...",
+      "tags_zh": [
+        "LLM",
+        "API"
+      ],
+      "oneliner": "Production LLM applications rarely receive a question nobody has asked before. Support assistants an",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ac6e11768e25",
+      "title_zh": "NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100",
+      "summary_zh": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecular structure-prediction models on NVIDIA GPUs while staying in plain PyTorch. In a matched benchmark on 1,000 human dimer targets across 8xH100...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecula",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9cc51a6c8273",
+      "title_zh": "OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call",
+      "summary_zh": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the harness. Developers run the agent&#8217;s compute in an OpenAI-managed sandbox, their own...",
+      "tags_zh": [
+        "OpenAI",
+        "Agent",
+        "API"
+      ],
+      "oneliner": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastr",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "342718fec928",
+      "title_zh": "Supply chains detect fast, act slow: How AI agents fix it",
+      "summary_zh": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Global Risk Report, and most of that bill still buys faster detection, not faster action. That figure is usually treated as weather (i.e. storms...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Globa",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "afc832aa3a2b",
       "title_zh": "3 ways to prep for your next big race with Search",
       "summary_zh": "Illustration on a blue background of technicolor runners with a magnifying glass and Gemini spark overlaid",
@@ -151,6 +210,32 @@
       }
     },
     {
+      "id": "96d0a041a360",
+      "title_zh": "JD.com expands physical AI in logistics with 3 million robots",
+      "summary_zh": "JD.com is expanding AI and robotics across its logistics network under a new Physical AI Acceleration Plan, while reiterating a five-year target to procure 3 million robots, 1 million autonomous vehicles, and 100,000 delivery drones. The company...",
+      "tags_zh": [],
+      "oneliner": "JD.com is expanding AI and robotics across its logistics network under a new Physical AI Acceleratio",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "4a1181660f83",
+      "title_zh": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
+      "summary_zh": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release around that exact...",
+      "tags_zh": [
+        "DeepSeek"
+      ],
+      "oneliner": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and mill",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "3f77446f0e44",
       "title_zh": "Introducing ChatGPT for Financial Services",
       "summary_zh": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
@@ -182,86 +267,6 @@
       "summary_zh": "arXiv:2609.09166v1 Announce Type: new \nAbstract: This paper investigates collaborative speculative decoding (CoSD), a distributed large language model (LLM) inference framework in which an on-device small language model (SLM) drafts candidate...",
       "tags_zh": [],
       "oneliner": "arXiv:2609.09166v1 Announce Type: new \nAbstract: This paper investigates collaborative speculative d",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "334d375702d3",
-      "title_zh": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
-      "summary_zh": "arXiv:2609.09264v1 Announce Type: new \nAbstract: Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition math, such as the IMO and Putnam, that poorly represent field-specific...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.09264v1 Announce Type: new \nAbstract: Leading benchmarks for formal theorem proving with ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d8e070b69d67",
-      "title_zh": "Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding",
-      "summary_zh": "arXiv:2609.09338v1 Announce Type: new \nAbstract: Speculative decoding is critical for accelerating LLM inference. However, the speedup is fragile: drafters are typically trained against a narrow distribution for a single target model, and their...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.09338v1 Announce Type: new \nAbstract: Speculative decoding is critical for accelerating L",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4cd9b4ff3a78",
-      "title_zh": "SWORD: Wikidata-based Distortions Reveal Hidden Cross-Lingual Inconsistencies in LLM Factual Error Rejection",
-      "summary_zh": "arXiv:2609.09349v1 Announce Type: new \nAbstract: Modern LLMs demonstrate impressive multilingual performance, yet standard benchmarks primarily reward selecting correct answers rather than evaluating genuine factual understanding. We introduce...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.09349v1 Announce Type: new \nAbstract: Modern LLMs demonstrate impressive multilingual per",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "98a5601a2abf",
-      "title_zh": "Auditable Emergency Triage for Maternal and Newborn Care in India",
-      "summary_zh": "arXiv:2609.09356v1 Announce Type: new \nAbstract: At Noora Health, our nurses answer more than 50,000 medical queries per month on our WhatsApp-based service that provides caregivers with on-demand support. Their most time-critical task is...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.09356v1 Announce Type: new \nAbstract: At Noora Health, our nurses answer more than 50,000",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6702cf8abeb3",
-      "title_zh": "Do LLMs Make More Mistakes If They Do Not Believe the Input Data?",
-      "summary_zh": "arXiv:2609.09363v1 Announce Type: new \nAbstract: Large language models (LLMs) are prone to hallucinating or misinterpreting facts, which impairs their usability in retrieval-augmented generation or data-to-text systems. We analyse how...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.09363v1 Announce Type: new \nAbstract: Large language models (LLMs) are prone to hallucina",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "52c2df425f11",
-      "title_zh": "Benchmarking Hybrid Deep Research Across Database Querying and Web Search",
-      "summary_zh": "arXiv:2609.09410v1 Announce Type: new \nAbstract: While autonomous agents have made significant strides in \"deep research\" by iteratively navigating the open web to synthesize information, real-world problem-solving is rarely confined to a single...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.09410v1 Announce Type: new \nAbstract: While autonomous agents have made significant strid",
       "key_facts": [],
       "notable_quote": {
         "text": "",

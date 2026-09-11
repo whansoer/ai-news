@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-10T19:04:20Z",
-  "total": 206,
-  "new_count": 39,
+  "updated": "2026-09-11T03:34:58Z",
+  "total": 209,
+  "new_count": 42,
   "items": [
     {
       "id": "ee7d6f2f5cec",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "published": "2026-09-10T19:02:12Z",
+      "published": "2026-09-11T03:32:59Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-09-10T19:02:12Z",
+      "published": "2026-09-11T03:32:59Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for...",
-      "published": "2026-09-10T19:02:12Z",
+      "published": "2026-09-11T03:32:59Z",
       "tags": [
         "Claude",
         "Agent"
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Make Every Team AI Native",
-      "published": "2026-09-10T19:02:12Z",
+      "published": "2026-09-11T03:32:59Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -116,7 +116,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "published": "2026-09-10T19:02:12Z",
+      "published": "2026-09-11T03:32:59Z",
       "tags": [
         "LLM"
       ],
@@ -143,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-09-10T19:02:12Z",
+      "published": "2026-09-11T03:32:59Z",
       "tags": [
         "Claude"
       ],
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
-      "published": "2026-09-10T19:02:12Z",
+      "published": "2026-09-11T03:32:59Z",
       "tags": [
         "GPT",
         "Prompt"
@@ -199,7 +199,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Graphics Creation Tools",
-      "published": "2026-09-10T19:02:12Z",
+      "published": "2026-09-11T03:32:59Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -214,6 +214,122 @@
       "summary_zh": "Graphics Creation Tools",
       "tags_zh": [],
       "oneliner": "Graphics Creation Tools"
+    },
+    {
+      "id": "b1404f7a4b57",
+      "title": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
+      "url": "https://www.marktechpost.com/2026/09/10/meet-redis-langcache-a-managed-semantic-cache-that-cuts-llm-api-costs-by-up-to-90-and-returns-cache-hits-up-to-15x-faster/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Production LLM applications rarely receive a question nobody has asked before. Support assistants and RAG pipelines field the same intents thousands of times a day, each phrased differently, and most stacks treat every phrasing as a fresh, fully...",
+      "published": "2026-09-10T22:34:48Z",
+      "tags": [
+        "LLM",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
+      "summary_zh": "Production LLM applications rarely receive a question nobody has asked before. Support assistants and RAG pipelines field the same intents thousands of times a day, each phrased differently, and most stacks treat every phrasing as a fresh, fully...",
+      "tags_zh": [
+        "LLM",
+        "API"
+      ],
+      "oneliner": "Production LLM applications rarely receive a question nobody has asked before. Support assistants an"
+    },
+    {
+      "id": "ac6e11768e25",
+      "title": "NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100",
+      "url": "https://www.marktechpost.com/2026/09/10/nvidia-details-bionemo-inference-runtime-bioir-2-90x-higher-boltz-2-folding-throughput-and-58-5k-residues-per-gpu-hour-on-8xh100/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecular structure-prediction models on NVIDIA GPUs while staying in plain PyTorch. In a matched benchmark on 1,000 human dimer targets across 8xH100...",
+      "published": "2026-09-10T21:57:06Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100",
+      "summary_zh": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecular structure-prediction models on NVIDIA GPUs while staying in plain PyTorch. In a matched benchmark on 1,000 human dimer targets across 8xH100...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecula"
+    },
+    {
+      "id": "9cc51a6c8273",
+      "title": "OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call",
+      "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the harness. Developers run the agent&#8217;s compute in an OpenAI-managed sandbox, their own...",
+      "published": "2026-09-10T21:21:58Z",
+      "tags": [
+        "OpenAI",
+        "Agent",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "8c9e20fc0efe"
+        ],
+        "score": 5
+      },
+      "title_zh": "OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call",
+      "summary_zh": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the harness. Developers run the agent&#8217;s compute in an OpenAI-managed sandbox, their own...",
+      "tags_zh": [
+        "OpenAI",
+        "Agent",
+        "API"
+      ],
+      "oneliner": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastr"
+    },
+    {
+      "id": "342718fec928",
+      "title": "Supply chains detect fast, act slow: How AI agents fix it",
+      "url": "https://www.artificialintelligence-news.com/news/supply-chains-detect-fast-act-slow-how-ai-agents-fix-it/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Global Risk Report, and most of that bill still buys faster detection, not faster action. That figure is usually treated as weather (i.e. storms...",
+      "published": "2026-09-10T16:34:43Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Supply chains detect fast, act slow: How AI agents fix it",
+      "summary_zh": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Global Risk Report, and most of that bill still buys faster detection, not faster action. That figure is usually treated as weather (i.e. storms...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Globa"
     },
     {
       "id": "afc832aa3a2b",
@@ -287,6 +403,56 @@
       "summary_zh": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
       "tags_zh": [],
       "oneliner": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive d"
+    },
+    {
+      "id": "96d0a041a360",
+      "title": "JD.com expands physical AI in logistics with 3 million robots",
+      "url": "https://www.artificialintelligence-news.com/news/jd-com-physical-ai-logistics-3-million-robots/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "JD.com is expanding AI and robotics across its logistics network under a new Physical AI Acceleration Plan, while reiterating a five-year target to procure 3 million robots, 1 million autonomous vehicles, and 100,000 delivery drones. The company...",
+      "published": "2026-09-10T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "JD.com expands physical AI in logistics with 3 million robots",
+      "summary_zh": "JD.com is expanding AI and robotics across its logistics network under a new Physical AI Acceleration Plan, while reiterating a five-year target to procure 3 million robots, 1 million autonomous vehicles, and 100,000 delivery drones. The company...",
+      "tags_zh": [],
+      "oneliner": "JD.com is expanding AI and robotics across its logistics network under a new Physical AI Acceleratio"
+    },
+    {
+      "id": "4a1181660f83",
+      "title": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
+      "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release around that exact...",
+      "published": "2026-09-10T07:31:01Z",
+      "tags": [
+        "DeepSeek"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
+      "summary_zh": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release around that exact...",
+      "tags_zh": [
+        "DeepSeek"
+      ],
+      "oneliner": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and mill"
     },
     {
       "id": "3f77446f0e44",
@@ -383,12 +549,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "StochBench: A Domain-Specific Benchmark for Stochastic Processes in Lean",
-      "summary_zh": "arXiv:2609.09264v1 Announce Type: new \nAbstract: Leading benchmarks for formal theorem proving with large language models are small collections drawn from competition math, such as the IMO and Putnam, that poorly represent field-specific...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.09264v1 Announce Type: new \nAbstract: Leading benchmarks for formal theorem proving with "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d8e070b69d67",
@@ -408,10 +572,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Osprey: Target-agnostic Pre-training Makes Stronger Drafters in Speculative Decoding",
-      "summary_zh": "arXiv:2609.09338v1 Announce Type: new \nAbstract: Speculative decoding is critical for accelerating LLM inference. However, the speedup is fragile: drafters are typically trained against a narrow distribution for a single target model, and their...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.09338v1 Announce Type: new \nAbstract: Speculative decoding is critical for accelerating L"
+      "oneliner": ""
     },
     {
       "id": "4cd9b4ff3a78",
@@ -433,12 +597,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "SWORD: Wikidata-based Distortions Reveal Hidden Cross-Lingual Inconsistencies in LLM Factual Error Rejection",
-      "summary_zh": "arXiv:2609.09349v1 Announce Type: new \nAbstract: Modern LLMs demonstrate impressive multilingual performance, yet standard benchmarks primarily reward selecting correct answers rather than evaluating genuine factual understanding. We introduce...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.09349v1 Announce Type: new \nAbstract: Modern LLMs demonstrate impressive multilingual per"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "98a5601a2abf",
@@ -458,10 +620,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Auditable Emergency Triage for Maternal and Newborn Care in India",
-      "summary_zh": "arXiv:2609.09356v1 Announce Type: new \nAbstract: At Noora Health, our nurses answer more than 50,000 medical queries per month on our WhatsApp-based service that provides caregivers with on-demand support. Their most time-critical task is...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.09356v1 Announce Type: new \nAbstract: At Noora Health, our nurses answer more than 50,000"
+      "oneliner": ""
     },
     {
       "id": "6702cf8abeb3",
@@ -483,12 +645,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Do LLMs Make More Mistakes If They Do Not Believe the Input Data?",
-      "summary_zh": "arXiv:2609.09363v1 Announce Type: new \nAbstract: Large language models (LLMs) are prone to hallucinating or misinterpreting facts, which impairs their usability in retrieval-augmented generation or data-to-text systems. We analyse how...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.09363v1 Announce Type: new \nAbstract: Large language models (LLMs) are prone to hallucina"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "52c2df425f11",
@@ -510,12 +670,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Benchmarking Hybrid Deep Research Across Database Querying and Web Search",
-      "summary_zh": "arXiv:2609.09410v1 Announce Type: new \nAbstract: While autonomous agents have made significant strides in \"deep research\" by iteratively navigating the open web to synthesize information, real-world problem-solving is rarely confined to a single...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.09410v1 Announce Type: new \nAbstract: While autonomous agents have made significant strid"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "aa2fe68f53ab",
@@ -1158,10 +1316,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "9cc51a6c8273",
           "bb894e920169",
           "e60f6498c318"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1232,6 +1391,28 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "96db0e24a08a",
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "published": "2026-09-10T00:00:00Z",
+      "tags": [
+        "Agent",
+        "API"
+      ],
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
@@ -4965,114 +5146,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "17a133fee8f3",
-      "title": "google-research /timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "published": "2026-09-04T03:25:01Z",
-      "tags": [
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "3b70536d04ff"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3b70536d04ff",
-      "title": "Google DeepMind’s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global Forecasts, Refreshed Every Hour",
-      "url": "https://www.marktechpost.com/2026/09/03/google-deepminds-weathernext-3-trains-on-weather-station-observations-to-deliver-5-km-global-forecasts-refreshed-every-hour/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "WeatherNext 3 ingests live geostationary satellite mosaics, refreshes hourly, and outputs 5 km forecasts across Search, Gemini, Maps.\nThe post Google DeepMind&#8217;s WeatherNext 3 Trains on Weather Station Observations to Deliver 5 km Global...",
-      "published": "2026-09-04T01:21:49Z",
-      "tags": [
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "37de730054f7",
-          "17a133fee8f3"
-        ],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "808950d94147",
-      "title": "OpenAI Releases GPT-6 Astra: A 1.05M-Context Computer-Use Model Gated Behind a ‘Critical’ Cyber Threshold",
-      "url": "https://www.marktechpost.com/2026/09/03/openai-releases-gpt-6-astra-a-1-05m-context-computer-use-model-gated-behind-a-critical-cyber-threshold/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "OpenAI released GPT-6 Astra on September 3, 2026, positioning it as a computer-use flagship rather than a chat model. It reports 72.6% on OSWorld V2-Offline, replaces Codex compaction with searchable notes, and ships a 1.05M-token context at...",
-      "published": "2026-09-03T21:16:11Z",
-      "tags": [
-        "GPT",
-        "OpenAI"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "38f0b3d91a35",
-      "title": "Anthropic Released Claude Commerce Agents: An Apache-2.0 Blueprint for Shopping and Merchant Agents Across Retail, Travel, Telecom and Entertainment",
-      "url": "https://www.marktechpost.com/2026/09/03/anthropic-released-claude-commerce-agents-an-apache-2-0-blueprint-for-shopping-and-merchant-agents-across-retail-travel-telecom-and-entertainment/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Most teams building a shopping assistant or agent rebuild the same scaffolding: an agent loop, a tool layer over the catalog, an approval gate, and an eval suite. Anthropic has now released that scaffolding as code. This week, they published...",
-      "published": "2026-09-03T19:46:59Z",
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",

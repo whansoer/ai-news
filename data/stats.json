@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-10T19:04:10Z",
-  "total": 244,
+  "updated": "2026-09-11T03:34:48Z",
+  "total": 248,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 23
+      "count": 26
     },
     {
       "name": "OpenAI",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Benchmark",
@@ -65,27 +65,31 @@
       "count": 8
     },
     {
-      "name": "RAG",
+      "name": "API",
       "count": 7
     },
     {
       "name": "OpenAI",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "RAG",
+      "count": 7
     },
     {
       "name": "Prompt",
       "count": 5
     },
     {
-      "name": "Meta",
+      "name": "GPU",
       "count": 5
     },
     {
-      "name": "API",
+      "name": "DeepSeek",
       "count": 4
     },
     {
-      "name": "GPU",
+      "name": "Meta",
       "count": 4
     },
     {
@@ -94,10 +98,6 @@
     },
     {
       "name": "Embedding",
-      "count": 3
-    },
-    {
-      "name": "DeepSeek",
       "count": 3
     },
     {
@@ -116,7 +116,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 153
+      "count": 156
     },
     {
       "name": "开源项目",
@@ -128,14 +128,10 @@
     },
     {
       "name": "产品/API",
-      "count": 11
+      "count": 12
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-04",
-      "count": 19
-    },
     {
       "date": "09-05",
       "count": 21
@@ -158,7 +154,11 @@
     },
     {
       "date": "09-10",
-      "count": 50
+      "count": 49
+    },
+    {
+      "date": "09-11",
+      "count": 8
     }
   ],
   "top10": [
@@ -211,16 +211,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "afc832aa3a2b",
-      "title": "3 ways to prep for your next big race with Search",
+      "id": "b1404f7a4b57",
+      "title": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
       "score": 5,
-      "source": "Google AI"
+      "source": "MarkTechPost"
     },
     {
-      "id": "8e610a2233c8",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "id": "ac6e11768e25",
+      "title": "NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100",
       "score": 5,
-      "source": "OpenAI"
+      "source": "MarkTechPost"
     }
   ]
 }
