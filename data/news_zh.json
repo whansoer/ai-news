@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T03:34:58Z",
+  "updated": "2026-09-11T12:45:44Z",
   "total": 20,
   "items": [
     {
@@ -17,13 +17,39 @@
       }
     },
     {
-      "id": "c3257d531a3c",
-      "title_zh": "obra /superpowers",
-      "summary_zh": "An agentic skills framework & software development methodology that works.",
+      "id": "cc05accd67dc",
+      "title_zh": "melgarafael /DeskcommCRM",
+      "summary_zh": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "An agentic skills framework & software development methodology that works.",
+      "oneliner": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a74679813d68",
+      "title_zh": "vastsa /PI-Desktop",
+      "summary_zh": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "09519de43606",
+      "title_zh": "armory3d /armorpaint",
+      "summary_zh": "Graphics Creation Tools",
+      "tags_zh": [],
+      "oneliner": "Graphics Creation Tools",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -46,81 +72,14 @@
       }
     },
     {
-      "id": "34967cc49afa",
-      "title_zh": "Tencent /teamai-cli",
-      "summary_zh": "Make Every Team AI Native",
-      "tags_zh": [],
-      "oneliner": "Make Every Team AI Native",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "018703fab583",
-      "title_zh": "AlexsJones /llmfit",
-      "summary_zh": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "Hundreds of models & providers. One command to find what runs on your hardware.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f0faec98f86e",
-      "title_zh": "cathrynlavery /diagram-design",
-      "summary_zh": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "tags_zh": [
-        "Claude"
-      ],
-      "oneliner": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7694793c4136",
-      "title_zh": "freestylefly /awesome-gpt-image-2",
-      "summary_zh": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
-      "tags_zh": [
-        "GPT",
-        "Prompt"
-      ],
-      "oneliner": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "09519de43606",
-      "title_zh": "armory3d /armorpaint",
-      "summary_zh": "Graphics Creation Tools",
-      "tags_zh": [],
-      "oneliner": "Graphics Creation Tools",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b1404f7a4b57",
-      "title_zh": "Meet Redis LangCache: A Managed Semantic Cache That Cuts LLM API Costs by Up to 90% and Returns Cache Hits Up to 15x Faster",
-      "summary_zh": "Production LLM applications rarely receive a question nobody has asked before. Support assistants and RAG pipelines field the same intents thousands of times a day, each phrased differently, and most stacks treat every phrasing as a fresh, fully...",
+      "id": "885b91dee30d",
+      "title_zh": "nashsu /llm_wiki",
+      "summary_zh": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and...",
       "tags_zh": [
         "LLM",
-        "API"
+        "RAG"
       ],
-      "oneliner": "Production LLM applications rarely receive a question nobody has asked before. Support assistants an",
+      "oneliner": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interl",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -128,43 +87,13 @@
       }
     },
     {
-      "id": "ac6e11768e25",
-      "title_zh": "NVIDIA Details BioNeMo Inference Runtime (BioIR): 2.90x Higher Boltz-2 Folding Throughput and 58.5K Residues per GPU-Hour on 8xH100",
-      "summary_zh": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecular structure-prediction models on NVIDIA GPUs while staying in plain PyTorch. In a matched benchmark on 1,000 human dimer targets across 8xH100...",
-      "tags_zh": [
-        "GPU"
-      ],
-      "oneliner": "NVIDIA has detailed BioNeMo Inference Runtime (BioIR), a Python library that accelerates biomolecula",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9cc51a6c8273",
-      "title_zh": "OpenAI Launches the Agents API in Public Beta, Putting the Codex Harness Behind One API Call",
-      "summary_zh": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastructure that run Codex. OpenAI hosts and maintains the harness. Developers run the agent&#8217;s compute in an OpenAI-managed sandbox, their own...",
-      "tags_zh": [
-        "OpenAI",
-        "Agent",
-        "API"
-      ],
-      "oneliner": "OpenAI has released the Agents API in public beta. It gives developers the same harness and infrastr",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "342718fec928",
-      "title_zh": "Supply chains detect fast, act slow: How AI agents fix it",
-      "summary_zh": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Global Risk Report, and most of that bill still buys faster detection, not faster action. That figure is usually treated as weather (i.e. storms...",
+      "id": "c3257d531a3c",
+      "title_zh": "obra /superpowers",
+      "summary_zh": "An agentic skills framework & software development methodology that works.",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Globa",
+      "oneliner": "An agentic skills framework & software development methodology that works.",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -172,11 +101,11 @@
       }
     },
     {
-      "id": "afc832aa3a2b",
-      "title_zh": "3 ways to prep for your next big race with Search",
-      "summary_zh": "Illustration on a blue background of technicolor runners with a magnifying glass and Gemini spark overlaid",
+      "id": "05c3fe50e2de",
+      "title_zh": "Data-Efficient Language Modeling: From Frontier Advancement to Principle-Guided Model Improvement",
+      "summary_zh": "arXiv:2609.10702v1 Announce Type: new \nAbstract: Learning from limited text requires models to use context, generalize to new inputs, and retain useful capabilities. Qiushi Engine conducted a long-horizon, end-to-end autonomous research program...",
       "tags_zh": [],
-      "oneliner": "Illustration on a blue background of technicolor runners with a magnifying glass and Gemini spark ov",
+      "oneliner": "arXiv:2609.10702v1 Announce Type: new \nAbstract: Learning from limited text requires models to use c",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -184,13 +113,25 @@
       }
     },
     {
-      "id": "8e610a2233c8",
-      "title_zh": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "summary_zh": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "id": "fcf684e3d54f",
+      "title_zh": "NCP-ArchPreview Technical Report: Moving towards Latent Space Language Models through Next Concept Prediction",
+      "summary_zh": "arXiv:2609.10715v1 Announce Type: new \nAbstract: We introduce NCP-ArchPreview, a latent-space language model that pushes autoregressive pretraining beyond standard next-token prediction (NTP). Alongside NTP, the model learns through Next Concept...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.10715v1 Announce Type: new \nAbstract: We introduce NCP-ArchPreview, a latent-space langua",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bc0f9cb84d12",
+      "title_zh": "CMNIE: An Information Extraction Benchmark for Chinese Military News",
+      "summary_zh": "arXiv:2609.10722v1 Announce Type: new \nAbstract: Structured extraction from Chinese military news supports intelligence analysis, decision-making, and knowledge base construction. However, existing resources provide limited support for joint...",
       "tags_zh": [
-        "GPT"
+        "Benchmark"
       ],
-      "oneliner": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobi",
+      "oneliner": "arXiv:2609.10722v1 Announce Type: new \nAbstract: Structured extraction from Chinese military news su",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -198,11 +139,11 @@
       }
     },
     {
-      "id": "d86fa96aa31a",
-      "title_zh": "Now everyone can put data to work",
-      "summary_zh": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "id": "24b9126d3afb",
+      "title_zh": "Think Before You Link: Rarity, Reasoning, and Retrieval in Multilingual Entity Linking",
+      "summary_zh": "arXiv:2609.10745v1 Announce Type: new \nAbstract: Multimodal entity linking grounds entity mentions in text and images to knowledge-base entries. These systems degrade on rare entities, but prior work measures rarity primarily through...",
       "tags_zh": [],
-      "oneliner": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive d",
+      "oneliner": "arXiv:2609.10745v1 Announce Type: new \nAbstract: Multimodal entity linking grounds entity mentions i",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -210,25 +151,13 @@
       }
     },
     {
-      "id": "96d0a041a360",
-      "title_zh": "JD.com expands physical AI in logistics with 3 million robots",
-      "summary_zh": "JD.com is expanding AI and robotics across its logistics network under a new Physical AI Acceleration Plan, while reiterating a five-year target to procure 3 million robots, 1 million autonomous vehicles, and 100,000 delivery drones. The company...",
-      "tags_zh": [],
-      "oneliner": "JD.com is expanding AI and robotics across its logistics network under a new Physical AI Acceleratio",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4a1181660f83",
-      "title_zh": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
-      "summary_zh": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and million-token contexts leave KV caches that strain HBM, SSD capacity, and bandwidth. DeepSeek AI built its newest release around that exact...",
+      "id": "e08598dc983d",
+      "title_zh": "Multilingual in Name Only? Cultural and Linguistic Weaknesses of LLMs in Urdu",
+      "summary_zh": "arXiv:2609.10758v1 Announce Type: new \nAbstract: Multilingual large language models (LLMs) are increasingly used for open-ended text generation, yet their behaviour in low-resource languages remains poorly understood. In this work, we question...",
       "tags_zh": [
-        "DeepSeek"
+        "LLM"
       ],
-      "oneliner": "Long-horizon agents have turned LLM serving into an input-heavy workload. Repeated prefills and mill",
+      "oneliner": "arXiv:2609.10758v1 Announce Type: new \nAbstract: Multilingual large language models (LLMs) are incre",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -236,13 +165,25 @@
       }
     },
     {
-      "id": "3f77446f0e44",
-      "title_zh": "Introducing ChatGPT for Financial Services",
-      "summary_zh": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "id": "2fc3e58ef9c2",
+      "title_zh": "Analyzing Traditional and Neural Approaches to Multilingual Readability Assessment",
+      "summary_zh": "arXiv:2609.10792v1 Announce Type: new \nAbstract: Transformer-based models excel at Automatic Readability Assessment (ARA), yet feature-based models remain in active use because their predictions tie back to linguistic properties. This matters...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.10792v1 Announce Type: new \nAbstract: Transformer-based models excel at Automatic Readabi",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f8553fa94720",
+      "title_zh": "Larger Context Window, Fewer Overcorrections: Optimizing Prompts and Batching for Minimal-Edit Grammatical Error Correction",
+      "summary_zh": "arXiv:2609.10810v1 Announce Type: new \nAbstract: Minimal-edit Grammatical Error Correction (GEC) is a challenging task for zero- and few-shot prompted Large Language Models (LLMs), which systematically overcorrect and degrade $F_{0.5}$ by...",
       "tags_zh": [
-        "GPT"
+        "Prompt"
       ],
-      "oneliner": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for re",
+      "oneliner": "arXiv:2609.10810v1 Announce Type: new \nAbstract: Minimal-edit Grammatical Error Correction (GEC) is ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -250,11 +191,11 @@
       }
     },
     {
-      "id": "aa2ea623e7d1",
-      "title_zh": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "summary_zh": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "id": "03d4a6623914",
+      "title_zh": "Detectable Only Where It Is Confounded: What Verified Duplication Counts Say About Membership Evidence in Language Models",
+      "summary_zh": "arXiv:2609.10830v1 Announce Type: new \nAbstract: When a language model finds a sentence unusually cheap to predict, it is tempting to conclude that the sentence was in its training data. Almost every published test of that inference has had to...",
       "tags_zh": [],
-      "oneliner": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50",
+      "oneliner": "arXiv:2609.10830v1 Announce Type: new \nAbstract: When a language model finds a sentence unusually ch",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -262,11 +203,65 @@
       }
     },
     {
-      "id": "f3ce05127910",
-      "title_zh": "X-CoSD: Communication-Efficient Cross-Vocabulary Collaborative Speculative Decoding",
-      "summary_zh": "arXiv:2609.09166v1 Announce Type: new \nAbstract: This paper investigates collaborative speculative decoding (CoSD), a distributed large language model (LLM) inference framework in which an on-device small language model (SLM) drafts candidate...",
+      "id": "59f3e90e80e4",
+      "title_zh": "Does Linguistic Structure Enrichment Enhance Coherence Assessment? Not With Current Architectures",
+      "summary_zh": "arXiv:2609.10893v1 Announce Type: new \nAbstract: Recent advances in large language models have transformed human-computer interaction. Despite their fluency, these models often produce texts that are grammatically correct but semantically...",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.09166v1 Announce Type: new \nAbstract: This paper investigates collaborative speculative d",
+      "oneliner": "arXiv:2609.10893v1 Announce Type: new \nAbstract: Recent advances in large language models have trans",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ad506cd3eec7",
+      "title_zh": "LLM-Anchored Paralinguistic Enrichment for Alzheimer's Disease Detection",
+      "summary_zh": "arXiv:2609.10896v1 Announce Type: new \nAbstract: Speech-based automatic detection of Alzheimer's disease (AD) provides a non-invasive and scalable approach to early cognitive screening. AD affects both lexical-semantic organization and speech...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2609.10896v1 Announce Type: new \nAbstract: Speech-based automatic detection of Alzheimer's dis",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1463c1d2cf35",
+      "title_zh": "SearchAtlas: Analyzing Agentic Search Strategies via Evidential Query Graphs",
+      "summary_zh": "arXiv:2609.10901v1 Announce Type: new \nAbstract: LLM search agents are often evaluated on final-answer accuracy, overlooking the process. Analyzing a search strategy requires understanding how credible evidence is retrieved to address question...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2609.10901v1 Announce Type: new \nAbstract: LLM search agents are often evaluated on final-answ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e039288edce4",
+      "title_zh": "Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System",
+      "summary_zh": "arXiv:2609.10922v1 Announce Type: new \nAbstract: Auto-research agents have shown the potential to automate hypothesis generation, experiment execution, and iterative refinement. However, scaling this paradigm to industry-scale recommendation...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2609.10922v1 Announce Type: new \nAbstract: Auto-research agents have shown the potential to au",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "dd532f7a3cd6",
+      "title_zh": "Structurally Speaking: Motif-Oriented Graph Captioning through Bidirectional Graph-Text Translation",
+      "summary_zh": "arXiv:2609.10923v1 Announce Type: new \nAbstract: Graph captions should help readers understand graph structure, rather than simply translate adjacency matrices into long textual edge lists. A useful graph caption abstracts connectivity into...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.10923v1 Announce Type: new \nAbstract: Graph captions should help readers understand graph",
       "key_facts": [],
       "notable_quote": {
         "text": "",
