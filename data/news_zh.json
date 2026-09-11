@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T12:45:44Z",
+  "updated": "2026-09-11T19:06:14Z",
   "total": 20,
   "items": [
     {
@@ -94,6 +94,74 @@
         "Agent"
       ],
       "oneliner": "An agentic skills framework & software development methodology that works.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "5afd7f981df5",
+      "title_zh": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
+      "summary_zh": "NVIDIA is using Palantir Foundry and cuOpt to automate its hardware supply chain allocation decisions across global manufacturing sites. The company measures operational delivery from wafer-out to first token. This window splits into time-to-rack...",
+      "tags_zh": [],
+      "oneliner": "NVIDIA is using Palantir Foundry and cuOpt to automate its hardware supply chain allocation decision",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ebb4b1b0f124",
+      "title_zh": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "summary_zh": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "tags_zh": [
+        "GPT",
+        "RAG",
+        "API"
+      ],
+      "oneliner": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2214cebe2c5d",
+      "title_zh": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
+      "summary_zh": "Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine translation across 50 languages. It uses 25B of its 218B parameters per token and scores 83.6 on Cohere's WMT26 evaluation. Weights are free for...",
+      "tags_zh": [],
+      "oneliner": "Cohere has released North Small Translate, an open-weight Mixture-of-Experts model built for machine",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e6040c4399bc",
+      "title_zh": "Sakana AI Launches Fugu Max and Fugu Ultra v2 for Cheaper, Stronger Multi-Agent Orchestration",
+      "summary_zh": "Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration architecture. Fugu Max routes tasks to lean open and specialized models, including NVIDIA Nemotron, at $2/$6 per 1M tokens. Fugu Ultra v2 targets...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Sakana AI has released Fugu Max and Fugu Ultra v2, 2 models built on the same learned orchestration ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6cbc5d494b24",
+      "title_zh": "Google Research Releases ToolGrad: Answer-First Framework Hits 99.8% Pass Rate for Tool-Use Data Generation",
+      "summary_zh": "Google Research has released ToolGrad, an ACL 2026 Findings framework that inverts tool-use dataset generation: it builds a verified API chain first, then writes the matching user query. Guided by textual \"gradients\" from a 4-module...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Google Research has released ToolGrad, an ACL 2026 Findings framework that inverts tool-use dataset ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -196,72 +264,6 @@
       "summary_zh": "arXiv:2609.10830v1 Announce Type: new \nAbstract: When a language model finds a sentence unusually cheap to predict, it is tempting to conclude that the sentence was in its training data. Almost every published test of that inference has had to...",
       "tags_zh": [],
       "oneliner": "arXiv:2609.10830v1 Announce Type: new \nAbstract: When a language model finds a sentence unusually ch",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "59f3e90e80e4",
-      "title_zh": "Does Linguistic Structure Enrichment Enhance Coherence Assessment? Not With Current Architectures",
-      "summary_zh": "arXiv:2609.10893v1 Announce Type: new \nAbstract: Recent advances in large language models have transformed human-computer interaction. Despite their fluency, these models often produce texts that are grammatically correct but semantically...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.10893v1 Announce Type: new \nAbstract: Recent advances in large language models have trans",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ad506cd3eec7",
-      "title_zh": "LLM-Anchored Paralinguistic Enrichment for Alzheimer's Disease Detection",
-      "summary_zh": "arXiv:2609.10896v1 Announce Type: new \nAbstract: Speech-based automatic detection of Alzheimer's disease (AD) provides a non-invasive and scalable approach to early cognitive screening. AD affects both lexical-semantic organization and speech...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.10896v1 Announce Type: new \nAbstract: Speech-based automatic detection of Alzheimer's dis",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1463c1d2cf35",
-      "title_zh": "SearchAtlas: Analyzing Agentic Search Strategies via Evidential Query Graphs",
-      "summary_zh": "arXiv:2609.10901v1 Announce Type: new \nAbstract: LLM search agents are often evaluated on final-answer accuracy, overlooking the process. Analyzing a search strategy requires understanding how credible evidence is retrieved to address question...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.10901v1 Announce Type: new \nAbstract: LLM search agents are often evaluated on final-answ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e039288edce4",
-      "title_zh": "Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System",
-      "summary_zh": "arXiv:2609.10922v1 Announce Type: new \nAbstract: Auto-research agents have shown the potential to automate hypothesis generation, experiment execution, and iterative refinement. However, scaling this paradigm to industry-scale recommendation...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.10922v1 Announce Type: new \nAbstract: Auto-research agents have shown the potential to au",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "dd532f7a3cd6",
-      "title_zh": "Structurally Speaking: Motif-Oriented Graph Captioning through Bidirectional Graph-Text Translation",
-      "summary_zh": "arXiv:2609.10923v1 Announce Type: new \nAbstract: Graph captions should help readers understand graph structure, rather than simply translate adjacency matrices into long textual edge lists. A useful graph caption abstracts connectivity into...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.10923v1 Announce Type: new \nAbstract: Graph captions should help readers understand graph",
       "key_facts": [],
       "notable_quote": {
         "text": "",
