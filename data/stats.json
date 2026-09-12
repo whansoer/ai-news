@@ -1,18 +1,18 @@
 {
-  "updated": "2026-09-12T03:39:48Z",
-  "total": 251,
+  "updated": "2026-09-12T12:05:27Z",
+  "total": 268,
   "sources": [
+    {
+      "name": "ArXiv (cs.AI)",
+      "count": 75
+    },
     {
       "name": "ArXiv (cs.CL)",
       "count": 60
     },
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 60
-    },
-    {
       "name": "GitHub Trending",
-      "count": 33
+      "count": 35
     },
     {
       "name": "MarkTechPost",
@@ -42,23 +42,23 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 70
     },
     {
       "name": "LLM",
-      "count": 27
+      "count": 30
     },
     {
       "name": "Benchmark",
-      "count": 11
+      "count": 12
     },
     {
       "name": "GPT",
-      "count": 10
+      "count": 11
     },
     {
       "name": "RAG",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Google",
@@ -69,15 +69,15 @@
       "count": 7
     },
     {
+      "name": "OpenAI",
+      "count": 7
+    },
+    {
       "name": "API",
       "count": 7
     },
     {
       "name": "Prompt",
-      "count": 6
-    },
-    {
-      "name": "OpenAI",
       "count": 6
     },
     {
@@ -93,34 +93,38 @@
       "count": 4
     },
     {
+      "name": "Gemini",
+      "count": 3
+    },
+    {
       "name": "Transformer",
       "count": 3
+    },
+    {
+      "name": "Anthropic",
+      "count": 2
     },
     {
       "name": "Embedding",
       "count": 2
     },
     {
-      "name": "Gemini",
-      "count": 2
-    },
-    {
-      "name": "Mistral",
+      "name": "Diffusion",
       "count": 1
     },
     {
-      "name": "Anthropic",
+      "name": "Mistral",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 156
+      "count": 171
     },
     {
       "name": "开源项目",
-      "count": 48
+      "count": 50
     },
     {
       "name": "模型发布",
@@ -154,7 +158,7 @@
     },
     {
       "date": "09-12",
-      "count": 7
+      "count": 25
     },
     {
       "date": "09-14",
@@ -169,26 +173,20 @@
       "source": "OpenAI"
     },
     {
-      "id": "ee7d6f2f5cec",
-      "title": "ayghri /i-have-adhd",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "cc05accd67dc",
       "title": "melgarafael /DeskcommCRM",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "a74679813d68",
-      "title": "vastsa /PI-Desktop",
+      "id": "3675b0176088",
+      "title": "asgeirtj /system_prompts_leaks",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "09519de43606",
-      "title": "armory3d /armorpaint",
+      "id": "352163fdbcde",
+      "title": "jihe520 /MathModelAgent",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -199,28 +197,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "885b91dee30d",
-      "title": "nashsu /llm_wiki",
+      "id": "46405393d4f5",
+      "title": "Shubhamsaboo /awesome-llm-apps",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
+      "id": "fc7d853f8a19",
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "bb3fa770c597",
-      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "id": "28a16cca7a55",
+      "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
       "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "5afd7f981df5",
-      "title": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
+      "id": "458aa7786a98",
+      "title": "A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.AI)"
+    },
+    {
+      "id": "7b44d166e5e2",
+      "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
+      "score": 5,
+      "source": "ArXiv (cs.AI)"
     }
   ]
 }
