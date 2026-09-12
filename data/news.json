@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-12T12:05:37Z",
-  "total": 216,
-  "new_count": 52,
+  "updated": "2026-09-12T18:16:54Z",
+  "total": 218,
+  "new_count": 38,
   "items": [
     {
       "id": "ea5b19333782",
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-      "published": "2026-09-12T12:03:32Z",
+      "published": "2026-09-12T18:14:48Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
-      "published": "2026-09-12T12:03:32Z",
+      "published": "2026-09-12T18:14:48Z",
       "tags": [
         "GPT",
         "Claude",
@@ -99,7 +99,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
-      "published": "2026-09-12T12:03:32Z",
+      "published": "2026-09-12T18:14:48Z",
       "tags": [
         "Agent"
       ],
@@ -126,7 +126,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for...",
-      "published": "2026-09-12T12:03:32Z",
+      "published": "2026-09-12T18:14:48Z",
       "tags": [
         "Claude",
         "Agent"
@@ -155,7 +155,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "published": "2026-09-12T12:03:32Z",
+      "published": "2026-09-12T18:14:48Z",
       "tags": [
         "LLM",
         "Agent",
@@ -676,6 +676,58 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "25276ca9afc2",
+      "title": "Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize",
+      "url": "https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "ByteDance Seed, SUTD, Georgia Tech, M-A-P, and TokenWave.AI introduce HarnessDev, a benchmark that scores the runnable harness a model builds rather than the answer it returns. Starting from a seed that scores 0, 6 creator LLMs construct...",
+      "published": "2026-09-11T22:01:08Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9aeaf951e312",
+      "title": "Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills",
+      "url": "https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Anthropic has published a new plugin evals workflow for Claude Code. The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the plugin is not loaded. It...",
+      "published": "2026-09-11T21:05:55Z",
+      "tags": [
+        "Claude",
+        "Anthropic"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
