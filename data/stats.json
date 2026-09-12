@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T19:06:04Z",
+  "updated": "2026-09-12T03:39:48Z",
   "total": 251,
   "sources": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "name": "OpenAI",
-      "count": 20
+      "count": 22
     },
     {
       "name": "Google AI",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Synced",
@@ -53,11 +53,11 @@
       "count": 11
     },
     {
-      "name": "RAG",
-      "count": 8
+      "name": "GPT",
+      "count": 10
     },
     {
-      "name": "GPT",
+      "name": "RAG",
       "count": 8
     },
     {
@@ -124,22 +124,14 @@
     },
     {
       "name": "模型发布",
-      "count": 35
+      "count": 37
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 10
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-05",
-      "count": 21
-    },
-    {
-      "date": "09-06",
-      "count": 7
-    },
     {
       "date": "09-07",
       "count": 42
@@ -158,10 +150,24 @@
     },
     {
       "date": "09-11",
-      "count": 46
+      "count": 40
+    },
+    {
+      "date": "09-12",
+      "count": 7
+    },
+    {
+      "date": "09-14",
+      "count": 1
     }
   ],
   "top10": [
+    {
+      "id": "ea5b19333782",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "score": 5,
+      "source": "OpenAI"
+    },
     {
       "id": "ee7d6f2f5cec",
       "title": "ayghri /i-have-adhd",
@@ -205,22 +211,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "5afd7f981df5",
-      "title": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "ebb4b1b0f124",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "id": "bb3fa770c597",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
       "score": 5,
       "source": "OpenAI"
     },
     {
-      "id": "2214cebe2c5d",
-      "title": "Cohere Releases North Small Translate: A 218B MoE Translation Model That Scores 83.6 on WMT26 Across 50 Languages",
+      "id": "5afd7f981df5",
+      "title": "Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "AI News"
     }
   ]
 }

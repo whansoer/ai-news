@@ -1,8 +1,35 @@
 {
-  "updated": "2026-09-11T19:06:14Z",
-  "total": 215,
-  "new_count": 41,
+  "updated": "2026-09-12T03:39:58Z",
+  "total": 216,
+  "new_count": 36,
   "items": [
+    {
+      "id": "ea5b19333782",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "published": "2026-09-14T00:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary_zh": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Perplexity uses Astra to write communications, change software, and monitor production systems, and "
+    },
     {
       "id": "ee7d6f2f5cec",
       "title": "ayghri /i-have-adhd",
@@ -10,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "published": "2026-09-11T19:04:07Z",
+      "published": "2026-09-12T03:37:49Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-      "published": "2026-09-11T19:04:07Z",
+      "published": "2026-09-12T03:37:49Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
-      "published": "2026-09-11T19:04:07Z",
+      "published": "2026-09-12T03:37:49Z",
       "tags": [
         "Agent"
       ],
@@ -91,7 +118,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Graphics Creation Tools",
-      "published": "2026-09-11T19:04:07Z",
+      "published": "2026-09-12T03:37:49Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -114,7 +141,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for...",
-      "published": "2026-09-11T19:04:07Z",
+      "published": "2026-09-12T03:37:49Z",
       "tags": [
         "Claude",
         "Agent"
@@ -143,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and...",
-      "published": "2026-09-11T19:04:07Z",
+      "published": "2026-09-12T03:37:49Z",
       "tags": [
         "LLM",
         "RAG"
@@ -172,7 +199,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-09-11T19:04:07Z",
+      "published": "2026-09-12T03:37:49Z",
       "tags": [
         "Agent"
       ],
@@ -191,6 +218,33 @@
         "Agent"
       ],
       "oneliner": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "bb3fa770c597",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "published": "2026-09-11T16:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "summary_zh": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helpi"
     },
     {
       "id": "5afd7f981df5",
@@ -493,12 +547,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Larger Context Window, Fewer Overcorrections: Optimizing Prompts and Batching for Minimal-Edit Grammatical Error Correction",
-      "summary_zh": "arXiv:2609.10810v1 Announce Type: new \nAbstract: Minimal-edit Grammatical Error Correction (GEC) is a challenging task for zero- and few-shot prompted Large Language Models (LLMs), which systematically overcorrect and degrade $F_{0.5}$ by...",
-      "tags_zh": [
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2609.10810v1 Announce Type: new \nAbstract: Minimal-edit Grammatical Error Correction (GEC) is "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "03d4a6623914",
@@ -518,10 +570,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Detectable Only Where It Is Confounded: What Verified Duplication Counts Say About Membership Evidence in Language Models",
-      "summary_zh": "arXiv:2609.10830v1 Announce Type: new \nAbstract: When a language model finds a sentence unusually cheap to predict, it is tempting to conclude that the sentence was in its training data. Almost every published test of that inference has had to...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.10830v1 Announce Type: new \nAbstract: When a language model finds a sentence unusually ch"
+      "oneliner": ""
     },
     {
       "id": "59f3e90e80e4",
@@ -5265,32 +5317,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 3
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2f51b72af43a",
-      "title": "magnitudedev /magnitude",
-      "url": "https://github.com/magnitudedev/magnitude",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-      "published": "2026-09-05T03:27:02Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
