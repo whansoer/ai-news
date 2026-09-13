@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-13T13:15:36Z",
-  "total": 220,
-  "new_count": 45,
+  "updated": "2026-09-13T18:42:38Z",
+  "total": 221,
+  "new_count": 37,
   "items": [
     {
       "id": "ea5b19333782",
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
-      "published": "2026-09-13T13:13:37Z",
+      "published": "2026-09-13T18:40:37Z",
       "tags": [
         "Claude",
         "Agent"
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-      "published": "2026-09-13T13:13:37Z",
+      "published": "2026-09-13T18:40:37Z",
       "tags": [
         "Agent"
       ],
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-      "published": "2026-09-13T13:13:37Z",
+      "published": "2026-09-13T18:40:37Z",
       "tags": [
         "Agent"
       ],
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
-      "published": "2026-09-13T13:13:37Z",
+      "published": "2026-09-13T18:40:37Z",
       "tags": [
         "GPT",
         "Claude",
@@ -155,7 +155,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "published": "2026-09-13T13:13:37Z",
+      "published": "2026-09-13T18:40:37Z",
       "tags": [
         "Agent"
       ],
@@ -182,7 +182,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
-      "published": "2026-09-13T13:13:37Z",
+      "published": "2026-09-13T18:40:37Z",
       "tags": [
         "Agent"
       ],
@@ -201,6 +201,33 @@
         "Agent"
       ],
       "oneliner": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing."
+    },
+    {
+      "id": "88af90513363",
+      "title": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
+      "url": "https://www.marktechpost.com/2026/09/13/a-princeton-researcher-proposes-recurrent-looped-transformer-rlt/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Yifan Zhang's Recurrent Looped Transformer (RLT) technical report proposes a causal encoder paired with a recurrent decoder that carries its final hidden state and layerwise sliding-window attention cache across every prompt and response token,...",
+      "published": "2026-09-13T17:02:26Z",
+      "tags": [
+        "Transformer"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
+      "summary_zh": "Yifan Zhang's Recurrent Looped Transformer (RLT) technical report proposes a causal encoder paired with a recurrent decoder that carries its final hidden state and layerwise sliding-window attention cache across every prompt and response token,...",
+      "tags_zh": [
+        "Transformer"
+      ],
+      "oneliner": "Yifan Zhang's Recurrent Looped Transformer (RLT) technical report proposes a causal encoder paired w"
     },
     {
       "id": "d0e6322ed5fa",
@@ -534,10 +561,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking",
-      "summary_zh": "arXiv:2609.10657v1 Announce Type: new \nAbstract: Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomenon known as grokking. Despite theoretical progress on \\emph{why} this transition...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.10657v1 Announce Type: new \nAbstract: Neural networks trained past memorization frequentl"
+      "oneliner": ""
     },
     {
       "id": "b8f2ec8d5465",
@@ -5205,11 +5232,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "ea97e2f9b307"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
