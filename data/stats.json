@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T03:46:33Z",
-  "total": 252,
+  "updated": "2026-09-13T13:15:26Z",
+  "total": 260,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 35
+      "count": 39
     },
     {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 27
     },
     {
       "name": "OpenAI",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,26 +42,30 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 69
     },
     {
       "name": "LLM",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 13
     },
     {
       "name": "GPT",
       "count": 11
     },
     {
+      "name": "Claude",
+      "count": 9
+    },
+    {
       "name": "RAG",
       "count": 9
     },
     {
-      "name": "Claude",
+      "name": "API",
       "count": 8
     },
     {
@@ -69,19 +73,15 @@
       "count": 7
     },
     {
-      "name": "API",
-      "count": 7
-    },
-    {
       "name": "Google",
       "count": 7
     },
     {
-      "name": "Prompt",
+      "name": "GPU",
       "count": 5
     },
     {
-      "name": "GPU",
+      "name": "Prompt",
       "count": 5
     },
     {
@@ -105,26 +105,26 @@
       "count": 2
     },
     {
-      "name": "Embedding",
-      "count": 2
-    },
-    {
       "name": "Diffusion",
       "count": 1
     },
     {
       "name": "Mistral",
       "count": 1
+    },
+    {
+      "name": "Embedding",
+      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 155
+      "count": 157
     },
     {
       "name": "开源项目",
-      "count": 50
+      "count": 54
     },
     {
       "name": "模型发布",
@@ -132,7 +132,7 @@
     },
     {
       "name": "产品/API",
-      "count": 10
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -154,11 +154,11 @@
     },
     {
       "date": "09-12",
-      "count": 20
+      "count": 22
     },
     {
       "date": "09-13",
-      "count": 5
+      "count": 12
     },
     {
       "date": "09-14",
@@ -173,8 +173,20 @@
       "source": "OpenAI"
     },
     {
+      "id": "96cb5d4c7f75",
+      "title": "tech-leads-club /agent-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "cc05accd67dc",
       "title": "melgarafael /DeskcommCRM",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "20703a86e2b0",
+      "title": "calesthio /OpenMontage",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -185,46 +197,34 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "85770197f1cb",
+      "title": "vxcontrol /pentagi",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c4e160b8f96f",
+      "title": "multimodal-art-projection /YuE",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "d0e6322ed5fa",
+      "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "29235f456685",
+      "title": "Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "352163fdbcde",
       "title": "jihe520 /MathModelAgent",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "30f45cd66d55",
-      "title": "alsk1992 /CloddsBot",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "46405393d4f5",
-      "title": "Shubhamsaboo /awesome-llm-apps",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "fc7d853f8a19",
-      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "28a16cca7a55",
-      "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "458aa7786a98",
-      "title": "A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "7b44d166e5e2",
-      "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
     }
   ]
 }
