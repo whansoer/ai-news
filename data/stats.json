@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-14T03:54:29Z",
-  "total": 249,
+  "updated": "2026-09-14T14:56:32Z",
+  "total": 285,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 60
+      "name": "ArXiv (cs.CL)",
+      "count": 75
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 60
+      "name": "ArXiv (cs.AI)",
+      "count": 75
     },
     {
       "name": "GitHub Trending",
-      "count": 31
+      "count": 35
     },
     {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 28
     },
     {
       "name": "OpenAI",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,19 +42,27 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 68
     },
     {
       "name": "LLM",
-      "count": 29
+      "count": 36
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 14
     },
     {
       "name": "GPT",
       "count": 11
+    },
+    {
+      "name": "API",
+      "count": 9
+    },
+    {
+      "name": "OpenAI",
+      "count": 8
     },
     {
       "name": "Claude",
@@ -65,20 +73,16 @@
       "count": 8
     },
     {
-      "name": "API",
-      "count": 8
-    },
-    {
-      "name": "OpenAI",
-      "count": 7
-    },
-    {
       "name": "Google",
       "count": 7
     },
     {
       "name": "Prompt",
       "count": 5
+    },
+    {
+      "name": "Anthropic",
+      "count": 4
     },
     {
       "name": "Transformer",
@@ -91,10 +95,6 @@
     {
       "name": "DeepSeek",
       "count": 4
-    },
-    {
-      "name": "Anthropic",
-      "count": 3
     },
     {
       "name": "Gemini",
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 157
+      "count": 188
     },
     {
       "name": "开源项目",
-      "count": 46
+      "count": 50
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -150,7 +150,7 @@
     },
     {
       "date": "09-10",
-      "count": 34
+      "count": 35
     },
     {
       "date": "09-11",
@@ -166,37 +166,13 @@
     },
     {
       "date": "09-14",
-      "count": 8
+      "count": 46
     }
   ],
   "top10": [
     {
-      "id": "96cb5d4c7f75",
-      "title": "tech-leads-club /agent-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "cc05accd67dc",
-      "title": "melgarafael /DeskcommCRM",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "20703a86e2b0",
-      "title": "calesthio /OpenMontage",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "3675b0176088",
-      "title": "asgeirtj /system_prompts_leaks",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "85770197f1cb",
-      "title": "vxcontrol /pentagi",
+      "id": "9cd514d03f14",
+      "title": "alibaba /open-code-review",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -207,28 +183,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "5cbfdebb3a60",
-      "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
+      "id": "81fb0b6406ba",
+      "title": "Panniantong /Agent-Reach",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "3675b0176088",
+      "title": "asgeirtj /system_prompts_leaks",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ddbbf4cad372",
+      "title": "rlaope /oh-my-hermes",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "84856bae44e5",
+      "title": "localsend /localsend",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1f726ce1f96d",
+      "title": "Why Most Enterprise Agent Pilots Never Reach Deployment",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "d7fbf0329901",
+      "title": "NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "ea5b19333782",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "id": "9547ccc309de",
+      "title": "From Video to Data: How AI Is Transforming Multimedia Content Processing",
       "score": 5,
-      "source": "OpenAI"
+      "source": "AI News"
     },
     {
-      "id": "385a2a6e08d1",
-      "title": "Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction",
+      "id": "c1ca0d068389",
+      "title": "How Vox Group’s AI-Powered Technology Is Solving Real-Time Translation for Group Travel",
       "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "88af90513363",
-      "title": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
-      "score": 5,
-      "source": "MarkTechPost"
+      "source": "AI News"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-09-14T03:54:38Z",
-  "count": 372,
+  "updated": "2026-09-14T14:56:43Z",
+  "count": 373,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -23810,6 +23810,70 @@
         }
       },
       "_ts": 1789358078
+    },
+    "2b934dbf809efeff": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录285篇AI新闻，分类分布：学术研究188篇, 开源项目50篇, 模型发布34篇, 产品/API13篇。热门标签：Agent（68篇）。其中8%的文章有多来源交叉验证。\n\n▸ alibaba /open-code-review：Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: determinist\n\n▸ multimodal-art-projection /YuE：YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.\n\n▸ Panniantong /Agent-Reach：Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, \n\n▸ asgeirtj /system_prompts_leaks：Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. Open\n\n▸ rlaope /oh-my-hermes：All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model op",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "alibaba/open-code-review",
+            "url": "https://github.com/alibaba/open-code-review",
+            "why_hot": "单日1796星，Go项目",
+            "stars_today": 1796,
+            "total_stars": 24842
+          },
+          {
+            "full_name": "SnailSploit/Claude-Red",
+            "url": "https://github.com/SnailSploit/Claude-Red",
+            "why_hot": "单日606星，Python项目",
+            "stars_today": 606,
+            "total_stars": 4524
+          },
+          {
+            "full_name": "multimodal-art-projection/YuE",
+            "url": "https://github.com/multimodal-art-projection/YuE",
+            "why_hot": "单日578星，Python项目",
+            "stars_today": 578,
+            "total_stars": 8150
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "285"
+          },
+          {
+            "label": "多源验证率",
+            "value": "8%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+5652"
+          }
+        ],
+        "must_read_ids": [
+          "9cd514d03f14",
+          "c4e160b8f96f",
+          "81fb0b6406ba",
+          "3675b0176088",
+          "ddbbf4cad372"
+        ],
+        "text": "今日共收录285篇AI新闻，分类分布：学术研究188篇, 开源项目50篇, 模型发布34篇, 产品/API13篇。热门标签：Agent（68篇）。其中8%的文章有多来源交叉验证。",
+        "top_items": [
+          "alibaba /open-code-review",
+          "multimodal-art-projection /YuE",
+          "Panniantong /Agent-Reach",
+          "asgeirtj /system_prompts_leaks",
+          "rlaope /oh-my-hermes"
+        ],
+        "meta": {
+          "total_articles": 285,
+          "multi_source_pct": 8
+        }
+      },
+      "_ts": 1789397803
     }
   }
 }
