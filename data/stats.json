@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T18:42:28Z",
-  "total": 257,
+  "updated": "2026-09-14T03:44:24Z",
+  "total": 259,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 29
     },
     {
       "name": "OpenAI",
@@ -69,12 +69,12 @@
       "count": 8
     },
     {
-      "name": "Google",
+      "name": "OpenAI",
       "count": 7
     },
     {
-      "name": "OpenAI",
-      "count": 6
+      "name": "Google",
+      "count": 7
     },
     {
       "name": "GPU",
@@ -97,12 +97,16 @@
       "count": 4
     },
     {
+      "name": "Anthropic",
+      "count": 3
+    },
+    {
       "name": "Gemini",
       "count": 2
     },
     {
-      "name": "Anthropic",
-      "count": 2
+      "name": "Microsoft",
+      "count": 1
     },
     {
       "name": "Diffusion",
@@ -120,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 157
+      "count": 159
     },
     {
       "name": "开源项目",
@@ -158,20 +162,14 @@
     },
     {
       "date": "09-13",
-      "count": 13
+      "count": 8
     },
     {
       "date": "09-14",
-      "count": 1
+      "count": 8
     }
   ],
   "top10": [
-    {
-      "id": "ea5b19333782",
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "score": 5,
-      "source": "OpenAI"
-    },
     {
       "id": "96cb5d4c7f75",
       "title": "tech-leads-club /agent-skills",
@@ -209,20 +207,26 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "5cbfdebb3a60",
+      "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "ea5b19333782",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "385a2a6e08d1",
+      "title": "Hierarchical NeRF with JAX3D for Volumetric Rendering, Novel-View Synthesis, and 3D Reconstruction",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "88af90513363",
       "title": "A Princeton Researcher Proposes Recurrent Looped Transformer (RLT) that Carries Decoder State across Every Token, Fixing 96 Blocks per Token with Unbounded Temporal Depth",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "d0e6322ed5fa",
-      "title": "AWS Introduces Pizza Bot: An Open Source Inbox for Background AI Agents",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "29235f456685",
-      "title": "Context Engineering Inside the Harness: 4 Mechanisms That Beat Context Overflow and Goal Loss on Long-Horizon Tasks",
       "score": 5,
       "source": "MarkTechPost"
     }

@@ -1,8 +1,59 @@
 {
   "date": "2026-09-06",
-  "updated": "2026-09-13T13:15:36Z",
-  "total": 5,
+  "updated": "2026-09-14T03:44:35Z",
+  "total": 7,
   "items": [
+    {
+      "id": "15808c98cf96",
+      "title": "H Company Releases NeoMME: A Family of 260M and 800M Single-Tower Multimodal Encoders That Drop the Vision Tower and Causal Decoder",
+      "url": "https://www.marktechpost.com/2026/09/06/h-company-releases-neomme-a-family-of-260m-and-800m-single-tower-multimodal-encoders-that-drop-the-vision-tower-and-causal-decoder/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We look at NeoMME, a family of 260M and 800M bidirectional encoders from H Company. Unlike ColPali-style retrievers, it processes multilingual text tokens and raw 32×32 image patches in a single Transformer, with no pretrained vision tower and no...",
+      "published": "2026-09-06T21:06:41Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2eb657922857",
+      "title": "Meta FAIR Introduces AI Research Preference Models (RPMs): Ranking ML Experiments Before Spending GPU Hours",
+      "url": "https://www.marktechpost.com/2026/09/06/meta-fair-introduces-ai-research-preference-models-rpms-ranking-ml-experiments-before-spending-gpu-hours/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "AI research agents can propose far more experiments than they can afford to run. Meta FAIR, Oxford and UCL introduce AI Research Preference Models — frozen LLM judges that rank 15 unexecuted candidates and execute only one. On AIRS-Bench, the...",
+      "published": "2026-09-06T20:25:17Z",
+      "tags": [
+        "Meta",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "65f8451401f7"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "ea97e2f9b307",
       "title": "anthropics /skills",
