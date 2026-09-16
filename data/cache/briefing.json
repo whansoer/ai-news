@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-09-15T19:38:35Z",
-  "count": 377,
+  "updated": "2026-09-16T03:51:56Z",
+  "count": 378,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -24130,6 +24130,70 @@
         }
       },
       "_ts": 1789501115
+    },
+    "12eaa1d02f67fa45": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录283篇AI新闻，分类分布：学术研究190篇, 开源项目51篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（74篇）。其中9%的文章有多来源交叉验证。\n\n▸ alibaba /open-code-review：Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: determinist\n\n▸ melgarafael /DeskcommCRM：Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative \n\n▸ alphaXiv /OpenResearch：Turn your coding agents into research agents\n\n▸ danny-avila /LibreChat：Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses AP\n\n▸ pacifio /atlas：Source control for agents. Use multiple coding agents, track their changes and query them in one pla",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "alibaba/open-code-review",
+            "url": "https://github.com/alibaba/open-code-review",
+            "why_hot": "单日2756星，Go项目",
+            "stars_today": 2756,
+            "total_stars": 29027
+          },
+          {
+            "full_name": "alphaXiv/OpenResearch",
+            "url": "https://github.com/alphaXiv/OpenResearch",
+            "why_hot": "单日531星，Rust项目",
+            "stars_today": 531,
+            "total_stars": 3506
+          },
+          {
+            "full_name": "MG1937/ASC",
+            "url": "https://github.com/MG1937/ASC",
+            "why_hot": "单日129星，Python项目",
+            "stars_today": 129,
+            "total_stars": 1249
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "283"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+3609"
+          }
+        ],
+        "must_read_ids": [
+          "9cd514d03f14",
+          "cc05accd67dc",
+          "78ea4ce17c76",
+          "2d6bfe572fce",
+          "f798f6349b39"
+        ],
+        "text": "今日共收录283篇AI新闻，分类分布：学术研究190篇, 开源项目51篇, 模型发布30篇, 产品/API12篇。热门标签：Agent（74篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "alibaba /open-code-review",
+          "melgarafael /DeskcommCRM",
+          "alphaXiv /OpenResearch",
+          "danny-avila /LibreChat",
+          "pacifio /atlas"
+        ],
+        "meta": {
+          "total_articles": 283,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1789530716
     }
   }
 }

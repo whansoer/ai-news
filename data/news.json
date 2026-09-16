@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15T19:38:35Z",
-  "total": 250,
+  "updated": "2026-09-16T03:51:56Z",
+  "total": 245,
   "new_count": 33,
   "items": [
     {
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-09-15T19:36:30Z",
+      "published": "2026-09-16T03:49:56Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -43,7 +43,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-      "published": "2026-09-15T19:36:30Z",
+      "published": "2026-09-16T03:49:56Z",
       "tags": [
         "Agent"
       ],
@@ -70,7 +70,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Turn your coding agents into research agents",
-      "published": "2026-09-15T19:36:30Z",
+      "published": "2026-09-16T03:49:56Z",
       "tags": [
         "Agent"
       ],
@@ -97,7 +97,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain,...",
-      "published": "2026-09-15T19:36:30Z",
+      "published": "2026-09-16T03:49:56Z",
       "tags": [
         "GPT",
         "Gemini",
@@ -132,7 +132,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
-      "published": "2026-09-15T19:36:30Z",
+      "published": "2026-09-16T03:49:56Z",
       "tags": [
         "Agent"
       ],
@@ -151,6 +151,66 @@
         "Agent"
       ],
       "oneliner": "Source control for agents. Use multiple coding agents, track their changes and query them in one pla"
+    },
+    {
+      "id": "8a04863968c9",
+      "title": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
+      "url": "https://www.marktechpost.com/2026/09/15/inside-nvidias-cudnn-graph-api-fusion-autotuning-and-plan-reuse-with-cudnn-frontend/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Learn how to leverage NVIDIA’s cuDNN Frontend Graph API to build custom kernel fusions, autotuning engine configurations, FP8-style epilogues, scaled dot-product attention, dynamic shapes, and CUDA graph captures. This practical tutorial...",
+      "published": "2026-09-15T21:37:11Z",
+      "tags": [
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
+      "summary_zh": "Learn how to leverage NVIDIA’s cuDNN Frontend Graph API to build custom kernel fusions, autotuning engine configurations, FP8-style epilogues, scaled dot-product attention, dynamic shapes, and CUDA graph captures. This practical tutorial...",
+      "tags_zh": [
+        "API"
+      ],
+      "oneliner": "Learn how to leverage NVIDIA’s cuDNN Frontend Graph API to build custom kernel fusions, autotuning e"
+    },
+    {
+      "id": "f331f6c23d88",
+      "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
+      "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google has released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, its most advanced live dialogue models to date. The models execute tools and API calls in the background while the conversation keeps flowing, process live visual inputs,...",
+      "published": "2026-09-15T20:53:09Z",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "7c45bd626bd2"
+        ],
+        "score": 5
+      },
+      "title_zh": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
+      "summary_zh": "Google has released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, its most advanced live dialogue models to date. The models execute tools and API calls in the background while the conversation keeps flowing, process live visual inputs,...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "Google has released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, its most advanced live di"
     },
     {
       "id": "5236dbdf1644",
@@ -266,9 +326,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "f331f6c23d88",
           "a46be6ddc0e0"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "New insights from Google’s AI & Economy ATLAS",
       "summary_zh": "Text \"AI & Economy Atlas v1.0 2026\" with the Google G and a spinning globe illustration",
@@ -498,10 +559,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Clinical Reasoning Under a Partially Observed Objective in Cone Beam CT Report Generation",
-      "summary_zh": "arXiv:2609.13238v1 Announce Type: new \nAbstract: Maxillofacial report generation from cone beam computed tomography is scored here by a composite objective placing 80% of its weight on a large language model judgement of factual entailment and...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.13238v1 Announce Type: new \nAbstract: Maxillofacial report generation from cone beam comp"
+      "oneliner": ""
     },
     {
       "id": "47a2ae9c905a",
@@ -523,12 +584,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "RFCLLM: Evaluating LLMs' Reasoning Ability of Network Protocol State Machines",
-      "summary_zh": "arXiv:2609.13389v1 Announce Type: new \nAbstract: Mapping textual specifications into formal representations is essential for ensuring the correctness of protocol designs and implementations. LLM-generated mappings, used for networking security or...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.13389v1 Announce Type: new \nAbstract: Mapping textual specifications into formal represen"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "216f59e381fb",
@@ -5954,188 +6013,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e60f6498c318",
-      "title": "openai /skills",
-      "url": "https://github.com/openai/skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Skills Catalog for Codex",
-      "published": "2026-09-09T03:37:11Z",
-      "tags": [
-        "OpenAI"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "8c9e20fc0efe",
-          "bb894e920169"
-        ],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
-      "url": "https://github.com/affaan-m/ECC",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-09-09T03:37:11Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1c708e2373ce",
-      "title": "heygen-com /hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Write HTML. Render video. Built for agents.",
-      "published": "2026-09-09T03:37:11Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7344796a1c66",
-      "title": "coreyhaines31 /marketingskills",
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "published": "2026-09-09T03:37:11Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "39ec5846ae4b",
-      "title": "multica-ai /andrej-karpathy-skills",
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "published": "2026-09-09T03:37:11Z",
-      "tags": [
-        "Claude",
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1fbaa3734f80",
-      "title": "jo-inc /camofox-browser",
-      "url": "https://github.com/jo-inc/camofox-browser",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
-      "published": "2026-09-09T03:37:11Z",
-      "tags": [
-        "Agent",
-        "API"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "661b60bc53ad",
-      "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
-      "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "NVIDIA has announced CUDA Rust, a push to make Rust a first-class language for GPU kernels. Two open-source NVlabs projects cover the two CUDA programming models: cuda-oxide compiles SIMT kernels from Rust MIR through Pliron and LLVM to PTX,...",
-      "published": "2026-09-08T19:51:54Z",
-      "tags": [
-        "GPU"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
