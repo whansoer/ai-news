@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-16T13:21:27Z",
-  "total": 228,
-  "new_count": 49,
+  "updated": "2026-09-16T19:30:03Z",
+  "total": 227,
+  "new_count": 33,
   "items": [
     {
       "id": "9cd514d03f14",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-09-16T13:19:21Z",
+      "published": "2026-09-16T19:27:58Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -43,7 +43,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "published": "2026-09-16T13:19:21Z",
+      "published": "2026-09-16T19:27:58Z",
       "tags": [
         "Agent"
       ],
@@ -70,7 +70,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open-source AI voice studio. Clone, dictate, create.",
-      "published": "2026-09-16T13:19:21Z",
+      "published": "2026-09-16T19:27:58Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -85,6 +85,75 @@
       "summary_zh": "The open-source AI voice studio. Clone, dictate, create.",
       "tags_zh": [],
       "oneliner": "The open-source AI voice studio. Clone, dictate, create."
+    },
+    {
+      "id": "2c7667f6e80a",
+      "title": "Helping older adults use AI in everyday life",
+      "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "published": "2026-09-16T16:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Helping older adults use AI in everyday life",
+      "summary_zh": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "tags_zh": [],
+      "oneliner": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. c"
+    },
+    {
+      "id": "d2e2a131de12",
+      "title": "Reimagining advertising with AI",
+      "url": "https://openai.com/index/reimagining-advertising-with-ai",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "published": "2026-09-16T13:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Reimagining advertising with AI",
+      "summary_zh": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "tags_zh": [],
+      "oneliner": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for ma"
+    },
+    {
+      "id": "f80091762901",
+      "title": "How workers are unlocking new ways of working",
+      "url": "https://openai.com/index/unlocking-new-ways-of-working",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "published": "2026-09-16T09:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "How workers are unlocking new ways of working",
+      "summary_zh": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "tags_zh": [],
+      "oneliner": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activit"
     },
     {
       "id": "f7667f3d3e9d",
@@ -449,12 +518,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Are We Grading Properly? Understanding Failure Modes in Medical Benchmarks",
-      "summary_zh": "arXiv:2609.16023v1 Announce Type: new \nAbstract: Medical evaluation is shifting from static option-based questioning to realistic clinical scenarios with open-ended output modes. Grading these at scale naively, however, is expensive, and...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.16023v1 Announce Type: new \nAbstract: Medical evaluation is shifting from static option-b"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "8ea91eea8ad8",
@@ -477,13 +544,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents",
-      "summary_zh": "arXiv:2609.16053v1 Announce Type: new \nAbstract: Long-term memory is essential for LLM-based agents operating over extended interactions. Existing memory systems primarily update memory when new information arrives, treating retrieval as the...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.16053v1 Announce Type: new \nAbstract: Long-term memory is essential for LLM-based agents "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "4ed94489876e",
@@ -503,10 +567,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "State of Thought Enables Endogenous Reasoning",
-      "summary_zh": "arXiv:2609.16055v1 Announce Type: new \nAbstract: Test-time compute has emerged as a major approach to improving the capabilities of Large Language Models (LLMs). However, existing test-time reasoning paradigms rely heavily on externally imposed...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.16055v1 Announce Type: new \nAbstract: Test-time compute has emerged as a major approach t"
+      "oneliner": ""
     },
     {
       "id": "726d2684d776",
@@ -5477,102 +5541,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 4
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "bb894e920169",
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "published": "2026-09-09T17:00:00Z",
-      "tags": [
-        "OpenAI"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "8c9e20fc0efe"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "43d2948c369a",
-      "title": "Get ready for the game with new football features in Search",
-      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "An illustrated graphic set against a vibrant green background featuring American football elements, including a gold trophy, a blue helmet, a silver whistle, a football, a mini scoreboard, and play diagrams, with the icon for AI Mode in Google...",
-      "published": "2026-09-09T16:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "32522e85f743",
-      "title": "Recreating a 70-year love story frame by frame",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "An elderly couple sitting in a movie theater. Overlayed are \"Teulluride Film Festival\" and \"Love, Rendered\"",
-      "published": "2026-09-09T16:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0e4c70248969",
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-09-09T15:36:24Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",

@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-16T13:21:17Z",
-  "total": 294,
+  "updated": "2026-09-16T19:29:53Z",
+  "total": 261,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "GitHub Trending",
@@ -16,7 +16,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 29
+    },
+    {
+      "name": "OpenAI",
+      "count": 16
     },
     {
       "name": "Hugging Face",
@@ -27,38 +31,34 @@
       "count": 15
     },
     {
-      "name": "OpenAI",
-      "count": 15
+      "name": "Synced",
+      "count": 10
     },
     {
       "name": "AI News",
-      "count": 11
-    },
-    {
-      "name": "Synced",
-      "count": 10
+      "count": 9
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 36
+      "count": 31
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 10
     },
     {
       "name": "GPT",
-      "count": 11
+      "count": 10
     },
     {
       "name": "API",
-      "count": 9
+      "count": 8
     },
     {
       "name": "OpenAI",
@@ -70,14 +70,10 @@
     },
     {
       "name": "RAG",
-      "count": 6
-    },
-    {
-      "name": "DeepSeek",
       "count": 5
     },
     {
-      "name": "Prompt",
+      "name": "DeepSeek",
       "count": 5
     },
     {
@@ -90,10 +86,14 @@
     },
     {
       "name": "Transformer",
-      "count": 4
+      "count": 3
     },
     {
       "name": "Gemini",
+      "count": 3
+    },
+    {
+      "name": "Prompt",
       "count": 3
     },
     {
@@ -101,16 +101,16 @@
       "count": 3
     },
     {
-      "name": "Mistral",
+      "name": "Microsoft",
       "count": 2
+    },
+    {
+      "name": "Mistral",
+      "count": 1
     },
     {
       "name": "Meta",
-      "count": 2
-    },
-    {
-      "name": "Microsoft",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Diffusion",
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 206
+      "count": 174
     },
     {
       "name": "开源项目",
@@ -132,11 +132,11 @@
     },
     {
       "name": "模型发布",
-      "count": 30
+      "count": 31
     },
     {
       "name": "产品/API",
-      "count": 11
+      "count": 9
     }
   ],
   "dailyTrend": [
@@ -166,7 +166,7 @@
     },
     {
       "date": "09-16",
-      "count": 39
+      "count": 42
     }
   ],
   "top10": [
@@ -189,6 +189,24 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "2c7667f6e80a",
+      "title": "Helping older adults use AI in everyday life",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "d2e2a131de12",
+      "title": "Reimagining advertising with AI",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "f80091762901",
+      "title": "How workers are unlocking new ways of working",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
       "id": "f7667f3d3e9d",
       "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
       "score": 5,
@@ -209,24 +227,6 @@
     {
       "id": "844e43366a75",
       "title": "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "5956c09f1f73",
-      "title": "Optimal Model Activation Policies for Inference Networks of Large Language Models",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "dbd45d0b6f04",
-      "title": "Single Document Extractive Summarization using Domination in Hypergraph",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "a6f6165d97f5",
-      "title": "Latent Undertow: How Ordinary Typos Break Probes",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }
