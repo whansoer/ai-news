@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-16T03:51:47Z",
-  "total": 283,
+  "updated": "2026-09-16T13:21:17Z",
+  "total": 294,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 35
+      "count": 31
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 31
     },
     {
       "name": "Hugging Face",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Synced",
@@ -42,35 +42,35 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 74
+      "count": 72
     },
     {
       "name": "LLM",
       "count": 36
     },
     {
+      "name": "Benchmark",
+      "count": 12
+    },
+    {
       "name": "GPT",
       "count": 11
     },
     {
-      "name": "Benchmark",
-      "count": 11
-    },
-    {
       "name": "API",
-      "count": 10
+      "count": 9
     },
     {
       "name": "OpenAI",
-      "count": 8
-    },
-    {
-      "name": "Claude",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Google",
       "count": 7
+    },
+    {
+      "name": "RAG",
+      "count": 6
     },
     {
       "name": "DeepSeek",
@@ -81,7 +81,7 @@
       "count": 5
     },
     {
-      "name": "RAG",
+      "name": "Claude",
       "count": 5
     },
     {
@@ -89,7 +89,7 @@
       "count": 4
     },
     {
-      "name": "GPU",
+      "name": "Transformer",
       "count": 4
     },
     {
@@ -97,7 +97,7 @@
       "count": 3
     },
     {
-      "name": "Transformer",
+      "name": "GPU",
       "count": 3
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 206
     },
     {
       "name": "开源项目",
-      "count": 51
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 11
     }
   ],
   "dailyTrend": [
@@ -162,11 +162,11 @@
     },
     {
       "date": "09-15",
-      "count": 46
+      "count": 31
     },
     {
       "date": "09-16",
-      "count": 5
+      "count": 39
     }
   ],
   "top10": [
@@ -177,58 +177,58 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "cc05accd67dc",
-      "title": "melgarafael /DeskcommCRM",
+      "id": "1a92f63bf14a",
+      "title": "cloudflare /security-audit-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "78ea4ce17c76",
-      "title": "alphaXiv /OpenResearch",
+      "id": "bfeff07f7d86",
+      "title": "jamiepine /voicebox",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "2d6bfe572fce",
-      "title": "danny-avila /LibreChat",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "f798f6349b39",
-      "title": "pacifio /atlas",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "8a04863968c9",
-      "title": "Inside NVIDIA’s cuDNN Graph API: Fusion, Autotuning, and Plan Reuse with cuDNN Frontend",
+      "id": "f7667f3d3e9d",
+      "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "f331f6c23d88",
-      "title": "Google Releases Gemini 3.8 Live and 3.8 Live Extended Thinking for Production Grade Voice Agents",
+      "id": "839bf1c8d799",
+      "title": "Nums AI Releases Causilo: A Tabular Foundation Model That Tops TabArena Among Single Models",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "5236dbdf1644",
-      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "id": "dfd4cb976de4",
+      "title": "Few-Shot Degradation Is Not What It Seems: Behavioral Evidence, Representation Analysis, and a Random-Text Control Across 12 Models, 2 Tasks, and 2 Architectures",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "a56de3e90322",
-      "title": "AI for Societal Impact",
+      "id": "844e43366a75",
+      "title": "The Functionalizer: Lossless Functional Decomposition for Subword Tokenization",
       "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "b5ab0b9d7814",
-      "title": "Building AI to accelerate science and improve lives",
+      "id": "5956c09f1f73",
+      "title": "Optimal Model Activation Policies for Inference Networks of Large Language Models",
       "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "dbd45d0b6f04",
+      "title": "Single Document Extractive Summarization using Domination in Hypergraph",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "a6f6165d97f5",
+      "title": "Latent Undertow: How Ordinary Typos Break Probes",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
