@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-17T13:17:48Z",
-  "total": 302,
+  "updated": "2026-09-17T19:40:59Z",
+  "total": 294,
   "sources": [
-    {
-      "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 90
+    },
+    {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
     },
     {
       "name": "GitHub Trending",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 31
     },
     {
       "name": "OpenAI",
@@ -31,65 +31,73 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 9
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 68
+      "count": 70
     },
     {
       "name": "LLM",
-      "count": 43
+      "count": 41
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 11
+    },
+    {
+      "name": "GPT",
+      "count": 10
     },
     {
       "name": "API",
       "count": 9
     },
     {
-      "name": "GPT",
-      "count": 9
+      "name": "Google",
+      "count": 8
     },
     {
       "name": "RAG",
       "count": 7
     },
     {
-      "name": "Google",
-      "count": 7
+      "name": "OpenAI",
+      "count": 6
+    },
+    {
+      "name": "Anthropic",
+      "count": 6
     },
     {
       "name": "Claude",
       "count": 6
     },
     {
-      "name": "OpenAI",
-      "count": 5
-    },
-    {
-      "name": "Anthropic",
-      "count": 5
-    },
-    {
-      "name": "DeepSeek",
-      "count": 5
+      "name": "Transformer",
+      "count": 4
     },
     {
       "name": "GPU",
       "count": 4
     },
     {
-      "name": "Transformer",
+      "name": "DeepSeek",
+      "count": 4
+    },
+    {
+      "name": "Diffusion",
+      "count": 3
+    },
+    {
+      "name": "Microsoft",
       "count": 3
     },
     {
@@ -105,15 +113,7 @@
       "count": 2
     },
     {
-      "name": "Microsoft",
-      "count": 2
-    },
-    {
       "name": "Mistral",
-      "count": 1
-    },
-    {
-      "name": "Diffusion",
       "count": 1
     },
     {
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 217
+      "count": 206
     },
     {
       "name": "开源项目",
@@ -136,7 +136,7 @@
     },
     {
       "name": "产品/API",
-      "count": 9
+      "count": 12
     }
   ],
   "dailyTrend": [
@@ -162,11 +162,11 @@
     },
     {
       "date": "09-16",
-      "count": 55
+      "count": 59
     },
     {
       "date": "09-17",
-      "count": 38
+      "count": 43
     }
   ],
   "top10": [
@@ -213,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "a6a73b9f0597",
-      "title": "Enhancing Extubation Failure Prediction with LLM-Derived Features from Respiratory Therapy Clinical Notes",
+      "id": "4215f02f410f",
+      "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "AI News"
     },
     {
-      "id": "fb4d33d45a2d",
-      "title": "Faking Good and Faking Bad in LLMs: Response Distortion Across Dark Triad Personality Traits",
+      "id": "e8218a81558e",
+      "title": "Lidl deploys driverless truck for store deliveries in Germany",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "AI News"
     },
     {
-      "id": "4c3b738dddd1",
-      "title": "DANTINOX: A Unified Framework for Multi-Paradigm Language Modeling",
+      "id": "1909ad701e76",
+      "title": "OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     }
   ]
 }

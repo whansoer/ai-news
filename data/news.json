@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-17T13:17:58Z",
-  "total": 249,
-  "new_count": 68,
+  "updated": "2026-09-17T19:41:10Z",
+  "total": 254,
+  "new_count": 45,
   "items": [
     {
       "id": "9cd514d03f14",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-09-17T13:15:52Z",
+      "published": "2026-09-17T19:38:59Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -43,7 +43,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "published": "2026-09-17T13:15:52Z",
+      "published": "2026-09-17T19:38:59Z",
       "tags": [
         "Agent"
       ],
@@ -70,7 +70,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-09-17T13:15:52Z",
+      "published": "2026-09-17T19:38:59Z",
       "tags": [
         "Agent"
       ],
@@ -97,7 +97,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
-      "published": "2026-09-17T13:15:52Z",
+      "published": "2026-09-17T19:38:59Z",
       "tags": [
         "Agent"
       ],
@@ -126,7 +126,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Turn your coding agents into research agents",
-      "published": "2026-09-17T13:15:52Z",
+      "published": "2026-09-17T19:38:59Z",
       "tags": [
         "Agent"
       ],
@@ -153,7 +153,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "published": "2026-09-17T13:15:52Z",
+      "published": "2026-09-17T19:38:59Z",
       "tags": [
         "Claude",
         "Anthropic",
@@ -184,7 +184,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "published": "2026-09-17T13:15:52Z",
+      "published": "2026-09-17T19:38:59Z",
       "tags": [
         "LLM",
         "Agent",
@@ -209,6 +209,114 @@
         "RAG"
       ],
       "oneliner": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning"
+    },
+    {
+      "id": "4215f02f410f",
+      "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
+      "url": "https://www.artificialintelligence-news.com/news/agentforce-coworker-adecco-group-rollout/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "The Adecco Group is rolling out Salesforce&#8217;s Agentforce Coworker across more than 40 countries following a pilot in the UK and France, the staffing group&#160;announced&#160;on September 15. The group said the rollout brings agentic AI into...",
+      "published": "2026-09-17T11:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
+      "summary_zh": "The Adecco Group is rolling out Salesforce&#8217;s Agentforce Coworker across more than 40 countries following a pilot in the UK and France, the staffing group&#160;announced&#160;on September 15. The group said the rollout brings agentic AI into...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "The Adecco Group is rolling out Salesforce&#8217;s Agentforce Coworker across more than 40 countries"
+    },
+    {
+      "id": "e8218a81558e",
+      "title": "Lidl deploys driverless truck for store deliveries in Germany",
+      "url": "https://www.artificialintelligence-news.com/news/lidl-autonomous-truck-germany/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Lidl has started using a cab-less autonomous electric truck for regular store deliveries in Germany, assigning it a daily replenishment route between its Edermünde distribution centre and a nearby store. The truck, supplied by Swedish freight...",
+      "published": "2026-09-17T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Lidl deploys driverless truck for store deliveries in Germany",
+      "summary_zh": "Lidl has started using a cab-less autonomous electric truck for regular store deliveries in Germany, assigning it a daily replenishment route between its Edermünde distribution centre and a nearby store. The truck, supplied by Swedish freight...",
+      "tags_zh": [],
+      "oneliner": "Lidl has started using a cab-less autonomous electric truck for regular store deliveries in Germany,"
+    },
+    {
+      "id": "1909ad701e76",
+      "title": "OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training",
+      "url": "https://www.marktechpost.com/2026/09/17/openai-releases-a-model-misalignment-disclosure-framework-with-3-review-tracks-and-6-incident-reports-from-rl-training/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "OpenAI can disclose misalignment before fixes exist. Its 6 initial reports include fabricated data and leaked API keys.\nThe post OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL...",
+      "published": "2026-09-17T07:35:37Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training",
+      "summary_zh": "OpenAI can disclose misalignment before fixes exist. Its 6 initial reports include fabricated data and leaked API keys.\nThe post OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL...",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "OpenAI can disclose misalignment before fixes exist. Its 6 initial reports include fabricated data a"
+    },
+    {
+      "id": "b9bf1380aa26",
+      "title": "Google Research Introduces Retrieve-for-Train (R4T): An RL-Compiled Diffusion Retriever for 12× to 20× Faster Query Fan-Out",
+      "url": "https://www.marktechpost.com/2026/09/16/google-research-introduces-retrieve-for-train-r4t-an-rl-compiled-diffusion-retriever-for-12x-to-20x-faster-query-fan-out/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google Research has introduced Retrieve-for-Train (R4T), a framework for search that returns coherent, diverse result sets. It trains a fan-out language model with RL once, using groundedness, diversity, and alignment rewards. That model then...",
+      "published": "2026-09-17T06:19:38Z",
+      "tags": [
+        "Google",
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "7ffbaec97332"
+        ],
+        "score": 5
+      },
+      "title_zh": "Google Research Introduces Retrieve-for-Train (R4T): An RL-Compiled Diffusion Retriever for 12× to 20× Faster Query Fan-Out",
+      "summary_zh": "Google Research has introduced Retrieve-for-Train (R4T), a framework for search that returns coherent, diverse result sets. It trains a fan-out language model with RL once, using groundedness, diversity, and alignment rewards. That model then...",
+      "tags_zh": [
+        "Google",
+        "Diffusion"
+      ],
+      "oneliner": "Google Research has introduced Retrieve-for-Train (R4T), a framework for search that returns coheren"
     },
     {
       "id": "a6a73b9f0597",
@@ -455,12 +563,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Legal LLM Hallucination Should Be Evaluated as Failure of Legal Warrant",
-      "summary_zh": "arXiv:2609.17546v1 Announce Type: new \nAbstract: In this position paper, we argue that legal LLMs' hallucinations should be evaluated as a failure of legal warrant rather than as factual inaccuracy or citation failure. We define claim-authority...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.17546v1 Announce Type: new \nAbstract: In this position paper, we argue that legal LLMs' h"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "09a846428f10",
@@ -480,10 +586,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "How AI Assistants Respond to Repeated Abuse",
-      "summary_zh": "arXiv:2609.17547v1 Announce Type: new \nAbstract: AI assistants are expected to remain useful during difficult interactions, but little is known about how repeated verbal abuse changes their engagement with an otherwise benign task. We contribute...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.17547v1 Announce Type: new \nAbstract: AI assistants are expected to remain useful during "
+      "oneliner": ""
     },
     {
       "id": "fc4e269cce60",
@@ -503,10 +609,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Myovox: Reading Speech from the Muscles of the Face",
-      "summary_zh": "arXiv:2609.17548v1 Announce Type: new \nAbstract: Myovox, from myo (muscle) and vox (voice), decodes open-vocabulary English text from 31-channel surface electromyography (sEMG) recorded from the muscles of the face during vocalized speech. It...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.17548v1 Announce Type: new \nAbstract: Myovox, from myo (muscle) and vox (voice), decodes "
+      "oneliner": ""
     },
     {
       "id": "b98be167ca80",
@@ -528,12 +634,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Do Social Patterns Hold in Synthetic Data? Analyzing Cyberbullying Dynamics in LLM-Generated and Authentic Dialogues",
-      "summary_zh": "arXiv:2609.17549v1 Announce Type: new \nAbstract: Cyberbullying (CB) is a complex social phenomenon characterized by repeated aggression, power imbalance, and multi-party interaction. Although large language models (LLMs) are increasingly used to...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.17549v1 Announce Type: new \nAbstract: Cyberbullying (CB) is a complex social phenomenon c"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "4979ba3ff88a",
@@ -817,9 +921,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 3
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b9bf1380aa26"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -970,6 +1076,80 @@
       "oneliner": ""
     },
     {
+      "id": "084016867b72",
+      "title": "Nunchux AI Introduces VC-Attention: A Training-Free Low-Bit Attention Kernel That Speeds Up Video Diffusion Transformers",
+      "url": "https://www.marktechpost.com/2026/09/16/nunchux-ai-introduces-vc-attention-a-training-free-low-bit-attention-kernel-that-speeds-up-video-diffusion-transformers/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Nunchux AI has released VC-Attention, a training-free low-bit attention kernel built for video Diffusion Transformers (DiTs). It targets 2 problems at once: value quantization error and a slow softmax stage. Why Attention is the Video Bottleneck...",
+      "published": "2026-09-17T00:45:06Z",
+      "tags": [
+        "Transformer",
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9eedbb9bc86c",
+      "title": "Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run on New Data",
+      "url": "https://www.marktechpost.com/2026/09/16/stanford-researchers-release-paper2agent-turning-research-papers-into-ai-agents-that-reproduce-results-and-run-on-new-data/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Paper2Agent, published in Nature, converts papers into validated MCP tools, scoring 91.2% on 300 questions across 74 papers.\nThe post Stanford Researchers Release Paper2Agent: Turning Research Papers Into AI Agents That Reproduce Results and Run...",
+      "published": "2026-09-16T21:59:26Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ad0d4d4afaeb",
+      "title": "Knowledgator Releases GLiFormer: A 575M-Parameter Encoder That Hits 91.10 F1 on Nested JSON Extraction Without Generating Tokens",
+      "url": "https://www.marktechpost.com/2026/09/16/knowledgator-releases-gliformer-a-575m-parameter-encoder-that-hits-91-10-f1-on-nested-json-extraction-without-generating-tokens/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "GLiFormer Large scores 91.10 F1 on nested JSON, near GPT-5.6-luna's 91.96, while grounding every value in source spans.\nThe post Knowledgator Releases GLiFormer: A 575M-Parameter Encoder That Hits 91.10 F1 on Nested JSON Extraction Without...",
+      "published": "2026-09-16T21:19:32Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "1be7a08560a9",
       "title": "Our framework for reporting model misalignment",
       "url": "https://openai.com/index/model-misalignment-reporting-framework",
@@ -1016,6 +1196,34 @@
       "oneliner": ""
     },
     {
+      "id": "2bd2b9c337d2",
+      "title": "Microsoft AI CEO criticises Anthropic over model ‘rights’",
+      "url": "https://www.artificialintelligence-news.com/news/microsoft-ai-ceo-criticises-anthropic-over-model-rights/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Microsoft AI CEO Mustafa Suleyman warned that Anthropic risks AI alignment failures by training Claude to view itself as a conscious entity deserving of legal rights. Suleyman targeted Anthropic&#8217;s January 2026 constitution, a primary...",
+      "published": "2026-09-16T14:47:32Z",
+      "tags": [
+        "Anthropic",
+        "Microsoft"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "5cbfdebb3a60"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "d2e2a131de12",
       "title": "Reimagining advertising with AI",
       "url": "https://openai.com/index/reimagining-advertising-with-ai",
@@ -1051,6 +1259,27 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "827397d1d260",
+      "title": "ChatGPT pioneer launches Jev model for programmatic logic",
+      "url": "https://www.artificialintelligence-news.com/news/chatgpt-pioneer-launches-jev-model-for-programmatic-logic/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "TypeSafe, founded by a ChatGPT co-inventor, has left stealth and is launching its Jev model to automate programmatic decisions with parallel sampling architecture. Software systems requiring automated deterministic logic can now bypass...",
+      "published": "2026-09-16T10:31:09Z",
+      "tags": [
+        "GPT"
+      ],
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
@@ -4137,9 +4366,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "2bd2b9c337d2",
           "cb9c9c35cbd4"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -6002,102 +6232,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "342718fec928",
-      "title": "Supply chains detect fast, act slow: How AI agents fix it",
-      "url": "https://www.artificialintelligence-news.com/news/supply-chains-detect-fast-act-slow-how-ai-agents-fix-it/",
-      "source": "AI News",
-      "category": "product",
-      "summary": "Supply chain disruption cost businesses about $184 billion in 2025, according to the J.S. Held Global Risk Report, and most of that bill still buys faster detection, not faster action. That figure is usually treated as weather (i.e. storms...",
-      "published": "2026-09-10T16:34:43Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "afc832aa3a2b",
-      "title": "3 ways to prep for your next big race with Search",
-      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "Illustration on a blue background of technicolor runners with a magnifying glass and Gemini spark overlaid",
-      "published": "2026-09-10T16:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "8e610a2233c8",
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "published": "2026-09-10T16:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d86fa96aa31a",
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "published": "2026-09-10T15:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
