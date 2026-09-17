@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-09-17T03:57:21Z",
-  "count": 381,
+  "updated": "2026-09-17T13:17:58Z",
+  "count": 382,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -24386,6 +24386,70 @@
         }
       },
       "_ts": 1789617441
+    },
+    "48c3ecb2d439862e": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录302篇AI新闻，分类分布：学术研究217篇, 开源项目46篇, 模型发布30篇, 产品/API9篇。热门标签：Agent（68篇）。其中10%的文章有多来源交叉验证。\n\n▸ alibaba /open-code-review：Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: determinist\n\n▸ cloudflare /security-audit-skill：A coding-agent skill for multi-phase security audits with independently verified, machine-readable f\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ Tencent /BrowserSkill：Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for b\n\n▸ alphaXiv /OpenResearch：Turn your coding agents into research agents",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "alibaba/open-code-review",
+            "url": "https://github.com/alibaba/open-code-review",
+            "why_hot": "单日3290星，Go项目",
+            "stars_today": 3290,
+            "total_stars": 33726
+          },
+          {
+            "full_name": "Tencent/WeKnora",
+            "url": "https://github.com/Tencent/WeKnora",
+            "why_hot": "单日1123星，Go项目",
+            "stars_today": 1123,
+            "total_stars": 26000
+          },
+          {
+            "full_name": "addyosmani/agent-skills",
+            "url": "https://github.com/addyosmani/agent-skills",
+            "why_hot": "单日680星，JavaScript项目",
+            "stars_today": 680,
+            "total_stars": 95832
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "302"
+          },
+          {
+            "label": "多源验证率",
+            "value": "10%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+12700"
+          }
+        ],
+        "must_read_ids": [
+          "9cd514d03f14",
+          "1a92f63bf14a",
+          "0d1bd25a3199",
+          "373224bd194d",
+          "78ea4ce17c76"
+        ],
+        "text": "今日共收录302篇AI新闻，分类分布：学术研究217篇, 开源项目46篇, 模型发布30篇, 产品/API9篇。热门标签：Agent（68篇）。其中10%的文章有多来源交叉验证。",
+        "top_items": [
+          "alibaba /open-code-review",
+          "cloudflare /security-audit-skill",
+          "addyosmani /agent-skills",
+          "Tencent /BrowserSkill",
+          "alphaXiv /OpenResearch"
+        ],
+        "meta": {
+          "total_articles": 302,
+          "multi_source_pct": 10
+        }
+      },
+      "_ts": 1789651078
     }
   }
 }
