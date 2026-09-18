@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-17T19:40:59Z",
-  "total": 294,
+  "updated": "2026-09-18T03:44:12Z",
+  "total": 293,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -19,6 +19,10 @@
       "count": 31
     },
     {
+      "name": "Google AI",
+      "count": 15
+    },
+    {
       "name": "OpenAI",
       "count": 15
     },
@@ -27,12 +31,8 @@
       "count": 15
     },
     {
-      "name": "Google AI",
-      "count": 15
-    },
-    {
       "name": "AI News",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Synced",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 70
+      "count": 68
     },
     {
       "name": "LLM",
@@ -57,15 +57,15 @@
       "count": 10
     },
     {
-      "name": "API",
-      "count": 9
-    },
-    {
       "name": "Google",
       "count": 8
     },
     {
       "name": "RAG",
+      "count": 7
+    },
+    {
+      "name": "API",
       "count": 7
     },
     {
@@ -136,14 +136,10 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 11
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-11",
-      "count": 42
-    },
     {
       "date": "09-12",
       "count": 22
@@ -166,7 +162,11 @@
     },
     {
       "date": "09-17",
-      "count": 43
+      "count": 39
+    },
+    {
+      "date": "09-18",
+      "count": 7
     }
   ],
   "top10": [
@@ -213,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "b7fa72fd1998",
+      "title": "Making global data easier to explore",
+      "score": 5,
+      "source": "Google AI"
+    },
+    {
+      "id": "e268b158afb8",
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
       "id": "4215f02f410f",
       "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
       "score": 5,
       "source": "AI News"
-    },
-    {
-      "id": "e8218a81558e",
-      "title": "Lidl deploys driverless truck for store deliveries in Germany",
-      "score": 5,
-      "source": "AI News"
-    },
-    {
-      "id": "1909ad701e76",
-      "title": "OpenAI Releases a Model Misalignment Disclosure Framework With 3 Review Tracks and 6 Incident Reports From RL Training",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
