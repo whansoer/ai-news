@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-09-18T03:44:22Z",
-  "count": 384,
+  "updated": "2026-09-18T12:52:44Z",
+  "count": 385,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -24578,6 +24578,70 @@
         }
       },
       "_ts": 1789703062
+    },
+    "5cfd536220f3c2f3": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录326篇AI新闻，分类分布：学术研究238篇, 开源项目45篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（78篇）。其中11%的文章有多来源交叉验证。\n\n▸ cloudflare /security-audit-skill：A coding-agent skill for multi-phase security audits with independently verified, machine-readable f\n\n▸ anthropics /claude-code：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he\n\n▸ alibaba /open-code-review：Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det\n\n▸ affaan-m /ECC：The agent harness performance optimization system. Skills, instincts, memory, security, and research\n\n▸ Tencent /BrowserSkill：Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for b",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "alibaba/open-code-review",
+            "url": "https://github.com/alibaba/open-code-review",
+            "why_hot": "单日2724星，Go项目",
+            "stars_today": 2724,
+            "total_stars": 36185
+          },
+          {
+            "full_name": "affaan-m/ECC",
+            "url": "https://github.com/affaan-m/ECC",
+            "why_hot": "单日965星，JavaScript项目",
+            "stars_today": 965,
+            "total_stars": 261575
+          },
+          {
+            "full_name": "addyosmani/agent-skills",
+            "url": "https://github.com/addyosmani/agent-skills",
+            "why_hot": "单日677星，JavaScript项目",
+            "stars_today": 677,
+            "total_stars": 96160
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "326"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+10017"
+          }
+        ],
+        "must_read_ids": [
+          "1a92f63bf14a",
+          "1e61851c7eb0",
+          "9cd514d03f14",
+          "a90d342e2181",
+          "373224bd194d"
+        ],
+        "text": "今日共收录326篇AI新闻，分类分布：学术研究238篇, 开源项目45篇, 模型发布30篇, 产品/API13篇。热门标签：Agent（78篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "cloudflare /security-audit-skill",
+          "anthropics /claude-code",
+          "alibaba /open-code-review",
+          "affaan-m /ECC",
+          "Tencent /BrowserSkill"
+        ],
+        "meta": {
+          "total_articles": 326,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1789735964
     }
   }
 }

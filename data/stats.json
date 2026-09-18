@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-18T03:44:12Z",
-  "total": 293,
+  "updated": "2026-09-18T12:52:34Z",
+  "total": 326,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 105
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
-    },
-    {
-      "name": "GitHub Trending",
-      "count": 31
+      "count": 90
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 33
+    },
+    {
+      "name": "GitHub Trending",
+      "count": 30
     },
     {
       "name": "Google AI",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 11
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,46 +42,54 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 68
+      "count": 78
     },
     {
       "name": "LLM",
-      "count": 41
+      "count": 46
     },
     {
       "name": "Benchmark",
-      "count": 11
+      "count": 14
     },
     {
       "name": "GPT",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Google",
       "count": 8
     },
     {
+      "name": "Claude",
+      "count": 7
+    },
+    {
+      "name": "Anthropic",
+      "count": 7
+    },
+    {
       "name": "RAG",
       "count": 7
     },
     {
-      "name": "API",
-      "count": 7
-    },
-    {
       "name": "OpenAI",
-      "count": 6
-    },
-    {
-      "name": "Anthropic",
-      "count": 6
-    },
-    {
-      "name": "Claude",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Transformer",
+      "count": 5
+    },
+    {
+      "name": "API",
+      "count": 5
+    },
+    {
+      "name": "Prompt",
+      "count": 4
+    },
+    {
+      "name": "Microsoft",
       "count": 4
     },
     {
@@ -97,20 +105,16 @@
       "count": 3
     },
     {
-      "name": "Microsoft",
-      "count": 3
-    },
-    {
       "name": "Gemini",
-      "count": 3
-    },
-    {
-      "name": "Prompt",
       "count": 3
     },
     {
       "name": "Meta",
       "count": 2
+    },
+    {
+      "name": "Qwen",
+      "count": 1
     },
     {
       "name": "Mistral",
@@ -124,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 206
+      "count": 238
     },
     {
       "name": "开源项目",
-      "count": 46
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -136,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 11
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -162,41 +166,17 @@
     },
     {
       "date": "09-17",
-      "count": 39
+      "count": 41
     },
     {
       "date": "09-18",
-      "count": 7
+      "count": 45
     }
   ],
   "top10": [
     {
-      "id": "9cd514d03f14",
-      "title": "alibaba /open-code-review",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "1a92f63bf14a",
       "title": "cloudflare /security-audit-skill",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "0d1bd25a3199",
-      "title": "addyosmani /agent-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "373224bd194d",
-      "title": "Tencent /BrowserSkill",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "78ea4ce17c76",
-      "title": "alphaXiv /OpenResearch",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -207,28 +187,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "b271d174e634",
-      "title": "Tencent /WeKnora",
+      "id": "9cd514d03f14",
+      "title": "alibaba /open-code-review",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "b7fa72fd1998",
-      "title": "Making global data easier to explore",
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
       "score": 5,
-      "source": "Google AI"
+      "source": "GitHub Trending"
     },
     {
-      "id": "e268b158afb8",
-      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "id": "373224bd194d",
+      "title": "Tencent /BrowserSkill",
       "score": 5,
-      "source": "OpenAI"
+      "source": "GitHub Trending"
     },
     {
-      "id": "4215f02f410f",
-      "title": "Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries",
+      "id": "0d1bd25a3199",
+      "title": "addyosmani /agent-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "6c6123e1db36",
+      "title": "TencentCloud /Octop",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "21d0ac56b11a",
+      "title": "Fission-AI /OpenSpec",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "57fff132ac55",
+      "title": "Gartner outlines four AI tiers in warehouse automation",
       "score": 5,
       "source": "AI News"
+    },
+    {
+      "id": "8ea025e32fcf",
+      "title": "Best Open-Source Agent Harnesses for Local LLMs in 2026",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
