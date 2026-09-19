@@ -1,8 +1,371 @@
 {
   "date": "2026-09-12",
-  "updated": "2026-09-19T03:41:09Z",
-  "total": 5,
+  "updated": "2026-09-19T12:25:34Z",
+  "total": 20,
   "items": [
+    {
+      "id": "fc7d853f8a19",
+      "title": "Probabilistic Focal Search: Accelerating Bounded-Suboptimal Search via Lower-Bound Advancement",
+      "url": "https://arxiv.org/abs/2609.10584",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10584v1 Announce Type: new \nAbstract: Bounded-suboptimal search seeks a solution within a factor $w$ of optimal while reducing search effort. Focal Search (FS) uses heuristic guidance within FOCAL, the frontier nodes eligible under the...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "28a16cca7a55",
+      "title": "Automating Quadratic Unconstrained Binary Optimization (QUBO) Formulation Generation from Natural Language",
+      "url": "https://arxiv.org/abs/2609.10629",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10629v1 Announce Type: new \nAbstract: Quadratic Unconstrained Binary Optimization (QUBO) is a central formulation for combinatorial optimization and has gained increasing attention due to its compatibility with quantum, hybrid...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "458aa7786a98",
+      "title": "A Multi-Stage Rule-Chaining Framework for Compositional and Interpretable Cognitive Reasoning",
+      "url": "https://arxiv.org/abs/2609.10654",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10654v1 Announce Type: new \nAbstract: The Abstraction and Reasoning Corpus (ARC) benchmarks cognitive generalization, the ability to infer and apply abstract rules from limited examples. This paper presents a multi-stage rule-chaining...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7b44d166e5e2",
+      "title": "Understanding LoRA Rank Trade-offs in Diffusion Model Fine-Tuning",
+      "url": "https://arxiv.org/abs/2609.10656",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10656v1 Announce Type: new \nAbstract: Selecting LoRA rank for diffusion fine-tuning requires balancing quality and compute cost. We present a controlled study on CIFAR-10 using a DDPM U-Net with ranks {2,4,8,16,32}, fixed optimization...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0add288f6524",
+      "title": "Quantifying the Memorization-to-Generalization Transition: Scaling Laws and Phase Structure in Grokking",
+      "url": "https://arxiv.org/abs/2609.10657",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10657v1 Announce Type: new \nAbstract: Neural networks trained past memorization frequently undergo a delayed transition to generalization, a phenomenon known as grokking. Despite theoretical progress on \\emph{why} this transition...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b8f2ec8d5465",
+      "title": "An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics",
+      "url": "https://arxiv.org/abs/2609.10712",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10712v1 Announce Type: new \nAbstract: We study how model post-training and test-time inference design affect natural-language proof generation for hard olympiad mathematics. Starting from Nemotron 3 Ultra, we train two specialist...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "16629ea8cf8d",
+      "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+      "url": "https://arxiv.org/abs/2609.10724",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10724v1 Announce Type: new \nAbstract: Sustained deployment of generative AI agents requires more than isolated task success. Agents must remain useful across repeated interactions, changing conditions, and dependencies on people within...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9640fab67b7e",
+      "title": "Towards a Deterministic Math Solver for Clinical Language Models",
+      "url": "https://arxiv.org/abs/2609.10728",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10728v1 Announce Type: new \nAbstract: Large language models are unreliable at arithmetic, which is a problem for clinical calculators where a single numerical error changes the recommendation. The standard response is to hardcode each...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "501c271a76e7",
+      "title": "Studying Without a Syllabus: Task-Agnostic Environment Preprocessing",
+      "url": "https://arxiv.org/abs/2609.10824",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10824v1 Announce Type: new \nAbstract: Before an LLM agent tackles tasks in a new environment, it can inspect available corpora and tools and construct reusable resources such as indices, scripts, or procedural guidance. Most automated...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2137fdc9b673",
+      "title": "When Validation Stops Learning: Auditing Update Admission for Continual Embodied Agents",
+      "url": "https://arxiv.org/abs/2609.10873",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10873v1 Announce Type: new \nAbstract: Independent evaluation can reject harmful policy updates yet also prevent useful continual learning. We argue that update admission must be assessed through both error control and retained learning...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6b5eb067e712",
+      "title": "Decoupling Readiness from Release for Tail-Aware Scheduling of Agentic LLM Workflows",
+      "url": "https://arxiv.org/abs/2609.10964",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10964v1 Announce Type: new \nAbstract: Agentic LLM workflows consist of sequences of model turns interleaved with tool interactions, so their end-to-end completion time depends not only on inference speed but also on when ready turns...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f0ee4ad66438",
+      "title": "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
+      "url": "https://arxiv.org/abs/2609.10992",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.10992v1 Announce Type: new \nAbstract: The integration of Large Language Models into daily tasks relies on context-rich instructions, inevitably exposing sensitive user information. Current privacy-preserving methods typically employ...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f28ce7aef0b0",
+      "title": "Defining AI Agents: A Compendium of Criteria, Metrics, and Benchmarks",
+      "url": "https://arxiv.org/abs/2609.11018",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.11018v1 Announce Type: new \nAbstract: The term agent in artificial intelligence lacks a standard definition, complicating the evaluation, comparison, and reproducibility of AI agent research. We address this ambiguity through a survey...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d60ea38ff168",
+      "title": "The Agent Incident Registry: Toward Preventing Repeated AI Agent Failures",
+      "url": "https://arxiv.org/abs/2609.11030",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.11030v1 Announce Type: new \nAbstract: AI agents increasingly act through tools and delegated authority, but general incident repositories rarely capture the mechanisms needed to compare public failures with agent-security evaluations....",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5869b93b0f08",
+      "title": "Grounding Agent Memory: Environment-Probing Curation for Enterprise Agents",
+      "url": "https://arxiv.org/abs/2609.11060",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2609.11060v1 Announce Type: new \nAbstract: Persistent memory is entering production-oriented agent platforms to help long-horizon agents accumulate experience across sessions. Yet a post-task curator agent restricted to completed...",
+      "published": "2026-09-12T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "ee7d6f2f5cec",
       "title": "ayghri /i-have-adhd",
