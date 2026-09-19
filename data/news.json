@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-18T18:59:21Z",
-  "total": 257,
-  "new_count": 38,
+  "updated": "2026-09-19T03:41:09Z",
+  "total": 251,
+  "new_count": 36,
   "items": [
     {
       "id": "1a92f63bf14a",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "published": "2026-09-18T18:57:20Z",
+      "published": "2026-09-19T03:39:10Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "published": "2026-09-18T18:57:20Z",
+      "published": "2026-09-19T03:39:10Z",
       "tags": [
         "Claude",
         "Anthropic",
@@ -48,11 +48,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "f81912597741"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "anthropics /claude-code",
       "summary_zh": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
@@ -70,7 +68,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-09-18T18:57:20Z",
+      "published": "2026-09-19T03:39:10Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -105,7 +103,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-09-18T18:57:20Z",
+      "published": "2026-09-19T03:39:10Z",
       "tags": [
         "Claude",
         "Agent"
@@ -134,7 +132,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
-      "published": "2026-09-18T18:57:20Z",
+      "published": "2026-09-19T03:39:10Z",
       "tags": [
         "Agent"
       ],
@@ -164,7 +162,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-09-18T18:57:20Z",
+      "published": "2026-09-19T03:39:10Z",
       "tags": [
         "Agent"
       ],
@@ -191,7 +189,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-      "published": "2026-09-18T18:57:20Z",
+      "published": "2026-09-19T03:39:10Z",
       "tags": [
         "Agent"
       ],
@@ -221,7 +219,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Spec-driven development (SDD) for AI coding assistants.",
-      "published": "2026-09-18T18:57:20Z",
+      "published": "2026-09-19T03:39:10Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -1284,10 +1282,8 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "1e61851c7eb0"
-        ],
+        "level": "single-source",
+        "corroborating_ids": [],
         "score": 5
       },
       "title_zh": "",
@@ -2399,6 +2395,27 @@
       "relations": [],
       "difficulty": "intermediate",
       "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7d19d74e67f6",
+      "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
+      "url": "https://openai.com/index/hex-gpt-6-astra",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.",
+      "published": "2026-09-16T12:00:00Z",
+      "tags": [
+        "GPT"
+      ],
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
@@ -6147,182 +6164,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ee7d6f2f5cec",
-      "title": "ayghri /i-have-adhd",
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "published": "2026-09-12T03:37:49Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a74679813d68",
-      "title": "vastsa /PI-Desktop",
-      "url": "https://github.com/vastsa/PI-Desktop",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
-      "published": "2026-09-12T03:37:49Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "09519de43606",
-      "title": "armory3d /armorpaint",
-      "url": "https://github.com/armory3d/armorpaint",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Graphics Creation Tools",
-      "published": "2026-09-12T03:37:49Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "885b91dee30d",
-      "title": "nashsu /llm_wiki",
-      "url": "https://github.com/nashsu/llm_wiki",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and...",
-      "published": "2026-09-12T03:37:49Z",
-      "tags": [
-        "LLM",
-        "RAG"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-09-12T03:37:49Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "25276ca9afc2",
-      "title": "Can LLMs Engineer Their Own Agent Harness? ByteDance Seed’s HarnessDev Says Only 34 of 64 Changes Generalize",
-      "url": "https://www.marktechpost.com/2026/09/11/can-llms-engineer-their-own-agent-harness-bytedance-seeds-harnessdev-says-only-34-of-64-changes-generalize/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "ByteDance Seed, SUTD, Georgia Tech, M-A-P, and TokenWave.AI introduce HarnessDev, a benchmark that scores the runnable harness a model builds rather than the answer it returns. Starting from a seed that scores 0, 6 creator LLMs construct...",
-      "published": "2026-09-11T22:01:08Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9aeaf951e312",
-      "title": "Anthropic Adds Plugin Evals to Claude Code: 6 Grader Types, a No-Plugin Baseline, and a CI Gate for Skills",
-      "url": "https://www.marktechpost.com/2026/09/11/anthropic-adds-plugin-evals-to-claude-code-6-grader-types-a-no-plugin-baseline-and-a-ci-gate-for-skills/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Anthropic has published a new plugin evals workflow for Claude Code. The claude plugin eval command runs a plugin against realistic prompts, grades what Claude produced, and compares the result with a run where the plugin is not loaded. It...",
-      "published": "2026-09-11T21:05:55Z",
-      "tags": [
-        "Claude",
-        "Anthropic"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
