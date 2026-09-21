@@ -1,25 +1,25 @@
 {
-  "updated": "2026-09-21T03:53:50Z",
-  "total": 277,
+  "updated": "2026-09-21T15:01:42Z",
+  "total": 309,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 33
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 28
     },
     {
-      "name": "Google AI",
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -27,12 +27,12 @@
       "count": 15
     },
     {
-      "name": "Hugging Face",
+      "name": "Google AI",
       "count": 15
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Synced",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 61
     },
     {
       "name": "LLM",
-      "count": 38
+      "count": 43
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 14
     },
     {
       "name": "GPT",
@@ -61,11 +61,15 @@
       "count": 9
     },
     {
+      "name": "API",
+      "count": 6
+    },
+    {
       "name": "RAG",
       "count": 6
     },
     {
-      "name": "Claude",
+      "name": "Transformer",
       "count": 5
     },
     {
@@ -77,8 +81,8 @@
       "count": 5
     },
     {
-      "name": "API",
-      "count": 5
+      "name": "Claude",
+      "count": 4
     },
     {
       "name": "Gemini",
@@ -89,12 +93,16 @@
       "count": 4
     },
     {
-      "name": "Transformer",
+      "name": "DeepSeek",
       "count": 4
     },
     {
-      "name": "DeepSeek",
-      "count": 4
+      "name": "Diffusion",
+      "count": 3
+    },
+    {
+      "name": "Embedding",
+      "count": 3
     },
     {
       "name": "Qwen",
@@ -113,12 +121,8 @@
       "count": 3
     },
     {
-      "name": "Embedding",
-      "count": 2
-    },
-    {
-      "name": "Diffusion",
-      "count": 2
+      "name": "Fine-tune",
+      "count": 1
     },
     {
       "name": "Mistral",
@@ -128,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 191
+      "count": 223
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 43
     },
     {
       "name": "模型发布",
@@ -140,7 +144,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 13
     }
   ],
   "dailyTrend": [
@@ -166,29 +170,17 @@
     },
     {
       "date": "09-20",
-      "count": 6
+      "count": 5
     },
     {
       "date": "09-21",
-      "count": 8
+      "count": 47
     }
   ],
   "top10": [
     {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "c91380d9f615",
       "title": "BuilderIO /agent-native",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "1a92f63bf14a",
-      "title": "cloudflare /security-audit-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -199,38 +191,50 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "1e61851c7eb0",
-      "title": "anthropics /claude-code",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "6574280bda3f",
-      "title": "mihail911 /modern-software-dev-assignments",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "b81606652c12",
-      "title": "higgsfield-ai /higgsfield",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "84daf5030c29",
       "title": "Open-Dev-Society /OpenStock",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "67b80cccd369",
-      "title": "Flet 1.0 Released: Build Production Web, Desktop and Mobile Apps in Python Only",
+      "id": "44154b46b32c",
+      "title": "akitaonrails /ai-memory",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "e1859b05e6fc",
+      "title": "coder /coder",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "d26904d3ecd8",
+      "title": "zhouxiaoka /autoclip",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5a7c9e86a3ed",
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "4d6981c841a4",
+      "title": "How to Improve Visibility Across Your Enterprise AI Ecosystem",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
+      "id": "dfbc7d40f8c9",
+      "title": "Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "36c67a847c69",
-      "title": "You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+      "id": "bfca9547feca",
+      "title": "StepFun Launches Step 5 Preview: A 600B-Total, 27B-Active MoE Model With 1M Context for Long-Horizon Agentic Work",
       "score": 5,
       "source": "MarkTechPost"
     }
