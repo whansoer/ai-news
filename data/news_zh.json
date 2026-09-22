@@ -1,15 +1,15 @@
 {
-  "updated": "2026-09-22T03:51:16Z",
+  "updated": "2026-09-22T13:18:22Z",
   "total": 20,
   "items": [
     {
-      "id": "c91380d9f615",
-      "title_zh": "BuilderIO /agent-native",
-      "summary_zh": "A framework for building agentic apps",
+      "id": "9b897d36ce84",
+      "title_zh": "agent-substrate /substrate",
+      "summary_zh": "Agent Substrate: the core system",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "A framework for building agentic apps",
+      "oneliner": "Agent Substrate: the core system",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -17,13 +17,13 @@
       }
     },
     {
-      "id": "d44331a1971d",
-      "title_zh": "trycua /cua",
-      "summary_zh": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "id": "dd3f7c0b511d",
+      "title_zh": "dream-num /univer",
+      "summary_zh": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "tags_zh": [
-        "Benchmark"
+        "Agent"
       ],
-      "oneliner": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evalu",
+      "oneliner": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -31,11 +31,54 @@
       }
     },
     {
-      "id": "84daf5030c29",
-      "title_zh": "Open-Dev-Society /OpenStock",
-      "summary_zh": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "id": "9dd98392ba38",
+      "title_zh": "google /ax",
+      "summary_zh": "Google's open agentic orchestration runtime",
+      "tags_zh": [
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "Google's open agentic orchestration runtime",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1c9ab9e342ae",
+      "title_zh": "superdesigndev /treg",
+      "summary_zh": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "3a55db0d85d4",
+      "title_zh": "browser-use /video-use",
+      "summary_zh": "Edit videos with coding agents",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Edit videos with coding agents",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1fd552e184ab",
+      "title_zh": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "summary_zh": "arXiv:2609.20971v1 Announce Type: new \nAbstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce...",
       "tags_zh": [],
-      "oneliner": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set p",
+      "oneliner": "arXiv:2609.20971v1 Announce Type: new \nAbstract: Long-context large language model inference is incr",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -43,39 +86,11 @@
       }
     },
     {
-      "id": "44154b46b32c",
-      "title_zh": "akitaonrails /ai-memory",
-      "summary_zh": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e1859b05e6fc",
-      "title_zh": "coder /coder",
-      "summary_zh": "Secure environments for developers and their agents",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Secure environments for developers and their agents",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d26904d3ecd8",
-      "title_zh": "zhouxiaoka /autoclip",
-      "summary_zh": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "id": "90cef0af8e7a",
+      "title_zh": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
+      "summary_zh": "arXiv:2609.20974v1 Announce Type: new \nAbstract: In Mixture-of-Experts language models, the router typically selects and weights experts based on the token's hidden state, utilizing limited contextual information. We propose Attention-Aware...",
       "tags_zh": [],
-      "oneliner": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "oneliner": "arXiv:2609.20974v1 Announce Type: new \nAbstract: In Mixture-of-Experts language models, the router t",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -83,13 +98,13 @@
       }
     },
     {
-      "id": "01e027a4bf1c",
-      "title_zh": "AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy",
-      "summary_zh": "Many developers find that an agent idea works inside Claude Code or Codex, then struggles once they rebuild it with their own loop. The Strands Agents team at AWS is targeting that gap with Strands harness, a fully assembled, general-purpose...",
+      "id": "6ca0bc88fabc",
+      "title_zh": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
+      "summary_zh": "arXiv:2609.20981v1 Announce Type: new \nAbstract: Autoregressive (AR) models suffer from local greediness, while diffusion language models (DLMs) often lack the strict causal structure required for reasoning. To combine the advantages and overcome...",
       "tags_zh": [
-        "Agent"
+        "Diffusion"
       ],
-      "oneliner": "Many developers find that an agent idea works inside Claude Code or Codex, then struggles once they ",
+      "oneliner": "arXiv:2609.20981v1 Announce Type: new \nAbstract: Autoregressive (AR) models suffer from local greedi",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -97,13 +112,13 @@
       }
     },
     {
-      "id": "c80e22b426f7",
-      "title_zh": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
-      "summary_zh": "Alibaba's Qwen team has released Qwen-Image-2.1, a 7B diffusion transformer that handles text-to-image generation, multi-reference editing, and native RGBA transparency in one checkpoint. A prefix KV cache speeds up edits with up to 10 reference...",
+      "id": "1cbd51bf078f",
+      "title_zh": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+      "summary_zh": "arXiv:2609.21061v1 Announce Type: new \nAbstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and...",
       "tags_zh": [
-        "Qwen"
+        "Transformer"
       ],
-      "oneliner": "Alibaba's Qwen team has released Qwen-Image-2.1, a 7B diffusion transformer that handles text-to-ima",
+      "oneliner": "arXiv:2609.21061v1 Announce Type: new \nAbstract: Automatic target recognition (ATR) with synthetic a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -111,27 +126,13 @@
       }
     },
     {
-      "id": "eba02139d5ef",
-      "title_zh": "Multi-agent AI systems are taking over supply chain execution",
-      "summary_zh": "Multi-agent AI systems are taking over supply chain execution as enterprise networks face diminishing returns from static dashboards, pushing logistics directors towards autonomous execution. Predictive demand models display recommendations, yet...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Multi-agent AI systems are taking over supply chain execution as enterprise networks face diminishin",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5a7c9e86a3ed",
-      "title_zh": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-      "summary_zh": "",
+      "id": "e55c2a63c445",
+      "title_zh": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
+      "summary_zh": "arXiv:2609.21096v1 Announce Type: new \nAbstract: In this work, we examine the topology of information flow patterns within attention graphs to effectively distinguish hallucinated from non-hallucinated responses. We analyze the Forman-Ricci...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "",
+      "oneliner": "arXiv:2609.21096v1 Announce Type: new \nAbstract: In this work, we examine the topology of informatio",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -139,25 +140,13 @@
       }
     },
     {
-      "id": "aba8f8622ca0",
-      "title_zh": "Advisory Group on Mathematics and Artificial Intelligence",
-      "summary_zh": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "tags_zh": [],
-      "oneliner": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to g",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7a457bd9c5b4",
-      "title_zh": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "summary_zh": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "id": "83dd1be7d6a0",
+      "title_zh": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+      "summary_zh": "arXiv:2609.21113v1 Announce Type: new \nAbstract: Fine-tuning has emerged as a widely adopted approach for adapting LLMs to a variety of downstream tasks. However, how it reshapes their internal mechanisms remains poorly understood. To address...",
       "tags_zh": [
-        "GPT"
+        "Fine-tune"
       ],
-      "oneliner": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new c",
+      "oneliner": "arXiv:2609.21113v1 Announce Type: new \nAbstract: Fine-tuning has emerged as a widely adopted approac",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -165,11 +154,11 @@
       }
     },
     {
-      "id": "25363ac68687",
-      "title_zh": "Building standards for the next phase of AI",
-      "summary_zh": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+      "id": "f1157dd04196",
+      "title_zh": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+      "summary_zh": "arXiv:2609.21139v1 Announce Type: new \nAbstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a...",
       "tags_zh": [],
-      "oneliner": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting,",
+      "oneliner": "arXiv:2609.21139v1 Announce Type: new \nAbstract: Replacing attention in a pretrained language model ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -177,11 +166,11 @@
       }
     },
     {
-      "id": "4d6981c841a4",
-      "title_zh": "How to Improve Visibility Across Your Enterprise AI Ecosystem",
-      "summary_zh": "AI adoption has outpaced AI governance across enterprise environments, creating a fundamental security problem. Organisations cannot protect what they cannot see, and visibility has become the prerequisite for all other AI security controls....",
+      "id": "a82e7c230ca4",
+      "title_zh": "Clinician-Grounded Quality Assurance for AI-Assisted Psychiatric Intake",
+      "summary_zh": "arXiv:2609.21149v1 Announce Type: new \nAbstract: Before patients can use AI-assisted psychiatric intake systems, health systems need practical ways to routinely evaluate these tools against their clinical standards for quality assurance. Because...",
       "tags_zh": [],
-      "oneliner": "AI adoption has outpaced AI governance across enterprise environments, creating a fundamental securi",
+      "oneliner": "arXiv:2609.21149v1 Announce Type: new \nAbstract: Before patients can use AI-assisted psychiatric int",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -189,41 +178,13 @@
       }
     },
     {
-      "id": "dfbc7d40f8c9",
-      "title_zh": "Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters",
-      "summary_zh": "We cloned one 10-second voice on 7 platforms and ranked them on reference audio, consent, licensing, and cost.\nThe post Best Voice Cloning APIs in 2026: Speaker Similarity, Consent Checks, and Price per 1M Characters appeared first on MarkTechPost.",
-      "tags_zh": [
-        "API"
-      ],
-      "oneliner": "We cloned one 10-second voice on 7 platforms and ranked them on reference audio, consent, licensing,",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "cbe71413925c",
-      "title_zh": "Expanding OpenAI Academy with new learning paths",
-      "summary_zh": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and student",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bfca9547feca",
-      "title_zh": "StepFun Launches Step 5 Preview: A 600B-Total, 27B-Active MoE Model With 1M Context for Long-Horizon Agentic Work",
-      "summary_zh": "StepFun has released Step 5 Preview, a sparse Mixture-of-Experts model with 600B total parameters and 27B active per token. It supports a 1M-token context window and accepts text, image, and video input. The model targets long-horizon agentic...",
+      "id": "c00d9ce20f5f",
+      "title_zh": "Can Agents Design Better Chips with a Higher Level Abstraction?",
+      "summary_zh": "arXiv:2609.21157v1 Announce Type: new \nAbstract: Large Language Model (LLM) agents are increasingly being explored for chip design, but most existing approaches operate directly at RTL. We ask whether agents can design better chips by leveraging...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "StepFun has released Step 5 Preview, a sparse Mixture-of-Experts model with 600B total parameters an",
+      "oneliner": "arXiv:2609.21157v1 Announce Type: new \nAbstract: Large Language Model (LLM) agents are increasingly ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -231,11 +192,13 @@
       }
     },
     {
-      "id": "1d2535c9173e",
-      "title_zh": "Do small language models know what they don't know?",
-      "summary_zh": "arXiv:2609.20824v1 Announce Type: new \nAbstract: We explore whether entropy-based confidence signals can be leveraged to improve the accuracy of Small Language Models (SLMs) with fewer than 3 billion parameters, running entirely on consumer...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.20824v1 Announce Type: new \nAbstract: We explore whether entropy-based confidence signals",
+      "id": "59970e0ced9d",
+      "title_zh": "SpecOpt: Contact-Diff Reasoning for Agentic Molecule Optimization Toward Binding Specificity",
+      "summary_zh": "arXiv:2609.21165v1 Announce Type: new \nAbstract: Off-target protein binding is a major source of adverse effects for small-molecule drugs, yet most structure-based molecular design methods focus on generating selective compounds de novo rather...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2609.21165v1 Announce Type: new \nAbstract: Off-target protein binding is a major source of adv",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -243,11 +206,13 @@
       }
     },
     {
-      "id": "f7c960954336",
-      "title_zh": "HERMES: Contrast-Aware Knowledge Graph Reasoning from Clinical Notes for Patient Outcome Prediction",
-      "summary_zh": "arXiv:2609.20825v1 Announce Type: new \nAbstract: Clinical predictive models often rely on structured Electronic Health Record data, such as time-series and procedure codes. While recent approaches have begun leveraging unstructured clinical...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.20825v1 Announce Type: new \nAbstract: Clinical predictive models often rely on structured",
+      "id": "2b1cf71f50dd",
+      "title_zh": "Implicit Rule Induction with Test-Time Task Embeddings in ARC-like Tasks",
+      "summary_zh": "arXiv:2609.21181v1 Announce Type: new \nAbstract: The Abstraction and Reasoning Corpus and related benchmarks evaluate whether AI models can solve novel reasoning tasks, but often leave unclear whether success reflects inference of the intended...",
+      "tags_zh": [
+        "Embedding"
+      ],
+      "oneliner": "arXiv:2609.21181v1 Announce Type: new \nAbstract: The Abstraction and Reasoning Corpus and related be",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -255,11 +220,49 @@
       }
     },
     {
-      "id": "d5b184042623",
-      "title_zh": "TALON: A Temporally Aware Longitudinal Framework for Radiology Report Generation",
-      "summary_zh": "arXiv:2609.20826v1 Announce Type: new \nAbstract: Current radiology report generation (RRG) models usually produce descriptive reports based on a single examination or only the most recent prior examination, limiting their ability to perform...",
+      "id": "ec6720c5a4ee",
+      "title_zh": "AI-GRACE: A Use-Case Operationalization Framework for Agentic AI: From Organizational Objectives and Obligations to Deployment Capabilities and Architecture",
+      "summary_zh": "arXiv:2609.21192v1 Announce Type: new \nAbstract: Organizations deploying agentic artificial intelligence must determine more than whether a model is trustworthy; they must establish what to validate, control, and observe for a use case to deliver...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2609.21192v1 Announce Type: new \nAbstract: Organizations deploying agentic artificial intellig",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "879b35d716ec",
+      "title_zh": "Information-Gain Rewards over Diversity-Pruned Tests: GT-Anchored Verifier Co-Training for Reliable Code Generation",
+      "summary_zh": "arXiv:2609.21208v1 Announce Type: new \nAbstract: Self-play methods that co-train a single language model as both coder and test author promise to move code-generation RL beyond fixed test suites, but they suffer from two coupled pathologies:...",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.20826v1 Announce Type: new \nAbstract: Current radiology report generation (RRG) models us",
+      "oneliner": "arXiv:2609.21208v1 Announce Type: new \nAbstract: Self-play methods that co-train a single language m",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6b9ff5c23bfd",
+      "title_zh": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis",
+      "summary_zh": "arXiv:2609.21214v1 Announce Type: new \nAbstract: Cognitive diagnosis infers students' concept mastery from response logs. However, students' responses are not determined by mastery alone: non-cognitive factors such as emotion, engagement, and...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.21214v1 Announce Type: new \nAbstract: Cognitive diagnosis infers students' concept master",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "cac51eddff88",
+      "title_zh": "A Fully Differentiable Neuro-Soft-Symbolic Framework for Perceptual Task Planning",
+      "summary_zh": "arXiv:2609.21221v1 Announce Type: new \nAbstract: Perceptual planning tasks require two key capabilities: accurately perceiving uncertain scenes and planning valid action sequences following logical rules. Conventional methods convert perception...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.21221v1 Announce Type: new \nAbstract: Perceptual planning tasks require two key capabilit",
       "key_facts": [],
       "notable_quote": {
         "text": "",

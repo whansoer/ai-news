@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-22T03:51:07Z",
-  "total": 279,
+  "updated": "2026-09-22T13:18:12Z",
+  "total": 294,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
-      "name": "MarkTechPost",
-      "count": 34
+      "name": "GitHub Trending",
+      "count": 33
     },
     {
-      "name": "GitHub Trending",
-      "count": 28
+      "name": "MarkTechPost",
+      "count": 31
     },
     {
       "name": "Hugging Face",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 12
+      "count": 10
     },
     {
       "name": "Synced",
@@ -42,11 +42,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 60
+      "count": 67
     },
     {
       "name": "LLM",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Benchmark",
@@ -54,11 +54,15 @@
     },
     {
       "name": "Google",
-      "count": 9
+      "count": 10
     },
     {
       "name": "GPT",
       "count": 8
+    },
+    {
+      "name": "Transformer",
+      "count": 6
     },
     {
       "name": "API",
@@ -66,10 +70,6 @@
     },
     {
       "name": "OpenAI",
-      "count": 5
-    },
-    {
-      "name": "Transformer",
       "count": 5
     },
     {
@@ -117,11 +117,15 @@
       "count": 3
     },
     {
-      "name": "Microsoft",
-      "count": 3
+      "name": "Fine-tune",
+      "count": 2
     },
     {
-      "name": "Fine-tune",
+      "name": "Microsoft",
+      "count": 2
+    },
+    {
+      "name": "Llama",
       "count": 1
     },
     {
@@ -132,11 +136,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 194
+      "count": 206
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 48
     },
     {
       "name": "模型发布",
@@ -144,7 +148,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 10
     }
   ],
   "dailyTrend": [
@@ -170,73 +174,73 @@
     },
     {
       "date": "09-21",
-      "count": 48
+      "count": 33
     },
     {
       "date": "09-22",
-      "count": 6
+      "count": 43
     }
   ],
   "top10": [
     {
-      "id": "c91380d9f615",
-      "title": "BuilderIO /agent-native",
+      "id": "9b897d36ce84",
+      "title": "agent-substrate /substrate",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d44331a1971d",
-      "title": "trycua /cua",
+      "id": "dd3f7c0b511d",
+      "title": "dream-num /univer",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "84daf5030c29",
-      "title": "Open-Dev-Society /OpenStock",
+      "id": "9dd98392ba38",
+      "title": "google /ax",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "44154b46b32c",
-      "title": "akitaonrails /ai-memory",
+      "id": "1c9ab9e342ae",
+      "title": "superdesigndev /treg",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "e1859b05e6fc",
-      "title": "coder /coder",
+      "id": "3a55db0d85d4",
+      "title": "browser-use /video-use",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "d26904d3ecd8",
-      "title": "zhouxiaoka /autoclip",
+      "id": "1fd552e184ab",
+      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "01e027a4bf1c",
-      "title": "AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy",
+      "id": "90cef0af8e7a",
+      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "c80e22b426f7",
-      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
+      "id": "6ca0bc88fabc",
+      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "eba02139d5ef",
-      "title": "Multi-agent AI systems are taking over supply chain execution",
+      "id": "1cbd51bf078f",
+      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
       "score": 5,
-      "source": "AI News"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "5a7c9e86a3ed",
-      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "id": "e55c2a63c445",
+      "title": "Detecting Hallucination in LLMs: Tracing the Topological Signatures of Impaired Context Sharing",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.AI)"
     }
   ]
 }
