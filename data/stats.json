@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-21T20:22:27Z",
-  "total": 275,
+  "updated": "2026-09-22T03:51:07Z",
+  "total": 279,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 32
+      "count": 34
     },
     {
       "name": "GitHub Trending",
@@ -32,7 +32,7 @@
     },
     {
       "name": "AI News",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Synced",
@@ -42,7 +42,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 57
+      "count": 60
     },
     {
       "name": "LLM",
@@ -85,6 +85,10 @@
       "count": 5
     },
     {
+      "name": "Qwen",
+      "count": 4
+    },
+    {
       "name": "Claude",
       "count": 4
     },
@@ -102,10 +106,6 @@
     },
     {
       "name": "Embedding",
-      "count": 3
-    },
-    {
-      "name": "Qwen",
       "count": 3
     },
     {
@@ -132,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 192
+      "count": 194
     },
     {
       "name": "开源项目",
@@ -144,14 +144,10 @@
     },
     {
       "name": "产品/API",
-      "count": 10
+      "count": 12
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-15",
-      "count": 31
-    },
     {
       "date": "09-16",
       "count": 60
@@ -174,7 +170,11 @@
     },
     {
       "date": "09-21",
-      "count": 51
+      "count": 48
+    },
+    {
+      "date": "09-22",
+      "count": 6
     }
   ],
   "top10": [
@@ -215,28 +215,28 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "01e027a4bf1c",
+      "title": "AWS Strands Agents Team Releases Strands Harness: An Open-Source Agent Harness With 28% Lower Token Cost at Comparable Accuracy",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "c80e22b426f7",
+      "title": "Alibaba Qwen Releases Qwen-Image-2.1: A 7B Open-Weight Model for Image Generation and Editing",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "eba02139d5ef",
+      "title": "Multi-agent AI systems are taking over supply chain execution",
+      "score": 5,
+      "source": "AI News"
+    },
+    {
       "id": "5a7c9e86a3ed",
       "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
       "score": 5,
       "source": "Hugging Face"
-    },
-    {
-      "id": "aba8f8622ca0",
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "7a457bd9c5b4",
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "25363ac68687",
-      "title": "Building standards for the next phase of AI",
-      "score": 5,
-      "source": "OpenAI"
     }
   ]
 }
