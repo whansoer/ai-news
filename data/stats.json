@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-22T19:41:30Z",
-  "total": 271,
+  "updated": "2026-09-23T03:49:30Z",
+  "total": 296,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 33
     },
     {
       "name": "GitHub Trending",
@@ -20,7 +20,7 @@
     },
     {
       "name": "OpenAI",
-      "count": 16
+      "count": 18
     },
     {
       "name": "Hugging Face",
@@ -31,26 +31,26 @@
       "count": 15
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "AI News",
+      "count": 12
     },
     {
-      "name": "AI News",
-      "count": 8
+      "name": "Synced",
+      "count": 10
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 64
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 38
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Google",
@@ -58,7 +58,11 @@
     },
     {
       "name": "GPT",
-      "count": 8
+      "count": 10
+    },
+    {
+      "name": "Anthropic",
+      "count": 5
     },
     {
       "name": "Transformer",
@@ -73,6 +77,10 @@
       "count": 5
     },
     {
+      "name": "Claude",
+      "count": 4
+    },
+    {
       "name": "Qwen",
       "count": 4
     },
@@ -85,19 +93,15 @@
       "count": 4
     },
     {
-      "name": "Anthropic",
-      "count": 4
-    },
-    {
       "name": "DeepSeek",
       "count": 4
     },
     {
-      "name": "Diffusion",
+      "name": "Prompt",
       "count": 3
     },
     {
-      "name": "Claude",
+      "name": "Diffusion",
       "count": 3
     },
     {
@@ -117,10 +121,6 @@
       "count": 2
     },
     {
-      "name": "Prompt",
-      "count": 2
-    },
-    {
       "name": "Microsoft",
       "count": 2
     },
@@ -136,7 +136,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 189
+      "count": 208
     },
     {
       "name": "开源项目",
@@ -144,18 +144,14 @@
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 33
     },
     {
       "name": "产品/API",
-      "count": 8
+      "count": 12
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-16",
-      "count": 60
-    },
     {
       "date": "09-17",
       "count": 41
@@ -178,7 +174,11 @@
     },
     {
       "date": "09-22",
-      "count": 46
+      "count": 63
+    },
+    {
+      "date": "09-23",
+      "count": 6
     }
   ],
   "top10": [
@@ -213,34 +213,34 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "326bce146adb",
+      "title": "SpeakON Ships a MagSafe AI Voice Button With Its Own Microphone: Turning Your Voice into Polished Communication, and Action across Apps",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "991bdfde2b40",
+      "title": "Better prompt caching for GPT-6",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "5ef3ea4791d7",
+      "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "c4259d8daf82",
       "title": "Introducing GPT-6 Sol and Luna",
       "score": 5,
       "source": "OpenAI"
     },
     {
-      "id": "1fd552e184ab",
-      "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+      "id": "81928ec12dd8",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "90cef0af8e7a",
-      "title": "Attention-Aware Routing: Coupling Routing and Attention in MoEs",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "6ca0bc88fabc",
-      "title": "CaLR: Causal Latent Revision for Robust Diffusion Reasoning",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "1cbd51bf078f",
-      "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "OpenAI"
     }
   ]
 }

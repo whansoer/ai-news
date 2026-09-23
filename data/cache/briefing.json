@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-09-22T19:41:39Z",
-  "count": 399,
+  "updated": "2026-09-23T03:49:39Z",
+  "count": 400,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -25538,6 +25538,70 @@
         }
       },
       "_ts": 1790106099
+    },
+    "3e232d57179f57ec": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录296篇AI新闻，分类分布：学术研究208篇, 开源项目43篇, 模型发布33篇, 产品/API12篇。热门标签：Agent（64篇）。其中10%的文章有多来源交叉验证。\n\n▸ agent-substrate /substrate：Agent Substrate: the core system\n\n▸ dream-num /univer：The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in\n\n▸ google /ax：Google's open agentic orchestration runtime\n\n▸ superdesigndev /treg：OpenRouter for agent tools. Join community here:https://discord.gg/6mQYYfFMAn\n\n▸ browser-use /video-use：Edit videos with coding agents",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "google/ax",
+            "url": "https://github.com/google/ax",
+            "why_hot": "单日2305星，Go项目",
+            "stars_today": 2305,
+            "total_stars": 7836
+          },
+          {
+            "full_name": "anthropics/financial-services",
+            "url": "https://github.com/anthropics/financial-services",
+            "why_hot": "单日438星，Python项目",
+            "stars_today": 438,
+            "total_stars": 36461
+          },
+          {
+            "full_name": "TencentCloud/Octop",
+            "url": "https://github.com/TencentCloud/Octop",
+            "why_hot": "单日0星，Python项目",
+            "stars_today": 0,
+            "total_stars": 4664
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "296"
+          },
+          {
+            "label": "多源验证率",
+            "value": "10%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+3218"
+          }
+        ],
+        "must_read_ids": [
+          "9b897d36ce84",
+          "dd3f7c0b511d",
+          "9dd98392ba38",
+          "1c9ab9e342ae",
+          "3a55db0d85d4"
+        ],
+        "text": "今日共收录296篇AI新闻，分类分布：学术研究208篇, 开源项目43篇, 模型发布33篇, 产品/API12篇。热门标签：Agent（64篇）。其中10%的文章有多来源交叉验证。",
+        "top_items": [
+          "agent-substrate /substrate",
+          "dream-num /univer",
+          "google /ax",
+          "superdesigndev /treg",
+          "browser-use /video-use"
+        ],
+        "meta": {
+          "total_articles": 296,
+          "multi_source_pct": 10
+        }
+      },
+      "_ts": 1790135379
     }
   }
 }
