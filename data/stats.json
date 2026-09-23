@@ -1,26 +1,26 @@
 {
-  "updated": "2026-09-23T03:49:30Z",
-  "total": 296,
+  "updated": "2026-09-23T13:32:46Z",
+  "total": 333,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 105
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
-      "count": 33
+      "count": 35
     },
     {
       "name": "GitHub Trending",
-      "count": 28
+      "count": 31
     },
     {
       "name": "OpenAI",
-      "count": 18
+      "count": 20
     },
     {
       "name": "Hugging Face",
@@ -42,23 +42,27 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 72
     },
     {
       "name": "LLM",
-      "count": 38
+      "count": 45
     },
     {
       "name": "Benchmark",
-      "count": 15
-    },
-    {
-      "name": "Google",
-      "count": 10
+      "count": 17
     },
     {
       "name": "GPT",
-      "count": 10
+      "count": 11
+    },
+    {
+      "name": "Google",
+      "count": 9
+    },
+    {
+      "name": "OpenAI",
+      "count": 7
     },
     {
       "name": "Anthropic",
@@ -77,6 +81,18 @@
       "count": 5
     },
     {
+      "name": "API",
+      "count": 4
+    },
+    {
+      "name": "Prompt",
+      "count": 4
+    },
+    {
+      "name": "Embedding",
+      "count": 4
+    },
+    {
       "name": "Claude",
       "count": 4
     },
@@ -85,27 +101,11 @@
       "count": 4
     },
     {
-      "name": "API",
-      "count": 4
-    },
-    {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
       "name": "DeepSeek",
       "count": 4
     },
     {
-      "name": "Prompt",
-      "count": 3
-    },
-    {
       "name": "Diffusion",
-      "count": 3
-    },
-    {
-      "name": "Gemini",
       "count": 3
     },
     {
@@ -113,7 +113,7 @@
       "count": 2
     },
     {
-      "name": "Embedding",
+      "name": "Gemini",
       "count": 2
     },
     {
@@ -136,15 +136,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 208
+      "count": 240
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 46
     },
     {
       "name": "模型发布",
-      "count": 33
+      "count": 35
     },
     {
       "name": "产品/API",
@@ -174,17 +174,29 @@
     },
     {
       "date": "09-22",
-      "count": 63
+      "count": 61
     },
     {
       "date": "09-23",
-      "count": 6
+      "count": 50
     }
   ],
   "top10": [
     {
-      "id": "9b897d36ce84",
-      "title": "agent-substrate /substrate",
+      "id": "9dd98392ba38",
+      "title": "google /ax",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c91380d9f615",
+      "title": "BuilderIO /agent-native",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -195,52 +207,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9dd98392ba38",
-      "title": "google /ax",
+      "id": "84daf5030c29",
+      "title": "Open-Dev-Society /OpenStock",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "1c9ab9e342ae",
-      "title": "superdesigndev /treg",
+      "id": "9b897d36ce84",
+      "title": "agent-substrate /substrate",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "3a55db0d85d4",
-      "title": "browser-use /video-use",
+      "id": "4a462d6206de",
+      "title": "strands-agents /harness-sdk",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "326bce146adb",
-      "title": "SpeakON Ships a MagSafe AI Voice Button With Its Own Microphone: Turning Your Voice into Polished Communication, and Action across Apps",
+      "id": "12e952795179",
+      "title": "HKUDS /CLI-Anything",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "991bdfde2b40",
-      "title": "Better prompt caching for GPT-6",
+      "id": "165ac02a206f",
+      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
       "score": 5,
-      "source": "OpenAI"
+      "source": "Hugging Face"
     },
     {
-      "id": "5ef3ea4791d7",
-      "title": "Anthropic Releases Claude Opus 5.5: Fable 5.1-Level Performance at 40% Lower Running Cost Than Opus 5",
+      "id": "d97cb0c0478d",
+      "title": "U.S. TRANSCOM deploys randomised AI to secure military logistics",
       "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "c4259d8daf82",
-      "title": "Introducing GPT-6 Sol and Luna",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "81928ec12dd8",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "score": 5,
-      "source": "OpenAI"
+      "source": "AI News"
     }
   ]
 }
