@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-24T03:41:18Z",
-  "total": 289,
+  "updated": "2026-09-24T13:28:08Z",
+  "total": 304,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
@@ -12,15 +12,15 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 36
+      "count": 34
     },
     {
       "name": "GitHub Trending",
-      "count": 28
+      "count": 31
     },
     {
       "name": "OpenAI",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Hugging Face",
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 62
     },
     {
       "name": "LLM",
-      "count": 39
+      "count": 44
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 17
     },
     {
       "name": "GPT",
@@ -73,7 +73,7 @@
       "count": 5
     },
     {
-      "name": "API",
+      "name": "RAG",
       "count": 4
     },
     {
@@ -81,11 +81,11 @@
       "count": 4
     },
     {
-      "name": "Claude",
+      "name": "API",
       "count": 4
     },
     {
-      "name": "Transformer",
+      "name": "Claude",
       "count": 4
     },
     {
@@ -97,11 +97,7 @@
       "count": 4
     },
     {
-      "name": "Diffusion",
-      "count": 3
-    },
-    {
-      "name": "RAG",
+      "name": "Transformer",
       "count": 3
     },
     {
@@ -110,6 +106,10 @@
     },
     {
       "name": "Gemini",
+      "count": 2
+    },
+    {
+      "name": "Diffusion",
       "count": 2
     },
     {
@@ -132,15 +132,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 196
+      "count": 209
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 47
     },
     {
       "name": "模型发布",
-      "count": 37
+      "count": 36
     },
     {
       "name": "产品/API",
@@ -170,29 +170,23 @@
     },
     {
       "date": "09-23",
-      "count": 54
+      "count": 39
     },
     {
       "date": "09-24",
-      "count": 9
+      "count": 43
     }
   ],
   "top10": [
     {
-      "id": "9dd98392ba38",
-      "title": "google /ax",
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "c91380d9f615",
-      "title": "BuilderIO /agent-native",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
+      "id": "4628c962cd9b",
+      "title": "vectorize-io /hindsight",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -203,20 +197,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "84daf5030c29",
-      "title": "Open-Dev-Society /OpenStock",
+      "id": "9dd98392ba38",
+      "title": "google /ax",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "9b897d36ce84",
-      "title": "agent-substrate /substrate",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "4a462d6206de",
-      "title": "strands-agents /harness-sdk",
+      "id": "9fbd6344a1b0",
+      "title": "NVIDIA /Model-Optimizer",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -227,16 +215,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "35b6742dcb5a",
-      "title": "A Coding Guide to TypeSafe AI Jev: Typed Decisions, Calibrated Confidence, and Speculative Fan-Out with a System One Model",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "341ba506e21a",
+      "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "107312abf3f3",
-      "title": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
+      "id": "a9055e851aaf",
+      "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "44e01f5e0477",
+      "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
