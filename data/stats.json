@@ -1,26 +1,26 @@
 {
-  "updated": "2026-09-24T13:28:08Z",
-  "total": 304,
+  "updated": "2026-09-24T19:56:23Z",
+  "total": 271,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "MarkTechPost",
-      "count": 34
+      "count": 33
     },
     {
       "name": "GitHub Trending",
-      "count": 31
+      "count": 30
     },
     {
       "name": "OpenAI",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Hugging Face",
@@ -42,27 +42,31 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 57
     },
     {
       "name": "LLM",
-      "count": 44
+      "count": 35
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 15
     },
     {
       "name": "GPT",
-      "count": 13
+      "count": 11
     },
     {
       "name": "Google",
-      "count": 10
+      "count": 9
     },
     {
       "name": "OpenAI",
-      "count": 9
+      "count": 8
+    },
+    {
+      "name": "Qwen",
+      "count": 5
     },
     {
       "name": "Prompt",
@@ -73,15 +77,7 @@
       "count": 5
     },
     {
-      "name": "RAG",
-      "count": 4
-    },
-    {
       "name": "Embedding",
-      "count": 4
-    },
-    {
-      "name": "API",
       "count": 4
     },
     {
@@ -89,28 +85,28 @@
       "count": 4
     },
     {
-      "name": "Qwen",
-      "count": 4
+      "name": "Gemini",
+      "count": 3
     },
     {
-      "name": "GPU",
-      "count": 4
+      "name": "RAG",
+      "count": 3
+    },
+    {
+      "name": "API",
+      "count": 3
     },
     {
       "name": "Transformer",
       "count": 3
     },
     {
-      "name": "DeepSeek",
+      "name": "GPU",
       "count": 3
     },
     {
-      "name": "Gemini",
-      "count": 2
-    },
-    {
-      "name": "Diffusion",
-      "count": 2
+      "name": "DeepSeek",
+      "count": 3
     },
     {
       "name": "Fine-tune",
@@ -119,6 +115,10 @@
     {
       "name": "Microsoft",
       "count": 2
+    },
+    {
+      "name": "Diffusion",
+      "count": 1
     },
     {
       "name": "Llama",
@@ -132,15 +132,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 209
+      "count": 178
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 46
     },
     {
       "name": "模型发布",
-      "count": 36
+      "count": 35
     },
     {
       "name": "产品/API",
@@ -174,7 +174,7 @@
     },
     {
       "date": "09-24",
-      "count": 43
+      "count": 46
     }
   ],
   "top10": [
@@ -221,22 +221,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "341ba506e21a",
-      "title": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
+      "id": "742a72f6b419",
+      "title": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "a9055e851aaf",
-      "title": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
+      "id": "b17675bfaa78",
+      "title": "Google launches Gemini 3.8 Flash TTS voice models",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "AI News"
     },
     {
-      "id": "44e01f5e0477",
-      "title": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
+      "id": "a3267440cd69",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Hugging Face"
     }
   ]
 }

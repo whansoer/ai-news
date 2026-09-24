@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-24T13:28:19Z",
-  "total": 236,
-  "new_count": 51,
+  "updated": "2026-09-24T19:56:33Z",
+  "total": 239,
+  "new_count": 35,
   "items": [
     {
       "id": "4d8e922de101",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Learn it. Build it. Ship it for others.",
-      "published": "2026-09-24T13:26:10Z",
+      "published": "2026-09-24T19:54:24Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Hindsight: Agent Memory That Learns",
-      "published": "2026-09-24T13:26:10Z",
+      "published": "2026-09-24T19:54:24Z",
       "tags": [
         "Agent"
       ],
@@ -60,7 +60,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-      "published": "2026-09-24T13:26:10Z",
+      "published": "2026-09-24T19:54:24Z",
       "tags": [
         "Agent"
       ],
@@ -87,7 +87,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Google's open agentic orchestration runtime",
-      "published": "2026-09-24T13:26:10Z",
+      "published": "2026-09-24T19:54:24Z",
       "tags": [
         "Google",
         "Agent"
@@ -99,8 +99,8 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "107312abf3f3",
-          "1862986a9b3d"
+          "b17675bfaa78",
+          "107312abf3f3"
         ],
         "score": 7
       },
@@ -119,7 +119,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM,...",
-      "published": "2026-09-24T13:26:10Z",
+      "published": "2026-09-24T19:54:24Z",
       "tags": [
         "LLM"
       ],
@@ -128,12 +128,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "8308f4135e02",
-          "283ef1eae553"
-        ],
-        "score": 7
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "NVIDIA /Model-Optimizer",
       "summary_zh": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM,...",
@@ -149,7 +146,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "published": "2026-09-24T13:26:10Z",
+      "published": "2026-09-24T19:54:24Z",
       "tags": [
         "Agent"
       ],
@@ -176,7 +173,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-09-24T13:26:10Z",
+      "published": "2026-09-24T19:54:24Z",
       "tags": [
         "Agent"
       ],
@@ -195,6 +192,89 @@
         "Agent"
       ],
       "oneliner": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "id": "742a72f6b419",
+      "title": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
+      "url": "https://www.marktechpost.com/2026/09/24/bottlecap-ai-releases-thinkingcap-qwen3-8-27b-37-2-fewer-thinking-tokens-at-a-0-86pp-accuracy-cost/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "BottleCap AI has released ThinkingCap-Qwen3.8-27B, a fine-tune of Qwen3.8-27B that spends 37.2% fewer thinking tokens across 12 benchmarks. Macro accuracy moves from 86.65% to 85.79%, and long-context AA-LCR improves by 2.25pp. The model is a...",
+      "published": "2026-09-24T18:58:56Z",
+      "tags": [
+        "Qwen"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
+      "summary_zh": "BottleCap AI has released ThinkingCap-Qwen3.8-27B, a fine-tune of Qwen3.8-27B that spends 37.2% fewer thinking tokens across 12 benchmarks. Macro accuracy moves from 86.65% to 85.79%, and long-context AA-LCR improves by 2.25pp. The model is a...",
+      "tags_zh": [
+        "Qwen"
+      ],
+      "oneliner": "BottleCap AI has released ThinkingCap-Qwen3.8-27B, a fine-tune of Qwen3.8-27B that spends 37.2% fewe"
+    },
+    {
+      "id": "b17675bfaa78",
+      "title": "Google launches Gemini 3.8 Flash TTS voice models",
+      "url": "https://www.artificialintelligence-news.com/news/google-gemini-3-8-flash-tts-voice-models/",
+      "source": "AI News",
+      "category": "product",
+      "summary": "Google has launched two Gemini 3.8 Flash TTS voice models, introducing dedicated speech generation systems engineered for direct performance scripting and high-volume audio production. The dual release splits vocal synthesis tasks between...",
+      "published": "2026-09-24T16:09:02Z",
+      "tags": [
+        "Gemini",
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "9dd98392ba38",
+          "107312abf3f3",
+          "1862986a9b3d"
+        ],
+        "score": 9
+      },
+      "title_zh": "Google launches Gemini 3.8 Flash TTS voice models",
+      "summary_zh": "Google has launched two Gemini 3.8 Flash TTS voice models, introducing dedicated speech generation systems engineered for direct performance scripting and high-volume audio production. The dual release splits vocal synthesis tasks between...",
+      "tags_zh": [
+        "Gemini",
+        "Google"
+      ],
+      "oneliner": "Google has launched two Gemini 3.8 Flash TTS voice models, introducing dedicated speech generation s"
+    },
+    {
+      "id": "a3267440cd69",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-09-24T14:08:57Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "341ba506e21a",
@@ -470,12 +550,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "What Changes When Fact-Verification Scores Improve? Evidence and Answer Accounting Across Trained Verifiers and LLMs",
-      "summary_zh": "arXiv:2609.27064v1 Announce Type: new \nAbstract: A joint fact-verification score assesses answers and submitted evidence together. When the score improves, how much of the gain remains if the answers are held fixed? On FEVEROUS, strict score is...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.27064v1 Announce Type: new \nAbstract: A joint fact-verification score assesses answers an"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "544ca68bb143",
@@ -495,10 +573,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "NADI 2026: The Second Multidialectal Arabic Speech Processing Shared Task",
-      "summary_zh": "arXiv:2609.27086v1 Announce Type: new \nAbstract: NADI 2026 is the seventh edition of the Nuanced Arabic Dialect Identification (NADI) shared task series and the second dedicated to multidialectal Arabic speech processing. This edition comprises...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.27086v1 Announce Type: new \nAbstract: NADI 2026 is the seventh edition of the Nuanced Ara"
+      "oneliner": ""
     },
     {
       "id": "c138d5e46715",
@@ -518,10 +596,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Giving Credit Where It's Due: Redundancy-Aware Learning for Efficient Reasoning",
-      "summary_zh": "arXiv:2609.27156v1 Announce Type: new \nAbstract: Large reasoning models can produce correct yet unnecessarily long reasoning traces. Existing methods improve reasoning efficiency with trajectory-level objectives or local token- and step-level...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.27156v1 Announce Type: new \nAbstract: Large reasoning models can produce correct yet unne"
+      "oneliner": ""
     },
     {
       "id": "5b45e9d32b0d",
@@ -1102,9 +1180,10 @@
         "level": "multi-source",
         "corroborating_ids": [
           "9dd98392ba38",
+          "b17675bfaa78",
           "1862986a9b3d"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1127,11 +1206,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "9fbd6344a1b0",
           "283ef1eae553",
           "165ac02a206f"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1154,11 +1232,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "9fbd6344a1b0",
           "8308f4135e02",
           "165ac02a206f"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1183,7 +1260,7 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "9dd98392ba38",
+          "b17675bfaa78",
           "107312abf3f3"
         ],
         "score": 7
