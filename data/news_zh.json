@@ -1,13 +1,15 @@
 {
-  "updated": "2026-09-25T03:58:09Z",
+  "updated": "2026-09-25T13:32:07Z",
   "total": 20,
   "items": [
     {
-      "id": "4d8e922de101",
-      "title_zh": "rohitg00 /ai-engineering-from-scratch",
-      "summary_zh": "Learn it. Build it. Ship it for others.",
-      "tags_zh": [],
-      "oneliner": "Learn it. Build it. Ship it for others.",
+      "id": "e596fc31d0dc",
+      "title_zh": "paperclipai /paperclip",
+      "summary_zh": "The open-source app everyone uses to manage agents at work",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "The open-source app everyone uses to manage agents at work",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -29,63 +31,6 @@
       }
     },
     {
-      "id": "dd3f7c0b511d",
-      "title_zh": "dream-num /univer",
-      "summary_zh": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9dd98392ba38",
-      "title_zh": "google /ax",
-      "summary_zh": "Google's open agentic orchestration runtime",
-      "tags_zh": [
-        "Google",
-        "Agent"
-      ],
-      "oneliner": "Google's open agentic orchestration runtime",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9fbd6344a1b0",
-      "title_zh": "NVIDIA /Model-Optimizer",
-      "summary_zh": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM,...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, ne",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "12e952795179",
-      "title_zh": "HKUDS /CLI-Anything",
-      "summary_zh": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
       "id": "c3257d531a3c",
       "title_zh": "obra /superpowers",
       "summary_zh": "An agentic skills framework & software development methodology that works.",
@@ -100,54 +45,13 @@
       }
     },
     {
-      "id": "742a72f6b419",
-      "title_zh": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
-      "summary_zh": "BottleCap AI has released ThinkingCap-Qwen3.8-27B, a fine-tune of Qwen3.8-27B that spends 37.2% fewer thinking tokens across 12 benchmarks. Macro accuracy moves from 86.65% to 85.79%, and long-context AA-LCR improves by 2.25pp. The model is a...",
-      "tags_zh": [
-        "Qwen"
-      ],
-      "oneliner": "BottleCap AI has released ThinkingCap-Qwen3.8-27B, a fine-tune of Qwen3.8-27B that spends 37.2% fewe",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b17675bfaa78",
-      "title_zh": "Google launches Gemini 3.8 Flash TTS voice models",
-      "summary_zh": "Google has launched two Gemini 3.8 Flash TTS voice models, introducing dedicated speech generation systems engineered for direct performance scripting and high-volume audio production. The dual release splits vocal synthesis tasks between...",
-      "tags_zh": [
-        "Gemini",
-        "Google"
-      ],
-      "oneliner": "Google has launched two Gemini 3.8 Flash TTS voice models, introducing dedicated speech generation s",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a3267440cd69",
-      "title_zh": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "341ba506e21a",
-      "title_zh": "Contrastive-LM Releases CLM-8B: An Open System One Model That Scores Agent Actions Up to 9× Faster Than Jev",
-      "summary_zh": "Contrastive-LM has released CLM-8B, an open System One model that scores candidate actions against a state instead of generating text. It adds 2 small projection heads to a frozen Qwen3-8B encoder and trains them with a contrastive InfoNCE...",
+      "id": "1ae169fb23a9",
+      "title_zh": "mattpocock /skills",
+      "summary_zh": "Skills for Real Engineers. Straight from my .agents directory.",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "Contrastive-LM has released CLM-8B, an open System One model that scores candidate actions against a",
+      "oneliner": "Skills for Real Engineers. Straight from my .agents directory.",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -155,13 +59,13 @@
       }
     },
     {
-      "id": "a9055e851aaf",
-      "title_zh": "COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference",
-      "summary_zh": "arXiv:2609.26913v1 Announce Type: new \nAbstract: No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models or combine their outputs. However, routing stops...",
+      "id": "dd3f7c0b511d",
+      "title_zh": "dream-num /univer",
+      "summary_zh": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "tags_zh": [
-        "LLM"
+        "Agent"
       ],
-      "oneliner": "arXiv:2609.26913v1 Announce Type: new \nAbstract: No single Large Language Model (LLM) is uniformly r",
+      "oneliner": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -169,13 +73,14 @@
       }
     },
     {
-      "id": "44e01f5e0477",
-      "title_zh": "Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation",
-      "summary_zh": "arXiv:2609.26926v1 Announce Type: new \nAbstract: Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language...",
+      "id": "ea97e2f9b307",
+      "title_zh": "anthropics /skills",
+      "summary_zh": "Public repository for Agent Skills",
       "tags_zh": [
-        "LLM"
+        "Anthropic",
+        "Agent"
       ],
-      "oneliner": "arXiv:2609.26926v1 Announce Type: new \nAbstract: Large-scale text annotation brings expert insight t",
+      "oneliner": "Public repository for Agent Skills",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -183,13 +88,13 @@
       }
     },
     {
-      "id": "1e76fca435a4",
-      "title_zh": "Recognized but Not Produced: A Generation Benchmark for Culturally Specific Kinship Terms",
-      "summary_zh": "arXiv:2609.26942v1 Announce Type: new \nAbstract: Current literature evaluates large language models (LLMs) on multilingual kinship understanding using multiple choice benchmarks, treating it as a recognition problem. We instead prompt five open...",
+      "id": "f3a651d18f1f",
+      "title_zh": "androoAGI /starnet",
+      "summary_zh": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
       "tags_zh": [
-        "Benchmark"
+        "Agent"
       ],
-      "oneliner": "arXiv:2609.26942v1 Announce Type: new \nAbstract: Current literature evaluates large language models ",
+      "oneliner": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - br",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -197,25 +102,11 @@
       }
     },
     {
-      "id": "c91f0d83c791",
-      "title_zh": "Classifying Interpretive Canons at the Sentence Level: A Benchmark from the German Federal Constitutional Court",
-      "summary_zh": "arXiv:2609.26945v1 Announce Type: new \nAbstract: Judicial reasoning remains challenging for large language models (LLMs) to analyze. This paper contributes a sentence-level benchmark for evaluating the ability of LLMs to classify interpretive...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2609.26945v1 Announce Type: new \nAbstract: Judicial reasoning remains challenging for large la",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4e08f38356df",
-      "title_zh": "When Learned Context Planning Fails to Beat Strong Retrieval: A Controlled Study of Planning, Routing, and Reranking for Long-Context QA",
-      "summary_zh": "arXiv:2609.26976v1 Announce Type: new \nAbstract: Learned context planning selects evidence atoms before an answer model reasons over them. We test whether this learned selection improves long-context multiple-choice QA after strong retrieval,...",
+      "id": "a39bef674ff4",
+      "title_zh": "Fastino Releases GLiNER2.5-Decide: A 340M Open-Weight Decision Model That Runs on CPU",
+      "summary_zh": "Fastino Labs has released GLiNER2.5-Decide, a 340M-parameter open-weight decision model. It takes text and a schema of typed questions and returns structured answers. Each answer comes with a probability distribution, a confidence score, and...",
       "tags_zh": [],
-      "oneliner": "arXiv:2609.26976v1 Announce Type: new \nAbstract: Learned context planning selects evidence atoms bef",
+      "oneliner": "Fastino Labs has released GLiNER2.5-Decide, a 340M-parameter open-weight decision model. It takes te",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -223,49 +114,157 @@
       }
     },
     {
-      "id": "486029c3a708",
-      "title_zh": "LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning",
-      "summary_zh": "arXiv:2609.27009v1 Announce Type: new \nAbstract: Large language models are increasingly applied to high-risk domains such as law, yet complex legal reasoning remains limited by two structural challenges. First, existing RAG and GraphRAG methods...",
+      "id": "ae3af180c15f",
+      "title_zh": "Black Forest Labs Releases FLUX 3 Action: A 7B Open-Weights World Action Model That Tops RoboLab-120",
+      "summary_zh": "Black Forest Labs (BFL), the lab behind the FLUX image models, has released FLUX 3 Action. It is a 7B open-weights World Action Model (WAM) for robot control. The model reads camera frames, robot state and a text instruction. It then predicts...",
+      "tags_zh": [],
+      "oneliner": "Black Forest Labs (BFL), the lab behind the FLUX image models, has released FLUX 3 Action. It is a 7",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "cf07664a14ec",
+      "title_zh": "Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025",
+      "summary_zh": "arXiv:2609.28487v1 Announce Type: new \nAbstract: News headlines frame public issues both by what they select and by how they word it, yet computational framing work typically collapses these operations into a single score. We introduce a...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.28487v1 Announce Type: new \nAbstract: News headlines frame public issues both by what the",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "45bca4ce93b8",
+      "title_zh": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+      "summary_zh": "arXiv:2609.28614v1 Announce Type: new \nAbstract: Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of...",
       "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2609.28614v1 Announce Type: new \nAbstract: Autonomous research agents can design experiments, ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "3a68025d69eb",
+      "title_zh": "Benchmarking Argumentative Behaviour of LLMs: A Study of Defences Against Character Attacks",
+      "summary_zh": "arXiv:2609.28673v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deployed as argumentative agents in persuasive dialogues, necessitating rigorous evaluation of their debating competence relative to human...",
+      "tags_zh": [
+        "LLM",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2609.28673v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly deplo",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7e9ff81db274",
+      "title_zh": "An Explainable DistilBERT-BiLSTM-Attention Framework for Binary and Multi-Class Hate Speech Detection",
+      "summary_zh": "arXiv:2609.28703v1 Announce Type: new \nAbstract: Hate speech on social media poses serious risks to social harmony, mental well-being, and public safety, making its timely and accurate detection essential for content moderation systems. Most...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.28703v1 Announce Type: new \nAbstract: Hate speech on social media poses serious risks to ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "71bb787d1b92",
+      "title_zh": "PTC-Bias: Phoneme-Level Temporal Competition for Bias Retrieval and Post-Decoding Correction in Speech LLMs",
+      "summary_zh": "arXiv:2609.28727v1 Announce Type: new \nAbstract: Contextual biasing improves rare-word recognition in speech large language models (SpeechLLMs), but efficiently exploiting large bias lists remains challenging. We propose PTC-Bias, a two-stage...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2609.28727v1 Announce Type: new \nAbstract: Contextual biasing improves rare-word recognition i",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "3019148feb61",
+      "title_zh": "Temporal Taxation Compounds Under Post-Training Compression of Whisper Models",
+      "summary_zh": "arXiv:2609.28739v1 Announce Type: new \nAbstract: Automatic speech recognition models are audited for demographic fairness at full precision, yet the models that ship to production have been quantized, pruned, and distilled. We ask whether...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.28739v1 Announce Type: new \nAbstract: Automatic speech recognition models are audited for",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b01811550045",
+      "title_zh": "Technical Manual for Toolkit for Confidence-Corpus Consistency via Fine-Tuning on a Fabricated Corpus",
+      "summary_zh": "arXiv:2609.28747v1 Announce Type: new \nAbstract: A language model's confidence in an answer is often read as a proxy for how well it knows the corresponding fact. This manual documents an open toolkit built to test that reading directly: a small...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.28747v1 Announce Type: new \nAbstract: A language model's confidence in an answer is often",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ec2991950f6b",
+      "title_zh": "Script Choice in LLMs: Evidence for Late-Layer Commitment",
+      "summary_zh": "arXiv:2609.28784v1 Announce Type: new \nAbstract: In this paper, we investigate how script knowledge is distributed across the layers of LLMs using two complementary interpretability methods: logistic regression probing and logit-lens analysis....",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2609.28784v1 Announce Type: new \nAbstract: In this paper, we investigate how script knowledge ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d5fe810b192c",
+      "title_zh": "COILD: An Indic-Centric Parallel Corpus and Benchmark for Machine Translation Across Indian Languages",
+      "summary_zh": "arXiv:2609.28826v1 Announce Type: new \nAbstract: Machine translation (MT) for Indian languages remains constrained by the limited availability of high-quality, Indic-centric parallel corpora and evaluation benchmarks. Existing multilingual...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2609.28826v1 Announce Type: new \nAbstract: Machine translation (MT) for Indian languages remai",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "07b65d018c0f",
+      "title_zh": "Persuaded, Not Informed: Incentive-Misaligned Witnesses Defeat In-Context Grounding",
+      "summary_zh": "arXiv:2609.28854v1 Announce Type: new \nAbstract: Language-model agents increasingly answer questions over customer-relationship management (CRM) records, such as whether to qualify a sales lead. We identify a failure mode not addressed by a...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.28854v1 Announce Type: new \nAbstract: Language-model agents increasingly answer questions",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "824f65acb135",
+      "title_zh": "Polite but Misaligned: Evaluating LLM Politeness Judgments Against Human Pragmatic Norms",
+      "summary_zh": "arXiv:2609.29001v1 Announce Type: new \nAbstract: Despite strong performance on standard benchmarks, it remains unclear whether large language models (LLMs) evaluate social pragmatics in ways that align with human judgments. We evaluate LLM...",
+      "tags_zh": [
+        "LLM",
         "RAG"
       ],
-      "oneliner": "arXiv:2609.27009v1 Announce Type: new \nAbstract: Large language models are increasingly applied to h",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "70291ab326db",
-      "title_zh": "LexLattice: Multilingual Extractive Summarization via Neural Cellular Automata on Document Hierarchies",
-      "summary_zh": "arXiv:2609.27032v1 Announce Type: new \nAbstract: Faithfulness is a central concern in legal text summarization, which motivates extractive approaches that select verbatim content traceable to its source. Such methods typically rank paragraphs or...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.27032v1 Announce Type: new \nAbstract: Faithfulness is a central concern in legal text sum",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ced40a1ab8aa",
-      "title_zh": "EduBehaviors: Assertion-based Schemas for Auditable Coding of Educational Dialogues",
-      "summary_zh": "arXiv:2609.27043v1 Announce Type: new \nAbstract: Large language models have allowed the rapid deployment of pedagogical annotations corresponding to constructs of interest, allowing a natural language interface for generating classifications on a...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.27043v1 Announce Type: new \nAbstract: Large language models have allowed the rapid deploy",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0fa894be43a9",
-      "title_zh": "The Illinois Social Attitudes Aggregate Corpus (ISAAC): An Open Tool and Reproducible Pipeline for Analyzing Social Group Discourse at Scale",
-      "summary_zh": "arXiv:2609.27059v1 Announce Type: new \nAbstract: We introduce the Illinois Social Attitudes Aggregate Corpus (ISAAC), an open, modular, and accessible corpus of 527 million+ English-language Reddit posts selected for relevance to six key social...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.27059v1 Announce Type: new \nAbstract: We introduce the Illinois Social Attitudes Aggregat",
+      "oneliner": "arXiv:2609.29001v1 Announce Type: new \nAbstract: Despite strong performance on standard benchmarks, ",
       "key_facts": [],
       "notable_quote": {
         "text": "",

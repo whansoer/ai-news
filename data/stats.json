@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-25T03:57:59Z",
-  "total": 286,
+  "updated": "2026-09-25T13:31:57Z",
+  "total": 315,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 32
     },
     {
       "name": "OpenAI",
@@ -31,26 +31,26 @@
       "count": 15
     },
     {
-      "name": "AI News",
-      "count": 12
-    },
-    {
       "name": "Synced",
       "count": 10
+    },
+    {
+      "name": "AI News",
+      "count": 9
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 73
     },
     {
       "name": "LLM",
-      "count": 39
+      "count": 44
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 18
     },
     {
       "name": "GPT",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Anthropic",
-      "count": 5
+      "count": 4
     },
     {
       "name": "Embedding",
@@ -85,15 +85,19 @@
       "count": 4
     },
     {
-      "name": "Claude",
-      "count": 4
+      "name": "RAG",
+      "count": 3
+    },
+    {
+      "name": "Fine-tune",
+      "count": 3
     },
     {
       "name": "Gemini",
       "count": 3
     },
     {
-      "name": "RAG",
+      "name": "Claude",
       "count": 3
     },
     {
@@ -101,24 +105,16 @@
       "count": 3
     },
     {
-      "name": "GPU",
-      "count": 3
-    },
-    {
       "name": "DeepSeek",
       "count": 3
     },
     {
-      "name": "Fine-tune",
-      "count": 2
-    },
-    {
-      "name": "Microsoft",
-      "count": 2
-    },
-    {
       "name": "Diffusion",
-      "count": 1
+      "count": 2
+    },
+    {
+      "name": "GPU",
+      "count": 2
     },
     {
       "name": "Llama",
@@ -132,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 193
+      "count": 223
     },
     {
       "name": "开源项目",
-      "count": 46
+      "count": 48
     },
     {
       "name": "模型发布",
@@ -144,7 +140,7 @@
     },
     {
       "name": "产品/API",
-      "count": 12
+      "count": 9
     }
   ],
   "dailyTrend": [
@@ -174,13 +170,13 @@
     },
     {
       "date": "09-25",
-      "count": 7
+      "count": 43
     }
   ],
   "top10": [
     {
-      "id": "4d8e922de101",
-      "title": "rohitg00 /ai-engineering-from-scratch",
+      "id": "e596fc31d0dc",
+      "title": "paperclipai /paperclip",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -191,52 +187,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "dd3f7c0b511d",
-      "title": "dream-num /univer",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "9dd98392ba38",
-      "title": "google /ax",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "9fbd6344a1b0",
-      "title": "NVIDIA /Model-Optimizer",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "12e952795179",
-      "title": "HKUDS /CLI-Anything",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "c3257d531a3c",
       "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "742a72f6b419",
-      "title": "BottleCap AI Releases ThinkingCap-Qwen3.8-27B: 37.2% Fewer Thinking Tokens at a 0.86pp Accuracy Cost",
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "dd3f7c0b511d",
+      "title": "dream-num /univer",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f3a651d18f1f",
+      "title": "androoAGI /starnet",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "a39bef674ff4",
+      "title": "Fastino Releases GLiNER2.5-Decide: A 340M Open-Weight Decision Model That Runs on CPU",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "b17675bfaa78",
-      "title": "Google launches Gemini 3.8 Flash TTS voice models",
+      "id": "ae3af180c15f",
+      "title": "Black Forest Labs Releases FLUX 3 Action: A 7B Open-Weights World Action Model That Tops RoboLab-120",
       "score": 5,
-      "source": "AI News"
+      "source": "MarkTechPost"
     },
     {
-      "id": "a3267440cd69",
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "id": "cf07664a14ec",
+      "title": "Framing by Wording, Framing by Selection: A Large-Scale Two-Dimensional Audit of French News Headlines, 2022-2025",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

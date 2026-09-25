@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-09-25T03:58:09Z",
-  "count": 406,
+  "updated": "2026-09-25T13:32:07Z",
+  "count": 407,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -25986,6 +25986,70 @@
         }
       },
       "_ts": 1790308689
+    },
+    "723f1d6cbb803786": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录315篇AI新闻，分类分布：学术研究223篇, 开源项目48篇, 模型发布35篇, 产品/API9篇。热门标签：Agent（73篇）。其中13%的文章有多来源交叉验证。\n\n▸ paperclipai /paperclip：The open-source app everyone uses to manage agents at work\n\n▸ vectorize-io /hindsight：Hindsight: Agent Memory That Learns\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ dream-num /univer：The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "vectorize-io/hindsight",
+            "url": "https://github.com/vectorize-io/hindsight",
+            "why_hot": "单日1652星，Python项目",
+            "stars_today": 1652,
+            "total_stars": 28649
+          },
+          {
+            "full_name": "paperclipai/paperclip",
+            "url": "https://github.com/paperclipai/paperclip",
+            "why_hot": "单日1853星，TypeScript项目",
+            "stars_today": 1853,
+            "total_stars": 83598
+          },
+          {
+            "full_name": "google/ax",
+            "url": "https://github.com/google/ax",
+            "why_hot": "单日1386星，Go项目",
+            "stars_today": 1386,
+            "total_stars": 11116
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "315"
+          },
+          {
+            "label": "多源验证率",
+            "value": "13%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+6412"
+          }
+        ],
+        "must_read_ids": [
+          "e596fc31d0dc",
+          "4628c962cd9b",
+          "c3257d531a3c",
+          "1ae169fb23a9",
+          "dd3f7c0b511d"
+        ],
+        "text": "今日共收录315篇AI新闻，分类分布：学术研究223篇, 开源项目48篇, 模型发布35篇, 产品/API9篇。热门标签：Agent（73篇）。其中13%的文章有多来源交叉验证。",
+        "top_items": [
+          "paperclipai /paperclip",
+          "vectorize-io /hindsight",
+          "obra /superpowers",
+          "mattpocock /skills",
+          "dream-num /univer"
+        ],
+        "meta": {
+          "total_articles": 315,
+          "multi_source_pct": 13
+        }
+      },
+      "_ts": 1790343127
     }
   }
 }
