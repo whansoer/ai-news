@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-27T19:42:32Z",
-  "total": 275,
+  "updated": "2026-09-28T04:04:14Z",
+  "total": 309,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
+    },
+    {
+      "name": "MarkTechPost",
+      "count": 32
     },
     {
       "name": "GitHub Trending",
       "count": 29
-    },
-    {
-      "name": "MarkTechPost",
-      "count": 28
     },
     {
       "name": "OpenAI",
@@ -42,19 +42,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 62
+      "count": 74
     },
     {
       "name": "LLM",
-      "count": 35
+      "count": 42
     },
     {
       "name": "Benchmark",
-      "count": 16
+      "count": 20
     },
     {
       "name": "Google",
-      "count": 9
+      "count": 11
     },
     {
       "name": "GPT",
@@ -69,8 +69,16 @@
       "count": 5
     },
     {
+      "name": "Prompt",
+      "count": 4
+    },
+    {
       "name": "API",
       "count": 4
+    },
+    {
+      "name": "Diffusion",
+      "count": 3
     },
     {
       "name": "Anthropic",
@@ -89,19 +97,11 @@
       "count": 3
     },
     {
-      "name": "Prompt",
-      "count": 3
-    },
-    {
       "name": "DeepSeek",
       "count": 3
     },
     {
       "name": "RAG",
-      "count": 2
-    },
-    {
-      "name": "Diffusion",
       "count": 2
     },
     {
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 188
+      "count": 222
     },
     {
       "name": "开源项目",
@@ -140,10 +140,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-21",
-      "count": 33
-    },
     {
       "date": "09-22",
       "count": 61
@@ -166,7 +162,11 @@
     },
     {
       "date": "09-27",
-      "count": 8
+      "count": 4
+    },
+    {
+      "date": "09-28",
+      "count": 38
     }
   ],
   "top10": [
@@ -207,28 +207,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9fbd6344a1b0",
-      "title": "NVIDIA /Model-Optimizer",
+      "id": "4b2d871a5c6c",
+      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "7445d3b513ae",
-      "title": "zhaoxuya520 /reverse-skill",
+      "id": "50f57aac71ca",
+      "title": "Manifold Projection and Iterative Autoencoder Refinement for Masked Language Modeling",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "f99863f0b448",
-      "title": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
+      "id": "a10402cd41e9",
+      "title": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "ffe654970959",
-      "title": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
+      "id": "04adb3bcf34b",
+      "title": "Auditing and Repairing LLM-as-Judge Failures in a Production Text-to-SQL Pipeline",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

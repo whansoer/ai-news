@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T19:42:42Z",
+  "updated": "2026-09-28T04:04:24Z",
   "total": 20,
   "items": [
     {
@@ -84,13 +84,52 @@
       }
     },
     {
-      "id": "9fbd6344a1b0",
-      "title_zh": "NVIDIA /Model-Optimizer",
-      "summary_zh": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM,...",
+      "id": "4b2d871a5c6c",
+      "title_zh": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
+      "summary_zh": "arXiv:2609.30287v1 Announce Type: new \nAbstract: AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predictions remain poorly understood. We study which neurons in a frozen...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.30287v1 Announce Type: new \nAbstract: AI-generated text detectors achieve high accuracy o",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "50f57aac71ca",
+      "title_zh": "Manifold Projection and Iterative Autoencoder Refinement for Masked Language Modeling",
+      "summary_zh": "arXiv:2609.30288v1 Announce Type: new \nAbstract: In Transformer-based masked language models, attention is the primary mechanism for context mixing, but there are other ways to mix data across tokens. Recent attention-free mixers replace...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.30288v1 Announce Type: new \nAbstract: In Transformer-based masked language models, attent",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a10402cd41e9",
+      "title_zh": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
+      "summary_zh": "arXiv:2609.30289v1 Announce Type: new \nAbstract: In team collaboration scenarios, memory is heterogeneous and continually evolving. Team memories capture collective decisions, protocols, and current consensus, while individual memories preserve...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2609.30289v1 Announce Type: new \nAbstract: In team collaboration scenarios, memory is heteroge",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "04adb3bcf34b",
+      "title_zh": "Auditing and Repairing LLM-as-Judge Failures in a Production Text-to-SQL Pipeline",
+      "summary_zh": "arXiv:2609.30290v1 Announce Type: new \nAbstract: Production text-to-SQL pipelines often end with an LLM-as-judge whose agreement with human annotators has never actually been measured. When we checked ours, the deployed gpt-4o-mini judge agreed...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, ne",
+      "oneliner": "arXiv:2609.30290v1 Announce Type: new \nAbstract: Production text-to-SQL pipelines often end with an ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -98,25 +137,11 @@
       }
     },
     {
-      "id": "7445d3b513ae",
-      "title_zh": "zhaoxuya520 /reverse-skill",
-      "summary_zh": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding...",
-      "tags_zh": [
-        "Claude"
-      ],
-      "oneliner": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powere",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f99863f0b448",
-      "title_zh": "Sarvam AI Releases Saaras V4: A Speech-to-Text Model for All 22 Indian Languages and Global English",
-      "summary_zh": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English. It pairs an audio encoder with a 3B hybrid state-space decoder. It adds keyterm prompting for up to 50 terms, 5 output modes from 1 model, and...",
+      "id": "71f5b57c9277",
+      "title_zh": "A Survey on Fake Review Detection: From Pre-trained Language Models to Large Language Models",
+      "summary_zh": "arXiv:2609.30292v1 Announce Type: new \nAbstract: Online reviews shape consumer decisions, platform governance, and corporate reputation.Fake reviews compromise this information channel by injecting deceptive evidence into rating systems,...",
       "tags_zh": [],
-      "oneliner": "Sarvam AI's Saaras V4 is a speech-to-text model covering all 22 Indian languages plus global English",
+      "oneliner": "arXiv:2609.30292v1 Announce Type: new \nAbstract: Online reviews shape consumer decisions, platform g",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -124,26 +149,13 @@
       }
     },
     {
-      "id": "ffe654970959",
-      "title_zh": "Supersonic Labs Releases Julia 1: A 144.3M-Parameter Open Decision Model That Runs on a CPU",
-      "summary_zh": "Supersonic Labs has released Julia 1, a 144.3M-parameter decision model built on mmBERT-small. It takes context, a question, and 2 to 20 options, then returns one choice with probabilities. The model runs on a CPU and ships under Apache 2.0. It...",
-      "tags_zh": [],
-      "oneliner": "Supersonic Labs has released Julia 1, a 144.3M-parameter decision model built on mmBERT-small. It ta",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bc560b82b789",
-      "title_zh": "Exa Launches Agent Ultra: A Subagent Swarm Deep Research API Built for Exhaustive List Building",
-      "summary_zh": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API. It coordinates subagents across thousands of sources for list building and entity enrichment. Exa reports it beats Opus 5.5, GPT-6 Astra, and Perplexity Agent on 4...",
+      "id": "60f97cb0040b",
+      "title_zh": "Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents",
+      "summary_zh": "arXiv:2609.30293v1 Announce Type: new \nAbstract: The Model Context Protocol (MCP) enables AI agents to discover and call tools, but loading every definition becomes expensive as connected catalogs grow. We present Cartograph, a federated MCP...",
       "tags_zh": [
-        "Agent",
-        "API"
+        "Agent"
       ],
-      "oneliner": "Exa has released Agent Ultra, the highest effort mode of its Exa Agent API. It coordinates subagents",
+      "oneliner": "arXiv:2609.30293v1 Announce Type: new \nAbstract: The Model Context Protocol (MCP) enables AI agents ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -151,13 +163,51 @@
       }
     },
     {
-      "id": "81927b48034b",
-      "title_zh": "End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark with AugLy for Images, Text, Audio, and PyTorch",
-      "summary_zh": "Discover how to build a comprehensive multimodal augmentation and adversarial robustness workflow using AugLy for images, text, audio, and PyTorch datasets.\nThe post End-to-End Multimodal Data Augmentation and Adversarial Robustness Benchmark...",
+      "id": "e689da3f9f05",
+      "title_zh": "SlideLab: Audience-Centered Scientific Slide Generation and Evaluation",
+      "summary_zh": "arXiv:2609.30294v1 Announce Type: new \nAbstract: Scientific presentations are more than summaries of research papers. They need to present the work in a coherent sequence, explain the main ideas clearly, and help the audience follow the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.30294v1 Announce Type: new \nAbstract: Scientific presentations are more than summaries of",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "fc64230de6a3",
+      "title_zh": "SignTrace: Describe a Sign, Find the Word",
+      "summary_zh": "arXiv:2609.30295v1 Announce Type: new \nAbstract: Identifying an unfamiliar sign is difficult when a learner remembers its movement but does not know its meaning or formal feature codes. SignTrace addresses this longstanding reverse-lookup problem...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.30295v1 Announce Type: new \nAbstract: Identifying an unfamiliar sign is difficult when a ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "614bbdf30c83",
+      "title_zh": "Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops",
+      "summary_zh": "arXiv:2609.30297v1 Announce Type: new \nAbstract: Conversational recommendation agents are a new paradigm for content discovery, enabling users to express complex intents through natural language (e.g., \"recommend Italian indie artists I haven't...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2609.30297v1 Announce Type: new \nAbstract: Conversational recommendation agents are a new para",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "229dbe1af36f",
+      "title_zh": "A Benchmark Framework for Screening Automation in Systematic Reviews",
+      "summary_zh": "arXiv:2609.30298v1 Announce Type: new \nAbstract: Systematic reviews (SR) are essential for evidence-based research, but their screening phase is highly time-consuming and labor-intensive. Large language models (LLMs) offer a promising opportunity...",
       "tags_zh": [
         "Benchmark"
       ],
-      "oneliner": "Discover how to build a comprehensive multimodal augmentation and adversarial robustness workflow us",
+      "oneliner": "arXiv:2609.30298v1 Announce Type: new \nAbstract: Systematic reviews (SR) are essential for evidence-",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -165,68 +215,11 @@
       }
     },
     {
-      "id": "c3257d531a3c",
-      "title_zh": "obra /superpowers",
-      "summary_zh": "An agentic skills framework & software development methodology that works.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "An agentic skills framework & software development methodology that works.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1ae169fb23a9",
-      "title_zh": "mattpocock /skills",
-      "summary_zh": "Skills for Real Engineers. Straight from my .agents directory.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Skills for Real Engineers. Straight from my .agents directory.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ea97e2f9b307",
-      "title_zh": "anthropics /skills",
-      "summary_zh": "Public repository for Agent Skills",
-      "tags_zh": [
-        "Anthropic",
-        "Agent"
-      ],
-      "oneliner": "Public repository for Agent Skills",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f3a651d18f1f",
-      "title_zh": "androoAGI /starnet",
-      "summary_zh": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - br",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d3e12b72a4cd",
-      "title_zh": "Liquid AI Releases LFM2.5-VL-3B-DSpark: Speculative Decoding for Vision-Language Models With Up to 3.13x Faster Decoding",
-      "summary_zh": "Liquid AI has released LFM2.5-VL-3B-DSpark, a 279.5M-parameter draft model that brings speculative decoding to its LFM2.5-VL-3B vision-language model. It delivers up to 3.13x faster decoding on Apple M5 Max and 2.66x on H100, with identical...",
+      "id": "574d38cd35b6",
+      "title_zh": "A Unified Account of Concepts and Chunks",
+      "summary_zh": "arXiv:2609.30414v1 Announce Type: new \nAbstract: Cognitive psychology has studied how people encode, use, and learn concepts that describe categories, and how they represent, recognize, and acquire chunks for familiar patterns of elements. The...",
       "tags_zh": [],
-      "oneliner": "Liquid AI has released LFM2.5-VL-3B-DSpark, a 279.5M-parameter draft model that brings speculative d",
+      "oneliner": "arXiv:2609.30414v1 Announce Type: new \nAbstract: Cognitive psychology has studied how people encode,",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -234,37 +227,39 @@
       }
     },
     {
-      "id": "0192a09d7c87",
-      "title_zh": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "summary_zh": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "tags_zh": [],
-      "oneliner": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet manageme",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f142284888d7",
-      "title_zh": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
-      "summary_zh": "Aikido Security has released Altar-1, its first open-weight security model. It is a compressed version of Z.AI&#8217;s GLM-5.3, built to run inside infrastructure the customer controls. Altar-1 powers Aikido Machine, the company&#8217;s...",
-      "tags_zh": [],
-      "oneliner": "Aikido Security has released Altar-1, its first open-weight security model. It is a compressed versi",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "71e2d4d296f2",
-      "title_zh": "Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation",
-      "summary_zh": "Perplexity Research published a new post-training study. It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with hint-guided self-distillation. In a live A/B...",
+      "id": "93db2caf418e",
+      "title_zh": "All In Good Time: Causality-Aware Framework for LLM-Based Simultaneous Speech-to-Speech Translation",
+      "summary_zh": "arXiv:2609.30416v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have shown strong performance in low-resource offline translation; however, extending them to simultaneous speech-to-speech translation (Simul-S2ST) remains challenging...",
       "tags_zh": [
-        "Agent"
+        "LLM"
       ],
-      "oneliner": "Perplexity Research published a new post-training study. It trains a model inside Perplexity Compute",
+      "oneliner": "arXiv:2609.30416v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have shown strong perf",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "afb20755ae6f",
+      "title_zh": "Inference-Time Target Speaker Unlearning in LLM-Based Automatic Speech Recognition",
+      "summary_zh": "arXiv:2609.30439v1 Announce Type: new \nAbstract: We introduce target-speaker unlearning ASR (TSU-ASR) task in a fully end-to-end framework for multi-speaker ASR and diarization. Given a multi-speaker utterance and a set of opt-out speakers who do...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2609.30439v1 Announce Type: new \nAbstract: We introduce target-speaker unlearning ASR (TSU-ASR",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d68e5636efb2",
+      "title_zh": "Where Does Retrieval-Based Open-Ended Evaluation Fail? Automatic Taxonomy Induction from Long-Form Medical Answer Factuality Verification",
+      "summary_zh": "arXiv:2609.30467v1 Announce Type: new \nAbstract: Retrieval-based factuality evaluation, where LLM-generated claims are verified against evidence from authoritative medical corpora, has become the dominant paradigm for scalable hallucination...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2609.30467v1 Announce Type: new \nAbstract: Retrieval-based factuality evaluation, where LLM-ge",
       "key_facts": [],
       "notable_quote": {
         "text": "",
