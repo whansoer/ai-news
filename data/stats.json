@@ -1,22 +1,22 @@
 {
-  "updated": "2026-09-29T04:48:03Z",
-  "total": 284,
+  "updated": "2026-09-29T14:46:53Z",
+  "total": 269,
   "sources": [
-    {
-      "name": "ArXiv (cs.AI)",
-      "count": 90
-    },
     {
       "name": "ArXiv (cs.CL)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 75
+    },
+    {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "GitHub Trending",
-      "count": 25
+      "count": 23
     },
     {
       "name": "OpenAI",
@@ -42,19 +42,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 69
+      "count": 70
     },
     {
       "name": "LLM",
-      "count": 38
+      "count": 36
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 19
     },
     {
       "name": "Google",
-      "count": 10
+      "count": 11
     },
     {
       "name": "GPT",
@@ -69,6 +69,14 @@
       "count": 4
     },
     {
+      "name": "API",
+      "count": 4
+    },
+    {
+      "name": "RAG",
+      "count": 4
+    },
+    {
       "name": "Prompt",
       "count": 4
     },
@@ -77,19 +85,11 @@
       "count": 3
     },
     {
-      "name": "Diffusion",
-      "count": 3
-    },
-    {
-      "name": "API",
-      "count": 3
-    },
-    {
-      "name": "Fine-tune",
-      "count": 3
-    },
-    {
       "name": "Embedding",
+      "count": 3
+    },
+    {
+      "name": "Diffusion",
       "count": 3
     },
     {
@@ -97,11 +97,7 @@
       "count": 3
     },
     {
-      "name": "RAG",
-      "count": 2
-    },
-    {
-      "name": "Gemini",
+      "name": "Qwen",
       "count": 2
     },
     {
@@ -109,7 +105,11 @@
       "count": 2
     },
     {
-      "name": "Qwen",
+      "name": "Gemini",
+      "count": 2
+    },
+    {
+      "name": "Fine-tune",
       "count": 1
     },
     {
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 204
+      "count": 191
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 39
     },
     {
       "name": "模型发布",
@@ -162,13 +162,13 @@
     },
     {
       "date": "09-29",
-      "count": 6
+      "count": 43
     }
   ],
   "top10": [
     {
-      "id": "e596fc31d0dc",
-      "title": "paperclipai /paperclip",
+      "id": "992c39912e4d",
+      "title": "NVIDIA /OpenShell",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -179,8 +179,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "e2dc16e18a1e",
-      "title": "byoungd /up",
+      "id": "e596fc31d0dc",
+      "title": "paperclipai /paperclip",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4cb07dec9409",
+      "title": "t8y2 /dbx",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -191,40 +197,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "dd3f7c0b511d",
-      "title": "dream-num /univer",
+      "id": "4d8e922de101",
+      "title": "rohitg00 /ai-engineering-from-scratch",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "beebee012144",
-      "title": "Anthropic Releases Claude Sonnet 5.5: 70.6% on Terminal-Bench 4.0 at the Same $2/$10 Price",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "842e04e92cc8",
-      "title": "NVIDIA Launches Open Agent Safety Platform: OpenShell Sandboxes Agents on Vera CPUs While Sentry on BlueField-4 Quarantines Them in Milliseconds",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "c5edbf462ded",
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "2c968f6bfde3",
-      "title": "How we will do better for Australia",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "6766f31e569a",
-      "title": "Holo4: powering generalist computer-use agents",
+      "id": "9179e4753ddd",
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
       "score": 5,
       "source": "Hugging Face"
+    },
+    {
+      "id": "20226785ba5f",
+      "title": "Google Research Open-Sources RRSI: AI Agents That Improve Their Own Harness Without Overfitting",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "70544992bccd",
+      "title": "H Company Releases Holo4: Open-Weight Computer-Use Models That Click, Code and Call Tools Across Desktop, Web, Android and APIs",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "a37103810691",
+      "title": "Alibaba Qwen Releases Qwen-Audio-3.1-Realtime: A Full-Duplex Voice Model Trained to Think, Act, and Decide When to Speak",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
