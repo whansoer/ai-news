@@ -1,8 +1,144 @@
 {
   "date": "2026-09-23",
-  "updated": "2026-09-30T14:49:52Z",
-  "total": 34,
+  "updated": "2026-09-30T20:42:47Z",
+  "total": 39,
   "items": [
+    {
+      "id": "107312abf3f3",
+      "title": "Google Releases Gemini 3.8 Flash TTS and Flash-Lite TTS With Prompt-Based Voice Design",
+      "url": "https://www.marktechpost.com/2026/09/23/google-releases-gemini-3-8-flash-tts-and-flash-lite-tts-with-prompt-based-voice-design/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google has released Gemini 3.8 Flash TTS and Flash-Lite TTS, 2 new text-to-speech models available now through the Gemini API and Google AI Studio. Flash TTS designs new voices from natural language prompts across 100+ languages. It ranks #1 on...",
+      "published": "2026-09-23T20:20:12Z",
+      "tags": [
+        "Gemini",
+        "Google",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b17675bfaa78",
+          "1862986a9b3d"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8308f4135e02",
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-09-23T18:41:40Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "283ef1eae553"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "283ef1eae553",
+      "title": "NVIDIA Releases Nemotron 3 Diarization: A 100M-Parameter Open-Weight Model That Tracks 8 Speakers in Real Time",
+      "url": "https://www.marktechpost.com/2026/09/23/nvidia-releases-nemotron-3-diarization/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA has released Nemotron 3 Diarization, an open-weight speaker diarization model on Hugging Face. It answers one question about any conversation: who spoke when. The 100M-parameter model tracks up to 8 speakers, including when voices overlap....",
+      "published": "2026-09-23T18:17:14Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "8308f4135e02"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "1862986a9b3d",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "Google Beam promotional animation",
+      "published": "2026-09-23T18:00:00Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b17675bfaa78",
+          "107312abf3f3"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "cd65d3ae79b3",
+      "title": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "published": "2026-09-23T16:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "7d0f5cd5753d",
+          "c24a6e6fac61"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "165ac02a206f",
       "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
