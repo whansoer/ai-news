@@ -1,29 +1,29 @@
 {
-  "updated": "2026-09-30T20:42:37Z",
-  "total": 264,
+  "updated": "2026-10-01T04:44:57Z",
+  "total": 294,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 105
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 31
     },
     {
       "name": "GitHub Trending",
       "count": 27
     },
     {
-      "name": "Hugging Face",
-      "count": 16
+      "name": "OpenAI",
+      "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 81
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 37
     },
     {
       "name": "Benchmark",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Google",
@@ -58,14 +58,18 @@
     },
     {
       "name": "OpenAI",
-      "count": 6
-    },
-    {
-      "name": "RAG",
-      "count": 5
+      "count": 7
     },
     {
       "name": "GPT",
+      "count": 6
+    },
+    {
+      "name": "Diffusion",
+      "count": 5
+    },
+    {
+      "name": "RAG",
       "count": 5
     },
     {
@@ -73,12 +77,8 @@
       "count": 4
     },
     {
-      "name": "Diffusion",
-      "count": 4
-    },
-    {
       "name": "Embedding",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Prompt",
@@ -93,6 +93,10 @@
       "count": 3
     },
     {
+      "name": "Gemini",
+      "count": 2
+    },
+    {
       "name": "Transformer",
       "count": 2
     },
@@ -105,8 +109,8 @@
       "count": 2
     },
     {
-      "name": "Gemini",
-      "count": 2
+      "name": "Meta",
+      "count": 1
     },
     {
       "name": "Fine-tune",
@@ -120,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 221
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -136,10 +140,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-24",
-      "count": 54
-    },
     {
       "date": "09-25",
       "count": 38
@@ -162,7 +162,11 @@
     },
     {
       "date": "09-30",
-      "count": 49
+      "count": 42
+    },
+    {
+      "date": "10-01",
+      "count": 40
     }
   ],
   "top10": [
@@ -221,10 +225,10 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9c5854b8d889",
-      "title": "Disrupting a coordinated model-distillation campaign",
+      "id": "0d054b176548",
+      "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
       "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
