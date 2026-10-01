@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-01T04:44:57Z",
-  "total": 294,
+  "updated": "2026-10-01T15:19:24Z",
+  "total": 246,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 105
+      "count": 75
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "MarkTechPost",
@@ -16,14 +16,14 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 27
-    },
-    {
-      "name": "OpenAI",
-      "count": 15
+      "count": 24
     },
     {
       "name": "Hugging Face",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -42,15 +42,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 81
+      "count": 68
     },
     {
       "name": "LLM",
-      "count": 37
+      "count": 27
     },
     {
       "name": "Benchmark",
-      "count": 20
+      "count": 17
     },
     {
       "name": "Google",
@@ -69,28 +69,28 @@
       "count": 5
     },
     {
-      "name": "RAG",
-      "count": 5
-    },
-    {
       "name": "Claude",
       "count": 4
     },
     {
-      "name": "Embedding",
+      "name": "RAG",
       "count": 4
-    },
-    {
-      "name": "Prompt",
-      "count": 3
     },
     {
       "name": "API",
       "count": 3
     },
     {
+      "name": "Prompt",
+      "count": 3
+    },
+    {
       "name": "DeepSeek",
       "count": 3
+    },
+    {
+      "name": "Embedding",
+      "count": 2
     },
     {
       "name": "Gemini",
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 221
+      "count": 176
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 39
     },
     {
       "name": "模型发布",
@@ -146,7 +146,7 @@
     },
     {
       "date": "09-26",
-      "count": 7
+      "count": 6
     },
     {
       "date": "09-27",
@@ -166,10 +166,22 @@
     },
     {
       "date": "10-01",
-      "count": 40
+      "count": 44
     }
   ],
   "top10": [
+    {
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "992c39912e4d",
       "title": "NVIDIA /OpenShell",
@@ -183,38 +195,14 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "1bcf0237559d",
       "title": "mksglu /context-mode",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "2526d3aeeaaf",
-      "title": "DietrichGebert /ponytail",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7c09473f1ffc",
-      "title": "harry0703 /MoneyPrinterTurbo",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "0bd21c2cf11f",
-      "title": "openclaw /openclaw",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7e39ec2390d0",
-      "title": "ComposioHQ /awesome-claude-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "1ae169fb23a9",
-      "title": "mattpocock /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -225,10 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "0d054b176548",
-      "title": "FD-VAD: Semantic Endpoint Detection for Streaming Full-Duplex Speech",
+      "id": "d37649da1014",
+      "title": "earendil-works /pi",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "500c90923e00",
+      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "084b5e1e5726",
+      "title": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }

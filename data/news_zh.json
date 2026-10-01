@@ -1,7 +1,35 @@
 {
-  "updated": "2026-10-01T04:45:08Z",
+  "updated": "2026-10-01T15:19:35Z",
   "total": 20,
   "items": [
+    {
+      "id": "2526d3aeeaaf",
+      "title_zh": "DietrichGebert /ponytail",
+      "summary_zh": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1ae169fb23a9",
+      "title_zh": "mattpocock /skills",
+      "summary_zh": "Skills for Real Engineers. Straight from my .agents directory.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Skills for Real Engineers. Straight from my .agents directory.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "992c39912e4d",
       "title_zh": "NVIDIA /OpenShell",
@@ -19,12 +47,26 @@
     {
       "id": "9e64e48f5624",
       "title_zh": "mvschwarz /openrig",
-      "summary_zh": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "summary_zh": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
       "tags_zh": [
         "Claude",
         "Agent"
       ],
-      "oneliner": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "oneliner": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c3257d531a3c",
+      "title_zh": "obra /superpowers",
+      "summary_zh": "An agentic skills framework & software development methodology that works.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "An agentic skills framework & software development methodology that works.",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -46,13 +88,53 @@
       }
     },
     {
-      "id": "2526d3aeeaaf",
-      "title_zh": "DietrichGebert /ponytail",
-      "summary_zh": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "id": "1c708e2373ce",
+      "title_zh": "heygen-com /hyperframes",
+      "summary_zh": "Write HTML. Render video. Built for agents.",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
+      "oneliner": "Write HTML. Render video. Built for agents.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d37649da1014",
+      "title_zh": "earendil-works /pi",
+      "summary_zh": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "tags_zh": [
+        "LLM",
+        "Agent",
+        "API"
+      ],
+      "oneliner": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "500c90923e00",
+      "title_zh": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "084b5e1e5726",
+      "title_zh": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
+      "summary_zh": "NVIDIA has released Kumo Tabular, a new family of tabular foundation models (TFMs) for classification and regression. If you have followed TabPFN or TabICL, the setup will look familiar. The model takes labeled rows as context and predicts new...",
+      "tags_zh": [],
+      "oneliner": "NVIDIA has released Kumo Tabular, a new family of tabular foundation models (TFMs) for classificatio",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -91,34 +173,6 @@
         "Claude"
       ],
       "oneliner": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1ae169fb23a9",
-      "title_zh": "mattpocock /skills",
-      "summary_zh": "Skills for Real Engineers. Straight from my .agents directory.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Skills for Real Engineers. Straight from my .agents directory.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1c708e2373ce",
-      "title_zh": "heygen-com /hyperframes",
-      "summary_zh": "Write HTML. Render video. Built for agents.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Write HTML. Render video. Built for agents.",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -209,58 +263,6 @@
         "Agent"
       ],
       "oneliner": "arXiv:2609.35807v1 Announce Type: new \nAbstract: LLM agents can make unsafe tool calls even when ins",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "32a9de91baaa",
-      "title_zh": "When Successful Memories Mislead Embodied Agents:Memory Adaption For Task-Conditioned Execution",
-      "summary_zh": "arXiv:2609.35808v1 Announce Type: new \nAbstract: Experience reuse can reduce repeated exploration in embodied agents, but a trajectory that succeeded previously may be unsuitable for the current execution context. Existing memory systems pri...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2609.35808v1 Announce Type: new \nAbstract: Experience reuse can reduce repeated exploration in",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "35c3154ebc05",
-      "title_zh": "Can Multimodal Large Language Models Generate and Detect Multimodal Social Media Fake News?",
-      "summary_zh": "arXiv:2609.35809v1 Announce Type: new \nAbstract: The rapid advancement of generative AI raises concerns about the misuse of Multimodal LLMs (MLLMs) for large-scale disinformation campaigns on social media. Despite existing research on textual...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.35809v1 Announce Type: new \nAbstract: The rapid advancement of generative AI raises conce",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c535e6b67c44",
-      "title_zh": "TRACE: Deployable Tree-Relational Structure Enhancement for Oncology LLMs",
-      "summary_zh": "arXiv:2609.35810v1 Announce Type: new \nAbstract: Large language models are increasingly used in oncology applications, but their predictions are often weakly grounded in explicit medical structure. We present TRACE, a deployable tree-relational...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2609.35810v1 Announce Type: new \nAbstract: Large language models are increasingly used in onco",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "dffa0cd71902",
-      "title_zh": "Lookahead-R: Budget-Aware Tool Retrieval via Execution-Centric Planning",
-      "summary_zh": "arXiv:2609.35811v1 Announce Type: new \nAbstract: Tool retrieval is a critical bottleneck for LLM-based agents operating over large, heterogeneous API ecosystems. Existing approaches face an inherent trade-off: semantic retrievers are fast but...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2609.35811v1 Announce Type: new \nAbstract: Tool retrieval is a critical bottleneck for LLM-bas",
       "key_facts": [],
       "notable_quote": {
         "text": "",
