@@ -1,8 +1,58 @@
 {
   "date": "2026-09-25",
-  "updated": "2026-10-02T04:36:34Z",
-  "total": 33,
+  "updated": "2026-10-02T14:39:54Z",
+  "total": 35,
   "items": [
+    {
+      "id": "71e2d4d296f2",
+      "title": "Perplexity Trains Its Computer Agent on Real Mistakes With Hint-Guided Self-Distillation",
+      "url": "https://www.marktechpost.com/2026/09/25/perplexity-trains-its-computer-agent-on-real-mistakes-with-hint-guided-self-distillation/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Perplexity Research published a new post-training study. It trains a model inside Perplexity Computer on real user sessions, including failed ones. The method pairs rejection sampling fine-tuning with hint-guided self-distillation. In a live A/B...",
+      "published": "2026-09-25T14:30:26Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a39bef674ff4",
+      "title": "Fastino Releases GLiNER2.5-Decide: A 340M Open-Weight Decision Model That Runs on CPU",
+      "url": "https://www.marktechpost.com/2026/09/24/fastino-releases-gliner2-5-decide-a-340m-open-weight-decision-model-that-runs-on-cpu/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Fastino Labs has released GLiNER2.5-Decide, a 340M-parameter open-weight decision model. It takes text and a schema of typed questions and returns structured answers. Each answer comes with a probability distribution, a confidence score, and...",
+      "published": "2026-09-25T04:46:38Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "ffe654970959"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "ae3af180c15f",
       "title": "Black Forest Labs Releases FLUX 3 Action: A 7B Open-Weights World Action Model That Tops RoboLab-120",

@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-02T04:36:24Z",
-  "total": 276,
+  "updated": "2026-10-02T14:39:43Z",
+  "total": 248,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "MarkTechPost",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 24
+      "count": 26
     },
     {
       "name": "Hugging Face",
@@ -38,19 +38,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 74
+      "count": 66
     },
     {
       "name": "LLM",
-      "count": 31
+      "count": 25
     },
     {
       "name": "Benchmark",
-      "count": 19
+      "count": 16
     },
     {
       "name": "Google",
-      "count": 11
+      "count": 10
     },
     {
       "name": "OpenAI",
@@ -61,15 +61,15 @@
       "count": 6
     },
     {
-      "name": "RAG",
-      "count": 5
-    },
-    {
-      "name": "Diffusion",
-      "count": 5
-    },
-    {
       "name": "Claude",
+      "count": 5
+    },
+    {
+      "name": "API",
+      "count": 4
+    },
+    {
+      "name": "RAG",
       "count": 4
     },
     {
@@ -77,8 +77,8 @@
       "count": 4
     },
     {
-      "name": "API",
-      "count": 3
+      "name": "Diffusion",
+      "count": 4
     },
     {
       "name": "Embedding",
@@ -109,10 +109,6 @@
       "count": 1
     },
     {
-      "name": "Fine-tune",
-      "count": 1
-    },
-    {
       "name": "Llama",
       "count": 1
     }
@@ -120,11 +116,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 207
+      "count": 177
     },
     {
       "name": "开源项目",
-      "count": 39
+      "count": 41
     },
     {
       "name": "模型发布",
@@ -158,13 +154,37 @@
     },
     {
       "date": "10-02",
-      "count": 41
+      "count": 46
     }
   ],
   "top10": [
     {
+      "id": "81fb0b6406ba",
+      "title": "Panniantong /Agent-Reach",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "021dcfb5e16a",
+      "title": "JuliusBrussee /caveman",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "2526d3aeeaaf",
       "title": "DietrichGebert /ponytail",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "be8acfaf1118",
+      "title": "pbakaus /impeccable",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -181,20 +201,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9e64e48f5624",
-      "title": "mvschwarz /openrig",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "1bcf0237559d",
-      "title": "mksglu /context-mode",
+      "id": "7344796a1c66",
+      "title": "coreyhaines31 /marketingskills",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -205,22 +213,10 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "d37649da1014",
-      "title": "earendil-works /pi",
+      "id": "1bcf0237559d",
+      "title": "mksglu /context-mode",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "87e5762e9583",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "e7f5f8417b7b",
-      "title": "On-Device Named-Entity Recognition: A Deployability Study of Accuracy, Cost, Reliability, and Confidence",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
