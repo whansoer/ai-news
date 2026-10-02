@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-02T14:39:54Z",
-  "total": 212,
-  "new_count": 39,
+  "updated": "2026-10-02T20:35:51Z",
+  "total": 216,
+  "new_count": 38,
   "items": [
     {
       "id": "81fb0b6406ba",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Agent",
         "API"
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Agent"
       ],
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Agent"
       ],
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The design language that makes your AI harness better at design.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -143,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Agent"
       ],
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Agent"
       ],
@@ -179,9 +179,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "57c766e0e155"
+        ],
+        "score": 5
       },
       "title_zh": "NVIDIA /OpenShell",
       "summary_zh": "OpenShell is the safe, private runtime for autonomous AI agents.",
@@ -197,7 +199,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Claude",
         "Agent"
@@ -226,7 +228,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Write HTML. Render video. Built for agents.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Agent"
       ],
@@ -253,7 +255,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "published": "2026-10-02T14:37:20Z",
+      "published": "2026-10-02T20:33:42Z",
       "tags": [
         "Agent"
       ],
@@ -272,6 +274,135 @@
         "Agent"
       ],
       "oneliner": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se"
+    },
+    {
+      "id": "57c766e0e155",
+      "title": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
+      "url": "https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI — its GB10-powered desktop AI system. It gives developers a way to start with one system for local models and agents, then cluster two 64GB units...",
+      "published": "2026-10-02T18:04:56Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "992c39912e4d"
+        ],
+        "score": 5
+      },
+      "title_zh": "NVIDIA Announces DGX Spark 64GB: A 1-PetaFLOP Grace Blackwell Desktop for Local AI Agents, Fine-Tuning, and Inference",
+      "summary_zh": "NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI — its GB10-powered desktop AI system. It gives developers a way to start with one system for local models and agents, then cluster two 64GB units...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "NVIDIA announced a new 64GB configuration of DGX Spark — from Acer, ASUS, Dell, Gigabyte, HP and MSI"
+    },
+    {
+      "id": "d8bea22f6536",
+      "title": "A model guide for the GPT-6 family",
+      "url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "published": "2026-10-02T16:15:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "A model guide for the GPT-6 family",
+      "summary_zh": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coord"
+    },
+    {
+      "id": "68c838988c47",
+      "title": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
+      "url": "https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Content-based row matching, 6 per-value verdicts and a null rule make OmniExtractBench an extraction benchmark anyone can audit.\nThe post Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks appeared first on...",
+      "published": "2026-10-02T15:23:35Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks",
+      "summary_zh": "Content-based row matching, 6 per-value verdicts and a null rule make OmniExtractBench an extraction benchmark anyone can audit.\nThe post Datalab Introduces OmniExtractBench to Fix Bias and Opacity in Extraction Benchmarks appeared first on...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "Content-based row matching, 6 per-value verdicts and a null rule make OmniExtractBench an extraction"
+    },
+    {
+      "id": "e5ba9a829e20",
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-02T15:19:50Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "bfe2b156957e",
+      "title": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "A video showing the September AI updates",
+      "published": "2026-10-02T15:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "The latest AI news we announced in September 2026",
+      "summary_zh": "A video showing the September AI updates",
+      "tags_zh": [],
+      "oneliner": "A video showing the September AI updates"
     },
     {
       "id": "e34747424b79",
@@ -424,10 +555,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "SCM-based Fairness and Faithful Explainability for Legal Document Classification",
-      "summary_zh": "arXiv:2610.00045v1 Announce Type: new \nAbstract: Transformer models such as LegalBERT are increasingly used in legal decision support, raising concerns about both fairness and the transparency of model explanations. These properties are usually...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.00045v1 Announce Type: new \nAbstract: Transformer models such as LegalBERT are increasing"
+      "oneliner": ""
     },
     {
       "id": "07b57c0c0f33",
@@ -449,12 +580,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "The First Token Is Not the Verdict: Hidden Costs of Reading LLM Judges Without Generating",
-      "summary_zh": "arXiv:2610.00054v1 Announce Type: new \nAbstract: Reading an LLM judge's verdict from the logits of its first generated token is cheap, requires no generation, and is exactly what constrained decoding and likelihood-scoring evaluation harnesses...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.00054v1 Announce Type: new \nAbstract: Reading an LLM judge's verdict from the logits of i"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "92f81704c371",
@@ -476,12 +605,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Measuring Human-Like Bias in LLMs? A Critique of Human-Derived Bias Constructs in LLM Evaluation",
-      "summary_zh": "arXiv:2610.00070v1 Announce Type: new \nAbstract: Researchers increasingly use human-derived bias constructs to study Large Language Models (LLMs), including social-cognitive constructs such as implicit bias and stereotype activation, and...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.00070v1 Announce Type: new \nAbstract: Researchers increasingly use human-derived bias con"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "249199a816e2",
@@ -501,10 +628,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Legal text classification in Korean sexual offense cases: from traditional machine learning to large language models with XAI insights",
-      "summary_zh": "arXiv:2610.00087v1 Announce Type: new \nAbstract: The advancement of natural language processing (NLP) has expanded AI-based text classification in the legal domain. However, accurately classifying legal documents remains challenging due to the...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.00087v1 Announce Type: new \nAbstract: The advancement of natural language processing (NLP"
+      "oneliner": ""
     },
     {
       "id": "b6c3207ff2f3",
@@ -524,10 +651,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "BudgetSchemaBench: A Budget-Swept Diagnostic for Schema Context in Text-to-SQL",
-      "summary_zh": "arXiv:2610.00092v1 Announce Type: new \nAbstract: Data agents over structured sources must fit database schema into the model's context window. Large catalogs can span many databases and thousands of columns, so cost constraints may require...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.00092v1 Announce Type: new \nAbstract: Data agents over structured sources must fit databa"
+      "oneliner": ""
     },
     {
       "id": "fea98a7d8a4d",
@@ -1155,6 +1282,30 @@
       "oneliner": ""
     },
     {
+      "id": "f5331f1181a0",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "published": "2026-10-02T00:00:00Z",
+      "tags": [
+        "OpenAI",
+        "API"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "3f4f0dd34ab8"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "3f4f0dd34ab8",
       "title": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
       "url": "https://www.marktechpost.com/2026/10/01/cohere-releases-embed-5/",
@@ -1174,9 +1325,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "f5331f1181a0",
           "de4076536109"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5036,11 +5188,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "a39bef674ff4"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5168,52 +5318,6 @@
           "a3267440cd69"
         ],
         "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0192a09d7c87",
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "published": "2026-09-25T19:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f142284888d7",
-      "title": "Aikido Security Releases Altar-1: An Open-Weight Security Model Pruned From GLM-5.3 to 328 GB",
-      "url": "https://www.marktechpost.com/2026/09/25/aikido-security-releases-altar-1-an-open-weight-security-model-pruned-from-glm-5-3-to-328-gb/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Aikido Security has released Altar-1, its first open-weight security model. It is a compressed version of Z.AI&#8217;s GLM-5.3, built to run inside infrastructure the customer controls. Altar-1 powers Aikido Machine, the company&#8217;s...",
-      "published": "2026-09-25T15:14:45Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
