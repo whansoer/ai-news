@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-01T20:57:17Z",
-  "count": 427,
+  "updated": "2026-10-02T04:36:34Z",
+  "count": 428,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -27330,6 +27330,70 @@
         }
       },
       "_ts": 1790888237
+    },
+    "156d7d7df1fe7106": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录276篇AI新闻，分类分布：学术研究207篇, 开源项目39篇, 模型发布30篇。热门标签：Agent（74篇）。其中11%的文章有多来源交叉验证。\n\n▸ DietrichGebert /ponytail：Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ NVIDIA /OpenShell：OpenShell is the safe, private runtime for autonomous AI agents.\n\n▸ mvschwarz /openrig：Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mvschwarz/openrig",
+            "url": "https://github.com/mvschwarz/openrig",
+            "why_hot": "单日642星，TypeScript项目",
+            "stars_today": 642,
+            "total_stars": 3815
+          },
+          {
+            "full_name": "pbakaus/impeccable",
+            "url": "https://github.com/pbakaus/impeccable",
+            "why_hot": "单日495星，JavaScript项目",
+            "stars_today": 495,
+            "total_stars": 73780
+          },
+          {
+            "full_name": "NVIDIA/OpenShell",
+            "url": "https://github.com/NVIDIA/OpenShell",
+            "why_hot": "单日2456星，Rust项目",
+            "stars_today": 2456,
+            "total_stars": 14094
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "276"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+6297"
+          }
+        ],
+        "must_read_ids": [
+          "2526d3aeeaaf",
+          "1ae169fb23a9",
+          "992c39912e4d",
+          "9e64e48f5624",
+          "c3257d531a3c"
+        ],
+        "text": "今日共收录276篇AI新闻，分类分布：学术研究207篇, 开源项目39篇, 模型发布30篇。热门标签：Agent（74篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "DietrichGebert /ponytail",
+          "mattpocock /skills",
+          "NVIDIA /OpenShell",
+          "mvschwarz /openrig",
+          "obra /superpowers"
+        ],
+        "meta": {
+          "total_articles": 276,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1790915794
     }
   }
 }

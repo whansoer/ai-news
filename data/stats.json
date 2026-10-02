@@ -1,29 +1,29 @@
 {
-  "updated": "2026-10-01T20:57:05Z",
-  "total": 246,
+  "updated": "2026-10-02T04:36:24Z",
+  "total": 276,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 32
     },
     {
       "name": "GitHub Trending",
       "count": 24
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 15
     },
     {
-      "name": "Hugging Face",
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -33,24 +33,20 @@
     {
       "name": "Synced",
       "count": 10
-    },
-    {
-      "name": "AI News",
-      "count": 1
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 66
+      "count": 74
     },
     {
       "name": "LLM",
-      "count": 27
+      "count": 31
     },
     {
       "name": "Benchmark",
-      "count": 17
+      "count": 19
     },
     {
       "name": "Google",
@@ -58,14 +54,18 @@
     },
     {
       "name": "OpenAI",
-      "count": 7
-    },
-    {
-      "name": "Diffusion",
-      "count": 5
+      "count": 6
     },
     {
       "name": "GPT",
+      "count": 6
+    },
+    {
+      "name": "RAG",
+      "count": 5
+    },
+    {
+      "name": "Diffusion",
       "count": 5
     },
     {
@@ -73,7 +73,7 @@
       "count": 4
     },
     {
-      "name": "RAG",
+      "name": "Prompt",
       "count": 4
     },
     {
@@ -81,15 +81,7 @@
       "count": 3
     },
     {
-      "name": "Gemini",
-      "count": 3
-    },
-    {
       "name": "Embedding",
-      "count": 3
-    },
-    {
-      "name": "Prompt",
       "count": 3
     },
     {
@@ -97,11 +89,11 @@
       "count": 3
     },
     {
-      "name": "Transformer",
+      "name": "Gemini",
       "count": 2
     },
     {
-      "name": "Qwen",
+      "name": "Transformer",
       "count": 2
     },
     {
@@ -110,6 +102,10 @@
     },
     {
       "name": "Meta",
+      "count": 1
+    },
+    {
+      "name": "Qwen",
       "count": 1
     },
     {
@@ -124,7 +120,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 176
+      "count": 207
     },
     {
       "name": "开源项目",
@@ -133,17 +129,9 @@
     {
       "name": "模型发布",
       "count": 30
-    },
-    {
-      "name": "产品/API",
-      "count": 1
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-25",
-      "count": 38
-    },
     {
       "date": "09-26",
       "count": 6
@@ -166,7 +154,11 @@
     },
     {
       "date": "10-01",
-      "count": 47
+      "count": 40
+    },
+    {
+      "date": "10-02",
+      "count": 41
     }
   ],
   "top10": [
@@ -219,16 +211,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "3f4f0dd34ab8",
-      "title": "Cohere Releases Embed 5: How It Compares to Voyage 4 Large, Gemini Embedding 2, and OpenAI",
+      "id": "87e5762e9583",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "Hugging Face"
     },
     {
-      "id": "2210ff8abe46",
-      "title": "The eternal complement",
+      "id": "e7f5f8417b7b",
+      "title": "On-Device Named-Entity Recognition: A Deployability Study of Accuracy, Cost, Reliability, and Confidence",
       "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
