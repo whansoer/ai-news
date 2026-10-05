@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T19:24:52Z",
+  "updated": "2026-10-05T04:27:43Z",
   "total": 20,
   "items": [
     {
@@ -87,13 +87,13 @@
       }
     },
     {
-      "id": "e51337ea3f77",
-      "title_zh": "Google Research Moves Federated Learning Into TEEs: Gboard Now Trains With Externally Verifiable Differential Privacy",
-      "summary_zh": "Google Research has unveiled a federated learning system that moves gradient computation from phones into attested server-side TEEs. Access policies are published to Sigstore's Rekor log and the binaries are reproducibly buildable, so central...",
+      "id": "24f97c089bd0",
+      "title_zh": "HakemBench: A Turkish Benchmark of Typed Decisions",
+      "summary_zh": "arXiv:2610.02293v1 Announce Type: new \nAbstract: HakemBench is a Turkish benchmark of typed decisions, in which the model under test reads a text, a question and a fixed set of options and returns a probability for every option. Version 1.0 is...",
       "tags_zh": [
-        "Google"
+        "Benchmark"
       ],
-      "oneliner": "Google Research has unveiled a federated learning system that moves gradient computation from phones",
+      "oneliner": "arXiv:2610.02293v1 Announce Type: new \nAbstract: HakemBench is a Turkish benchmark of typed decision",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -101,11 +101,26 @@
       }
     },
     {
-      "id": "66a075e7b7fa",
-      "title_zh": "Aleph Alpha Releases Kolibri: A 78.1B Open-Weight English-German MoE Model With Only 3.46B Active Parameters",
-      "summary_zh": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that activates only 3.46B parameters per token. It has a 1M-token context and per-request reasoning effort, and its Apache 2.0 FP8 weights run on a single...",
+      "id": "1a00d71ce8be",
+      "title_zh": "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
+      "summary_zh": "arXiv:2610.02425v1 Announce Type: new \nAbstract: Static evaluations credit a language model for naming the right move, but an agent must carry a plan through to a verified outcome while an opponent responds. We introduce XiangqiBench, an...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2610.02425v1 Announce Type: new \nAbstract: Static evaluations credit a language model for nami",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "95c6aa425768",
+      "title_zh": "Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs",
+      "summary_zh": "arXiv:2610.02444v1 Announce Type: new \nAbstract: Large language models often solve a theorem forward yet fail to disprove a closely related false one: a falsification gap that supervised fine-tuning does not close and can actively worsen. We...",
       "tags_zh": [],
-      "oneliner": "Aleph Alpha has released Kolibri, a 78.1B-parameter English-German Mixture-of-Experts model that act",
+      "oneliner": "arXiv:2610.02444v1 Announce Type: new \nAbstract: Large language models often solve a theorem forward",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -113,99 +128,11 @@
       }
     },
     {
-      "id": "82be4d0ea95a",
-      "title_zh": "DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness",
-      "summary_zh": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0.2, its MIT-licensed agent harness. The preview adds a plugin manager, file and code-change review, and scheduled Automation Tasks. It also supports non-DeepSeek...",
-      "tags_zh": [
-        "DeepSeek",
-        "Agent"
-      ],
-      "oneliner": "DeepSeek has released official macOS and Windows desktop apps for DeepSeek Harness v0.2, its MIT-lic",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a90d342e2181",
-      "title_zh": "affaan-m /ECC",
-      "summary_zh": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "tags_zh": [
-        "Claude",
-        "Agent"
-      ],
-      "oneliner": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "021dcfb5e16a",
-      "title_zh": "JuliusBrussee /caveman",
-      "summary_zh": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f08d8cf2c7ba",
-      "title_zh": "thedotmack /claude-mem",
-      "summary_zh": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes,...",
-      "tags_zh": [
-        "Claude",
-        "Gemini",
-        "Agent"
-      ],
-      "oneliner": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "657ca5d400cd",
-      "title_zh": "cloudflare /cloudflare-os",
-      "summary_zh": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agent",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0d1bd25a3199",
-      "title_zh": "addyosmani /agent-skills",
-      "summary_zh": "Production-grade engineering skills for AI coding agents.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Production-grade engineering skills for AI coding agents.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "fccf32436844",
-      "title_zh": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
-      "summary_zh": "Learn how NVIDIA IsaacTeleop turns XR hand tracking and motion controller input into robot commands using a pure Python retargeting engine and NumPy.\nThe post Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with...",
+      "id": "b24e2d451d8f",
+      "title_zh": "FinDialogLens: Event Extraction over Multi-Party Dialogue for Missed-Trade Identification in Financial Chatrooms",
+      "summary_zh": "arXiv:2610.02455v1 Announce Type: new \nAbstract: Multi-party financial chatrooms are vital for sales-and-trading professionals, but their complexity makes manual recovery of missed trades infeasible: each Request for Quote (RFQ) is an event whose...",
       "tags_zh": [],
-      "oneliner": "Learn how NVIDIA IsaacTeleop turns XR hand tracking and motion controller input into robot commands ",
+      "oneliner": "arXiv:2610.02455v1 Announce Type: new \nAbstract: Multi-party financial chatrooms are vital for sales",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -213,13 +140,28 @@
       }
     },
     {
-      "id": "016378578c1d",
-      "title_zh": "The Agent Said It Was Done. The Database Disagreed.",
-      "summary_zh": "",
+      "id": "118d1f09af1c",
+      "title_zh": "CUEing User Simulators: Calibrated User Embeddings for Multi-Turn Benchmarking",
+      "summary_zh": "arXiv:2610.02460v1 Announce Type: new \nAbstract: Recent benchmarks rely on user simulators to evaluate AI agents in multi-turn interaction. While existing simulation techniques demonstrate surface fidelity to human style and behavior,...",
+      "tags_zh": [
+        "Embedding",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2610.02460v1 Announce Type: new \nAbstract: Recent benchmarks rely on user simulators to evalua",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7cb09d6538cd",
+      "title_zh": "APDMem: Agent-Controlled Progressive Disclosure for Query-Adaptive Long-Term Memory",
+      "summary_zh": "arXiv:2610.02472v1 Announce Type: new \nAbstract: Personalized LLM assistants must recover sparse evidence from long conversation histories across queries of varying complexity. We introduce APDMem (Agent-controlled Progressive Disclosure Memory),...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "",
+      "oneliner": "arXiv:2610.02472v1 Announce Type: new \nAbstract: Personalized LLM assistants must recover sparse evi",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -227,41 +169,11 @@
       }
     },
     {
-      "id": "1b5aabef7b5f",
-      "title_zh": "Meta, OpenAI and Uber Just Taught AI Agents to Talk First. What About When to Stay Quiet?",
-      "summary_zh": "TL;DR: Meta&#8217;s Muse, OpenAI&#8217;s Dots and Uber&#8217;s driver assistant share one bet: the agent speaks first. That moves the hard problem from what to answer to when to interrupt, on which channel, and with what offer. Classic ML and new...",
-      "tags_zh": [
-        "OpenAI",
-        "Meta",
-        "Agent"
-      ],
-      "oneliner": "TL;DR: Meta&#8217;s Muse, OpenAI&#8217;s Dots and Uber&#8217;s driver assistant share one bet: the a",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "fb764a55d788",
-      "title_zh": "IBM Brings Bob to Self-Hosted and Air-Gapped Environments: Agentic Software Development Without Moving Your Code",
-      "summary_zh": "IBM has made a self-hosted deployment of IBM Bob, its agentic software development platform, generally available. Enterprises can now run Bob on premises, in private or sovereign clouds, and in air-gapped networks. They bring their own model:...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "IBM has made a self-hosted deployment of IBM Bob, its agentic software development platform, general",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1535ea6b483a",
-      "title_zh": "Prime Intellect Launches Prime Inference: Serverless and Reserved Serving for Frontier Open Models",
-      "summary_zh": "Prime Intellect has launched Prime Inference, an OpenAI-compatible platform for serving frontier open models on NVIDIA Blackwell. Its GLM-5.3 deployment uses Dynamo, vLLM and NVFP4 KV compression to serve 66 sessions per prefill group at 101...",
+      "id": "43c2af9733e4",
+      "title_zh": "From Retrieval to Typed Decisions: Calibrated System One Models from Biomedical Sentence Encoders",
+      "summary_zh": "arXiv:2610.02486v1 Announce Type: new \nAbstract: Typed decision models answer schema-constrained questions about a text in one forward pass and return probabilities meant to be thresholded. We ask whether biomedical sentence encoders trained for...",
       "tags_zh": [],
-      "oneliner": "Prime Intellect has launched Prime Inference, an OpenAI-compatible platform for serving frontier ope",
+      "oneliner": "arXiv:2610.02486v1 Announce Type: new \nAbstract: Typed decision models answer schema-constrained que",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -269,13 +181,90 @@
       }
     },
     {
-      "id": "15abe55022d7",
-      "title_zh": "Microsoft AI Releases MAI-Transcribe-2-Streaming: #1 Real-Time Speech-to-Text Model on Artificial Analysis",
-      "summary_zh": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model. It ranks #1 of 38 models on Artificial Analysis AA-WER Streaming. It scores 2.5% WER at 0.13s on final transcripts and 2.5% at 0.12s on first...",
+      "id": "290b4cf37538",
+      "title_zh": "A generative-informed neuro-symbolic framework for syntactic ambiguity resolution: Evidence from Arabic DPs",
+      "summary_zh": "arXiv:2610.02529v1 Announce Type: new \nAbstract: Syntactic ambiguity poses a persistent challenge for Arabic NLP, particularly in morphologically rich nominal constructions where multiple structu6ral interpretations may be compatible with the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.02529v1 Announce Type: new \nAbstract: Syntactic ambiguity poses a persistent challenge fo",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8ca0c82d41eb",
+      "title_zh": "Evaluating Multi-Dimensional Generalization of Large Language Models in Temporal Extraction Tasks",
+      "summary_zh": "arXiv:2610.02549v1 Announce Type: new \nAbstract: Time and event expression extraction are fundamental temporal reasoning tasks, but the problem remains difficult due to annotation ambiguity, domain sensitivity, and unstable model behavior....",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.02549v1 Announce Type: new \nAbstract: Time and event expression extraction are fundamenta",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2f336d10dba3",
+      "title_zh": "Learning When to Commit from Partial Speech for End-to-End Simultaneous Speech Translation",
+      "summary_zh": "arXiv:2610.02612v1 Announce Type: new \nAbstract: Simultaneous speech translation must emit useful target text before the source is complete while preserving every committed token. We adapt a full-utterance speech language model using prefix...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.02612v1 Announce Type: new \nAbstract: Simultaneous speech translation must emit useful ta",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "36f3abf31103",
+      "title_zh": "Large Language Continuous Diffusion Models",
+      "summary_zh": "arXiv:2610.02665v1 Announce Type: new \nAbstract: Despite the success of discrete diffusion language models (dLMs) for fast parallel decoding, their non-smooth, high-dimensional space hinders trajectory steering for reasoning and inference...",
       "tags_zh": [
-        "Microsoft"
+        "Diffusion"
       ],
-      "oneliner": "Microsoft AI has released MAI-Transcribe-2-Streaming, its first real-time speech-to-text model. It r",
+      "oneliner": "arXiv:2610.02665v1 Announce Type: new \nAbstract: Despite the success of discrete diffusion language ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1210be674ab1",
+      "title_zh": "Silent Dissent: LLM Agents That Yield to the Majority Still Represent Their Original Premise",
+      "summary_zh": "arXiv:2610.02702v1 Announce Type: new \nAbstract: Multi-agent debate is increasingly used to reach consensus among LLM agents, yet agents often yield to a unanimous majority. When an agent changes its answer, has it changed its mind or only its...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2610.02702v1 Announce Type: new \nAbstract: Multi-agent debate is increasingly used to reach co",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "795cac909a8b",
+      "title_zh": "WakeKV: Reactive, Reversible KV Residency for Heads That Change Their Minds",
+      "summary_zh": "arXiv:2610.02713v1 Announce Type: new \nAbstract: Most KV-cache compression methods classify attention heads once, either offline or during prefill, and keep this classification fixed throughout generation. Across three models (1.5B-8B) and three...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.02713v1 Announce Type: new \nAbstract: Most KV-cache compression methods classify attentio",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "4f2523d692d9",
+      "title_zh": "TPBench: A Turning-Point Benchmark for Dialogue Compression",
+      "summary_zh": "arXiv:2610.02736v1 Announce Type: new \nAbstract: A compressor can keep the facts of a dialogue and still drop the turn that changed them. A user corrects a price, reverses a choice, or adds a constraint. We call this failure turning-point...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2610.02736v1 Announce Type: new \nAbstract: A compressor can keep the facts of a dialogue and s",
       "key_facts": [],
       "notable_quote": {
         "text": "",
