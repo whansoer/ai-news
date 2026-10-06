@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-06T05:24:42Z",
-  "total": 286,
+  "updated": "2026-10-06T14:58:18Z",
+  "total": 273,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 90
+      "name": "ArXiv (cs.CL)",
+      "count": 75
     },
     {
-      "name": "ArXiv (cs.CL)",
+      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 31
     },
     {
       "name": "Hugging Face",
@@ -38,23 +38,23 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 77
+      "count": 73
     },
     {
       "name": "LLM",
-      "count": 24
+      "count": 21
     },
     {
       "name": "Benchmark",
-      "count": 19
-    },
-    {
-      "name": "Claude",
-      "count": 9
+      "count": 16
     },
     {
       "name": "Google",
       "count": 9
+    },
+    {
+      "name": "Claude",
+      "count": 8
     },
     {
       "name": "GPT",
@@ -66,6 +66,10 @@
     },
     {
       "name": "Gemini",
+      "count": 5
+    },
+    {
+      "name": "DeepSeek",
       "count": 5
     },
     {
@@ -81,20 +85,12 @@
       "count": 4
     },
     {
-      "name": "DeepSeek",
-      "count": 4
-    },
-    {
       "name": "RAG",
       "count": 4
     },
     {
       "name": "Prompt",
       "count": 3
-    },
-    {
-      "name": "Qwen",
-      "count": 2
     },
     {
       "name": "Meta",
@@ -105,11 +101,15 @@
       "count": 2
     },
     {
-      "name": "Microsoft",
+      "name": "GPU",
       "count": 1
     },
     {
-      "name": "Anthropic",
+      "name": "Qwen",
+      "count": 1
+    },
+    {
+      "name": "Microsoft",
       "count": 1
     },
     {
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 211
+      "count": 196
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 47
     },
     {
       "name": "模型发布",
@@ -146,7 +146,7 @@
     },
     {
       "date": "10-03",
-      "count": 11
+      "count": 10
     },
     {
       "date": "10-04",
@@ -154,23 +154,17 @@
     },
     {
       "date": "10-05",
-      "count": 42
+      "count": 41
     },
     {
       "date": "10-06",
-      "count": 36
+      "count": 45
     }
   ],
   "top10": [
     {
-      "id": "f08d8cf2c7ba",
-      "title": "thedotmack /claude-mem",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "5c67d4420464",
-      "title": "michael-denyer /pstack-claude",
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -181,46 +175,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "81fb0b6406ba",
-      "title": "Panniantong /Agent-Reach",
+      "id": "be8acfaf1118",
+      "title": "pbakaus /impeccable",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "20703a86e2b0",
-      "title": "calesthio /OpenMontage",
+      "id": "f08d8cf2c7ba",
+      "title": "thedotmack /claude-mem",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "5f14baa5319d",
-      "title": "DuarteSantos8 /openGym",
+      "id": "ee7d6f2f5cec",
+      "title": "ayghri /i-have-adhd",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "f9fe24b26ac3",
-      "title": "Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models",
+      "id": "0135e142dae8",
+      "title": "morluto /rea",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "9d7eb2be384f",
-      "title": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
+      "id": "30d8214c97f5",
+      "title": "deepseek-ai /DeepGEMM",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "1a4177fc5084",
-      "title": "The Score Is Not the Structure: Brain Alignment and Cross-Lingual Transfer",
+      "id": "5dfe15d5980d",
+      "title": "msitarzewski /agency-agents",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "1e6ccaa1ed5b",
-      "title": "OncoNoteBERT: A Foundation Representation Model for Natural Language Processing of Real-World Outpatient Oncology Notes",
+      "id": "f0d45b66848a",
+      "title": "Reka Releases Rho-1: A 19B Omni-Reasoning Model That Understands, Generates Video and Outputs Robot Actions in One",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "807faee26a0e",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "score": 5,
+      "source": "Hugging Face"
     }
   ]
 }
