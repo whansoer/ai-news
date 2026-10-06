@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-05T22:28:09Z",
-  "total": 256,
+  "updated": "2026-10-06T05:24:42Z",
+  "total": 286,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
@@ -38,23 +38,23 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 77
     },
     {
       "name": "LLM",
-      "count": 20
+      "count": 24
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 19
+    },
+    {
+      "name": "Claude",
+      "count": 9
     },
     {
       "name": "Google",
       "count": 9
-    },
-    {
-      "name": "Claude",
-      "count": 8
     },
     {
       "name": "GPT",
@@ -69,15 +69,15 @@
       "count": 5
     },
     {
+      "name": "Embedding",
+      "count": 5
+    },
+    {
       "name": "Diffusion",
       "count": 5
     },
     {
       "name": "API",
-      "count": 4
-    },
-    {
-      "name": "Embedding",
       "count": 4
     },
     {
@@ -120,7 +120,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 181
+      "count": 211
     },
     {
       "name": "开源项目",
@@ -132,10 +132,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "09-29",
-      "count": 29
-    },
     {
       "date": "09-30",
       "count": 42
@@ -158,13 +154,23 @@
     },
     {
       "date": "10-05",
-      "count": 47
+      "count": 42
+    },
+    {
+      "date": "10-06",
+      "count": 36
     }
   ],
   "top10": [
     {
       "id": "f08d8cf2c7ba",
       "title": "thedotmack /claude-mem",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5c67d4420464",
+      "title": "michael-denyer /pstack-claude",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -193,34 +199,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "657ca5d400cd",
-      "title": "cloudflare /cloudflare-os",
+      "id": "f9fe24b26ac3",
+      "title": "Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "51506f78d0de",
-      "title": "Building a Streaming Robotics Learning Pipeline Using NVIDIA Cosmos3-DROID",
+      "id": "9d7eb2be384f",
+      "title": "Same Output, Different Gold: Measuring How Reference Choice Moves a Multilingual Benchmark Score",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "36404cf3f8a5",
-      "title": "Reflection AI Introduces Beam: A 501B Open-Weight MoE Model With 23B Active Parameters for Coding and Agentic Workloads",
+      "id": "1a4177fc5084",
+      "title": "The Score Is Not the Structure: Brain Alignment and Cross-Lingual Transfer",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "5c67d4420464",
-      "title": "michael-denyer /pstack-claude",
+      "id": "1e6ccaa1ed5b",
+      "title": "OncoNoteBERT: A Foundation Representation Model for Natural Language Processing of Real-World Outpatient Oncology Notes",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "f9545c4ec00f",
-      "title": "Our approach to EU text provenance rules",
-      "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
