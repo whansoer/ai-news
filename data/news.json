@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-07T15:26:23Z",
-  "total": 216,
-  "new_count": 42,
+  "updated": "2026-10-07T21:10:23Z",
+  "total": 220,
+  "new_count": 39,
   "items": [
     {
       "id": "0135e142dae8",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "published": "2026-10-07T15:24:14Z",
+      "published": "2026-10-07T21:08:16Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-10-07T15:24:14Z",
+      "published": "2026-10-07T21:08:16Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "published": "2026-10-07T15:24:14Z",
+      "published": "2026-10-07T21:08:16Z",
       "tags": [
         "Agent"
       ],
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-10-07T15:24:14Z",
+      "published": "2026-10-07T21:08:16Z",
       "tags": [
         "Claude"
       ],
@@ -118,7 +118,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-10-07T15:24:14Z",
+      "published": "2026-10-07T21:08:16Z",
       "tags": [
         "Agent"
       ],
@@ -145,7 +145,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes,...",
-      "published": "2026-10-07T15:24:14Z",
+      "published": "2026-10-07T21:08:16Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -176,7 +176,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.",
-      "published": "2026-10-07T15:24:14Z",
+      "published": "2026-10-07T21:08:16Z",
       "tags": [
         "Agent"
       ],
@@ -203,7 +203,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-      "published": "2026-10-07T15:24:14Z",
+      "published": "2026-10-07T21:08:16Z",
       "tags": [
         "Benchmark"
       ],
@@ -222,6 +222,56 @@
         "Benchmark"
       ],
       "oneliner": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evalu"
+    },
+    {
+      "id": "c84c7c3e658c",
+      "title": "Liquid AI Releases Open-Weight d1-3B and d1-omni-600M: Multimodal Decision Models With Zero Output Tokens",
+      "url": "https://www.marktechpost.com/2026/10/07/liquid-ai-releases-open-weight-d1-3b-and-d1-omni-600m-multimodal-decision-models-with-zero-output-tokens/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Liquid AI has released Open d1, two open-weight multimodal models in its d1 decision model family. d1-3B reads text and images. d1-omni-600M reads text with an image, or text with audio. Neither model writes text. Each returns calibrated, typed...",
+      "published": "2026-10-07T18:23:45Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "567ec19b402c"
+        ],
+        "score": 5
+      },
+      "title_zh": "Liquid AI Releases Open-Weight d1-3B and d1-omni-600M: Multimodal Decision Models With Zero Output Tokens",
+      "summary_zh": "Liquid AI has released Open d1, two open-weight multimodal models in its d1 decision model family. d1-3B reads text and images. d1-omni-600M reads text with an image, or text with audio. Neither model writes text. Each returns calibrated, typed...",
+      "tags_zh": [],
+      "oneliner": "Liquid AI has released Open d1, two open-weight multimodal models in its d1 decision model family. d"
+    },
+    {
+      "id": "567ec19b402c",
+      "title": "Multimodal open d1 decision models for the edge",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-07T16:54:33Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "c84c7c3e658c"
+        ],
+        "score": 5
+      },
+      "title_zh": "Multimodal open d1 decision models for the edge",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "16096794f2e6",
@@ -268,6 +318,56 @@
       "summary_zh": "Overview of Playground",
       "tags_zh": [],
       "oneliner": "Overview of Playground"
+    },
+    {
+      "id": "2283ab4e5d08",
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "published": "2026-10-07T12:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Helping teens learn, plan, and shape the future of AI",
+      "summary_zh": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "tags_zh": [],
+      "oneliner": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongsi"
+    },
+    {
+      "id": "e0aa27ac242d",
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "published": "2026-10-07T07:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "summary_zh": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travele"
     },
     {
       "id": "510e130eb26a",
@@ -449,10 +549,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable",
-      "summary_zh": "arXiv:2610.06897v1 Announce Type: new \nAbstract: Localizing latent structures in the activation space of language models (LMs) is central to understanding and controlling their behavior. Yet, localized structures can differ substantially in their...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.06897v1 Announce Type: new \nAbstract: Localizing latent structures in the activation spac"
+      "oneliner": ""
     },
     {
       "id": "131137a73aad",
@@ -474,12 +574,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Tree Navigation Without LLM Summaries: A Matched-Cost Study of Hierarchical Retrieval for Long-Document QA",
-      "summary_zh": "arXiv:2610.06902v1 Announce Type: new \nAbstract: Retrieval-augmented generation grounds language models in external context, but for long documents flat top-$k$ retrieval can cluster on a single region and miss complementary evidence....",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.06902v1 Announce Type: new \nAbstract: Retrieval-augmented generation grounds language mod"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "3a4e529fb106",
@@ -501,12 +599,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Component and Dimension Sparsity in Transformer Refusal Mechanisms",
-      "summary_zh": "arXiv:2610.06903v1 Announce Type: new \nAbstract: Activation steering manipulates large language model behavior by intervening on internal activations, but the mechanistic basis of these interventions remains poorly understood. We decompose...",
-      "tags_zh": [
-        "Transformer"
-      ],
-      "oneliner": "arXiv:2610.06903v1 Announce Type: new \nAbstract: Activation steering manipulates large language mode"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b51186b52848",
@@ -526,10 +622,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Stabilizing language models under continual learning via condition-anchored distillation",
-      "summary_zh": "arXiv:2610.06940v1 Announce Type: new \nAbstract: Continual adaptation of language models can change their output distribution on prompts learned earlier, while retaining every old prompt-answer pair may be undesirable or impossible. We study...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.06940v1 Announce Type: new \nAbstract: Continual adaptation of language models can change "
+      "oneliner": ""
     },
     {
       "id": "beafd1ebba71",
@@ -781,9 +877,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
+        "level": "multi-source",
+        "corroborating_ids": [
+          "3775ba35f5d8"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1144,6 +1242,29 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3775ba35f5d8",
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "published": "2026-10-07T00:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "701ac10653c9"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4378,10 +4499,8 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "acaadfaeff09"
-        ],
+        "level": "single-source",
+        "corroborating_ids": [],
         "score": 5
       },
       "title_zh": "",
@@ -5198,10 +5317,8 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "ef5d7562aee1"
-        ],
+        "level": "single-source",
+        "corroborating_ids": [],
         "score": 5
       },
       "title_zh": "",
@@ -5250,34 +5367,6 @@
         "level": "multi-source",
         "corroborating_ids": [
           "df69f5892b8d"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "de4076536109",
-      "title": "OpenAI Releases GPT-6.1 Sol: Near-Astra Coding and Computer Use at One-Fifth of Astra’s Token Price",
-      "url": "https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "OpenAI released GPT-6.1 Sol on September 29, 2026, an upgrade to GPT-6 Sol. It reaches near-Astra results on agentic coding, computer use and professional work at one-fifth of Astra's token prices. It costs $2 input and $10 output per million...",
-      "published": "2026-09-30T21:09:24Z",
-      "tags": [
-        "GPT",
-        "OpenAI"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "3f4f0dd34ab8"
         ],
         "score": 5
       },
