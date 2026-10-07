@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-07T04:53:23Z",
-  "total": 287,
+  "updated": "2026-10-07T15:26:13Z",
+  "total": 256,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "MarkTechPost",
-      "count": 35
+      "count": 34
     },
     {
       "name": "GitHub Trending",
-      "count": 31
+      "count": 30
     },
     {
       "name": "Hugging Face",
-      "count": 16
-    },
-    {
-      "name": "OpenAI",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Google AI",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -38,34 +38,26 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 71
+      "count": 65
     },
     {
       "name": "LLM",
-      "count": 23
+      "count": 19
     },
     {
       "name": "Benchmark",
-      "count": 16
+      "count": 15
+    },
+    {
+      "name": "Claude",
+      "count": 9
     },
     {
       "name": "Google",
       "count": 9
     },
     {
-      "name": "Claude",
-      "count": 8
-    },
-    {
       "name": "GPT",
-      "count": 7
-    },
-    {
-      "name": "Embedding",
-      "count": 6
-    },
-    {
-      "name": "OpenAI",
       "count": 6
     },
     {
@@ -77,28 +69,32 @@
       "count": 5
     },
     {
-      "name": "Diffusion",
+      "name": "Embedding",
       "count": 5
     },
     {
-      "name": "Prompt",
-      "count": 4
-    },
-    {
-      "name": "RAG",
-      "count": 4
-    },
-    {
-      "name": "Transformer",
-      "count": 3
+      "name": "OpenAI",
+      "count": 5
     },
     {
       "name": "Meta",
+      "count": 4
+    },
+    {
+      "name": "Prompt",
       "count": 3
     },
     {
       "name": "API",
       "count": 3
+    },
+    {
+      "name": "Diffusion",
+      "count": 3
+    },
+    {
+      "name": "Transformer",
+      "count": 2
     },
     {
       "name": "GPU",
@@ -117,6 +113,10 @@
       "count": 1
     },
     {
+      "name": "RAG",
+      "count": 1
+    },
+    {
       "name": "Llama",
       "count": 1
     }
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 210
+      "count": 179
     },
     {
       "name": "开源项目",
@@ -150,7 +150,7 @@
     },
     {
       "date": "10-04",
-      "count": 8
+      "count": 7
     },
     {
       "date": "10-05",
@@ -162,31 +162,19 @@
     },
     {
       "date": "10-07",
-      "count": 39
+      "count": 46
     }
   ],
   "top10": [
     {
+      "id": "0135e142dae8",
+      "title": "morluto /rea",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "1ae169fb23a9",
       "title": "mattpocock /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7a4b3790492a",
-      "title": "earthtojake /text-to-cad",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "be8acfaf1118",
-      "title": "pbakaus /impeccable",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "f08d8cf2c7ba",
-      "title": "thedotmack /claude-mem",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -197,34 +185,46 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "0135e142dae8",
-      "title": "morluto /rea",
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "30d8214c97f5",
-      "title": "deepseek-ai /DeepGEMM",
+      "id": "0d1bd25a3199",
+      "title": "addyosmani /agent-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "5dfe15d5980d",
-      "title": "msitarzewski /agency-agents",
+      "id": "f08d8cf2c7ba",
+      "title": "thedotmack /claude-mem",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "f0f3fccfbe64",
-      "title": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
+      "id": "0483299a7e22",
+      "title": "manaflow-ai /cmux",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "6002d95c52e4",
-      "title": "Capacity, Responsiveness and Alignment: What Makes a Latent Structure Actionable",
+      "id": "d44331a1971d",
+      "title": "trycua /cua",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "16096794f2e6",
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "cf7f1b75bcb6",
+      "title": "Introducing Playground: Create and play custom games",
+      "score": 5,
+      "source": "Google AI"
     }
   ]
 }
