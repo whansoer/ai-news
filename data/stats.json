@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-07T21:10:14Z",
-  "total": 255,
+  "updated": "2026-10-08T05:03:41Z",
+  "total": 286,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 33
+      "count": 34
     },
     {
       "name": "GitHub Trending",
@@ -38,19 +38,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 72
     },
     {
       "name": "LLM",
-      "count": 19
+      "count": 22
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Claude",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Google",
@@ -58,7 +58,7 @@
     },
     {
       "name": "GPT",
-      "count": 7
+      "count": 6
     },
     {
       "name": "Gemini",
@@ -73,12 +73,20 @@
       "count": 5
     },
     {
-      "name": "OpenAI",
-      "count": 5
+      "name": "Diffusion",
+      "count": 4
     },
     {
       "name": "Meta",
       "count": 4
+    },
+    {
+      "name": "OpenAI",
+      "count": 4
+    },
+    {
+      "name": "RAG",
+      "count": 3
     },
     {
       "name": "Prompt",
@@ -89,12 +97,12 @@
       "count": 3
     },
     {
-      "name": "Diffusion",
-      "count": 3
-    },
-    {
       "name": "Transformer",
       "count": 2
+    },
+    {
+      "name": "Anthropic",
+      "count": 1
     },
     {
       "name": "GPU",
@@ -113,10 +121,6 @@
       "count": 1
     },
     {
-      "name": "RAG",
-      "count": 1
-    },
-    {
       "name": "Llama",
       "count": 1
     }
@@ -124,7 +128,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 178
+      "count": 209
     },
     {
       "name": "开源项目",
@@ -136,10 +140,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-01",
-      "count": 40
-    },
     {
       "date": "10-02",
       "count": 42
@@ -162,7 +162,11 @@
     },
     {
       "date": "10-07",
-      "count": 51
+      "count": 44
+    },
+    {
+      "date": "10-08",
+      "count": 39
     }
   ],
   "top10": [
@@ -215,16 +219,16 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "c84c7c3e658c",
-      "title": "Liquid AI Releases Open-Weight d1-3B and d1-omni-600M: Multimodal Decision Models With Zero Output Tokens",
+      "id": "a4e13520d495",
+      "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "567ec19b402c",
-      "title": "Multimodal open d1 decision models for the edge",
+      "id": "79ecae6d1ec8",
+      "title": "Child ASR Adaptation with Adult Retention: An Empirical Study",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

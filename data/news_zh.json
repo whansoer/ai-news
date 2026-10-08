@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T21:10:23Z",
+  "updated": "2026-10-08T05:03:51Z",
   "total": 20,
   "items": [
     {
@@ -117,11 +117,11 @@
       }
     },
     {
-      "id": "c84c7c3e658c",
-      "title_zh": "Liquid AI Releases Open-Weight d1-3B and d1-omni-600M: Multimodal Decision Models With Zero Output Tokens",
-      "summary_zh": "Liquid AI has released Open d1, two open-weight multimodal models in its d1 decision model family. d1-3B reads text and images. d1-omni-600M reads text with an image, or text with audio. Neither model writes text. Each returns calibrated, typed...",
+      "id": "a4e13520d495",
+      "title_zh": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
+      "summary_zh": "arXiv:2610.08794v1 Announce Type: new \nAbstract: Large language models rely on subword tokenizers whose quality varies across languages, yet no standardized multi-metric framework exists for broad comparative evaluation. We introduce Tokka-Bench,...",
       "tags_zh": [],
-      "oneliner": "Liquid AI has released Open d1, two open-weight multimodal models in its d1 decision model family. d",
+      "oneliner": "arXiv:2610.08794v1 Announce Type: new \nAbstract: Large language models rely on subword tokenizers wh",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -129,11 +129,11 @@
       }
     },
     {
-      "id": "567ec19b402c",
-      "title_zh": "Multimodal open d1 decision models for the edge",
-      "summary_zh": "",
+      "id": "79ecae6d1ec8",
+      "title_zh": "Child ASR Adaptation with Adult Retention: An Empirical Study",
+      "summary_zh": "arXiv:2610.08827v1 Announce Type: new \nAbstract: Automatic Speech Recognition (ASR) systems often underperform for children and non-native speakers, while adapting adult ASR models to child speech can cause adult-speech forgetting. We study child...",
       "tags_zh": [],
-      "oneliner": "",
+      "oneliner": "arXiv:2610.08827v1 Announce Type: new \nAbstract: Automatic Speech Recognition (ASR) systems often un",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -141,11 +141,11 @@
       }
     },
     {
-      "id": "16096794f2e6",
-      "title_zh": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "summary_zh": "",
+      "id": "f3c95b3773e8",
+      "title_zh": "When Forgetting Looks Like Improvement: Metric Masking in Streaming Diarizer Adaptation and the Price of Rehearsal",
+      "summary_zh": "arXiv:2610.08828v1 Announce Type: new \nAbstract: Small-data adaptation can improve speech detection while degrading speaker attribution. We study this discrepancy in a released streaming diarizer adapted on 7.5 h of two-party conversation and...",
       "tags_zh": [],
-      "oneliner": "",
+      "oneliner": "arXiv:2610.08828v1 Announce Type: new \nAbstract: Small-data adaptation can improve speech detection ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -153,11 +153,11 @@
       }
     },
     {
-      "id": "cf7f1b75bcb6",
-      "title_zh": "Introducing Playground: Create and play custom games",
-      "summary_zh": "Overview of Playground",
+      "id": "c277a68ce69d",
+      "title_zh": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
+      "summary_zh": "arXiv:2610.08829v1 Announce Type: new \nAbstract: Jev offers an alternative interface for language understanding: given an input and predefined questions, it returns probabilistic decisions rather than free-form responses. Whether this interface...",
       "tags_zh": [],
-      "oneliner": "Overview of Playground",
+      "oneliner": "arXiv:2610.08829v1 Announce Type: new \nAbstract: Jev offers an alternative interface for language un",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -165,11 +165,54 @@
       }
     },
     {
-      "id": "2283ab4e5d08",
-      "title_zh": "Helping teens learn, plan, and shape the future of AI",
-      "summary_zh": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "id": "43f031670c19",
+      "title_zh": "CoDR: Training-Free Confidence-Drift Remasking for Diffusion Language Models",
+      "summary_zh": "arXiv:2610.08833v1 Announce Type: new \nAbstract: Masked diffusion language models (MDLMs) decode by repeatedly committing tokens to masked positions, but these commitments are usually irreversible. A token chosen under sparse, partial context is...",
+      "tags_zh": [
+        "Diffusion"
+      ],
+      "oneliner": "arXiv:2610.08833v1 Announce Type: new \nAbstract: Masked diffusion language models (MDLMs) decode by ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "eb8b8d81eb23",
+      "title_zh": "Leveraging LLM-Generated Explanations for Detecting Emotionally Rewritten Fake News",
+      "summary_zh": "arXiv:2610.08835v1 Announce Type: new \nAbstract: The spread of fake news may cause severe social consequences. Existing fake news detection methods mainly focus on stylistic variations or incorporate external information such as explanations....",
+      "tags_zh": [
+        "LLM",
+        "RAG"
+      ],
+      "oneliner": "arXiv:2610.08835v1 Announce Type: new \nAbstract: The spread of fake news may cause severe social con",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e5cb8d8c6844",
+      "title_zh": "Beyond the Sycophancy Score: How Task, Model, and Pressure Shape LLM Yielding",
+      "summary_zh": "arXiv:2610.08840v1 Announce Type: new \nAbstract: Large language models (LLMs) often abandon a correct answer, or endorse a user's position, once the user pushes back. This behavior, called sycophancy, is usually reported as a single rate per...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2610.08840v1 Announce Type: new \nAbstract: Large language models (LLMs) often abandon a correc",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "47da7d7c74a6",
+      "title_zh": "Beyond Risk Prediction: Evidence Grounding and Psychosocial Factor Verification for Explainable Suicide Risk Assessment",
+      "summary_zh": "arXiv:2610.08842v1 Announce Type: new \nAbstract: Identifying suicide risk from social networking services (SNS) posts is important for detecting suicide-related signals in online environments. However, risk classification alone provides limited...",
       "tags_zh": [],
-      "oneliner": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongsi",
+      "oneliner": "arXiv:2610.08842v1 Announce Type: new \nAbstract: Identifying suicide risk from social networking ser",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -177,53 +220,11 @@
       }
     },
     {
-      "id": "e0aa27ac242d",
-      "title_zh": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "summary_zh": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travele",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "510e130eb26a",
-      "title_zh": "Meta AI Open-Sources Rebalancer: A C++ Assignment Solver That Runs About 40 Million Placement Problems a Day",
-      "summary_zh": "Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place shards, servers and traffic. It handles about 40 million assignment problems a day, using local search or MIP solvers like Gurobi, FICO Xpress and...",
-      "tags_zh": [
-        "Meta"
-      ],
-      "oneliner": "Meta has open-sourced Rebalancer, the C++ and Python library it has used for over 9 years to place s",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7a4b3790492a",
-      "title_zh": "earthtojake /text-to-cad",
-      "summary_zh": "Give your agent CAD superpowers.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Give your agent CAD superpowers.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "be8acfaf1118",
-      "title_zh": "pbakaus /impeccable",
-      "summary_zh": "The design language that makes your AI harness better at design.",
+      "id": "e467dd252e2f",
+      "title_zh": "QuanLing: Cross-Branch Validation of Language Distance Quantification on Western Romance",
+      "summary_zh": "arXiv:2610.08851v1 Announce Type: new \nAbstract: Quantifying language distance among closely related languages remains a core challenge in quantitative linguistics. Our previous work [1] introduced QuanLing (Quantitative Linguistics via...",
       "tags_zh": [],
-      "oneliner": "The design language that makes your AI harness better at design.",
+      "oneliner": "arXiv:2610.08851v1 Announce Type: new \nAbstract: Quantifying language distance among closely related",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -231,14 +232,11 @@
       }
     },
     {
-      "id": "30d8214c97f5",
-      "title_zh": "deepseek-ai /DeepGEMM",
-      "summary_zh": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
-      "tags_zh": [
-        "DeepSeek",
-        "GPU"
-      ],
-      "oneliner": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "id": "52d41e658423",
+      "title_zh": "LRCC: Generalizing Low-Rank Compression with Conditional Computation",
+      "summary_zh": "arXiv:2610.08858v1 Announce Type: new \nAbstract: Low-rank compression reduces the cost of pretrained language models by replacing linear transformations with low-rank factorizations. However, conventional methods use a fixed rank allocation...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.08858v1 Announce Type: new \nAbstract: Low-rank compression reduces the cost of pretrained",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -246,13 +244,11 @@
       }
     },
     {
-      "id": "5dfe15d5980d",
-      "title_zh": "msitarzewski /agency-agents",
-      "summary_zh": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
+      "id": "5c62441806ee",
+      "title_zh": "Tiny-Scale Chinese BERT Pretraining: A Controlled Comparison of MLM, WWM, and MacBERT Strategies",
+      "summary_zh": "arXiv:2610.08879v1 Announce Type: new \nAbstract: Pretraining strategies significantly impact the quality of language models, yet existing comparisons of Masked Language Modeling (MLM), Whole Word Masking (WWM), and MacBERT-style replacement have...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.08879v1 Announce Type: new \nAbstract: Pretraining strategies significantly impact the qua",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -260,13 +256,11 @@
       }
     },
     {
-      "id": "f0f3fccfbe64",
-      "title_zh": "Zero-Shot Visualization: Exploring Text Corpora with User-Prompted Axes",
-      "summary_zh": "arXiv:2610.06889v1 Announce Type: new \nAbstract: We study the application of large language models (LLMs) to the visual exploration of textual corpora. We introduce zero-shot visualization (ZSV), a task in which users specify concepts in natural...",
-      "tags_zh": [
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2610.06889v1 Announce Type: new \nAbstract: We study the application of large language models (",
+      "id": "696fcbe603f3",
+      "title_zh": "Steering Follows Geometry, Not Labels: Emotion Directions in a Full-Duplex Speech Model",
+      "summary_zh": "arXiv:2610.08887v1 Announce Type: new \nAbstract: Full-duplex voice agents need to modulate emotion and delivery during real-time conversations, when de-escalating a complaint, carrying urgency in dispatch, softening a clinical result. Emotion and...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.08887v1 Announce Type: new \nAbstract: Full-duplex voice agents need to modulate emotion a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
