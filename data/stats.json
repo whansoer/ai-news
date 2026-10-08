@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T15:28:34Z",
+  "updated": "2026-10-08T21:14:12Z",
   "total": 254,
   "sources": [
     {
@@ -19,12 +19,12 @@
       "count": 27
     },
     {
-      "name": "Hugging Face",
-      "count": 17
+      "name": "OpenAI",
+      "count": 16
     },
     {
-      "name": "OpenAI",
-      "count": 15
+      "name": "Hugging Face",
+      "count": 16
     },
     {
       "name": "Google AI",
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 65
     },
     {
       "name": "LLM",
@@ -61,6 +61,10 @@
       "count": 6
     },
     {
+      "name": "OpenAI",
+      "count": 5
+    },
+    {
       "name": "DeepSeek",
       "count": 5
     },
@@ -70,10 +74,6 @@
     },
     {
       "name": "Embedding",
-      "count": 4
-    },
-    {
-      "name": "OpenAI",
       "count": 4
     },
     {
@@ -132,11 +132,11 @@
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 43
     },
     {
       "name": "模型发布",
-      "count": 30
+      "count": 31
     }
   ],
   "dailyTrend": [
@@ -166,7 +166,7 @@
     },
     {
       "date": "10-08",
-      "count": 43
+      "count": 46
     }
   ],
   "top10": [
@@ -195,6 +195,24 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "06614a2151fd",
+      "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "dfc39b54c1a7",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "183b50766386",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
       "id": "84d879389f35",
       "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
       "score": 5,
@@ -211,24 +229,6 @@
       "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "ee7d6f2f5cec",
-      "title": "ayghri /i-have-adhd",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "0d1bd25a3199",
-      "title": "addyosmani /agent-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "0483299a7e22",
-      "title": "manaflow-ai /cmux",
-      "score": 5,
-      "source": "GitHub Trending"
     }
   ]
 }
