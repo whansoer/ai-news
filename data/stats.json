@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-08T05:03:41Z",
-  "total": 286,
+  "updated": "2026-10-08T15:28:34Z",
+  "total": 254,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "MarkTechPost",
-      "count": 34
+      "count": 35
     },
     {
       "name": "GitHub Trending",
-      "count": 30
+      "count": 27
     },
     {
       "name": "Hugging Face",
       "count": 17
     },
     {
-      "name": "Google AI",
+      "name": "OpenAI",
       "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Google AI",
       "count": 15
     },
     {
@@ -38,46 +38,38 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 64
     },
     {
       "name": "LLM",
-      "count": 22
+      "count": 20
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Claude",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Google",
-      "count": 9
+      "count": 8
     },
     {
       "name": "GPT",
       "count": 6
     },
     {
-      "name": "Gemini",
-      "count": 5
-    },
-    {
       "name": "DeepSeek",
       "count": 5
     },
     {
-      "name": "Embedding",
-      "count": 5
-    },
-    {
-      "name": "Diffusion",
+      "name": "Gemini",
       "count": 4
     },
     {
-      "name": "Meta",
+      "name": "Embedding",
       "count": 4
     },
     {
@@ -85,16 +77,24 @@
       "count": 4
     },
     {
+      "name": "Diffusion",
+      "count": 3
+    },
+    {
       "name": "RAG",
       "count": 3
     },
     {
-      "name": "Prompt",
+      "name": "Meta",
       "count": 3
     },
     {
       "name": "API",
       "count": 3
+    },
+    {
+      "name": "Prompt",
+      "count": 2
     },
     {
       "name": "Transformer",
@@ -128,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 209
+      "count": 180
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 44
     },
     {
       "name": "模型发布",
@@ -162,14 +162,20 @@
     },
     {
       "date": "10-07",
-      "count": 44
+      "count": 45
     },
     {
       "date": "10-08",
-      "count": 39
+      "count": 43
     }
   ],
   "top10": [
+    {
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "0135e142dae8",
       "title": "morluto /rea",
@@ -183,14 +189,32 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "ee7d6f2f5cec",
-      "title": "ayghri /i-have-adhd",
+      "id": "f08d8cf2c7ba",
+      "title": "thedotmack /claude-mem",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "f0faec98f86e",
-      "title": "cathrynlavery /diagram-design",
+      "id": "84d879389f35",
+      "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "218a4726c49b",
+      "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "fd046e7f9c37",
+      "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "ee7d6f2f5cec",
+      "title": "ayghri /i-have-adhd",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,34 +225,10 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "f08d8cf2c7ba",
-      "title": "thedotmack /claude-mem",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "0483299a7e22",
       "title": "manaflow-ai /cmux",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "d44331a1971d",
-      "title": "trycua /cua",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "a4e13520d495",
-      "title": "Tokka-Bench: Evaluating Tokenizers Across 100 Natural and 20 Programming Languages",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "79ecae6d1ec8",
-      "title": "Child ASR Adaptation with Adult Retention: An Empirical Study",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }

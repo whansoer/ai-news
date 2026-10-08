@@ -1,8 +1,35 @@
 {
-  "updated": "2026-10-08T05:03:51Z",
-  "total": 216,
-  "new_count": 66,
+  "updated": "2026-10-08T15:28:43Z",
+  "total": 219,
+  "new_count": 38,
   "items": [
+    {
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "published": "2026-10-08T15:26:36Z",
+      "tags": [
+        "Claude"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "cathrynlavery /diagram-design",
+      "summary_zh": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "tags_zh": [
+        "Claude"
+      ],
+      "oneliner": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram t"
+    },
     {
       "id": "0135e142dae8",
       "title": "morluto /rea",
@@ -10,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "published": "2026-10-08T05:01:44Z",
+      "published": "2026-10-08T15:26:36Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-10-08T05:01:44Z",
+      "published": "2026-10-08T15:26:36Z",
       "tags": [
         "Agent"
       ],
@@ -56,6 +83,114 @@
         "Agent"
       ],
       "oneliner": "Skills for Real Engineers. Straight from my .agents directory."
+    },
+    {
+      "id": "f08d8cf2c7ba",
+      "title": "thedotmack /claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes,...",
+      "published": "2026-10-08T15:26:36Z",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "thedotmack /claude-mem",
+      "summary_zh": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes,...",
+      "tags_zh": [
+        "Claude",
+        "Gemini",
+        "Agent"
+      ],
+      "oneliner": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess"
+    },
+    {
+      "id": "84d879389f35",
+      "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
+      "url": "https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Architect Financial Technologies has launched Liquid Inference, an LLM router that runs a live auction for every request. Liquid Inference is an LLM inference marketplace from Architect where providers bid to serve each prompt. The buyer pays the...",
+      "published": "2026-10-08T08:53:34Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
+      "summary_zh": "Architect Financial Technologies has launched Liquid Inference, an LLM router that runs a live auction for every request. Liquid Inference is an LLM inference marketplace from Architect where providers bid to serve each prompt. The buyer pays the...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Architect Financial Technologies has launched Liquid Inference, an LLM router that runs a live aucti"
+    },
+    {
+      "id": "218a4726c49b",
+      "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+      "url": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA researchers introduced PivotOPD, an on-policy distillation method that trains multi-turn LLM agents to avoid early pivotal mistakes and recover from them, posting the best average against 13 baselines on 3 agent benchmarks.\nThe post NVIDIA...",
+      "published": "2026-10-08T08:40:02Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+      "summary_zh": "NVIDIA researchers introduced PivotOPD, an on-policy distillation method that trains multi-turn LLM agents to avoid early pivotal mistakes and recover from them, posting the best average against 13 baselines on 3 agent benchmarks.\nThe post NVIDIA...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "NVIDIA researchers introduced PivotOPD, an on-policy distillation method that trains multi-turn LLM "
+    },
+    {
+      "id": "fd046e7f9c37",
+      "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
+      "url": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Perplexity's pplx-embed-v2-late comes in 2 sizes: a 0.6B model built to run on edge devices, and a 9B model for building high-quality indexes. Its best score is 92.4% on MADQA, and its weakest is 61.2% on ViDoRe v3 Markdown. Both are MIT-licensed...",
+      "published": "2026-10-08T05:39:09Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
+      "summary_zh": "Perplexity's pplx-embed-v2-late comes in 2 sizes: a 0.6B model built to run on edge devices, and a 9B model for building high-quality indexes. Its best score is 92.4% on MADQA, and its weakest is 61.2% on ViDoRe v3 Markdown. Both are MIT-licensed...",
+      "tags_zh": [],
+      "oneliner": "Perplexity's pplx-embed-v2-late comes in 2 sizes: a 0.6B model built to run on edge devices, and a 9"
     },
     {
       "id": "ee7d6f2f5cec",
@@ -85,33 +220,6 @@
       "oneliner": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
     },
     {
-      "id": "f0faec98f86e",
-      "title": "cathrynlavery /diagram-design",
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-10-08T05:01:44Z",
-      "tags": [
-        "Claude"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "cathrynlavery /diagram-design",
-      "summary_zh": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "tags_zh": [
-        "Claude"
-      ],
-      "oneliner": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram t"
-    },
-    {
       "id": "0d1bd25a3199",
       "title": "addyosmani /agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
@@ -137,37 +245,6 @@
         "Agent"
       ],
       "oneliner": "Production-grade engineering skills for AI coding agents."
-    },
-    {
-      "id": "f08d8cf2c7ba",
-      "title": "thedotmack /claude-mem",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes,...",
-      "published": "2026-10-08T05:01:44Z",
-      "tags": [
-        "Claude",
-        "Gemini",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "thedotmack /claude-mem",
-      "summary_zh": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes,...",
-      "tags_zh": [
-        "Claude",
-        "Gemini",
-        "Agent"
-      ],
-      "oneliner": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess"
     },
     {
       "id": "0483299a7e22",
@@ -464,10 +541,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "LRCC: Generalizing Low-Rank Compression with Conditional Computation",
-      "summary_zh": "arXiv:2610.08858v1 Announce Type: new \nAbstract: Low-rank compression reduces the cost of pretrained language models by replacing linear transformations with low-rank factorizations. However, conventional methods use a fixed rank allocation...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.08858v1 Announce Type: new \nAbstract: Low-rank compression reduces the cost of pretrained"
+      "oneliner": ""
     },
     {
       "id": "5c62441806ee",
@@ -487,10 +564,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Tiny-Scale Chinese BERT Pretraining: A Controlled Comparison of MLM, WWM, and MacBERT Strategies",
-      "summary_zh": "arXiv:2610.08879v1 Announce Type: new \nAbstract: Pretraining strategies significantly impact the quality of language models, yet existing comparisons of Masked Language Modeling (MLM), Whole Word Masking (WWM), and MacBERT-style replacement have...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.08879v1 Announce Type: new \nAbstract: Pretraining strategies significantly impact the qua"
+      "oneliner": ""
     },
     {
       "id": "696fcbe603f3",
@@ -510,10 +587,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Steering Follows Geometry, Not Labels: Emotion Directions in a Full-Duplex Speech Model",
-      "summary_zh": "arXiv:2610.08887v1 Announce Type: new \nAbstract: Full-duplex voice agents need to modulate emotion and delivery during real-time conversations, when de-escalating a complaint, carrying urgency in dispatch, softening a clinical result. Emotion and...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.08887v1 Announce Type: new \nAbstract: Full-duplex voice agents need to modulate emotion a"
+      "oneliner": ""
     },
     {
       "id": "364fb6061bd3",
@@ -975,6 +1052,29 @@
       "oneliner": ""
     },
     {
+      "id": "fee7fc1eb27f",
+      "title": "Disrupting AI-enabled “false front” operations",
+      "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "published": "2026-10-08T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "e0c240567bd7",
       "title": "Anthropic Releases Claude Haiku 5.5: A Small Model With 1M Context Priced at $0.10 per Million Input Tokens",
       "url": "https://www.marktechpost.com/2026/10/07/anthropic-releases-claude-haiku-5-5-a-small-model-with-1m-context-priced-at-0-10-per-million-input-tokens/",
@@ -1044,6 +1144,29 @@
           "c84c7c3e658c"
         ],
         "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6b0f9fee5e2b",
+      "title": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-07T13:21:03Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -2052,11 +2175,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "22d8c146d21d"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5219,52 +5340,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "500c90923e00",
-      "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
-      "url": "https://huggingface.co/blog/allenai/olmocore3",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-10-01T15:01:43Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "084b5e1e5726",
-      "title": "NVIDIA Releases Kumo Tabular: Open Tabular Foundation Models That Predict New Rows in a Single Forward Pass",
-      "url": "https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "NVIDIA has released Kumo Tabular, a new family of tabular foundation models (TFMs) for classification and regression. If you have followed TabPFN or TabICL, the setup will look familiar. The model takes labeled rows as context and predicts new...",
-      "published": "2026-10-01T06:57:50Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
