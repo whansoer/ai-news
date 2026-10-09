@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T15:11:18Z",
+  "updated": "2026-10-09T20:44:26Z",
   "total": 20,
   "items": [
     {
@@ -107,6 +107,49 @@
       }
     },
     {
+      "id": "3b51889c5c77",
+      "title_zh": "Alibaba Qwen Releases Qwen-Image-2.1-Turbo, an 8-Step 7B Image Model",
+      "summary_zh": "Alibaba&#8217;s Qwen team has released Qwen-Image-2.1-Turbo, an accelerated checkpoint of its open-weight Qwen-Image-2.1 model. It generates and edits images in 8 denoising steps instead of the base model&#8217;s 40-step default. For developers,...",
+      "tags_zh": [
+        "Qwen"
+      ],
+      "oneliner": "Alibaba&#8217;s Qwen team has released Qwen-Image-2.1-Turbo, an accelerated checkpoint of its open-w",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9988073e400a",
+      "title_zh": "OpenAI Decisions API Hits Public Beta With 10x Faster Typed Answers",
+      "summary_zh": "OpenAI’s Decisions API is now in public beta on GPT-6 Luna. It returns typed probabilities, choices and scores about 10x faster than the Responses API, billing $0.10 per 1M input tokens with no output charges.\nThe post OpenAI Decisions API Hits...",
+      "tags_zh": [
+        "OpenAI",
+        "API"
+      ],
+      "oneliner": "OpenAI’s Decisions API is now in public beta on GPT-6 Luna. It returns typed probabilities, choices ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ebb9e1a46a89",
+      "title_zh": "Impactful scheduling for GPU clusters",
+      "summary_zh": "",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "9a8ead418559",
       "title_zh": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
       "summary_zh": "Underdog Saluki 27B is a 7.89 GB, 2-bit GGUF of Qwen3.8-27B under Apache 2.0. It beats the 54 GB original on tool calling but gives up ground on competition math and reasoning.\nThe post Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats...",
@@ -128,6 +171,20 @@
         "OpenAI"
       ],
       "oneliner": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automat",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "dc4e32e77a50",
+      "title_zh": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "summary_zh": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -225,57 +282,6 @@
       "summary_zh": "arXiv:2610.10724v1 Announce Type: new \nAbstract: How does the human mind represent semantic categories? Why do natural languages favor certain meanings over others? Prior explanations have relied on logical definability and complexity, but these...",
       "tags_zh": [],
       "oneliner": "arXiv:2610.10724v1 Announce Type: new \nAbstract: How does the human mind represent semantic categori",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5a6745b2cfc7",
-      "title_zh": "Lossy Compressive Text Autoencoders",
-      "summary_zh": "arXiv:2610.10738v1 Announce Type: new \nAbstract: Our work explores learning a compressed latent representation of text, at the intersection of data compression and representation learning. We propose an autoencoder architecture that performs...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.10738v1 Announce Type: new \nAbstract: Our work explores learning a compressed latent repr",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "243a24eec84a",
-      "title_zh": "Clarify, Then Focus: Statement Normalization for Conversation Analytics at Scale",
-      "summary_zh": "arXiv:2610.10758v1 Announce Type: new \nAbstract: Enterprise conversation analytics asks many questions of millions of interactions. Each question can require reconstructing what people mean and identifying which information matters, repeating...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.10758v1 Announce Type: new \nAbstract: Enterprise conversation analytics asks many questio",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9512c039c8e8",
-      "title_zh": "Grammar Concept Annotation at Scale: Deployed Fine-Tuned Small Language Models Outperform Prompted Frontier Models",
-      "summary_zh": "arXiv:2610.10827v1 Announce Type: new \nAbstract: Corrective feedback is among the best-evidenced drivers of second-language acquisition, yet corrections delivered during lessons rarely accumulate into an actionable view of grammar mastery....",
-      "tags_zh": [
-        "Fine-tune",
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2610.10827v1 Announce Type: new \nAbstract: Corrective feedback is among the best-evidenced dri",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6b4c2f491bfa",
-      "title_zh": "Real Long-Term Memory for AI: A 50-Million-Token Window That Is Faster and Cheaper Than Recompute",
-      "summary_zh": "arXiv:2610.10845v1 Announce Type: new \nAbstract: A large language model can only use the text that fits in its context window, and it recomputes its internal key-value (KV) state for a prompt every time the prompt is sent. We test a memory layer,...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.10845v1 Announce Type: new \nAbstract: A large language model can only use the text that f",
       "key_facts": [],
       "notable_quote": {
         "text": "",
