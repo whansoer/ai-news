@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-08T21:14:12Z",
-  "total": 254,
+  "updated": "2026-10-09T05:06:43Z",
+  "total": 282,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 35
+      "count": 34
     },
     {
       "name": "GitHub Trending",
       "count": 27
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 16
     },
     {
-      "name": "Hugging Face",
-      "count": 16
+      "name": "OpenAI",
+      "count": 15
     },
     {
       "name": "Google AI",
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 74
     },
     {
       "name": "LLM",
-      "count": 20
+      "count": 24
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 16
     },
     {
       "name": "Claude",
@@ -61,7 +61,7 @@
       "count": 6
     },
     {
-      "name": "OpenAI",
+      "name": "Diffusion",
       "count": 5
     },
     {
@@ -69,15 +69,15 @@
       "count": 5
     },
     {
+      "name": "OpenAI",
+      "count": 4
+    },
+    {
       "name": "Gemini",
-      "count": 4
+      "count": 3
     },
     {
-      "name": "Embedding",
-      "count": 4
-    },
-    {
-      "name": "Diffusion",
+      "name": "Prompt",
       "count": 3
     },
     {
@@ -89,16 +89,20 @@
       "count": 3
     },
     {
+      "name": "Embedding",
+      "count": 3
+    },
+    {
       "name": "API",
       "count": 3
     },
     {
-      "name": "Prompt",
+      "name": "Transformer",
       "count": 2
     },
     {
-      "name": "Transformer",
-      "count": 2
+      "name": "Fine-tune",
+      "count": 1
     },
     {
       "name": "Anthropic",
@@ -128,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 180
+      "count": 209
     },
     {
       "name": "开源项目",
@@ -136,14 +140,10 @@
     },
     {
       "name": "模型发布",
-      "count": 31
+      "count": 30
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-02",
-      "count": 42
-    },
     {
       "date": "10-03",
       "count": 10
@@ -166,7 +166,11 @@
     },
     {
       "date": "10-08",
-      "count": 46
+      "count": 44
+    },
+    {
+      "date": "10-09",
+      "count": 34
     }
   ],
   "top10": [
@@ -195,40 +199,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "06614a2151fd",
-      "title": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+      "id": "ef1d9c26b5e7",
+      "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "dfc39b54c1a7",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "id": "5908b03c9618",
+      "title": "Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch",
       "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "183b50766386",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "id": "0086b5103570",
+      "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
       "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "84d879389f35",
-      "title": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
+      "id": "1c91b97998d7",
+      "title": "Cognitive Thermometers: Machine Learning and Logical Complexity",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "218a4726c49b",
-      "title": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+      "id": "5a6745b2cfc7",
+      "title": "Lossy Compressive Text Autoencoders",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "fd046e7f9c37",
-      "title": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
+      "id": "243a24eec84a",
+      "title": "Clarify, Then Focus: Statement Normalization for Conversation Analytics at Scale",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

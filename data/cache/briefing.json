@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-08T21:14:22Z",
-  "count": 449,
+  "updated": "2026-10-09T05:06:53Z",
+  "count": 450,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -28738,6 +28738,70 @@
         }
       },
       "_ts": 1791494062
+    },
+    "bf92058963e25ca5": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录282篇AI新闻，分类分布：学术研究209篇, 开源项目43篇, 模型发布30篇。热门标签：Agent（74篇）。其中8%的文章有多来源交叉验证。\n\n▸ cathrynlavery /diagram-design：Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram t\n\n▸ morluto /rea：Reverse engineer anything with agents, from app behavior down to native binaries.\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ thedotmack /claude-mem：Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess\n\n▸ Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models：arXiv:2610.10550v1 Announce Type: new \nAbstract: Personalizing text-to-image diffusion models from a",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills",
+            "why_hot": "单日1774星，Shell项目",
+            "stars_today": 1774,
+            "total_stars": 281382
+          },
+          {
+            "full_name": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "why_hot": "单日670星，TypeScript项目",
+            "stars_today": 670,
+            "total_stars": 98639
+          },
+          {
+            "full_name": "morluto/rea",
+            "url": "https://github.com/morluto/rea",
+            "why_hot": "单日7738星，TypeScript项目",
+            "stars_today": 7738,
+            "total_stars": 29703
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "282"
+          },
+          {
+            "label": "多源验证率",
+            "value": "8%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+11342"
+          }
+        ],
+        "must_read_ids": [
+          "f0faec98f86e",
+          "0135e142dae8",
+          "1ae169fb23a9",
+          "f08d8cf2c7ba",
+          "ef1d9c26b5e7"
+        ],
+        "text": "今日共收录282篇AI新闻，分类分布：学术研究209篇, 开源项目43篇, 模型发布30篇。热门标签：Agent（74篇）。其中8%的文章有多来源交叉验证。",
+        "top_items": [
+          "cathrynlavery /diagram-design",
+          "morluto /rea",
+          "mattpocock /skills",
+          "thedotmack /claude-mem",
+          "Diffu-LoRA: A Novel Low-Rank Adaptation "
+        ],
+        "meta": {
+          "total_articles": 282,
+          "multi_source_pct": 8
+        }
+      },
+      "_ts": 1791522413
     }
   }
 }
