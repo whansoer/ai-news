@@ -1,22 +1,22 @@
 {
-  "updated": "2026-10-09T05:06:43Z",
-  "total": 282,
+  "updated": "2026-10-09T15:11:08Z",
+  "total": 254,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "MarkTechPost",
-      "count": 34
+      "count": 35
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Hugging Face",
@@ -38,23 +38,27 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 74
+      "count": 68
     },
     {
       "name": "LLM",
-      "count": 24
+      "count": 21
     },
     {
       "name": "Benchmark",
-      "count": 16
-    },
-    {
-      "name": "Claude",
-      "count": 9
+      "count": 14
     },
     {
       "name": "Google",
+      "count": 9
+    },
+    {
+      "name": "Claude",
       "count": 8
+    },
+    {
+      "name": "OpenAI",
+      "count": 6
     },
     {
       "name": "GPT",
@@ -69,19 +73,15 @@
       "count": 5
     },
     {
-      "name": "OpenAI",
+      "name": "Gemini",
       "count": 4
     },
     {
-      "name": "Gemini",
+      "name": "Anthropic",
       "count": 3
     },
     {
-      "name": "Prompt",
-      "count": 3
-    },
-    {
-      "name": "RAG",
+      "name": "Transformer",
       "count": 3
     },
     {
@@ -94,18 +94,22 @@
     },
     {
       "name": "API",
-      "count": 3
+      "count": 2
     },
     {
-      "name": "Transformer",
+      "name": "Qwen",
+      "count": 2
+    },
+    {
+      "name": "Prompt",
+      "count": 2
+    },
+    {
+      "name": "RAG",
       "count": 2
     },
     {
       "name": "Fine-tune",
-      "count": 1
-    },
-    {
-      "name": "Anthropic",
       "count": 1
     },
     {
@@ -114,10 +118,6 @@
     },
     {
       "name": "Mistral",
-      "count": 1
-    },
-    {
-      "name": "Qwen",
       "count": 1
     },
     {
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 209
+      "count": 180
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 44
     },
     {
       "name": "模型发布",
@@ -166,20 +166,14 @@
     },
     {
       "date": "10-08",
-      "count": 44
+      "count": 43
     },
     {
       "date": "10-09",
-      "count": 34
+      "count": 42
     }
   ],
   "top10": [
-    {
-      "id": "f0faec98f86e",
-      "title": "cathrynlavery /diagram-design",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
     {
       "id": "0135e142dae8",
       "title": "morluto /rea",
@@ -193,46 +187,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "f08d8cf2c7ba",
-      "title": "thedotmack /claude-mem",
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "ef1d9c26b5e7",
-      "title": "Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models",
+      "id": "9cd514d03f14",
+      "title": "alibaba /open-code-review",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "5908b03c9618",
-      "title": "Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language Models Trained From Scratch",
+      "id": "04c2ea756fd7",
+      "title": "BerriAI /litellm",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "0086b5103570",
-      "title": "Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System",
+      "id": "0d1bd25a3199",
+      "title": "addyosmani /agent-skills",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "1c91b97998d7",
-      "title": "Cognitive Thermometers: Machine Learning and Logical Complexity",
+      "id": "5d8317a963e5",
+      "title": "Robbyant /lingbot-map",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "5a6745b2cfc7",
-      "title": "Lossy Compressive Text Autoencoders",
+      "id": "9a8ead418559",
+      "title": "Meet the Underdog Saluki 27B: A 2-bit Qwen3.8-27B That Beats the Original at Tool Calling",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     },
     {
-      "id": "243a24eec84a",
-      "title": "Clarify, Then Focus: Statement Normalization for Conversation Analytics at Scale",
+      "id": "38f5a2b46e3b",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "OpenAI"
+    },
+    {
+      "id": "adbf0544d4cc",
+      "title": "Google Cloud Launches Gemini Agent, One Universal Agent for Enterprise Work",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }

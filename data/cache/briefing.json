@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-09T05:06:53Z",
-  "count": 450,
+  "updated": "2026-10-09T15:11:18Z",
+  "count": 451,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -28802,6 +28802,70 @@
         }
       },
       "_ts": 1791522413
+    },
+    "ec29d07e3d8f0304": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录254篇AI新闻，分类分布：学术研究180篇, 开源项目44篇, 模型发布30篇。热门标签：Agent（68篇）。其中11%的文章有多来源交叉验证。\n\n▸ morluto /rea：Reverse engineer anything with agents, from app behavior down to native binaries.\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ cathrynlavery /diagram-design：Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram t\n\n▸ alibaba /open-code-review：Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det\n\n▸ BerriAI /litellm：The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) ",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills",
+            "why_hot": "单日1696星，Shell项目",
+            "stars_today": 1696,
+            "total_stars": 282186
+          },
+          {
+            "full_name": "morluto/rea",
+            "url": "https://github.com/morluto/rea",
+            "why_hot": "单日15335星，TypeScript项目",
+            "stars_today": 15335,
+            "total_stars": 37895
+          },
+          {
+            "full_name": "DuarteSantos8/openGym",
+            "url": "https://github.com/DuarteSantos8/openGym",
+            "why_hot": "单日0星，JavaScript项目",
+            "stars_today": 0,
+            "total_stars": 8411
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "254"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+20240"
+          }
+        ],
+        "must_read_ids": [
+          "0135e142dae8",
+          "1ae169fb23a9",
+          "f0faec98f86e",
+          "9cd514d03f14",
+          "04c2ea756fd7"
+        ],
+        "text": "今日共收录254篇AI新闻，分类分布：学术研究180篇, 开源项目44篇, 模型发布30篇。热门标签：Agent（68篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "morluto /rea",
+          "mattpocock /skills",
+          "cathrynlavery /diagram-design",
+          "alibaba /open-code-review",
+          "BerriAI /litellm"
+        ],
+        "meta": {
+          "total_articles": 254,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1791558678
     }
   }
 }
