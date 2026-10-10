@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T04:52:18Z",
+  "updated": "2026-10-10T14:25:51Z",
   "total": 253,
   "sources": [
     {
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 34
+      "count": 35
     },
     {
       "name": "GitHub Trending",
-      "count": 28
+      "count": 27
     },
     {
       "name": "Hugging Face",
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 67
+      "count": 64
     },
     {
       "name": "LLM",
@@ -73,8 +73,16 @@
       "count": 5
     },
     {
+      "name": "Qwen",
+      "count": 4
+    },
+    {
       "name": "Gemini",
       "count": 4
+    },
+    {
+      "name": "GPU",
+      "count": 3
     },
     {
       "name": "Anthropic",
@@ -89,10 +97,6 @@
       "count": 3
     },
     {
-      "name": "Qwen",
-      "count": 3
-    },
-    {
       "name": "Meta",
       "count": 3
     },
@@ -101,7 +105,7 @@
       "count": 3
     },
     {
-      "name": "GPU",
+      "name": "Microsoft",
       "count": 2
     },
     {
@@ -121,10 +125,6 @@
       "count": 1
     },
     {
-      "name": "Microsoft",
-      "count": 1
-    },
-    {
       "name": "Llama",
       "count": 1
     }
@@ -132,11 +132,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 179
+      "count": 180
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 43
     },
     {
       "name": "模型发布",
@@ -170,7 +170,7 @@
     },
     {
       "date": "10-10",
-      "count": 22
+      "count": 27
     }
   ],
   "top10": [
@@ -181,16 +181,46 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1bcf0237559d",
+      "title": "mksglu /context-mode",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "1ae169fb23a9",
       "title": "mattpocock /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "f0faec98f86e",
-      "title": "cathrynlavery /diagram-design",
+      "id": "26454b4b1f40",
+      "title": "hugohe3 /ppt-master",
       "score": 5,
       "source": "GitHub Trending"
+    },
+    {
+      "id": "2d9028ec7d2d",
+      "title": "pytorch /pytorch",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5057a54b69d0",
+      "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "65efa89e82cb",
+      "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
+      "score": 5,
+      "source": "MarkTechPost"
     },
     {
       "id": "9cd514d03f14",
@@ -203,36 +233,6 @@
       "title": "BerriAI /litellm",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "0d1bd25a3199",
-      "title": "addyosmani /agent-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "5d8317a963e5",
-      "title": "Robbyant /lingbot-map",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "3459dc51c7e5",
-      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "990300040d94",
-      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
-    },
-    {
-      "id": "45f0b0a94f36",
-      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-      "score": 5,
-      "source": "ArXiv (cs.AI)"
     }
   ]
 }

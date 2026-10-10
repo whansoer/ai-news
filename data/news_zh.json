@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T04:52:28Z",
+  "updated": "2026-10-10T14:26:20Z",
   "total": 20,
   "items": [
     {
@@ -10,6 +10,34 @@
         "Agent"
       ],
       "oneliner": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f0faec98f86e",
+      "title_zh": "cathrynlavery /diagram-design",
+      "summary_zh": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "tags_zh": [
+        "Claude"
+      ],
+      "oneliner": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram t",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1bcf0237559d",
+      "title_zh": "mksglu /context-mode",
+      "summary_zh": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -31,13 +59,52 @@
       }
     },
     {
-      "id": "f0faec98f86e",
-      "title_zh": "cathrynlavery /diagram-design",
-      "summary_zh": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "id": "26454b4b1f40",
+      "title_zh": "hugohe3 /ppt-master",
+      "summary_zh": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "tags_zh": [],
+      "oneliner": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2d9028ec7d2d",
+      "title_zh": "pytorch /pytorch",
+      "summary_zh": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "tags_zh": [
-        "Claude"
+        "GPU"
       ],
-      "oneliner": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram t",
+      "oneliner": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "5057a54b69d0",
+      "title_zh": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
+      "summary_zh": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each fixed answer option instead...",
+      "tags_zh": [
+        "Qwen",
+        "Microsoft"
+      ],
+      "oneliner": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verificat",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "65efa89e82cb",
+      "title_zh": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
+      "summary_zh": "Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option in 1 forward pass. It scores 58.08 on Decision Index 0.3.1 and reads up to 128K tokens.\nThe post Nace AI Open-Sources Drex 1.5: A 9B Decision Model...",
+      "tags_zh": [],
+      "oneliner": "Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option i",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -210,72 +277,6 @@
       "summary_zh": "arXiv:2610.10805v1 Announce Type: new \nAbstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine...",
       "tags_zh": [],
       "oneliner": "arXiv:2610.10805v1 Announce Type: new \nAbstract: As AI systems increasingly interact with people and",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9ede969377f7",
-      "title_zh": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
-      "summary_zh": "arXiv:2610.10833v1 Announce Type: new \nAbstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.10833v1 Announce Type: new \nAbstract: We study whether small LLM agents can operate effec",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9a68a45d227e",
-      "title_zh": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
-      "summary_zh": "arXiv:2610.10857v1 Announce Type: new \nAbstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horizons. Existing policy architectures rely on...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.10857v1 Announce Type: new \nAbstract: Behavior cloning (BC) in non-Markovian environments",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b23c55a85a69",
-      "title_zh": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
-      "summary_zh": "arXiv:2610.10906v1 Announce Type: new \nAbstract: Human communities are governed by normative systems: shared standards that produce \\textit{norms} dictating acceptable behavior, enforced through community sanctioning. Aligning increasingly...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.10906v1 Announce Type: new \nAbstract: Human communities are governed by normative systems",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "50ddd37e1017",
-      "title_zh": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
-      "summary_zh": "arXiv:2610.10942v1 Announce Type: new \nAbstract: Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.10942v1 Announce Type: new \nAbstract: Reinforcement learning environments are now a prima",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6a717b08d1fb",
-      "title_zh": "Learning How to Search for Plans with Exponentially Less Space",
-      "summary_zh": "arXiv:2610.10954v1 Announce Type: new \nAbstract: Heuristic search for a plan can store exponentially many states, even when its heuristic is almost perfect. We instead learn search control, one specification per domain, written as an indexical...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.10954v1 Announce Type: new \nAbstract: Heuristic search for a plan can store exponentially",
       "key_facts": [],
       "notable_quote": {
         "text": "",
