@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-10T19:56:52Z",
-  "total": 249,
+  "updated": "2026-10-11T04:38:26Z",
+  "total": 251,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 33
     },
     {
       "name": "GitHub Trending",
@@ -42,7 +42,7 @@
     },
     {
       "name": "LLM",
-      "count": 21
+      "count": 22
     },
     {
       "name": "Benchmark",
@@ -132,7 +132,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 176
+      "count": 178
     },
     {
       "name": "开源项目",
@@ -144,10 +144,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-04",
-      "count": 7
-    },
     {
       "date": "10-05",
       "count": 41
@@ -170,7 +166,11 @@
     },
     {
       "date": "10-10",
-      "count": 27
+      "count": 23
+    },
+    {
+      "date": "10-11",
+      "count": 6
     }
   ],
   "top10": [
@@ -211,6 +211,18 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "c3d0c6a60262",
+      "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "2bb88f129796",
+      "title": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "5057a54b69d0",
       "title": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
       "score": 5,
@@ -221,18 +233,6 @@
       "title": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "9cd514d03f14",
-      "title": "alibaba /open-code-review",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "04c2ea756fd7",
-      "title": "BerriAI /litellm",
-      "score": 5,
-      "source": "GitHub Trending"
     }
   ]
 }

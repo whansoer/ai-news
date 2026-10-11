@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-10T19:57:02Z",
+  "updated": "2026-10-11T04:38:36Z",
   "total": 216,
-  "new_count": 33,
+  "new_count": 35,
   "items": [
     {
       "id": "0135e142dae8",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "published": "2026-10-10T19:54:52Z",
+      "published": "2026-10-11T04:36:29Z",
       "tags": [
         "Agent"
       ],
@@ -36,8 +36,8 @@
       "url": "https://github.com/cathrynlavery/diagram-design",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-10-10T19:54:52Z",
+      "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "published": "2026-10-11T04:36:29Z",
       "tags": [
         "Claude"
       ],
@@ -51,11 +51,11 @@
         "score": 10
       },
       "title_zh": "cathrynlavery /diagram-design",
-      "summary_zh": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "summary_zh": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "tags_zh": [
         "Claude"
       ],
-      "oneliner": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram t"
+      "oneliner": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 d"
     },
     {
       "id": "1bcf0237559d",
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "published": "2026-10-10T19:54:52Z",
+      "published": "2026-10-11T04:36:29Z",
       "tags": [
         "Agent"
       ],
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-10-10T19:54:52Z",
+      "published": "2026-10-11T04:36:29Z",
       "tags": [
         "Agent"
       ],
@@ -118,7 +118,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-      "published": "2026-10-10T19:54:52Z",
+      "published": "2026-10-11T04:36:29Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -141,7 +141,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "published": "2026-10-10T19:54:52Z",
+      "published": "2026-10-11T04:36:29Z",
       "tags": [
         "GPU"
       ],
@@ -160,6 +160,56 @@
         "GPU"
       ],
       "oneliner": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "id": "c3d0c6a60262",
+      "title": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+      "url": "https://www.marktechpost.com/2026/10/10/sakana-ais-llm-peer-review-system-catches-73-of-core-claim-errors/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system.\nThe post Sakana AI’s LLM Peer...",
+      "published": "2026-10-10T22:02:18Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
+      "summary_zh": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system.\nThe post Sakana AI’s LLM Peer...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164"
+    },
+    {
+      "id": "2bb88f129796",
+      "title": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
+      "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised Hugging Face infrastructure in one of...",
+      "published": "2026-10-10T21:30:36Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
+      "summary_zh": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised Hugging Face infrastructure in one of...",
+      "tags_zh": [],
+      "oneliner": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym disc"
     },
     {
       "id": "5057a54b69d0",
@@ -516,13 +566,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
-      "summary_zh": "arXiv:2610.10786v1 Announce Type: new \nAbstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcomes over many steps. Yet assumptions made...",
-      "tags_zh": [
-        "Agent",
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2610.10786v1 Announce Type: new \nAbstract: Planning is increasingly important for long-horizon"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "9f41af4001c2",
@@ -542,10 +589,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
-      "summary_zh": "arXiv:2610.10805v1 Announce Type: new \nAbstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.10805v1 Announce Type: new \nAbstract: As AI systems increasingly interact with people and"
+      "oneliner": ""
     },
     {
       "id": "9ede969377f7",
@@ -5256,54 +5303,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fccf32436844",
-      "title": "Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with the Graph-Based Retargeting Engine",
-      "url": "https://www.marktechpost.com/2026/10/03/inside-nvidias-isaacteleop-from-hand-and-controller-tracking-to-robot-actions-with-the-graph-based-retargeting-engine/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Learn how NVIDIA IsaacTeleop turns XR hand tracking and motion controller input into robot commands using a pure Python retargeting engine and NumPy.\nThe post Inside NVIDIA’s IsaacTeleop: From Hand and Controller Tracking to Robot Actions with...",
-      "published": "2026-10-04T00:19:38Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "016378578c1d",
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-10-03T22:56:48Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
