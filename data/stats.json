@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T17:41:14Z",
+  "updated": "2026-10-12T22:51:24Z",
   "total": 248,
   "sources": [
     {
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 59
     },
     {
       "name": "LLM",
@@ -73,6 +73,10 @@
       "count": 4
     },
     {
+      "name": "Qwen",
+      "count": 4
+    },
+    {
       "name": "DeepSeek",
       "count": 4
     },
@@ -82,10 +86,6 @@
     },
     {
       "name": "RAG",
-      "count": 3
-    },
-    {
-      "name": "Qwen",
       "count": 3
     },
     {
@@ -170,7 +170,7 @@
     },
     {
       "date": "10-12",
-      "count": 39
+      "count": 40
     }
   ],
   "top10": [
@@ -211,6 +211,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "d177a199d494",
+      "title": "Alibaba Qwen Introduces QwenGyre: Elastic Reinforcement Learning RL for XLong-Horizon Agents",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "b5dbd031c03c",
       "title": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
       "score": 5,
@@ -225,12 +231,6 @@
     {
       "id": "0ce2c9bb2f10",
       "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "5fcd32d7c7b4",
-      "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }
