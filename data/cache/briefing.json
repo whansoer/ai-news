@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-12T04:53:56Z",
-  "count": 460,
+  "updated": "2026-10-12T17:41:34Z",
+  "count": 461,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -29438,6 +29438,70 @@
         }
       },
       "_ts": 1791780836
+    },
+    "9cf732004bdae401": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录248篇AI新闻，分类分布：学术研究176篇, 开源项目42篇, 模型发布30篇。热门标签：Agent（58篇）。其中9%的文章有多来源交叉验证。\n\n▸ morluto /rea：Reverse engineer anything with agents, from app behavior down to native binaries.\n\n▸ mksglu /context-mode：Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se\n\n▸ open-webui /open-webui：User-friendly AI Interface (Supports Ollama, OpenAI API, ...)\n\n▸ cathrynlavery /diagram-design：Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 d\n\n▸ lyogavin /airllm：AirLLM 70B inference with single 4GB GPU",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "morluto/rea",
+            "url": "https://github.com/morluto/rea",
+            "why_hot": "单日45495星，TypeScript项目",
+            "stars_today": 45495,
+            "total_stars": 144861
+          },
+          {
+            "full_name": "DuarteSantos8/openGym",
+            "url": "https://github.com/DuarteSantos8/openGym",
+            "why_hot": "单日0星，JavaScript项目",
+            "stars_today": 0,
+            "total_stars": 10274
+          },
+          {
+            "full_name": "cathrynlavery/diagram-design",
+            "url": "https://github.com/cathrynlavery/diagram-design",
+            "why_hot": "单日2100星，HTML项目",
+            "stars_today": 2100,
+            "total_stars": 52184
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "248"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+49186"
+          }
+        ],
+        "must_read_ids": [
+          "0135e142dae8",
+          "1bcf0237559d",
+          "5c33f43b602e",
+          "f0faec98f86e",
+          "cef11b5e74b8"
+        ],
+        "text": "今日共收录248篇AI新闻，分类分布：学术研究176篇, 开源项目42篇, 模型发布30篇。热门标签：Agent（58篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "morluto /rea",
+          "mksglu /context-mode",
+          "open-webui /open-webui",
+          "cathrynlavery /diagram-design",
+          "lyogavin /airllm"
+        ],
+        "meta": {
+          "total_articles": 248,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1791826894
     }
   }
 }

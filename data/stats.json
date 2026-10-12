@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-12T04:53:46Z",
-  "total": 245,
+  "updated": "2026-10-12T17:41:14Z",
+  "total": 248,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 31
     },
     {
       "name": "GitHub Trending",
-      "count": 24
+      "count": 26
     },
     {
       "name": "Hugging Face",
@@ -42,7 +42,7 @@
     },
     {
       "name": "LLM",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Benchmark",
@@ -54,7 +54,11 @@
     },
     {
       "name": "OpenAI",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "API",
+      "count": 5
     },
     {
       "name": "Claude",
@@ -66,10 +70,6 @@
     },
     {
       "name": "GPU",
-      "count": 4
-    },
-    {
-      "name": "API",
       "count": 4
     },
     {
@@ -105,6 +105,14 @@
       "count": 3
     },
     {
+      "name": "Llama",
+      "count": 2
+    },
+    {
+      "name": "Microsoft",
+      "count": 2
+    },
+    {
       "name": "Meta",
       "count": 2
     },
@@ -113,30 +121,22 @@
       "count": 2
     },
     {
-      "name": "Microsoft",
-      "count": 1
-    },
-    {
       "name": "Fine-tune",
       "count": 1
     },
     {
       "name": "Mistral",
       "count": 1
-    },
-    {
-      "name": "Llama",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 175
+      "count": 176
     },
     {
       "name": "开源项目",
-      "count": 40
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -166,11 +166,11 @@
     },
     {
       "date": "10-11",
-      "count": 6
+      "count": 5
     },
     {
       "date": "10-12",
-      "count": 35
+      "count": 39
     }
   ],
   "top10": [
@@ -181,20 +181,44 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "1bcf0237559d",
+      "title": "mksglu /context-mode",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5c33f43b602e",
+      "title": "open-webui /open-webui",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "f0faec98f86e",
       "title": "cathrynlavery /diagram-design",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "2d9028ec7d2d",
-      "title": "pytorch /pytorch",
+      "id": "cef11b5e74b8",
+      "title": "lyogavin /airllm",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "cef11b5e74b8",
-      "title": "lyogavin /airllm",
+      "id": "33b0d84c745e",
+      "title": "microsoft /BitNet",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "b5dbd031c03c",
+      "title": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "2d9028ec7d2d",
+      "title": "pytorch /pytorch",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -207,30 +231,6 @@
     {
       "id": "5fcd32d7c7b4",
       "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "45ab710b711a",
-      "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "b74dcd081cdd",
-      "title": "CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "6a1aae1a0a08",
-      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "b0c69ba75018",
-      "title": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }

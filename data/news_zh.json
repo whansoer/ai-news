@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T04:53:56Z",
+  "updated": "2026-10-12T17:41:34Z",
   "total": 20,
   "items": [
     {
@@ -10,6 +10,36 @@
         "Agent"
       ],
       "oneliner": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1bcf0237559d",
+      "title_zh": "mksglu /context-mode",
+      "summary_zh": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "5c33f43b602e",
+      "title_zh": "open-webui /open-webui",
+      "summary_zh": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "tags_zh": [
+        "Llama",
+        "OpenAI",
+        "API"
+      ],
+      "oneliner": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -31,20 +61,6 @@
       }
     },
     {
-      "id": "2d9028ec7d2d",
-      "title_zh": "pytorch /pytorch",
-      "summary_zh": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "tags_zh": [
-        "GPU"
-      ],
-      "oneliner": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
       "id": "cef11b5e74b8",
       "title_zh": "lyogavin /airllm",
       "summary_zh": "AirLLM 70B inference with single 4GB GPU",
@@ -53,6 +69,47 @@
         "GPU"
       ],
       "oneliner": "AirLLM 70B inference with single 4GB GPU",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "33b0d84c745e",
+      "title_zh": "microsoft /BitNet",
+      "summary_zh": "Official inference framework for 1-bit LLMs",
+      "tags_zh": [
+        "Microsoft",
+        "LLM"
+      ],
+      "oneliner": "Official inference framework for 1-bit LLMs",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b5dbd031c03c",
+      "title_zh": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
+      "summary_zh": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing.\nThe post Top 12 AI Live Translation Tools in...",
+      "tags_zh": [],
+      "oneliner": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, T",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2d9028ec7d2d",
+      "title_zh": "pytorch /pytorch",
+      "summary_zh": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -207,58 +264,6 @@
       "summary_zh": "arXiv:2610.12707v1 Announce Type: new \nAbstract: Vision-language reward models are trained on annotated preference pairs, which are expensive to collect, can disagree, and are ranked by benchmark accuracy. We build one with no human preference...",
       "tags_zh": [],
       "oneliner": "arXiv:2610.12707v1 Announce Type: new \nAbstract: Vision-language reward models are trained on annota",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "df3d0e843c68",
-      "title_zh": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
-      "summary_zh": "arXiv:2610.12742v1 Announce Type: new \nAbstract: This paper details our submission to KnowledgeGraphEval 2026 Subtask 2 on directed Arabic relation extraction. We explored encoder-based and large language model approaches for predicting one of 40...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.12742v1 Announce Type: new \nAbstract: This paper details our submission to KnowledgeGraph",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "49f28e52412b",
-      "title_zh": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
-      "summary_zh": "arXiv:2610.12757v1 Announce Type: new \nAbstract: Task-oriented conversational agents remain fragile under realistic conditions, especially when users exhibit non-cooperative behavior. Existing function-calling benchmarks underrepresent...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.12757v1 Announce Type: new \nAbstract: Task-oriented conversational agents remain fragile ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e4ac876f383c",
-      "title_zh": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
-      "summary_zh": "arXiv:2610.12758v1 Announce Type: new \nAbstract: Language models have been adopted faster than evaluation practices that reliably assess their risks, and a growing share of use is affective rather than informational. Within that traffic users...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.12758v1 Announce Type: new \nAbstract: Language models have been adopted faster than evalu",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "cb3a8d120089",
-      "title_zh": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
-      "summary_zh": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable....",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools hav",
       "key_facts": [],
       "notable_quote": {
         "text": "",

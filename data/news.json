@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-12T04:53:56Z",
+  "updated": "2026-10-12T17:41:34Z",
   "total": 211,
-  "new_count": 34,
+  "new_count": 37,
   "items": [
     {
       "id": "0135e142dae8",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "published": "2026-10-12T04:51:51Z",
+      "published": "2026-10-12T17:38:44Z",
       "tags": [
         "Agent"
       ],
@@ -31,13 +31,71 @@
       "oneliner": "Reverse engineer anything with agents, from app behavior down to native binaries."
     },
     {
+      "id": "1bcf0237559d",
+      "title": "mksglu /context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "published": "2026-10-12T17:38:44Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "mksglu /context-mode",
+      "summary_zh": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se"
+    },
+    {
+      "id": "5c33f43b602e",
+      "title": "open-webui /open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "published": "2026-10-12T17:38:44Z",
+      "tags": [
+        "Llama",
+        "OpenAI",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "open-webui /open-webui",
+      "summary_zh": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "tags_zh": [
+        "Llama",
+        "OpenAI",
+        "API"
+      ],
+      "oneliner": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
       "id": "f0faec98f86e",
       "title": "cathrynlavery /diagram-design",
       "url": "https://github.com/cathrynlavery/diagram-design",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-10-12T04:51:51Z",
+      "published": "2026-10-12T17:38:44Z",
       "tags": [
         "Claude"
       ],
@@ -56,6 +114,87 @@
         "Claude"
       ],
       "oneliner": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 d"
+    },
+    {
+      "id": "cef11b5e74b8",
+      "title": "lyogavin /airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "AirLLM 70B inference with single 4GB GPU",
+      "published": "2026-10-12T17:38:44Z",
+      "tags": [
+        "LLM",
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "lyogavin /airllm",
+      "summary_zh": "AirLLM 70B inference with single 4GB GPU",
+      "tags_zh": [
+        "LLM",
+        "GPU"
+      ],
+      "oneliner": "AirLLM 70B inference with single 4GB GPU"
+    },
+    {
+      "id": "33b0d84c745e",
+      "title": "microsoft /BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Official inference framework for 1-bit LLMs",
+      "published": "2026-10-12T17:38:44Z",
+      "tags": [
+        "Microsoft",
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "microsoft /BitNet",
+      "summary_zh": "Official inference framework for 1-bit LLMs",
+      "tags_zh": [
+        "Microsoft",
+        "LLM"
+      ],
+      "oneliner": "Official inference framework for 1-bit LLMs"
+    },
+    {
+      "id": "b5dbd031c03c",
+      "title": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
+      "url": "https://www.marktechpost.com/2026/10/12/top-12-ai-live-translation-tools-2026/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing.\nThe post Top 12 AI Live Translation Tools in...",
+      "published": "2026-10-12T08:20:49Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Top 12 AI Live Translation Tools in 2026: Latency, Languages, Pricing",
+      "summary_zh": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, Teams Interpreter and Wordly, against official pages for languages, latency, platforms and pricing.\nThe post Top 12 AI Live Translation Tools in...",
+      "tags_zh": [],
+      "oneliner": "We checked 12 AI live translation tools, including Palabra.ai, Google Live Translate, DeepL Voice, T"
     },
     {
       "id": "2d9028ec7d2d",
@@ -83,35 +222,6 @@
         "GPU"
       ],
       "oneliner": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
-    },
-    {
-      "id": "cef11b5e74b8",
-      "title": "lyogavin /airllm",
-      "url": "https://github.com/lyogavin/airllm",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "AirLLM 70B inference with single 4GB GPU",
-      "published": "2026-10-12T04:51:51Z",
-      "tags": [
-        "LLM",
-        "GPU"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "lyogavin /airllm",
-      "summary_zh": "AirLLM 70B inference with single 4GB GPU",
-      "tags_zh": [
-        "LLM",
-        "GPU"
-      ],
-      "oneliner": "AirLLM 70B inference with single 4GB GPU"
     },
     {
       "id": "0ce2c9bb2f10",
@@ -433,12 +543,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
-      "summary_zh": "arXiv:2610.12742v1 Announce Type: new \nAbstract: This paper details our submission to KnowledgeGraphEval 2026 Subtask 2 on directed Arabic relation extraction. We explored encoder-based and large language model approaches for predicting one of 40...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.12742v1 Announce Type: new \nAbstract: This paper details our submission to KnowledgeGraph"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "49f28e52412b",
@@ -460,12 +568,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
-      "summary_zh": "arXiv:2610.12757v1 Announce Type: new \nAbstract: Task-oriented conversational agents remain fragile under realistic conditions, especially when users exhibit non-cooperative behavior. Existing function-calling benchmarks underrepresent...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.12757v1 Announce Type: new \nAbstract: Task-oriented conversational agents remain fragile "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "e4ac876f383c",
@@ -485,10 +591,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
-      "summary_zh": "arXiv:2610.12758v1 Announce Type: new \nAbstract: Language models have been adopted faster than evaluation practices that reliably assess their risks, and a growing share of use is affective rather than informational. Within that traffic users...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.12758v1 Announce Type: new \nAbstract: Language models have been adopted faster than evalu"
+      "oneliner": ""
     },
     {
       "id": "cb3a8d120089",
@@ -508,10 +614,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
-      "summary_zh": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable....",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools hav"
+      "oneliner": ""
     },
     {
       "id": "f5c012de0cc5",
@@ -945,31 +1051,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1bcf0237559d",
-      "title": "mksglu /context-mode",
-      "url": "https://github.com/mksglu/context-mode",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "published": "2026-10-11T04:36:29Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5082,75 +5163,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f9545c4ec00f",
-      "title": "Our approach to EU text provenance rules",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "published": "2026-10-05T15:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b0c4983426b3",
-      "title": "Building advertising for the way people use AI",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "published": "2026-10-05T10:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9033eec27783",
-      "title": "Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade",
-      "url": "https://www.marktechpost.com/2026/10/05/yandex-introduces-sona-a-single-generative-recommender-that-replaces-entire-recommendation-cascade/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "One transformer ran candidate generation and ranking in Yandex Music's A/B test without hand-engineered features, lifting likes 11.42%.\nThe post Yandex Introduces Sona: A Single Generative Recommender That Replaces Entire Recommendation Cascade...",
-      "published": "2026-10-05T08:10:37Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
