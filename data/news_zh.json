@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T20:08:04Z",
+  "updated": "2026-10-12T04:42:09Z",
   "total": 20,
   "items": [
     {
@@ -60,11 +60,11 @@
       }
     },
     {
-      "id": "88a98507aeef",
-      "title_zh": "OrcaRouter Releases OrcaCyber Zero 1.5 Cybersecurity Model With 1M Context",
-      "summary_zh": "OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. It reports 100% on Cybench and 95.8% on an evaluable CVE-Bench subset, priced at $3.00 / $7.50 per 1M tokens.\nThe post OrcaRouter Releases...",
+      "id": "0ce2c9bb2f10",
+      "title_zh": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+      "summary_zh": "arXiv:2610.12545v1 Announce Type: new \nAbstract: Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revised post hoc, unlike iterative human reasoning....",
       "tags_zh": [],
-      "oneliner": "OrcaRouter released OrcaCyber Zero 1.5, a gated cybersecurity model with a 1M-token context window. ",
+      "oneliner": "arXiv:2610.12545v1 Announce Type: new \nAbstract: Autoregressive decoding is less suited to non-causa",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -72,13 +72,13 @@
       }
     },
     {
-      "id": "1bcf0237559d",
-      "title_zh": "mksglu /context-mode",
-      "summary_zh": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "id": "5fcd32d7c7b4",
+      "title_zh": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "summary_zh": "arXiv:2610.12569v1 Announce Type: new \nAbstract: Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
+      "oneliner": "arXiv:2610.12569v1 Announce Type: new \nAbstract: Static coding benchmarks are fixed at release. Over",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -86,25 +86,11 @@
       }
     },
     {
-      "id": "1ae169fb23a9",
-      "title_zh": "mattpocock /skills",
-      "summary_zh": "Skills for Real Engineers. Straight from my .agents directory.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Skills for Real Engineers. Straight from my .agents directory.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "26454b4b1f40",
-      "title_zh": "hugohe3 /ppt-master",
-      "summary_zh": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "id": "45ab710b711a",
+      "title_zh": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
+      "summary_zh": "arXiv:2610.12570v1 Announce Type: new \nAbstract: Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent...",
       "tags_zh": [],
-      "oneliner": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and ",
+      "oneliner": "arXiv:2610.12570v1 Announce Type: new \nAbstract: Speculative decoding accelerates large language mod",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -112,13 +98,129 @@
       }
     },
     {
-      "id": "c3d0c6a60262",
-      "title_zh": "Sakana AI’s LLM Peer Review System Catches 73% of Core-Claim Errors",
-      "summary_zh": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164-error Contradiction Benchmark. MLR caught 73.43% of core-claim errors, versus 14.81% for the best prior system.\nThe post Sakana AI’s LLM Peer...",
+      "id": "b74dcd081cdd",
+      "title_zh": "CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation",
+      "summary_zh": "arXiv:2610.12580v1 Announce Type: new \nAbstract: Event ontology is the foundational framework for defining events in a dataset. Event type induction generally involves domain experts who define guidelines for creating event types and their names...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.12580v1 Announce Type: new \nAbstract: Event ontology is the foundational framework for de",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "6a1aae1a0a08",
+      "title_zh": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+      "summary_zh": "arXiv:2610.12582v1 Announce Type: new \nAbstract: A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.12582v1 Announce Type: new \nAbstract: A latent recurrent language model applies a shared ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b0c69ba75018",
+      "title_zh": "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
+      "summary_zh": "arXiv:2610.12601v1 Announce Type: new \nAbstract: Prompt optimization is an attractive alternative to reinforcement learning for adapting language-model agents, since it is cheap and produces human-readable artifacts. On factual tasks, however, it...",
+      "tags_zh": [
+        "Agent",
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2610.12601v1 Announce Type: new \nAbstract: Prompt optimization is an attractive alternative to",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8cbd18f02ef7",
+      "title_zh": "Self-Preservation in Language Models",
+      "summary_zh": "arXiv:2610.12602v1 Announce Type: new \nAbstract: Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.12602v1 Announce Type: new \nAbstract: Continual learning (CL) seeks to adapt pretrained m",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "273a2d792b07",
+      "title_zh": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
+      "summary_zh": "arXiv:2610.12617v1 Announce Type: new \nAbstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2610.12617v1 Announce Type: new \nAbstract: Geopolitical and strategic intelligence reports con",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ef00e6ac96a2",
+      "title_zh": "perturber: A Stateless Service for Semantics-Preserving Text Perturbations",
+      "summary_zh": "arXiv:2610.12667v1 Announce Type: new \nAbstract: Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.12667v1 Announce Type: new \nAbstract: Large language model (LLM) evaluations on clean ben",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ce712b574c4a",
+      "title_zh": "GeoFitBench-LLM: A Benchmark for Assessing Large Language Models' Capabilities in Geospatial Data Requirements Elicitation for Geo-Analytic Tasks",
+      "summary_zh": "arXiv:2610.12669v1 Announce Type: new \nAbstract: Large language models are becoming central to GeoAI systems, yet their evaluation rarely considers the elicitation of geospatial data requirements. This omission is critical as retrieval oriented...",
+      "tags_zh": [
+        "LLM",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2610.12669v1 Announce Type: new \nAbstract: Large language models are becoming central to GeoAI",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "0732750f2209",
+      "title_zh": "Activating the Annotator: Operationalising Lived Experience in Data Annotation",
+      "summary_zh": "arXiv:2610.12701v1 Announce Type: new \nAbstract: Perspectivist NLP has established that annotator positionality shapes labels for subjective tasks, but the field still lacks methods for operationalising it. Positionality is typically...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.12701v1 Announce Type: new \nAbstract: Perspectivist NLP has established that annotator po",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b470ff77e9fa",
+      "title_zh": "Unsupervised Multimodal Reward Modeling",
+      "summary_zh": "arXiv:2610.12707v1 Announce Type: new \nAbstract: Vision-language reward models are trained on annotated preference pairs, which are expensive to collect, can disagree, and are ranked by benchmark accuracy. We build one with no human preference...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.12707v1 Announce Type: new \nAbstract: Vision-language reward models are trained on annota",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "df3d0e843c68",
+      "title_zh": "U4RASD at KnowledgeGraphEval-2026: Ontology-Constrained Encoder and LLM Systems for Arabic Relation Extraction",
+      "summary_zh": "arXiv:2610.12742v1 Announce Type: new \nAbstract: This paper details our submission to KnowledgeGraphEval 2026 Subtask 2 on directed Arabic relation extraction. We explored encoder-based and large language model approaches for predicting one of 40...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "Sakana AI’s TMLR paper introduces Multi-Layered Review, a 3-agent Claude-based reviewer, and a 1,164",
+      "oneliner": "arXiv:2610.12742v1 Announce Type: new \nAbstract: This paper details our submission to KnowledgeGraph",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -126,11 +228,25 @@
       }
     },
     {
-      "id": "2bb88f129796",
-      "title_zh": "When the Safety Test Became the Threat: The Machine That Found Its Own Way Out",
-      "summary_zh": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym discovered an unexpected network pathway, broke out into the open internet, and autonomously compromised Hugging Face infrastructure in one of...",
+      "id": "49f28e52412b",
+      "title_zh": "MADS: Multi-Agent Dialog Simulation for Robust Conversational Agents",
+      "summary_zh": "arXiv:2610.12757v1 Announce Type: new \nAbstract: Task-oriented conversational agents remain fragile under realistic conditions, especially when users exhibit non-cooperative behavior. Existing function-calling benchmarks underrepresent...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2610.12757v1 Announce Type: new \nAbstract: Task-oriented conversational agents remain fragile ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e4ac876f383c",
+      "title_zh": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
+      "summary_zh": "arXiv:2610.12758v1 Announce Type: new \nAbstract: Language models have been adopted faster than evaluation practices that reliably assess their risks, and a growing share of use is affective rather than informational. Within that traffic users...",
       "tags_zh": [],
-      "oneliner": "In July 2026, frontier AI agents placed inside a cybersecurity testing sandbox named ExploitGym disc",
+      "oneliner": "arXiv:2610.12758v1 Announce Type: new \nAbstract: Language models have been adopted faster than evalu",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -138,142 +254,11 @@
       }
     },
     {
-      "id": "5057a54b69d0",
-      "title_zh": "Microsoft AI Releases Microsoft-Decision-1: A Qwen3.5-9B Decision-Scoring Model",
-      "summary_zh": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verification and agent control. Microsoft-Decision-1 is a decision-scoring model that returns a calibrated probability for each fixed answer option instead...",
-      "tags_zh": [
-        "Qwen",
-        "Microsoft"
-      ],
-      "oneliner": "Microsoft has released Microsoft-Decision-1, a decision model for routing, classification, verificat",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "65efa89e82cb",
-      "title_zh": "Nace AI Open-Sources Drex 1.5: A 9B Decision Model That Scores Options, Not Text",
-      "summary_zh": "Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option in 1 forward pass. It scores 58.08 on Decision Index 0.3.1 and reads up to 128K tokens.\nThe post Nace AI Open-Sources Drex 1.5: A 9B Decision Model...",
+      "id": "cb3a8d120089",
+      "title_zh": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "summary_zh": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable....",
       "tags_zh": [],
-      "oneliner": "Nace.AI has open-sourced Drex 1.5, a 9B decision model that returns a probability for every option i",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9cd514d03f14",
-      "title_zh": "alibaba /open-code-review",
-      "summary_zh": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "tags_zh": [
-        "OpenAI",
-        "Anthropic",
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "04c2ea756fd7",
-      "title_zh": "BerriAI /litellm",
-      "summary_zh": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
-      "tags_zh": [
-        "OpenAI",
-        "Anthropic",
-        "LLM",
-        "API"
-      ],
-      "oneliner": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0d1bd25a3199",
-      "title_zh": "addyosmani /agent-skills",
-      "summary_zh": "Production-grade engineering skills for AI coding agents.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Production-grade engineering skills for AI coding agents.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5d8317a963e5",
-      "title_zh": "Robbyant /lingbot-map",
-      "summary_zh": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
-      "tags_zh": [
-        "Transformer"
-      ],
-      "oneliner": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D R",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3459dc51c7e5",
-      "title_zh": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
-      "summary_zh": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.10541v1 Announce Type: new \nAbstract: Knowledge Graph (KG) quality depends not only on do",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "990300040d94",
-      "title_zh": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
-      "summary_zh": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data,...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.10549v1 Announce Type: new \nAbstract: Tool-calling agents have become central to enterpri",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "45f0b0a94f36",
-      "title_zh": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
-      "summary_zh": "arXiv:2610.10590v1 Announce Type: new \nAbstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.10590v1 Announce Type: new \nAbstract: Tool-using agents repeatedly carry observations who",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3fb2ac511251",
-      "title_zh": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
-      "summary_zh": "arXiv:2610.10611v1 Announce Type: new \nAbstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.10611v1 Announce Type: new \nAbstract: Agentic AI systems can improve by searching longer,",
+      "oneliner": "arXiv:2610.12493v1 Announce Type: new \nAbstract: Explainable Artificial Intelligence (XAI) tools hav",
       "key_facts": [],
       "notable_quote": {
         "text": "",
