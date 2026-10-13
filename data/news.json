@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-13T15:49:24Z",
+  "updated": "2026-10-13T21:08:47Z",
   "total": 185,
-  "new_count": 38,
+  "new_count": 40,
   "items": [
     {
       "id": "0135e142dae8",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "published": "2026-10-13T15:47:18Z",
+      "published": "2026-10-13T21:06:38Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "published": "2026-10-13T15:47:18Z",
+      "published": "2026-10-13T21:06:38Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-10-13T15:47:18Z",
+      "published": "2026-10-13T21:06:38Z",
       "tags": [
         "Claude"
       ],
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open agent skills tool - npx skills",
-      "published": "2026-10-13T15:47:18Z",
+      "published": "2026-10-13T21:06:38Z",
       "tags": [
         "Agent"
       ],
@@ -118,7 +118,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AirLLM 2.8T LLM inference with single 4GB GPU",
-      "published": "2026-10-13T15:47:18Z",
+      "published": "2026-10-13T21:06:38Z",
       "tags": [
         "LLM",
         "GPU"
@@ -139,6 +139,83 @@
         "GPU"
       ],
       "oneliner": "AirLLM 2.8T LLM inference with single 4GB GPU"
+    },
+    {
+      "id": "aba8264d5bfb",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-13T17:05:48Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "summary_zh": "",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": ""
+    },
+    {
+      "id": "aff2c9dc3dc0",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "TBD",
+      "published": "2026-10-13T16:00:00Z",
+      "tags": [
+        "Gemini"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Gemini 4 Argon: Built to solve your hardest problems",
+      "summary_zh": "TBD",
+      "tags_zh": [
+        "Gemini"
+      ],
+      "oneliner": "TBD"
+    },
+    {
+      "id": "6412315144a1",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "published": "2026-10-13T12:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Higgsfield takes AI video from 1 minute to over 10",
+      "summary_zh": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "tags_zh": [],
+      "oneliner": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a"
     },
     {
       "id": "a2a5e22fe575",
@@ -476,10 +553,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Self-Preservation in Language Models",
-      "summary_zh": "arXiv:2610.12602v1 Announce Type: new \nAbstract: Continual learning (CL) seeks to adapt pretrained models while preserving prior capabilities. Yet the tasks supplied for preservation cover only part of what a model knows, while forgetting can...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.12602v1 Announce Type: new \nAbstract: Continual learning (CL) seeks to adapt pretrained m"
+      "oneliner": ""
     },
     {
       "id": "273a2d792b07",
@@ -501,12 +578,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "GeopoliticalQA: Benchmarking Retrieval and Generation over Intelligence Reports",
-      "summary_zh": "arXiv:2610.12617v1 Announce Type: new \nAbstract: Geopolitical and strategic intelligence reports constitute a rich source of expert knowledge and have increasing value in the current political climate, but their heterogeneity and analytical...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2610.12617v1 Announce Type: new \nAbstract: Geopolitical and strategic intelligence reports con"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "ef00e6ac96a2",
@@ -526,10 +601,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "perturber: A Stateless Service for Semantics-Preserving Text Perturbations",
-      "summary_zh": "arXiv:2610.12667v1 Announce Type: new \nAbstract: Large language model (LLM) evaluations on clean benchmarks overstate model robustness: real inputs arrive perturbed, and these meaning-preserving variants routinely move model answers. Studying...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.12667v1 Announce Type: new \nAbstract: Large language model (LLM) evaluations on clean ben"
+      "oneliner": ""
     },
     {
       "id": "ce712b574c4a",
@@ -4469,82 +4544,6 @@
           "701ac10653c9"
         ],
         "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "df69f5892b8d",
-      "title": "Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4",
-      "url": "https://www.marktechpost.com/2026/10/06/google-deepmind-releases-embeddinggemma-2-a-740m-open-multimodal-embedding-model-built-on-gemma-4/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Google DeepMind's EmbeddingGemma 2 maps 5 input types into one 768d space and ships today under Apache 2.0.\nThe post Google DeepMind Releases EmbeddingGemma 2, a 740M Open Multimodal Embedding Model Built on Gemma 4 appeared first on MarkTechPost.",
-      "published": "2026-10-06T18:36:08Z",
-      "tags": [
-        "Google",
-        "Embedding"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c6a96eaeddfe",
-      "title": "Mistral AI Releases Mistral Large 4 (Le Chonk): A 1.05T Parameter Multimodal MoE Model",
-      "url": "https://www.marktechpost.com/2026/10/06/mistral-ai-releases-mistral-large-4-le-chonk-a-1-05t-parameter-open-weight-multimodal-moe/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Mistral AI has released Mistral Large 4, nicknamed Le Chonk, as a public preview. It is a 1.05 trillion parameter Mixture of Experts model with 49 billion active parameters, native image input, and a 1 million token context window, trained on...",
-      "published": "2026-10-06T17:30:46Z",
-      "tags": [
-        "Mistral"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a444153ab109",
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "published": "2026-10-06T16:00:00Z",
-      "tags": [
-        "OpenAI"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
