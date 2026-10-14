@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:08:38Z",
+  "updated": "2026-10-14T03:59:11Z",
   "total": 225,
   "sources": [
     {
@@ -46,14 +46,14 @@
     },
     {
       "name": "Benchmark",
-      "count": 10
-    },
-    {
-      "name": "Google",
-      "count": 8
+      "count": 11
     },
     {
       "name": "OpenAI",
+      "count": 7
+    },
+    {
+      "name": "Google",
       "count": 7
     },
     {
@@ -66,6 +66,10 @@
     },
     {
       "name": "GPU",
+      "count": 4
+    },
+    {
+      "name": "Meta",
       "count": 4
     },
     {
@@ -113,19 +117,7 @@
       "count": 2
     },
     {
-      "name": "Meta",
-      "count": 2
-    },
-    {
       "name": "Fine-tune",
-      "count": 1
-    },
-    {
-      "name": "Embedding",
-      "count": 1
-    },
-    {
-      "name": "Mistral",
       "count": 1
     }
   ],
@@ -144,10 +136,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-07",
-      "count": 45
-    },
     {
       "date": "10-08",
       "count": 43
@@ -170,7 +158,11 @@
     },
     {
       "date": "10-13",
-      "count": 11
+      "count": 8
+    },
+    {
+      "date": "10-14",
+      "count": 5
     }
   ],
   "top10": [
@@ -205,6 +197,18 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "b8ac32cf4e0e",
+      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "6c56b187596d",
+      "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "aba8264d5bfb",
       "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
       "score": 5,
@@ -221,18 +225,6 @@
       "title": "Higgsfield takes AI video from 1 minute to over 10",
       "score": 5,
       "source": "OpenAI"
-    },
-    {
-      "id": "a2a5e22fe575",
-      "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "5c33f43b602e",
-      "title": "open-webui /open-webui",
-      "score": 5,
-      "source": "GitHub Trending"
     }
   ]
 }
