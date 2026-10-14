@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-14T13:32:24Z",
-  "count": 467,
+  "updated": "2026-10-14T20:06:44Z",
+  "count": 468,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -29886,6 +29886,70 @@
         }
       },
       "_ts": 1791984744
+    },
+    "a91a288026233cf1": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录227篇AI新闻，分类分布：学术研究158篇, 开源项目39篇, 模型发布30篇。热门标签：Agent（68篇）。其中11%的文章有多来源交叉验证。\n\n▸ morluto /rea：Reverse engineer anything with agents, from app behavior down to native binaries.\n\n▸ mksglu /context-mode：Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se\n\n▸ K-Dense-AI /scientific-agent-skills：Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ sc\n\n▸ HKUDS /CLI-Anything：\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/\n\n▸ ifixai-ai /iFixAi：Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial ques",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "morluto/rea",
+            "url": "https://github.com/morluto/rea",
+            "why_hot": "单日41187星，TypeScript项目",
+            "stars_today": 41187,
+            "total_stars": 237831
+          },
+          {
+            "full_name": "ifixai-ai/iFixAi",
+            "url": "https://github.com/ifixai-ai/iFixAi",
+            "why_hot": "单日2143星，Python项目",
+            "stars_today": 2143,
+            "total_stars": 27180
+          },
+          {
+            "full_name": "vxcontrol/pentagi",
+            "url": "https://github.com/vxcontrol/pentagi",
+            "why_hot": "单日1070星，Go项目",
+            "stars_today": 1070,
+            "total_stars": 29208
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "227"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+45346"
+          }
+        ],
+        "must_read_ids": [
+          "0135e142dae8",
+          "1bcf0237559d",
+          "bf559441b24d",
+          "12e952795179",
+          "637c4b19860f"
+        ],
+        "text": "今日共收录227篇AI新闻，分类分布：学术研究158篇, 开源项目39篇, 模型发布30篇。热门标签：Agent（68篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "morluto /rea",
+          "mksglu /context-mode",
+          "K-Dense-AI /scientific-agent-skills",
+          "HKUDS /CLI-Anything",
+          "ifixai-ai /iFixAi"
+        ],
+        "meta": {
+          "total_articles": 227,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1792008404
     }
   }
 }
