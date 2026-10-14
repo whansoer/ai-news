@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-14T03:59:11Z",
-  "total": 225,
+  "updated": "2026-10-14T13:32:12Z",
+  "total": 261,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 29
     },
     {
       "name": "GitHub Trending",
-      "count": 22
+      "count": 26
     },
     {
       "name": "Hugging Face",
       "count": 16
     },
     {
-      "name": "Google AI",
+      "name": "OpenAI",
       "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Google AI",
       "count": 15
     },
     {
@@ -38,42 +38,50 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 54
+      "count": 72
     },
     {
       "name": "LLM",
-      "count": 25
+      "count": 33
     },
     {
       "name": "Benchmark",
-      "count": 11
+      "count": 12
+    },
+    {
+      "name": "Google",
+      "count": 8
     },
     {
       "name": "OpenAI",
       "count": 7
     },
     {
-      "name": "Google",
-      "count": 7
+      "name": "Claude",
+      "count": 5
+    },
+    {
+      "name": "API",
+      "count": 5
+    },
+    {
+      "name": "Diffusion",
+      "count": 5
+    },
+    {
+      "name": "Meta",
+      "count": 5
     },
     {
       "name": "GPT",
       "count": 5
     },
     {
-      "name": "Claude",
+      "name": "Gemini",
       "count": 4
     },
     {
       "name": "GPU",
-      "count": 4
-    },
-    {
-      "name": "Meta",
-      "count": 4
-    },
-    {
-      "name": "API",
       "count": 4
     },
     {
@@ -83,10 +91,6 @@
     {
       "name": "DeepSeek",
       "count": 4
-    },
-    {
-      "name": "Gemini",
-      "count": 3
     },
     {
       "name": "Prompt",
@@ -105,10 +109,6 @@
       "count": 3
     },
     {
-      "name": "Diffusion",
-      "count": 3
-    },
-    {
       "name": "Llama",
       "count": 2
     },
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 157
+      "count": 189
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -162,7 +162,7 @@
     },
     {
       "date": "10-14",
-      "count": 5
+      "count": 43
     }
   ],
   "top10": [
@@ -179,52 +179,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "f0faec98f86e",
-      "title": "cathrynlavery /diagram-design",
+      "id": "bf559441b24d",
+      "title": "K-Dense-AI /scientific-agent-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "7634ab012b3d",
-      "title": "vercel-labs /skills",
+      "id": "12e952795179",
+      "title": "HKUDS /CLI-Anything",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "cef11b5e74b8",
-      "title": "lyogavin /airllm",
+      "id": "637c4b19860f",
+      "title": "ifixai-ai /iFixAi",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "b8ac32cf4e0e",
-      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+      "id": "85770197f1cb",
+      "title": "vxcontrol /pentagi",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "8a5725125113",
+      "title": "9 Best AI Gateways in 2026: Bifrost, Portkey, LiteLLM, Kong and 5 More Ranked",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "6c56b187596d",
-      "title": "How to Use Meta’s Rebalancer for Task Placement & Optimization",
+      "id": "4e994ebdd53f",
+      "title": "Liquid AI Releases LFM2.5-24B-A2B: A 2B-Active MoE for On-Device Agents",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "aba8264d5bfb",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "id": "9fa82886f38e",
+      "title": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "MarkTechPost"
     },
     {
-      "id": "aff2c9dc3dc0",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "id": "8e3410a8ed5e",
+      "title": "PsyBer-Agent: A Psychology-Driven User Agent for Recommender Systems",
       "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "6412315144a1",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
