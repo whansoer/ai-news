@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-15T03:41:19Z",
-  "total": 227,
+  "updated": "2026-10-15T13:15:58Z",
+  "total": 246,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 22
+      "count": 26
     },
     {
       "name": "Hugging Face",
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 68
+      "count": 74
     },
     {
       "name": "LLM",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Benchmark",
-      "count": 11
+      "count": 14
     },
     {
       "name": "OpenAI",
@@ -58,6 +58,10 @@
     },
     {
       "name": "Claude",
+      "count": 6
+    },
+    {
+      "name": "Diffusion",
       "count": 5
     },
     {
@@ -65,8 +69,12 @@
       "count": 5
     },
     {
-      "name": "Diffusion",
-      "count": 5
+      "name": "RAG",
+      "count": 4
+    },
+    {
+      "name": "Meta",
+      "count": 4
     },
     {
       "name": "Gemini",
@@ -81,19 +89,11 @@
       "count": 4
     },
     {
-      "name": "Meta",
+      "name": "Prompt",
       "count": 3
     },
     {
       "name": "GPU",
-      "count": 3
-    },
-    {
-      "name": "RAG",
-      "count": 3
-    },
-    {
-      "name": "Anthropic",
       "count": 3
     },
     {
@@ -109,7 +109,7 @@
       "count": 2
     },
     {
-      "name": "Prompt",
+      "name": "Anthropic",
       "count": 2
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 159
+      "count": 174
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -158,11 +158,11 @@
     },
     {
       "date": "10-14",
-      "count": 44
+      "count": 29
     },
     {
       "date": "10-15",
-      "count": 6
+      "count": 42
     }
   ],
   "top10": [
@@ -173,58 +173,58 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "1bcf0237559d",
-      "title": "mksglu /context-mode",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "bf559441b24d",
       "title": "K-Dense-AI /scientific-agent-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "12e952795179",
-      "title": "HKUDS /CLI-Anything",
+      "id": "021dcfb5e16a",
+      "title": "JuliusBrussee /caveman",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "637c4b19860f",
-      "title": "ifixai-ai /iFixAi",
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "85770197f1cb",
-      "title": "vxcontrol /pentagi",
+      "id": "9a16f8b0667e",
+      "title": "ruvnet /ruflo",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "3c1489fe46fc",
-      "title": "Datalab Releases OmniParseBench: An Open OCR Benchmark With 16,288 Pass/Fail Tests to Audit OCR Parsers",
+      "id": "1bcf0237559d",
+      "title": "mksglu /context-mode",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "fa22f6c648d9",
+      "title": "TypeSafe AI Releases Jev 1.14 With Images, Box Type and 262k Context",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "d0bdec9df55d",
-      "title": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
+      "id": "d7bd14dfee55",
+      "title": "Meet Grok Voice 3.0: SpaceXAI Voice Agent Model Ranks #1 on Artificial Analysis",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "9d6590d692b3",
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "id": "08dfed4dc2c6",
+      "title": "Following the Flow the Law Requires: Training Voice Agents to Transfer to Unseen Regulated Procedures in Debt Collection",
       "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "11f72270101b",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "score": 5,
-      "source": "OpenAI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
