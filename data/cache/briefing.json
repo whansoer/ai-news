@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-15T19:48:59Z",
-  "count": 471,
+  "updated": "2026-10-16T03:37:53Z",
+  "count": 472,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -30142,6 +30142,70 @@
         }
       },
       "_ts": 1792093739
+    },
+    "aee3eae9cf78caed": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录229篇AI新闻，分类分布：学术研究159篇, 开源项目40篇, 模型发布30篇。热门标签：Agent（71篇）。其中14%的文章有多来源交叉验证。\n\n▸ morluto /rea：Reverse engineer anything with agents, from app behavior down to native binaries.\n\n▸ K-Dense-AI /scientific-agent-skills：Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ sc\n\n▸ JuliusBrussee /caveman：🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.\n\n▸ ruvnet /ruflo：🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflow",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "morluto/rea",
+            "url": "https://github.com/morluto/rea",
+            "why_hot": "单日32314星，TypeScript项目",
+            "stars_today": 32314,
+            "total_stars": 274169
+          },
+          {
+            "full_name": "xerj-org/xerj",
+            "url": "https://github.com/xerj-org/xerj",
+            "why_hot": "单日715星，Rust项目",
+            "stars_today": 715,
+            "total_stars": 5818
+          },
+          {
+            "full_name": "mksglu/context-mode",
+            "url": "https://github.com/mksglu/context-mode",
+            "why_hot": "单日904星，TypeScript项目",
+            "stars_today": 904,
+            "total_stars": 29852
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "229"
+          },
+          {
+            "label": "多源验证率",
+            "value": "14%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+36619"
+          }
+        ],
+        "must_read_ids": [
+          "0135e142dae8",
+          "bf559441b24d",
+          "021dcfb5e16a",
+          "c3257d531a3c",
+          "9a16f8b0667e"
+        ],
+        "text": "今日共收录229篇AI新闻，分类分布：学术研究159篇, 开源项目40篇, 模型发布30篇。热门标签：Agent（71篇）。其中14%的文章有多来源交叉验证。",
+        "top_items": [
+          "morluto /rea",
+          "K-Dense-AI /scientific-agent-skills",
+          "JuliusBrussee /caveman",
+          "obra /superpowers",
+          "ruvnet /ruflo"
+        ],
+        "meta": {
+          "total_articles": 229,
+          "multi_source_pct": 14
+        }
+      },
+      "_ts": 1792121873
     }
   }
 }

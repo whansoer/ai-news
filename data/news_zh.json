@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T19:48:59Z",
+  "updated": "2026-10-16T03:37:53Z",
   "total": 20,
   "items": [
     {
@@ -105,6 +105,72 @@
       }
     },
     {
+      "id": "85f57c7a3d42",
+      "title_zh": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+      "summary_zh": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios.\nThe post Meta Releases Muse Spark Open: 816B...",
+      "tags_zh": [
+        "Meta"
+      ],
+      "oneliner": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters an",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bf51e8166946",
+      "title_zh": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "fe5649d96d8a",
+      "title_zh": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "63780be02c1c",
+      "title_zh": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+      "summary_zh": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models.\nThe post NVIDIA Releases Nemotron 3.5 Super VL, a...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active p",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "0d2e925aac0b",
+      "title_zh": "Bringing GPT-Rosalind to academic research labs",
+      "summary_zh": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosa",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "96102acb3e38",
       "title_zh": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
       "summary_zh": "Introduction Teams shipping AI agents at scale keep running into the same pattern. Even agents built on top-tier models like Fable and Astra struggle to carry out complex, end-to-end tasks inside a specific product consistently enough to deploy....",
@@ -200,68 +266,6 @@
       "summary_zh": "arXiv:2610.19003v1 Announce Type: new \nAbstract: Abstractive summarization remains challenging across languages, where linguistic quality and factual consistency may diverge, particularly in low-resource settings. We present a standardized...",
       "tags_zh": [],
       "oneliner": "arXiv:2610.19003v1 Announce Type: new \nAbstract: Abstractive summarization remains challenging acros",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "acd960db6292",
-      "title_zh": "Can LLMs Access their World Knowledge for Event Prediction?",
-      "summary_zh": "arXiv:2610.19021v1 Announce Type: new \nAbstract: Recent work has questioned whether large language models (LLMs) can be useful for temporal event prediction. Despite vast pretrained world knowledge, LLMs often underperform simpler specialized...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.19021v1 Announce Type: new \nAbstract: Recent work has questioned whether large language m",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "033f32f4facd",
-      "title_zh": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
-      "summary_zh": "arXiv:2610.19026v1 Announce Type: new \nAbstract: Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely operate at coarse granularity. Token-level selection offers finer control, yet...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.19026v1 Announce Type: new \nAbstract: Sparse attention reduces the KV-cache traffic that ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f1c4b5947321",
-      "title_zh": "Crossing the Gender Binary: Modelling Gendered Reference in Science Fiction and General Fiction",
-      "summary_zh": "arXiv:2610.19028v1 Announce Type: new \nAbstract: Science fiction is widely credited with unsettling gender. This article asks whether that holds at the linguistic level, in how readily gendered reference gives way to its counterpart, a neutral...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.19028v1 Announce Type: new \nAbstract: Science fiction is widely credited with unsettling ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0c6cf4313882",
-      "title_zh": "Pre-Trained Language Models as Zero-Shot Tools for Social Science Research",
-      "summary_zh": "arXiv:2610.19048v1 Announce Type: new \nAbstract: Record linkage and demographic inference from names are routine demands in social science. Most approaches to these problems require labeled training data that are difficult or costly to acquire. I...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.19048v1 Announce Type: new \nAbstract: Record linkage and demographic inference from names",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9f64ffb1130c",
-      "title_zh": "Similar Models, Broken Odds: Where Luce's Axiom Fails in Chatbot Arena",
-      "summary_zh": "arXiv:2610.19095v1 Announce Type: new \nAbstract: Chatbot Arena ranks language models with the Bradley-Terry model, which gives each model one score and so assumes Luce's choice axiom. Choice theory predicts where this fails: near-copies are told...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.19095v1 Announce Type: new \nAbstract: Chatbot Arena ranks language models with the Bradle",
       "key_facts": [],
       "notable_quote": {
         "text": "",

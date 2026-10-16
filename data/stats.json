@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-15T19:48:49Z",
-  "total": 212,
+  "updated": "2026-10-16T03:37:43Z",
+  "total": 229,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,11 +8,11 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 45
+      "count": 60
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 29
     },
     {
       "name": "GitHub Trending",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Hugging Face",
-      "count": 16
+      "count": 17
     },
     {
       "name": "OpenAI",
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 71
     },
     {
       "name": "LLM",
-      "count": 25
+      "count": 28
     },
     {
       "name": "Benchmark",
-      "count": 12
+      "count": 14
     },
     {
       "name": "OpenAI",
@@ -62,6 +62,10 @@
     },
     {
       "name": "Meta",
+      "count": 6
+    },
+    {
+      "name": "Diffusion",
       "count": 5
     },
     {
@@ -69,7 +73,7 @@
       "count": 5
     },
     {
-      "name": "Diffusion",
+      "name": "Prompt",
       "count": 4
     },
     {
@@ -81,15 +85,11 @@
       "count": 4
     },
     {
-      "name": "Prompt",
+      "name": "GPT",
       "count": 3
     },
     {
       "name": "GPU",
-      "count": 3
-    },
-    {
-      "name": "GPT",
       "count": 3
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 143
+      "count": 159
     },
     {
       "name": "开源项目",
-      "count": 39
+      "count": 40
     },
     {
       "name": "模型发布",
@@ -136,10 +136,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-09",
-      "count": 24
-    },
     {
       "date": "10-10",
       "count": 23
@@ -162,7 +158,11 @@
     },
     {
       "date": "10-15",
-      "count": 48
+      "count": 60
+    },
+    {
+      "date": "10-16",
+      "count": 9
     }
   ],
   "top10": [
@@ -209,22 +209,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "96102acb3e38",
-      "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
+      "id": "85f57c7a3d42",
+      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "0ee8e840adb2",
-      "title": "openKylin Outlines Its Vision for Reimagining Linux in the AI Era at Open Source Summit Europe 2026",
+      "id": "bf51e8166946",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "Hugging Face"
     },
     {
-      "id": "eef09eb5dfce",
-      "title": "Teaching students to think and learn through questions",
+      "id": "fe5649d96d8a",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
       "score": 5,
-      "source": "OpenAI"
+      "source": "Hugging Face"
     }
   ]
 }

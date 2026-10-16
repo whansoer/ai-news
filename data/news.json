@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-15T19:48:59Z",
-  "total": 171,
-  "new_count": 45,
+  "updated": "2026-10-16T03:37:53Z",
+  "total": 192,
+  "new_count": 58,
   "items": [
     {
       "id": "0135e142dae8",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-      "published": "2026-10-15T19:46:51Z",
+      "published": "2026-10-16T03:35:41Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery....",
-      "published": "2026-10-15T19:46:51Z",
+      "published": "2026-10-16T03:35:41Z",
       "tags": [
         "Claude",
         "Agent"
@@ -68,7 +68,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "published": "2026-10-15T19:46:51Z",
+      "published": "2026-10-16T03:35:41Z",
       "tags": [
         "Agent"
       ],
@@ -95,7 +95,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-10-15T19:46:51Z",
+      "published": "2026-10-16T03:35:41Z",
       "tags": [
         "Agent"
       ],
@@ -122,7 +122,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native...",
-      "published": "2026-10-15T19:46:51Z",
+      "published": "2026-10-16T03:35:41Z",
       "tags": [
         "Claude",
         "Agent",
@@ -153,7 +153,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-      "published": "2026-10-15T19:46:51Z",
+      "published": "2026-10-16T03:35:41Z",
       "tags": [
         "Agent"
       ],
@@ -180,7 +180,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "published": "2026-10-15T19:46:51Z",
+      "published": "2026-10-16T03:35:41Z",
       "tags": [
         "Claude",
         "Agent"
@@ -201,6 +201,137 @@
         "Agent"
       ],
       "oneliner": "The agent harness performance optimization system. Skills, instincts, memory, security, and research"
+    },
+    {
+      "id": "85f57c7a3d42",
+      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+      "url": "https://www.marktechpost.com/2026/10/15/meta-muse-spark-open-816b-open-weight-model/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios.\nThe post Meta Releases Muse Spark Open: 816B...",
+      "published": "2026-10-16T02:26:04Z",
+      "tags": [
+        "Meta"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "992e00bfb441",
+          "60a185e58e9c",
+          "9b9420b910a0"
+        ],
+        "score": 9
+      },
+      "title_zh": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+      "summary_zh": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters and a 1M-token context. It leads open models on MCP-Atlas and runs on 2 M5 Ultra Mac Studios.\nThe post Meta Releases Muse Spark Open: 816B...",
+      "tags_zh": [
+        "Meta"
+      ],
+      "oneliner": "Meta released Muse Spark Open, an 816B-parameter open-weight MoE model with 42B active parameters an"
+    },
+    {
+      "id": "bf51e8166946",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-16T01:44:47Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fe5649d96d8a",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-15T20:34:01Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "63780be02c1c",
+      "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+      "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models.\nThe post NVIDIA Releases Nemotron 3.5 Super VL, a...",
+      "published": "2026-10-15T19:53:50Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
+      "summary_zh": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models.\nThe post NVIDIA Releases Nemotron 3.5 Super VL, a...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active p"
+    },
+    {
+      "id": "0d2e925aac0b",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "published": "2026-10-15T19:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Bringing GPT-Rosalind to academic research labs",
+      "summary_zh": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosa"
     },
     {
       "id": "96102acb3e38",
@@ -420,12 +551,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Can LLMs Access their World Knowledge for Event Prediction?",
-      "summary_zh": "arXiv:2610.19021v1 Announce Type: new \nAbstract: Recent work has questioned whether large language models (LLMs) can be useful for temporal event prediction. Despite vast pretrained world knowledge, LLMs often underperform simpler specialized...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.19021v1 Announce Type: new \nAbstract: Recent work has questioned whether large language m"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "033f32f4facd",
@@ -445,10 +574,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Joint Subspace Sparse Attention for Efficient Long-Context Decoding",
-      "summary_zh": "arXiv:2610.19026v1 Announce Type: new \nAbstract: Sparse attention reduces the KV-cache traffic that dominates long-context LLM decoding, but practical methods largely operate at coarse granularity. Token-level selection offers finer control, yet...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.19026v1 Announce Type: new \nAbstract: Sparse attention reduces the KV-cache traffic that "
+      "oneliner": ""
     },
     {
       "id": "f1c4b5947321",
@@ -468,10 +597,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Crossing the Gender Binary: Modelling Gendered Reference in Science Fiction and General Fiction",
-      "summary_zh": "arXiv:2610.19028v1 Announce Type: new \nAbstract: Science fiction is widely credited with unsettling gender. This article asks whether that holds at the linguistic level, in how readily gendered reference gives way to its counterpart, a neutral...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.19028v1 Announce Type: new \nAbstract: Science fiction is widely credited with unsettling "
+      "oneliner": ""
     },
     {
       "id": "0c6cf4313882",
@@ -491,10 +620,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Pre-Trained Language Models as Zero-Shot Tools for Social Science Research",
-      "summary_zh": "arXiv:2610.19048v1 Announce Type: new \nAbstract: Record linkage and demographic inference from names are routine demands in social science. Most approaches to these problems require labeled training data that are difficult or costly to acquire. I...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.19048v1 Announce Type: new \nAbstract: Record linkage and demographic inference from names"
+      "oneliner": ""
     },
     {
       "id": "9f64ffb1130c",
@@ -514,10 +643,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Similar Models, Broken Odds: Where Luce's Axiom Fails in Chatbot Arena",
-      "summary_zh": "arXiv:2610.19095v1 Announce Type: new \nAbstract: Chatbot Arena ranks language models with the Bradley-Terry model, which gives each model one score and so assumes Luce's choice axiom. Choice theory predicts where this fails: near-copies are told...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.19095v1 Announce Type: new \nAbstract: Chatbot Arena ranks language models with the Bradle"
+      "oneliner": ""
     },
     {
       "id": "86331b53a19f",
@@ -631,10 +760,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "85f57c7a3d42",
           "60a185e58e9c",
           "9b9420b910a0"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -732,9 +862,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
+        "level": "multi-source",
+        "corroborating_ids": [
+          "9d02c5dd7416"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1077,10 +1209,333 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "85f57c7a3d42",
           "992e00bfb441",
           "9b9420b910a0"
         ],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "29ccac07cf0f",
+      "title": "Why Static Skill Inconsistencies Do Not Equate to Runtime Risks: A Behavioral Analysis of LLM Agent Execution",
+      "url": "https://arxiv.org/abs/2610.18927",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.18927v1 Announce Type: new \nAbstract: LLM agent frameworks heavily rely on external skill assets to standardize tool usage, encode operational workflows, and supply executable runtime resources. Despite their widespread adoption,...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ec62495a210e",
+      "title": "The Agentic Scientist: Orchestrating Coding Agents for Automated Scientific (Co-)Discovery",
+      "url": "https://arxiv.org/abs/2610.18933",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.18933v1 Announce Type: new \nAbstract: Modern coding agents are fundamentally reshaping the role of human input for computational research: they write code, launch in silico experiments, analyze their results, and autonomously operate...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
         "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e36338a3e257",
+      "title": "Beyond Equation Search: Conjecture-Guided Discovery with SCOPE and ClosureBench",
+      "url": "https://arxiv.org/abs/2610.18938",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.18938v1 Announce Type: new \nAbstract: Most symbolic regression methods optimize candidate equations, but improving an equation's fit does not establish whether its underlying scientific conjecture should be retained, revised, or...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "23a7538bfb55",
+      "title": "Discovering Undisclosed Concepts in LoRA Adapters for Diffusion-Based AIGC Models",
+      "url": "https://arxiv.org/abs/2610.18990",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.18990v1 Announce Type: new \nAbstract: Low-Rank Adaptation (LoRA) has made diffusion model personalization affordable and widely shareable, but it also creates moderation risks when harmful or problematic content is not faithfully...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6faf16b3bed3",
+      "title": "Smart Alone, Blind Together: Why Accuracy Fails to CertifyTheory of Mind in Multi-Agent Teams",
+      "url": "https://arxiv.org/abs/2610.19051",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19051v1 Announce Type: new \nAbstract: Coordinators that act on what they infer about teammates are usually certified by the accuracy of those inferences. We argue that accuracy is the wrong certificate, for two reasons. First, the...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ddbe3f2892a2",
+      "title": "RLPE: Teaching LLMs to Prompt with Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.19062",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19062v1 Announce Type: new \nAbstract: Prompting is a widely used method for adapting general-purpose LLMs to domain-specific tasks. Effective prompts can be tedious to create manually, so prompt writing is increasingly handed to LLMs,...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Prompt"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "b2f8d49ca17b",
+          "1c1b8e5c2656"
+        ],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ae73b6aacf1a",
+      "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
+      "url": "https://arxiv.org/abs/2610.19068",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19068v1 Announce Type: new \nAbstract: Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt. The...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "b2f8d49ca17b",
+      "title": "GroundGUI: GUI Grounding by High-Quality Data and Distillation-to-Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.19100",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19100v1 Announce Type: new \nAbstract: Constructing robust GUI agents relies on multimodal visual grounding: the ability to precisely map natural language intents to actionable on-screen components. Despite abundant desktop, web, and...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "ddbe3f2892a2"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d2c761814bb7",
+      "title": "Plant Memory: Technical Language Processing and a Verified Maintenance Ontology for Agent-Accessible Failure Knowledge from SAP PM Work Orders",
+      "url": "https://arxiv.org/abs/2610.19131",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19131v1 Announce Type: new \nAbstract: Maintenance work orders are the largest written record of how industrial equipment fails, yet in most plants they are close to unusable for analysis. Short texts are abbreviated and misspelt, asset...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9d02c5dd7416",
+      "title": "Graph-Based Orchestration of Heterogeneous AI Models: A Control Node Approach to Composite Intelligence",
+      "url": "https://arxiv.org/abs/2610.19136",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19136v1 Announce Type: new \nAbstract: We present a graph-based framework for Composite AI systems that integrate multiple AI techniques to address complex problems. We describe an architecture using specialized control nodes to...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "173546e33310"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ac6f89e49792",
+      "title": "Compiling Expert Procedures into Verified Programs: When a Small Model Is Enough",
+      "url": "https://arxiv.org/abs/2610.19148",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19148v1 Announce Type: new \nAbstract: In procedural tool-use domains, how much of the gap between base models is procedure rather than capability? We build an explicit program from a teacher's traces and run it in front of unchanged...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fcc6c45154f2",
+      "title": "AgentCIScope: Grounded Contextual Integrity Evaluation for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.19158",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19158v1 Announce Type: new \nAbstract: LLM agents are becoming increasingly capable of handling daily workspace tasks by interacting with application environments through tool calls. However, as agents read and write sensitive user data...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6d0397255aad",
+      "title": "Into the Unknown: Benchmarking AI agents on open scientific research problems",
+      "url": "https://arxiv.org/abs/2610.19159",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19159v1 Announce Type: new \nAbstract: Can AI agents carry out research on open scientific problems? We introduce Into the Unknown, a benchmark that provides an agent with a science paper along with a research direction to pursue and...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5f0a783b64d5",
+      "title": "ListQA: A Benchmark for Evaluating List-Formatted Factual Knowledge Retrieval in Large Language Models",
+      "url": "https://arxiv.org/abs/2610.19165",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19165v1 Announce Type: new \nAbstract: Many real-world questions demand not a single fact but an organized collection of them, yet existing factual knowledge benchmarks almost exclusively target single answer retrieval. We introduce...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d6706e398854",
+      "title": "Verification Turns Capability Gaps into Routing Decisions: Small Language Models for Clinical Documentation",
+      "url": "https://arxiv.org/abs/2610.19169",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.19169v1 Announce Type: new \nAbstract: Clinical note generation from doctor--patient dialogue is high-volume and hallucination-intolerant: a fabricated laboratory value can create patient-safety risk, not a quality regression. We ask...",
+      "published": "2026-10-15T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1182,10 +1637,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "85f57c7a3d42",
           "992e00bfb441",
           "60a185e58e9c"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1209,6 +1665,25 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8ec6278a3e32",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "published": "2026-10-15T00:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1677,9 +2152,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "ddbe3f2892a2",
           "aea5874b538b"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
