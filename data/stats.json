@@ -1,18 +1,18 @@
 {
-  "updated": "2026-10-16T03:37:43Z",
-  "total": 229,
+  "updated": "2026-10-16T13:09:22Z",
+  "total": 260,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 30
     },
     {
       "name": "GitHub Trending",
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 71
+      "count": 79
     },
     {
       "name": "LLM",
-      "count": 28
+      "count": 31
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 15
     },
     {
       "name": "OpenAI",
@@ -57,7 +57,15 @@
       "count": 8
     },
     {
+      "name": "Diffusion",
+      "count": 7
+    },
+    {
       "name": "Claude",
+      "count": 6
+    },
+    {
+      "name": "API",
       "count": 6
     },
     {
@@ -65,11 +73,7 @@
       "count": 6
     },
     {
-      "name": "Diffusion",
-      "count": 5
-    },
-    {
-      "name": "API",
+      "name": "Gemini",
       "count": 5
     },
     {
@@ -77,12 +81,12 @@
       "count": 4
     },
     {
-      "name": "Gemini",
+      "name": "Qwen",
       "count": 4
     },
     {
-      "name": "Qwen",
-      "count": 4
+      "name": "RAG",
+      "count": 3
     },
     {
       "name": "GPT",
@@ -97,7 +101,7 @@
       "count": 3
     },
     {
-      "name": "RAG",
+      "name": "Llama",
       "count": 2
     },
     {
@@ -107,10 +111,6 @@
     {
       "name": "Anthropic",
       "count": 2
-    },
-    {
-      "name": "Llama",
-      "count": 1
     },
     {
       "name": "Transformer",
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 159
+      "count": 190
     },
     {
       "name": "开源项目",
@@ -158,47 +158,17 @@
     },
     {
       "date": "10-15",
-      "count": 60
+      "count": 59
     },
     {
       "date": "10-16",
-      "count": 9
+      "count": 42
     }
   ],
   "top10": [
     {
-      "id": "0135e142dae8",
-      "title": "morluto /rea",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "bf559441b24d",
       "title": "K-Dense-AI /scientific-agent-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "021dcfb5e16a",
-      "title": "JuliusBrussee /caveman",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "9a16f8b0667e",
-      "title": "ruvnet /ruflo",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "1bcf0237559d",
-      "title": "mksglu /context-mode",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -209,22 +179,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "85f57c7a3d42",
-      "title": "Meta Releases Muse Spark Open: 816B Open-Weight MoE With 1M Context",
+      "id": "12e952795179",
+      "title": "HKUDS /CLI-Anything",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1bcf0237559d",
+      "title": "mksglu /context-mode",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "9a16f8b0667e",
+      "title": "ruvnet /ruflo",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "daa093ad283d",
+      "title": "Liquid AI Releases d1-ultra: A Multimodal Decision Model That Scores 65 on the AA Decision Index",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "bf51e8166946",
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "id": "8cfb231ea219",
+      "title": "DeepUnfolding_Agent: A Classical_Quantum Adaptive Control API",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "fe5649d96d8a",
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "id": "fc761ae67553",
+      "title": "PRISM: PRIvileged Sibling-guided Multi-Agent Topology Design",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "d257421311c0",
+      "title": "A Large-Scale Dataset for Multi-Class Financial News Classification in Brazilian Portuguese",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
