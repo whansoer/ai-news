@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-18T12:33:45Z",
-  "total": 190,
-  "new_count": 39,
+  "updated": "2026-10-18T18:34:08Z",
+  "total": 191,
+  "new_count": 36,
   "items": [
     {
       "id": "ce3a785ea3a9",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "published": "2026-10-18T12:31:38Z",
+      "published": "2026-10-18T18:31:59Z",
       "tags": [
         "Claude"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open source coding agent.",
-      "published": "2026-10-18T12:31:38Z",
+      "published": "2026-10-18T18:31:59Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native...",
-      "published": "2026-10-18T12:31:38Z",
+      "published": "2026-10-18T18:31:59Z",
       "tags": [
         "Claude",
         "Agent",
@@ -89,40 +89,13 @@
       "oneliner": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflow"
     },
     {
-      "id": "44154b46b32c",
-      "title": "akitaonrails /ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "published": "2026-10-18T12:31:38Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "akitaonrails /ai-memory",
-      "summary_zh": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen"
-    },
-    {
       "id": "d7dc32f00be2",
       "title": "stablyai /orca",
       "url": "https://github.com/stablyai/orca",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "published": "2026-10-18T12:31:38Z",
+      "published": "2026-10-18T18:31:59Z",
       "tags": [
         "Claude",
         "Agent"
@@ -151,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "published": "2026-10-18T12:31:38Z",
+      "published": "2026-10-18T18:31:59Z",
       "tags": [
         "Agent"
       ],
@@ -170,6 +143,60 @@
         "Agent"
       ],
       "oneliner": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/"
+    },
+    {
+      "id": "dc69b86c13a8",
+      "title": "mlabonne /llm-course",
+      "url": "https://github.com/mlabonne/llm-course",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "published": "2026-10-18T18:31:59Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "mlabonne /llm-course",
+      "summary_zh": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks."
+    },
+    {
+      "id": "44154b46b32c",
+      "title": "akitaonrails /ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "published": "2026-10-18T12:31:38Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "akitaonrails /ai-memory",
+      "summary_zh": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen"
     },
     {
       "id": "ea2e30a747c9",
@@ -536,12 +563,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
-      "summary_zh": "arXiv:2610.20675v1 Announce Type: new \nAbstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understanding agent performance requires linking...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.20675v1 Announce Type: new \nAbstract: Agents pair reasoning models with harnesses that or"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "7b574e2d662d",
