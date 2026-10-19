@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T03:44:30Z",
+  "updated": "2026-10-19T15:27:44Z",
   "total": 20,
   "items": [
     {
@@ -31,6 +31,20 @@
       }
     },
     {
+      "id": "44154b46b32c",
+      "title_zh": "akitaonrails /ai-memory",
+      "summary_zh": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "9a16f8b0667e",
       "title_zh": "ruvnet /ruflo",
       "summary_zh": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native...",
@@ -40,20 +54,6 @@
         "RAG"
       ],
       "oneliner": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflow",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "44154b46b32c",
-      "title_zh": "akitaonrails /ai-memory",
-      "summary_zh": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -76,6 +76,22 @@
       }
     },
     {
+      "id": "fa9f0509ee9e",
+      "title_zh": "headroomlabs-ai /headroom",
+      "summary_zh": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "tags_zh": [
+        "LLM",
+        "Agent",
+        "RAG"
+      ],
+      "oneliner": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for c",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "12e952795179",
       "title_zh": "HKUDS /CLI-Anything",
       "summary_zh": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
@@ -90,14 +106,13 @@
       }
     },
     {
-      "id": "5dc8ca706e4f",
-      "title_zh": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
-      "summary_zh": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 209M model leads GIFT-Eval, TIME and fev-bench among zero-shot models and runs on CPU.\nThe post Mistral AI Releases Timestral: A 209M Forecasting...",
+      "id": "db794c9df8f0",
+      "title_zh": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
+      "summary_zh": "MiniMax has released M3.1 Flash, a 428B-parameter MoE model with about 23B active parameters and a 1M-token context. API pricing is $0.15/$0.60 per 1M tokens, with weights due October 23\nThe post MiniMax Just Launched M3.1 Flash: 428B MoE Agentic...",
       "tags_zh": [
-        "Mistral",
-        "Google"
+        "Agent"
       ],
-      "oneliner": "Mistral released Timestral, a time series foundation model family from 5M to 209M parameters. The 20",
+      "oneliner": "MiniMax has released M3.1 Flash, a 428B-parameter MoE model with about 23B active parameters and a 1",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -105,177 +120,161 @@
       }
     },
     {
-      "id": "dc69b86c13a8",
-      "title_zh": "mlabonne /llm-course",
-      "summary_zh": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
+      "id": "12ba00c6cb7a",
+      "title_zh": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+      "summary_zh": "arXiv:2610.22428v1 Announce Type: new \nAbstract: In a small language model the vocabulary is the single largest part. In Gemma 3 270M the embedding table holds 168M of 268M parameters, and because quantisation methods leave the embedding in...",
+      "tags_zh": [
+        "Embedding"
+      ],
+      "oneliner": "arXiv:2610.22428v1 Announce Type: new \nAbstract: In a small language model the vocabulary is the sin",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2954dd4f4ba4",
+      "title_zh": "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
+      "summary_zh": "arXiv:2610.22454v1 Announce Type: new \nAbstract: Running prompt tokens through fewer routed experts during prefill is a simple way to make mixture-of-experts (MoE) serving cheaper, yet it is unclear what this damages. We locate the damage with...",
+      "tags_zh": [
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2610.22454v1 Announce Type: new \nAbstract: Running prompt tokens through fewer routed experts ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "33410294f7fd",
+      "title_zh": "From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions",
+      "summary_zh": "arXiv:2610.22468v1 Announce Type: new \nAbstract: Action nominal constructions (ANCs) express events in nominal form, with their argument marking following patterns found in clauses or ordinary noun phrases. In this paper, we investigate how...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.22468v1 Announce Type: new \nAbstract: Action nominal constructions (ANCs) express events ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "33592ea79de4",
+      "title_zh": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
+      "summary_zh": "arXiv:2610.22507v1 Announce Type: new \nAbstract: Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2610.22507v1 Announce Type: new \nAbstract: Command-line interface (CLI) agents increasingly ex",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "025bf5462fdd",
+      "title_zh": "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems",
+      "summary_zh": "arXiv:2610.22511v1 Announce Type: new \nAbstract: Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric...",
+      "tags_zh": [
+        "Agent",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2610.22511v1 Announce Type: new \nAbstract: Evaluating language models and agents requires comb",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "d4df55255a1b",
+      "title_zh": "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
+      "summary_zh": "arXiv:2610.22515v1 Announce Type: new \nAbstract: We describe our submission to Subtask~1b of ImageEval 2026. The task consists of selecting the single visually valid statement from three candidates paired with an image, and is in both English and...",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "arXiv:2610.22515v1 Announce Type: new \nAbstract: We describe our submission to Subtask~1b of ImageEv",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "5db4d5eb04fb",
+      "title_zh": "Learning User Representations to Improve Simulation Fidelity",
+      "summary_zh": "arXiv:2610.22518v1 Announce Type: new \nAbstract: User simulators enable interactive training and evaluation of AI assistants at scale. Yet current simulators struggle to reproduce the diverse behaviors of real users, leading to assistants that...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.22518v1 Announce Type: new \nAbstract: User simulators enable interactive training and eva",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bf944f8608c3",
+      "title_zh": "alkhder at AlexandriaX-2026: Context-Aware English-to-Dialectal Arabic Dialogue Translation with QLoRA-Fine-Tuned NileChat-3B",
+      "summary_zh": "arXiv:2610.22525v1 Announce Type: new \nAbstract: This paper describes team Alkhder's submission to Subtask 1 of the AlexandriaX-2026 shared task, which asks systems to translate English dialogue turns into thirteen Arabic dialects. We fine-tune...",
+      "tags_zh": [
+        "Fine-tune"
+      ],
+      "oneliner": "arXiv:2610.22525v1 Announce Type: new \nAbstract: This paper describes team Alkhder's submission to S",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "0dea5314871b",
+      "title_zh": "Literal Lock-In: How Test Language Shifts Literal Attraction in Typed Decision Models on Bengali Idioms",
+      "summary_zh": "arXiv:2610.22526v1 Announce Type: new \nAbstract: Decision models, non-generative scorers that report a probability over caller-supplied options and emit no text, are increasingly deployed as routers, classifiers and guardrails. Because they...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.22526v1 Announce Type: new \nAbstract: Decision models, non-generative scorers that report",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "638de366d1f7",
+      "title_zh": "Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX",
+      "summary_zh": "arXiv:2610.22529v1 Announce Type: new \nAbstract: Autoregressive foundation language models predominantly target high-resource Indo-European languages, imposing computational and morphological penalties on under-represented African languages....",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.22529v1 Announce Type: new \nAbstract: Autoregressive foundation language models predomina",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "45516630393e",
+      "title_zh": "HeRE: A Novel Benchmark for Hebrew Relation Extraction via LLM-Guided Denoising of Knowledge Graph Alignments",
+      "summary_zh": "arXiv:2610.22542v1 Announce Type: new \nAbstract: While LLMs demonstrate strong capabilities in English Relation Extraction (RE) tasks, a significant gap remains in assessing their RE performance in low-resource languages, due to a lack of...",
+      "tags_zh": [
+        "LLM",
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2610.22542v1 Announce Type: new \nAbstract: While LLMs demonstrate strong capabilities in Engli",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bbeb5341afba",
+      "title_zh": "Cultural (In)Competence: Investigating Culture-Specific Stereotype Detection Capabilities of LLMs",
+      "summary_zh": "arXiv:2610.22545v1 Announce Type: new \nAbstract: Stereotypes are subjective constructs that are mediated by the cultural context in which they are viewed. Successfully modeling them thus also requires cultural competence. When using large...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "cb7311935354",
-      "title_zh": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
-      "summary_zh": "An AI agent that reads the web pays 2 kinds of cost. The first is the retrieval charge: what a search or fetch API bills per request. The second is model processing: content passed from retrieved pages into an AI model consumes tokens, while...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "An AI agent that reads the web pays 2 kinds of cost. The first is the retrieval charge: what a searc",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ea2e30a747c9",
-      "title_zh": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
-      "summary_zh": "Google Research released Harness2, an Apache-2.0 framework that rewrites an agent's harness at test time. One refinement step lifted GLM-5 by 11.5 points on WorkBuddy-Bench with no weight updates.\nThe post Google Open-Sources Harness2, a...",
-      "tags_zh": [
-        "Google",
-        "Agent"
-      ],
-      "oneliner": "Google Research released Harness2, an Apache-2.0 framework that rewrites an agent's harness at test ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "481264d4a5f9",
-      "title_zh": "How to Make Zero-Training Tabular Predictions with NVIDIA Structured Data Models",
-      "summary_zh": "In this tutorial, we implement Structured Data Models, NVIDIA&#8217;s new library that puts several pretrained foundation models for tables behind one PyTorch interface, and use it to make predictions without training. The library wraps TabICLv2...",
-      "tags_zh": [],
-      "oneliner": "In this tutorial, we implement Structured Data Models, NVIDIA&#8217;s new library that puts several ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "2391cd480518",
-      "title_zh": "Meet Voxel51 3.0: A Unified Multimodal Data Platform for Physical AI",
-      "summary_zh": "Voxel51 3.0 merges search, curation, annotation and evaluation of multimodal sensor data into one platform for physical AI teams. It adds Voxel51 Agent with 45+ MCP tools, dataset versioning, and a free self-service tier.\nThe post Meet Voxel51...",
-      "tags_zh": [],
-      "oneliner": "Voxel51 3.0 merges search, curation, annotation and evaluation of multimodal sensor data into one pl",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a90d342e2181",
-      "title_zh": "affaan-m /ECC",
-      "summary_zh": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "tags_zh": [
-        "Claude",
-        "Agent"
-      ],
-      "oneliner": "The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "bf559441b24d",
-      "title_zh": "K-Dense-AI /scientific-agent-skills",
-      "summary_zh": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery....",
-      "tags_zh": [
-        "Claude",
-        "Agent"
-      ],
-      "oneliner": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ sc",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1e61851c7eb0",
-      "title_zh": "anthropics /claude-code",
-      "summary_zh": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "tags_zh": [
-        "Claude",
-        "Anthropic",
-        "Agent"
-      ],
-      "oneliner": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and he",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1bcc07dcc672",
-      "title_zh": "Meet Kyutai REKI: The 2.4B VLA Model Bringing Efficient Memory to Robot Manipulation",
-      "summary_zh": "Kyutai, with Inria and École des Ponts, has released REKI, a 2.4B vision-language-action model (VLA) for robot manipulation. The REKI vision-language-action model is pretrained only on public data. It also carries a cheap memory of its recent...",
-      "tags_zh": [],
-      "oneliner": "Kyutai, with Inria and École des Ponts, has released REKI, a 2.4B vision-language-action model (VLA)",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4d4dc0f4b6bd",
-      "title_zh": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
-      "summary_zh": "DeepSeek has just released DeepSeek-V4.1-Flash-1017, a new checkpoint of its V4.1-Flash model. It is live on the DeepSeek website, app and API. DeepSeek claims stronger scores, faster task completion and shorter outputs than the September...",
-      "tags_zh": [
-        "DeepSeek",
-        "API"
-      ],
-      "oneliner": "DeepSeek has just released DeepSeek-V4.1-Flash-1017, a new checkpoint of its V4.1-Flash model. It is",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "50ecfea85955",
-      "title_zh": "20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026",
-      "summary_zh": "TypeSafe launched Jev on September 15, 2026. It is a decision model, not a chatbot. You define the allowed answers, and Jev returns a label, a score or a yes/no probability. In about 4 weeks, at least 20 Jev alternatives shipped. They come from...",
-      "tags_zh": [],
-      "oneliner": "TypeSafe launched Jev on September 15, 2026. It is a decision model, not a chatbot. You define the a",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f9ac436e421c",
-      "title_zh": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context",
-      "summary_zh": "StepFun has released Step 5 Preview as open weights. FP8 and BF16 checkpoints are live on Hugging Face and ModelScope. Step 5 Preview is a sparse Mixture-of-Experts model from StepFun built for long-horizon agentic work. It has 600B total...",
-      "tags_zh": [],
-      "oneliner": "StepFun has released Step 5 Preview as open weights. FP8 and BF16 checkpoints are live on Hugging Fa",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "581a985ab08c",
-      "title_zh": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "summary_zh": "arXiv:2610.20665v1 Announce Type: new \nAbstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.20665v1 Announce Type: new \nAbstract: Large language model (LLM) agents can solve complex",
+      "oneliner": "arXiv:2610.22545v1 Announce Type: new \nAbstract: Stereotypes are subjective constructs that are medi",
       "key_facts": [],
       "notable_quote": {
         "text": "",

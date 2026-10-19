@@ -1,29 +1,29 @@
 {
-  "updated": "2026-10-19T03:44:20Z",
-  "total": 225,
+  "updated": "2026-10-19T15:27:34Z",
+  "total": 242,
   "sources": [
+    {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 60
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 60
-    },
-    {
       "name": "MarkTechPost",
-      "count": 27
+      "count": 29
     },
     {
       "name": "GitHub Trending",
-      "count": 22
-    },
-    {
-      "name": "Hugging Face",
-      "count": 16
+      "count": 23
     },
     {
       "name": "OpenAI",
+      "count": 15
+    },
+    {
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 71
+      "count": 75
     },
     {
       "name": "LLM",
-      "count": 24
+      "count": 27
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 15
     },
     {
       "name": "Claude",
@@ -61,12 +61,20 @@
       "count": 6
     },
     {
+      "name": "RAG",
+      "count": 5
+    },
+    {
       "name": "API",
       "count": 5
     },
     {
       "name": "Diffusion",
       "count": 5
+    },
+    {
+      "name": "Prompt",
+      "count": 4
     },
     {
       "name": "DeepSeek",
@@ -81,7 +89,7 @@
       "count": 4
     },
     {
-      "name": "RAG",
+      "name": "GPU",
       "count": 3
     },
     {
@@ -89,16 +97,16 @@
       "count": 3
     },
     {
-      "name": "Prompt",
-      "count": 3
+      "name": "Embedding",
+      "count": 2
     },
     {
       "name": "Llama",
       "count": 2
     },
     {
-      "name": "GPU",
-      "count": 2
+      "name": "Fine-tune",
+      "count": 1
     },
     {
       "name": "Mistral",
@@ -120,7 +128,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 157
+      "count": 174
     },
     {
       "name": "开源项目",
@@ -158,7 +166,7 @@
     },
     {
       "date": "10-19",
-      "count": 7
+      "count": 25
     }
   ],
   "top10": [
@@ -175,14 +183,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9a16f8b0667e",
-      "title": "ruvnet /ruflo",
+      "id": "44154b46b32c",
+      "title": "akitaonrails /ai-memory",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "44154b46b32c",
-      "title": "akitaonrails /ai-memory",
+      "id": "9a16f8b0667e",
+      "title": "ruvnet /ruflo",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -193,34 +201,34 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "fa9f0509ee9e",
+      "title": "headroomlabs-ai /headroom",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "12e952795179",
       "title": "HKUDS /CLI-Anything",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "5dc8ca706e4f",
-      "title": "Mistral AI Releases Timestral: A 209M Forecasting Model Family That Outperforms Google’s TimesFM-3",
+      "id": "db794c9df8f0",
+      "title": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "dc69b86c13a8",
-      "title": "mlabonne /llm-course",
+      "id": "12ba00c6cb7a",
+      "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "cb7311935354",
-      "title": "TinyFish Makes Search Free: What It Really Costs an AI Agent to Read the Web",
+      "id": "2954dd4f4ba4",
+      "title": "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
       "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "ea2e30a747c9",
-      "title": "Google Open-Sources Harness2, a Recursive Agent Harnessing Framework",
-      "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
