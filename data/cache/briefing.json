@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-18T18:34:08Z",
-  "count": 480,
+  "updated": "2026-10-19T03:35:06Z",
+  "count": 481,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -30718,6 +30718,70 @@
         }
       },
       "_ts": 1792348448
+    },
+    "7138171dd53d9fc7": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录228篇AI新闻，分类分布：学术研究160篇, 开源项目38篇, 模型发布30篇。热门标签：Agent（71篇）。其中13%的文章有多来源交叉验证。\n\n▸ MadsLorentzen /ai-job-search：The job search that runs on your machine. AI job application framework built on Claude Code: evaluat\n\n▸ anomalyco /opencode：The open source coding agent.\n\n▸ ruvnet /ruflo：🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflow\n\n▸ akitaonrails /ai-memory：Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen\n\n▸ stablyai /orca：Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding ag",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "MadsLorentzen/ai-job-search",
+            "url": "https://github.com/MadsLorentzen/ai-job-search",
+            "why_hot": "单日2232星，Python项目",
+            "stars_today": 2232,
+            "total_stars": 53745
+          },
+          {
+            "full_name": "anthropics/claude-plugins-official",
+            "url": "https://github.com/anthropics/claude-plugins-official",
+            "why_hot": "单日1175星，Python项目",
+            "stars_today": 1175,
+            "total_stars": 42796
+          },
+          {
+            "full_name": "morluto/rea",
+            "url": "https://github.com/morluto/rea",
+            "why_hot": "单日0星，TypeScript项目",
+            "stars_today": 0,
+            "total_stars": 324282
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "228"
+          },
+          {
+            "label": "多源验证率",
+            "value": "13%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7581"
+          }
+        ],
+        "must_read_ids": [
+          "ce3a785ea3a9",
+          "9bde5582e8ba",
+          "9a16f8b0667e",
+          "44154b46b32c",
+          "d7dc32f00be2"
+        ],
+        "text": "今日共收录228篇AI新闻，分类分布：学术研究160篇, 开源项目38篇, 模型发布30篇。热门标签：Agent（71篇）。其中13%的文章有多来源交叉验证。",
+        "top_items": [
+          "MadsLorentzen /ai-job-search",
+          "anomalyco /opencode",
+          "ruvnet /ruflo",
+          "akitaonrails /ai-memory",
+          "stablyai /orca"
+        ],
+        "meta": {
+          "total_articles": 228,
+          "multi_source_pct": 13
+        }
+      },
+      "_ts": 1792380906
     }
   }
 }
