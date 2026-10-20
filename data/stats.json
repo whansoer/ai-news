@@ -1,29 +1,29 @@
 {
-  "updated": "2026-10-20T03:55:28Z",
-  "total": 211,
+  "updated": "2026-10-20T13:29:48Z",
+  "total": 248,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 45
+      "count": 60
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "GitHub Trending",
-      "count": 22
-    },
-    {
-      "name": "OpenAI",
-      "count": 15
+      "count": 27
     },
     {
       "name": "Hugging Face",
+      "count": 15
+    },
+    {
+      "name": "OpenAI",
       "count": 15
     },
     {
@@ -38,30 +38,42 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 65
+      "count": 73
     },
     {
       "name": "LLM",
-      "count": 22
+      "count": 28
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 15
     },
     {
       "name": "Claude",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Google",
       "count": 8
     },
     {
+      "name": "Diffusion",
+      "count": 7
+    },
+    {
+      "name": "Prompt",
+      "count": 6
+    },
+    {
+      "name": "API",
+      "count": 6
+    },
+    {
       "name": "Meta",
       "count": 6
     },
     {
-      "name": "Diffusion",
+      "name": "DeepSeek",
       "count": 5
     },
     {
@@ -69,11 +81,11 @@
       "count": 4
     },
     {
-      "name": "DeepSeek",
+      "name": "Gemini",
       "count": 4
     },
     {
-      "name": "API",
+      "name": "GPT",
       "count": 4
     },
     {
@@ -81,19 +93,11 @@
       "count": 4
     },
     {
-      "name": "Prompt",
-      "count": 3
-    },
-    {
-      "name": "Gemini",
-      "count": 3
-    },
-    {
-      "name": "GPT",
-      "count": 3
-    },
-    {
       "name": "Embedding",
+      "count": 3
+    },
+    {
+      "name": "Transformer",
       "count": 2
     },
     {
@@ -119,20 +123,16 @@
     {
       "name": "Microsoft",
       "count": 1
-    },
-    {
-      "name": "Qwen",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 144
+      "count": 176
     },
     {
       "name": "开源项目",
-      "count": 37
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -166,7 +166,7 @@
     },
     {
       "date": "10-20",
-      "count": 8
+      "count": 48
     }
   ],
   "top10": [
@@ -177,20 +177,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9bde5582e8ba",
-      "title": "anomalyco /opencode",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "44154b46b32c",
-      "title": "akitaonrails /ai-memory",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "9a16f8b0667e",
-      "title": "ruvnet /ruflo",
+      "id": "1a92f63bf14a",
+      "title": "cloudflare /security-audit-skill",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -201,34 +189,46 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "fa9f0509ee9e",
-      "title": "headroomlabs-ai /headroom",
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "12e952795179",
-      "title": "HKUDS /CLI-Anything",
+      "id": "9a16f8b0667e",
+      "title": "ruvnet /ruflo",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "7ccbe0dfde30",
-      "title": "Meet Drex Max: Nace AI’s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
+      "id": "68a6c284cff5",
+      "title": "Graphify-Labs /graphify",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "db794c9df8f0",
-      "title": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
+      "id": "420997b48065",
+      "title": "YuJunZhiXue /dsh-purge",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "8dad8d5fd5f8",
-      "title": "Advancing coding in low‑resource programming languages",
+      "id": "9bde5582e8ba",
+      "title": "anomalyco /opencode",
       "score": 5,
-      "source": "OpenAI"
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5dfe15d5980d",
+      "title": "msitarzewski /agency-agents",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4206e4d31029",
+      "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }

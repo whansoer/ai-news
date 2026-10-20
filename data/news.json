@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-20T03:55:38Z",
-  "total": 178,
-  "new_count": 34,
+  "updated": "2026-10-20T13:29:58Z",
+  "total": 214,
+  "new_count": 70,
   "items": [
     {
       "id": "ce3a785ea3a9",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "published": "2026-10-20T03:53:31Z",
+      "published": "2026-10-20T13:27:47Z",
       "tags": [
         "Claude"
       ],
@@ -31,13 +31,13 @@
       "oneliner": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluat"
     },
     {
-      "id": "9bde5582e8ba",
-      "title": "anomalyco /opencode",
-      "url": "https://github.com/anomalyco/opencode",
+      "id": "1a92f63bf14a",
+      "title": "cloudflare /security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "The open source coding agent.",
-      "published": "2026-10-20T03:53:31Z",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "published": "2026-10-20T13:27:47Z",
       "tags": [
         "Agent"
       ],
@@ -50,21 +50,50 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "anomalyco /opencode",
-      "summary_zh": "The open source coding agent.",
+      "title_zh": "cloudflare /security-audit-skill",
+      "summary_zh": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "The open source coding agent."
+      "oneliner": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable f"
     },
     {
-      "id": "44154b46b32c",
-      "title": "akitaonrails /ai-memory",
-      "url": "https://github.com/akitaonrails/ai-memory",
+      "id": "d7dc32f00be2",
+      "title": "stablyai /orca",
+      "url": "https://github.com/stablyai/orca",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-      "published": "2026-10-20T03:53:31Z",
+      "summary": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "published": "2026-10-20T13:27:47Z",
+      "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "stablyai /orca",
+      "summary_zh": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "tags_zh": [
+        "Claude",
+        "Agent"
+      ],
+      "oneliner": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding ag"
+    },
+    {
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "published": "2026-10-20T13:27:47Z",
       "tags": [
         "Agent"
       ],
@@ -77,12 +106,12 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "akitaonrails /ai-memory",
-      "summary_zh": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "title_zh": "DietrichGebert /ponytail",
+      "summary_zh": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agen"
+      "oneliner": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev"
     },
     {
       "id": "9a16f8b0667e",
@@ -91,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native...",
-      "published": "2026-10-20T03:53:31Z",
+      "published": "2026-10-20T13:27:47Z",
       "tags": [
         "Claude",
         "Agent",
@@ -116,15 +145,72 @@
       "oneliner": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflow"
     },
     {
-      "id": "d7dc32f00be2",
-      "title": "stablyai /orca",
-      "url": "https://github.com/stablyai/orca",
+      "id": "68a6c284cff5",
+      "title": "Graphify-Labs /graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "published": "2026-10-20T03:53:31Z",
+      "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "published": "2026-10-20T13:27:47Z",
       "tags": [
         "Claude",
+        "Gemini"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Graphify-Labs /graphify",
+      "summary_zh": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "tags_zh": [
+        "Claude",
+        "Gemini"
+      ],
+      "oneliner": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. "
+    },
+    {
+      "id": "420997b48065",
+      "title": "YuJunZhiXue /dsh-purge",
+      "url": "https://github.com/YuJunZhiXue/dsh-purge",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+      "published": "2026-10-20T13:27:47Z",
+      "tags": [
+        "DeepSeek",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "YuJunZhiXue /dsh-purge",
+      "summary_zh": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
+      "tags_zh": [
+        "DeepSeek",
+        "Prompt"
+      ],
+      "oneliner": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts pe"
+    },
+    {
+      "id": "9bde5582e8ba",
+      "title": "anomalyco /opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "The open source coding agent.",
+      "published": "2026-10-20T13:27:47Z",
+      "tags": [
         "Agent"
       ],
       "score": 5,
@@ -136,13 +222,856 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "stablyai /orca",
-      "summary_zh": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "title_zh": "anomalyco /opencode",
+      "summary_zh": "The open source coding agent.",
       "tags_zh": [
-        "Claude",
         "Agent"
       ],
-      "oneliner": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding ag"
+      "oneliner": "The open source coding agent."
+    },
+    {
+      "id": "5dfe15d5980d",
+      "title": "msitarzewski /agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "published": "2026-10-20T13:27:47Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "msitarzewski /agency-agents",
+      "summary_zh": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi"
+    },
+    {
+      "id": "4206e4d31029",
+      "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
+      "url": "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Exa 3.0 is a search API upgrade from Exa. It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself.\nThe post Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8...",
+      "published": "2026-10-20T08:12:21Z",
+      "tags": [
+        "API",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
+      "summary_zh": "Exa 3.0 is a search API upgrade from Exa. It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself.\nThe post Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8...",
+      "tags_zh": [
+        "API",
+        "Benchmark"
+      ],
+      "oneliner": "Exa 3.0 is a search API upgrade from Exa. It adds a larger embedding model, Exa Lite at $4 per 1,000"
+    },
+    {
+      "id": "cfae9e885987",
+      "title": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
+      "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed values with confidence scores in one forward pass. It costs $0.10 per million input tokens and charges nothing for output.\nThe post Cloudflare...",
+      "published": "2026-10-20T07:45:41Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
+      "summary_zh": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed values with confidence scores in one forward pass. It costs $0.10 per million input tokens and charges nothing for output.\nThe post Cloudflare...",
+      "tags_zh": [],
+      "oneliner": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed val"
+    },
+    {
+      "id": "04298a1c68f8",
+      "title": "Modeling Human Behavior in the Prisoner's Dilemma with Large Language Models",
+      "url": "https://arxiv.org/abs/2610.23860",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.23860v1 Announce Type: new \nAbstract: The Prisoner's Dilemma has long served as a foundational framework for studying human decision-making and cooperative outcomes across social scenarios, yet human behavior consistently deviates from...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Modeling Human Behavior in the Prisoner's Dilemma with Large Language Models",
+      "summary_zh": "arXiv:2610.23860v1 Announce Type: new \nAbstract: The Prisoner's Dilemma has long served as a foundational framework for studying human decision-making and cooperative outcomes across social scenarios, yet human behavior consistently deviates from...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.23860v1 Announce Type: new \nAbstract: The Prisoner's Dilemma has long served as a foundat"
+    },
+    {
+      "id": "beb2046c5fb0",
+      "title": "Composable Parametric Demographic Injection for Values Survey Simulation",
+      "url": "https://arxiv.org/abs/2610.23867",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.23867v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as simulated respondents in computational social science, yet accurately reproducing population-specific heterogeneous response distributions...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Composable Parametric Demographic Injection for Values Survey Simulation",
+      "summary_zh": "arXiv:2610.23867v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as simulated respondents in computational social science, yet accurately reproducing population-specific heterogeneous response distributions...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.23867v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used "
+    },
+    {
+      "id": "0a03cdde02cd",
+      "title": "Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation",
+      "url": "https://arxiv.org/abs/2610.23868",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.23868v1 Announce Type: new \nAbstract: Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation",
+      "summary_zh": "arXiv:2610.23868v1 Announce Type: new \nAbstract: Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of...",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "arXiv:2610.23868v1 Announce Type: new \nAbstract: Machine translation systems often preserve meaning "
+    },
+    {
+      "id": "f1dd390c4d31",
+      "title": "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections",
+      "url": "https://arxiv.org/abs/2610.24048",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24048v1 Announce Type: new \nAbstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent",
+        "Prompt"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections",
+      "summary_zh": "arXiv:2610.24048v1 Announce Type: new \nAbstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single...",
+      "tags_zh": [
+        "LLM",
+        "Agent",
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2610.24048v1 Announce Type: new \nAbstract: LLM agents that read untrusted content can be hijac"
+    },
+    {
+      "id": "a412191b093a",
+      "title": "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review",
+      "url": "https://arxiv.org/abs/2610.24050",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24050v1 Announce Type: new \nAbstract: As automated research is increasingly adopted for writing papers, automated review has become a critical link between paper generation and quality control. However, existing methods largely rely on...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review",
+      "summary_zh": "arXiv:2610.24050v1 Announce Type: new \nAbstract: As automated research is increasingly adopted for writing papers, automated review has become a critical link between paper generation and quality control. However, existing methods largely rely on...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.24050v1 Announce Type: new \nAbstract: As automated research is increasingly adopted for w"
+    },
+    {
+      "id": "8a2e0cf5d4a7",
+      "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+      "url": "https://arxiv.org/abs/2610.24087",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24087v1 Announce Type: new \nAbstract: Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+      "summary_zh": "arXiv:2610.24087v1 Announce Type: new \nAbstract: Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2610.24087v1 Announce Type: new \nAbstract: Can large language model (LLM) agents deliver exper"
+    },
+    {
+      "id": "ea8354d15787",
+      "title": "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles",
+      "url": "https://arxiv.org/abs/2610.24118",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24118v1 Announce Type: new \nAbstract: Variable roles describe recurring behaviors such as accumulation, traversal, and retaining the best candidate encountered. We use Sajaniemi's independently defined taxonomy to study which role...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles",
+      "summary_zh": "arXiv:2610.24118v1 Announce Type: new \nAbstract: Variable roles describe recurring behaviors such as accumulation, traversal, and retaining the best candidate encountered. We use Sajaniemi's independently defined taxonomy to study which role...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.24118v1 Announce Type: new \nAbstract: Variable roles describe recurring behaviors such as"
+    },
+    {
+      "id": "cc4169df6cb3",
+      "title": "Prefix-Tuning for Arbitrary Output Sequences on Pretrained Transformers",
+      "url": "https://arxiv.org/abs/2610.24123",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24123v1 Announce Type: new \nAbstract: Prefix-tuning is a parameter-efficient fine-tuning method for large language models (LLMs) that steers model outputs by prepending task-specific prefix representations to the input sequence....",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Transformer"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Prefix-Tuning for Arbitrary Output Sequences on Pretrained Transformers",
+      "summary_zh": "arXiv:2610.24123v1 Announce Type: new \nAbstract: Prefix-tuning is a parameter-efficient fine-tuning method for large language models (LLMs) that steers model outputs by prepending task-specific prefix representations to the input sequence....",
+      "tags_zh": [
+        "Transformer"
+      ],
+      "oneliner": "arXiv:2610.24123v1 Announce Type: new \nAbstract: Prefix-tuning is a parameter-efficient fine-tuning "
+    },
+    {
+      "id": "b3d383410152",
+      "title": "Preservation and loss of algorithmic structure in experimental diffusion of joint-action norms",
+      "url": "https://arxiv.org/abs/2610.24150",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24150v1 Announce Type: new \nAbstract: Everyday norms of social interaction - e.g. norms of sharing space, taking turns, or queuing - are essential to large societies, offering structured procedures for common interactions. However, it...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Diffusion"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Preservation and loss of algorithmic structure in experimental diffusion of joint-action norms",
+      "summary_zh": "arXiv:2610.24150v1 Announce Type: new \nAbstract: Everyday norms of social interaction - e.g. norms of sharing space, taking turns, or queuing - are essential to large societies, offering structured procedures for common interactions. However, it...",
+      "tags_zh": [
+        "Diffusion"
+      ],
+      "oneliner": "arXiv:2610.24150v1 Announce Type: new \nAbstract: Everyday norms of social interaction - e.g. norms o"
+    },
+    {
+      "id": "21b7fb6d0b1f",
+      "title": "CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation",
+      "url": "https://arxiv.org/abs/2610.24157",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24157v1 Announce Type: new \nAbstract: We present CoDA, an open-source human-LM collaborative codebook development assistant that helps domain experts develop annotation guidelines for annotating new variables in unstructured text with...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "35e494664b7c",
+      "title": "Pronouncing Hard Words: Phoneme Adaptation of a Pretrained Conversational Text to Speech Model",
+      "url": "https://arxiv.org/abs/2610.24164",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24164v1 Announce Type: new \nAbstract: Voice agents built as cascaded automatic speech recognition (ASR)->large language model (LLM)-> text-to-speech (TTS) pipelines increasingly rely on conversational TTS: streaming, context...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d23823a4dfa6",
+      "title": "Prosodic Structure as a Critical Component in Phonemic Language Modelling at BabyLM Scale",
+      "url": "https://arxiv.org/abs/2610.24172",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24172v1 Announce Type: new \nAbstract: Human children learn language from continuous, prosodically structured speech long before they can read, yet almost all language models train on orthographic text. Building on previous phonemic...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ff022c462a9d",
+      "title": "Multi-author style detection with stylistic embeddings",
+      "url": "https://arxiv.org/abs/2610.24184",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24184v1 Announce Type: new \nAbstract: We investigate the use of Large Language Models (LLMs) in multi-author style change detection. Using off-the-shelf LLMs or supervised fine-tuning solely within the target domain fails to yield...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Embedding"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f6a86b6cdfb7",
+      "title": "Reasoning with Context Management and External Memory",
+      "url": "https://arxiv.org/abs/2610.24187",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24187v1 Announce Type: new \nAbstract: Reasoning models maintain information about the status of their reasoning process through in-context memory. Complex problems require larger context windows and memory requirements. In this...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "598892170f30",
+      "title": "Language Models are Lazy Poets: Creative Mode Collapse at Scale",
+      "url": "https://arxiv.org/abs/2610.24223",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.24223v1 Announce Type: new \nAbstract: While aligned large language models (LLMs) can successfully complete many creative tasks, their outputs tend to be highly self-similar. Though solutions to this problem of \"mode collapse\" have been...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "706abe88fbf0",
+      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
+      "url": "https://arxiv.org/abs/2610.23866",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.23866v1 Announce Type: new \nAbstract: We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6660e3d44336",
+      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
+      "url": "https://arxiv.org/abs/2610.23921",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.23921v1 Announce Type: new \nAbstract: There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "65db6a733874",
+      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
+      "url": "https://arxiv.org/abs/2610.23962",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.23962v1 Announce Type: new \nAbstract: We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e38e498e7a88",
+      "title": "What Social Media Teaches Us About Accumulative AI Risks",
+      "url": "https://arxiv.org/abs/2610.24006",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24006v1 Announce Type: new \nAbstract: Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "efa7f96acebb",
+      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
+      "url": "https://arxiv.org/abs/2610.24010",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24010v1 Announce Type: new \nAbstract: Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0b49b02b4f5f",
+      "title": "Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis",
+      "url": "https://arxiv.org/abs/2610.24024",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24024v1 Announce Type: new \nAbstract: Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge....",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "d562b8701f2b",
+      "title": "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
+      "url": "https://arxiv.org/abs/2610.24051",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24051v1 Announce Type: new \nAbstract: Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts. Alongside this progress, numerous benchmarks have been...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "430c060200b8",
+      "title": "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
+      "url": "https://arxiv.org/abs/2610.24061",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24061v1 Announce Type: new \nAbstract: As teams of AI agents take on larger projects and long-standing open problems, agent collaboration offers another dimension for scaling inference-time compute. To understand what makes such...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3a949e9bd3b8",
+      "title": "Persistent Memory and Iterative Improvement in an LLM Agent for Chinese-Character Drawing",
+      "url": "https://arxiv.org/abs/2610.24090",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24090v1 Announce Type: new \nAbstract: Does persistent memory accumulated from previous attempts help an LLM agent solve new problems, and does memory design affect that benefit? We study programmatic Chinese-character drawing across...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "013d1fa5c55c",
+      "title": "Cache2LoRA: Understanding and Improving Context Internalization",
+      "url": "https://arxiv.org/abs/2610.24107",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24107v1 Announce Type: new \nAbstract: Context-to-LoRA methods encode documents as low-rank parameter updates, allowing language models to answer without retaining the source text in their decoding context. How reliably do these updates...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ca4e8a94024d",
+      "title": "Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins",
+      "url": "https://arxiv.org/abs/2610.24108",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24108v1 Announce Type: new \nAbstract: Jointly pretrained multimodal encoders are a common way to combine modalities, while alternatives integrate their information during downstream training or inference. When does each approach win?...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c861b34ae013",
+      "title": "A Conditional No-Hair Theorem for Transformers: How Language Models Forget Their Prompt",
+      "url": "https://arxiv.org/abs/2610.24133",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24133v1 Announce Type: new \nAbstract: We ask how much an autoregressive transformer retains of its prompt after generating $t$ tokens. Consider two different prompts followed by the same continuation text, so that any difference in...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Prompt",
+        "Transformer"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "4b2c078d6caf",
+      "title": "TorchTPU - A Hybrid Eager/Compiled Architecture for Native PyTorch Execution on TPU",
+      "url": "https://arxiv.org/abs/2610.24161",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24161v1 Announce Type: new \nAbstract: TorchTPU is an open-source collaboration between Google and Meta that introduces a native and principled PyTorch backend for Google TPUs. It enables seamless out-of-the-box model execution and TPU...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8b6f7260f93d",
+      "title": "Self-Improving Video-to-Action Models",
+      "url": "https://arxiv.org/abs/2610.24177",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24177v1 Announce Type: new \nAbstract: Video generative models are an emerging tool for embodied agents: they can serve as scalable visual planners, generating videos that depict how to complete previously unseen tasks. However,...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3a68731b6a70",
+      "title": "Agents' Last Doubt: Knowing When to Act and When to Step Back in Tool-Using Agents",
+      "url": "https://arxiv.org/abs/2610.24194",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2610.24194v1 Announce Type: new \nAbstract: Tool-using LLM agents repeatedly face decision points under uncertainty, choosing between autonomous action, additional information gathering, and human escalation. These decisions require...",
+      "published": "2026-10-20T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "44154b46b32c",
+      "title": "akitaonrails /ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "published": "2026-10-20T03:53:31Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "fa9f0509ee9e",
@@ -166,14 +1095,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "headroomlabs-ai /headroom",
-      "summary_zh": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "tags_zh": [
-        "LLM",
-        "Agent",
-        "RAG"
-      ],
-      "oneliner": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for c"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "12e952795179",
@@ -195,12 +1120,36 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "HKUDS /CLI-Anything",
-      "summary_zh": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "tags_zh": [
-        "Agent"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c032082f48b3",
+      "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+      "url": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Inception released Mercury 3, a diffusion LLM it says runs at 1,068 tokens per second with a 1M-token context. On Inception’s own table it leads GPT-6 Luna and Claude Haiku 5.5 on 8 of 12 benchmarks.\nThe post Inception Releases Mercury 3...",
+      "published": "2026-10-20T03:32:43Z",
+      "tags": [
+        "LLM",
+        "Diffusion"
       ],
-      "oneliner": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/"
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "7ccbe0dfde30",
@@ -222,12 +1171,56 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Meet Drex Max: Nace AI’s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
-      "summary_zh": "Nace AI released Drex Max, a multimodal decision model that reads text and screenshots and returns calibrated probabilities. Nace reports 67.59 on Decision Index 0.3.2 at $0.06 per 1M input tokens.\nThe post Meet Drex Max: Nace AI’s Multimodal...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Nace AI released Drex Max, a multimodal decision model that reads text and screenshots and returns c"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "ea9577625604",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-20T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2e40320aeb5e",
+      "title": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-20T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "db794c9df8f0",
@@ -249,12 +1242,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
-      "summary_zh": "MiniMax has released M3.1 Flash, a 428B-parameter MoE model with about 23B active parameters and a 1M-token context. API pricing is $0.15/$0.60 per 1M tokens, with weights due October 23\nThe post MiniMax Just Launched M3.1 Flash: 428B MoE Agentic...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "MiniMax has released M3.1 Flash, a 428B-parameter MoE model with about 23B active parameters and a 1"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "8dad8d5fd5f8",
@@ -274,10 +1265,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Advancing coding in low‑resource programming languages",
-      "summary_zh": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluation"
+      "oneliner": ""
     },
     {
       "id": "12ba00c6cb7a",
@@ -299,12 +1290,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
-      "summary_zh": "arXiv:2610.22428v1 Announce Type: new \nAbstract: In a small language model the vocabulary is the single largest part. In Gemma 3 270M the embedding table holds 168M of 268M parameters, and because quantisation methods leave the embedding in...",
-      "tags_zh": [
-        "Embedding"
-      ],
-      "oneliner": "arXiv:2610.22428v1 Announce Type: new \nAbstract: In a small language model the vocabulary is the sin"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "2954dd4f4ba4",
@@ -326,12 +1315,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
-      "summary_zh": "arXiv:2610.22454v1 Announce Type: new \nAbstract: Running prompt tokens through fewer routed experts during prefill is a simple way to make mixture-of-experts (MoE) serving cheaper, yet it is unclear what this damages. We locate the damage with...",
-      "tags_zh": [
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2610.22454v1 Announce Type: new \nAbstract: Running prompt tokens through fewer routed experts "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "33410294f7fd",
@@ -351,10 +1338,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "From Parallels to Divergence: Language Models' Learning of Action Nominal Constructions",
-      "summary_zh": "arXiv:2610.22468v1 Announce Type: new \nAbstract: Action nominal constructions (ANCs) express events in nominal form, with their argument marking following patterns found in clauses or ordinary noun phrases. In this paper, we investigate how...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.22468v1 Announce Type: new \nAbstract: Action nominal constructions (ANCs) express events "
+      "oneliner": ""
     },
     {
       "id": "33592ea79de4",
@@ -376,12 +1363,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "RealCLI: Toward a Unified Evaluation of Human-Agent Collaboration for CLI Agents",
-      "summary_zh": "arXiv:2610.22507v1 Announce Type: new \nAbstract: Command-line interface (CLI) agents increasingly execute longer-horizon tasks, yet existing benchmarks either assume that user instructions remain fixed throughout execution or evaluate task...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.22507v1 Announce Type: new \nAbstract: Command-line interface (CLI) agents increasingly ex"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "025bf5462fdd",
@@ -404,13 +1389,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "AuditKIT: A Unified Evaluation Spine for Benchmarking, Judging, and Comparing Large Language Models and Agentic Systems",
-      "summary_zh": "arXiv:2610.22511v1 Announce Type: new \nAbstract: Evaluating language models and agents requires combining benchmark accuracy, judge-based assessment, runtime performance, tool-use behavior, and retrieval quality. Differences in interfaces, metric...",
-      "tags_zh": [
-        "Agent",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2610.22511v1 Announce Type: new \nAbstract: Evaluating language models and agents requires comb"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d4df55255a1b",
@@ -432,12 +1414,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "alkhder at ImageEval 2026 Shared Tasks: Constrained Selection and Rotation-Averaged Logit Scoring for Multimodal Hallucination Detection",
-      "summary_zh": "arXiv:2610.22515v1 Announce Type: new \nAbstract: We describe our submission to Subtask~1b of ImageEval 2026. The task consists of selecting the single visually valid statement from three candidates paired with an image, and is in both English and...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "arXiv:2610.22515v1 Announce Type: new \nAbstract: We describe our submission to Subtask~1b of ImageEv"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "5db4d5eb04fb",
@@ -457,10 +1437,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Learning User Representations to Improve Simulation Fidelity",
-      "summary_zh": "arXiv:2610.22518v1 Announce Type: new \nAbstract: User simulators enable interactive training and evaluation of AI assistants at scale. Yet current simulators struggle to reproduce the diverse behaviors of real users, leading to assistants that...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.22518v1 Announce Type: new \nAbstract: User simulators enable interactive training and eva"
+      "oneliner": ""
     },
     {
       "id": "bf944f8608c3",
@@ -482,12 +1462,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "alkhder at AlexandriaX-2026: Context-Aware English-to-Dialectal Arabic Dialogue Translation with QLoRA-Fine-Tuned NileChat-3B",
-      "summary_zh": "arXiv:2610.22525v1 Announce Type: new \nAbstract: This paper describes team Alkhder's submission to Subtask 1 of the AlexandriaX-2026 shared task, which asks systems to translate English dialogue turns into thirteen Arabic dialects. We fine-tune...",
-      "tags_zh": [
-        "Fine-tune"
-      ],
-      "oneliner": "arXiv:2610.22525v1 Announce Type: new \nAbstract: This paper describes team Alkhder's submission to S"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "0dea5314871b",
@@ -507,10 +1485,10 @@
         "corroborating_ids": [],
         "score": 5
       },
-      "title_zh": "Literal Lock-In: How Test Language Shifts Literal Attraction in Typed Decision Models on Bengali Idioms",
-      "summary_zh": "arXiv:2610.22526v1 Announce Type: new \nAbstract: Decision models, non-generative scorers that report a probability over caller-supplied options and emit no text, are increasingly deployed as routers, classifiers and guardrails. Because they...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.22526v1 Announce Type: new \nAbstract: Decision models, non-generative scorers that report"
+      "oneliner": ""
     },
     {
       "id": "638de366d1f7",
@@ -530,10 +1508,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Pearl-Chat: Engineering a native Luganda language model from first principles in JAX and Flax NNX",
-      "summary_zh": "arXiv:2610.22529v1 Announce Type: new \nAbstract: Autoregressive foundation language models predominantly target high-resource Indo-European languages, imposing computational and morphological penalties on under-represented African languages....",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.22529v1 Announce Type: new \nAbstract: Autoregressive foundation language models predomina"
+      "oneliner": ""
     },
     {
       "id": "45516630393e",
@@ -4277,107 +5255,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6412315144a1",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "published": "2026-10-13T12:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a2a5e22fe575",
-      "title": "Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on Harvey LAB",
-      "url": "https://www.marktechpost.com/2026/10/13/zai-glm-legal-harvey-lab-legal-ai-model/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Z.ai’s GLM-Legal is a legal AI model built on GLM-5.3-Flash. It scores 19.2% all-pass on Harvey’s Legal Agent Benchmark, nearly 3x its base, at $0.15 per test. Access is by application.\nThe post Z.ai GLM-Legal Beats Claude Fable 5 and Kimi K3 on...",
-      "published": "2026-10-13T08:19:54Z",
-      "tags": [
-        "Claude"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5c33f43b602e",
-      "title": "open-webui /open-webui",
-      "url": "https://github.com/open-webui/open-webui",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "published": "2026-10-13T05:54:16Z",
-      "tags": [
-        "Llama",
-        "OpenAI",
-        "API"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "33b0d84c745e",
-      "title": "microsoft /BitNet",
-      "url": "https://github.com/microsoft/BitNet",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Official inference framework for 1-bit LLMs",
-      "published": "2026-10-13T05:54:16Z",
-      "tags": [
-        "Microsoft",
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
