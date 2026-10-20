@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-19T20:58:15Z",
-  "total": 210,
+  "updated": "2026-10-20T03:55:28Z",
+  "total": 211,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,18 +12,18 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 28
+      "count": 29
     },
     {
       "name": "GitHub Trending",
       "count": 22
     },
     {
-      "name": "Hugging Face",
+      "name": "OpenAI",
       "count": 15
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 65
     },
     {
       "name": "LLM",
@@ -77,10 +77,6 @@
       "count": 4
     },
     {
-      "name": "GPT",
-      "count": 4
-    },
-    {
       "name": "OpenAI",
       "count": 4
     },
@@ -90,6 +86,10 @@
     },
     {
       "name": "Gemini",
+      "count": 3
+    },
+    {
+      "name": "GPT",
       "count": 3
     },
     {
@@ -128,7 +128,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 143
+      "count": 144
     },
     {
       "name": "开源项目",
@@ -140,10 +140,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-13",
-      "count": 8
-    },
     {
       "date": "10-14",
       "count": 29
@@ -166,7 +162,11 @@
     },
     {
       "date": "10-19",
-      "count": 26
+      "count": 20
+    },
+    {
+      "date": "10-20",
+      "count": 8
     }
   ],
   "top10": [
@@ -213,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "7ccbe0dfde30",
+      "title": "Meet Drex Max: Nace AI’s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "db794c9df8f0",
       "title": "MiniMax Just Launched M3.1 Flash: 428B MoE Agentic Model at $0.15/M Input",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "12ba00c6cb7a",
-      "title": "Embeddings Are Overpriced? A Frozen 16 MB Vocabulary for Small and Ternary Language Models",
+      "id": "8dad8d5fd5f8",
+      "title": "Advancing coding in low‑resource programming languages",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "2954dd4f4ba4",
-      "title": "Where Prefill Expert Reduction Hurts MoE Models: A Few Prompt Tokens Carry Most of the Short-Answer F1 Loss",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "OpenAI"
     }
   ]
 }
