@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T03:45:43Z",
+  "updated": "2026-10-21T13:39:10Z",
   "total": 20,
   "items": [
     {
@@ -31,6 +31,20 @@
       }
     },
     {
+      "id": "6caed060135f",
+      "title_zh": "vllm-project /vllm",
+      "summary_zh": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "d7dc32f00be2",
       "title_zh": "stablyai /orca",
       "summary_zh": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
@@ -39,79 +53,6 @@
         "Agent"
       ],
       "oneliner": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding ag",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "2526d3aeeaaf",
-      "title_zh": "DietrichGebert /ponytail",
-      "summary_zh": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9a16f8b0667e",
-      "title_zh": "ruvnet /ruflo",
-      "summary_zh": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native...",
-      "tags_zh": [
-        "Claude",
-        "Agent",
-        "RAG"
-      ],
-      "oneliner": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflow",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "68a6c284cff5",
-      "title_zh": "Graphify-Labs /graphify",
-      "summary_zh": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "tags_zh": [
-        "Claude",
-        "Gemini"
-      ],
-      "oneliner": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "9bde5582e8ba",
-      "title_zh": "anomalyco /opencode",
-      "summary_zh": "The open source coding agent.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "The open source coding agent.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5dfe15d5980d",
-      "title_zh": "msitarzewski /agency-agents",
-      "summary_zh": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whi",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -135,8 +76,46 @@
       }
     },
     {
-      "id": "bafbb5974fa1",
-      "title_zh": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "id": "2526d3aeeaaf",
+      "title_zh": "DietrichGebert /ponytail",
+      "summary_zh": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "846afa38c565",
+      "title_zh": "supabase /supabase",
+      "summary_zh": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "tags_zh": [],
+      "oneliner": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your we",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "4e4265489a81",
+      "title_zh": "twentyhq /twenty",
+      "summary_zh": "The open alternative to Salesforce, designed for AI.",
+      "tags_zh": [],
+      "oneliner": "The open alternative to Salesforce, designed for AI.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b5deda84c80e",
+      "title_zh": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": "",
@@ -147,27 +126,14 @@
       }
     },
     {
-      "id": "f40f87a51b41",
-      "title_zh": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "summary_zh": "",
+      "id": "707234813354",
+      "title_zh": "OpenAI models are coming to Google Cloud",
+      "summary_zh": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
       "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "fab24fd4e22c",
-      "title_zh": "Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs",
-      "summary_zh": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Cloud TPUs. It runs eager by default, compiles through torch.compile and XLA, and replaces PyTorch/XLA for new workloads.\nThe post Google Open-Sources TorchTPU, a Native PyTorch...",
-      "tags_zh": [
+        "OpenAI",
         "Google"
       ],
-      "oneliner": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Cloud TPUs. It runs eager by def",
+      "oneliner": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, a",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -175,95 +141,42 @@
       }
     },
     {
-      "id": "8f295aae143e",
-      "title_zh": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "summary_zh": "",
+      "id": "35439b22aafb",
+      "title_zh": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
+      "summary_zh": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a LiveKit-based voice agent SDK. Voxtral Small Transcribe 3 scores 2.1% AA-WER, ranking #3 on Artificial Analysis.\nThe post Mistral AI Releases Voxtral...",
+      "tags_zh": [
+        "Mistral",
+        "Agent"
+      ],
+      "oneliner": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a Live",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c7296596993e",
+      "title_zh": "Google Cloud Ships llm-d 1.0 With Cache-Aware Routing for TPU and GPU Fleets",
+      "summary_zh": "Google, Red Hat and IBM released llm-d 1.0, an open-source Kubernetes-native stack for distributed LLM inference. It adds multi-tenant flow control, zero-downtime upgrades and agent-aware routing across vLLM, SGLang, TPUs and GPUs.\nThe post...",
+      "tags_zh": [
+        "Google",
+        "LLM",
+        "GPU"
+      ],
+      "oneliner": "Google, Red Hat and IBM released llm-d 1.0, an open-source Kubernetes-native stack for distributed L",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "aec1886eb4d5",
+      "title_zh": "Southeast Asia’s digital economy to hit $368 billion",
+      "summary_zh": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing digital sectors, including...",
       "tags_zh": [],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "403019ab9578",
-      "title_zh": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
-      "summary_zh": "DeepSeek has open-sourced DeepInfer, the Apache 2.0 inference framework that serves DeepSeek-V4.1-Flash in production. It targets NVIDIA SM100 GPUs and Huawei Ascend 950 NPUs, and ships offline inference only.\nThe post DeepSeek Open-Sources...",
-      "tags_zh": [
-        "DeepSeek"
-      ],
-      "oneliner": "DeepSeek has open-sourced DeepInfer, the Apache 2.0 inference framework that serves DeepSeek-V4.1-Fl",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "420997b48065",
-      "title_zh": "YuJunZhiXue /dsh-purge",
-      "summary_zh": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
-      "tags_zh": [
-        "DeepSeek",
-        "Prompt"
-      ],
-      "oneliner": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts pe",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "afe39255e323",
-      "title_zh": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "summary_zh": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workf",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4206e4d31029",
-      "title_zh": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
-      "summary_zh": "Exa 3.0 is a search API upgrade from Exa. It adds a larger embedding model, Exa Lite at $4 per 1,000 requests, and Dynamic Highlights, and leads 8 benchmarks Exa ran itself.\nThe post Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8...",
-      "tags_zh": [
-        "API",
-        "Benchmark"
-      ],
-      "oneliner": "Exa 3.0 is a search API upgrade from Exa. It adds a larger embedding model, Exa Lite at $4 per 1,000",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "cfae9e885987",
-      "title_zh": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
-      "summary_zh": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed values with confidence scores in one forward pass. It costs $0.10 per million input tokens and charges nothing for output.\nThe post Cloudflare...",
-      "tags_zh": [],
-      "oneliner": "Cloudflare has previewed Clairic, a System One extraction model on Workers AI that returns typed val",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "7b80adca1cfe",
-      "title_zh": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "summary_zh": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances fr",
+      "oneliner": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Tema",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -276,6 +189,87 @@
       "summary_zh": "arXiv:2610.23860v1 Announce Type: new \nAbstract: The Prisoner's Dilemma has long served as a foundational framework for studying human decision-making and cooperative outcomes across social scenarios, yet human behavior consistently deviates from...",
       "tags_zh": [],
       "oneliner": "arXiv:2610.23860v1 Announce Type: new \nAbstract: The Prisoner's Dilemma has long served as a foundat",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "beb2046c5fb0",
+      "title_zh": "Composable Parametric Demographic Injection for Values Survey Simulation",
+      "summary_zh": "arXiv:2610.23867v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used as simulated respondents in computational social science, yet accurately reproducing population-specific heterogeneous response distributions...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.23867v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly used ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "0a03cdde02cd",
+      "title_zh": "Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation",
+      "summary_zh": "arXiv:2610.23868v1 Announce Type: new \nAbstract: Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of...",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "arXiv:2610.23868v1 Announce Type: new \nAbstract: Machine translation systems often preserve meaning ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f1dd390c4d31",
+      "title_zh": "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections",
+      "summary_zh": "arXiv:2610.24048v1 Announce Type: new \nAbstract: LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single...",
+      "tags_zh": [
+        "LLM",
+        "Agent",
+        "Prompt"
+      ],
+      "oneliner": "arXiv:2610.24048v1 Announce Type: new \nAbstract: LLM agents that read untrusted content can be hijac",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a412191b093a",
+      "title_zh": "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review",
+      "summary_zh": "arXiv:2610.24050v1 Announce Type: new \nAbstract: As automated research is increasingly adopted for writing papers, automated review has become a critical link between paper generation and quality control. However, existing methods largely rely on...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.24050v1 Announce Type: new \nAbstract: As automated research is increasingly adopted for w",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8a2e0cf5d4a7",
+      "title_zh": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
+      "summary_zh": "arXiv:2610.24087v1 Announce Type: new \nAbstract: Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2610.24087v1 Announce Type: new \nAbstract: Can large language model (LLM) agents deliver exper",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ea8354d15787",
+      "title_zh": "Do LMs Know What Variables Do? Interpreting Code Representations via Variable Roles",
+      "summary_zh": "arXiv:2610.24118v1 Announce Type: new \nAbstract: Variable roles describe recurring behaviors such as accumulation, traversal, and retaining the best candidate encountered. We use Sajaniemi's independently defined taxonomy to study which role...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.24118v1 Announce Type: new \nAbstract: Variable roles describe recurring behaviors such as",
       "key_facts": [],
       "notable_quote": {
         "text": "",

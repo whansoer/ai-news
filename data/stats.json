@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21T03:45:33Z",
-  "total": 249,
+  "updated": "2026-10-21T13:38:59Z",
+  "total": 268,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -8,7 +8,7 @@
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
@@ -16,11 +16,11 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 25
+      "count": 28
     },
     {
       "name": "Hugging Face",
-      "count": 17
+      "count": 18
     },
     {
       "name": "OpenAI",
@@ -38,19 +38,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 71
+      "count": 79
     },
     {
       "name": "LLM",
-      "count": 28
+      "count": 34
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Google",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Claude",
@@ -61,15 +61,11 @@
       "count": 7
     },
     {
-      "name": "DeepSeek",
-      "count": 6
-    },
-    {
       "name": "Prompt",
       "count": 6
     },
     {
-      "name": "Meta",
+      "name": "DeepSeek",
       "count": 6
     },
     {
@@ -85,31 +81,35 @@
       "count": 4
     },
     {
+      "name": "OpenAI",
+      "count": 4
+    },
+    {
       "name": "Gemini",
       "count": 4
+    },
+    {
+      "name": "Meta",
+      "count": 4
+    },
+    {
+      "name": "GPU",
+      "count": 3
     },
     {
       "name": "Embedding",
       "count": 3
     },
     {
-      "name": "OpenAI",
-      "count": 3
+      "name": "Mistral",
+      "count": 2
     },
     {
       "name": "Transformer",
       "count": 2
     },
     {
-      "name": "GPU",
-      "count": 2
-    },
-    {
       "name": "Fine-tune",
-      "count": 1
-    },
-    {
-      "name": "Mistral",
       "count": 1
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 177
+      "count": 192
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 46
     },
     {
       "name": "模型发布",
@@ -158,11 +158,11 @@
     },
     {
       "date": "10-20",
-      "count": 48
+      "count": 33
     },
     {
       "date": "10-21",
-      "count": 9
+      "count": 47
     }
   ],
   "top10": [
@@ -179,38 +179,14 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "6caed060135f",
+      "title": "vllm-project /vllm",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "d7dc32f00be2",
       "title": "stablyai /orca",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "2526d3aeeaaf",
-      "title": "DietrichGebert /ponytail",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "9a16f8b0667e",
-      "title": "ruvnet /ruflo",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "68a6c284cff5",
-      "title": "Graphify-Labs /graphify",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "9bde5582e8ba",
-      "title": "anomalyco /opencode",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "5dfe15d5980d",
-      "title": "msitarzewski /agency-agents",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -221,10 +197,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "bafbb5974fa1",
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "846afa38c565",
+      "title": "supabase /supabase",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "4e4265489a81",
+      "title": "twentyhq /twenty",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "b5deda84c80e",
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
       "score": 5,
       "source": "Hugging Face"
+    },
+    {
+      "id": "707234813354",
+      "title": "OpenAI models are coming to Google Cloud",
+      "score": 5,
+      "source": "OpenAI"
     }
   ]
 }
