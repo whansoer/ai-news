@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-21T13:39:10Z",
-  "count": 489,
+  "updated": "2026-10-21T20:01:10Z",
+  "count": 490,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -31294,6 +31294,70 @@
         }
       },
       "_ts": 1792589950
+    },
+    "51d6305ec5811602": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录251篇AI新闻，分类分布：学术研究174篇, 开源项目45篇, 模型发布32篇。热门标签：Agent（71篇）。其中13%的文章有多来源交叉验证。\n\n▸ cloudflare /security-audit-skill：A coding-agent skill for multi-phase security audits with independently verified, machine-readable f\n\n▸ vllm-project /vllm：A high-throughput and memory-efficient inference and serving engine for LLMs\n\n▸ stablyai /orca：Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding ag\n\n▸ headroomlabs-ai /headroom：Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for c\n\n▸ DietrichGebert /ponytail：Makes your AI agent think like the laziest senior dev in the room. The best code is the code you nev",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "stablyai/orca",
+            "url": "https://github.com/stablyai/orca",
+            "why_hot": "单日1543星，TypeScript项目",
+            "stars_today": 1543,
+            "total_stars": 101032
+          },
+          {
+            "full_name": "akitaonrails/ai-memory",
+            "url": "https://github.com/akitaonrails/ai-memory",
+            "why_hot": "单日303星，Rust项目",
+            "stars_today": 303,
+            "total_stars": 12232
+          },
+          {
+            "full_name": "cloudflare/security-audit-skill",
+            "url": "https://github.com/cloudflare/security-audit-skill",
+            "why_hot": "单日1997星，JavaScript项目",
+            "stars_today": 1997,
+            "total_stars": 35714
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "251"
+          },
+          {
+            "label": "多源验证率",
+            "value": "13%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+8751"
+          }
+        ],
+        "must_read_ids": [
+          "1a92f63bf14a",
+          "6caed060135f",
+          "d7dc32f00be2",
+          "fa9f0509ee9e",
+          "2526d3aeeaaf"
+        ],
+        "text": "今日共收录251篇AI新闻，分类分布：学术研究174篇, 开源项目45篇, 模型发布32篇。热门标签：Agent（71篇）。其中13%的文章有多来源交叉验证。",
+        "top_items": [
+          "cloudflare /security-audit-skill",
+          "vllm-project /vllm",
+          "stablyai /orca",
+          "headroomlabs-ai /headroom",
+          "DietrichGebert /ponytail"
+        ],
+        "meta": {
+          "total_articles": 251,
+          "multi_source_pct": 13
+        }
+      },
+      "_ts": 1792612870
     }
   }
 }
