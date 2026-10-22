@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-21T20:01:10Z",
-  "total": 225,
-  "new_count": 35,
+  "updated": "2026-10-22T03:45:34Z",
+  "total": 237,
+  "new_count": 44,
   "items": [
     {
       "id": "1a92f63bf14a",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "published": "2026-10-21T19:59:00Z",
+      "published": "2026-10-22T03:43:27Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "published": "2026-10-21T19:59:00Z",
+      "published": "2026-10-22T03:43:27Z",
       "tags": [
         "LLM"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-      "published": "2026-10-21T19:59:00Z",
+      "published": "2026-10-22T03:43:27Z",
       "tags": [
         "Claude",
         "Agent"
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
-      "published": "2026-10-21T19:59:00Z",
+      "published": "2026-10-22T03:43:27Z",
       "tags": [
         "LLM",
         "Agent",
@@ -124,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "published": "2026-10-21T19:59:00Z",
+      "published": "2026-10-22T03:43:27Z",
       "tags": [
         "Agent"
       ],
@@ -151,7 +151,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "published": "2026-10-21T19:59:00Z",
+      "published": "2026-10-22T03:43:27Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -174,7 +174,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The open alternative to Salesforce, designed for AI.",
-      "published": "2026-10-21T19:59:00Z",
+      "published": "2026-10-22T03:43:27Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -189,6 +189,83 @@
       "summary_zh": "The open alternative to Salesforce, designed for AI.",
       "tags_zh": [],
       "oneliner": "The open alternative to Salesforce, designed for AI."
+    },
+    {
+      "id": "cfd169eb49e8",
+      "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
+      "url": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Recursive has released Flint, an Apache 2.0 local coding model with 40B total and 2.5B active parameters. It reports 74.2% on SWE-bench Verified and 125+ tokens per second on an M4 Pro MacBook Pro.\nThe post Recursive Releases Flint, an...",
+      "published": "2026-10-21T22:39:41Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
+      "summary_zh": "Recursive has released Flint, an Apache 2.0 local coding model with 40B total and 2.5B active parameters. It reports 74.2% on SWE-bench Verified and 125+ tokens per second on an M4 Pro MacBook Pro.\nThe post Recursive Releases Flint, an...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Recursive has released Flint, an Apache 2.0 local coding model with 40B total and 2.5B active parame"
+    },
+    {
+      "id": "f3bc77a1fa2e",
+      "title": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
+      "url": "https://www.marktechpost.com/2026/10/21/vercel-durable-harness-crash-proof-coding-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Vercel released durable-harness, an open-source package that logs every model and tool call so Pi, OpenCode, Claude Code and Codex sessions resume after crashes, timeouts and redeploys on Vercel, Postgres or a laptop.\nThe post Vercel Open-Sources...",
+      "published": "2026-10-21T22:15:39Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
+      "summary_zh": "Vercel released durable-harness, an open-source package that logs every model and tool call so Pi, OpenCode, Claude Code and Codex sessions resume after crashes, timeouts and redeploys on Vercel, Postgres or a laptop.\nThe post Vercel Open-Sources...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Vercel released durable-harness, an open-source package that logs every model and tool call so Pi, O"
+    },
+    {
+      "id": "432aef26f737",
+      "title": "Broad access through consistent standards",
+      "url": "https://openai.com/index/broad-access-through-consistent-standards",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "published": "2026-10-21T21:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Broad access through consistent standards",
+      "summary_zh": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+      "tags_zh": [],
+      "oneliner": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible acc"
     },
     {
       "id": "f9255f692008",
@@ -256,9 +333,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "707234813354"
+          "707234813354",
+          "fa5b0957b522"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "How AT&T is rethinking in-house legal work with OpenAI",
       "summary_zh": "AT&amp;T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
@@ -414,9 +492,10 @@
         "corroborating_ids": [
           "9df610225313",
           "c7296596993e",
+          "fa5b0957b522",
           "fab24fd4e22c"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "OpenAI models are coming to Google Cloud",
       "summary_zh": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
@@ -473,12 +552,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "summary_zh": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "35439b22aafb",
@@ -501,13 +578,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Mistral AI Releases Voxtral 3: Speech-to-Text, TTS and a Voice Agent SDK",
-      "summary_zh": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a LiveKit-based voice agent SDK. Voxtral Small Transcribe 3 scores 2.1% AA-WER, ranking #3 on Artificial Analysis.\nThe post Mistral AI Releases Voxtral...",
-      "tags_zh": [
-        "Mistral",
-        "Agent"
-      ],
-      "oneliner": "Mistral AI released Voxtral 3, a family of 3 transcription models, 1 text-to-speech model and a Live"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "c29efc53a85f",
@@ -529,12 +603,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Using thousands of AI agents to uncover new leads in biological data",
-      "summary_zh": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising rese"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "c7296596993e",
@@ -1320,6 +1392,304 @@
       "oneliner": ""
     },
     {
+      "id": "df21cb24704f",
+      "title": "H2DF: Calibrated Target Bands for Controllable Language-Model Unlearning",
+      "url": "https://arxiv.org/abs/2610.26864",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26864v1 Announce Type: new \nAbstract: Gradient ascent (GA) is a simple language-model unlearning baseline, but it continues increasing forget loss after useful forgetting has occurred. This unbounded pressure can damage retained...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "9d54eb9483e6",
+      "title": "AutoTerm-SST: Adaptive Terminology Memory with Zero Session-Time Setup for Streaming Speech Translation",
+      "url": "https://arxiv.org/abs/2610.26865",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26865v1 Announce Type: new \nAbstract: Retrieval-augmented speech translation improves rare terminology, but systems such as RASST still assume that users provide a glossary before each session. That assumption is inconvenient for live...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c3ca2c668496",
+      "title": "WaveCommitments: Private and Verifiable Speech-Agent Marketplaces",
+      "url": "https://arxiv.org/abs/2610.26867",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26867v2 Announce Type: new \nAbstract: Modern speech systems are evolving into ecosystems of autonomous speech agents that interact, negotiate, and trade assets such as embeddings, spectrograms, or raw data. In such markets, sellers...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7047516752d5",
+      "title": "Multimodal Ambivalence and Hesitancy Recognition with Bidirectional Audio--Text Cross-Attention",
+      "url": "https://arxiv.org/abs/2610.26868",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26868v1 Announce Type: new \nAbstract: Ambivalence and hesitancy (A/H) are subtle behavioural states that can be expressed through both what a person says and how it is spoken. This paper presents an audio--text framework for...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e6e10f4f5b17",
+      "title": "Mixture of Phonetic Experts Based Low-Rank Adaptation of Conformer Models for Accented English Speech Recognition",
+      "url": "https://arxiv.org/abs/2610.26888",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26888v1 Announce Type: new \nAbstract: We present Mixture of Phonetic Experts based Low-Rank Adaptation (MoPE-LoRA), a parameter-efficient adaptation framework for accented English speech recognition. Recent mixture-of-experts...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "65963ec6ea6d",
+      "title": "AtomSD: Procedural Atom-Guided Self-Distillation for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.26926",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26926v1 Announce Type: new \nAbstract: Large language models (LLMs) possess broad factual knowledge and strong reasoning capabilities, but solving complex tasks also requires procedural knowledge about how to act. Existing approaches...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "4298a1403b4f",
+      "title": "Do We Need the Largest LLMs for Every Clinical Decision?",
+      "url": "https://arxiv.org/abs/2610.26937",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26937v1 Announce Type: new \nAbstract: Large clinical language models often require multi-GPU infrastructure, limiting local deployment. We introduce CERTA, a decision-level statistical certificate that determines when a quantized model...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "379fb5c1762a",
+      "title": "The Bottleneck Is Retrieval, Not Reading: Diagnosing Evidence-Based Generation with RAG for Long Context Question Answering",
+      "url": "https://arxiv.org/abs/2610.26951",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26951v1 Announce Type: new \nAbstract: Retrieval-augmented generation (RAG) is the dominant paradigm for grounding large language models in external corpora, but its similarity-driven, chunked pipeline has structural blind spots: it...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [
+        "RAG"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2d97453d6dbf",
+      "title": "A Multi-granularity Interaction Network for Relational Triple Extraction",
+      "url": "https://arxiv.org/abs/2610.26952",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26952v1 Announce Type: new \nAbstract: Relational triple extraction identifies entity relations from raw sentences without depending on entity type information. The performance of traditional methods is seriously degenerated by...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3b0a490fee86",
+      "title": "LAMB: Latent Multi-Hypothesis Beliefs for Long-Horizon Large Language Agents",
+      "url": "https://arxiv.org/abs/2610.26955",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26955v1 Announce Type: new \nAbstract: Long-horizon language agents require compact memories that retain interaction evidence while preserving competing hypotheses about unobserved states. Although effective, many belief-state methods...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "94fdab7f221f",
+      "title": "SZED at ArGuard Shared Tasks: Multi-Task Label-Attention and Cross-Modal Fusion for Arabic Hateful Meme Detection",
+      "url": "https://arxiv.org/abs/2610.26972",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26972v1 Announce Type: new \nAbstract: We present SZED's submission to ArGuard 2026 Track A: Arabic hateful meme detection. The task has two parts: binary classification (A1) and fine-grained multi-label tagging (A2). For A1, we fuse...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "43481cd1969c",
+      "title": "Sharp Degree Bounds for Putinar Certificates in Terms of the Positivity Margin via Analytic Sums of Squares",
+      "url": "https://arxiv.org/abs/2610.26976",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26976v1 Announce Type: new \nAbstract: We establish sharp degree bounds for Putinar sum-of-squares (SOS) certificates in terms of the positivity margin $\\delta$. For any fixed Archimedean quadratic module with prescribed generators and...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e81d214fb7a0",
+      "title": "Think Before You Transcribe: Context-Steered Reasoning for Hotword-Aware Speech Recognition",
+      "url": "https://arxiv.org/abs/2610.26986",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26986v1 Announce Type: new \nAbstract: Contextual automatic speech recognition (ASR) improves rare-entity recognition by supplying candidate hotwords, but retrieved candidates may be incomplete or incorrect. A reliable system must...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0e0a5c359098",
+      "title": "TRACE: Training-aware Robustness and Challenge Evaluation for Text-Vision Embedding Models",
+      "url": "https://arxiv.org/abs/2610.26993",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26993v1 Announce Type: new \nAbstract: Existing benchmarks for text-vision embedding models report aggregate scores that obscure whether performance comes from general capabilities, task-specific adaptation, or robustness to challenging...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [
+        "Embedding"
+      ],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3e75a7c50d30",
+      "title": "How to get the best and fairest performance out of your ASR system using activation steering",
+      "url": "https://arxiv.org/abs/2610.26994",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2610.26994v1 Announce Type: new \nAbstract: Activation steering for ASR systems is an underexplored technique in improving both ASR performance and demographic fairness. We investigate two forms of activation steering: paired activation...",
+      "published": "2026-10-21T04:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "9a16f8b0667e",
       "title": "ruvnet /ruflo",
       "url": "https://github.com/ruvnet/ruflo",
@@ -1435,6 +1805,30 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fa5b0957b522",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "published": "2026-10-21T00:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "9df610225313",
+          "707234813354"
+        ],
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5330,177 +5724,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "637c4b19860f",
-      "title": "ifixai-ai /iFixAi",
-      "url": "https://github.com/ifixai-ai/iFixAi",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
-      "published": "2026-10-15T03:39:22Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "d7bd14dfee55"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "85770197f1cb",
-      "title": "vxcontrol /pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-      "published": "2026-10-15T03:39:22Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9b9420b910a0",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-10-15T00:00:00Z",
-      "tags": [
-        "Meta"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "85f57c7a3d42",
-          "992e00bfb441",
-          "60a185e58e9c"
-        ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b59b01e3e8a7",
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "url": "https://huggingface.co/blog/flux-3",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-10-15T00:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "8ec6278a3e32",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "published": "2026-10-15T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3c1489fe46fc",
-      "title": "Datalab Releases OmniParseBench: An Open OCR Benchmark With 16,288 Pass/Fail Tests to Audit OCR Parsers",
-      "url": "https://www.marktechpost.com/2026/10/14/datalab-omniparsebench-open-ocr-document-parsing-benchmark/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Datalab released OmniParseBench, an open OCR benchmark with 16,288 yes/no tests on 2,937 pages in 92 languages. Every score is a pass rate you can slice by tag, script or language.\nThe post Datalab Releases OmniParseBench: An Open OCR Benchmark...",
-      "published": "2026-10-14T23:37:25Z",
-      "tags": [
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d0bdec9df55d",
-      "title": "Fish Audio Releases Drama 3, a 35B Open-Weight MoE Text-to-Speech Model",
-      "url": "https://www.marktechpost.com/2026/10/14/fish-audio-drama-3-open-weight-tts-model/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Fish Audio released Drama 3, a 35B mixture-of-experts text-to-speech model with about 3B active parameters. It takes plain-language direction, covers 83 languages and ships open weights under a revenue-capped community license.\nThe post Fish...",
-      "published": "2026-10-14T22:52:17Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",

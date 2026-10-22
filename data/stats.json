@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-21T20:01:00Z",
-  "total": 251,
+  "updated": "2026-10-22T03:45:24Z",
+  "total": 269,
   "sources": [
+    {
+      "name": "ArXiv (cs.CL)",
+      "count": 75
+    },
     {
       "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 60
-    },
-    {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 31
     },
     {
       "name": "GitHub Trending",
       "count": 25
     },
     {
-      "name": "Hugging Face",
-      "count": 20
+      "name": "OpenAI",
+      "count": 19
     },
     {
-      "name": "OpenAI",
-      "count": 17
+      "name": "Hugging Face",
+      "count": 19
     },
     {
       "name": "Google AI",
@@ -38,11 +38,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 71
+      "count": 76
     },
     {
       "name": "LLM",
-      "count": 28
+      "count": 30
     },
     {
       "name": "Benchmark",
@@ -74,6 +74,14 @@
     },
     {
       "name": "RAG",
+      "count": 5
+    },
+    {
+      "name": "OpenAI",
+      "count": 4
+    },
+    {
+      "name": "Embedding",
       "count": 4
     },
     {
@@ -83,14 +91,6 @@
     {
       "name": "Meta",
       "count": 4
-    },
-    {
-      "name": "OpenAI",
-      "count": 3
-    },
-    {
-      "name": "Embedding",
-      "count": 3
     },
     {
       "name": "Gemini",
@@ -124,22 +124,18 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 174
+      "count": 191
     },
     {
       "name": "开源项目",
-      "count": 45
+      "count": 44
     },
     {
       "name": "模型发布",
-      "count": 32
+      "count": 34
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-15",
-      "count": 59
-    },
     {
       "date": "10-16",
       "count": 24
@@ -162,7 +158,11 @@
     },
     {
       "date": "10-21",
-      "count": 57
+      "count": 69
+    },
+    {
+      "date": "10-22",
+      "count": 7
     }
   ],
   "top10": [
@@ -209,20 +209,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "f9255f692008",
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "id": "cfd169eb49e8",
+      "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "MarkTechPost"
     },
     {
-      "id": "47ba5de6cc84",
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "id": "f3bc77a1fa2e",
+      "title": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "MarkTechPost"
     },
     {
-      "id": "9df610225313",
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "id": "432aef26f737",
+      "title": "Broad access through consistent standards",
       "score": 5,
       "source": "OpenAI"
     }
