@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-22T13:41:13Z",
-  "total": 225,
-  "new_count": 65,
+  "updated": "2026-10-22T19:54:14Z",
+  "total": 229,
+  "new_count": 35,
   "items": [
     {
       "id": "2526d3aeeaaf",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "published": "2026-10-22T13:39:06Z",
+      "published": "2026-10-22T19:52:08Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "published": "2026-10-22T13:39:06Z",
+      "published": "2026-10-22T19:52:08Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "published": "2026-10-22T13:39:06Z",
+      "published": "2026-10-22T19:52:08Z",
       "tags": [
         "Claude",
         "Gemini"
@@ -93,7 +93,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "published": "2026-10-22T13:39:06Z",
+      "published": "2026-10-22T19:52:08Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -116,7 +116,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "published": "2026-10-22T13:39:06Z",
+      "published": "2026-10-22T19:52:08Z",
       "tags": [
         "Claude",
         "Agent"
@@ -145,7 +145,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
-      "published": "2026-10-22T13:39:06Z",
+      "published": "2026-10-22T19:52:08Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -160,6 +160,156 @@
       "summary_zh": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
       "tags_zh": [],
       "oneliner": "Minecraft 启动器 Plain Craft Launcher（PCL）。"
+    },
+    {
+      "id": "139683c4cb22",
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "published": "2026-10-22T19:00:00Z",
+      "tags": [
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Build more responsive apps with the Decisions API",
+      "summary_zh": "Fast, focused, low-cost decisions for any application.",
+      "tags_zh": [
+        "API"
+      ],
+      "oneliner": "Fast, focused, low-cost decisions for any application."
+    },
+    {
+      "id": "38a8749adf32",
+      "title": "Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs",
+      "url": "https://www.marktechpost.com/2026/10/22/liquid-ai-ripl-real-time-inference-engine/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Liquid AI released RIPL, a real-time inference engine for its LFM models. On one B200, LFM2.5-1.2B on RIPL showed 14.4 to 28.4x lower p95 latency than Qwen3.5-0.8B on vLLM.\nThe post Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50...",
+      "published": "2026-10-22T17:33:25Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs",
+      "summary_zh": "Liquid AI released RIPL, a real-time inference engine for its LFM models. On one B200, LFM2.5-1.2B on RIPL showed 14.4 to 28.4x lower p95 latency than Qwen3.5-0.8B on vLLM.\nThe post Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50...",
+      "tags_zh": [],
+      "oneliner": "Liquid AI released RIPL, a real-time inference engine for its LFM models. On one B200, LFM2.5-1.2B o"
+    },
+    {
+      "id": "80b899680f0c",
+      "title": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
+      "url": "https://www.marktechpost.com/2026/10/22/gradium-phonon-31m-on-device-tts/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Gradium has open-sourced Phonon, a family of on-device text-to-speech models. The English Phonon 31m ships under Apache 2.0, fits in 64.5 MB, and starts speaking in about 7 ms on a laptop CPU.\nThe post Gradium Open-Sources Phonon, a 31M-Parameter...",
+      "published": "2026-10-22T16:56:12Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
+      "summary_zh": "Gradium has open-sourced Phonon, a family of on-device text-to-speech models. The English Phonon 31m ships under Apache 2.0, fits in 64.5 MB, and starts speaking in about 7 ms on a laptop CPU.\nThe post Gradium Open-Sources Phonon, a 31M-Parameter...",
+      "tags_zh": [],
+      "oneliner": "Gradium has open-sourced Phonon, a family of on-device text-to-speech models. The English Phonon 31m"
+    },
+    {
+      "id": "3070dd3939ff",
+      "title": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
+      "url": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. Pro scores 82.2 on BRIGHT and costs $0.05 per 1M tokens.\nThe post Cohere Releases Rerank 5 With Passage-Level...",
+      "published": "2026-10-22T16:31:31Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
+      "summary_zh": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extraction and calibrated relevance scores. Pro scores 82.2 on BRIGHT and costs $0.05 per 1M tokens.\nThe post Cohere Releases Rerank 5 With Passage-Level...",
+      "tags_zh": [],
+      "oneliner": "Cohere Rerank 5 ships in Pro and Fast tiers with a 32K context window, Context Focus passage extract"
+    },
+    {
+      "id": "7eee31d28134",
+      "title": "A Developer’s Guide to OmniParseBench: Leaderboard Benchmarks and OCR Testing",
+      "url": "https://www.marktechpost.com/2026/10/22/omniparsebench-document-parsing-leaderboard-guide/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Explore how to audit and rebuild Datalab's OmniParseBench, test parser ranking certainty with document-level bootstrapping, and evaluate Tesseract and Indra OCR performance on a custom sample.\nThe post A Developer’s Guide to OmniParseBench:...",
+      "published": "2026-10-22T16:11:52Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "A Developer’s Guide to OmniParseBench: Leaderboard Benchmarks and OCR Testing",
+      "summary_zh": "Explore how to audit and rebuild Datalab's OmniParseBench, test parser ranking certainty with document-level bootstrapping, and evaluate Tesseract and Indra OCR performance on a custom sample.\nThe post A Developer’s Guide to OmniParseBench:...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "Explore how to audit and rebuild Datalab's OmniParseBench, test parser ranking certainty with docume"
+    },
+    {
+      "id": "ea32a3cab37f",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-22T16:11:31Z",
+      "tags": [
+        "Embedding"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "summary_zh": "",
+      "tags_zh": [
+        "Embedding"
+      ],
+      "oneliner": ""
     },
     {
       "id": "78b393faa619",
@@ -225,10 +375,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "6cec5c61df65",
           "9df610225313",
           "707234813354"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "What FDE means at OpenAI",
       "summary_zh": "What forward deployed engineering means at OpenAI",
@@ -380,10 +531,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Scaling Therapy Supervision: Assessing Psychotherapy Fidelity Using Large Language Models",
-      "summary_zh": "arXiv:2610.28772v1 Announce Type: new \nAbstract: Psychotherapy fidelity assessment measures how faithfully a therapist adheres to a treatment protocol, a critical determinant of positive patient outcomes. However, fidelity assessment is...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.28772v1 Announce Type: new \nAbstract: Psychotherapy fidelity assessment measures how fait"
+      "oneliner": ""
     },
     {
       "id": "afe4ac618fa3",
@@ -406,13 +557,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Is Anyone Enforcing the Cartel? What Reinforcement Learning Teaches LLM Agents in Markets",
-      "summary_zh": "arXiv:2610.28787v1 Announce Type: new \nAbstract: Evaluations of large language model (LLM) agents report that pricing agents collude at others' expense. Yet collusion is defined by enforcement: a cartel, in which competitors share monopoly...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.28787v1 Announce Type: new \nAbstract: Evaluations of large language model (LLM) agents re"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "ce3030506f31",
@@ -434,12 +582,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Where Do Legal Factors Live in LLMs?",
-      "summary_zh": "arXiv:2610.28799v1 Announce Type: new \nAbstract: In case-based legal reasoning, legal professionals identify legally significant fact patterns in a new dispute and compare them with those of decided cases. In AI & Law, HYPO dimensions and CATO...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2610.28799v1 Announce Type: new \nAbstract: In case-based legal reasoning, legal professionals "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "0633d054a3c4",
@@ -459,10 +605,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "LIFT: Scoped Constraints for Evaluating and Training Instruction Following",
-      "summary_zh": "arXiv:2610.28819v1 Announce Type: new \nAbstract: Common instruction following (IF) benchmarks, such as IFEval, evaluate the ability of language models (LMs) to follow simple constraints that can easily be verified programmatically. These same...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.28819v1 Announce Type: new \nAbstract: Common instruction following (IF) benchmarks, such "
+      "oneliner": ""
     },
     {
       "id": "ea8bc0a42163",
@@ -482,10 +628,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "A Parallel Multi-Dialect Arabic Dependency Treebank",
-      "summary_zh": "arXiv:2610.28823v1 Announce Type: new \nAbstract: Dependency parsing resource development for Arabic has largely focused on Modern Standard Arabic, leaving dialectal Arabic comparatively under-resourced. We introduce MADARTB, the first large-scale...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.28823v1 Announce Type: new \nAbstract: Dependency parsing resource development for Arabic "
+      "oneliner": ""
     },
     {
       "id": "f55237a04fcf",
@@ -505,10 +651,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "How to Use Parallel Data for Multilingual Pretraining",
-      "summary_zh": "arXiv:2610.28838v1 Announce Type: new \nAbstract: High-quality human-translated parallel corpora can improve cross-lingual transfer, but are typically too small for large-scale pretraining. Machine-translated web corpora help overcome this...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2610.28838v1 Announce Type: new \nAbstract: High-quality human-translated parallel corpora can "
+      "oneliner": ""
     },
     {
       "id": "012b32c5d769",
@@ -1151,6 +1297,32 @@
       "oneliner": ""
     },
     {
+      "id": "6cec5c61df65",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "published": "2026-10-22T00:00:00Z",
+      "tags": [
+        "GPT",
+        "OpenAI"
+      ],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "f4d7439583ad",
+          "9df610225313",
+          "707234813354"
+        ],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "cfd169eb49e8",
       "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
       "url": "https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/",
@@ -1292,10 +1464,11 @@
         "level": "multi-source",
         "corroborating_ids": [
           "f4d7439583ad",
+          "6cec5c61df65",
           "707234813354",
           "fa5b0957b522"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1446,6 +1619,7 @@
         "level": "multi-source",
         "corroborating_ids": [
           "f4d7439583ad",
+          "6cec5c61df65",
           "9df610225313",
           "c7296596993e",
           "fa5b0957b522",
@@ -4127,10 +4301,9 @@
         "level": "multi-source",
         "corroborating_ids": [
           "fab24fd4e22c",
-          "5dc8ca706e4f",
-          "a196394a55c8"
+          "5dc8ca706e4f"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5276,11 +5449,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "992e00bfb441",
-          "60a185e58e9c",
           "9b9420b910a0"
         ],
-        "score": 9
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5395,81 +5566,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "63780be02c1c",
-      "title": "NVIDIA Releases Nemotron 3.5 Super VL, a 120B Open Multimodal Agent Model",
-      "url": "https://www.marktechpost.com/2026/10/15/nvidia-nemotron-3-5-super-vl-release/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "NVIDIA released Nemotron 3.5 Super VL, an open 120B-parameter multimodal MoE model with 12B active parameters, 1M-token context and NVFP4 weights that run on 1 DGX Spark, plus 2 Bolt edge models.\nThe post NVIDIA Releases Nemotron 3.5 Super VL, a...",
-      "published": "2026-10-15T19:53:50Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0d2e925aac0b",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "published": "2026-10-15T19:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "96102acb3e38",
-      "title": "CopilotKit Releases CLiF: A Continual Learning Platform That Turns Agent Traces and User Actions into Skills, Evals, and Fine-Tuning Data",
-      "url": "https://www.marktechpost.com/2026/10/15/copilotkit-releases-clif-a-continual-learning-platform-that-turns-agent-traces-and-user-actions-into-skills-evals-and-fine-tuning-data/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Introduction Teams shipping AI agents at scale keep running into the same pattern. Even agents built on top-tier models like Fable and Astra struggle to carry out complex, end-to-end tasks inside a specific product consistently enough to deploy....",
-      "published": "2026-10-15T14:19:27Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
