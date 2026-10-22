@@ -1,29 +1,29 @@
 {
-  "updated": "2026-10-22T03:45:24Z",
-  "total": 269,
+  "updated": "2026-10-22T13:41:03Z",
+  "total": 302,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
-      "count": 31
+      "count": 33
     },
     {
       "name": "GitHub Trending",
       "count": 25
     },
     {
-      "name": "OpenAI",
-      "count": 19
+      "name": "Hugging Face",
+      "count": 20
     },
     {
-      "name": "Hugging Face",
+      "name": "OpenAI",
       "count": 19
     },
     {
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 76
+      "count": 83
     },
     {
       "name": "LLM",
-      "count": 30
+      "count": 36
     },
     {
       "name": "Benchmark",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Google",
@@ -54,7 +54,11 @@
     },
     {
       "name": "Claude",
-      "count": 7
+      "count": 8
+    },
+    {
+      "name": "Diffusion",
+      "count": 8
     },
     {
       "name": "GPT",
@@ -65,31 +69,27 @@
       "count": 6
     },
     {
-      "name": "Diffusion",
+      "name": "DeepSeek",
       "count": 6
     },
     {
-      "name": "DeepSeek",
-      "count": 6
+      "name": "OpenAI",
+      "count": 5
+    },
+    {
+      "name": "Meta",
+      "count": 5
+    },
+    {
+      "name": "API",
+      "count": 5
     },
     {
       "name": "RAG",
       "count": 5
     },
     {
-      "name": "OpenAI",
-      "count": 4
-    },
-    {
       "name": "Embedding",
-      "count": 4
-    },
-    {
-      "name": "API",
-      "count": 4
-    },
-    {
-      "name": "Meta",
       "count": 4
     },
     {
@@ -97,11 +97,11 @@
       "count": 3
     },
     {
-      "name": "Mistral",
-      "count": 2
+      "name": "GPU",
+      "count": 3
     },
     {
-      "name": "GPU",
+      "name": "Mistral",
       "count": 2
     },
     {
@@ -124,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 191
+      "count": 223
     },
     {
       "name": "开源项目",
-      "count": 44
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -158,14 +158,20 @@
     },
     {
       "date": "10-21",
-      "count": 69
+      "count": 68
     },
     {
       "date": "10-22",
-      "count": 7
+      "count": 46
     }
   ],
   "top10": [
+    {
+      "id": "2526d3aeeaaf",
+      "title": "DietrichGebert /ponytail",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "1a92f63bf14a",
       "title": "cloudflare /security-audit-skill",
@@ -173,26 +179,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "6caed060135f",
-      "title": "vllm-project /vllm",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "d7dc32f00be2",
-      "title": "stablyai /orca",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "fa9f0509ee9e",
-      "title": "headroomlabs-ai /headroom",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "2526d3aeeaaf",
-      "title": "DietrichGebert /ponytail",
+      "id": "68a6c284cff5",
+      "title": "Graphify-Labs /graphify",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -203,28 +191,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "4e4265489a81",
-      "title": "twentyhq /twenty",
+      "id": "aaa5c7366cbd",
+      "title": "luongnv89 /claude-howto",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "cfd169eb49e8",
-      "title": "Recursive Releases Flint, an Open-Weight 40B MoE Local Coding Model for Agents with 2.5B Active Params",
+      "id": "56294a584ddd",
+      "title": "Meloong-Git /PCL",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "78b393faa619",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "da495b51f9d3",
+      "title": "IBM AI Releases Granite Speech 5.0 2B for Multilingual Transcription and Translation",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "f3bc77a1fa2e",
-      "title": "Vercel Open-Sources durable-harness for Crash-Proof Coding Agents",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "432aef26f737",
-      "title": "Broad access through consistent standards",
+      "id": "f4d7439583ad",
+      "title": "What FDE means at OpenAI",
       "score": 5,
       "source": "OpenAI"
+    },
+    {
+      "id": "2178238e29a7",
+      "title": "Perplexity and NVIDIA Researchers Introduce JOLT: a Joint Teacher-Student Reinforcement Learning Method",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
