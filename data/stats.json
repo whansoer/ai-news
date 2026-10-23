@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-23T03:49:36Z",
-  "total": 257,
+  "updated": "2026-10-23T13:16:48Z",
+  "total": 287,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 32
+      "count": 34
     },
     {
       "name": "GitHub Trending",
-      "count": 25
+      "count": 26
     },
     {
       "name": "Hugging Face",
-      "count": 21
+      "count": 19
     },
     {
       "name": "OpenAI",
-      "count": 19
+      "count": 18
     },
     {
       "name": "Google AI",
@@ -38,26 +38,26 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 67
+      "count": 75
     },
     {
       "name": "LLM",
-      "count": 29
+      "count": 35
     },
     {
       "name": "Google",
+      "count": 11
+    },
+    {
+      "name": "Benchmark",
       "count": 10
     },
     {
       "name": "Claude",
-      "count": 8
+      "count": 9
     },
     {
-      "name": "Benchmark",
-      "count": 8
-    },
-    {
-      "name": "GPT",
+      "name": "OpenAI",
       "count": 7
     },
     {
@@ -65,11 +65,11 @@
       "count": 6
     },
     {
-      "name": "OpenAI",
+      "name": "Diffusion",
       "count": 6
     },
     {
-      "name": "Diffusion",
+      "name": "GPT",
       "count": 6
     },
     {
@@ -93,12 +93,12 @@
       "count": 3
     },
     {
-      "name": "Meta",
+      "name": "GPU",
       "count": 3
     },
     {
-      "name": "GPU",
-      "count": 3
+      "name": "Meta",
+      "count": 2
     },
     {
       "name": "Mistral",
@@ -107,6 +107,10 @@
     {
       "name": "Transformer",
       "count": 2
+    },
+    {
+      "name": "开源",
+      "count": 1
     },
     {
       "name": "Fine-tune",
@@ -124,15 +128,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 177
+      "count": 209
     },
     {
       "name": "开源项目",
-      "count": 46
+      "count": 45
     },
     {
       "name": "模型发布",
-      "count": 34
+      "count": 33
     }
   ],
   "dailyTrend": [
@@ -162,16 +166,10 @@
     },
     {
       "date": "10-23",
-      "count": 6
+      "count": 44
     }
   ],
   "top10": [
-    {
-      "id": "2526d3aeeaaf",
-      "title": "DietrichGebert /ponytail",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
     {
       "id": "1a92f63bf14a",
       "title": "cloudflare /security-audit-skill",
@@ -179,52 +177,58 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "68a6c284cff5",
-      "title": "Graphify-Labs /graphify",
+      "id": "992c39912e4d",
+      "title": "NVIDIA /OpenShell",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "846afa38c565",
-      "title": "supabase /supabase",
+      "id": "3fff46d92e86",
+      "title": "Renhuai123 /ziwei-doushu",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "aaa5c7366cbd",
-      "title": "luongnv89 /claude-howto",
+      "id": "fed9e93b0bd2",
+      "title": "SnailSploit /Claude-Red",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "56294a584ddd",
-      "title": "Meloong-Git /PCL",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "2ff716135a10",
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "139683c4cb22",
-      "title": "Build more responsive apps with the Decisions API",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "38a8749adf32",
-      "title": "Liquid AI Launches RIPL, a Real-Time Inference Engine for Sub-50 ms LFMs",
+      "id": "07b59dbe9a6c",
+      "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "80b899680f0c",
-      "title": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
+      "id": "6f79cf89dfc8",
+      "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
       "score": 5,
       "source": "MarkTechPost"
+    },
+    {
+      "id": "de872391d77a",
+      "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "2f42f692a82a",
+      "title": "baseVultra: Compact Nonlinear Recurrence with Reallocated Capacity",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "8bd61a5ef9e6",
+      "title": "Lighthouse: On Building a Trustworthy Digital Assistant for Exploring History with Civil Rights Archives",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
+    },
+    {
+      "id": "39a1782fc494",
+      "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+      "score": 5,
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
