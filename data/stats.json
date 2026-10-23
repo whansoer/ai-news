@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-22T19:54:04Z",
-  "total": 260,
+  "updated": "2026-10-23T03:49:36Z",
+  "total": 257,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 34
+      "count": 32
     },
     {
       "name": "GitHub Trending",
@@ -24,7 +24,7 @@
     },
     {
       "name": "OpenAI",
-      "count": 20
+      "count": 19
     },
     {
       "name": "Google AI",
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 69
+      "count": 67
     },
     {
       "name": "LLM",
@@ -58,7 +58,7 @@
     },
     {
       "name": "GPT",
-      "count": 8
+      "count": 7
     },
     {
       "name": "API",
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 179
+      "count": 177
     },
     {
       "name": "开源项目",
@@ -132,14 +132,10 @@
     },
     {
       "name": "模型发布",
-      "count": 35
+      "count": 34
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-16",
-      "count": 24
-    },
     {
       "date": "10-17",
       "count": 22
@@ -162,7 +158,11 @@
     },
     {
       "date": "10-22",
-      "count": 53
+      "count": 48
+    },
+    {
+      "date": "10-23",
+      "count": 6
     }
   ],
   "top10": [
@@ -203,6 +203,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "2ff716135a10",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
       "id": "139683c4cb22",
       "title": "Build more responsive apps with the Decisions API",
       "score": 5,
@@ -217,12 +223,6 @@
     {
       "id": "80b899680f0c",
       "title": "Gradium Open-Sources Phonon, a 31M-Parameter On-Device TTS Model Under Apache 2.0",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "3070dd3939ff",
-      "title": "Cohere Releases Rerank 5 With Passage-Level Context Focus and Calibrated Scores",
       "score": 5,
       "source": "MarkTechPost"
     }
