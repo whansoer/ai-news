@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23T19:54:19Z",
-  "total": 274,
+  "updated": "2026-10-24T03:44:11Z",
+  "total": 275,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,19 +12,19 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 33
+      "count": 35
     },
     {
       "name": "GitHub Trending",
       "count": 26
     },
     {
-      "name": "OpenAI",
+      "name": "Hugging Face",
       "count": 20
     },
     {
-      "name": "Hugging Face",
-      "count": 20
+      "name": "OpenAI",
+      "count": 19
     },
     {
       "name": "Google AI",
@@ -124,7 +124,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 193
+      "count": 195
     },
     {
       "name": "开源项目",
@@ -132,14 +132,10 @@
     },
     {
       "name": "模型发布",
-      "count": 35
+      "count": 34
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-17",
-      "count": 22
-    },
     {
       "date": "10-18",
       "count": 8
@@ -162,7 +158,11 @@
     },
     {
       "date": "10-23",
-      "count": 47
+      "count": 45
+    },
+    {
+      "date": "10-24",
+      "count": 4
     }
   ],
   "top10": [
@@ -191,6 +191,18 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "fd28d6560441",
+      "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "c9ce6bf72da7",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "5a60bcdb05ed",
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "score": 5,
@@ -211,18 +223,6 @@
     {
       "id": "07b59dbe9a6c",
       "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "6f79cf89dfc8",
-      "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "de872391d77a",
-      "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
       "score": 5,
       "source": "MarkTechPost"
     }
