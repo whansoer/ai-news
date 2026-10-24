@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-24T03:44:21Z",
-  "total": 245,
-  "new_count": 29,
+  "updated": "2026-10-24T12:34:50Z",
+  "total": 234,
+  "new_count": 34,
   "items": [
     {
       "id": "1a92f63bf14a",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "published": "2026-10-24T03:42:16Z",
+      "published": "2026-10-24T12:32:43Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "published": "2026-10-24T03:42:16Z",
+      "published": "2026-10-24T12:32:43Z",
       "tags": [
         "Agent"
       ],
@@ -46,9 +46,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "1948134b67e4"
+        ],
+        "score": 5
       },
       "title_zh": "NVIDIA /OpenShell",
       "summary_zh": "OpenShell is the safe, private runtime for autonomous AI agents.",
@@ -58,15 +60,15 @@
       "oneliner": "OpenShell is the safe, private runtime for autonomous AI agents."
     },
     {
-      "id": "3fff46d92e86",
-      "title": "Renhuai123 /ziwei-doushu",
-      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "id": "fef947109115",
+      "title": "aws /agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
-      "published": "2026-10-24T03:42:16Z",
+      "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "published": "2026-10-24T12:32:43Z",
       "tags": [
-        "开源"
+        "Agent"
       ],
       "score": 5,
       "relations": [],
@@ -77,23 +79,24 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Renhuai123 /ziwei-doushu",
-      "summary_zh": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "title_zh": "aws /agent-toolkit-for-aws",
+      "summary_zh": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
       "tags_zh": [
-        "开源"
+        "Agent"
       ],
-      "oneliner": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+      "oneliner": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS"
     },
     {
-      "id": "fed9e93b0bd2",
-      "title": "SnailSploit /Claude-Red",
-      "url": "https://github.com/SnailSploit/Claude-Red",
+      "id": "c88c01cfd244",
+      "title": "Nutlope /hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode,...",
-      "published": "2026-10-24T03:42:16Z",
+      "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "published": "2026-10-24T12:32:43Z",
       "tags": [
-        "Claude"
+        "Claude",
+        "LLM"
       ],
       "score": 5,
       "relations": [],
@@ -104,145 +107,77 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "SnailSploit /Claude-Red",
-      "summary_zh": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode,...",
+      "title_zh": "Nutlope /hallmark",
+      "summary_zh": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "tags_zh": [
-        "Claude"
+        "Claude",
+        "LLM"
       ],
-      "oneliner": "claude-red is a curated library of offensive security skills designed for the Claude skills system. "
+      "oneliner": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
     },
     {
-      "id": "fd28d6560441",
-      "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
-      "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models. World models built on CADRE run at 20 fps on 1 H100 and react in under 230 ms.\nThe post Kyutai CADRE: Video Autoencoders That Cut World...",
-      "published": "2026-10-23T23:26:53Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
-      "summary_zh": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models. World models built on CADRE run at 20 fps on 1 H100 and react in under 230 ms.\nThe post Kyutai CADRE: Video Autoencoders That Cut World...",
-      "tags_zh": [],
-      "oneliner": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world "
-    },
-    {
-      "id": "c9ce6bf72da7",
-      "title": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
-      "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Moonshot AI released Kimi K3.1 Pro, a 2.8T-parameter, 104B-active MoE model with 1M-token context. It scores 65.7% on Terminal-Bench 4.0, costs $2/$10 per million tokens, and open weights arrive by Nov 4, 2026.\nThe post Moonshot AI Releases Kimi...",
-      "published": "2026-10-23T22:52:40Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
-      "summary_zh": "Moonshot AI released Kimi K3.1 Pro, a 2.8T-parameter, 104B-active MoE model with 1M-token context. It scores 65.7% on Terminal-Bench 4.0, costs $2/$10 per million tokens, and open weights arrive by Nov 4, 2026.\nThe post Moonshot AI Releases Kimi...",
-      "tags_zh": [],
-      "oneliner": "Moonshot AI released Kimi K3.1 Pro, a 2.8T-parameter, 104B-active MoE model with 1M-token context. I"
-    },
-    {
-      "id": "5a60bcdb05ed",
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "published": "2026-10-23T17:00:00Z",
-      "tags": [
-        "GPT",
-        "RAG",
-        "API"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "summary_zh": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "tags_zh": [
-        "GPT",
-        "RAG",
-        "API"
-      ],
-      "oneliner": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to "
-    },
-    {
-      "id": "c8f212640f72",
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "source": "Hugging Face",
+      "id": "aaa5c7366cbd",
+      "title": "luongnv89 /claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source": "GitHub Trending",
       "category": "oss",
-      "summary": "",
-      "published": "2026-10-23T16:15:50Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "759fe46ed90d",
-      "title": "Securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "published": "2026-10-23T10:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "Securing our frontier model training environment",
-      "summary_zh": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "tags_zh": [],
-      "oneliner": "OpenAI explains how we strengthened containment for frontier model training and evaluation, includin"
-    },
-    {
-      "id": "07b59dbe9a6c",
-      "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
-      "url": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "TinyFish published two engineering research articles on agentic search. One defines a 7-phase production architecture with evidence contracts and bounded retries. The other explains why its deep research system dropped a separate planner and...",
-      "published": "2026-10-23T08:58:47Z",
+      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "published": "2026-10-24T12:32:43Z",
       "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "luongnv89 /claude-howto",
+      "summary_zh": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "tags_zh": [
+        "Claude",
+        "Agent"
+      ],
+      "oneliner": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-pa"
+    },
+    {
+      "id": "be8acfaf1118",
+      "title": "pbakaus /impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "The design language that makes your AI harness better at design.",
+      "published": "2026-10-24T12:32:43Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "pbakaus /impeccable",
+      "summary_zh": "The design language that makes your AI harness better at design.",
+      "tags_zh": [],
+      "oneliner": "The design language that makes your AI harness better at design."
+    },
+    {
+      "id": "8d49e667cf20",
+      "title": "google-gemini /gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "published": "2026-10-24T12:32:43Z",
+      "tags": [
+        "Gemini",
+        "Google",
         "Agent"
       ],
       "score": 5,
@@ -254,24 +189,26 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
-      "summary_zh": "TinyFish published two engineering research articles on agentic search. One defines a 7-phase production architecture with evidence contracts and bounded retries. The other explains why its deep research system dropped a separate planner and...",
+      "title_zh": "google-gemini /gemini-cli",
+      "summary_zh": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
       "tags_zh": [
+        "Gemini",
+        "Google",
         "Agent"
       ],
-      "oneliner": "TinyFish published two engineering research articles on agentic search. One defines a 7-phase produc"
+      "oneliner": "An open-source AI agent that brings the power of Gemini directly into your terminal."
     },
     {
-      "id": "6f79cf89dfc8",
-      "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
-      "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Google Cloud announced Agent Compute Engine, a compute service that gives every AI agent its own hardware-isolated microVM with no credentials inside. It already runs Gemini agents and enters preview in the coming months.\nThe post Google Cloud...",
-      "published": "2026-10-23T06:05:10Z",
+      "id": "19f0bb06fa52",
+      "title": "makecindy /cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "published": "2026-10-24T12:32:43Z",
       "tags": [
-        "Google",
-        "Agent"
+        "Agent",
+        "开源"
       ],
       "score": 5,
       "relations": [],
@@ -280,25 +217,27 @@
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
-        "score": 7
+        "score": 10
       },
-      "title_zh": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
-      "summary_zh": "Google Cloud announced Agent Compute Engine, a compute service that gives every AI agent its own hardware-isolated microVM with no credentials inside. It already runs Gemini agents and enters preview in the coming months.\nThe post Google Cloud...",
+      "title_zh": "makecindy /cindy",
+      "summary_zh": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "tags_zh": [
-        "Google",
-        "Agent"
+        "Agent",
+        "开源"
       ],
-      "oneliner": "Google Cloud announced Agent Compute Engine, a compute service that gives every AI agent its own har"
+      "oneliner": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
     },
     {
-      "id": "de872391d77a",
-      "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
-      "url": "https://www.marktechpost.com/2026/10/22/you-com-inference-router-open-weight-models-uptime-sla/",
+      "id": "b41971c74e8b",
+      "title": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+      "url": "https://www.marktechpost.com/2026/10/24/stateful-engineering-copilots-letta-tutorial/",
       "source": "MarkTechPost",
       "category": "research",
-      "summary": "You.com launched Inference Router, an OpenAI-compatible API for 12 open-weight models with a 99.9% uptime SLA, zero data retention, 100% US hosting, server-side web search and no platform fee.\nThe post You.com Launches Inference Router: 12...",
-      "published": "2026-10-23T05:28:21Z",
-      "tags": [],
+      "summary": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and...",
+      "published": "2026-10-24T10:29:31Z",
+      "tags": [
+        "Agent"
+      ],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
@@ -306,12 +245,14 @@
       "verification": {
         "level": "single-source",
         "corroborating_ids": [],
-        "score": 8
+        "score": 4
       },
-      "title_zh": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
-      "summary_zh": "You.com launched Inference Router, an OpenAI-compatible API for 12 open-weight models with a 99.9% uptime SLA, zero data retention, 100% US hosting, server-side web search and no platform fee.\nThe post You.com Launches Inference Router: 12...",
-      "tags_zh": [],
-      "oneliner": "You.com launched Inference Router, an OpenAI-compatible API for 12 open-weight models with a 99.9% u"
+      "title_zh": "Stateful Agentic Engineering Copilots with Letta: Core Memory, Shared State, Semantic Retrieval, Custom Tools, Streaming, and Portable Agent Workflows",
+      "summary_zh": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilot with Letta. This comprehensive guide covers inspectable core memory, archival vector retrieval, multi-agent shared state, custom tools, and...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Discover how to extend agentic memory beyond basic prompts by building a stateful engineering copilo"
     },
     {
       "id": "2f42f692a82a",
@@ -320,7 +261,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30154v1 Announce Type: new \nAbstract: Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether recurrent computation can be reallocated away...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -343,7 +284,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30158v1 Announce Type: new \nAbstract: Artificial intelligence (AI), as a decision-support aid, provides new tools for studying history effectively using multimodal data, including text, images, and audio. We present, to our knowledge,...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -366,7 +307,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30161v1 Announce Type: new \nAbstract: Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [
         "Agent"
       ],
@@ -393,7 +334,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30162v1 Announce Type: new \nAbstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [
         "Benchmark"
       ],
@@ -420,7 +361,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30296v1 Announce Type: new \nAbstract: Large Language Models (LLMs) have accelerated research on low-resource and multilingual NLP, but their effectiveness in creating an equitable landscape remains unmapped. We analyze 1,158...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -443,7 +384,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30344v1 Announce Type: new \nAbstract: Training Arabic large language models faces challenges from noisy web data, dialectal variation, and the high cost of continual pretraining (CPT). We introduce AQL-Lite (AQL: Arabic Quality...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [
         "LLM"
       ],
@@ -470,7 +411,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30349v1 Announce Type: new \nAbstract: LLMs are increasingly consulted for moral judgment. We aim to improve performance on such tasks by rewarding good arguments, on the premise that arguing well increases the likelihood of judging...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -493,7 +434,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30355v1 Announce Type: new \nAbstract: Hallucinated citations make it harder to trace sources and verify the evidence behind scientific claims. Detecting them is difficult because bibliographic records can be incomplete or differ across...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -516,7 +457,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30374v1 Announce Type: new \nAbstract: The massively multilingual translation systems that now include Sicilian learned it from noisy, non-standardised web text. To obtain better translation quality, we redevelop the small neural...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -527,10 +468,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "",
-      "summary_zh": "",
+      "title_zh": "Climbing the Ladder: Automating Data Pipelines and Reproducing Baselines in Low-Resource Settings",
+      "summary_zh": "arXiv:2610.30374v1 Announce Type: new \nAbstract: The massively multilingual translation systems that now include Sicilian learned it from noisy, non-standardised web text. To obtain better translation quality, we redevelop the small neural...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "arXiv:2610.30374v1 Announce Type: new \nAbstract: The massively multilingual translation systems that"
     },
     {
       "id": "614e4a04c30b",
@@ -539,7 +480,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30379v1 Announce Type: new \nAbstract: LLM agents are flexible in language interaction, but using them as long-horizon planners is costly and prone to hallucinated or invalid actions. This paper targets a different role for LLMs:...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -550,10 +491,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "",
-      "summary_zh": "",
+      "title_zh": "MemPlan: Memory-Conditioned PDDL Planning for Partially Observable Text Environments",
+      "summary_zh": "arXiv:2610.30379v1 Announce Type: new \nAbstract: LLM agents are flexible in language interaction, but using them as long-horizon planners is costly and prone to hallucinated or invalid actions. This paper targets a different role for LLMs:...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "arXiv:2610.30379v1 Announce Type: new \nAbstract: LLM agents are flexible in language interaction, bu"
     },
     {
       "id": "0cec566a8384",
@@ -562,7 +503,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30412v1 Announce Type: new \nAbstract: LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evaluation methods focus on single-turn,...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -573,10 +514,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "",
-      "summary_zh": "",
+      "title_zh": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots",
+      "summary_zh": "arXiv:2610.30412v1 Announce Type: new \nAbstract: LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evaluation methods focus on single-turn,...",
       "tags_zh": [],
-      "oneliner": ""
+      "oneliner": "arXiv:2610.30412v1 Announce Type: new \nAbstract: LLM-based chat agents are increasingly used for com"
     },
     {
       "id": "c7bafcb1ce6b",
@@ -585,7 +526,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30435v1 Announce Type: new \nAbstract: Recent advances in search agents have enabled large language models to tackle complex tasks by retrieving and synthesizing external information. However, existing search agents often lack...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -608,7 +549,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30504v1 Announce Type: new \nAbstract: Large language models (LLMs) are widely used to answer factual questions, but their answers can contain errors and must be fact-checked claim by claim. Yet the resulting score depends on three...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [
         "LLM"
       ],
@@ -633,7 +574,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30512v1 Announce Type: new \nAbstract: LLM judges are used to determine which of two answers is better. Trusting these verdicts requires knowing how repeatable they are and how much they depend on the judge's instructions. We show that...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [
         "LLM"
       ],
@@ -658,7 +599,7 @@
       "source": "ArXiv (cs.CL)",
       "category": "research",
       "summary": "arXiv:2610.30518v1 Announce Type: new \nAbstract: We present Protegrity-PII, a new PII decision model for structured and unstructured text. Protegrity-PII achieves a typed recall of 0.915 with a precision of 0.907 on a new benchmark we propose,...",
-      "published": "2026-10-23T04:00:00Z",
+      "published": "2026-10-24T04:00:00Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -668,6 +609,276 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "1948134b67e4",
+      "title": "NVIDIA Releases Nemotron 3.5 Bolt E4B 4GB: An Open Small Language Model for Local Voice Agents, Game Characters and Robots",
+      "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "NVIDIA released Nemotron 3.5 Bolt E4B 4GB, an open small language model post-trained from Gemma 4 E4B for local voice assistants, game characters and robots, targeting about 4GB of VRAM on RTX and Jetson.\nThe post NVIDIA Releases Nemotron 3.5...",
+      "published": "2026-10-24T03:56:29Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "992c39912e4d"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3fff46d92e86",
+      "title": "Renhuai123 /ziwei-doushu",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "published": "2026-10-24T03:42:16Z",
+      "tags": [
+        "开源"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fed9e93b0bd2",
+      "title": "SnailSploit /Claude-Red",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode,...",
+      "published": "2026-10-24T03:42:16Z",
+      "tags": [
+        "Claude"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "fd28d6560441",
+      "title": "Kyutai CADRE: Video Autoencoders That Cut World Model Lag Below 230 ms",
+      "url": "https://www.marktechpost.com/2026/10/23/kyutai-cadre-video-autoencoders-interactive-world-models/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Kyutai released CADRE, a family of 7 open causal diffusion video autoencoders for interactive world models. World models built on CADRE run at 20 fps on 1 H100 and react in under 230 ms.\nThe post Kyutai CADRE: Video Autoencoders That Cut World...",
+      "published": "2026-10-23T23:26:53Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c9ce6bf72da7",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro: A 2.8T Total/104B Active Params (MoE) Model with 1M Context",
+      "url": "https://www.marktechpost.com/2026/10/23/moonshot-ai-kimi-k3-1-pro-open-weight-model/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Moonshot AI released Kimi K3.1 Pro, a 2.8T-parameter, 104B-active MoE model with 1M-token context. It scores 65.7% on Terminal-Bench 4.0, costs $2/$10 per million tokens, and open weights arrive by Nov 4, 2026.\nThe post Moonshot AI Releases Kimi...",
+      "published": "2026-10-23T22:52:40Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5a60bcdb05ed",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "published": "2026-10-23T17:00:00Z",
+      "tags": [
+        "GPT",
+        "RAG",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c8f212640f72",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-10-23T16:15:50Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "759fe46ed90d",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "published": "2026-10-23T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "07b59dbe9a6c",
+      "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
+      "url": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "TinyFish published two engineering research articles on agentic search. One defines a 7-phase production architecture with evidence contracts and bounded retries. The other explains why its deep research system dropped a separate planner and...",
+      "published": "2026-10-23T08:58:47Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "6f79cf89dfc8",
+      "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
+      "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google Cloud announced Agent Compute Engine, a compute service that gives every AI agent its own hardware-isolated microVM with no credentials inside. It already runs Gemini agents and enters preview in the coming months.\nThe post Google Cloud...",
+      "published": "2026-10-23T06:05:10Z",
+      "tags": [
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "de872391d77a",
+      "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
+      "url": "https://www.marktechpost.com/2026/10/22/you-com-inference-router-open-weight-models-uptime-sla/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "You.com launched Inference Router, an OpenAI-compatible API for 12 open-weight models with a 99.9% uptime SLA, zero data retention, 100% US hosting, server-side web search and no platform fee.\nThe post You.com Launches Inference Router: 12...",
+      "published": "2026-10-23T05:28:21Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1100,32 +1311,6 @@
       "summary": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
       "published": "2026-10-23T03:47:39Z",
       "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "aaa5c7366cbd",
-      "title": "luongnv89 /claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "published": "2026-10-23T03:47:39Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
@@ -5522,441 +5707,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4d4dc0f4b6bd",
-      "title": "DeepSeek Just Released V4.1-Flash-1017, Scores 77.0 on DeepSWE, Opens Search API",
-      "url": "https://www.marktechpost.com/2026/10/17/deepseek-just-released-v4-1-flash-1017-scores-77-0-on-deepswe-opens-search-api/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "DeepSeek has just released DeepSeek-V4.1-Flash-1017, a new checkpoint of its V4.1-Flash model. It is live on the DeepSeek website, app and API. DeepSeek claims stronger scores, faster task completion and shorter outputs than the September...",
-      "published": "2026-10-17T08:53:58Z",
-      "tags": [
-        "DeepSeek",
-        "API"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "50ecfea85955",
-      "title": "20 Jev Alternatives: The Decision Models Taking On TypeSafe in 2026",
-      "url": "https://www.marktechpost.com/2026/10/17/20-jev-alternatives-the-decision-models-taking-on-typesafe-in-2026/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "TypeSafe launched Jev on September 15, 2026. It is a decision model, not a chatbot. You define the allowed answers, and Jev returns a label, a score or a yes/no probability. In about 4 weeks, at least 20 Jev alternatives shipped. They come from...",
-      "published": "2026-10-17T07:26:39Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f9ac436e421c",
-      "title": "StepFun Releases Step 5 Preview Open Weights: 600B MoE, 27B Active, 1M Context",
-      "url": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "StepFun has released Step 5 Preview as open weights. FP8 and BF16 checkpoints are live on Hugging Face and ModelScope. Step 5 Preview is a sparse Mixture-of-Experts model from StepFun built for long-horizon agentic work. It has 600B total...",
-      "published": "2026-10-17T06:29:55Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "581a985ab08c",
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "url": "https://arxiv.org/abs/2610.20665",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20665v1 Announce Type: new \nAbstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b34459c79e23",
-      "title": "Evaluating Model Capabilities After Benchmark Saturation",
-      "url": "https://arxiv.org/abs/2610.20667",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20667v1 Announce Type: new \nAbstract: Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, a benchmark loses its power to differentiate between them, and with it its utility...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "04373c7136bb",
-      "title": "Value-Informed Schedule Trimming for Accelerated Sequential Monte Carlo Guidance in Discrete Diffusion",
-      "url": "https://arxiv.org/abs/2610.20669",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20669v1 Announce Type: new \nAbstract: Reward-guided discrete diffusion enables test-time alignment with downstream objectives, but applying Sequential Monte Carlo (SMC) guidance at every denoising step is computationally expensive....",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "Diffusion"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e2ff56d8789a",
-      "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
-      "url": "https://arxiv.org/abs/2610.20675",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20675v1 Announce Type: new \nAbstract: Agents pair reasoning models with harnesses that organize model calls, execute tools, load skill instructions, and retain history in memory. Understanding agent performance requires linking...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7b574e2d662d",
-      "title": "When Correctness Feedback Erases Evidence: Phase-Separated Completeness Auditing in Verus",
-      "url": "https://arxiv.org/abs/2610.20676",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20676v1 Announce Type: new \nAbstract: Correctness feedback suppresses the very evidence that specification-completeness auditing is designed to uncover: programs that satisfy a written contract but violate intended behavior. We...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2b8c47ac539c",
-      "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
-      "url": "https://arxiv.org/abs/2610.20679",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20679v1 Announce Type: new \nAbstract: Representation-based safety defenses for vision-language models (VLMs) often learn to separate harmful from benign inputs, but separation alone does not establish what a risk score means or when it...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a5c68aea8723",
-      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
-      "url": "https://arxiv.org/abs/2610.20681",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20681v1 Announce Type: new \nAbstract: Formal inequality proving requires mathematical reasoning and exact computation, often connected through intermediate lemmas and goal reformulations. We introduce IneqAgent, an agentic framework...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e551922e8645",
-      "title": "L2G-SR: Learning to Guide LLM-based Symbolic Regression",
-      "url": "https://arxiv.org/abs/2610.20685",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20685v1 Announce Type: new \nAbstract: Symbolic regression searches for an equation that explains observed data. Numerical error is commonly used to guide the search, but it alone can favor an accurate surrogate over a candidate with...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4aa6fe2739ed",
-      "title": "When Reality Outpaces Cognition: A New Scaling Principle for Reliable Intelligence",
-      "url": "https://arxiv.org/abs/2610.20764",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20764v1 Announce Type: new \nAbstract: This paper challenges the understanding capabilities of existing AI paradigms and emerging world models by asking a fundamental question: How quickly can reality change before an intelligent system...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "8074142982b0",
-      "title": "ARIA: Runtime Inspection and Amendment for Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2610.20780",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20780v1 Announce Type: new \nAbstract: In LLM-based multi-agent systems (MAS), a local mistake can propagate as other agents build on it, turning a correctable error into a failed task. Diagnosing completed runs or repeatedly...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fc4f605bfadc",
-      "title": "Open-world AI: a Tale of Three Requirements",
-      "url": "https://arxiv.org/abs/2610.20782",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20782v1 Announce Type: new \nAbstract: The closed world asks AI for specialized competence and lets it manufacture the iid data its theory assumes: a fixed criterion licenses collecting examples until the task is covered. The open world...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f60032d80bdc",
-      "title": "EvolvingBrain: An Adaptive Skill System for Multi-modal Agents Self-Evolution in Open Worlds",
-      "url": "https://arxiv.org/abs/2610.20786",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20786v1 Announce Type: new \nAbstract: Multi-modal agents have made significant progress in interacting with open worlds. However, their ability to self-evolve remains limited. Supervised fine-tuning enables imitation but not active...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "489708f4dbb1",
-      "title": "When Reasoning Traces Conflict with Evidence: How Answer Configuration Shapes Evidence Following",
-      "url": "https://arxiv.org/abs/2610.20805",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20805v1 Announce Type: new \nAbstract: A reasoning trace retained at answer time plays two roles: it can raise accuracy, and it can compete with the current evidence when the two disagree. We disentangle these roles by crossing verified...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "60a65f3acd04",
-      "title": "A Self-Improving Agent that Grows its Own DSL: Oracle-Free Operator Induction for Exact Question Answering",
-      "url": "https://arxiv.org/abs/2610.20809",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20809v1 Announce Type: new \nAbstract: A self-improving agent has to decide which new skills to keep, and in practice it keeps whatever earns a high reward, convinces a judge model, or compresses its library, even when the skill is...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ea560c4fa852",
-      "title": "Temporal Specification Guidance for Text-to-Video Generation",
-      "url": "https://arxiv.org/abs/2610.20822",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2610.20822v1 Announce Type: new \nAbstract: Text-to-video models often generate the visual concepts requested in natural language prompts but fail to satisfy their intended ordering, timing, and persistence requirements. We propose...",
-      "published": "2026-10-17T04:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
