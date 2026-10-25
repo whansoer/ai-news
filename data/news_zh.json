@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T13:07:52Z",
+  "updated": "2026-10-25T18:51:31Z",
   "total": 20,
   "items": [
     {
@@ -93,6 +93,44 @@
         "Agent"
       ],
       "oneliner": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable f",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7fa192b889d7",
+      "title_zh": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
+      "summary_zh": "Hugging Face released Carbon-X, an open 14.8B DNA language model built on Qwen3-14B. It reads raw DNA in chat, answers in English, and averages 66.7% across 5 DNA benchmarks under Apache 2.0.\nThe post Hugging Face Releases Carbon-X, a 14B Open...",
+      "tags_zh": [],
+      "oneliner": "Hugging Face released Carbon-X, an open 14.8B DNA language model built on Qwen3-14B. It reads raw DN",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1a487c49cf16",
+      "title_zh": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+      "summary_zh": "Stanford and UC Berkeley researchers released TokenGate, a drop-in learned token pruning module for LLMs. It cuts long-context prefill time-to-first-token by 1.4x to 11.3x and peak memory by 1.5x to 3.4x without accuracy loss.\nThe post...",
+      "tags_zh": [],
+      "oneliner": "Stanford and UC Berkeley researchers released TokenGate, a drop-in learned token pruning module for ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c019d43c7807",
+      "title_zh": "Anthropic Launches OSS Scanner, a Free AI Vulnerability Scanner",
+      "summary_zh": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source projects. The Anthropic OSS Scanner runs the company&#8217;s strongest models, including Claude Mythos, against enrolled codebases. Reports go...",
+      "tags_zh": [
+        "Anthropic"
+      ],
+      "oneliner": "Anthropic has launched OSS Scanner, a free, opt-in vulnerability scanner for critical open-source pr",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -236,46 +274,6 @@
       "summary_zh": "arXiv:2610.30154v1 Announce Type: new \nAbstract: Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether recurrent computation can be reallocated away...",
       "tags_zh": [],
       "oneliner": "arXiv:2610.30154v1 Announce Type: new \nAbstract: Nonlinear recurrent networks remain useful for stre",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "8bd61a5ef9e6",
-      "title_zh": "Lighthouse: On Building a Trustworthy Digital Assistant for Exploring History with Civil Rights Archives",
-      "summary_zh": "arXiv:2610.30158v1 Announce Type: new \nAbstract: Artificial intelligence (AI), as a decision-support aid, provides new tools for studying history effectively using multimodal data, including text, images, and audio. We present, to our knowledge,...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.30158v1 Announce Type: new \nAbstract: Artificial intelligence (AI), as a decision-support",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "39a1782fc494",
-      "title_zh": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
-      "summary_zh": "arXiv:2610.30161v1 Announce Type: new \nAbstract: Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.30161v1 Announce Type: new \nAbstract: Many Indian banks serve customers through FAQ pages",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4a612bbcf853",
-      "title_zh": "FusionEval: Benchmarking Model Fusion for Large Language Models",
-      "summary_zh": "arXiv:2610.30162v1 Announce Type: new \nAbstract: Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while...",
-      "tags_zh": [
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2610.30162v1 Announce Type: new \nAbstract: Model fusion aims to integrate the capabilities of ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
