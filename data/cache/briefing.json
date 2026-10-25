@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-24T18:42:51Z",
-  "count": 499,
+  "updated": "2026-10-25T03:42:38Z",
+  "count": 500,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -31934,6 +31934,70 @@
         }
       },
       "_ts": 1792867371
+    },
+    "f7f0160862fba745": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录264篇AI新闻，分类分布：学术研究181篇, 开源项目49篇, 模型发布34篇。热门标签：Agent（71篇）。其中11%的文章有多来源交叉验证。\n\n▸ cloudflare /security-audit-skill：A coding-agent skill for multi-phase security audits with independently verified, machine-readable f\n\n▸ NVIDIA /OpenShell：OpenShell is the safe, private runtime for autonomous AI agents.\n\n▸ aws /agent-toolkit-for-aws：Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS\n\n▸ Nutlope /hallmark：Anti-AI-slop design skill for Claude Code, Cursor, and Codex.\n\n▸ luongnv89 /claude-howto：A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-pa",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "cloudflare/security-audit-skill",
+            "url": "https://github.com/cloudflare/security-audit-skill",
+            "why_hot": "单日2264星，JavaScript项目",
+            "stars_today": 2264,
+            "total_stars": 44852
+          },
+          {
+            "full_name": "makecindy/cindy",
+            "url": "https://github.com/makecindy/cindy",
+            "why_hot": "单日477星，TypeScript项目",
+            "stars_today": 477,
+            "total_stars": 4167
+          },
+          {
+            "full_name": "NVIDIA/OpenShell",
+            "url": "https://github.com/NVIDIA/OpenShell",
+            "why_hot": "单日896星，Rust项目",
+            "stars_today": 896,
+            "total_stars": 19542
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "264"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4256"
+          }
+        ],
+        "must_read_ids": [
+          "1a92f63bf14a",
+          "992c39912e4d",
+          "fef947109115",
+          "c88c01cfd244",
+          "aaa5c7366cbd"
+        ],
+        "text": "今日共收录264篇AI新闻，分类分布：学术研究181篇, 开源项目49篇, 模型发布34篇。热门标签：Agent（71篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "cloudflare /security-audit-skill",
+          "NVIDIA /OpenShell",
+          "aws /agent-toolkit-for-aws",
+          "Nutlope /hallmark",
+          "luongnv89 /claude-howto"
+        ],
+        "meta": {
+          "total_articles": 264,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1792899758
     }
   }
 }
