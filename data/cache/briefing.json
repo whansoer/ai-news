@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-26T15:03:53Z",
-  "count": 505,
+  "updated": "2026-10-26T20:59:24Z",
+  "count": 506,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -32318,6 +32318,70 @@
         }
       },
       "_ts": 1793027033
+    },
+    "41732dfa39715093": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录283篇AI新闻，分类分布：学术研究195篇, 开源项目51篇, 模型发布37篇。热门标签：Agent（82篇）。其中11%的文章有多来源交叉验证。\n\n▸ Nutlope /hallmark：Anti-AI-slop design skill for Claude Code, Cursor, and Codex.\n\n▸ TauricResearch /TradingAgents：TradingAgents: Multi-Agents LLM Financial Trading Framework\n\n▸ JetBrains /thinkrail：Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vi\n\n▸ makecindy /cindy：Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。\n\n▸ affaan-m /ECC：The agent harness performance optimization system. Skills, instincts, memory, security, and research",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "TauricResearch/TradingAgents",
+            "url": "https://github.com/TauricResearch/TradingAgents",
+            "why_hot": "单日1376星，Python项目",
+            "stars_today": 1376,
+            "total_stars": 115883
+          },
+          {
+            "full_name": "multica-ai/andrej-karpathy-skills",
+            "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+            "why_hot": "单日702星，项目",
+            "stars_today": 702,
+            "total_stars": 224501
+          },
+          {
+            "full_name": "JetBrains/thinkrail",
+            "url": "https://github.com/JetBrains/thinkrail",
+            "why_hot": "单日1156星，TypeScript项目",
+            "stars_today": 1156,
+            "total_stars": 2752
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "283"
+          },
+          {
+            "label": "多源验证率",
+            "value": "11%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+9587"
+          }
+        ],
+        "must_read_ids": [
+          "c88c01cfd244",
+          "afdace39e749",
+          "9fe0ab02c3e7",
+          "19f0bb06fa52",
+          "a90d342e2181"
+        ],
+        "text": "今日共收录283篇AI新闻，分类分布：学术研究195篇, 开源项目51篇, 模型发布37篇。热门标签：Agent（82篇）。其中11%的文章有多来源交叉验证。",
+        "top_items": [
+          "Nutlope /hallmark",
+          "TauricResearch /TradingAgents",
+          "JetBrains /thinkrail",
+          "makecindy /cindy",
+          "affaan-m /ECC"
+        ],
+        "meta": {
+          "total_articles": 283,
+          "multi_source_pct": 11
+        }
+      },
+      "_ts": 1793048364
     }
   }
 }
