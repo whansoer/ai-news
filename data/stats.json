@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-26T03:45:25Z",
-  "total": 260,
+  "updated": "2026-10-26T15:03:42Z",
+  "total": 296,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 34
+      "count": 35
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 31
+    },
+    {
+      "name": "OpenAI",
+      "count": 20
     },
     {
       "name": "Hugging Face",
       "count": 20
-    },
-    {
-      "name": "OpenAI",
-      "count": 19
     },
     {
       "name": "Google AI",
@@ -38,39 +38,43 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 69
+      "count": 84
     },
     {
       "name": "LLM",
-      "count": 33
+      "count": 43
+    },
+    {
+      "name": "Claude",
+      "count": 10
     },
     {
       "name": "Google",
       "count": 10
     },
     {
-      "name": "Benchmark",
+      "name": "OpenAI",
       "count": 8
     },
     {
-      "name": "Claude",
-      "count": 7
+      "name": "Benchmark",
+      "count": 8
     },
     {
       "name": "GPT",
       "count": 7
     },
     {
-      "name": "OpenAI",
-      "count": 7
-    },
-    {
-      "name": "RAG",
-      "count": 5
+      "name": "Prompt",
+      "count": 6
     },
     {
       "name": "API",
-      "count": 5
+      "count": 6
+    },
+    {
+      "name": "RAG",
+      "count": 6
     },
     {
       "name": "Embedding",
@@ -82,10 +86,6 @@
     },
     {
       "name": "Diffusion",
-      "count": 4
-    },
-    {
-      "name": "Prompt",
       "count": 4
     },
     {
@@ -132,15 +132,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 179
+      "count": 210
     },
     {
       "name": "开源项目",
-      "count": 47
+      "count": 51
     },
     {
       "name": "模型发布",
-      "count": 34
+      "count": 35
     }
   ],
   "dailyTrend": [
@@ -170,25 +170,13 @@
     },
     {
       "date": "10-26",
-      "count": 7
+      "count": 43
     }
   ],
   "top10": [
     {
-      "id": "19f0bb06fa52",
-      "title": "makecindy /cindy",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "c88c01cfd244",
       "title": "Nutlope /hallmark",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "be8acfaf1118",
-      "title": "pbakaus /impeccable",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -199,38 +187,50 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "3fff46d92e86",
-      "title": "Renhuai123 /ziwei-doushu",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "9fe0ab02c3e7",
       "title": "JetBrains /thinkrail",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "1a92f63bf14a",
-      "title": "cloudflare /security-audit-skill",
+      "id": "19f0bb06fa52",
+      "title": "makecindy /cindy",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "723fbd36cd9f",
-      "title": "Nanbeige Releases Nanbeige4.3-33B, a 33B Open Agentic Coding Model",
+      "id": "a90d342e2181",
+      "title": "affaan-m /ECC",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "7fa192b889d7",
-      "title": "Hugging Face Releases Carbon-X, a 14B Open DNA Language Model that Brings DNA and Natural Language Together for the First Time",
+      "id": "be8acfaf1118",
+      "title": "pbakaus /impeccable",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "1a487c49cf16",
-      "title": "Researchers from Stanford and UC Berkeley Introduce TokenGate: Token-Gated Attention Makes Long-Context Prefill Up to 11.3x Faster",
+      "id": "eab0bce4d038",
+      "title": "NVIDIA /SkillSpector",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "6acc383a1342",
+      "title": "nightly-labs /openbot",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "81fb0b6406ba",
+      "title": "Panniantong /Agent-Reach",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "9758fe2fe4ba",
+      "title": "Tsinghua AI Open-Sources AKV, a Cache Engineering Server for LLM Agents on SGLang",
       "score": 5,
       "source": "MarkTechPost"
     }
