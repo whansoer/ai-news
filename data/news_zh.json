@@ -1,7 +1,19 @@
 {
-  "updated": "2026-10-27T20:34:05Z",
+  "updated": "2026-10-28T04:36:17Z",
   "total": 20,
   "items": [
+    {
+      "id": "06fe3ce050dd",
+      "title_zh": "elayadesign /ai-design-skills",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "c88c01cfd244",
       "title_zh": "Nutlope /hallmark",
@@ -49,9 +61,11 @@
     {
       "id": "be8acfaf1118",
       "title_zh": "pbakaus /impeccable",
-      "summary_zh": "The design language that makes your AI harness better at design.",
-      "tags_zh": [],
-      "oneliner": "The design language that makes your AI harness better at design.",
+      "summary_zh": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -115,11 +129,11 @@
       }
     },
     {
-      "id": "4f44d6baf2c7",
-      "title_zh": "togg53192-cmd /jailbreaks",
-      "summary_zh": "LIST OF ALL MY JAILBREAKS",
+      "id": "1fe9af99446a",
+      "title_zh": "ReCoPII: A Relation-Grounded Framework for Building Contextual PII Masking Datasets",
+      "summary_zh": "arXiv:2610.35925v1 Announce Type: new \nAbstract: Training contextual masking systems for personally identifiable information (PII) requires examples distinguishing maskable from preservable mentions of one entity type, but privacy restrictions...",
       "tags_zh": [],
-      "oneliner": "LIST OF ALL MY JAILBREAKS",
+      "oneliner": "arXiv:2610.35925v1 Announce Type: new \nAbstract: Training contextual masking systems for personally ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -127,11 +141,11 @@
       }
     },
     {
-      "id": "8a86ff04276d",
-      "title_zh": "Build specialized multimodal models with LFM3",
-      "summary_zh": "",
+      "id": "b45f62bc0684",
+      "title_zh": "MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine",
+      "summary_zh": "arXiv:2610.36006v1 Announce Type: new \nAbstract: System One decision models such as Jev answer structured questions in a single forward pass without generating text, offering fast and computationally efficient clinical decision support. We...",
       "tags_zh": [],
-      "oneliner": "",
+      "oneliner": "arXiv:2610.36006v1 Announce Type: new \nAbstract: System One decision models such as Jev answer struc",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -139,81 +153,13 @@
       }
     },
     {
-      "id": "91bb99f4b7e5",
-      "title_zh": "Can we trust LLMs to judge whether a research idea is novel?",
-      "summary_zh": "",
+      "id": "5dcc7eff9573",
+      "title_zh": "OmniBrain-0: A Unified Agentic Model for Embodied Intelligence",
+      "summary_zh": "arXiv:2610.36013v1 Announce Type: new \nAbstract: General-purpose embodied intelligence requires robots to coordinate diverse skills over long horizons, track task progress, and recover from failures. Specialist policies alone do not ensure...",
       "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "727b2caf20cc",
-      "title_zh": "Mirendil Launches Fern 0.1, Its First Model, With 10M-Token Context",
-      "summary_zh": "Mirendil released Fern 0.1, its first model, pretrained from scratch with a 10M-token context window. It targets agentic AI R&#038;D work, scores 100% on RULER single needle at 10M, but trails frontier models on agentic coding.\nThe post Mirendil...",
-      "tags_zh": [],
-      "oneliner": "Mirendil released Fern 0.1, its first model, pretrained from scratch with a 10M-token context window",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "866a8680f78e",
-      "title_zh": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "summary_zh": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "tags_zh": [
-        "GPT",
-        "OpenAI"
-      ],
-      "oneliner": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6f7d9970db5b",
-      "title_zh": "vLLM Semantic Router Releases d3-ultra: A 27B Open Multimodal Decision Model",
-      "summary_zh": "vLLM Semantic Router released d3-ultra, a 27B open-weight multimodal decision model. It reads text, images and video once, then returns probabilities for every answer, scoring 87.2 on the team’s SR-Text test.\nThe post vLLM Semantic Router...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "vLLM Semantic Router released d3-ultra, a 27B open-weight multimodal decision model. It reads text, ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "38d89621d238",
-      "title_zh": "Baidu Open-Sources Unlimited OCR 2 for Hundred-Page Document Parsing",
-      "summary_zh": "Baidu has released Unlimited OCR 2, an MIT-licensed 3B OCR model that parses hundred-page documents in one request. Its SR-SWA attention keeps per-step decoding cost nearly flat, scoring 77.1 on MarathonDocBench\nThe post Baidu Open-Sources...",
-      "tags_zh": [],
-      "oneliner": "Baidu has released Unlimited OCR 2, an MIT-licensed 3B OCR model that parses hundred-page documents ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "afdace39e749",
-      "title_zh": "TauricResearch /TradingAgents",
-      "summary_zh": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "tags_zh": [
-        "LLM",
         "Agent"
       ],
-      "oneliner": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "oneliner": "arXiv:2610.36013v1 Announce Type: new \nAbstract: General-purpose embodied intelligence requires robo",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -221,56 +167,104 @@
       }
     },
     {
-      "id": "eab0bce4d038",
-      "title_zh": "NVIDIA /SkillSpector",
-      "summary_zh": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "id": "dbbd2a123593",
+      "title_zh": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
+      "summary_zh": "arXiv:2610.36083v1 Announce Type: new \nAbstract: Recent advances in Generative AI have substantially improved financial sentiment analysis through post-trained financial large language models (LLMs). However, existing approaches remain confined...",
       "tags_zh": [
-        "Claude",
-        "Agent",
+        "LLM"
+      ],
+      "oneliner": "arXiv:2610.36083v1 Announce Type: new \nAbstract: Recent advances in Generative AI have substantially",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bb9bad380132",
+      "title_zh": "3, 7, 14, 17, 42: Instruction Tuning Installs and Sharpens Number-Choice Heuristics in Language Models",
+      "summary_zh": "arXiv:2610.36178v1 Announce Type: new \nAbstract: We measure, without sampling error, the probability a language model assigns to each integer from 1 to N when asked for a random number. For a fixed prompt the model defines one probability vector,...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.36178v1 Announce Type: new \nAbstract: We measure, without sampling error, the probability",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7b643154deb5",
+      "title_zh": "Lipi-Ghor: A Large-Scale, Diarized, Multi-Domain Bengali Speech Corpus and a Scalable Pipeline for Building It",
+      "summary_zh": "arXiv:2610.36184v1 Announce Type: new \nAbstract: Bengali, spoken by over 230 million people, remains severely under-resourced in spoken language research. Existing open Bengali ASR corpora are confined to short, read or crowd-sourced speech and...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.36184v1 Announce Type: new \nAbstract: Bengali, spoken by over 230 million people, remains",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "eed69141fbe2",
+      "title_zh": "Frankly Speaking: The Company Election Integrity Keeps in Congressional Communication",
+      "summary_zh": "arXiv:2610.36187v1 Announce Type: new \nAbstract: Election integrity is a shared commitment in American politics, but Democrats and Republicans in Congress increasingly mean different things by it. Analyzing 10,420 congressional e-newsletters sent...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.36187v1 Announce Type: new \nAbstract: Election integrity is a shared commitment in Americ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2d18448a7c4b",
+      "title_zh": "LLM Hallucination Detection via Low-rank Multilinear Decomposition",
+      "summary_zh": "arXiv:2610.36191v1 Announce Type: new \nAbstract: Large language models (LLMs) frequently generate fluent yet factually incorrect responses, raising concerns about their reliability. Recent hallucination detectors increasingly exploit internal...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2610.36191v1 Announce Type: new \nAbstract: Large language models (LLMs) frequently generate fl",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8e63730a1091",
+      "title_zh": "Beyond IceBERT: Open-Data ModernBERT Encoders for Icelandic from 12M to 1B Parameters",
+      "summary_zh": "arXiv:2610.36230v1 Announce Type: new \nAbstract: IceBERT, the reference encoder for Icelandic, found that a cleaned web crawl is enough to train a strong model and that starting from a multilingual model can help on some tasks. We revisit both...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2610.36230v1 Announce Type: new \nAbstract: IceBERT, the reference encoder for Icelandic, found",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "c8c742b323f3",
+      "title_zh": "Detect Before You Disambiguate: Perturbation-Based Input Ambiguity Detection in LLMs",
+      "summary_zh": "arXiv:2610.36353v1 Announce Type: new \nAbstract: Large language models (LLMs) often answer ambiguous inputs as if they had a single intended meaning. This is problematic because input ambiguity is an upstream source of uncertainty: when a prompt...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2610.36353v1 Announce Type: new \nAbstract: Large language models (LLMs) often answer ambiguous",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9afa51b31dc4",
+      "title_zh": "AK_QMUL at ArGuard Shared Tasks: A Single Fine-Tuned JAIS for Arabic Harmful-Prompt Detection",
+      "summary_zh": "arXiv:2610.36360v1 Announce Type: new \nAbstract: We present AK_QMUL's submissions to the ArGuard-2026 shared tasks on Arabic harmful-prompt detection: a binary safe/unsafe task (B1) and a seven-way harm-domain task (B2). Both submissions use one...",
+      "tags_zh": [
+        "Fine-tune",
         "Prompt"
       ],
-      "oneliner": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, pr",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "81fb0b6406ba",
-      "title_zh": "Panniantong /Agent-Reach",
-      "summary_zh": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "tags_zh": [
-        "Agent",
-        "API"
-      ],
-      "oneliner": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "39d0d7e665e9",
-      "title_zh": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
-      "summary_zh": "arXiv:2610.31701v1 Announce Type: new \nAbstract: Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2610.31701v1 Announce Type: new \nAbstract: Enterprise customer journeys are shaped not only by",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4f31e5253538",
-      "title_zh": "Phronix: The Capability-Centric Learning Paradigm for Agents",
-      "summary_zh": "arXiv:2610.31789v1 Announce Type: new \nAbstract: Scientific computing increasingly relies on large language model-based agents for performance engineering tasks such as instrumentation, analysis, and workflow porting. However, agent effectiveness...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2610.31789v1 Announce Type: new \nAbstract: Scientific computing increasingly relies on large l",
+      "oneliner": "arXiv:2610.36360v1 Announce Type: new \nAbstract: We present AK_QMUL's submissions to the ArGuard-202",
       "key_facts": [],
       "notable_quote": {
         "text": "",
