@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-28T04:36:07Z",
-  "total": 316,
+  "updated": "2026-10-28T15:00:43Z",
+  "total": 270,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 105
-    },
-    {
-      "name": "ArXiv (cs.AI)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.AI)",
+      "count": 60
+    },
+    {
       "name": "MarkTechPost",
-      "count": 35
+      "count": 36
     },
     {
       "name": "GitHub Trending",
-      "count": 32
+      "count": 30
     },
     {
       "name": "OpenAI",
-      "count": 26
+      "count": 25
     },
     {
       "name": "Hugging Face",
-      "count": 18
+      "count": 19
     },
     {
       "name": "Google AI",
@@ -38,23 +38,23 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 86
+      "count": 72
     },
     {
       "name": "LLM",
-      "count": 45
+      "count": 37
     },
     {
       "name": "GPT",
-      "count": 12
-    },
-    {
-      "name": "OpenAI",
       "count": 11
     },
     {
-      "name": "Claude",
+      "name": "OpenAI",
       "count": 10
+    },
+    {
+      "name": "Claude",
+      "count": 9
     },
     {
       "name": "Google",
@@ -62,10 +62,6 @@
     },
     {
       "name": "Benchmark",
-      "count": 6
-    },
-    {
-      "name": "RAG",
       "count": 6
     },
     {
@@ -77,15 +73,15 @@
       "count": 5
     },
     {
-      "name": "Diffusion",
+      "name": "RAG",
       "count": 4
     },
     {
-      "name": "Gemini",
+      "name": "Diffusion",
       "count": 3
     },
     {
-      "name": "Embedding",
+      "name": "Gemini",
       "count": 3
     },
     {
@@ -101,10 +97,6 @@
       "count": 2
     },
     {
-      "name": "GPU",
-      "count": 2
-    },
-    {
       "name": "Fine-tune",
       "count": 1
     },
@@ -117,30 +109,34 @@
       "count": 1
     },
     {
+      "name": "Embedding",
+      "count": 1
+    },
+    {
       "name": "Meta",
       "count": 1
     },
     {
-      "name": "Mistral",
+      "name": "GPU",
       "count": 1
     },
     {
-      "name": "Transformer",
+      "name": "Mistral",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 225
+      "count": 181
     },
     {
       "name": "开源项目",
-      "count": 50
+      "count": 49
     },
     {
       "name": "模型发布",
-      "count": 41
+      "count": 40
     }
   ],
   "dailyTrend": [
@@ -166,14 +162,20 @@
     },
     {
       "date": "10-27",
-      "count": 45
+      "count": 44
     },
     {
       "date": "10-28",
-      "count": 39
+      "count": 45
     }
   ],
   "top10": [
+    {
+      "id": "9fe0ab02c3e7",
+      "title": "JetBrains /thinkrail",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "06fe3ce050dd",
       "title": "elayadesign /ai-design-skills",
@@ -181,20 +183,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "c88c01cfd244",
-      "title": "Nutlope /hallmark",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "6acc383a1342",
-      "title": "nightly-labs /openbot",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "c3257d531a3c",
       "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "bbfc2ca772d5",
+      "title": "macro-inc /macro",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "c88c01cfd244",
+      "title": "Nutlope /hallmark",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -211,28 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "e754f5408d4d",
-      "title": "gitroomhq /postiz-app",
+      "id": "6acc383a1342",
+      "title": "nightly-labs /openbot",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "a90d342e2181",
-      "title": "affaan-m /ECC",
+      "id": "4f44d6baf2c7",
+      "title": "togg53192-cmd /jailbreaks",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "9fe0ab02c3e7",
-      "title": "JetBrains /thinkrail",
+      "id": "1a2fcc5f3d88",
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "1fe9af99446a",
-      "title": "ReCoPII: A Relation-Grounded Framework for Building Contextual PII Masking Datasets",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Hugging Face"
     }
   ]
 }
