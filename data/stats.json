@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-29T04:51:08Z",
-  "total": 265,
+  "updated": "2026-10-29T15:07:18Z",
+  "total": 231,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 45
     },
     {
       "name": "MarkTechPost",
@@ -16,11 +16,11 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 29
+      "count": 27
     },
     {
       "name": "OpenAI",
-      "count": 22
+      "count": 20
     },
     {
       "name": "Hugging Face",
@@ -38,22 +38,14 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 71
+      "count": 63
     },
     {
       "name": "LLM",
-      "count": 37
+      "count": 29
     },
     {
       "name": "Google",
-      "count": 9
-    },
-    {
-      "name": "OpenAI",
-      "count": 9
-    },
-    {
-      "name": "GPT",
       "count": 9
     },
     {
@@ -61,11 +53,19 @@
       "count": 8
     },
     {
+      "name": "OpenAI",
+      "count": 8
+    },
+    {
+      "name": "GPT",
+      "count": 8
+    },
+    {
       "name": "Benchmark",
       "count": 6
     },
     {
-      "name": "Prompt",
+      "name": "Gemini",
       "count": 5
     },
     {
@@ -73,15 +73,11 @@
       "count": 5
     },
     {
-      "name": "Gemini",
-      "count": 4
+      "name": "Prompt",
+      "count": 5
     },
     {
       "name": "RAG",
-      "count": 4
-    },
-    {
-      "name": "Diffusion",
       "count": 3
     },
     {
@@ -97,7 +93,15 @@
       "count": 2
     },
     {
+      "name": "Mistral",
+      "count": 1
+    },
+    {
       "name": "Fine-tune",
+      "count": 1
+    },
+    {
+      "name": "Diffusion",
       "count": 1
     },
     {
@@ -111,28 +115,20 @@
     {
       "name": "Embedding",
       "count": 1
-    },
-    {
-      "name": "Meta",
-      "count": 1
-    },
-    {
-      "name": "GPU",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 182
+      "count": 152
     },
     {
       "name": "开源项目",
-      "count": 46
+      "count": 44
     },
     {
       "name": "模型发布",
-      "count": 37
+      "count": 35
     }
   ],
   "dailyTrend": [
@@ -162,37 +158,13 @@
     },
     {
       "date": "10-29",
-      "count": 24
+      "count": 34
     }
   ],
   "top10": [
     {
-      "id": "9fe0ab02c3e7",
-      "title": "JetBrains /thinkrail",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "06fe3ce050dd",
-      "title": "elayadesign /ai-design-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "c3257d531a3c",
       "title": "obra /superpowers",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "bbfc2ca772d5",
-      "title": "macro-inc /macro",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c88c01cfd244",
-      "title": "Nutlope /hallmark",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -203,8 +175,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "19f0bb06fa52",
-      "title": "makecindy /cindy",
+      "id": "9fe0ab02c3e7",
+      "title": "JetBrains /thinkrail",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -215,16 +187,40 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "06fe3ce050dd",
+      "title": "elayadesign /ai-design-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f08d8cf2c7ba",
+      "title": "thedotmack /claude-mem",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "16f7fc85f764",
+      "title": "CopilotKit /OpenBot",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "4f44d6baf2c7",
       "title": "togg53192-cmd /jailbreaks",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "24ac74729b93",
-      "title": "Counting the Bandages: On measuring the time that AI saves",
+      "id": "d5731ad2520e",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "Hugging Face"
+    },
+    {
+      "id": "78fd02fc9c80",
+      "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
