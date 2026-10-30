@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-10-30T14:59:06Z",
-  "count": 517,
+  "updated": "2026-10-30T20:38:53Z",
+  "count": 518,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -33086,6 +33086,70 @@
         }
       },
       "_ts": 1793372346
+    },
+    "25643bf8905f5c0c": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录242篇AI新闻，分类分布：学术研究164篇, 开源项目42篇, 模型发布36篇。热门标签：Agent（65篇）。其中12%的文章有多来源交叉验证。\n\n▸ thedotmack /claude-mem：Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess\n\n▸ pbakaus /impeccable：The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and \n\n▸ CopilotKit /OpenBot：Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with eve\n\n▸ Renhuai123 /ziwei-doushu：紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据\n\n▸ expo /skills：A collection of AI agent skills for working with Expo projects and Expo Application Services",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "pbakaus/impeccable",
+            "url": "https://github.com/pbakaus/impeccable",
+            "why_hot": "单日2299星，Rust项目",
+            "stars_today": 2299,
+            "total_stars": 96884
+          },
+          {
+            "full_name": "obra/superpowers",
+            "url": "https://github.com/obra/superpowers",
+            "why_hot": "单日1255星，Shell项目",
+            "stars_today": 1255,
+            "total_stars": 309341
+          },
+          {
+            "full_name": "togg53192-cmd/jailbreaks",
+            "url": "https://github.com/togg53192-cmd/jailbreaks",
+            "why_hot": "单日2053星，项目",
+            "stars_today": 2053,
+            "total_stars": 10753
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "242"
+          },
+          {
+            "label": "多源验证率",
+            "value": "12%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+9609"
+          }
+        ],
+        "must_read_ids": [
+          "f08d8cf2c7ba",
+          "be8acfaf1118",
+          "16f7fc85f764",
+          "3fff46d92e86",
+          "2f6ba8b59b6b"
+        ],
+        "text": "今日共收录242篇AI新闻，分类分布：学术研究164篇, 开源项目42篇, 模型发布36篇。热门标签：Agent（65篇）。其中12%的文章有多来源交叉验证。",
+        "top_items": [
+          "thedotmack /claude-mem",
+          "pbakaus /impeccable",
+          "CopilotKit /OpenBot",
+          "Renhuai123 /ziwei-doushu",
+          "expo /skills"
+        ],
+        "meta": {
+          "total_articles": 242,
+          "multi_source_pct": 12
+        }
+      },
+      "_ts": 1793392733
     }
   }
 }
