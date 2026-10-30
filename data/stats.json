@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-30T04:50:45Z",
-  "total": 227,
+  "updated": "2026-10-30T14:58:56Z",
+  "total": 240,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
@@ -12,15 +12,15 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 33
+      "count": 35
     },
     {
       "name": "GitHub Trending",
-      "count": 27
+      "count": 25
     },
     {
       "name": "OpenAI",
-      "count": 21
+      "count": 19
     },
     {
       "name": "Hugging Face",
@@ -38,11 +38,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 65
     },
     {
       "name": "LLM",
-      "count": 29
+      "count": 31
     },
     {
       "name": "Google",
@@ -54,18 +54,18 @@
     },
     {
       "name": "GPT",
-      "count": 8
-    },
-    {
-      "name": "OpenAI",
       "count": 7
     },
     {
-      "name": "Gemini",
-      "count": 5
+      "name": "Prompt",
+      "count": 6
     },
     {
-      "name": "Prompt",
+      "name": "OpenAI",
+      "count": 6
+    },
+    {
+      "name": "RAG",
       "count": 5
     },
     {
@@ -73,12 +73,12 @@
       "count": 5
     },
     {
-      "name": "API",
+      "name": "Gemini",
       "count": 4
     },
     {
-      "name": "RAG",
-      "count": 3
+      "name": "API",
+      "count": 4
     },
     {
       "name": "DeepSeek",
@@ -86,6 +86,10 @@
     },
     {
       "name": "开源",
+      "count": 2
+    },
+    {
+      "name": "Diffusion",
       "count": 2
     },
     {
@@ -101,10 +105,6 @@
       "count": 1
     },
     {
-      "name": "Diffusion",
-      "count": 1
-    },
-    {
       "name": "Microsoft",
       "count": 1
     },
@@ -116,15 +116,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 148
+      "count": 165
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 41
     },
     {
       "name": "模型发布",
-      "count": 36
+      "count": 34
     }
   ],
   "dailyTrend": [
@@ -138,7 +138,7 @@
     },
     {
       "date": "10-26",
-      "count": 27
+      "count": 26
     },
     {
       "date": "10-27",
@@ -150,17 +150,17 @@
     },
     {
       "date": "10-29",
-      "count": 31
+      "count": 30
     },
     {
       "date": "10-30",
-      "count": 8
+      "count": 44
     }
   ],
   "top10": [
     {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
+      "id": "f08d8cf2c7ba",
+      "title": "thedotmack /claude-mem",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -171,52 +171,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9fe0ab02c3e7",
-      "title": "JetBrains /thinkrail",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "6acc383a1342",
-      "title": "nightly-labs /openbot",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "06fe3ce050dd",
-      "title": "elayadesign /ai-design-skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "f08d8cf2c7ba",
-      "title": "thedotmack /claude-mem",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "16f7fc85f764",
       "title": "CopilotKit /OpenBot",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "4f44d6baf2c7",
-      "title": "togg53192-cmd /jailbreaks",
+      "id": "3fff46d92e86",
+      "title": "Renhuai123 /ziwei-doushu",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "99f0c6e63a0c",
-      "title": "Baseten Releases joey-1, a 2B Decision Model at $0.01 per 1M Tokens",
+      "id": "2f6ba8b59b6b",
+      "title": "expo /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "bbfc2ca772d5",
+      "title": "macro-inc /macro",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "80a7cd17c9a5",
+      "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "e1c70be82cbc",
-      "title": "Prime Intellect Releases Prime Mega MoE: Trainable Fused MoE Kernel, 3.11x Faster Forward Pass",
+      "id": "679f85d13449",
+      "title": "Edge0 Releases Audio8-TTS-Realistic, a 0.6B Voice Cloning TTS Model",
       "score": 5,
       "source": "MarkTechPost"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
     }
   ]
 }
