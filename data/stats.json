@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-30T20:38:43Z",
-  "total": 242,
+  "updated": "2026-10-31T04:35:34Z",
+  "total": 241,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Hugging Face",
-      "count": 17
+      "count": 16
     },
     {
       "name": "Google AI",
@@ -49,12 +49,12 @@
       "count": 9
     },
     {
-      "name": "GPT",
+      "name": "Google",
       "count": 8
     },
     {
-      "name": "Google",
-      "count": 8
+      "name": "GPT",
+      "count": 7
     },
     {
       "name": "Prompt",
@@ -65,10 +65,6 @@
       "count": 6
     },
     {
-      "name": "RAG",
-      "count": 5
-    },
-    {
       "name": "Benchmark",
       "count": 5
     },
@@ -77,8 +73,12 @@
       "count": 4
     },
     {
-      "name": "API",
+      "name": "RAG",
       "count": 4
+    },
+    {
+      "name": "API",
+      "count": 3
     },
     {
       "name": "DeepSeek",
@@ -120,7 +120,7 @@
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 41
     },
     {
       "name": "模型发布",
@@ -128,10 +128,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-24",
-      "count": 19
-    },
     {
       "date": "10-25",
       "count": 11
@@ -154,7 +150,11 @@
     },
     {
       "date": "10-30",
-      "count": 49
+      "count": 28
+    },
+    {
+      "date": "10-31",
+      "count": 22
     }
   ],
   "top10": [
@@ -201,22 +201,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "82860a279019",
-      "title": "nemotron-halloween",
+      "id": "58e1091d3a99",
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "97fe9454d905",
-      "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
+      "id": "b01adb6a6c07",
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.AI)"
     },
     {
-      "id": "2bf5c46f4e29",
-      "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
+      "id": "9889211209b2",
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.AI)"
     }
   ]
 }
