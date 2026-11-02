@@ -1,26 +1,26 @@
 {
-  "updated": "2026-11-02T04:57:28Z",
-  "total": 201,
+  "updated": "2026-11-02T18:06:01Z",
+  "total": 238,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 45
+      "name": "ArXiv (cs.CL)",
+      "count": 60
     },
     {
-      "name": "ArXiv (cs.CL)",
-      "count": 45
+      "name": "ArXiv (cs.AI)",
+      "count": 60
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 28
     },
     {
       "name": "GitHub Trending",
-      "count": 24
+      "count": 27
     },
     {
       "name": "OpenAI",
-      "count": 20
+      "count": 22
     },
     {
       "name": "Hugging Face",
@@ -38,18 +38,26 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 65
     },
     {
       "name": "LLM",
-      "count": 24
+      "count": 26
     },
     {
       "name": "Claude",
       "count": 9
     },
     {
-      "name": "Google",
+      "name": "RAG",
+      "count": 8
+    },
+    {
+      "name": "Benchmark",
+      "count": 7
+    },
+    {
+      "name": "GPT",
       "count": 7
     },
     {
@@ -57,7 +65,7 @@
       "count": 6
     },
     {
-      "name": "GPT",
+      "name": "Google",
       "count": 6
     },
     {
@@ -65,19 +73,11 @@
       "count": 6
     },
     {
-      "name": "RAG",
+      "name": "API",
       "count": 5
     },
     {
-      "name": "API",
-      "count": 4
-    },
-    {
       "name": "DeepSeek",
-      "count": 4
-    },
-    {
-      "name": "Benchmark",
       "count": 4
     },
     {
@@ -85,12 +85,24 @@
       "count": 3
     },
     {
+      "name": "Diffusion",
+      "count": 3
+    },
+    {
+      "name": "Fine-tune",
+      "count": 2
+    },
+    {
       "name": "开源",
       "count": 2
     },
     {
-      "name": "Diffusion",
-      "count": 2
+      "name": "Qwen",
+      "count": 1
+    },
+    {
+      "name": "GPU",
+      "count": 1
     },
     {
       "name": "Microsoft",
@@ -99,24 +111,20 @@
     {
       "name": "Mistral",
       "count": 1
-    },
-    {
-      "name": "Fine-tune",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 126
+      "count": 158
     },
     {
       "name": "开源项目",
-      "count": 40
+      "count": 43
     },
     {
       "name": "模型发布",
-      "count": 35
+      "count": 37
     }
   ],
   "dailyTrend": [
@@ -146,10 +154,16 @@
     },
     {
       "date": "11-02",
-      "count": 6
+      "count": 44
     }
   ],
   "top10": [
+    {
+      "id": "f3ff53581488",
+      "title": "vercel-labs /agent-desktop",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "f08d8cf2c7ba",
       "title": "thedotmack /claude-mem",
@@ -157,14 +171,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "3e5bc6114122",
-      "title": "lightpanda-io /browser",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "ed6cd510886f",
-      "title": "cjpais /Handy",
+      "id": "76a267c59bdc",
+      "title": "D4Vinci /Scrapling",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -175,40 +183,40 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "586dee9a79c1",
+      "title": "FlashML-org /FreeToken",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "06db34233a17",
       "title": "kornia /kornia",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "af11c4a85f03",
-      "title": "beenuar /AiSOC",
+      "id": "ff01b8b9f068",
+      "title": "The latest AI news we announced in October 2026",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "Google AI"
     },
     {
-      "id": "b1e3d9240643",
-      "title": "Nace AI Open-Sources Drex Max v1: A 27B Decision Model That Runs Locally on Apple Silicon",
+      "id": "c155a34806a1",
+      "title": "Introducing the Grid Protectors Program",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "1468543483a0",
+      "title": "LifeVal",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
+      "id": "6f1092e3f62f",
+      "title": "NVIDIA Releases Auto Ontology: An Open Semantic Layer That Grounds AI Agent SQL",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "21aaf37583f3",
-      "title": "DeepSeek Open-Sources dsh-superagent, a Router-Worker Coding Agent",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "1ae169fb23a9",
-      "title": "mattpocock /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "3fff46d92e86",
-      "title": "Renhuai123 /ziwei-doushu",
-      "score": 5,
-      "source": "GitHub Trending"
     }
   ]
 }
