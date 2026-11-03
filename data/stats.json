@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02T23:23:48Z",
-  "total": 233,
+  "updated": "2026-11-03T05:45:45Z",
+  "total": 238,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -11,16 +11,16 @@
       "count": 60
     },
     {
+      "name": "MarkTechPost",
+      "count": 29
+    },
+    {
       "name": "GitHub Trending",
       "count": 27
     },
     {
-      "name": "MarkTechPost",
-      "count": 27
-    },
-    {
       "name": "OpenAI",
-      "count": 18
+      "count": 21
     },
     {
       "name": "Hugging Face",
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 63
+      "count": 64
     },
     {
       "name": "LLM",
@@ -51,6 +51,10 @@
     {
       "name": "RAG",
       "count": 8
+    },
+    {
+      "name": "OpenAI",
+      "count": 7
     },
     {
       "name": "Benchmark",
@@ -70,14 +74,10 @@
     },
     {
       "name": "GPT",
-      "count": 5
-    },
-    {
-      "name": "DeepSeek",
       "count": 4
     },
     {
-      "name": "OpenAI",
+      "name": "DeepSeek",
       "count": 4
     },
     {
@@ -116,7 +116,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 157
+      "count": 159
     },
     {
       "name": "开源项目",
@@ -124,14 +124,10 @@
     },
     {
       "name": "模型发布",
-      "count": 33
+      "count": 36
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-27",
-      "count": 44
-    },
     {
       "date": "10-28",
       "count": 26
@@ -154,7 +150,11 @@
     },
     {
       "date": "11-02",
-      "count": 46
+      "count": 44
+    },
+    {
+      "date": "11-03",
+      "count": 8
     }
   ],
   "top10": [
@@ -195,26 +195,26 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "bcd73fa57de7",
+      "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "0bc29b27332c",
+      "title": "The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "6d7af2962386",
       "title": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "ff01b8b9f068",
-      "title": "The latest AI news we announced in October 2026",
-      "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "c155a34806a1",
-      "title": "Introducing the Grid Protectors Program",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "1468543483a0",
-      "title": "LifeVal",
+      "id": "4524e83e3abb",
+      "title": "Rewarding defenders with bigger bug bounties",
       "score": 5,
       "source": "OpenAI"
     }
