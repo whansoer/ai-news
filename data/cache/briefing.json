@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-03T16:03:09Z",
-  "count": 530,
+  "updated": "2026-11-03T21:40:48Z",
+  "count": 531,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -33918,6 +33918,70 @@
         }
       },
       "_ts": 1793721789
+    },
+    "bd7e2437b00e59b0": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录239篇AI新闻，分类分布：学术研究156篇, 开源项目46篇, 模型发布37篇。热门标签：Agent（59篇）。其中9%的文章有多来源交叉验证。\n\n▸ thedotmack /claude-mem：Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess\n\n▸ vercel-labs /agent-desktop：Computer use CLI for AI agents\n\n▸ max-sixty /worktrunk：Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ p-e-w /heretic：Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and ",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "why_hot": "单日1138星，TypeScript项目",
+            "stars_today": 1138,
+            "total_stars": 111769
+          },
+          {
+            "full_name": "vercel-labs/agent-desktop",
+            "url": "https://github.com/vercel-labs/agent-desktop",
+            "why_hot": "单日3792星，Rust项目",
+            "stars_today": 3792,
+            "total_stars": 12484
+          },
+          {
+            "full_name": "max-sixty/worktrunk",
+            "url": "https://github.com/max-sixty/worktrunk",
+            "why_hot": "单日437星，Rust项目",
+            "stars_today": 437,
+            "total_stars": 10431
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "239"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+10069"
+          }
+        ],
+        "must_read_ids": [
+          "f08d8cf2c7ba",
+          "f3ff53581488",
+          "77049851f70b",
+          "1ae169fb23a9",
+          "d2f39386e20e"
+        ],
+        "text": "今日共收录239篇AI新闻，分类分布：学术研究156篇, 开源项目46篇, 模型发布37篇。热门标签：Agent（59篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "thedotmack /claude-mem",
+          "vercel-labs /agent-desktop",
+          "max-sixty /worktrunk",
+          "mattpocock /skills",
+          "p-e-w /heretic"
+        ],
+        "meta": {
+          "total_articles": 239,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1793742048
     }
   }
 }
