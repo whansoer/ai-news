@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T05:45:45Z",
+  "updated": "2026-11-03T16:02:58Z",
   "total": 238,
   "sources": [
     {
@@ -11,12 +11,12 @@
       "count": 60
     },
     {
-      "name": "MarkTechPost",
-      "count": 29
+      "name": "GitHub Trending",
+      "count": 28
     },
     {
-      "name": "GitHub Trending",
-      "count": 27
+      "name": "MarkTechPost",
+      "count": 28
     },
     {
       "name": "OpenAI",
@@ -38,18 +38,22 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 59
     },
     {
       "name": "LLM",
-      "count": 25
+      "count": 21
     },
     {
-      "name": "Claude",
-      "count": 9
+      "name": "Benchmark",
+      "count": 10
     },
     {
       "name": "RAG",
+      "count": 9
+    },
+    {
+      "name": "Claude",
       "count": 8
     },
     {
@@ -57,20 +61,16 @@
       "count": 7
     },
     {
-      "name": "Benchmark",
-      "count": 7
-    },
-    {
-      "name": "Prompt",
-      "count": 6
-    },
-    {
       "name": "Google",
       "count": 6
     },
     {
-      "name": "API",
+      "name": "Prompt",
       "count": 5
+    },
+    {
+      "name": "API",
+      "count": 4
     },
     {
       "name": "GPT",
@@ -85,8 +85,12 @@
       "count": 3
     },
     {
+      "name": "Embedding",
+      "count": 2
+    },
+    {
       "name": "Diffusion",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Fine-tune",
@@ -95,6 +99,10 @@
     {
       "name": "开源",
       "count": 2
+    },
+    {
+      "name": "Transformer",
+      "count": 1
     },
     {
       "name": "Qwen",
@@ -116,11 +124,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 159
+      "count": 158
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 44
     },
     {
       "name": "模型发布",
@@ -146,7 +154,7 @@
     },
     {
       "date": "11-01",
-      "count": 6
+      "count": 5
     },
     {
       "date": "11-02",
@@ -154,16 +162,10 @@
     },
     {
       "date": "11-03",
-      "count": 8
+      "count": 47
     }
   ],
   "top10": [
-    {
-      "id": "f3ff53581488",
-      "title": "vercel-labs /agent-desktop",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
     {
       "id": "f08d8cf2c7ba",
       "title": "thedotmack /claude-mem",
@@ -171,52 +173,58 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "76a267c59bdc",
-      "title": "D4Vinci /Scrapling",
+      "id": "f3ff53581488",
+      "title": "vercel-labs /agent-desktop",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "92509c4f30bf",
-      "title": "Donchitos /Claude-Code-Game-Studios",
+      "id": "77049851f70b",
+      "title": "max-sixty /worktrunk",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "586dee9a79c1",
-      "title": "FlashML-org /FreeToken",
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "06db34233a17",
-      "title": "kornia /kornia",
+      "id": "d2f39386e20e",
+      "title": "p-e-w /heretic",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "bcd73fa57de7",
-      "title": "Zyphra AI Introduces Zyphra Hierarchical Attention (ZHA): A Path to True Subquadratic Attention",
+      "id": "76d7fff5eff1",
+      "title": "spotify /portal-ai-plugins",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "0bc29b27332c",
-      "title": "The Letter Company Releases Letterpress-1: A Coding Agent Built for Growth Engineering",
+      "id": "e693c29af620",
+      "title": "Usagi-org /ai-goofish-monitor",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "GitHub Trending"
     },
     {
-      "id": "6d7af2962386",
-      "title": "Deep Principle Releases Hydrogen-1.0: A 753B Open-Weight Model for Scientific Discovery",
+      "id": "065b83f5726a",
+      "title": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents — When to Pick CUGA?",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "Hugging Face"
     },
     {
-      "id": "4524e83e3abb",
-      "title": "Rewarding defenders with bigger bug bounties",
+      "id": "250b236eb589",
+      "title": "Heimstaden is changing residential real estate management with AI",
       "score": 5,
       "source": "OpenAI"
+    },
+    {
+      "id": "a77302e323f7",
+      "title": "OpenAI Introduces Pando: A Git Backend That Cuts Median Push Latency ~80%",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
