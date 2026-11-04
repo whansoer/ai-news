@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-04T05:18:46Z",
-  "count": 532,
+  "updated": "2026-11-04T16:07:46Z",
+  "count": 533,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -34046,6 +34046,70 @@
         }
       },
       "_ts": 1793769526
+    },
+    "2984d85968bb637f": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录258篇AI新闻，分类分布：学术研究173篇, 开源项目46篇, 模型发布39篇。热门标签：Agent（65篇）。其中9%的文章有多来源交叉验证。\n\n▸ NVIDIA /auto-ontology：Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. I\n\n▸ max-sixty /worktrunk：Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ thedotmack /claude-mem：Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess\n\n▸ vercel-labs /agent-desktop：Computer use CLI for AI agents",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "thedotmack/claude-mem",
+            "url": "https://github.com/thedotmack/claude-mem",
+            "why_hot": "单日1165星，TypeScript项目",
+            "stars_today": 1165,
+            "total_stars": 112573
+          },
+          {
+            "full_name": "NVIDIA/auto-ontology",
+            "url": "https://github.com/NVIDIA/auto-ontology",
+            "why_hot": "单日2053星，Python项目",
+            "stars_today": 2053,
+            "total_stars": 4236
+          },
+          {
+            "full_name": "max-sixty/worktrunk",
+            "url": "https://github.com/max-sixty/worktrunk",
+            "why_hot": "单日524星，Rust项目",
+            "stars_today": 524,
+            "total_stars": 10871
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "258"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+9811"
+          }
+        ],
+        "must_read_ids": [
+          "5fb2a08103b0",
+          "77049851f70b",
+          "1ae169fb23a9",
+          "f08d8cf2c7ba",
+          "f3ff53581488"
+        ],
+        "text": "今日共收录258篇AI新闻，分类分布：学术研究173篇, 开源项目46篇, 模型发布39篇。热门标签：Agent（65篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "NVIDIA /auto-ontology",
+          "max-sixty /worktrunk",
+          "mattpocock /skills",
+          "thedotmack /claude-mem",
+          "vercel-labs /agent-desktop"
+        ],
+        "meta": {
+          "total_articles": 258,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1793808466
     }
   }
 }
