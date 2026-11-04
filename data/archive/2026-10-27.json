@@ -1,8 +1,33 @@
 {
   "date": "2026-10-27",
-  "updated": "2026-11-03T21:40:48Z",
-  "total": 43,
+  "updated": "2026-11-04T05:18:47Z",
+  "total": 44,
   "items": [
+    {
+      "id": "403f8d35d239",
+      "title": "Meet LEANN: An Open-Source Vector Index that Shrinks a 60M-Chunk RAG Index from 201 GB to 6 GB",
+      "url": "https://www.marktechpost.com/2026/10/27/leann-vector-index-mlsys-2026/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "UC Berkeley’s LEANN vector index stores a pruned graph and recomputes embeddings at query time. It matches HNSW accuracy at 90% recall using 4 GB instead of 188 GB, at the cost of seconds-level search.\nThe post Meet LEANN: An Open-Source Vector...",
+      "published": "2026-10-27T21:54:37Z",
+      "tags": [
+        "RAG"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "8cf9f617f58d",
       "title": "Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models",

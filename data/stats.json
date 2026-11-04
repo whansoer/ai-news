@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-03T21:40:37Z",
-  "total": 239,
+  "updated": "2026-11-04T05:18:36Z",
+  "total": 270,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "GitHub Trending",
@@ -16,7 +16,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 28
     },
     {
       "name": "OpenAI",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Hugging Face",
-      "count": 18
+      "count": 17
     },
     {
       "name": "Google AI",
@@ -38,19 +38,19 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 59
+      "count": 67
     },
     {
       "name": "LLM",
-      "count": 20
-    },
-    {
-      "name": "RAG",
-      "count": 10
+      "count": 23
     },
     {
       "name": "Benchmark",
-      "count": 10
+      "count": 13
+    },
+    {
+      "name": "RAG",
+      "count": 11
     },
     {
       "name": "Claude",
@@ -65,11 +65,15 @@
       "count": 6
     },
     {
+      "name": "API",
+      "count": 5
+    },
+    {
       "name": "Prompt",
       "count": 5
     },
     {
-      "name": "API",
+      "name": "GPT",
       "count": 4
     },
     {
@@ -81,8 +85,8 @@
       "count": 3
     },
     {
-      "name": "GPT",
-      "count": 3
+      "name": "Transformer",
+      "count": 2
     },
     {
       "name": "Embedding",
@@ -101,7 +105,7 @@
       "count": 2
     },
     {
-      "name": "Transformer",
+      "name": "Anthropic",
       "count": 1
     },
     {
@@ -124,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 156
+      "count": 188
     },
     {
       "name": "开源项目",
-      "count": 46
+      "count": 45
     },
     {
       "name": "模型发布",
@@ -136,10 +140,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "10-28",
-      "count": 26
-    },
     {
       "date": "10-29",
       "count": 31
@@ -162,7 +162,11 @@
     },
     {
       "date": "11-03",
-      "count": 53
+      "count": 49
+    },
+    {
+      "date": "11-04",
+      "count": 37
     }
   ],
   "top10": [
@@ -209,22 +213,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "a328083f20b9",
-      "title": "StateBench: Testing how language models track state changes over long documents",
+      "id": "f1c661b604e3",
+      "title": "Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "c501698baa94",
-      "title": "Palette: teaching a small model to build decks in your design language",
+      "id": "adf0c46be406",
+      "title": "A Conditional Mutual Information Analysis of Response Variety in Language Models",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "065b83f5726a",
-      "title": "Same Model, Different Harness: CUGA, Hermes, and Deep Agents — When to Pick CUGA?",
+      "id": "0dfe468099e7",
+      "title": "Why Pay for Long Reasoning When Rewrite Do Trick? Causal Effects of Reasoning History Compaction on Future Generation and Agent Cost",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
