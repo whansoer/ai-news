@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-05T16:22:08Z",
-  "count": 536,
+  "updated": "2026-11-05T21:53:30Z",
+  "count": 537,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -34302,6 +34302,70 @@
         }
       },
       "_ts": 1793895728
+    },
+    "9187a9723369ef2d": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录269篇AI新闻，分类分布：学术研究186篇, 开源项目46篇, 模型发布37篇。热门标签：Agent（69篇）。其中9%的文章有多来源交叉验证。\n\n▸ NVIDIA /auto-ontology：Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. I\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ Usagi-org /ai-goofish-monitor：基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。\n\n▸ D4Vinci /Scrapling：🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale cra\n\n▸ vercel-labs /agent-desktop：Computer use CLI for AI agents",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "scenario-labs/skills",
+            "url": "https://github.com/scenario-labs/skills",
+            "why_hot": "单日674星，Python项目",
+            "stars_today": 674,
+            "total_stars": 2990
+          },
+          {
+            "full_name": "max-sixty/worktrunk",
+            "url": "https://github.com/max-sixty/worktrunk",
+            "why_hot": "单日546星，Rust项目",
+            "stars_today": 546,
+            "total_stars": 11463
+          },
+          {
+            "full_name": "NVIDIA/auto-ontology",
+            "url": "https://github.com/NVIDIA/auto-ontology",
+            "why_hot": "单日2707星，Python项目",
+            "stars_today": 2707,
+            "total_stars": 7174
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "269"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+10422"
+          }
+        ],
+        "must_read_ids": [
+          "5fb2a08103b0",
+          "1ae169fb23a9",
+          "e693c29af620",
+          "76a267c59bdc",
+          "f3ff53581488"
+        ],
+        "text": "今日共收录269篇AI新闻，分类分布：学术研究186篇, 开源项目46篇, 模型发布37篇。热门标签：Agent（69篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "NVIDIA /auto-ontology",
+          "mattpocock /skills",
+          "Usagi-org /ai-goofish-monitor",
+          "D4Vinci /Scrapling",
+          "vercel-labs /agent-desktop"
+        ],
+        "meta": {
+          "total_articles": 269,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1793915610
     }
   }
 }
