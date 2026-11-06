@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06T05:37:10Z",
-  "total": 235,
-  "new_count": 52,
+  "updated": "2026-11-06T15:50:44Z",
+  "total": 236,
+  "new_count": 34,
   "items": [
     {
       "id": "5fb2a08103b0",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "published": "2026-11-06T05:35:01Z",
+      "published": "2026-11-06T15:48:36Z",
       "tags": [
         "LLM",
         "Agent"
@@ -33,6 +33,84 @@
         "Agent"
       ],
       "oneliner": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. I"
+    },
+    {
+      "id": "c1697eee13b5",
+      "title": "rails /rails",
+      "url": "https://github.com/rails/rails",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Ruby on Rails",
+      "published": "2026-11-06T15:48:36Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "rails /rails",
+      "summary_zh": "Ruby on Rails",
+      "tags_zh": [],
+      "oneliner": "Ruby on Rails"
+    },
+    {
+      "id": "69c7eb76fe0b",
+      "title": "google /skills",
+      "url": "https://github.com/google/skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Agent Skills for Google products and technologies",
+      "published": "2026-11-06T15:48:36Z",
+      "tags": [
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "1ae169fb23a9",
+          "f5b465adac7c"
+        ],
+        "score": 7
+      },
+      "title_zh": "google /skills",
+      "summary_zh": "Agent Skills for Google products and technologies",
+      "tags_zh": [
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "Agent Skills for Google products and technologies"
+    },
+    {
+      "id": "27984b16f9bc",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-06T14:00:48Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "1ae169fb23a9",
@@ -169,39 +247,6 @@
         "Agent"
       ],
       "oneliner": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows"
-    },
-    {
-      "id": "69c7eb76fe0b",
-      "title": "google /skills",
-      "url": "https://github.com/google/skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Agent Skills for Google products and technologies",
-      "published": "2026-11-06T05:35:01Z",
-      "tags": [
-        "Google",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "1ae169fb23a9",
-          "f5b465adac7c",
-          "83691ce67b67"
-        ],
-        "score": 9
-      },
-      "title_zh": "google /skills",
-      "summary_zh": "Agent Skills for Google products and technologies",
-      "tags_zh": [
-        "Google",
-        "Agent"
-      ],
-      "oneliner": "Agent Skills for Google products and technologies"
     },
     {
       "id": "c34811c59d2d",
@@ -496,10 +541,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Contextual Pictograms for Repairing Multilingual ASR Errors",
-      "summary_zh": "arXiv:2611.05637v2 Announce Type: new \nAbstract: Speech transcription errors can be difficult to recognize when competing word hypotheses are unfamiliar or visually similar. We describe an interface that combines alternative transcripts, replay...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.05637v2 Announce Type: new \nAbstract: Speech transcription errors can be difficult to rec"
+      "oneliner": ""
     },
     {
       "id": "f2888ddbab5e",
@@ -522,13 +567,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Cognitive Bias Signatures in Search-Equipped LLM Agents: A Stage-Resolved Analysis",
-      "summary_zh": "arXiv:2611.05720v1 Announce Type: new \nAbstract: Search can help LLM agents correct mistakes, but their starting conditions may shape which evidence they find and use. Drawing on cognitive-bias paradigms, we develop a controlled search harness to...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2611.05720v1 Announce Type: new \nAbstract: Search can help LLM agents correct mistakes, but th"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "0ba9484c58bf",
@@ -968,6 +1010,52 @@
       "oneliner": ""
     },
     {
+      "id": "dea179e2d685",
+      "title": "Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active",
+      "url": "https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Thinking Machines Lab released Inkling 2 Small, a 594B-parameter MoE with 17B active parameters. It scores 31 on the Artificial Analysis Intelligence Index and runs on Tinker, with Apache 2.0 weights planned.\nThe post Thinking Machines Releases...",
+      "published": "2026-11-06T04:25:07Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0626389f477c",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-06T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "f5b465adac7c",
       "title": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
       "url": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
@@ -1244,10 +1332,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "69c7eb76fe0b",
           "f5b465adac7c"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5697,78 +5784,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "14b39e2399e0",
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "published": "2026-10-30T09:30:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "de97c2c5f0bf",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "published": "2026-10-30T09:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "80a7cd17c9a5",
-      "title": "Samaya AI Releases Sterling: A 3B-Active Finance Research Agent Model that Beats Claude Fable 5.1 on FrontierFinance at 11x Lower Cost",
-      "url": "https://www.marktechpost.com/2026/10/30/samaya-sterling-post-trained-finance-research-model-frontierfinance/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Samaya AI’s Sterling is a post-trained Nemotron 3.5 Lightning model for financial research. It scores 58.9% on FrontierFinance at $0.61 per question, beating Claude Fable 5.1’s 55.9% at $6.89.\nThe post Samaya AI Releases Sterling: A 3B-Active...",
-      "published": "2026-10-30T07:26:12Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
       },
       "title_zh": "",
       "summary_zh": "",
