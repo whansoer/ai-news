@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T15:50:44Z",
+  "updated": "2026-11-06T21:25:55Z",
   "total": 20,
   "items": [
     {
@@ -45,11 +45,37 @@
       }
     },
     {
+      "id": "d465e39b2bc9",
+      "title_zh": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
+      "summary_zh": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On real model activations, its FP8 kernels run 1.16-1.76x faster than AMD’s AITER, with 62-78% lower error at head dimension 128.\nThe post Zyphra...",
+      "tags_zh": [],
+      "oneliner": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
       "id": "27984b16f9bc",
       "title_zh": "ToyBlocks: A controlled world for robot learning and evaluation",
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "4650983e6e64",
+      "title_zh": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary_zh": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party servic",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -232,34 +258,6 @@
       "summary_zh": "arXiv:2611.05517v1 Announce Type: new \nAbstract: For humans, referential disambiguation is a collaborative process involving clarification questions asked when they will meaningfully change the outcome. However, large language models (LLMs) have...",
       "tags_zh": [],
       "oneliner": "arXiv:2611.05517v1 Announce Type: new \nAbstract: For humans, referential disambiguation is a collabo",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ab9f164bc1ca",
-      "title_zh": "Rewrite, Then Veto: Rewriter-Agnostic Edit Gating for LLM-Based Post-OCR Correction",
-      "summary_zh": "arXiv:2611.05539v1 Announce Type: new \nAbstract: LLMs can repair noisy OCR transcripts of historical documents, but they also change text that was already correct. We propose EditVeto, a veto gate placed after a full-context LLM rewrite. The...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2611.05539v1 Announce Type: new \nAbstract: LLMs can repair noisy OCR transcripts of historical",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c2897088c07b",
-      "title_zh": "RAGCompass: Generalizable Retriever Routing via Reranking",
-      "summary_zh": "arXiv:2611.05596v1 Announce Type: new \nAbstract: Different retrievers exist for retrieval-augmented generation, yet none performs best for all queries. Therefore, the key question is: given a query and retrieved passages from different...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "arXiv:2611.05596v1 Announce Type: new \nAbstract: Different retrievers exist for retrieval-augmented ",
       "key_facts": [],
       "notable_quote": {
         "text": "",

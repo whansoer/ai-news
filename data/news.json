@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-06T15:50:44Z",
+  "updated": "2026-11-06T21:25:55Z",
   "total": 236,
-  "new_count": 34,
+  "new_count": 33,
   "items": [
     {
       "id": "5fb2a08103b0",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "published": "2026-11-06T15:48:36Z",
+      "published": "2026-11-06T21:23:49Z",
       "tags": [
         "LLM",
         "Agent"
@@ -20,11 +20,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "84bace4b67d1"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "NVIDIA /auto-ontology",
       "summary_zh": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
@@ -41,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Ruby on Rails",
-      "published": "2026-11-06T15:48:36Z",
+      "published": "2026-11-06T21:23:49Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -64,7 +62,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agent Skills for Google products and technologies",
-      "published": "2026-11-06T15:48:36Z",
+      "published": "2026-11-06T21:23:49Z",
       "tags": [
         "Google",
         "Agent"
@@ -90,6 +88,29 @@
       "oneliner": "Agent Skills for Google products and technologies"
     },
     {
+      "id": "d465e39b2bc9",
+      "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
+      "url": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On real model activations, its FP8 kernels run 1.16-1.76x faster than AMD’s AITER, with 62-78% lower error at head dimension 128.\nThe post Zyphra...",
+      "published": "2026-11-06T17:28:04Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
+      "summary_zh": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On real model activations, its FP8 kernels run 1.16-1.76x faster than AMD’s AITER, with 62-78% lower error at head dimension 128.\nThe post Zyphra...",
+      "tags_zh": [],
+      "oneliner": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On"
+    },
+    {
       "id": "27984b16f9bc",
       "title": "ToyBlocks: A controlled world for robot learning and evaluation",
       "url": "https://huggingface.co/blog/allenai/toyblocks",
@@ -111,6 +132,33 @@
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": ""
+    },
+    {
+      "id": "4650983e6e64",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "published": "2026-11-06T08:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary_zh": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party servic"
     },
     {
       "id": "1ae169fb23a9",
@@ -489,12 +537,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Rewrite, Then Veto: Rewriter-Agnostic Edit Gating for LLM-Based Post-OCR Correction",
-      "summary_zh": "arXiv:2611.05539v1 Announce Type: new \nAbstract: LLMs can repair noisy OCR transcripts of historical documents, but they also change text that was already correct. We propose EditVeto, a veto gate placed after a full-context LLM rewrite. The...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2611.05539v1 Announce Type: new \nAbstract: LLMs can repair noisy OCR transcripts of historical"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "c2897088c07b",
@@ -516,12 +562,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "RAGCompass: Generalizable Retriever Routing via Reranking",
-      "summary_zh": "arXiv:2611.05596v1 Announce Type: new \nAbstract: Different retrievers exist for retrieval-augmented generation, yet none performs best for all queries. Therefore, the key question is: given a query and retrieved passages from different...",
-      "tags_zh": [
-        "RAG"
-      ],
-      "oneliner": "arXiv:2611.05596v1 Announce Type: new \nAbstract: Different retrievers exist for retrieval-augmented "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "14ec725690c0",
@@ -1056,6 +1100,31 @@
       "oneliner": ""
     },
     {
+      "id": "d1cb05298078",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "published": "2026-11-06T00:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "f5b465adac7c",
       "title": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
       "url": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
@@ -1144,11 +1213,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "5fb2a08103b0"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5709,81 +5776,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "82860a279019",
-      "title": "nemotron-halloween",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-10-30T17:57:24Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "97fe9454d905",
-      "title": "Meet TokenEconomizer: Microsoft’s Plugin That Cuts Coding Agent Costs by Up to 30.9%",
-      "url": "https://www.marktechpost.com/2026/10/30/microsoft-tokeneconomizer-coding-agent-cost-control/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Microsoft Research and UC Berkeley released TokenEconomizer, an open-source plugin that learns from past sessions to cut coding agent token costs by 18.4% to 30.9% on SWE-Bench, with no change to the agent.\nThe post Meet TokenEconomizer:...",
-      "published": "2026-10-30T17:53:37Z",
-      "tags": [
-        "Microsoft",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2bf5c46f4e29",
-      "title": "AI Security Agents Compared: Claude, Codex, Mantis, Cloudflare",
-      "url": "https://www.marktechpost.com/2026/10/30/ai-security-agents-claude-codex-mantis-cloudflare/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Anthropic, OpenAI, Cloudflare and Google each released an AI agent that hunts security bugs in source code. All 4 use the same find, disprove, then patch loop. Here is how they differ, plus 12 more tools.\nThe post AI Security Agents Compared:...",
-      "published": "2026-10-30T17:34:15Z",
-      "tags": [
-        "Claude",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
