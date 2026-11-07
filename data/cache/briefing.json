@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-06T21:25:55Z",
-  "count": 540,
+  "updated": "2026-11-07T05:05:14Z",
+  "count": 541,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -34558,6 +34558,70 @@
         }
       },
       "_ts": 1794000355
+    },
+    "3ab21c37ee9c92fb": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录266篇AI新闻，分类分布：学术研究183篇, 开源项目43篇, 模型发布40篇。热门标签：Agent（72篇）。其中9%的文章有多来源交叉验证。\n\n▸ NVIDIA /auto-ontology：Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. I\n\n▸ rails /rails：Ruby on Rails\n\n▸ google /skills：Agent Skills for Google products and technologies\n\n▸ Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster：Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On\n\n▸ ToyBlocks: A controlled world for robot learning and evaluation",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "NVIDIA/auto-ontology",
+            "url": "https://github.com/NVIDIA/auto-ontology",
+            "why_hot": "单日2015星，Python项目",
+            "stars_today": 2015,
+            "total_stars": 9253
+          },
+          {
+            "full_name": "cloudflare/security-audit-skill",
+            "url": "https://github.com/cloudflare/security-audit-skill",
+            "why_hot": "单日2548星，JavaScript项目",
+            "stars_today": 2548,
+            "total_stars": 64333
+          },
+          {
+            "full_name": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills",
+            "why_hot": "单日2070星，Shell项目",
+            "stars_today": 2070,
+            "total_stars": 316882
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "266"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7167"
+          }
+        ],
+        "must_read_ids": [
+          "5fb2a08103b0",
+          "c1697eee13b5",
+          "69c7eb76fe0b",
+          "d465e39b2bc9",
+          "27984b16f9bc"
+        ],
+        "text": "今日共收录266篇AI新闻，分类分布：学术研究183篇, 开源项目43篇, 模型发布40篇。热门标签：Agent（72篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "NVIDIA /auto-ontology",
+          "rails /rails",
+          "google /skills",
+          "Zyphra ZYFA: FP8 FlashAttention for AMD ",
+          "ToyBlocks: A controlled world for robot "
+        ],
+        "meta": {
+          "total_articles": 266,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1794027914
     }
   }
 }
