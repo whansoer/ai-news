@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-07T05:05:04Z",
-  "total": 266,
+  "updated": "2026-11-07T14:50:31Z",
+  "total": 252,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.CL)",
@@ -20,7 +20,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Hugging Face",
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 72
+      "count": 66
     },
     {
       "name": "LLM",
-      "count": 24
+      "count": 23
     },
     {
       "name": "Benchmark",
-      "count": 16
+      "count": 15
     },
     {
       "name": "OpenAI",
@@ -85,6 +85,14 @@
       "count": 3
     },
     {
+      "name": "Anthropic",
+      "count": 2
+    },
+    {
+      "name": "Meta",
+      "count": 2
+    },
+    {
       "name": "Prompt",
       "count": 2
     },
@@ -95,14 +103,6 @@
     {
       "name": "Transformer",
       "count": 2
-    },
-    {
-      "name": "Meta",
-      "count": 1
-    },
-    {
-      "name": "Anthropic",
-      "count": 1
     },
     {
       "name": "Qwen",
@@ -128,7 +128,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 183
+      "count": 169
     },
     {
       "name": "开源项目",
@@ -162,14 +162,56 @@
     },
     {
       "date": "11-06",
-      "count": 42
+      "count": 40
     },
     {
       "date": "11-07",
-      "count": 3
+      "count": 9
     }
   ],
   "top10": [
+    {
+      "id": "c34811c59d2d",
+      "title": "vercel-labs /agent-browser",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1a92f63bf14a",
+      "title": "cloudflare /security-audit-skill",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "69c7eb76fe0b",
+      "title": "google /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1ae169fb23a9",
+      "title": "mattpocock /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "31817dfd77ef",
+      "title": "meta /astryx",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f65033de0f65",
+      "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
     {
       "id": "5fb2a08103b0",
       "title": "NVIDIA /auto-ontology",
@@ -183,52 +225,10 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "69c7eb76fe0b",
-      "title": "google /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "d465e39b2bc9",
       "title": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "27984b16f9bc",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "4650983e6e64",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "1ae169fb23a9",
-      "title": "mattpocock /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "e693c29af620",
-      "title": "Usagi-org /ai-goofish-monitor",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "76a267c59bdc",
-      "title": "D4Vinci /Scrapling",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "f3ff53581488",
-      "title": "vercel-labs /agent-desktop",
-      "score": 5,
-      "source": "GitHub Trending"
     }
   ]
 }

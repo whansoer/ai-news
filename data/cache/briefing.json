@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-07T05:05:14Z",
-  "count": 541,
+  "updated": "2026-11-07T14:50:41Z",
+  "count": 542,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -34622,6 +34622,70 @@
         }
       },
       "_ts": 1794027914
+    },
+    "c556fcd1b075f8bb": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录252篇AI新闻，分类分布：学术研究169篇, 开源项目43篇, 模型发布40篇。热门标签：Agent（66篇）。其中10%的文章有多来源交叉验证。\n\n▸ vercel-labs /agent-browser：Browser automation CLI for AI agents\n\n▸ cloudflare /security-audit-skill：A coding-agent skill for multi-phase security audits with independently verified, machine-readable f\n\n▸ google /skills：Agent Skills for Google products and technologies\n\n▸ mattpocock /skills：Skills for Real Engineers. Straight from my .agents directory.\n\n▸ anthropics /skills：Public repository for Agent Skills",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills",
+            "why_hot": "单日1111星，Shell项目",
+            "stars_today": 1111,
+            "total_stars": 317305
+          },
+          {
+            "full_name": "anthropics/skills",
+            "url": "https://github.com/anthropics/skills",
+            "why_hot": "单日386星，Python项目",
+            "stars_today": 386,
+            "total_stars": 188435
+          },
+          {
+            "full_name": "cloudflare/security-audit-skill",
+            "url": "https://github.com/cloudflare/security-audit-skill",
+            "why_hot": "单日2088星，JavaScript项目",
+            "stars_today": 2088,
+            "total_stars": 65035
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "252"
+          },
+          {
+            "label": "多源验证率",
+            "value": "10%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+3890"
+          }
+        ],
+        "must_read_ids": [
+          "c34811c59d2d",
+          "1a92f63bf14a",
+          "69c7eb76fe0b",
+          "1ae169fb23a9",
+          "ea97e2f9b307"
+        ],
+        "text": "今日共收录252篇AI新闻，分类分布：学术研究169篇, 开源项目43篇, 模型发布40篇。热门标签：Agent（66篇）。其中10%的文章有多来源交叉验证。",
+        "top_items": [
+          "vercel-labs /agent-browser",
+          "cloudflare /security-audit-skill",
+          "google /skills",
+          "mattpocock /skills",
+          "anthropics /skills"
+        ],
+        "meta": {
+          "total_articles": 252,
+          "multi_source_pct": 10
+        }
+      },
+      "_ts": 1794063041
     }
   }
 }
