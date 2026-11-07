@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-07T14:50:41Z",
-  "total": 220,
-  "new_count": 34,
+  "updated": "2026-11-07T20:05:05Z",
+  "total": 221,
+  "new_count": 31,
   "items": [
     {
       "id": "c34811c59d2d",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Browser automation CLI for AI agents",
-      "published": "2026-11-07T14:48:34Z",
+      "published": "2026-11-07T20:02:58Z",
       "tags": [
         "Agent"
       ],
@@ -39,7 +39,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-      "published": "2026-11-07T14:48:34Z",
+      "published": "2026-11-07T20:02:58Z",
       "tags": [
         "Agent"
       ],
@@ -66,7 +66,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Agent Skills for Google products and technologies",
-      "published": "2026-11-07T14:48:34Z",
+      "published": "2026-11-07T20:02:58Z",
       "tags": [
         "Google",
         "Agent"
@@ -98,7 +98,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Skills for Real Engineers. Straight from my .agents directory.",
-      "published": "2026-11-07T14:48:34Z",
+      "published": "2026-11-07T20:02:58Z",
       "tags": [
         "Agent"
       ],
@@ -128,7 +128,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Public repository for Agent Skills",
-      "published": "2026-11-07T14:48:34Z",
+      "published": "2026-11-07T20:02:58Z",
       "tags": [
         "Anthropic",
         "Agent"
@@ -160,7 +160,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An open source design system that's fully customizable and agent ready",
-      "published": "2026-11-07T14:48:34Z",
+      "published": "2026-11-07T20:02:58Z",
       "tags": [
         "Meta",
         "Agent"
@@ -181,6 +181,35 @@
         "Agent"
       ],
       "oneliner": "An open source design system that's fully customizable and agent ready"
+    },
+    {
+      "id": "2fd23b5ff2de",
+      "title": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
+      "url": "https://www.marktechpost.com/2026/11/07/coding-guide-nvidia-dory-4b-llama-cpp/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run paired evaluations.\nThe post How to Run NVIDIA...",
+      "published": "2026-11-07T19:22:44Z",
+      "tags": [
+        "Llama"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "5fb2a08103b0"
+        ],
+        "score": 5
+      },
+      "title_zh": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
+      "summary_zh": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to build the pinned llama.cpp branch, analyze loop-by-loop compute costs, test memory caching, and run paired evaluations.\nThe post How to Run NVIDIA...",
+      "tags_zh": [
+        "Llama"
+      ],
+      "oneliner": "Explore a comprehensive coding guide for NVIDIA's Dory 1.0 4B looped language model. Learn how to bu"
     },
     {
       "id": "f65033de0f65",
@@ -226,9 +255,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "2fd23b5ff2de"
+        ],
+        "score": 5
       },
       "title_zh": "NVIDIA /auto-ontology",
       "summary_zh": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
@@ -402,10 +433,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "c34811c59d2d",
-          "ef99f5546e3d"
+          "c34811c59d2d"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "vercel-labs /agent-desktop",
       "summary_zh": "Computer use CLI for AI agents",
@@ -530,12 +560,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Human-like cross-language generalisation in deep neural speaker embeddings and its acoustic foundations",
-      "summary_zh": "arXiv:2611.05384v1 Announce Type: new \nAbstract: Generalisability is a central question for deep neural networks, including the cross-language generalisation of speaker embeddings. This study examined whether deep neural speaker embeddings...",
-      "tags_zh": [
-        "Embedding"
-      ],
-      "oneliner": "arXiv:2611.05384v1 Announce Type: new \nAbstract: Generalisability is a central question for deep neu"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "f29d414c4b58",
