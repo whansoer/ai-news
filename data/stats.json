@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-08T04:59:41Z",
-  "total": 251,
+  "updated": "2026-11-08T14:56:47Z",
+  "total": 253,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -11,16 +11,16 @@
       "count": 60
     },
     {
-      "name": "GitHub Trending",
-      "count": 26
+      "name": "MarkTechPost",
+      "count": 27
     },
     {
       "name": "OpenAI",
       "count": 25
     },
     {
-      "name": "MarkTechPost",
-      "count": 23
+      "name": "GitHub Trending",
+      "count": 24
     },
     {
       "name": "Hugging Face",
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 62
     },
     {
       "name": "LLM",
@@ -58,11 +58,15 @@
     },
     {
       "name": "Google",
-      "count": 6
+      "count": 7
     },
     {
       "name": "GPT",
-      "count": 6
+      "count": 7
+    },
+    {
+      "name": "DeepSeek",
+      "count": 5
     },
     {
       "name": "API",
@@ -73,8 +77,12 @@
       "count": 4
     },
     {
-      "name": "DeepSeek",
-      "count": 4
+      "name": "Meta",
+      "count": 3
+    },
+    {
+      "name": "Qwen",
+      "count": 3
     },
     {
       "name": "Embedding",
@@ -85,11 +93,15 @@
       "count": 3
     },
     {
+      "name": "GPU",
+      "count": 2
+    },
+    {
       "name": "Anthropic",
       "count": 2
     },
     {
-      "name": "Meta",
+      "name": "Llama",
       "count": 2
     },
     {
@@ -105,23 +117,7 @@
       "count": 2
     },
     {
-      "name": "Llama",
-      "count": 1
-    },
-    {
-      "name": "Qwen",
-      "count": 1
-    },
-    {
-      "name": "GPU",
-      "count": 1
-    },
-    {
       "name": "Fine-tune",
-      "count": 1
-    },
-    {
-      "name": "开源",
       "count": 1
     },
     {
@@ -132,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 168
+      "count": 172
     },
     {
       "name": "开源项目",
-      "count": 43
+      "count": 41
     },
     {
       "name": "模型发布",
@@ -170,15 +166,51 @@
     },
     {
       "date": "11-08",
-      "count": 6
+      "count": 11
     }
   ],
   "top10": [
+    {
+      "id": "86d75ee29cf1",
+      "title": "dsx-ai-factory /nvke",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "c34811c59d2d",
       "title": "vercel-labs /agent-browser",
       "score": 5,
       "source": "GitHub Trending"
+    },
+    {
+      "id": "31817dfd77ef",
+      "title": "meta /astryx",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "33fd7ff2b926",
+      "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "2d15e22084e6",
+      "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "7f55a21cc5dc",
+      "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+      "score": 5,
+      "source": "MarkTechPost"
     },
     {
       "id": "1a92f63bf14a",
@@ -195,42 +227,6 @@
     {
       "id": "1ae169fb23a9",
       "title": "mattpocock /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "ea97e2f9b307",
-      "title": "anthropics /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "31817dfd77ef",
-      "title": "meta /astryx",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "2fd23b5ff2de",
-      "title": "How to Run NVIDIA Dory 4B with llama.cpp: Loop by Loop Guide",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "f65033de0f65",
-      "title": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "5fb2a08103b0",
-      "title": "NVIDIA /auto-ontology",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c1697eee13b5",
-      "title": "rails /rails",
       "score": 5,
       "source": "GitHub Trending"
     }

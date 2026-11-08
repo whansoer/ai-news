@@ -1,7 +1,22 @@
 {
-  "updated": "2026-11-08T04:59:52Z",
+  "updated": "2026-11-08T14:56:57Z",
   "total": 20,
   "items": [
+    {
+      "id": "86d75ee29cf1",
+      "title_zh": "dsx-ai-factory /nvke",
+      "summary_zh": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "tags_zh": [
+        "Meta",
+        "GPU"
+      ],
+      "oneliner": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "c34811c59d2d",
       "title_zh": "vercel-labs /agent-browser",
@@ -10,6 +25,79 @@
         "Agent"
       ],
       "oneliner": "Browser automation CLI for AI agents",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "31817dfd77ef",
+      "title_zh": "meta /astryx",
+      "summary_zh": "An open source design system that's fully customizable and agent ready",
+      "tags_zh": [
+        "Meta",
+        "Agent"
+      ],
+      "oneliner": "An open source design system that's fully customizable and agent ready",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "ea97e2f9b307",
+      "title_zh": "anthropics /skills",
+      "summary_zh": "Public repository for Agent Skills",
+      "tags_zh": [
+        "Anthropic",
+        "Agent"
+      ],
+      "oneliner": "Public repository for Agent Skills",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "33fd7ff2b926",
+      "title_zh": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+      "summary_zh": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code.\nThe post Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding appeared first on MarkTechPost.",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context re",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2d15e22084e6",
+      "title_zh": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+      "summary_zh": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods.\nThe post Which Routing Does Each MoE Model Use? DeepSeek, Qwen,...",
+      "tags_zh": [
+        "GPT",
+        "Llama",
+        "DeepSeek",
+        "Qwen"
+      ],
+      "oneliner": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, ex",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "7f55a21cc5dc",
+      "title_zh": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+      "summary_zh": "MoE routing strategies decide which experts process each token. This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one.\nThe post MoE Routing Strategies Explained: Top-K,...",
+      "tags_zh": [],
+      "oneliner": "MoE routing strategies decide which experts process each token. This guide explains 7 methods, from ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -60,29 +148,13 @@
       }
     },
     {
-      "id": "ea97e2f9b307",
-      "title_zh": "anthropics /skills",
-      "summary_zh": "Public repository for Agent Skills",
+      "id": "578ffd2ec8ee",
+      "title_zh": "Nous Research Releases Arete-27B that Cuts Qwen3.8-27B Propaganda From 22% to 0.9%",
+      "summary_zh": "Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval, propaganda answers fell from 22% to 0.9% while Hermes Bench stayed flat at 65.60%.\nThe post Nous Research Releases Arete-27B that Cuts...",
       "tags_zh": [
-        "Anthropic",
-        "Agent"
+        "Qwen"
       ],
-      "oneliner": "Public repository for Agent Skills",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "31817dfd77ef",
-      "title_zh": "meta /astryx",
-      "summary_zh": "An open source design system that's fully customizable and agent ready",
-      "tags_zh": [
-        "Meta",
-        "Agent"
-      ],
-      "oneliner": "An open source design system that's fully customizable and agent ready",
+      "oneliner": "Nous Research released Arete-27B, an Apache 2.0 fine-tune of Qwen3.8-27B. On Nous’s 803-prompt eval,",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -202,70 +274,6 @@
         "API"
       ],
       "oneliner": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale cra",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f3ff53581488",
-      "title_zh": "vercel-labs /agent-desktop",
-      "summary_zh": "Computer use CLI for AI agents",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Computer use CLI for AI agents",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "77049851f70b",
-      "title_zh": "max-sixty /worktrunk",
-      "summary_zh": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "35352538de62",
-      "title_zh": "Discourse Analysis of Legislative Bill Discussions",
-      "summary_zh": "arXiv:2611.05381v1 Announce Type: new \nAbstract: Legislative hearings are distinct communication events with their own human recognizable structure and logic, yet they have been analyzed as distinct phenomena beyond their transcripts....",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.05381v1 Announce Type: new \nAbstract: Legislative hearings are distinct communication eve",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "48288844d7c4",
-      "title_zh": "DS@GT ARC at CheckThat! 2026: A Verdict-Anchored Pipeline for Generating Fact-Checking Articles",
-      "summary_zh": "arXiv:2611.05382v1 Announce Type: new \nAbstract: Misinformation spreads faster than professional fact-checkers can manually verify it and write articles explaining their verdicts. This creates a need to automate the production of fact-checking...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.05382v1 Announce Type: new \nAbstract: Misinformation spreads faster than professional fac",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "ea320f13a1bf",
-      "title_zh": "CCDWIKI: Decoupling Case Formulation from Response Generation in Longitudinal CBT Dialogue",
-      "summary_zh": "arXiv:2611.05383v1 Announce Type: new \nAbstract: Cognitive Behavioral Therapy (CBT) demands more than empathic validation, requiring instead a structured formulation of the interplay among situations, automatic thoughts, emotions, and behaviors....",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.05383v1 Announce Type: new \nAbstract: Cognitive Behavioral Therapy (CBT) demands more tha",
       "key_facts": [],
       "notable_quote": {
         "text": "",
