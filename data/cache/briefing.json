@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-09T05:08:25Z",
-  "count": 548,
+  "updated": "2026-11-09T18:37:34Z",
+  "count": 549,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -35070,6 +35070,70 @@
         }
       },
       "_ts": 1794200905
+    },
+    "7128f8ebe8ee2dfd": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录254篇AI新闻，分类分布：学术研究174篇, 开源项目42篇, 模型发布38篇。热门标签：Agent（58篇）。其中10%的文章有多来源交叉验证。\n\n▸ anthropics /skills：Public repository for Agent Skills\n\n▸ meta /astryx：An open source design system that's fully customizable and agent ready\n\n▸ garrytan /gbrain：Garry's Opinionated OpenClaw/Hermes Agent Brain\n\n▸ vercel-labs /agent-browser：Browser automation CLI for AI agents\n\n▸ ZhuLinsen /daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "anthropics/skills",
+            "url": "https://github.com/anthropics/skills",
+            "why_hot": "单日1052星，Python项目",
+            "stars_today": 1052,
+            "total_stars": 190651
+          },
+          {
+            "full_name": "vercel-labs/agent-browser",
+            "url": "https://github.com/vercel-labs/agent-browser",
+            "why_hot": "单日914星，Rust项目",
+            "stars_today": 914,
+            "total_stars": 48321
+          },
+          {
+            "full_name": "meta/astryx",
+            "url": "https://github.com/meta/astryx",
+            "why_hot": "单日3324星，TypeScript项目",
+            "stars_today": 3324,
+            "total_stars": 19377
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "254"
+          },
+          {
+            "label": "多源验证率",
+            "value": "10%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+6355"
+          }
+        ],
+        "must_read_ids": [
+          "ea97e2f9b307",
+          "31817dfd77ef",
+          "701a11531ae6",
+          "c34811c59d2d",
+          "4ec6d5af71ee"
+        ],
+        "text": "今日共收录254篇AI新闻，分类分布：学术研究174篇, 开源项目42篇, 模型发布38篇。热门标签：Agent（58篇）。其中10%的文章有多来源交叉验证。",
+        "top_items": [
+          "anthropics /skills",
+          "meta /astryx",
+          "garrytan /gbrain",
+          "vercel-labs /agent-browser",
+          "ZhuLinsen /daily_stock_analysis"
+        ],
+        "meta": {
+          "total_articles": 254,
+          "multi_source_pct": 10
+        }
+      },
+      "_ts": 1794249454
     }
   }
 }

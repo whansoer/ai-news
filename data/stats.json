@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-09T05:08:13Z",
-  "total": 276,
+  "updated": "2026-11-09T18:37:24Z",
+  "total": 254,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
-    },
-    {
-      "name": "ArXiv (cs.CL)",
       "count": 75
     },
     {
+      "name": "ArXiv (cs.CL)",
+      "count": 60
+    },
+    {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 29
+    },
+    {
+      "name": "GitHub Trending",
+      "count": 24
     },
     {
       "name": "OpenAI",
       "count": 23
     },
     {
-      "name": "GitHub Trending",
-      "count": 21
-    },
-    {
       "name": "Hugging Face",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Google AI",
@@ -38,31 +38,31 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 64
+      "count": 58
     },
     {
       "name": "LLM",
-      "count": 31
+      "count": 30
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 12
     },
     {
       "name": "OpenAI",
       "count": 10
     },
     {
-      "name": "RAG",
+      "name": "GPT",
       "count": 8
     },
     {
       "name": "Google",
-      "count": 7
+      "count": 8
     },
     {
-      "name": "GPT",
-      "count": 7
+      "name": "RAG",
+      "count": 5
     },
     {
       "name": "DeepSeek",
@@ -81,6 +81,10 @@
       "count": 3
     },
     {
+      "name": "Claude",
+      "count": 3
+    },
+    {
       "name": "Prompt",
       "count": 3
     },
@@ -93,15 +97,11 @@
       "count": 3
     },
     {
-      "name": "GPU",
-      "count": 2
-    },
-    {
       "name": "Anthropic",
       "count": 2
     },
     {
-      "name": "Fine-tune",
+      "name": "GPU",
       "count": 2
     },
     {
@@ -109,16 +109,16 @@
       "count": 2
     },
     {
-      "name": "Claude",
+      "name": "Transformer",
       "count": 2
+    },
+    {
+      "name": "Fine-tune",
+      "count": 1
     },
     {
       "name": "Diffusion",
-      "count": 2
-    },
-    {
-      "name": "Transformer",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Mistral",
@@ -128,11 +128,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 200
+      "count": 174
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 42
     },
     {
       "name": "模型发布",
@@ -166,19 +166,13 @@
     },
     {
       "date": "11-09",
-      "count": 34
+      "count": 43
     }
   ],
   "top10": [
     {
-      "id": "86d75ee29cf1",
-      "title": "dsx-ai-factory /nvke",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "c34811c59d2d",
-      "title": "vercel-labs /agent-browser",
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -189,46 +183,52 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "ea97e2f9b307",
-      "title": "anthropics /skills",
+      "id": "701a11531ae6",
+      "title": "garrytan /gbrain",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "e40438511c60",
-      "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+      "id": "c34811c59d2d",
+      "title": "vercel-labs /agent-browser",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "d16f95912b36",
-      "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+      "id": "4ec6d5af71ee",
+      "title": "ZhuLinsen /daily_stock_analysis",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "8eaeee4368ea",
-      "title": "Compression of Emotion in Language Model Representations",
+      "id": "8af7f6287fd6",
+      "title": "homeassistant-ai /ha-mcp",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "ee6feb807256",
-      "title": "Contextuality and Contradictions: Exploring Real-World Identifications of AI-Generated Writing",
+      "id": "d10981e79681",
+      "title": "Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     },
     {
-      "id": "a001a0e85599",
-      "title": "RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning",
+      "id": "13e57cf67d0a",
+      "title": "Baidu’s ERNIE Evolve Automated Research System Beats NanoChat and NanoGPT Records",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     },
     {
-      "id": "0a8b15c29e03",
-      "title": "Structuring Survey Histories for LLM Digital Twins: A Controlled Study of Background, Decision Procedure, and Evaluation Profiles",
+      "id": "c91b63071574",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Hugging Face"
+    },
+    {
+      "id": "885842594d37",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "score": 5,
+      "source": "Hugging Face"
     }
   ]
 }
