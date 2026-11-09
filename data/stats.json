@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-09T04:58:25Z",
-  "total": 251,
+  "updated": "2026-11-09T05:08:13Z",
+  "total": 276,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
@@ -16,11 +16,11 @@
     },
     {
       "name": "OpenAI",
-      "count": 25
+      "count": 23
     },
     {
       "name": "GitHub Trending",
-      "count": 24
+      "count": 21
     },
     {
       "name": "Hugging Face",
@@ -38,11 +38,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 61
+      "count": 64
     },
     {
       "name": "LLM",
-      "count": 23
+      "count": 31
     },
     {
       "name": "Benchmark",
@@ -50,7 +50,7 @@
     },
     {
       "name": "OpenAI",
-      "count": 11
+      "count": 10
     },
     {
       "name": "RAG",
@@ -65,11 +65,11 @@
       "count": 7
     },
     {
-      "name": "API",
-      "count": 5
+      "name": "DeepSeek",
+      "count": 4
     },
     {
-      "name": "DeepSeek",
+      "name": "API",
       "count": 4
     },
     {
@@ -81,15 +81,15 @@
       "count": 3
     },
     {
+      "name": "Prompt",
+      "count": 3
+    },
+    {
       "name": "Qwen",
       "count": 3
     },
     {
       "name": "Embedding",
-      "count": 3
-    },
-    {
-      "name": "Claude",
       "count": 3
     },
     {
@@ -101,11 +101,15 @@
       "count": 2
     },
     {
+      "name": "Fine-tune",
+      "count": 2
+    },
+    {
       "name": "Llama",
       "count": 2
     },
     {
-      "name": "Prompt",
+      "name": "Claude",
       "count": 2
     },
     {
@@ -117,10 +121,6 @@
       "count": 2
     },
     {
-      "name": "Fine-tune",
-      "count": 1
-    },
-    {
       "name": "Mistral",
       "count": 1
     }
@@ -128,15 +128,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 170
+      "count": 200
     },
     {
       "name": "开源项目",
-      "count": 41
+      "count": 38
     },
     {
       "name": "模型发布",
-      "count": 40
+      "count": 38
     }
   ],
   "dailyTrend": [
@@ -166,7 +166,7 @@
     },
     {
       "date": "11-09",
-      "count": 4
+      "count": 34
     }
   ],
   "top10": [
@@ -195,40 +195,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "33fd7ff2b926",
-      "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+      "id": "e40438511c60",
+      "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "2d15e22084e6",
-      "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+      "id": "d16f95912b36",
+      "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "7f55a21cc5dc",
-      "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+      "id": "8eaeee4368ea",
+      "title": "Compression of Emotion in Language Model Representations",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "1a92f63bf14a",
-      "title": "cloudflare /security-audit-skill",
+      "id": "ee6feb807256",
+      "title": "Contextuality and Contradictions: Exploring Real-World Identifications of AI-Generated Writing",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "69c7eb76fe0b",
-      "title": "google /skills",
+      "id": "a001a0e85599",
+      "title": "RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "1ae169fb23a9",
-      "title": "mattpocock /skills",
+      "id": "0a8b15c29e03",
+      "title": "Structuring Survey Histories for LLM Digital Twins: A Controlled Study of Background, Decision Procedure, and Evaluation Profiles",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-09T04:58:35Z",
-  "count": 547,
+  "updated": "2026-11-09T05:08:25Z",
+  "count": 548,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -35006,6 +35006,70 @@
         }
       },
       "_ts": 1794200315
+    },
+    "bb9f6e3a0c12a503": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录276篇AI新闻，分类分布：学术研究200篇, 开源项目38篇, 模型发布38篇。热门标签：Agent（64篇）。其中9%的文章有多来源交叉验证。\n\n▸ dsx-ai-factory /nvke：NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.\n\n▸ vercel-labs /agent-browser：Browser automation CLI for AI agents\n\n▸ meta /astryx：An open source design system that's fully customizable and agent ready\n\n▸ anthropics /skills：Public repository for Agent Skills\n\n▸ Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP：arXiv:2611.08639v1 Announce Type: new \nAbstract: Safety benchmarks for large language models (LLMs) ",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "vercel-labs/agent-browser",
+            "url": "https://github.com/vercel-labs/agent-browser",
+            "why_hot": "单日815星，Rust项目",
+            "stars_today": 815,
+            "total_stars": 47826
+          },
+          {
+            "full_name": "anthropics/skills",
+            "url": "https://github.com/anthropics/skills",
+            "why_hot": "单日792星，Python项目",
+            "stars_today": 792,
+            "total_stars": 189857
+          },
+          {
+            "full_name": "dsx-ai-factory/nvke",
+            "url": "https://github.com/dsx-ai-factory/nvke",
+            "why_hot": "单日345星，Go项目",
+            "stars_today": 345,
+            "total_stars": 918
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "276"
+          },
+          {
+            "label": "多源验证率",
+            "value": "9%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+2827"
+          }
+        ],
+        "must_read_ids": [
+          "86d75ee29cf1",
+          "c34811c59d2d",
+          "31817dfd77ef",
+          "ea97e2f9b307",
+          "e40438511c60"
+        ],
+        "text": "今日共收录276篇AI新闻，分类分布：学术研究200篇, 开源项目38篇, 模型发布38篇。热门标签：Agent（64篇）。其中9%的文章有多来源交叉验证。",
+        "top_items": [
+          "dsx-ai-factory /nvke",
+          "vercel-labs /agent-browser",
+          "meta /astryx",
+          "anthropics /skills",
+          "Forcing a Letter Suppresses Refusal: Mec"
+        ],
+        "meta": {
+          "total_articles": 276,
+          "multi_source_pct": 9
+        }
+      },
+      "_ts": 1794200905
     }
   }
 }
