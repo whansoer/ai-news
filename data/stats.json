@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-09T18:37:24Z",
-  "total": 254,
+  "updated": "2026-11-10T00:04:03Z",
+  "total": 251,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 29
+      "count": 27
     },
     {
       "name": "GitHub Trending",
@@ -20,7 +20,7 @@
     },
     {
       "name": "OpenAI",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Hugging Face",
@@ -49,15 +49,15 @@
       "count": 12
     },
     {
-      "name": "OpenAI",
-      "count": 10
-    },
-    {
       "name": "GPT",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Google",
+      "count": 8
+    },
+    {
+      "name": "OpenAI",
       "count": 8
     },
     {
@@ -89,10 +89,6 @@
       "count": 3
     },
     {
-      "name": "Qwen",
-      "count": 3
-    },
-    {
       "name": "Embedding",
       "count": 3
     },
@@ -101,16 +97,20 @@
       "count": 2
     },
     {
-      "name": "GPU",
+      "name": "Llama",
       "count": 2
     },
     {
-      "name": "Llama",
+      "name": "Qwen",
       "count": 2
     },
     {
       "name": "Transformer",
       "count": 2
+    },
+    {
+      "name": "GPU",
+      "count": 1
     },
     {
       "name": "Fine-tune",
@@ -128,7 +128,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 174
+      "count": 172
     },
     {
       "name": "开源项目",
@@ -136,14 +136,10 @@
     },
     {
       "name": "模型发布",
-      "count": 38
+      "count": 37
     }
   ],
   "dailyTrend": [
-    {
-      "date": "11-03",
-      "count": 48
-    },
     {
       "date": "11-04",
       "count": 41
@@ -166,7 +162,11 @@
     },
     {
       "date": "11-09",
-      "count": 43
+      "count": 41
+    },
+    {
+      "date": "11-10",
+      "count": 6
     }
   ],
   "top10": [
@@ -207,6 +207,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "4f332da50a5e",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "score": 5,
+      "source": "OpenAI"
+    },
+    {
       "id": "d10981e79681",
       "title": "Google Unveils TPU 8i Max and TPU 8tx: A Dual-Chip TPU and a Confidential TPU",
       "score": 5,
@@ -221,12 +227,6 @@
     {
       "id": "c91b63071574",
       "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-      "score": 5,
-      "source": "Hugging Face"
-    },
-    {
-      "id": "885842594d37",
-      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
       "score": 5,
       "source": "Hugging Face"
     }
