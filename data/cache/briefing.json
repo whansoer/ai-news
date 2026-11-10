@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-10T16:20:48Z",
-  "count": 552,
+  "updated": "2026-11-10T21:45:36Z",
+  "count": 553,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -35326,6 +35326,70 @@
         }
       },
       "_ts": 1794327648
+    },
+    "96ab2786d6ca8d5a": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录247篇AI新闻，分类分布：学术研究171篇, 开源项目39篇, 模型发布37篇。热门标签：Agent（52篇）。其中13%的文章有多来源交叉验证。\n\n▸ meta /astryx：An open source design system that's fully customizable and agent ready\n\n▸ anthropics /skills：Public repository for Agent Skills\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ homeassistant-ai /ha-mcp：Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.\n\n▸ vercel-labs /agent-browser：Browser automation CLI for AI agents",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "anthropics/skills",
+            "url": "https://github.com/anthropics/skills",
+            "why_hot": "单日1676星，Python项目",
+            "stars_today": 1676,
+            "total_stars": 192214
+          },
+          {
+            "full_name": "vercel-labs/agent-browser",
+            "url": "https://github.com/vercel-labs/agent-browser",
+            "why_hot": "单日775星，Rust项目",
+            "stars_today": 775,
+            "total_stars": 49139
+          },
+          {
+            "full_name": "mattpocock/skills",
+            "url": "https://github.com/mattpocock/skills",
+            "why_hot": "单日1223星，Shell项目",
+            "stars_today": 1223,
+            "total_stars": 320808
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "247"
+          },
+          {
+            "label": "多源验证率",
+            "value": "13%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+8107"
+          }
+        ],
+        "must_read_ids": [
+          "31817dfd77ef",
+          "ea97e2f9b307",
+          "0d1bd25a3199",
+          "8af7f6287fd6",
+          "c34811c59d2d"
+        ],
+        "text": "今日共收录247篇AI新闻，分类分布：学术研究171篇, 开源项目39篇, 模型发布37篇。热门标签：Agent（52篇）。其中13%的文章有多来源交叉验证。",
+        "top_items": [
+          "meta /astryx",
+          "anthropics /skills",
+          "addyosmani /agent-skills",
+          "homeassistant-ai /ha-mcp",
+          "vercel-labs /agent-browser"
+        ],
+        "meta": {
+          "total_articles": 247,
+          "multi_source_pct": 13
+        }
+      },
+      "_ts": 1794347136
     }
   }
 }
