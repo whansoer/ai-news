@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-10T06:24:42Z",
-  "total": 249,
+  "updated": "2026-11-10T16:20:38Z",
+  "total": 250,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
@@ -15,12 +15,12 @@
       "count": 26
     },
     {
-      "name": "GitHub Trending",
+      "name": "OpenAI",
       "count": 24
     },
     {
-      "name": "OpenAI",
-      "count": 21
+      "name": "GitHub Trending",
+      "count": 22
     },
     {
       "name": "Hugging Face",
@@ -38,30 +38,34 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 58
+      "count": 53
     },
     {
       "name": "LLM",
-      "count": 30
+      "count": 34
     },
     {
       "name": "Benchmark",
       "count": 12
     },
     {
-      "name": "GPT",
-      "count": 9
+      "name": "Google",
+      "count": 10
     },
     {
-      "name": "Google",
+      "name": "GPT",
       "count": 8
     },
     {
       "name": "OpenAI",
-      "count": 7
+      "count": 6
     },
     {
-      "name": "RAG",
+      "name": "Meta",
+      "count": 5
+    },
+    {
+      "name": "Gemini",
       "count": 5
     },
     {
@@ -69,15 +73,7 @@
       "count": 4
     },
     {
-      "name": "API",
-      "count": 4
-    },
-    {
-      "name": "Gemini",
-      "count": 4
-    },
-    {
-      "name": "Meta",
+      "name": "Anthropic",
       "count": 3
     },
     {
@@ -85,16 +81,20 @@
       "count": 3
     },
     {
+      "name": "Transformer",
+      "count": 3
+    },
+    {
       "name": "Prompt",
       "count": 3
     },
     {
-      "name": "Embedding",
+      "name": "API",
       "count": 3
     },
     {
-      "name": "Anthropic",
-      "count": 2
+      "name": "RAG",
+      "count": 3
     },
     {
       "name": "Llama",
@@ -105,15 +105,15 @@
       "count": 2
     },
     {
-      "name": "Transformer",
-      "count": 2
-    },
-    {
       "name": "GPU",
       "count": 1
     },
     {
       "name": "Fine-tune",
+      "count": 1
+    },
+    {
+      "name": "Embedding",
       "count": 1
     },
     {
@@ -132,11 +132,11 @@
     },
     {
       "name": "开源项目",
-      "count": 42
+      "count": 40
     },
     {
       "name": "模型发布",
-      "count": 36
+      "count": 39
     }
   ],
   "dailyTrend": [
@@ -166,16 +166,10 @@
     },
     {
       "date": "11-10",
-      "count": 21
+      "count": 61
     }
   ],
   "top10": [
-    {
-      "id": "ea97e2f9b307",
-      "title": "anthropics /skills",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
     {
       "id": "31817dfd77ef",
       "title": "meta /astryx",
@@ -183,20 +177,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "701a11531ae6",
-      "title": "garrytan /gbrain",
+      "id": "ea97e2f9b307",
+      "title": "anthropics /skills",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "c34811c59d2d",
-      "title": "vercel-labs /agent-browser",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "4ec6d5af71ee",
-      "title": "ZhuLinsen /daily_stock_analysis",
+      "id": "0d1bd25a3199",
+      "title": "addyosmani /agent-skills",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -207,28 +195,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "0772eb2f8cc6",
-      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "id": "c34811c59d2d",
+      "title": "vercel-labs /agent-browser",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "26c28f7e15b7",
-      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+      "id": "963de94032a5",
+      "title": "Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "MarkTechPost"
     },
     {
-      "id": "d65fcd209f7c",
-      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "id": "1523d7cb53bd",
+      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "MarkTechPost"
     },
     {
-      "id": "d6442a8741c9",
-      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "id": "0b514ad923e0",
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "score": 5,
-      "source": "ArXiv (cs.AI)"
+      "source": "Google AI"
+    },
+    {
+      "id": "da8db646ca03",
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "score": 5,
+      "source": "Google AI"
+    },
+    {
+      "id": "c0bcf16e8fea",
+      "title": "Helping caregivers use AI in everyday life",
+      "score": 5,
+      "source": "OpenAI"
     }
   ]
 }
