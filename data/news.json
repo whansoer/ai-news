@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-11T16:00:58Z",
-  "total": 218,
-  "new_count": 33,
+  "updated": "2026-11-11T22:35:39Z",
+  "total": 221,
+  "new_count": 29,
   "items": [
     {
       "id": "49cf590dc337",
@@ -33,7 +33,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An open source design system that's fully customizable and agent ready",
-      "published": "2026-11-11T15:58:51Z",
+      "published": "2026-11-11T22:33:33Z",
       "tags": [
         "Meta",
         "Agent"
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "published": "2026-11-11T15:58:51Z",
+      "published": "2026-11-11T22:33:33Z",
       "tags": [
         "LLM"
       ],
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-11-11T15:58:51Z",
+      "published": "2026-11-11T22:33:33Z",
       "tags": [
         "Agent"
       ],
@@ -118,7 +118,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Browser automation CLI for AI agents",
-      "published": "2026-11-11T15:58:51Z",
+      "published": "2026-11-11T22:33:33Z",
       "tags": [
         "Agent"
       ],
@@ -147,7 +147,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "published": "2026-11-11T15:58:51Z",
+      "published": "2026-11-11T22:33:33Z",
       "tags": [
         "GPT",
         "Claude"
@@ -176,7 +176,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "published": "2026-11-11T15:58:51Z",
+      "published": "2026-11-11T22:33:33Z",
       "tags": [
         "OpenAI"
       ],
@@ -195,6 +195,148 @@
         "OpenAI"
       ],
       "oneliner": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerab"
+    },
+    {
+      "id": "0e3d014e5d1a",
+      "title": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
+      "url": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google launched the Gemini Decisions API, powered by Gemini Decision 1. It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0.10 per 1M input tokens.\nThe post...",
+      "published": "2026-11-11T21:21:42Z",
+      "tags": [
+        "Gemini",
+        "Google",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "7c1a5b5968bc",
+          "da8db646ca03"
+        ],
+        "score": 7
+      },
+      "title_zh": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
+      "summary_zh": "Google launched the Gemini Decisions API, powered by Gemini Decision 1. It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0.10 per 1M input tokens.\nThe post...",
+      "tags_zh": [
+        "Gemini",
+        "Google",
+        "API"
+      ],
+      "oneliner": "Google launched the Gemini Decisions API, powered by Gemini Decision 1. It returns calibrated probab"
+    },
+    {
+      "id": "7c1a5b5968bc",
+      "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+      "url": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type. It is available via the AlphaGenome API for non-commercial research.\nThe post Google DeepMind Releases...",
+      "published": "2026-11-11T20:51:56Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "0e3d014e5d1a"
+        ],
+        "score": 5
+      },
+      "title_zh": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+      "summary_zh": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type. It is available via the AlphaGenome API for non-commercial research.\nThe post Google DeepMind Releases...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory ac"
+    },
+    {
+      "id": "3586fd5cc361",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "published": "2026-11-11T18:00:00Z",
+      "tags": [
+        "Gemini",
+        "API"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary_zh": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "tags_zh": [
+        "Gemini",
+        "API"
+      ],
+      "oneliner": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calib"
+    },
+    {
+      "id": "d3a6593ef6bb",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "published": "2026-11-11T16:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "summary_zh": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "tags_zh": [],
+      "oneliner": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, pol"
+    },
+    {
+      "id": "74190c6bf25a",
+      "title": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
+      "url": "https://www.marktechpost.com/2026/11/11/marktechpost-gpu-leaderboard-chrome-extension-launch/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension\nThe post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost.",
+      "published": "2026-11-11T15:51:14Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
+      "summary_zh": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension\nThe post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost.",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension\nThe post Marktechpost AI La"
     },
     {
       "id": "651a0fccfdbb",
@@ -418,10 +560,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "SELD: Detecting Silent Evidence Loss in Context Compression beyond the Answer",
-      "summary_zh": "arXiv:2611.12903v1 Announce Type: new \nAbstract: Context compression is now routine for language models with long inputs, but a compressed context is useful only if it keeps the evidence for the answer. Existing checks compare the reader model's...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.12903v1 Announce Type: new \nAbstract: Context compression is now routine for language mod"
+      "oneliner": ""
     },
     {
       "id": "d60464ba52e6",
@@ -441,10 +583,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Actionable Feedback: Improving Model Capabilities from User Edit Data on Clinical Documentation",
-      "summary_zh": "arXiv:2611.12904v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly being deployed in clinical documentation workflows, where clinicians review and edit their outputs before use. In principle, these clinician edits...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.12904v1 Announce Type: new \nAbstract: Large language models (LLMs) are increasingly being"
+      "oneliner": ""
     },
     {
       "id": "be063502ec74",
@@ -466,10 +608,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Brasilidade: Measuring Brazilian Identity for Large Language Models",
-      "summary_zh": "arXiv:2611.12906v1 Announce Type: new \nAbstract: This work presents a new benchmark that aims to address the limitations of current methods for evaluating LLMs in Brazilian Portuguese. We introduced Brasilidade, an assessment methodology...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.12906v1 Announce Type: new \nAbstract: This work presents a new benchmark that aims to add"
+      "oneliner": ""
     },
     {
       "id": "477e49d14b89",
@@ -489,10 +631,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction",
-      "summary_zh": "arXiv:2611.12918v1 Announce Type: new \nAbstract: Offline web-behavior benchmarks frequently insert the demonstrated action into a finite candidate set and then measure reranking. We show that this protocol can create a candidate-support confound:...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.12918v1 Announce Type: new \nAbstract: Offline web-behavior benchmarks frequently insert t"
+      "oneliner": ""
     },
     {
       "id": "1e47b9169678",
@@ -514,12 +656,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Capacity Allocation at the Source: Sparse Target Optimization for LLM Knowledge Editing",
-      "summary_zh": "arXiv:2611.12995v1 Announce Type: new \nAbstract: Knowledge editing has emerged as a promising approach for efficiently updating embedded knowledge in large language models (LLMs). It first computes an ideal target hidden state that steers the LLM...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2611.12995v1 Announce Type: new \nAbstract: Knowledge editing has emerged as a promising approa"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "40d8d0e8cfa6",
@@ -1096,6 +1236,29 @@
       "oneliner": ""
     },
     {
+      "id": "cc75dd113e1a",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "published": "2026-11-11T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "c3a687641993",
       "title": "Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs",
       "url": "https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss/",
@@ -1250,11 +1413,12 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "0e3d014e5d1a",
           "0b514ad923e0",
           "992e8c410947",
           "d10981e79681"
         ],
-        "score": 9
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4643,10 +4807,9 @@
         "level": "multi-source",
         "corroborating_ids": [
           "f63b2f9431d3",
-          "d04a3ff6a441",
-          "8ccb12fff18a"
+          "d04a3ff6a441"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4674,10 +4837,9 @@
         "level": "multi-source",
         "corroborating_ids": [
           "47af8b9f451c",
-          "d04a3ff6a441",
-          "8ccb12fff18a"
+          "d04a3ff6a441"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5240,78 +5402,8 @@
         "level": "multi-source",
         "corroborating_ids": [
           "47af8b9f451c",
-          "f63b2f9431d3",
-          "8ccb12fff18a"
+          "f63b2f9431d3"
         ],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6d7fc00ad36f",
-      "title": "webAI Releases TwIL-8B, an 8.8B Reasoning Model Scoring 98.2 on MATH-500",
-      "url": "https://www.marktechpost.com/2026/11/04/webai-twil-8b-reasoning-model/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "webAI released TwIL-8B, an 8.8B reasoning model post-trained from IBM Granite 4.2 8B. It posts 98.2 on MATH-500 and 81.6 on LiveCodeBench, but trails similar-size models on knowledge benchmarks.\nThe post webAI Releases TwIL-8B, an 8.8B Reasoning...",
-      "published": "2026-11-04T22:25:05Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3e5b33ea1b72",
-      "title": "Ricursive AI Releases Ripple-65B Preview: A 65B Dense Open-Weight Model Scoring 80.5 on Terminal-Bench 2.1",
-      "url": "https://www.marktechpost.com/2026/11/04/ricursive-ripple-65b-preview-open-weight-model/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Ricursive Intelligence released Ripple-65B Preview, a 65B dense open-weight LLM under Apache 2.0. It scores 80.5 on Terminal-Bench 2.1, ahead of US open models up to 15x its size.\nThe post Ricursive AI Releases Ripple-65B Preview: A 65B Dense...",
-      "published": "2026-11-04T21:01:06Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a61cb2852817",
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-04T17:50:10Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
         "score": 7
       },
       "title_zh": "",
