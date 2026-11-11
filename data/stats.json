@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-11T05:09:54Z",
-  "total": 276,
+  "updated": "2026-11-11T16:00:47Z",
+  "total": 248,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "MarkTechPost",
@@ -16,11 +16,11 @@
     },
     {
       "name": "OpenAI",
-      "count": 23
+      "count": 24
     },
     {
       "name": "GitHub Trending",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Hugging Face",
@@ -38,15 +38,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 49
     },
     {
       "name": "LLM",
-      "count": 38
-    },
-    {
-      "name": "Benchmark",
-      "count": 12
+      "count": 34
     },
     {
       "name": "Google",
@@ -54,7 +50,15 @@
     },
     {
       "name": "GPT",
-      "count": 10
+      "count": 9
+    },
+    {
+      "name": "Benchmark",
+      "count": 9
+    },
+    {
+      "name": "OpenAI",
+      "count": 8
     },
     {
       "name": "Meta",
@@ -65,10 +69,6 @@
       "count": 6
     },
     {
-      "name": "OpenAI",
-      "count": 5
-    },
-    {
       "name": "Prompt",
       "count": 4
     },
@@ -77,24 +77,20 @@
       "count": 4
     },
     {
-      "name": "Anthropic",
-      "count": 3
-    },
-    {
       "name": "Claude",
       "count": 3
     },
     {
+      "name": "Anthropic",
+      "count": 2
+    },
+    {
+      "name": "Embedding",
+      "count": 2
+    },
+    {
       "name": "Transformer",
-      "count": 3
-    },
-    {
-      "name": "API",
-      "count": 3
-    },
-    {
-      "name": "RAG",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Llama",
@@ -102,6 +98,14 @@
     },
     {
       "name": "Qwen",
+      "count": 2
+    },
+    {
+      "name": "API",
+      "count": 2
+    },
+    {
+      "name": "RAG",
       "count": 2
     },
     {
@@ -113,30 +117,22 @@
       "count": 1
     },
     {
-      "name": "Embedding",
-      "count": 1
-    },
-    {
       "name": "Diffusion",
-      "count": 1
-    },
-    {
-      "name": "Mistral",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 200
+      "count": 170
     },
     {
       "name": "模型发布",
-      "count": 38
+      "count": 39
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 39
     }
   ],
   "dailyTrend": [
@@ -158,11 +154,11 @@
     },
     {
       "date": "11-10",
-      "count": 60
+      "count": 61
     },
     {
       "date": "11-11",
-      "count": 36
+      "count": 43
     },
     {
       "date": "11-12",
@@ -183,8 +179,8 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "ea97e2f9b307",
-      "title": "anthropics /skills",
+      "id": "4ec6d5af71ee",
+      "title": "ZhuLinsen /daily_stock_analysis",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -195,40 +191,40 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "8af7f6287fd6",
-      "title": "homeassistant-ai /ha-mcp",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
       "id": "c34811c59d2d",
       "title": "vercel-labs /agent-browser",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "4c5ef8a2d9ea",
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "id": "8af7f6287fd6",
+      "title": "homeassistant-ai /ha-mcp",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "GitHub Trending"
     },
     {
-      "id": "8d78a420b942",
-      "title": "From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference",
+      "id": "2a9bb2bf7afb",
+      "title": "openai /codex-security",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "GitHub Trending"
     },
     {
-      "id": "d59494844638",
-      "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
+      "id": "651a0fccfdbb",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Google AI"
     },
     {
-      "id": "5d06bc94fae6",
-      "title": "TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting",
+      "id": "55a31f644627",
+      "title": "ChatGPT Plus for veterans and servicemembers",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "OpenAI"
+    },
+    {
+      "id": "e4ed675d7360",
+      "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }

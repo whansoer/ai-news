@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-11T05:10:04Z",
-  "count": 554,
+  "updated": "2026-11-11T16:00:58Z",
+  "count": 555,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -35454,6 +35454,70 @@
         }
       },
       "_ts": 1794373804
+    },
+    "1f102cf09d8a3990": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录248篇AI新闻，分类分布：学术研究170篇, 模型发布39篇, 开源项目39篇。热门标签：Agent（49篇）。其中15%的文章有多来源交叉验证。\n\n▸ Gilbert + Tobin rethinks the business of law with AI：A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.\n\n▸ meta /astryx：An open source design system that's fully customizable and agent ready\n\n▸ ZhuLinsen /daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ vercel-labs /agent-browser：Browser automation CLI for AI agents",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "vercel-labs/agent-browser",
+            "url": "https://github.com/vercel-labs/agent-browser",
+            "why_hot": "单日712星，Rust项目",
+            "stars_today": 712,
+            "total_stars": 49690
+          },
+          {
+            "full_name": "meta/astryx",
+            "url": "https://github.com/meta/astryx",
+            "why_hot": "单日2842星，TypeScript项目",
+            "stars_today": 2842,
+            "total_stars": 24463
+          },
+          {
+            "full_name": "homeassistant-ai/ha-mcp",
+            "url": "https://github.com/homeassistant-ai/ha-mcp",
+            "why_hot": "单日640星，Python项目",
+            "stars_today": 640,
+            "total_stars": 7082
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "248"
+          },
+          {
+            "label": "多源验证率",
+            "value": "15%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4982"
+          }
+        ],
+        "must_read_ids": [
+          "49cf590dc337",
+          "31817dfd77ef",
+          "4ec6d5af71ee",
+          "0d1bd25a3199",
+          "c34811c59d2d"
+        ],
+        "text": "今日共收录248篇AI新闻，分类分布：学术研究170篇, 模型发布39篇, 开源项目39篇。热门标签：Agent（49篇）。其中15%的文章有多来源交叉验证。",
+        "top_items": [
+          "Gilbert + Tobin rethinks the business of",
+          "meta /astryx",
+          "ZhuLinsen /daily_stock_analysis",
+          "addyosmani /agent-skills",
+          "vercel-labs /agent-browser"
+        ],
+        "meta": {
+          "total_articles": 248,
+          "multi_source_pct": 15
+        }
+      },
+      "_ts": 1794412858
     }
   }
 }
