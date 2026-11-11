@@ -1,8 +1,33 @@
 {
   "date": "2026-11-03",
-  "updated": "2026-11-10T21:45:36Z",
-  "total": 47,
+  "updated": "2026-11-11T05:10:04Z",
+  "total": 48,
   "items": [
+    {
+      "id": "39cd2cb0e62f",
+      "title": "Anthropic Releases FlashProve: Cryptographic Proofs That a Reply Came From Committed Weights",
+      "url": "https://www.marktechpost.com/2026/11/03/anthropic-flashprove-provable-inference-zksnark/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Anthropic released FlashProve, an Apache 2.0 zkSNARK prototype that proves a reply came from a committed model without revealing weights. It proves Llama 4 Maverick at 110 tokens/second on 1 H100, with 19 MB proofs.\nThe post Anthropic Releases...",
+      "published": "2026-11-03T22:08:22Z",
+      "tags": [
+        "Anthropic"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "3e1f2bb1c8ca",
       "title": "NVIDIA Shows 3 Ways to Speed Up MoE Inference on DGX Spark, Lifting Ling-3.0-flash Throughput 42.5%",

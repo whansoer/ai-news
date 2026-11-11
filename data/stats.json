@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-10T21:45:26Z",
-  "total": 247,
+  "updated": "2026-11-11T05:09:54Z",
+  "total": 276,
   "sources": [
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 25
+    },
+    {
+      "name": "OpenAI",
+      "count": 23
     },
     {
       "name": "GitHub Trending",
       "count": 22
     },
     {
-      "name": "OpenAI",
-      "count": 22
-    },
-    {
       "name": "Hugging Face",
-      "count": 17
+      "count": 16
     },
     {
       "name": "Google AI",
@@ -38,11 +38,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 52
+      "count": 56
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 38
     },
     {
       "name": "Benchmark",
@@ -54,19 +54,23 @@
     },
     {
       "name": "GPT",
-      "count": 9
+      "count": 10
+    },
+    {
+      "name": "Meta",
+      "count": 6
     },
     {
       "name": "Gemini",
       "count": 6
     },
     {
-      "name": "Meta",
+      "name": "OpenAI",
       "count": 5
     },
     {
-      "name": "OpenAI",
-      "count": 5
+      "name": "Prompt",
+      "count": 4
     },
     {
       "name": "DeepSeek",
@@ -82,10 +86,6 @@
     },
     {
       "name": "Transformer",
-      "count": 3
-    },
-    {
-      "name": "Prompt",
       "count": 3
     },
     {
@@ -128,26 +128,18 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 171
-    },
-    {
-      "name": "开源项目",
-      "count": 39
+      "count": 200
     },
     {
       "name": "模型发布",
-      "count": 37
+      "count": 38
+    },
+    {
+      "name": "开源项目",
+      "count": 38
     }
   ],
   "dailyTrend": [
-    {
-      "date": "11-04",
-      "count": 41
-    },
-    {
-      "date": "11-05",
-      "count": 33
-    },
     {
       "date": "11-06",
       "count": 40
@@ -166,10 +158,24 @@
     },
     {
       "date": "11-10",
-      "count": 64
+      "count": 60
+    },
+    {
+      "date": "11-11",
+      "count": 36
+    },
+    {
+      "date": "11-12",
+      "count": 1
     }
   ],
   "top10": [
+    {
+      "id": "49cf590dc337",
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "score": 5,
+      "source": "OpenAI"
+    },
     {
       "id": "31817dfd77ef",
       "title": "meta /astryx",
@@ -201,34 +207,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "8477a8159d48",
-      "title": "Gemini Intelligence: New features, on more devices",
+      "id": "4c5ef8a2d9ea",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "score": 5,
-      "source": "Google AI"
+      "source": "Hugging Face"
     },
     {
-      "id": "963de94032a5",
-      "title": "Zyphra Releases ZONOS3-Mini: Open-Source TTS With 100M Active Parameters",
+      "id": "8d78a420b942",
+      "title": "From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "1523d7cb53bd",
-      "title": "Anthropic Launches Claude Fable 5.2 and Mythos 5.2: Same Model, Different Safeguards",
+      "id": "d59494844638",
+      "title": "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "0b514ad923e0",
-      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "id": "5d06bc94fae6",
+      "title": "TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting",
       "score": 5,
-      "source": "Google AI"
-    },
-    {
-      "id": "da8db646ca03",
-      "title": "Google Cloud launches Gemini for healthcare.",
-      "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
