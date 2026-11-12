@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T16:44:25Z",
+  "updated": "2026-11-12T22:11:10Z",
   "total": 228,
   "sources": [
     {
@@ -15,11 +15,11 @@
       "count": 26
     },
     {
-      "name": "OpenAI",
+      "name": "GitHub Trending",
       "count": 21
     },
     {
-      "name": "GitHub Trending",
+      "name": "OpenAI",
       "count": 20
     },
     {
@@ -42,23 +42,19 @@
     },
     {
       "name": "LLM",
-      "count": 32
+      "count": 33
     },
     {
       "name": "Google",
-      "count": 10
-    },
-    {
-      "name": "GPT",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Gemini",
-      "count": 7
+      "count": 8
     },
     {
-      "name": "OpenAI",
-      "count": 6
+      "name": "GPT",
+      "count": 7
     },
     {
       "name": "Meta",
@@ -69,8 +65,8 @@
       "count": 6
     },
     {
-      "name": "API",
-      "count": 4
+      "name": "OpenAI",
+      "count": 5
     },
     {
       "name": "Prompt",
@@ -82,6 +78,10 @@
     },
     {
       "name": "Qwen",
+      "count": 3
+    },
+    {
+      "name": "API",
       "count": 3
     },
     {
@@ -124,11 +124,11 @@
     },
     {
       "name": "开源项目",
-      "count": 36
+      "count": 37
     },
     {
       "name": "模型发布",
-      "count": 36
+      "count": 35
     }
   ],
   "dailyTrend": [
@@ -158,10 +158,16 @@
     },
     {
       "date": "11-12",
-      "count": 13
+      "count": 19
     }
   ],
   "top10": [
+    {
+      "id": "6985e00d3276",
+      "title": "GoogleChrome /modern-web-guidance-src",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "2a9bb2bf7afb",
       "title": "openai /codex-security",
@@ -193,34 +199,28 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "d8a1aef3d91b",
-      "title": "Holiday Extras is rethinking what it can build with Codex",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "1c88c34911ff",
-      "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
+      "id": "cb593418febc",
+      "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
       "score": 5,
       "source": "MarkTechPost"
     },
     {
-      "id": "4ec6d5af71ee",
-      "title": "ZhuLinsen /daily_stock_analysis",
+      "id": "ab58a29e40e5",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "OpenAI"
     },
     {
-      "id": "c34811c59d2d",
-      "title": "vercel-labs /agent-browser",
+      "id": "f052c6845a6e",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "Hugging Face"
     },
     {
-      "id": "8af7f6287fd6",
-      "title": "homeassistant-ai /ha-mcp",
+      "id": "3987a8727774",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "Google AI"
     }
   ]
 }

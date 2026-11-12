@@ -1,8 +1,39 @@
 {
-  "updated": "2026-11-12T16:44:36Z",
-  "total": 200,
-  "new_count": 30,
+  "updated": "2026-11-12T22:11:21Z",
+  "total": 201,
+  "new_count": 28,
   "items": [
+    {
+      "id": "6985e00d3276",
+      "title": "GoogleChrome /modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Keep your coding agent up to date with the latest web best practices",
+      "published": "2026-11-12T22:09:11Z",
+      "tags": [
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "3987a8727774"
+        ],
+        "score": 5
+      },
+      "title_zh": "GoogleChrome /modern-web-guidance-src",
+      "summary_zh": "Keep your coding agent up to date with the latest web best practices",
+      "tags_zh": [
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "Keep your coding agent up to date with the latest web best practices"
+    },
     {
       "id": "2a9bb2bf7afb",
       "title": "openai /codex-security",
@@ -10,7 +41,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "published": "2026-11-12T16:42:26Z",
+      "published": "2026-11-12T22:09:11Z",
       "tags": [
         "OpenAI"
       ],
@@ -19,9 +50,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "ab58a29e40e5"
+        ],
+        "score": 5
       },
       "title_zh": "openai /codex-security",
       "summary_zh": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
@@ -37,7 +70,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An open-source AI coding agent that lives in your terminal.",
-      "published": "2026-11-12T16:42:26Z",
+      "published": "2026-11-12T22:09:11Z",
       "tags": [
         "Qwen",
         "Agent"
@@ -66,7 +99,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "published": "2026-11-12T16:42:26Z",
+      "published": "2026-11-12T22:09:11Z",
       "tags": [
         "Meta",
         "LLM"
@@ -95,7 +128,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Production-grade engineering skills for AI coding agents.",
-      "published": "2026-11-12T16:42:26Z",
+      "published": "2026-11-12T22:09:11Z",
       "tags": [
         "Agent"
       ],
@@ -122,7 +155,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An open source design system that's fully customizable and agent ready",
-      "published": "2026-11-12T16:42:26Z",
+      "published": "2026-11-12T22:09:11Z",
       "tags": [
         "Meta",
         "Agent"
@@ -143,6 +176,145 @@
         "Agent"
       ],
       "oneliner": "An open source design system that's fully customizable and agent ready"
+    },
+    {
+      "id": "cb593418febc",
+      "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
+      "url": "https://www.marktechpost.com/2026/11/12/copilotkit-openbot-1-0-open-source-ai-coworker/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bring their own agents, models and infrastructure, while every Bot action passes a policy check and lands in an audit trail.\nThe post CopilotKit...",
+      "published": "2026-11-12T21:45:36Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
+      "summary_zh": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bring their own agents, models and infrastructure, while every Bot action passes a policy check and lands in an audit trail.\nThe post CopilotKit...",
+      "tags_zh": [],
+      "oneliner": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bri"
+    },
+    {
+      "id": "ab58a29e40e5",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/index/amplitude",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "published": "2026-11-12T20:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "2a9bb2bf7afb"
+        ],
+        "score": 5
+      },
+      "title_zh": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "summary_zh": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to buil"
+    },
+    {
+      "id": "f052c6845a6e",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-12T19:07:35Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "summary_zh": "",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": ""
+    },
+    {
+      "id": "3987a8727774",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "published": "2026-11-12T18:00:00Z",
+      "tags": [
+        "Gemini",
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6985e00d3276",
+          "0e3d014e5d1a",
+          "7c1a5b5968bc"
+        ],
+        "score": 9
+      },
+      "title_zh": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "summary_zh": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "tags_zh": [
+        "Gemini",
+        "Google"
+      ],
+      "oneliner": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from th"
+    },
+    {
+      "id": "a2053366b9a3",
+      "title": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
+      "url": "https://www.marktechpost.com/2026/11/12/aws-emulator-local-aws-api-emulator-ai-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models. Autonomous agents wrote all of its code. It passes 56.6% of 42,857 published fidelity tests at launch.\nThe post AWS Releases AWS Emulator: A...",
+      "published": "2026-11-12T17:26:08Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
+      "summary_zh": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models. Autonomous agents wrote all of its code. It passes 56.6% of 42,857 published fidelity tests at launch.\nThe post AWS Releases AWS Emulator: A...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models"
     },
     {
       "id": "d8a1aef3d91b",
@@ -364,10 +536,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "3987a8727774",
           "7c1a5b5968bc",
           "da8db646ca03"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
       "summary_zh": "Google launched the Gemini Decisions API, powered by Gemini Decision 1. It returns calibrated probabilities for up to 1,000 yes/no, choice and rubric questions over text, images, audio, video and PDFs, at $0.10 per 1M input tokens.\nThe post...",
@@ -396,16 +569,15 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "3987a8727774",
           "0e3d014e5d1a"
         ],
-        "score": 5
+        "score": 7
       },
-      "title_zh": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
-      "summary_zh": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory activity and variant effects per cell type. It is available via the AlphaGenome API for non-commercial research.\nThe post Google DeepMind Releases...",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "Google DeepMind released AlphaGenome 2, a conditional DNA sequence model that predicts regulatory ac"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "3586fd5cc361",
@@ -428,13 +600,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "summary_zh": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "tags_zh": [
-        "Gemini",
-        "API"
-      ],
-      "oneliner": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calib"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d3a6593ef6bb",
@@ -454,10 +623,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "summary_zh": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, pol"
+      "oneliner": ""
     },
     {
       "id": "74190c6bf25a",
@@ -479,12 +648,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
-      "summary_zh": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension\nThe post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost.",
-      "tags_zh": [
-        "GPU"
-      ],
-      "oneliner": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension\nThe post Marktechpost AI La"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "651a0fccfdbb",
@@ -504,10 +671,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "summary_zh": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cu"
+      "oneliner": ""
     },
     {
       "id": "55a31f644627",
@@ -529,12 +696,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "ChatGPT Plus for veterans and servicemembers",
-      "summary_zh": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "e4ed675d7360",
@@ -4752,123 +4917,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "59eabea63fd4",
-      "title": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
-      "url": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Baidu has released ERNIE 5.5 Flash Base, a 280B sparse MoE base model with 14B active parameters, trained on 33.5T tokens and published before any mid- or post-training.\nThe post Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B...",
-      "published": "2026-11-05T21:33:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a001352201c8",
-      "title": "Cult.fit builds operational muscle with Codex",
-      "url": "https://openai.com/index/cultfit-builds-with-codex",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
-      "published": "2026-11-05T20:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "84bace4b67d1",
-      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-05T19:35:16Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4eabb5f27738",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "Text \"Gemini Introducing Gemini Omni 1.2 Flash\" surroudned by images of a beehive, animals in conversation, a squid, and a woman walking down a street",
-      "published": "2026-11-05T17:00:00Z",
-      "tags": [
-        "Gemini"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3303d6ac09af",
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "published": "2026-11-05T17:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
