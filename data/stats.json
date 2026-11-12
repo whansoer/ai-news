@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-12T06:14:35Z",
-  "total": 245,
+  "updated": "2026-11-12T16:44:25Z",
+  "total": 228,
   "sources": [
     {
-      "name": "ArXiv (cs.AI)",
-      "count": 75
+      "name": "ArXiv (cs.CL)",
+      "count": 60
     },
     {
-      "name": "ArXiv (cs.CL)",
+      "name": "ArXiv (cs.AI)",
       "count": 60
     },
     {
@@ -16,11 +16,11 @@
     },
     {
       "name": "OpenAI",
-      "count": 22
+      "count": 21
     },
     {
       "name": "GitHub Trending",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Hugging Face",
@@ -38,34 +38,34 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 49
+      "count": 40
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 32
     },
     {
       "name": "Google",
-      "count": 11
+      "count": 10
     },
     {
       "name": "GPT",
       "count": 9
     },
     {
-      "name": "Benchmark",
-      "count": 9
-    },
-    {
       "name": "Gemini",
-      "count": 8
-    },
-    {
-      "name": "OpenAI",
       "count": 7
     },
     {
+      "name": "OpenAI",
+      "count": 6
+    },
+    {
       "name": "Meta",
+      "count": 6
+    },
+    {
+      "name": "Benchmark",
       "count": 6
     },
     {
@@ -81,8 +81,12 @@
       "count": 4
     },
     {
-      "name": "Claude",
+      "name": "Qwen",
       "count": 3
+    },
+    {
+      "name": "Claude",
+      "count": 2
     },
     {
       "name": "GPU",
@@ -105,34 +109,26 @@
       "count": 2
     },
     {
-      "name": "Qwen",
-      "count": 2
-    },
-    {
       "name": "RAG",
       "count": 2
     },
     {
       "name": "Fine-tune",
       "count": 1
-    },
-    {
-      "name": "Diffusion",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 171
+      "count": 156
     },
     {
       "name": "开源项目",
-      "count": 37
+      "count": 36
     },
     {
       "name": "模型发布",
-      "count": 37
+      "count": 36
     }
   ],
   "dailyTrend": [
@@ -162,10 +158,34 @@
     },
     {
       "date": "11-12",
-      "count": 7
+      "count": 13
     }
   ],
   "top10": [
+    {
+      "id": "2a9bb2bf7afb",
+      "title": "openai /codex-security",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "5a31de5224f4",
+      "title": "QwenLM /qwen-code",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "1974e4a3544a",
+      "title": "ashhart /TensorFold",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "0d1bd25a3199",
+      "title": "addyosmani /agent-skills",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "31817dfd77ef",
       "title": "meta /astryx",
@@ -173,14 +193,20 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "4ec6d5af71ee",
-      "title": "ZhuLinsen /daily_stock_analysis",
+      "id": "d8a1aef3d91b",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "OpenAI"
     },
     {
-      "id": "0d1bd25a3199",
-      "title": "addyosmani /agent-skills",
+      "id": "1c88c34911ff",
+      "title": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "4ec6d5af71ee",
+      "title": "ZhuLinsen /daily_stock_analysis",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -195,36 +221,6 @@
       "title": "homeassistant-ai /ha-mcp",
       "score": 5,
       "source": "GitHub Trending"
-    },
-    {
-      "id": "2a9bb2bf7afb",
-      "title": "openai /codex-security",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "49cf590dc337",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "score": 5,
-      "source": "OpenAI"
-    },
-    {
-      "id": "0e3d014e5d1a",
-      "title": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "7c1a5b5968bc",
-      "title": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "3586fd5cc361",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "score": 5,
-      "source": "Google AI"
     }
   ]
 }
