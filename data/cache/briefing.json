@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-11T22:35:39Z",
-  "count": 556,
+  "updated": "2026-11-12T06:14:45Z",
+  "count": 557,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -35582,6 +35582,70 @@
         }
       },
       "_ts": 1794436539
+    },
+    "573af1d25a345efb": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录245篇AI新闻，分类分布：学术研究171篇, 开源项目37篇, 模型发布37篇。热门标签：Agent（49篇）。其中15%的文章有多来源交叉验证。\n\n▸ meta /astryx：An open source design system that's fully customizable and agent ready\n\n▸ ZhuLinsen /daily_stock_analysis：LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.\n\n▸ vercel-labs /agent-browser：Browser automation CLI for AI agents\n\n▸ homeassistant-ai /ha-mcp：Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "vercel-labs/agent-browser",
+            "url": "https://github.com/vercel-labs/agent-browser",
+            "why_hot": "单日708星，Rust项目",
+            "stars_today": 708,
+            "total_stars": 50031
+          },
+          {
+            "full_name": "meta/astryx",
+            "url": "https://github.com/meta/astryx",
+            "why_hot": "单日2776星，TypeScript项目",
+            "stars_today": 2776,
+            "total_stars": 25434
+          },
+          {
+            "full_name": "homeassistant-ai/ha-mcp",
+            "url": "https://github.com/homeassistant-ai/ha-mcp",
+            "why_hot": "单日645星，Python项目",
+            "stars_today": 645,
+            "total_stars": 7509
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "245"
+          },
+          {
+            "label": "多源验证率",
+            "value": "15%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4916"
+          }
+        ],
+        "must_read_ids": [
+          "31817dfd77ef",
+          "4ec6d5af71ee",
+          "0d1bd25a3199",
+          "c34811c59d2d",
+          "8af7f6287fd6"
+        ],
+        "text": "今日共收录245篇AI新闻，分类分布：学术研究171篇, 开源项目37篇, 模型发布37篇。热门标签：Agent（49篇）。其中15%的文章有多来源交叉验证。",
+        "top_items": [
+          "meta /astryx",
+          "ZhuLinsen /daily_stock_analysis",
+          "addyosmani /agent-skills",
+          "vercel-labs /agent-browser",
+          "homeassistant-ai /ha-mcp"
+        ],
+        "meta": {
+          "total_articles": 245,
+          "multi_source_pct": 15
+        }
+      },
+      "_ts": 1794464085
     }
   }
 }
