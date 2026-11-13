@@ -1,7 +1,24 @@
 {
-  "updated": "2026-11-13T05:35:34Z",
+  "updated": "2026-11-13T16:02:51Z",
   "total": 20,
   "items": [
+    {
+      "id": "9cd514d03f14",
+      "title_zh": "alibaba /open-code-review",
+      "summary_zh": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
+      "tags_zh": [
+        "OpenAI",
+        "Anthropic",
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
     {
       "id": "6985e00d3276",
       "title_zh": "GoogleChrome /modern-web-guidance-src",
@@ -25,6 +42,103 @@
         "OpenAI"
       ],
       "oneliner": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerab",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "4ec6d5af71ee",
+      "title_zh": "ZhuLinsen /daily_stock_analysis",
+      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bf0815b5d73d",
+      "title_zh": "backnotprop /plannotator",
+      "summary_zh": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code,",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2e99c10b71a9",
+      "title_zh": "tailscale /tailcat",
+      "summary_zh": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "tags_zh": [],
+      "oneliner": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "79d13e040f6e",
+      "title_zh": "Introducing ChatGPT Wallet",
+      "summary_zh": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete pur",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1f76189be1ea",
+      "title_zh": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "summary_zh": "",
+      "tags_zh": [
+        "Llama"
+      ],
+      "oneliner": "",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "92cbcd298ba6",
+      "title_zh": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+      "summary_zh": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models.\nThe post Google Releases TPU Sync:...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "83ad1719d0b0",
+      "title_zh": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+      "summary_zh": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1.\nThe post Google Releases Gemini 4 Hydrogen:...",
+      "tags_zh": [
+        "Gemini",
+        "Google"
+      ],
+      "oneliner": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels an",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -91,11 +205,11 @@
       }
     },
     {
-      "id": "7308a14bb937",
-      "title_zh": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
-      "summary_zh": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. It runs at 12.5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU thread.\nThe post Liquid AI...",
+      "id": "18ed37a4e00f",
+      "title_zh": "Abstention Is Not Threshold Compliance: Stated Scoring Rules in Open Language Models",
+      "summary_zh": "arXiv:2611.14661v1 Announce Type: new \nAbstract: Kalai et al. propose stating the scoring rule in the prompt with an explicit threshold t, so that a model should answer only when its probability of being correct exceeds t. We probe each...",
       "tags_zh": [],
-      "oneliner": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and",
+      "oneliner": "arXiv:2611.14661v1 Announce Type: new \nAbstract: Kalai et al. propose stating the scoring rule in th",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -103,11 +217,11 @@
       }
     },
     {
-      "id": "cb593418febc",
-      "title_zh": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
-      "summary_zh": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bring their own agents, models and infrastructure, while every Bot action passes a policy check and lands in an audit trail.\nThe post CopilotKit...",
+      "id": "1a22c1f11002",
+      "title_zh": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
+      "summary_zh": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\\=asa, and discourse-level zero-anaphora forced by...",
       "tags_zh": [],
-      "oneliner": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bri",
+      "oneliner": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolve",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -115,13 +229,25 @@
       }
     },
     {
-      "id": "ab58a29e40e5",
-      "title_zh": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "summary_zh": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "id": "1985b1e84801",
+      "title_zh": "Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making",
+      "summary_zh": "arXiv:2611.14700v1 Announce Type: new \nAbstract: User research and system testing reveal whether products and services meet user needs, yet recruiting specialized participants, designing controlled what-if comparisons, and repeating studies as...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.14700v1 Announce Type: new \nAbstract: User research and system testing reveal whether pro",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "85524a074a1a",
+      "title_zh": "Benchmarking Multilingual Document Understanding in Vision-Language Models",
+      "summary_zh": "arXiv:2611.14758v1 Announce Type: new \nAbstract: Recent Vision-Language Models (VLMs) perform strongly on multimodal tasks, Document Understanding (DU) among them, but the benchmarks that measure them mostly cover English documents and narrow...",
       "tags_zh": [
-        "OpenAI"
+        "Benchmark"
       ],
-      "oneliner": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to buil",
+      "oneliner": "arXiv:2611.14758v1 Announce Type: new \nAbstract: Recent Vision-Language Models (VLMs) perform strong",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -129,27 +255,13 @@
       }
     },
     {
-      "id": "bff67df79e98",
-      "title_zh": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "summary_zh": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to buil",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "f052c6845a6e",
-      "title_zh": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
-      "summary_zh": "",
+      "id": "c70f87641b2b",
+      "title_zh": "An LLM Is All You Need: Data-Efficient Adaptation to Full-Duplex, Word-Level Spoken Dialogue",
+      "summary_zh": "arXiv:2611.14774v1 Announce Type: new \nAbstract: Full-duplex spoken dialogue, in which a system listens while it speaks and can backchannel, yield the floor, and be interrupted, is usually obtained by training on hundreds of thousands to millions...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "",
+      "oneliner": "arXiv:2611.14774v1 Announce Type: new \nAbstract: Full-duplex spoken dialogue, in which a system list",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -157,119 +269,11 @@
       }
     },
     {
-      "id": "3987a8727774",
-      "title_zh": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary_zh": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
-      "tags_zh": [
-        "Gemini",
-        "Google"
-      ],
-      "oneliner": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from th",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a2053366b9a3",
-      "title_zh": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
-      "summary_zh": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models. Autonomous agents wrote all of its code. It passes 56.6% of 42,857 published fidelity tests at launch.\nThe post AWS Releases AWS Emulator: A...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "0e0766ec9c77",
-      "title_zh": "Gondola doubles revenue as its team builds more with Codex",
-      "summary_zh": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "id": "9007adc29b70",
+      "title_zh": "Distributionally Robust BEST-RQ For Speech Representation Learning",
+      "summary_zh": "arXiv:2611.14801v1 Announce Type: new \nAbstract: BEST-RQ, based on random projection and quantization, has been a well-established self-supervised learning approach to learn speech representations from large-scale unlabeled audio due to its high...",
       "tags_zh": [],
-      "oneliner": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 5",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d8a1aef3d91b",
-      "title_zh": "Holiday Extras is rethinking what it can build with Codex",
-      "summary_zh": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
-      "tags_zh": [],
-      "oneliner": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1c88c34911ff",
-      "title_zh": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
-      "summary_zh": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations. 2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron.\nThe post IBM Announces IBM...",
-      "tags_zh": [],
-      "oneliner": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations. 2 ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4ec6d5af71ee",
-      "title_zh": "ZhuLinsen /daily_stock_analysis",
-      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c34811c59d2d",
-      "title_zh": "vercel-labs /agent-browser",
-      "summary_zh": "Browser automation CLI for AI agents",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Browser automation CLI for AI agents",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "8af7f6287fd6",
-      "title_zh": "homeassistant-ai /ha-mcp",
-      "summary_zh": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "tags_zh": [
-        "GPT",
-        "Claude"
-      ],
-      "oneliner": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "49cf590dc337",
-      "title_zh": "Gilbert + Tobin rethinks the business of law with AI",
-      "summary_zh": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "tags_zh": [],
-      "oneliner": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "oneliner": "arXiv:2611.14801v1 Announce Type: new \nAbstract: BEST-RQ, based on random projection and quantizatio",
       "key_facts": [],
       "notable_quote": {
         "text": "",

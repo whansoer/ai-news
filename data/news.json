@@ -1,8 +1,41 @@
 {
-  "updated": "2026-11-13T05:35:34Z",
-  "total": 166,
-  "new_count": 26,
+  "updated": "2026-11-13T16:02:51Z",
+  "total": 201,
+  "new_count": 60,
   "items": [
+    {
+      "id": "9cd514d03f14",
+      "title": "alibaba /open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
+      "published": "2026-11-13T16:00:38Z",
+      "tags": [
+        "OpenAI",
+        "Anthropic",
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "alibaba /open-code-review",
+      "summary_zh": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
+      "tags_zh": [
+        "OpenAI",
+        "Anthropic",
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det"
+    },
     {
       "id": "6985e00d3276",
       "title": "GoogleChrome /modern-web-guidance-src",
@@ -10,7 +43,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Keep your coding agent up to date with the latest web best practices",
-      "published": "2026-11-13T05:33:36Z",
+      "published": "2026-11-13T16:00:38Z",
       "tags": [
         "Google",
         "Agent"
@@ -22,9 +55,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "92cbcd298ba6",
+          "83ad1719d0b0",
           "3987a8727774"
         ],
-        "score": 5
+        "score": 9
       },
       "title_zh": "GoogleChrome /modern-web-guidance-src",
       "summary_zh": "Keep your coding agent up to date with the latest web best practices",
@@ -41,7 +76,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "published": "2026-11-13T05:33:36Z",
+      "published": "2026-11-13T16:00:38Z",
       "tags": [
         "OpenAI"
       ],
@@ -63,6 +98,203 @@
         "OpenAI"
       ],
       "oneliner": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerab"
+    },
+    {
+      "id": "4ec6d5af71ee",
+      "title": "ZhuLinsen /daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "published": "2026-11-13T16:00:38Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "ZhuLinsen /daily_stock_analysis",
+      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit"
+    },
+    {
+      "id": "bf0815b5d73d",
+      "title": "backnotprop /plannotator",
+      "url": "https://github.com/backnotprop/plannotator",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "published": "2026-11-13T16:00:38Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "backnotprop /plannotator",
+      "summary_zh": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code,"
+    },
+    {
+      "id": "2e99c10b71a9",
+      "title": "tailscale /tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "published": "2026-11-13T16:00:38Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "tailscale /tailcat",
+      "summary_zh": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "tags_zh": [],
+      "oneliner": "like netcat, but over Tailscale's data plane, without Tailscale's control plane"
+    },
+    {
+      "id": "79d13e040f6e",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "published": "2026-11-13T15:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "bde62bed0d83"
+        ],
+        "score": 5
+      },
+      "title_zh": "Introducing ChatGPT Wallet",
+      "summary_zh": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "tags_zh": [
+        "GPT"
+      ],
+      "oneliner": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete pur"
+    },
+    {
+      "id": "1f76189be1ea",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-13T14:05:22Z",
+      "tags": [
+        "Llama"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "summary_zh": "",
+      "tags_zh": [
+        "Llama"
+      ],
+      "oneliner": ""
+    },
+    {
+      "id": "92cbcd298ba6",
+      "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+      "url": "https://www.marktechpost.com/2026/11/13/google-tpu-sync-kv-cache-transfer-library/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models.\nThe post Google Releases TPU Sync:...",
+      "published": "2026-11-13T10:32:26Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6985e00d3276",
+          "83ad1719d0b0",
+          "3987a8727774"
+        ],
+        "score": 9
+      },
+      "title_zh": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+      "summary_zh": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM, host DRAM, storage and network. Google reports over 90% lower KV transfer latency on 235B to 480B MoE models.\nThe post Google Releases TPU Sync:...",
+      "tags_zh": [
+        "Google"
+      ],
+      "oneliner": "Google released TPU Sync, an open-source C++ library that moves KV caches and weights across TPU HBM"
+    },
+    {
+      "id": "83ad1719d0b0",
+      "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+      "url": "https://www.marktechpost.com/2026/11/13/google-gemini-4-hydrogen/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1.\nThe post Google Releases Gemini 4 Hydrogen:...",
+      "published": "2026-11-13T09:45:48Z",
+      "tags": [
+        "Gemini",
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6985e00d3276",
+          "92cbcd298ba6",
+          "3987a8727774"
+        ],
+        "score": 9
+      },
+      "title_zh": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+      "summary_zh": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels and $1.50/$7.50 pricing. Google reports a 51 Artificial Analysis score and 57% on Terminal-Bench 4.1.\nThe post Google Releases Gemini 4 Hydrogen:...",
+      "tags_zh": [
+        "Gemini",
+        "Google"
+      ],
+      "oneliner": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels an"
     },
     {
       "id": "5a31de5224f4",
@@ -179,6 +411,732 @@
       "oneliner": "An open source design system that's fully customizable and agent ready"
     },
     {
+      "id": "18ed37a4e00f",
+      "title": "Abstention Is Not Threshold Compliance: Stated Scoring Rules in Open Language Models",
+      "url": "https://arxiv.org/abs/2611.14661",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14661v1 Announce Type: new \nAbstract: Kalai et al. propose stating the scoring rule in the prompt with an explicit threshold t, so that a model should answer only when its probability of being correct exceeds t. We probe each...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Abstention Is Not Threshold Compliance: Stated Scoring Rules in Open Language Models",
+      "summary_zh": "arXiv:2611.14661v1 Announce Type: new \nAbstract: Kalai et al. propose stating the scoring rule in the prompt with an explicit threshold t, so that a model should answer only when its probability of being correct exceeds t. We probe each...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.14661v1 Announce Type: new \nAbstract: Kalai et al. propose stating the scoring rule in th"
+    },
+    {
+      "id": "1a22c1f11002",
+      "title": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
+      "url": "https://arxiv.org/abs/2611.14675",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\\=asa, and discourse-level zero-anaphora forced by...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
+      "summary_zh": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\\=asa, and discourse-level zero-anaphora forced by...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolve"
+    },
+    {
+      "id": "1985b1e84801",
+      "title": "Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making",
+      "url": "https://arxiv.org/abs/2611.14700",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14700v1 Announce Type: new \nAbstract: User research and system testing reveal whether products and services meet user needs, yet recruiting specialized participants, designing controlled what-if comparisons, and repeating studies as...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Probe What-If Worlds Before You Ship: Persona Simulation for Real-World Decision Making",
+      "summary_zh": "arXiv:2611.14700v1 Announce Type: new \nAbstract: User research and system testing reveal whether products and services meet user needs, yet recruiting specialized participants, designing controlled what-if comparisons, and repeating studies as...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.14700v1 Announce Type: new \nAbstract: User research and system testing reveal whether pro"
+    },
+    {
+      "id": "85524a074a1a",
+      "title": "Benchmarking Multilingual Document Understanding in Vision-Language Models",
+      "url": "https://arxiv.org/abs/2611.14758",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14758v1 Announce Type: new \nAbstract: Recent Vision-Language Models (VLMs) perform strongly on multimodal tasks, Document Understanding (DU) among them, but the benchmarks that measure them mostly cover English documents and narrow...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Benchmarking Multilingual Document Understanding in Vision-Language Models",
+      "summary_zh": "arXiv:2611.14758v1 Announce Type: new \nAbstract: Recent Vision-Language Models (VLMs) perform strongly on multimodal tasks, Document Understanding (DU) among them, but the benchmarks that measure them mostly cover English documents and narrow...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2611.14758v1 Announce Type: new \nAbstract: Recent Vision-Language Models (VLMs) perform strong"
+    },
+    {
+      "id": "c70f87641b2b",
+      "title": "An LLM Is All You Need: Data-Efficient Adaptation to Full-Duplex, Word-Level Spoken Dialogue",
+      "url": "https://arxiv.org/abs/2611.14774",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14774v1 Announce Type: new \nAbstract: Full-duplex spoken dialogue, in which a system listens while it speaks and can backchannel, yield the floor, and be interrupted, is usually obtained by training on hundreds of thousands to millions...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "An LLM Is All You Need: Data-Efficient Adaptation to Full-Duplex, Word-Level Spoken Dialogue",
+      "summary_zh": "arXiv:2611.14774v1 Announce Type: new \nAbstract: Full-duplex spoken dialogue, in which a system listens while it speaks and can backchannel, yield the floor, and be interrupted, is usually obtained by training on hundreds of thousands to millions...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2611.14774v1 Announce Type: new \nAbstract: Full-duplex spoken dialogue, in which a system list"
+    },
+    {
+      "id": "9007adc29b70",
+      "title": "Distributionally Robust BEST-RQ For Speech Representation Learning",
+      "url": "https://arxiv.org/abs/2611.14801",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14801v1 Announce Type: new \nAbstract: BEST-RQ, based on random projection and quantization, has been a well-established self-supervised learning approach to learn speech representations from large-scale unlabeled audio due to its high...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Distributionally Robust BEST-RQ For Speech Representation Learning",
+      "summary_zh": "arXiv:2611.14801v1 Announce Type: new \nAbstract: BEST-RQ, based on random projection and quantization, has been a well-established self-supervised learning approach to learn speech representations from large-scale unlabeled audio due to its high...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.14801v1 Announce Type: new \nAbstract: BEST-RQ, based on random projection and quantizatio"
+    },
+    {
+      "id": "63db032a58a6",
+      "title": "What Do Tokenizer Comparisons Measure? Disentangling Granularity, Root Assignment, and Word-Level Readout across Amharic and Hausa",
+      "url": "https://arxiv.org/abs/2611.14818",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14818v1 Announce Type: new \nAbstract: Morphology-aware tokenizers are expected to help morphologically rich languages, and their reported gains over byte-pair encoding (BPE) are usually credited to their linguistic units. A comparison...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a09c1deeb557",
+      "title": "Discharge Summary Generation Is Not Just Summarization: A Reality Check for Evaluation",
+      "url": "https://arxiv.org/abs/2611.14823",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14823v1 Announce Type: new \nAbstract: Discharge summaries combine a retrospective account of hospitalization with discharge-time decisions. Physician-written references therefore contain both facts supported by prior clinical notes and...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a060e17b4dc9",
+      "title": "LLMs and the Homogenization of Teaching",
+      "url": "https://arxiv.org/abs/2611.14828",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14828v1 Announce Type: new \nAbstract: Large language models (LLMs) are known to lack diversity in open-ended text generation, a limitation that is especially consequential in education, where homogeneity can narrow the kinds of...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "68bd70c79e42",
+      "title": "Is Jev a Good Multilingual Judge?",
+      "url": "https://arxiv.org/abs/2611.14861",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14861v1 Announce Type: new \nAbstract: Generative large language models are widely used for multilingual text evaluation, yet whether decision models that directly output judgment probabilities can serve as multilingual judges has...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "1f292fe9d1af",
+      "title": "Hy ASR 3.0 Technical Report",
+      "url": "https://arxiv.org/abs/2611.14908",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14908v1 Announce Type: new \nAbstract: We present Hy ASR 3.0, a large language model (LLM)-based automatic speech recognition (ASR) system that delivers strong recognition accuracy, supports flexible contextual conditioning, and...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "749a95e3d22b",
+      "title": "ToolTurns: Benchmarking LLM Agents in Multi-Turn Dialogue",
+      "url": "https://arxiv.org/abs/2611.14925",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14925v1 Announce Type: new \nAbstract: Tool-using language models are increasingly deployed in conversational settings, yet most large-scale tool-use benchmarks focus on isolated requests. We introduce ToolTurns, a benchmark of 2,620...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5f673b3fceb3",
+      "title": "Do Large Language Models Show Racial and Sex Bias in Pain Management? A Counterfactual Audit of GPT, Claude, Gemini, Llama, DeepSeek and Qwen",
+      "url": "https://arxiv.org/abs/2611.14935",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14935v1 Announce Type: new \nAbstract: Racial and ethnic minority patients receive less pain treatment than non-Hispanic White patients, and large language models (LLMs) used as medical AI could reproduce that bias. Prior audits tested...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "GPT",
+        "Claude",
+        "Gemini",
+        "Llama",
+        "DeepSeek"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a9536bba75c3",
+      "title": "CoLFA: Collaboration-Guided Lightweight Failure Attribution for LLM-Based Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.14980",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14980v1 Announce Type: new \nAbstract: Failure attribution in multi-agent systems requires tracing error formation to identify the decisive error step and the responsible agent. However, agents' division of work and information exchange...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "18edd51cceec"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "76d00e79e34f",
+      "title": "Breaking Bad: \"Going Badly\" Activations Drive Reward Hacking",
+      "url": "https://arxiv.org/abs/2611.14996",
+      "source": "ArXiv (cs.CL)",
+      "category": "research",
+      "summary": "arXiv:2611.14996v1 Announce Type: new \nAbstract: Humans often cheat when a task is going badly and a goal feels out of reach. We explore and validate an analogous idea in language models: they exhibit a similar internal pressure state that...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "391b08071aff",
+      "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+      "url": "https://arxiv.org/abs/2611.14544",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14544v1 Announce Type: new \nAbstract: Digitizing handwritten chess scoresheets has been studied as a handwriting-recognition problem: read the move in each box and check that it is legal. This framing misses the errors that matter...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7c65b24978bd",
+      "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+      "url": "https://arxiv.org/abs/2611.14654",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14654v1 Announce Type: new \nAbstract: Tool-using language-model agents accumulate histories of their own mistakes, and a system that compacts, repairs or hands off such a history decides what it says about those mistakes while their...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "1453fc28d22a",
+      "title": "Together Compiler: Continual Compilation for AI Inference",
+      "url": "https://arxiv.org/abs/2611.14681",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14681v1 Announce Type: new \nAbstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c97e701e0281",
+      "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+      "url": "https://arxiv.org/abs/2611.14736",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14736v1 Announce Type: new \nAbstract: Observational causal discovery often leaves causal di- rections unresolved or unstable. Large language mod- els (LLMs) can provide semantic information to resolve these directions, but incorrect...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8435f8f07cc6",
+      "title": "SynthCorp: A Platform for Creating Benchmarks for Data Agents",
+      "url": "https://arxiv.org/abs/2611.14765",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14765v1 Announce Type: new \nAbstract: Current benchmarks for LLM-driven data agents saturate quickly and cannot target specific capabilities. We present SynthCorp, a platform that creates customizable data estates and benchmarks by...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "Agent",
+        "Benchmark"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "64d20dba5886",
+      "title": "Rational Use of Time for Social Coordination in Humans and AI",
+      "url": "https://arxiv.org/abs/2611.14766",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14766v1 Announce Type: new \nAbstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8c8bd6bb95e7",
+      "title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+      "url": "https://arxiv.org/abs/2611.14769",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14769v1 Announce Type: new \nAbstract: Arena-style rankings of language models are a widely used evaluation framework in online leaderboards, research papers, and model evaluation in production. These rankings aim to realistically...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5de189116fa0",
+      "title": "Robust Task-Aware State Estimation from Pre-trained Perception",
+      "url": "https://arxiv.org/abs/2611.14781",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14781v1 Announce Type: new \nAbstract: Agents that perform state estimation using pretrained perception models, e.g., Vision-Language Models (VLMs), face the fundamental challenge that predictions are uncertain. Still, most approaches...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "8d8a8c5bae8b",
+      "title": "When Is Proof-Step Verification Worth Its Cost? Operating Requirements of Certify-or-Decline Verification for Open-Weight Mathematical Reasoning",
+      "url": "https://arxiv.org/abs/2611.14794",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14794v1 Announce Type: new \nAbstract: Proof-step verification rewrites a solver's answer into typed steps and uses LLM judges to certify or decline. We evaluate this pipeline on open-weight models across GPQA, AIME-2025, and a MATH-500...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f5e6e84639a0",
+      "title": "GenPFN: An In-Context Tabular Foundation Model Approach for Augmenting Small Datasets in Engineering",
+      "url": "https://arxiv.org/abs/2611.14804",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14804v1 Announce Type: new \nAbstract: Costly simulations and experiments limit the data available for engineering design. This paper proposes GenPFN, a training-free candidate generator guided by a pretrained tabular Prior-Data Fitted...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "5614bd42ba7e",
+      "title": "AutoAssumption: Searching over Assumptions Discovers ML-Systems Algorithms",
+      "url": "https://arxiv.org/abs/2611.14844",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14844v1 Announce Type: new \nAbstract: Many advances in ML systems came from breaking an assumption that earlier methods took for granted: speculative decoding dropped the assumption that a model needs one forward pass per token. Yet...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "18edd51cceec",
+      "title": "Open Challenges and Opportunities in Human-Agent Systems",
+      "url": "https://arxiv.org/abs/2611.14846",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14846v1 Announce Type: new \nAbstract: Agentic AI systems increasingly undertake extended tasks and act on people's behalf, making human-agent interaction central to their effectiveness. Successful interaction requires understanding...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "a9536bba75c3"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c85ed34e10ee",
+      "title": "Effective Teacher Support for Reasoning Distillation",
+      "url": "https://arxiv.org/abs/2611.14850",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14850v1 Announce Type: new \nAbstract: Forward-KL language-model distillation normally computes dense teacher and student scores over the full vocabulary at every supervised position, making training and stored teacher targets...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "0474817364de",
+      "title": "Can an AI Agent Be Epistemically Akratic? Higher-Order Evidence & the Limits of Self-Correction",
+      "url": "https://arxiv.org/abs/2611.14889",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14889v1 Announce Type: new \nAbstract: When we judge that our reasoning was defective, it seems plausible that we should abandon the conclusion it produced. This thought has special force for AI agents built to assess and correct their...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a2af418f3680",
+      "title": "MuEdit: An efficient multi-task editing method towards inter-domain knowledge conflicts",
+      "url": "https://arxiv.org/abs/2611.14910",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.14910v1 Announce Type: new \nAbstract: Large language models (LLMs) require frequent knowledge updates across heterogeneous domains, but existing editing methods fail when applied sequentially to multi-task settings. We trace this...",
+      "published": "2026-11-13T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "7308a14bb937",
       "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
       "url": "https://www.marktechpost.com/2026/11/12/liquid-ai-liquidcodec-streaming-audio-codec/",
@@ -196,10 +1154,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
-      "summary_zh": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and LFM3-Omni-2B. It runs at 12.5 Hz with 12 codebooks and encodes about 361x faster than real time on a single CPU thread.\nThe post Liquid AI...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Liquid AI released LiquidCodec, a ~74M-parameter streaming audio codec that powers LFM3-Audio-2B and"
+      "oneliner": ""
     },
     {
       "id": "cb593418febc",
@@ -219,10 +1177,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
-      "summary_zh": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bring their own agents, models and infrastructure, while every Bot action passes a policy check and lands in an audit trail.\nThe post CopilotKit...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "CopilotKit released OpenBot 1.0, an MIT-licensed, self-hostable AI coworker workspace. Companies bri"
+      "oneliner": ""
     },
     {
       "id": "ab58a29e40e5",
@@ -247,12 +1205,10 @@
         ],
         "score": 7
       },
-      "title_zh": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "summary_zh": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to buil"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "bff67df79e98",
@@ -277,12 +1233,10 @@
         ],
         "score": 7
       },
-      "title_zh": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "summary_zh": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to buil"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "f052c6845a6e",
@@ -304,11 +1258,9 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "title_zh": "",
       "summary_zh": "",
-      "tags_zh": [
-        "LLM"
-      ],
+      "tags_zh": [],
       "oneliner": ""
     },
     {
@@ -331,18 +1283,17 @@
         "level": "multi-source",
         "corroborating_ids": [
           "6985e00d3276",
+          "92cbcd298ba6",
+          "83ad1719d0b0",
           "0e3d014e5d1a",
           "7c1a5b5968bc"
         ],
-        "score": 9
+        "score": 10
       },
-      "title_zh": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "summary_zh": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
-      "tags_zh": [
-        "Gemini",
-        "Google"
-      ],
-      "oneliner": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from th"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "a2053366b9a3",
@@ -364,12 +1315,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "AWS Releases AWS Emulator: A Local Copy of 200+ AWS Services Built by AI Agents",
-      "summary_zh": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models. Autonomous agents wrote all of its code. It passes 56.6% of 42,857 published fidelity tests at launch.\nThe post AWS Releases AWS Emulator: A...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "AWS released AWS Emulator, a free, CC0-licensed local emulator of AWS APIs built from 438 API models"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "0e0766ec9c77",
@@ -389,10 +1338,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Gondola doubles revenue as its team builds more with Codex",
-      "summary_zh": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 5"
+      "oneliner": ""
     },
     {
       "id": "d8a1aef3d91b",
@@ -412,10 +1361,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Holiday Extras is rethinking what it can build with Codex",
-      "summary_zh": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion"
+      "oneliner": ""
     },
     {
       "id": "1c88c34911ff",
@@ -435,37 +1384,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "IBM Announces IBM Quantum Nighthawk r3: A New Processor to Support 10k Quantum Operations on 520 Programmable Qubits",
-      "summary_zh": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations. 2 r3 chips will link into a 1,040-qubit system in 2027, while Nighthawk r2 already posts up to 19x speedups over Heron.\nThe post IBM Announces IBM...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "IBM announced Quantum Nighthawk r3, a 520-qubit processor designed for 10,000 quantum operations. 2 "
-    },
-    {
-      "id": "4ec6d5af71ee",
-      "title": "ZhuLinsen /daily_stock_analysis",
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "published": "2026-11-12T06:12:39Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "ZhuLinsen /daily_stock_analysis",
-      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit"
+      "oneliner": ""
     },
     {
       "id": "c34811c59d2d",
@@ -483,18 +1405,14 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "f3ff53581488"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
       },
-      "title_zh": "vercel-labs /agent-browser",
-      "summary_zh": "Browser automation CLI for AI agents",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Browser automation CLI for AI agents"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "8af7f6287fd6",
@@ -517,13 +1435,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "homeassistant-ai /ha-mcp",
-      "summary_zh": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
-      "tags_zh": [
-        "GPT",
-        "Claude"
-      ],
-      "oneliner": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants."
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "49cf590dc337",
@@ -543,10 +1458,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Gilbert + Tobin rethinks the business of law with AI",
-      "summary_zh": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin."
+      "oneliner": ""
     },
     {
       "id": "d3916f44cf9c",
@@ -1843,9 +2758,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "79d13e040f6e"
+        ],
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4014,54 +4931,6 @@
       "summary": "Zyphra released ZYFA, open-source FP8 and BF16 prefill attention kernels for AMD Instinct MI355X. On real model activations, its FP8 kernels run 1.16-1.76x faster than AMD’s AITER, with 62-78% lower error at head dimension 128.\nThe post Zyphra...",
       "published": "2026-11-06T17:28:04Z",
       "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "27984b16f9bc",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-06T14:00:48Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4650983e6e64",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "published": "2026-11-06T08:00:00Z",
-      "tags": [
-        "OpenAI"
-      ],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",

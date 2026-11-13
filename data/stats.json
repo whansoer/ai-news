@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13T05:35:24Z",
-  "total": 227,
+  "updated": "2026-11-13T16:02:40Z",
+  "total": 226,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -16,7 +16,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 21
+      "count": 20
     },
     {
       "name": "OpenAI",
@@ -38,54 +38,62 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 40
+      "count": 36
     },
     {
       "name": "LLM",
-      "count": 33
+      "count": 32
     },
     {
       "name": "Google",
-      "count": 11
-    },
-    {
-      "name": "Gemini",
-      "count": 8
+      "count": 12
     },
     {
       "name": "GPT",
-      "count": 7
+      "count": 9
+    },
+    {
+      "name": "Gemini",
+      "count": 9
+    },
+    {
+      "name": "Benchmark",
+      "count": 8
     },
     {
       "name": "OpenAI",
-      "count": 6
+      "count": 7
     },
     {
       "name": "Meta",
       "count": 6
     },
     {
-      "name": "Benchmark",
-      "count": 6
-    },
-    {
-      "name": "Prompt",
-      "count": 4
-    },
-    {
       "name": "DeepSeek",
+      "count": 5
+    },
+    {
+      "name": "Llama",
       "count": 4
+    },
+    {
+      "name": "Anthropic",
+      "count": 3
     },
     {
       "name": "Qwen",
       "count": 3
     },
     {
-      "name": "API",
+      "name": "Claude",
       "count": 3
     },
     {
-      "name": "Claude",
+      "name": "Prompt",
+      "count": 3
+    },
+    {
+      "name": "API",
       "count": 2
     },
     {
@@ -93,27 +101,19 @@
       "count": 2
     },
     {
-      "name": "Anthropic",
-      "count": 2
-    },
-    {
       "name": "Embedding",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Transformer",
-      "count": 2
-    },
-    {
-      "name": "Llama",
-      "count": 2
-    },
-    {
-      "name": "RAG",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Fine-tune",
+      "count": 1
+    },
+    {
+      "name": "RAG",
       "count": 1
     }
   ],
@@ -124,7 +124,7 @@
     },
     {
       "name": "开源项目",
-      "count": 36
+      "count": 35
     },
     {
       "name": "模型发布",
@@ -154,14 +154,20 @@
     },
     {
       "date": "11-12",
-      "count": 16
+      "count": 15
     },
     {
       "date": "11-13",
-      "count": 6
+      "count": 44
     }
   ],
   "top10": [
+    {
+      "id": "9cd514d03f14",
+      "title": "alibaba /open-code-review",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "6985e00d3276",
       "title": "GoogleChrome /modern-web-guidance-src",
@@ -175,52 +181,46 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "5a31de5224f4",
-      "title": "QwenLM /qwen-code",
+      "id": "4ec6d5af71ee",
+      "title": "ZhuLinsen /daily_stock_analysis",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "1974e4a3544a",
-      "title": "ashhart /TensorFold",
+      "id": "bf0815b5d73d",
+      "title": "backnotprop /plannotator",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "0d1bd25a3199",
-      "title": "addyosmani /agent-skills",
+      "id": "2e99c10b71a9",
+      "title": "tailscale /tailcat",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "31817dfd77ef",
-      "title": "meta /astryx",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "7308a14bb937",
-      "title": "Liquid AI Releases LiquidCodec, a 74M-Parameter Streaming Audio Codec",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "cb593418febc",
-      "title": "CopilotKit Releases OpenBot 1.0: An MIT-Licensed, Self-Hostable AI Coworker With Built-In Governance",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "ab58a29e40e5",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "id": "79d13e040f6e",
+      "title": "Introducing ChatGPT Wallet",
       "score": 5,
       "source": "OpenAI"
     },
     {
-      "id": "bff67df79e98",
-      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "id": "1f76189be1ea",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
       "score": 5,
-      "source": "OpenAI"
+      "source": "Hugging Face"
+    },
+    {
+      "id": "92cbcd298ba6",
+      "title": "Google Releases TPU Sync: Open-Source KV Cache Transfer for TPUs",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
+      "id": "83ad1719d0b0",
+      "title": "Google Releases Gemini 4 Hydrogen: 2.5x Faster Than Gemini 3.8 Flash",
+      "score": 5,
+      "source": "MarkTechPost"
     }
   ]
 }
