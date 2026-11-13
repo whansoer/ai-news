@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-12T22:11:21Z",
-  "count": 559,
+  "updated": "2026-11-13T05:35:34Z",
+  "count": 560,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -35774,6 +35774,70 @@
         }
       },
       "_ts": 1794521481
+    },
+    "f855e33a6d936fec": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录227篇AI新闻，分类分布：学术研究156篇, 开源项目36篇, 模型发布35篇。热门标签：Agent（40篇）。其中16%的文章有多来源交叉验证。\n\n▸ GoogleChrome /modern-web-guidance-src：Keep your coding agent up to date with the latest web best practices\n\n▸ openai /codex-security：OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerab\n\n▸ QwenLM /qwen-code：An open-source AI coding agent that lives in your terminal.\n\n▸ ashhart /TensorFold：LLM Inference Engine for Metal, CUDA and Vulkan.\n\n▸ addyosmani /agent-skills：Production-grade engineering skills for AI coding agents.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "GoogleChrome/modern-web-guidance-src",
+            "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+            "why_hot": "单日739星，TypeScript项目",
+            "stars_today": 739,
+            "total_stars": 3470
+          },
+          {
+            "full_name": "meta/astryx",
+            "url": "https://github.com/meta/astryx",
+            "why_hot": "单日1830星，TypeScript项目",
+            "stars_today": 1830,
+            "total_stars": 26808
+          },
+          {
+            "full_name": "openai/codex-security",
+            "url": "https://github.com/openai/codex-security",
+            "why_hot": "单日643星，TypeScript项目",
+            "stars_today": 643,
+            "total_stars": 12599
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "227"
+          },
+          {
+            "label": "多源验证率",
+            "value": "16%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+4028"
+          }
+        ],
+        "must_read_ids": [
+          "6985e00d3276",
+          "2a9bb2bf7afb",
+          "5a31de5224f4",
+          "1974e4a3544a",
+          "0d1bd25a3199"
+        ],
+        "text": "今日共收录227篇AI新闻，分类分布：学术研究156篇, 开源项目36篇, 模型发布35篇。热门标签：Agent（40篇）。其中16%的文章有多来源交叉验证。",
+        "top_items": [
+          "GoogleChrome /modern-web-guidance-src",
+          "openai /codex-security",
+          "QwenLM /qwen-code",
+          "ashhart /TensorFold",
+          "addyosmani /agent-skills"
+        ],
+        "meta": {
+          "total_articles": 227,
+          "multi_source_pct": 16
+        }
+      },
+      "_ts": 1794548134
     }
   }
 }
