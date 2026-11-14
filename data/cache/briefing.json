@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-14T05:27:07Z",
-  "count": 563,
+  "updated": "2026-11-14T14:56:40Z",
+  "count": 564,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -36030,6 +36030,70 @@
         }
       },
       "_ts": 1794634027
+    },
+    "6411c709ade57fe1": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录232篇AI新闻，分类分布：学术研究159篇, 开源项目38篇, 模型发布35篇。热门标签：Agent（40篇）。其中16%的文章有多来源交叉验证。\n\n▸ backnotprop /plannotator：The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code,\n\n▸ GoogleChrome /modern-web-guidance-src：Keep your coding agent up to date with the latest web best practices\n\n▸ ChromeDevTools /chrome-devtools-mcp：Chrome DevTools for coding agents\n\n▸ alibaba /open-code-review：Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det\n\n▸ QwenLM /qwen-code：An open-source AI coding agent that lives in your terminal.",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "tradermonty/claude-trading-skills",
+            "url": "https://github.com/tradermonty/claude-trading-skills",
+            "why_hot": "单日556星，Python项目",
+            "stars_today": 556,
+            "total_stars": 4501
+          },
+          {
+            "full_name": "Likely7/Veyra-NRVideo",
+            "url": "https://github.com/Likely7/Veyra-NRVideo",
+            "why_hot": "单日423星，C++项目",
+            "stars_today": 423,
+            "total_stars": 1892
+          },
+          {
+            "full_name": "GoogleChrome/modern-web-guidance-src",
+            "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+            "why_hot": "单日1225星，TypeScript项目",
+            "stars_today": 1225,
+            "total_stars": 5499
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "232"
+          },
+          {
+            "label": "多源验证率",
+            "value": "16%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+3651"
+          }
+        ],
+        "must_read_ids": [
+          "bf0815b5d73d",
+          "6985e00d3276",
+          "b4212d4b4d44",
+          "9cd514d03f14",
+          "5a31de5224f4"
+        ],
+        "text": "今日共收录232篇AI新闻，分类分布：学术研究159篇, 开源项目38篇, 模型发布35篇。热门标签：Agent（40篇）。其中16%的文章有多来源交叉验证。",
+        "top_items": [
+          "backnotprop /plannotator",
+          "GoogleChrome /modern-web-guidance-src",
+          "ChromeDevTools /chrome-devtools-mcp",
+          "alibaba /open-code-review",
+          "QwenLM /qwen-code"
+        ],
+        "meta": {
+          "total_articles": 232,
+          "multi_source_pct": 16
+        }
+      },
+      "_ts": 1794668200
     }
   }
 }
