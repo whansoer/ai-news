@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-13T21:53:33Z",
-  "total": 204,
-  "new_count": 27,
+  "updated": "2026-11-14T05:27:07Z",
+  "total": 203,
+  "new_count": 24,
   "items": [
     {
       "id": "9cd514d03f14",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-11-13T21:51:25Z",
+      "published": "2026-11-14T05:25:02Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -43,7 +43,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Keep your coding agent up to date with the latest web best practices",
-      "published": "2026-11-13T21:51:25Z",
+      "published": "2026-11-14T05:25:02Z",
       "tags": [
         "Google",
         "Agent"
@@ -75,7 +75,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "published": "2026-11-13T21:51:25Z",
+      "published": "2026-11-14T05:25:02Z",
       "tags": [
         "OpenAI"
       ],
@@ -84,9 +84,11 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
+        "level": "multi-source",
+        "corroborating_ids": [
+          "db3076ba786e"
+        ],
+        "score": 5
       },
       "title_zh": "openai /codex-security",
       "summary_zh": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
@@ -102,7 +104,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "published": "2026-11-13T21:51:25Z",
+      "published": "2026-11-14T05:25:02Z",
       "tags": [
         "LLM"
       ],
@@ -129,7 +131,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "published": "2026-11-13T21:51:25Z",
+      "published": "2026-11-14T05:25:02Z",
       "tags": [
         "Agent"
       ],
@@ -156,7 +158,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-      "published": "2026-11-13T21:51:25Z",
+      "published": "2026-11-14T05:25:02Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -385,6 +387,37 @@
       "oneliner": "Google released Gemini 4 Hydrogen, a fast agentic model with a 1M-token window, 4 thinking levels an"
     },
     {
+      "id": "db3076ba786e",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "published": "2026-11-13T08:00:00Z",
+      "tags": [
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "2a9bb2bf7afb",
+          "ab58a29e40e5",
+          "bff67df79e98"
+        ],
+        "score": 9
+      },
+      "title_zh": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "summary_zh": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "tags_zh": [
+        "OpenAI"
+      ],
+      "oneliner": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate"
+    },
+    {
       "id": "5a31de5224f4",
       "title": "QwenLM /qwen-code",
       "url": "https://github.com/QwenLM/qwen-code",
@@ -539,10 +572,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
-      "summary_zh": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\\=asa, and discourse-level zero-anaphora forced by...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.14675v1 Announce Type: new \nAbstract: Classical Sanskrit poses three challenges unresolve"
+      "oneliner": ""
     },
     {
       "id": "1985b1e84801",
@@ -1284,9 +1317,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "db3076ba786e",
           "bff67df79e98"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1311,9 +1345,10 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "db3076ba786e",
           "ab58a29e40e5"
         ],
-        "score": 5
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4946,57 +4981,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5fb2a08103b0",
-      "title": "NVIDIA /auto-ontology",
-      "url": "https://github.com/NVIDIA/auto-ontology",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
-      "published": "2026-11-07T05:03:07Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "2fd23b5ff2de"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c1697eee13b5",
-      "title": "rails /rails",
-      "url": "https://github.com/rails/rails",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Ruby on Rails",
-      "published": "2026-11-07T05:03:07Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
