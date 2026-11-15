@@ -1,8 +1,97 @@
 {
-  "updated": "2026-11-15T05:23:43Z",
-  "total": 204,
-  "new_count": 23,
+  "updated": "2026-11-15T15:33:19Z",
+  "total": 205,
+  "new_count": 27,
   "items": [
+    {
+      "id": "dd3f7c0b511d",
+      "title": "dream-num /univer",
+      "url": "https://github.com/dream-num/univer",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "published": "2026-11-15T15:31:08Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "dream-num /univer",
+      "summary_zh": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file"
+    },
+    {
+      "id": "dc6cbbda1a8c",
+      "title": "ag-ui-protocol /ag-ui",
+      "url": "https://github.com/ag-ui-protocol/ag-ui",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "published": "2026-11-15T15:31:08Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "ag-ui-protocol /ag-ui",
+      "summary_zh": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications."
+    },
+    {
+      "id": "f73b7c861bcc",
+      "title": "google-labs-code /stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "published": "2026-11-15T15:31:08Z",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "6985e00d3276"
+        ],
+        "score": 5
+      },
+      "title_zh": "google-labs-code /stitch-skills",
+      "summary_zh": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "tags_zh": [
+        "Claude",
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent "
+    },
     {
       "id": "bf0815b5d73d",
       "title": "backnotprop /plannotator",
@@ -10,7 +99,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "published": "2026-11-15T05:21:35Z",
+      "published": "2026-11-15T15:31:08Z",
       "tags": [
         "Agent"
       ],
@@ -31,42 +120,13 @@
       "oneliner": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code,"
     },
     {
-      "id": "6985e00d3276",
-      "title": "GoogleChrome /modern-web-guidance-src",
-      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Keep your coding agent up to date with the latest web best practices",
-      "published": "2026-11-15T05:21:35Z",
-      "tags": [
-        "Google",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "GoogleChrome /modern-web-guidance-src",
-      "summary_zh": "Keep your coding agent up to date with the latest web best practices",
-      "tags_zh": [
-        "Google",
-        "Agent"
-      ],
-      "oneliner": "Keep your coding agent up to date with the latest web best practices"
-    },
-    {
       "id": "b4212d4b4d44",
       "title": "ChromeDevTools /chrome-devtools-mcp",
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Chrome DevTools for coding agents",
-      "published": "2026-11-15T05:21:35Z",
+      "published": "2026-11-15T15:31:08Z",
       "tags": [
         "Agent"
       ],
@@ -93,7 +153,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-11-15T05:21:35Z",
+      "published": "2026-11-15T15:31:08Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -118,6 +178,112 @@
         "Agent"
       ],
       "oneliner": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det"
+    },
+    {
+      "id": "26dd9a85c7cf",
+      "title": "Tencent /LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "published": "2026-11-15T15:31:08Z",
+      "tags": [
+        "Claude",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "Tencent /LoopForge",
+      "summary_zh": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "tags_zh": [
+        "Claude",
+        "Agent"
+      ],
+      "oneliner": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with s"
+    },
+    {
+      "id": "4c6e2b5d342d",
+      "title": "ggml-org /ggml",
+      "url": "https://github.com/ggml-org/ggml",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Tensor library for machine learning",
+      "published": "2026-11-15T15:31:08Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "ggml-org /ggml",
+      "summary_zh": "Tensor library for machine learning",
+      "tags_zh": [],
+      "oneliner": "Tensor library for machine learning"
+    },
+    {
+      "id": "6985e00d3276",
+      "title": "GoogleChrome /modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Keep your coding agent up to date with the latest web best practices",
+      "published": "2026-11-15T15:31:08Z",
+      "tags": [
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "f73b7c861bcc"
+        ],
+        "score": 5
+      },
+      "title_zh": "GoogleChrome /modern-web-guidance-src",
+      "summary_zh": "Keep your coding agent up to date with the latest web best practices",
+      "tags_zh": [
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "Keep your coding agent up to date with the latest web best practices"
+    },
+    {
+      "id": "64acc21befdc",
+      "title": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+      "url": "https://www.marktechpost.com/2026/11/15/bland-tofu-1-full-duplex-speech-to-speech-model/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet.\nThe post Bland Launches Tofu-1, a Full-Duplex...",
+      "published": "2026-11-15T10:06:21Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
+      "summary_zh": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet.\nThe post Bland Launches Tofu-1, a Full-Duplex...",
+      "tags_zh": [],
+      "oneliner": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. "
     },
     {
       "id": "5a31de5224f4",
@@ -147,60 +313,6 @@
         "Agent"
       ],
       "oneliner": "An open-source AI coding agent that lives in your terminal."
-    },
-    {
-      "id": "dd3f7c0b511d",
-      "title": "dream-num /univer",
-      "url": "https://github.com/dream-num/univer",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "published": "2026-11-15T05:21:35Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "dream-num /univer",
-      "summary_zh": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file"
-    },
-    {
-      "id": "dc6cbbda1a8c",
-      "title": "ag-ui-protocol /ag-ui",
-      "url": "https://github.com/ag-ui-protocol/ag-ui",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "published": "2026-11-15T05:21:35Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "ag-ui-protocol /ag-ui",
-      "summary_zh": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications."
     },
     {
       "id": "1974e4a3544a",
@@ -455,10 +567,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
-      "summary_zh": "The AI video leaderboard looks very different from 12 months ago. Native audio is now table stakes. Clips run 15–30 seconds. And an open-weights model sits in the top 3. This ranking (as of Nov 13, 2026) uses one quality signal: blind...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "The AI video leaderboard looks very different from 12 months ago. Native audio is now table stakes. "
+      "oneliner": ""
     },
     {
       "id": "e9d93e607b69",
@@ -478,7 +590,7 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "XYBench: Helping with the problem behind the question",
+      "title_zh": "",
       "summary_zh": "",
       "tags_zh": [],
       "oneliner": ""
@@ -501,10 +613,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Perplexity Releases Decider v1.3: Open-Weight Decision Models Add Locate",
-      "summary_zh": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, not text. Version 1.3 adds Locate for span extraction and reports 91.6% mean accuracy on 63 query-classification tasks.\nThe post Perplexity Releases...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "Perplexity Decider v1.3 and Flash v1.3 are open-weight decision models that return probabilities, no"
+      "oneliner": ""
     },
     {
       "id": "79d13e040f6e",
@@ -528,12 +640,10 @@
         ],
         "score": 5
       },
-      "title_zh": "Introducing ChatGPT Wallet",
-      "summary_zh": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete pur"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "1f76189be1ea",
@@ -4902,84 +5012,6 @@
       "category": "research",
       "summary": "arXiv:2611.09042v1 Announce Type: new \nAbstract: Training smaller language models on reasoning solutions generated by a larger teacher model is the prevailing approach for transferring mathematical reasoning capabilities. However, the student...",
       "published": "2026-11-09T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "33fd7ff2b926",
-      "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
-      "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code.\nThe post Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding appeared first on MarkTechPost.",
-      "published": "2026-11-08T10:46:18Z",
-      "tags": [
-        "Google"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "69c7eb76fe0b"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2d15e22084e6",
-      "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
-      "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods.\nThe post Which Routing Does Each MoE Model Use? DeepSeek, Qwen,...",
-      "published": "2026-11-08T10:27:27Z",
-      "tags": [
-        "GPT",
-        "Llama",
-        "DeepSeek",
-        "Qwen"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7f55a21cc5dc",
-      "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
-      "url": "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "MoE routing strategies decide which experts process each token. This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one.\nThe post MoE Routing Strategies Explained: Top-K,...",
-      "published": "2026-11-08T06:18:33Z",
       "tags": [],
       "score": 5,
       "relations": [],

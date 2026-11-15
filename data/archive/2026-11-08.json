@@ -1,8 +1,84 @@
 {
   "date": "2026-11-08",
-  "updated": "2026-11-15T05:23:43Z",
-  "total": 4,
+  "updated": "2026-11-15T15:33:19Z",
+  "total": 7,
   "items": [
+    {
+      "id": "33fd7ff2b926",
+      "title": "Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding",
+      "url": "https://www.marktechpost.com/2026/11/08/google-elephant-goldfish-model-plugin-spec-review-coding-agents/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Google's Elephant-Goldfish Model plugin makes coding agents draft specs, then runs 5 zero-context review stages before any code.\nThe post Google AI Releases Elephant-Goldfish Model Plugin for Spec-First Coding appeared first on MarkTechPost.",
+      "published": "2026-11-08T10:46:18Z",
+      "tags": [
+        "Google"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "2d15e22084e6",
+      "title": "Which Routing Does Each MoE Model Use? DeepSeek, Qwen, Mixtral, Llama 4, gpt-oss Compared",
+      "url": "https://www.marktechpost.com/2026/11/08/moe-model-routing-comparison/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "A config-verified comparison of how 10 open MoE models route tokens: total and active parameters, expert counts, top-k, shared experts, gating functions and load-balancing methods.\nThe post Which Routing Does Each MoE Model Use? DeepSeek, Qwen,...",
+      "published": "2026-11-08T10:27:27Z",
+      "tags": [
+        "GPT",
+        "Llama",
+        "DeepSeek",
+        "Qwen"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "7f55a21cc5dc",
+      "title": "MoE Routing Strategies Explained: Top-K, Expert-Choice, Sigmoid Gating and Dynamic Routing (2026 Guide)",
+      "url": "https://www.marktechpost.com/2026/11/07/moe-routing-strategies-explained/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "MoE routing strategies decide which experts process each token. This guide explains 7 methods, from Mixtral's top-2 softmax to DeepSeek-V4's hash routing, with the models that use each one.\nThe post MoE Routing Strategies Explained: Top-K,...",
+      "published": "2026-11-08T06:18:33Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "1a92f63bf14a",
       "title": "cloudflare /security-audit-skill",
