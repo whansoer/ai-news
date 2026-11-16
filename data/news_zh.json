@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T20:57:41Z",
+  "updated": "2026-11-16T05:07:31Z",
   "total": 20,
   "items": [
     {
@@ -135,81 +135,13 @@
       }
     },
     {
-      "id": "64acc21befdc",
-      "title_zh": "Bland Launches Tofu-1, a Full-Duplex Speech-to-Speech Model for Calls",
-      "summary_zh": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. It is in enterprise research preview, with no published benchmarks, size or pricing yet.\nThe post Bland Launches Tofu-1, a Full-Duplex...",
-      "tags_zh": [],
-      "oneliner": "Bland has released Tofu-1, a full-duplex speech-to-speech model for noisy, high-stakes phone calls. ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5a31de5224f4",
-      "title_zh": "QwenLM /qwen-code",
-      "summary_zh": "An open-source AI coding agent that lives in your terminal.",
-      "tags_zh": [
-        "Qwen",
-        "Agent"
-      ],
-      "oneliner": "An open-source AI coding agent that lives in your terminal.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "1974e4a3544a",
-      "title_zh": "ashhart /TensorFold",
-      "summary_zh": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "tags_zh": [
-        "Meta",
-        "LLM"
-      ],
-      "oneliner": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "021dcfb5e16a",
-      "title_zh": "JuliusBrussee /caveman",
-      "summary_zh": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "6e07345b4f8e",
-      "title_zh": "Cmpnd Releases dspy-wsp: Weight-Space Programming Comes to DSPy",
-      "summary_zh": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM reads a small model’s weights, edits them in a sandbox, and tests each change, with no gradients and about $5 to $10 per run.\nThe post Cmpnd Releases...",
-      "tags_zh": [],
-      "oneliner": "Cmpnd released dspy-wsp, a prototype DSPy optimizer for weight-space programming. A frontier LLM rea",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "be4dd81ca11e",
-      "title_zh": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
-      "summary_zh": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than full context.\nThe post...",
+      "id": "cffc02a2eb2e",
+      "title_zh": "Tracing Knowledge and Reasoning in LLM",
+      "summary_zh": "arXiv:2611.17461v1 Announce Type: new \nAbstract: Current evaluations of Large Language Models (LLMs) report performance at the dataset or task level, revealing what a model achieves but offering little insight into the internal processing...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "Stanford researchers released Memorilla, an open-source memory system that compresses a document col",
+      "oneliner": "arXiv:2611.17461v1 Announce Type: new \nAbstract: Current evaluations of Large Language Models (LLMs)",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -217,41 +149,13 @@
       }
     },
     {
-      "id": "e0e819ae9ff7",
-      "title_zh": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
-      "summary_zh": "Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents compose them into accessible components for React, Vue, Svelte, Solid and Web Components, with a bridge for direct UI control.\nThe post Vercel...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents co",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "2a9bb2bf7afb",
-      "title_zh": "openai /codex-security",
-      "summary_zh": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerab",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4ec6d5af71ee",
-      "title_zh": "ZhuLinsen /daily_stock_analysis",
-      "summary_zh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "id": "6bc53ef6a992",
+      "title_zh": "Poetry 'resurrection' from LLMs",
+      "summary_zh": "arXiv:2611.17464v1 Announce Type: new \nAbstract: In an era where linguistic creativity is challenged by algorithmic authorship, we pose a provocative question: can artificial intelligence (AI) write an infinite poem? We set up two experiments to...",
       "tags_zh": [
         "LLM"
       ],
-      "oneliner": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system wit",
+      "oneliner": "arXiv:2611.17464v1 Announce Type: new \nAbstract: In an era where linguistic creativity is challenged",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -259,11 +163,11 @@
       }
     },
     {
-      "id": "2e99c10b71a9",
-      "title_zh": "tailscale /tailcat",
-      "summary_zh": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "id": "4fb37acb08bc",
+      "title_zh": "Creating Steering Vectors via Input Optimisation",
+      "summary_zh": "arXiv:2611.17481v1 Announce Type: new \nAbstract: Activation steering influences a language model's behaviour by adding a steering vector to its residual stream during generation, but it requires white-box access to modify the hidden states at...",
       "tags_zh": [],
-      "oneliner": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "oneliner": "arXiv:2611.17481v1 Announce Type: new \nAbstract: Activation steering influences a language model's b",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -271,11 +175,104 @@
       }
     },
     {
-      "id": "9c47793813e0",
-      "title_zh": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "summary_zh": "",
+      "id": "a9618a54f556",
+      "title_zh": "Benchmarks Don't Talk Back: Learning Through Self-Disagreement",
+      "summary_zh": "arXiv:2611.17563v1 Announce Type: new \nAbstract: A benchmark usually measures a language model alone with a question, and deployment rarely looks like that: answers get contested, and models give up correct ones under counter-reasoning that is...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2611.17563v1 Announce Type: new \nAbstract: A benchmark usually measures a language model alone",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "9aa193d32033",
+      "title_zh": "CamSpokenNLI: A Pilot Resource for Cross-Variety Transfer Evaluation in Cameroon Pidgin English and Camfranglais",
+      "summary_zh": "arXiv:2611.17573v1 Announce Type: new \nAbstract: Cameroon Pidgin English (a West African Pidgin English variety) and Camfranglais are widely used in Cameroon, yet to our knowledge, neither has a dedicated spoken Natural Language Inference (NLI)...",
       "tags_zh": [],
-      "oneliner": "",
+      "oneliner": "arXiv:2611.17573v1 Announce Type: new \nAbstract: Cameroon Pidgin English (a West African Pidgin Engl",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "1e6da13c25ed",
+      "title_zh": "Small Open-Weight Language Models for Crowd Decision-Making: Capabilities and Limits of Output-Level Fusion and Linguistic Aggregation",
+      "summary_zh": "arXiv:2611.17589v1 Announce Type: new \nAbstract: Small open-weight language models can run crowd decision-making (CDM) on an institution's own infrastructure, which keeps the checkpoint, the inference settings and the opinions under its control....",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17589v1 Announce Type: new \nAbstract: Small open-weight language models can run crowd dec",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "70fb34e7d87a",
+      "title_zh": "What Do Multilingual Self-Supervised Speech Encoders Know About Sentence Meaning?",
+      "summary_zh": "arXiv:2611.17686v1 Announce Type: new \nAbstract: Self-supervised speech models (S3Ms) have been scaled up to thousands of languages and millions of hours of audio, yet little is known about how these models structure semantic knowledge across...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17686v1 Announce Type: new \nAbstract: Self-supervised speech models (S3Ms) have been scal",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "32151157135f",
+      "title_zh": "See Every Block Once: Variance-Reduced Post-Training for Masked Diffusion Language Models",
+      "summary_zh": "arXiv:2611.17754v1 Announce Type: new \nAbstract: Policy gradient methods are widely used to align large language model outputs with human preferences, but the log-likelihoods they require cannot be directly computed in Masked Diffusion Language...",
+      "tags_zh": [
+        "Diffusion"
+      ],
+      "oneliner": "arXiv:2611.17754v1 Announce Type: new \nAbstract: Policy gradient methods are widely used to align la",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a81b9f8fb84f",
+      "title_zh": "GDP.xlsx: Benchmarking Frontier Models on Professional Workbooks",
+      "summary_zh": "arXiv:2611.17766v1 Announce Type: new \nAbstract: We introduce GDP_xlsx, a benchmark of 70 realistic workplace requests written by professionals in 13 domains, each paired with an expert rubric of binary criteria and with the complete workbook or...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2611.17766v1 Announce Type: new \nAbstract: We introduce GDP_xlsx, a benchmark of 70 realistic ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "15fdb974a6e6",
+      "title_zh": "Activation Steering the Nan-Shan in Typhoon",
+      "summary_zh": "arXiv:2611.17768v1 Announce Type: new \nAbstract: Typhoon is an audiovisual installation based on Joseph Conrad's novella, in which Captain MacWhirr steers the steamer Nan-Shan directly into and through a catastrophic storm. The novella is a study...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17768v1 Announce Type: new \nAbstract: Typhoon is an audiovisual installation based on Jos",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "56ecbf67fd4a",
+      "title_zh": "LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent",
+      "summary_zh": "arXiv:2611.17780v1 Announce Type: new \nAbstract: Frontier LLM agents that query databases with tools are among the most accurate text-to-SQL systems, but per-query calls to a hosted model are slow, costly, and expose sensitive organizational...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2611.17780v1 Announce Type: new \nAbstract: Frontier LLM agents that query databases with tools",
       "key_facts": [],
       "notable_quote": {
         "text": "",
