@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-16T18:14:38Z",
-  "total": 227,
-  "new_count": 36,
+  "updated": "2026-11-17T00:07:34Z",
+  "total": 224,
+  "new_count": 23,
   "items": [
     {
       "id": "dc6cbbda1a8c",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "published": "2026-11-16T18:12:39Z",
+      "published": "2026-11-17T00:05:38Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "published": "2026-11-16T18:12:39Z",
+      "published": "2026-11-17T00:05:38Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "published": "2026-11-16T18:12:39Z",
+      "published": "2026-11-17T00:05:38Z",
       "tags": [
         "Agent"
       ],
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "published": "2026-11-16T18:12:39Z",
+      "published": "2026-11-17T00:05:38Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -126,7 +126,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-11-16T18:12:39Z",
+      "published": "2026-11-17T00:05:38Z",
       "tags": [
         "Agent"
       ],
@@ -153,7 +153,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "published": "2026-11-16T18:12:39Z",
+      "published": "2026-11-17T00:05:38Z",
       "tags": [
         "Agent"
       ],
@@ -180,7 +180,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "published": "2026-11-16T18:12:39Z",
+      "published": "2026-11-17T00:05:38Z",
       "tags": [
         "OpenAI",
         "Anthropic",
@@ -1357,6 +1357,25 @@
       "source": "Hugging Face",
       "category": "oss",
       "summary": "",
+      "published": "2026-11-16T00:00:00Z",
+      "tags": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e35ddbaadb49",
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
       "published": "2026-11-16T00:00:00Z",
       "tags": [],
       "verification": {
@@ -4207,10 +4226,9 @@
         "level": "multi-source",
         "corroborating_ids": [
           "da8db646ca03",
-          "992e8c410947",
-          "d10981e79681"
+          "992e8c410947"
         ],
-        "score": 9
+        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4238,10 +4256,9 @@
         "corroborating_ids": [
           "0e3d014e5d1a",
           "0b514ad923e0",
-          "992e8c410947",
-          "d10981e79681"
+          "992e8c410947"
         ],
-        "score": 10
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5460,101 +5477,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "de10773c0146",
-      "title": "Decision Models in Hugging Face",
-      "url": "https://huggingface.co/blog/decision",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-10T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "992e8c410947"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "992e8c410947",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-10T00:00:00Z",
-      "tags": [
-        "Google"
-      ],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "0b514ad923e0",
-          "da8db646ca03",
-          "de10773c0146",
-          "d10981e79681"
-        ],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "191d65fd7b15",
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "url": "https://openai.com/index/cogent-security",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "published": "2026-11-10T00:00:00Z",
-      "tags": [
-        "OpenAI"
-      ],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "19892041069d"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4f332da50a5e",
-      "title": "ChatGPT Enterprise now available in AWS Marketplace",
-      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
-      "published": "2026-11-09T19:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
