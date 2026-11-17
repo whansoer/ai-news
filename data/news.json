@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-17T00:07:34Z",
-  "total": 224,
-  "new_count": 23,
+  "updated": "2026-11-17T07:01:42Z",
+  "total": 177,
+  "new_count": 25,
   "items": [
     {
       "id": "dc6cbbda1a8c",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
-      "published": "2026-11-17T00:05:38Z",
+      "published": "2026-11-17T06:59:37Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
-      "published": "2026-11-17T00:05:38Z",
+      "published": "2026-11-17T06:59:37Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
-      "published": "2026-11-17T00:05:38Z",
+      "published": "2026-11-17T06:59:37Z",
       "tags": [
         "Agent"
       ],
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "published": "2026-11-17T00:05:38Z",
+      "published": "2026-11-17T06:59:37Z",
       "tags": [
         "Claude",
         "Gemini",
@@ -103,11 +103,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "6985e00d3276"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "google-labs-code /stitch-skills",
       "summary_zh": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
@@ -126,7 +124,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-11-17T00:05:38Z",
+      "published": "2026-11-17T06:59:37Z",
       "tags": [
         "Agent"
       ],
@@ -153,7 +151,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "published": "2026-11-17T00:05:38Z",
+      "published": "2026-11-17T06:59:37Z",
       "tags": [
         "Agent"
       ],
@@ -172,6 +170,383 @@
         "Agent"
       ],
       "oneliner": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap"
+    },
+    {
+      "id": "789d923f5002",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17338v1 Announce Type: new \nAbstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "summary_zh": "arXiv:2611.17338v1 Announce Type: new \nAbstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2611.17338v1 Announce Type: new \nAbstract: LLM memory systems often delete facts classified as"
+    },
+    {
+      "id": "910f04591538",
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17339v1 Announce Type: new \nAbstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "summary_zh": "arXiv:2611.17339v1 Announce Type: new \nAbstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2611.17339v1 Announce Type: new \nAbstract: Hallucination detection for large language models i"
+    },
+    {
+      "id": "f514627bdf0f",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "summary_zh": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update throu"
+    },
+    {
+      "id": "a9f5ac62e51a",
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17341v1 Announce Type: new \nAbstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning:...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "summary_zh": "arXiv:2611.17341v1 Announce Type: new \nAbstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning:...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17341v1 Announce Type: new \nAbstract: Medication prediction from electronic health record"
+    },
+    {
+      "id": "c8c59e0468e3",
+      "title": "An Operationalization of Opaque Serial Depth",
+      "url": "https://arxiv.org/abs/2611.17495",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17495v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "An Operationalization of Opaque Serial Depth",
+      "summary_zh": "arXiv:2611.17495v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17495v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) is currently a valuable tool"
+    },
+    {
+      "id": "294bd9f5ecae",
+      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "url": "https://arxiv.org/abs/2611.17501",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17501v1 Announce Type: new \nAbstract: Recommendation and Ranking (R&amp;R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "summary_zh": "arXiv:2611.17501v1 Announce Type: new \nAbstract: Recommendation and Ranking (R&amp;R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17501v1 Announce Type: new \nAbstract: Recommendation and Ranking (R&amp;R) models, partic"
+    },
+    {
+      "id": "b8f4a30d8e13",
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "url": "https://arxiv.org/abs/2611.17515",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17515v1 Announce Type: new \nAbstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "summary_zh": "arXiv:2611.17515v1 Announce Type: new \nAbstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2611.17515v1 Announce Type: new \nAbstract: Can sustained gain-loss (valence) framing sway an L"
+    },
+    {
+      "id": "7a50dc3d9b6c",
+      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+      "url": "https://arxiv.org/abs/2611.17524",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17524v1 Announce Type: new \nAbstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+      "summary_zh": "arXiv:2611.17524v1 Announce Type: new \nAbstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17524v1 Announce Type: new \nAbstract: A small labelled dataset is memorized long before t"
+    },
+    {
+      "id": "e1f17ed7fcab",
+      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+      "url": "https://arxiv.org/abs/2611.17532",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17532v1 Announce Type: new \nAbstract: Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade are revealing that astrocytes may be the...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+      "summary_zh": "arXiv:2611.17532v1 Announce Type: new \nAbstract: Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade are revealing that astrocytes may be the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17532v1 Announce Type: new \nAbstract: Conductors are critical for the performance of an o"
+    },
+    {
+      "id": "5b03b4858f24",
+      "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+      "url": "https://arxiv.org/abs/2611.17539",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17539v1 Announce Type: new \nAbstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+      "summary_zh": "arXiv:2611.17539v1 Announce Type: new \nAbstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2611.17539v1 Announce Type: new \nAbstract: Autonomous crystal-structure determination from pow"
+    },
+    {
+      "id": "436ad40789f8",
+      "title": "AI-Voyager: A Public-Interest System for Human-AI Civic Reasoning to Contest and Shape the Rules That Govern AI",
+      "url": "https://arxiv.org/abs/2611.17564",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17564v1 Announce Type: new \nAbstract: Governments are writing rules for artificial intelligence that decide what counts as an automated decision or a harm, often before the people they affect have a chance to question them. We...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "AI-Voyager: A Public-Interest System for Human-AI Civic Reasoning to Contest and Shape the Rules That Govern AI",
+      "summary_zh": "arXiv:2611.17564v1 Announce Type: new \nAbstract: Governments are writing rules for artificial intelligence that decide what counts as an automated decision or a harm, often before the people they affect have a chance to question them. We...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17564v1 Announce Type: new \nAbstract: Governments are writing rules for artificial intell"
+    },
+    {
+      "id": "ee7f42a56405",
+      "title": "When Does Less Information Pay? An Exact Finite Atlas of Representation, Payoff, and Cost",
+      "url": "https://arxiv.org/abs/2611.17583",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17583v1 Announce Type: new \nAbstract: A representation that retains one bit about a four-state world can solve a task perfectly, while another that retains 1.5 bits on average reaches only 75% accuracy. The difference lies in which...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "When Does Less Information Pay? An Exact Finite Atlas of Representation, Payoff, and Cost",
+      "summary_zh": "arXiv:2611.17583v1 Announce Type: new \nAbstract: A representation that retains one bit about a four-state world can solve a task perfectly, while another that retains 1.5 bits on average reaches only 75% accuracy. The difference lies in which...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.17583v1 Announce Type: new \nAbstract: A representation that retains one bit about a four-"
+    },
+    {
+      "id": "67c9b16f517d",
+      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "url": "https://arxiv.org/abs/2611.17610",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17610v1 Announce Type: new \nAbstract: Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [
+        "LLM",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 5
+      },
+      "title_zh": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
+      "summary_zh": "arXiv:2611.17610v1 Announce Type: new \nAbstract: Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference...",
+      "tags_zh": [
+        "LLM",
+        "Agent"
+      ],
+      "oneliner": "arXiv:2611.17610v1 Announce Type: new \nAbstract: Evaluations of multi-agent language models often co"
+    },
+    {
+      "id": "57603665a8aa",
+      "title": "LLM-Guided Cluster Lifecycle Management: Deciding When and How to Evolve Behavioral Clusters",
+      "url": "https://arxiv.org/abs/2611.17616",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17616v1 Announce Type: new \nAbstract: Behavioral clusters learned over user or item interactions drift as behavior evolves: some fragment into sub-behaviors, some converge, some disappear, and new patterns emerge. Two paradigms...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "LLM-Guided Cluster Lifecycle Management: Deciding When and How to Evolve Behavioral Clusters",
+      "summary_zh": "arXiv:2611.17616v1 Announce Type: new \nAbstract: Behavioral clusters learned over user or item interactions drift as behavior evolves: some fragment into sub-behaviors, some converge, some disappear, and new patterns emerge. Two paradigms...",
+      "tags_zh": [
+        "LLM"
+      ],
+      "oneliner": "arXiv:2611.17616v1 Announce Type: new \nAbstract: Behavioral clusters learned over user or item inter"
+    },
+    {
+      "id": "26a626398988",
+      "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
+      "url": "https://arxiv.org/abs/2611.17620",
+      "source": "ArXiv (cs.AI)",
+      "category": "research",
+      "summary": "arXiv:2611.17620v1 Announce Type: new \nAbstract: High-level behaviors such as sycophancy and hallucination correspond to directions in a model's activation space (Chen et al., 2025). These directions, known as persona vectors, can suppress...",
+      "published": "2026-11-17T05:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "9cd514d03f14",
@@ -198,15 +573,10 @@
         ],
         "score": 5
       },
-      "title_zh": "alibaba /open-code-review",
-      "summary_zh": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &...",
-      "tags_zh": [
-        "OpenAI",
-        "Anthropic",
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: det"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "a8005cc7b595",
@@ -226,10 +596,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Broadening access to AI for scientists",
-      "summary_zh": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide "
+      "oneliner": ""
     },
     {
       "id": "32c75522a0ea",
@@ -249,10 +619,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "summary_zh": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online chil"
+      "oneliner": ""
     },
     {
       "id": "3e4a4b87c34f",
@@ -272,10 +642,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "New Ask Maps features to help with holiday travel and prep",
-      "summary_zh": "tbd",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "tbd"
+      "oneliner": ""
     },
     {
       "id": "b0555ded3612",
@@ -297,12 +667,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Science at the Frontier: How scientists use ChatGPT",
-      "summary_zh": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, rep"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "d43219c76fb0",
@@ -325,13 +693,10 @@
         "corroborating_ids": [],
         "score": 6
       },
-      "title_zh": "Meet Meta’s JiTTests: LLM-Generated Tests Designed to Fail Before Risky Code Lands",
-      "summary_zh": "Meta has moved Catching JiTTests into production. The LLM system writes tests designed to fail on risky diffs, and caught 74 privacy SEVs before landing in H1 2026, with a 60% engineer-reported true-positive rate.\nThe post Meet Meta&#8217;s...",
-      "tags_zh": [
-        "Meta",
-        "LLM"
-      ],
-      "oneliner": "Meta has moved Catching JiTTests into production. The LLM system writes tests designed to fail on ri"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "c7192e21b669",
@@ -355,12 +720,33 @@
         ],
         "score": 5
       },
-      "title_zh": "Alibaba Releases Qwen4-Max: 2.4T MoE, 71B Active, 1M Context",
-      "summary_zh": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, native vision and a 1M-token context. It costs $1.5/M input tokens and cuts Work360 cost per task by 62%.\nThe post Alibaba Releases Qwen4-Max: 2.4T...",
-      "tags_zh": [
-        "Qwen"
-      ],
-      "oneliner": "Alibaba released Qwen4-Max, a proprietary 2.4T-parameter MoE model with 71B active parameters, nativ"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e5cbb67350e7",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "published": "2026-11-16T09:30:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "31725acecafb",
@@ -382,12 +768,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Hark Releases Handoff², a 2x Faster Computer-Use Agent for Hark Pro",
-      "summary_zh": "Hark has released Handoff², the computer-use agent inside Hark Pro. It averages 2x faster than v1, completes 82% of 478 internal web tasks, and learned to batch actions through latency-penalized RL.\nThe post Hark Releases Handoff², a 2x Faster...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Hark has released Handoff², the computer-use agent inside Hark Pro. It averages 2x faster than v1, c"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b73c6d7b3972",
@@ -411,12 +795,10 @@
         ],
         "score": 5
       },
-      "title_zh": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "summary_zh": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
-      "tags_zh": [
-        "OpenAI"
-      ],
-      "oneliner": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its p"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "29025d7302d1",
@@ -436,10 +818,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Our first phase of embedded assessments",
-      "summary_zh": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to indepe"
+      "oneliner": ""
     },
     {
       "id": "725ebed57025",
@@ -461,11 +843,9 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Advancing computer-use agents for healthcare teams",
+      "title_zh": "",
       "summary_zh": "",
-      "tags_zh": [
-        "Agent"
-      ],
+      "tags_zh": [],
       "oneliner": ""
     },
     {
@@ -488,12 +868,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "More ways to move care forward with ChatGPT for Healthcare",
-      "summary_zh": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "tags_zh": [
-        "GPT"
-      ],
-      "oneliner": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work acr"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "b4212d4b4d44",
@@ -515,12 +893,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "ChromeDevTools /chrome-devtools-mcp",
-      "summary_zh": "Chrome DevTools for coding agents",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "Chrome DevTools for coding agents"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "26dd9a85c7cf",
@@ -543,13 +919,10 @@
         "corroborating_ids": [],
         "score": 9
       },
-      "title_zh": "Tencent /LoopForge",
-      "summary_zh": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
-      "tags_zh": [
-        "Claude",
-        "Agent"
-      ],
-      "oneliner": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with s"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "4c6e2b5d342d",
@@ -591,11 +964,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "f73b7c861bcc"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -960,367 +1331,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "789d923f5002",
-      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
-      "url": "https://arxiv.org/abs/2611.17338",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17338v1 Announce Type: new \nAbstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "910f04591538",
-      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
-      "url": "https://arxiv.org/abs/2611.17339",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17339v1 Announce Type: new \nAbstract: Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f514627bdf0f",
-      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
-      "url": "https://arxiv.org/abs/2611.17340",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17340v1 Announce Type: new \nAbstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "a9f5ac62e51a",
-      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
-      "url": "https://arxiv.org/abs/2611.17341",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17341v1 Announce Type: new \nAbstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning:...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c8c59e0468e3",
-      "title": "An Operationalization of Opaque Serial Depth",
-      "url": "https://arxiv.org/abs/2611.17495",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17495v1 Announce Type: new \nAbstract: Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "294bd9f5ecae",
-      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
-      "url": "https://arxiv.org/abs/2611.17501",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17501v1 Announce Type: new \nAbstract: Recommendation and Ranking (R&amp;R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b8f4a30d8e13",
-      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
-      "url": "https://arxiv.org/abs/2611.17515",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17515v1 Announce Type: new \nAbstract: Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7a50dc3d9b6c",
-      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
-      "url": "https://arxiv.org/abs/2611.17524",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17524v1 Announce Type: new \nAbstract: A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e1f17ed7fcab",
-      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
-      "url": "https://arxiv.org/abs/2611.17532",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17532v1 Announce Type: new \nAbstract: Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade are revealing that astrocytes may be the...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5b03b4858f24",
-      "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
-      "url": "https://arxiv.org/abs/2611.17539",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17539v1 Announce Type: new \nAbstract: Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "436ad40789f8",
-      "title": "AI-Voyager: A Public-Interest System for Human-AI Civic Reasoning to Contest and Shape the Rules That Govern AI",
-      "url": "https://arxiv.org/abs/2611.17564",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17564v1 Announce Type: new \nAbstract: Governments are writing rules for artificial intelligence that decide what counts as an automated decision or a harm, often before the people they affect have a chance to question them. We...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ee7f42a56405",
-      "title": "When Does Less Information Pay? An Exact Finite Atlas of Representation, Payoff, and Cost",
-      "url": "https://arxiv.org/abs/2611.17583",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17583v1 Announce Type: new \nAbstract: A representation that retains one bit about a four-state world can solve a task perfectly, while another that retains 1.5 bits on average reaches only 75% accuracy. The difference lies in which...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "67c9b16f517d",
-      "title": "More Agents, More Samples, or More Thinking? Untangling Coordination, Ensembling, and Test-Time Compute in Multi-Agent LLMs",
-      "url": "https://arxiv.org/abs/2611.17610",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17610v1 Announce Type: new \nAbstract: Evaluations of multi-agent language models often compare communicating architectures against a single greedy pass. This practice confounds coordination with sample multiplicity and inference...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "57603665a8aa",
-      "title": "LLM-Guided Cluster Lifecycle Management: Deciding When and How to Evolve Behavioral Clusters",
-      "url": "https://arxiv.org/abs/2611.17616",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17616v1 Announce Type: new \nAbstract: Behavioral clusters learned over user or item interactions drift as behavior evolves: some fragment into sub-behaviors, some converge, some disappear, and new patterns emerge. Two paradigms...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "26a626398988",
-      "title": "Safety Side Effects of Preventative Persona Steering: An Empirical Audit",
-      "url": "https://arxiv.org/abs/2611.17620",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.17620v1 Announce Type: new \nAbstract: High-level behaviors such as sycophancy and hallucination correspond to directions in a model's activation space (Chen et al., 2025). These directions, known as persona vectors, can suppress...",
-      "published": "2026-11-16T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
       },
       "title_zh": "",
       "summary_zh": "",
@@ -4348,1130 +4358,6 @@
       "published": "2026-11-10T08:00:00Z",
       "tags": [
         "OpenAI"
-      ],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "191d65fd7b15"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "db3d3bbb0683",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "published": "2026-11-10T07:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e5ef7013e757",
-      "title": "Meta Releases Muse Ember, a 1M-Context Model for High-Volume Agent Work",
-      "url": "https://www.marktechpost.com/2026/11/09/meta-muse-ember-small-agent-model/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Meta Muse Ember is Meta’s smallest model, built for tool calls, coding subtasks and document parsing. It ties Claude Haiku 5.5 on the Artificial Analysis Intelligence Index at roughly a third of the cost per task.\nThe post Meta Releases Muse...",
-      "published": "2026-11-10T06:36:10Z",
-      "tags": [
-        "Meta",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "c3a687641993",
-          "7e74ac6a1114"
-        ],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "701a11531ae6",
-      "title": "garrytan /gbrain",
-      "url": "https://github.com/garrytan/gbrain",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
-      "published": "2026-11-10T06:22:47Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "0772eb2f8cc6",
-      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
-      "url": "https://arxiv.org/abs/2611.08572",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08572v1 Announce Type: new \nAbstract: This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "26c28f7e15b7",
-      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
-      "url": "https://arxiv.org/abs/2611.08613",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08613v1 Announce Type: new \nAbstract: Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d65fcd209f7c",
-      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
-      "url": "https://arxiv.org/abs/2611.08626",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08626v1 Announce Type: new \nAbstract: E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d6442a8741c9",
-      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
-      "url": "https://arxiv.org/abs/2611.08640",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08640v1 Announce Type: new \nAbstract: Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "561dc59b1a35",
-      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
-      "url": "https://arxiv.org/abs/2611.08644",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08644v1 Announce Type: new \nAbstract: LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "07bd9ff90612",
-      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
-      "url": "https://arxiv.org/abs/2611.08647",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08647v1 Announce Type: new \nAbstract: Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "602317ff2f3f",
-      "title": "Pdb or Not to Be: Comparing Debugging Interfaces With Pass$_{X}$@$k$",
-      "url": "https://arxiv.org/abs/2611.08666",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08666v1 Announce Type: new \nAbstract: Interactive debuggers are indispensable to human software development, yet coding agents overwhelmingly rely on edit-execute-observe loops, using common bash tools, test scripts, and print...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4650f5803755",
-      "title": "ChainFlow: Few-Step Latent Flow Matching for Speculative Decoding",
-      "url": "https://arxiv.org/abs/2611.08669",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08669v1 Announce Type: new \nAbstract: Speculative decoding has become a standard way to accelerate LLM inference: a lightweight drafter proposes tokens that the target verifies in one parallel pass. Existing drafters face trade-offs...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3dd1f59f3749",
-      "title": "Transporting the Past: An Optimal Transport View of Backtracking Counterfactuals",
-      "url": "https://arxiv.org/abs/2611.08682",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08682v1 Announce Type: new \nAbstract: We study backtracking counterfactual inference for Structural Causal Models (SCMs) through the lens of optimal transport. In SCMs, a factual observation generally induces a posterior distribution...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2e93460339f7",
-      "title": "Cancellation Is Not Enough: What Retries Leave Behind in an Overloaded LLM Engine",
-      "url": "https://arxiv.org/abs/2611.08684",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08684v1 Announce Type: new \nAbstract: Clients and proxies in front of an LLM engine retry calls that time out. After a transient overload, these retries can keep the engine from recovering even when calls arrive below its capacity....",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f097b62925f8",
-      "title": "Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation",
-      "url": "https://arxiv.org/abs/2611.08718",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08718v1 Announce Type: new \nAbstract: Conversational recommender systems often treat user sessions in isolation, limiting their ability to capture how user intent evolves over time. While large language models (LLMs) have improved...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "8aa73514789c"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d1660eba1347",
-      "title": "AlterNet: Adaptive-Depth Mixture-of-Experts with Learned Halting for Elastic Inference",
-      "url": "https://arxiv.org/abs/2611.08741",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08741v1 Announce Type: new \nAbstract: Most LLM architectures have fixed compute demands determined at training time. We propose a novel architecture that combines the Mixture-of-Experts architecture with shallow experts and a novel...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "06a593cb6627",
-      "title": "AttentionSwitch: Jailbreak Defense for LLMs via Joint Learning of Sparse Attention-Head Selection and Scaling",
-      "url": "https://arxiv.org/abs/2611.08752",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08752v1 Announce Type: new \nAbstract: Large language models have achieved remarkable performance across a wide range of tasks, yet they remain susceptible to jailbreak attacks that circumvent safety mechanisms and elicit harmful or...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "651d7801638c",
-      "title": "Debate to Deceive: Poisoning LLM's Fact-Checking via Game-Theoretic Multi-Agent Debate",
-      "url": "https://arxiv.org/abs/2611.08756",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08756v1 Announce Type: new \nAbstract: Knowledge attacks on Large Language Models, such as manipulating fact-checking judgments, pose significant risks to AI reliability. Existing approaches -- adversarial suffix/template injection and...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7e07788438d4",
-      "title": "Jacobian-Causal Memory Control for Persistent Memory in Language Model Systems",
-      "url": "https://arxiv.org/abs/2611.08779",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.08779v1 Announce Type: new \nAbstract: Persistent-memory systems choose not only which records are retrieved but which prior information can alter current inference. We propose Jacobian-causal memory control (JCMC), which represents...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d9ec57e2174a",
-      "title": "BIBIMBAP: A Benchmark for Instructional BIM-Based Automated Programming",
-      "url": "https://arxiv.org/abs/2611.09933",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.09933v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are emerging as natural-language interfaces for Building Information Modeling (BIM), successfully achieving information retrieval, but no benchmark exists to evaluate...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "47963fc031d3",
-      "title": "How Many Examples, and Which Ones? A Study of In-Context Learning for Natural Language Inference",
-      "url": "https://arxiv.org/abs/2611.09936",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.09936v1 Announce Type: new \nAbstract: Natural language inference (NLI) is a fundamental task of natural language processing and crucial for evaluating the strengths and weaknesses of AI methods. Research has mostly focused on encoder...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6379c0649ce8",
-      "title": "DramaGrow: A Regime-Aware Benchmark for Auditing LLM Judges of Multi-Episode Drama",
-      "url": "https://arxiv.org/abs/2611.09938",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.09938v1 Announce Type: new \nAbstract: LLMs can now draft complete multi-episode dramas, and LLM judges are increasingly used to evaluate them. Assessing the reliability of these judges is difficult because drama quality encompasses...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM",
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d4ac34968aba",
-      "title": "Rethinking Supervision Targets for Multimodal LLM Unlearning: Less Private Information, Reduced Distribution Shift",
-      "url": "https://arxiv.org/abs/2611.09939",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.09939v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs) can memorize and reproduce sensitive information from their training data, posing significant privacy risks. Their ability to encode knowledge across both...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "8aa73514789c",
-      "title": "Topic-Aware Multi-Task Mental Health Classification with Active Learning-Based Stepwise Relabeling for Social Media Conversations",
-      "url": "https://arxiv.org/abs/2611.09941",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.09941v1 Announce Type: new \nAbstract: Mental health conditions affect millions of people worldwide, yet many cases go undetected until they reach a critical stage. Social media platforms like Reddit have become spaces where people...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "f097b62925f8"
-        ],
-        "score": 5
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9d7069e06587",
-      "title": "MedToolFault and MedGuard: evaluating and improving clinical agent reliability",
-      "url": "https://arxiv.org/abs/2611.09942",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.09942v1 Announce Type: new \nAbstract: Clinical agents must retrieve patient-specific evidence and correctly update records despite unreliable tool responses. We introduce MedToolFault, a fault-injection benchmark linking six...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b6e8072655c1",
-      "title": "A Model Organism for Studying Unverbalized Evaluation Awareness",
-      "url": "https://arxiv.org/abs/2611.09945",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.09945v1 Announce Type: new \nAbstract: Large language models can recognize when they are being evaluated and change their behavior accordingly, undermining the reliability of safety benchmarks. Evaluation awareness (EA) is usually...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fea9219be35c",
-      "title": "CulturalCrosswords: A Multilingual Benchmark comprised of Answer Constraints and Grid Completion",
-      "url": "https://arxiv.org/abs/2611.10044",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.10044v1 Announce Type: new \nAbstract: When several answers fit a riddle, exact-match scoring can penalise a valid response. CulturalCrosswords tests how answer constraints affect large language models (LLMs) solving cultural riddles,...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "Benchmark"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2e4fd2e0fb0c",
-      "title": "All Quiet on the Neural Front: Language Models Do Not Report Injected Pain States",
-      "url": "https://arxiv.org/abs/2611.10123",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.10123v1 Announce Type: new \nAbstract: Can a language model report the pain state it represents? Work identified a linear pain direction whose amplification leads fine-tuned models to choose destructive actions. We tested whether three...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "3cfccf3386c3",
-      "title": "Retrofitting Unbounded Context onto Stock Language Models",
-      "url": "https://arxiv.org/abs/2611.10141",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.10141v1 Announce Type: new \nAbstract: A language model that never had to forget would keep every document it has read and every turn it has spoken, and answer from any of it. This paper shows that two stock models can do that on...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "ca1f97d8e33f",
-      "title": "Learning of Tree Automata applied to Neural Language Acceptors",
-      "url": "https://arxiv.org/abs/2611.10147",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.10147v1 Announce Type: new \nAbstract: We extract visibly pushdown grammars (VPGs) from neural language models in a fully black-box setting. Our work builds on the VPL* framework, which learns VPGs from recurrent networks by exploiting...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c5e15ac40a12",
-      "title": "Where Did the Evidence Go? Diagnosing Proof-Set Loss in Long-Term Conversational Memory",
-      "url": "https://arxiv.org/abs/2611.10170",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.10170v1 Announce Type: new \nAbstract: Long-term conversational question answering can require several separated dialogue turns that support an answer only together. We introduce EviCover, a retrieval approach designed to retain this...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b2c0f1974b01",
-      "title": "ASCENT: Scale-Complementary External State for Frozen Long-Context Language Models",
-      "url": "https://arxiv.org/abs/2611.10175",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.10175v1 Announce Type: new \nAbstract: External state should become more valuable as a reader becomes more capable, yet long-context evaluations measure memory utility at a single model scale. This paper formulates scale...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "cdf3b1596a60",
-      "title": "Compact Greek Language Models from Scratch: Pretraining 500M- and 1B-Parameter Decoder-Only Transformers",
-      "url": "https://arxiv.org/abs/2611.10209",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.10209v1 Announce Type: new \nAbstract: We present two compact decoder-only language models trained from scratch exclusively on Greek text: LexisLM-1B (1.09B parameters) and LexisLM-500M (502M parameters). Both use a dedicated 32k...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "Transformer"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "b7a657a97894",
-      "title": "Jais 3: Introducing Arabic-centric Agentic AI",
-      "url": "https://arxiv.org/abs/2611.10224",
-      "source": "ArXiv (cs.CL)",
-      "category": "research",
-      "summary": "arXiv:2611.10224v1 Announce Type: new \nAbstract: We present Jais 3, a fleet of six open, Arabic-centric agentic language models ranging from 0.9B to 375B parameters. Jais 3 is built to complete tasks for Arabic speakers, not only to answer...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fe3fc90f11b8",
-      "title": "Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training",
-      "url": "https://arxiv.org/abs/2611.10045",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10045v1 Announce Type: new \nAbstract: AI sycophancy, the tendency of large language models (LLMs) to flatter users and affirm their beliefs, can undermine accuracy and contribute to misinformation, dependence, and overconfidence....",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "fcf61f44f72a",
-      "title": "Veterans' Mental Health Crisis Severity Annotation: Do LLMs Agree More Than Human Experts?",
-      "url": "https://arxiv.org/abs/2611.10048",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10048v1 Announce Type: new \nAbstract: Large language models (LLMs) offer a scalable approach for annotating mental health and crisis-related social media content, but their reliability in safety-critical tasks remains unclear. This...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "051fd6ab1ada",
-      "title": "LoRazor: Trimming Adapter Execution for Efficient Multi-LoRA Serving",
-      "url": "https://arxiv.org/abs/2611.10049",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10049v1 Announce Type: new \nAbstract: LoRA offers a parameter-efficient adaptation strategy, supporting multi-user workloads via customized adapters on a shared backbone. However, serving concurrent requests with different adapters...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "98b761d15518",
-      "title": "AYO: A Safe and Privacy-Preserving Platform for Studying Children's Interaction with LLMs",
-      "url": "https://arxiv.org/abs/2611.10054",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10054v1 Announce Type: new \nAbstract: Children and adolescents are increasingly interacting with generative AI and large language models (LLMs), yet little is known about how these interactions may influence their development, beliefs,...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "7e74ac6a1114",
-      "title": "META-IR: Meta-Introspective Reasoning for Adaptive Safety Alignment in LLM",
-      "url": "https://arxiv.org/abs/2611.10089",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10089v1 Announce Type: new \nAbstract: Large Language Models (LLMs) remain vulnerable to jailbreak attacks and harmful-content prompts, particularly under adversarial distribution shifts where static alignment pipelines fail to...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "Meta",
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "c3a687641993",
-          "e5ef7013e757"
-        ],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9529a87cb9c8",
-      "title": "The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit",
-      "url": "https://arxiv.org/abs/2611.10109",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10109v1 Announce Type: new \nAbstract: The rapid expansion of AI-driven data center construction has outpaced public engagement: an estimated $64 billion in U.S. data center projects were blocked or delayed by local opposition between...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "4a8ec816be6b",
-      "title": "Homeopathic Learning: Diluting poisoned fine-tuning data can strengthen its effect",
-      "url": "https://arxiv.org/abs/2611.10110",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10110v1 Announce Type: new \nAbstract: We study homeopathic learning, a phenomenon where poisoned training data with little effect on its own can create a hidden backdoor once clean, contrasting data is added. In our experiments, a...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "345fd1f7b174",
-      "title": "What Is the Value of AI-Involved Art? Evidence From a Juried In-Person Exhibition",
-      "url": "https://arxiv.org/abs/2611.10150",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10150v1 Announce Type: new \nAbstract: What is the value of AI-involved art, and to whom does it belong? We begin to answer these questions using data from an in-person, juried AI art exhibition. Our study involved artists, lawyers, and...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 6
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "206e4d11984c",
-      "title": "WorldMind: Test-Time Scaling for Visual Spatial Reasoning through Latent World Simulation",
-      "url": "https://arxiv.org/abs/2611.10151",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10151v1 Announce Type: new \nAbstract: Vision-Language Models (VLMs) have continuous deficiency in spatial reasoning tasks that require \\emph{mental spatial transformation}, such as reasoning under hypothetical changes in viewpoint or...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "202aa63ef34c",
-      "title": "DeepResearch RewardBench: Evaluating Reward Models for Deep Research Report",
-      "url": "https://arxiv.org/abs/2611.10156",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10156v1 Announce Type: new \nAbstract: Empowered by Large Language Models (LLMs), deep research systems integrate online information into research reports through multi-step web searching and information synthesis. Evaluating these...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "c25cb04761f9",
-      "title": "AutoEMatic: Runtime-Adaptive Mixed-Precision LLM Inference via Automatic Exponent-Mantissa Refinement",
-      "url": "https://arxiv.org/abs/2611.10165",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10165v1 Announce Type: new \nAbstract: Existing LLM post-training quantization techniques determine precision before inference begins, yet the precision a model requires varies dynamically across prompts, layers, and inference phases....",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM"
-      ],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "12add9d06874",
-      "title": "Key Institutional Considerations for Designing Effective Independent Verification Organizations",
-      "url": "https://arxiv.org/abs/2611.10168",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10168v1 Announce Type: new \nAbstract: Independent verification organizations (IVOs) have emerged as a popular, bipartisan solution for facilitating high-quality independent evaluations of AI technologies. But momentum is outpacing...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "f7429919b6bc",
-      "title": "AVCORP: Identifying and Resisting Deception via Communication Theory and Theory of Mind",
-      "url": "https://arxiv.org/abs/2611.10176",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10176v1 Announce Type: new \nAbstract: Today's LLM-based agents are vulnerable to deception by users and other agents. Defending against deception requires Theory of Mind (ToM) reasoning to infer the beliefs and goals of others as well...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "50929b62b567",
-      "title": "Generative Active Learning for Label-Efficient Pan-Organ Ultrasound Diagnosis",
-      "url": "https://arxiv.org/abs/2611.10180",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10180v1 Announce Type: new \nAbstract: Medical ultrasound (US) enables real-time, non-invasive diagnosis, yet building US-based AI systems is limited by data scarcity, costly expert annotation, and limited cross-center generalizability....",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "46fc165e5f96",
-      "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
-      "url": "https://arxiv.org/abs/2611.10193",
-      "source": "ArXiv (cs.AI)",
-      "category": "research",
-      "summary": "arXiv:2611.10193v1 Announce Type: new \nAbstract: Large language models (LLMs) increasingly support Web-based services that must balance response quality and inference cost across heterogeneous requests. Conventional routing selects one model per...",
-      "published": "2026-11-10T05:00:00Z",
-      "tags": [
-        "LLM",
-        "Prompt"
       ],
       "verification": {
         "level": "single-source",
