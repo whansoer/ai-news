@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T17:07:24Z",
-  "total": 239,
+  "updated": "2026-11-18T22:55:30Z",
+  "total": 240,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -11,23 +11,23 @@
       "count": 60
     },
     {
-      "name": "MarkTechPost",
-      "count": 28
+      "name": "OpenAI",
+      "count": 30
     },
     {
-      "name": "OpenAI",
-      "count": 27
+      "name": "MarkTechPost",
+      "count": 26
     },
     {
       "name": "GitHub Trending",
       "count": 24
     },
     {
-      "name": "Google AI",
+      "name": "Hugging Face",
       "count": 15
     },
     {
-      "name": "Hugging Face",
+      "name": "Google AI",
       "count": 15
     },
     {
@@ -54,14 +54,14 @@
     },
     {
       "name": "OpenAI",
-      "count": 10
-    },
-    {
-      "name": "GPT",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Benchmark",
+      "count": 9
+    },
+    {
+      "name": "GPT",
       "count": 9
     },
     {
@@ -93,15 +93,15 @@
       "count": 2
     },
     {
-      "name": "GPU",
-      "count": 2
-    },
-    {
       "name": "Llama",
       "count": 2
     },
     {
       "name": "Transformer",
+      "count": 1
+    },
+    {
+      "name": "GPU",
       "count": 1
     },
     {
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 158
+      "count": 156
     },
     {
       "name": "模型发布",
-      "count": 42
+      "count": 45
     },
     {
       "name": "开源项目",
@@ -158,7 +158,7 @@
     },
     {
       "date": "11-18",
-      "count": 48
+      "count": 54
     }
   ],
   "top10": [
@@ -193,6 +193,18 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "2d3bb8f13d73",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
+      "id": "5095af2e2b71",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
       "id": "d44535ff5d6c",
       "title": "The Gemini app is now available on lower-memory Android devices.",
       "score": 5,
@@ -209,18 +221,6 @@
       "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
       "score": 5,
       "source": "Hugging Face"
-    },
-    {
-      "id": "740c99113294",
-      "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
-      "score": 5,
-      "source": "MarkTechPost"
-    },
-    {
-      "id": "39f5bc2825b4",
-      "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
