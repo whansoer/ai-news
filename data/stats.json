@@ -1,26 +1,26 @@
 {
-  "updated": "2026-11-18T06:24:35Z",
-  "total": 266,
+  "updated": "2026-11-18T17:07:24Z",
+  "total": 239,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 60
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 60
+    },
+    {
+      "name": "MarkTechPost",
+      "count": 28
     },
     {
       "name": "OpenAI",
       "count": 27
     },
     {
-      "name": "MarkTechPost",
-      "count": 26
-    },
-    {
       "name": "GitHub Trending",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Google AI",
@@ -38,22 +38,22 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 54
+      "count": 52
     },
     {
       "name": "LLM",
-      "count": 35
+      "count": 31
     },
     {
       "name": "Gemini",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Google",
-      "count": 10
+      "count": 11
     },
     {
-      "name": "Benchmark",
+      "name": "OpenAI",
       "count": 10
     },
     {
@@ -61,16 +61,20 @@
       "count": 10
     },
     {
-      "name": "OpenAI",
+      "name": "Benchmark",
       "count": 9
     },
     {
       "name": "Claude",
-      "count": 4
+      "count": 5
     },
     {
       "name": "DeepSeek",
       "count": 4
+    },
+    {
+      "name": "Qwen",
+      "count": 3
     },
     {
       "name": "API",
@@ -93,16 +97,16 @@
       "count": 2
     },
     {
-      "name": "Prompt",
-      "count": 2
-    },
-    {
-      "name": "Qwen",
-      "count": 2
-    },
-    {
       "name": "Llama",
       "count": 2
+    },
+    {
+      "name": "Transformer",
+      "count": 1
+    },
+    {
+      "name": "Prompt",
+      "count": 1
     },
     {
       "name": "RAG",
@@ -116,7 +120,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 186
+      "count": 158
     },
     {
       "name": "模型发布",
@@ -124,7 +128,7 @@
     },
     {
       "name": "开源项目",
-      "count": 38
+      "count": 39
     }
   ],
   "dailyTrend": [
@@ -150,14 +154,20 @@
     },
     {
       "date": "11-17",
-      "count": 59
+      "count": 58
     },
     {
       "date": "11-18",
-      "count": 37
+      "count": 48
     }
   ],
   "top10": [
+    {
+      "id": "12e952795179",
+      "title": "HKUDS /CLI-Anything",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
     {
       "id": "cb3eddfe11b5",
       "title": "mvanhorn /last30days-skill",
@@ -165,20 +175,14 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "9cd514d03f14",
-      "title": "alibaba /open-code-review",
+      "id": "882ce923c486",
+      "title": "NVIDIA /SkillEvaluator",
       "score": 5,
       "source": "GitHub Trending"
     },
     {
-      "id": "26dd9a85c7cf",
-      "title": "Tencent /LoopForge",
-      "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "dd3f7c0b511d",
-      "title": "dream-num /univer",
+      "id": "486c77414293",
+      "title": "google-research /paper-orchestra",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -189,34 +193,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "c3257d531a3c",
-      "title": "obra /superpowers",
+      "id": "d44535ff5d6c",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "Google AI"
     },
     {
-      "id": "dc6cbbda1a8c",
-      "title": "ag-ui-protocol /ag-ui",
+      "id": "e79f01d45699",
+      "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     },
     {
-      "id": "fa1a33965d51",
-      "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+      "id": "f99b49e5fcc5",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "Hugging Face"
     },
     {
-      "id": "41e87e42f36f",
-      "title": "RAW: Refusal Aversion in the Wild, A Causal Measurement Method for Deployed LLMs",
+      "id": "740c99113294",
+      "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     },
     {
-      "id": "2823f2bc1cc3",
-      "title": "Sleep2Word: Peripheral-to-EEG Translation via Duration-Aware Wordization",
+      "id": "39f5bc2825b4",
+      "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
       "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-18T06:24:45Z",
-  "count": 576,
+  "updated": "2026-11-18T17:07:35Z",
+  "count": 577,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -36862,6 +36862,70 @@
         }
       },
       "_ts": 1794983085
+    },
+    "d31a5e626a1d5626": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录239篇AI新闻，分类分布：学术研究158篇, 模型发布42篇, 开源项目39篇。热门标签：Agent（52篇）。其中15%的文章有多来源交叉验证。\n\n▸ HKUDS /CLI-Anything：\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/\n\n▸ mvanhorn /last30days-skill：AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th\n\n▸ NVIDIA /SkillEvaluator：Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap\n\n▸ google-research /paper-orchestra：PaperOrchestra is a multi-agent framework for automated AI research paper writing.\n\n▸ google-labs-code /stitch-skills：A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent ",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "elementalsouls/Claude-BugHunter",
+            "url": "https://github.com/elementalsouls/Claude-BugHunter",
+            "why_hot": "单日2322星，Python项目",
+            "stars_today": 2322,
+            "total_stars": 10909
+          },
+          {
+            "full_name": "mvanhorn/last30days-skill",
+            "url": "https://github.com/mvanhorn/last30days-skill",
+            "why_hot": "单日1062星，Python项目",
+            "stars_today": 1062,
+            "total_stars": 69774
+          },
+          {
+            "full_name": "google-research/paper-orchestra",
+            "url": "https://github.com/google-research/paper-orchestra",
+            "why_hot": "单日1529星，Python项目",
+            "stars_today": 1529,
+            "total_stars": 4013
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "239"
+          },
+          {
+            "label": "多源验证率",
+            "value": "15%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7537"
+          }
+        ],
+        "must_read_ids": [
+          "12e952795179",
+          "cb3eddfe11b5",
+          "882ce923c486",
+          "486c77414293",
+          "f73b7c861bcc"
+        ],
+        "text": "今日共收录239篇AI新闻，分类分布：学术研究158篇, 模型发布42篇, 开源项目39篇。热门标签：Agent（52篇）。其中15%的文章有多来源交叉验证。",
+        "top_items": [
+          "HKUDS /CLI-Anything",
+          "mvanhorn /last30days-skill",
+          "NVIDIA /SkillEvaluator",
+          "google-research /paper-orchestra",
+          "google-labs-code /stitch-skills"
+        ],
+        "meta": {
+          "total_articles": 239,
+          "multi_source_pct": 15
+        }
+      },
+      "_ts": 1795021655
     }
   }
 }

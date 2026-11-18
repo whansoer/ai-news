@@ -1,8 +1,35 @@
 {
-  "updated": "2026-11-18T06:24:45Z",
-  "total": 205,
-  "new_count": 56,
+  "updated": "2026-11-18T17:07:35Z",
+  "total": 210,
+  "new_count": 34,
   "items": [
+    {
+      "id": "12e952795179",
+      "title": "HKUDS /CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "published": "2026-11-18T17:05:24Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "HKUDS /CLI-Anything",
+      "summary_zh": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/"
+    },
     {
       "id": "cb3eddfe11b5",
       "title": "mvanhorn /last30days-skill",
@@ -10,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-11-18T06:22:40Z",
+      "published": "2026-11-18T17:05:24Z",
       "tags": [
         "Agent"
       ],
@@ -29,6 +56,232 @@
         "Agent"
       ],
       "oneliner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th"
+    },
+    {
+      "id": "882ce923c486",
+      "title": "NVIDIA /SkillEvaluator",
+      "url": "https://github.com/NVIDIA/SkillEvaluator",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "published": "2026-11-18T17:05:24Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "NVIDIA /SkillEvaluator",
+      "summary_zh": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap"
+    },
+    {
+      "id": "486c77414293",
+      "title": "google-research /paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "published": "2026-11-18T17:05:24Z",
+      "tags": [
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "f73b7c861bcc"
+        ],
+        "score": 5
+      },
+      "title_zh": "google-research /paper-orchestra",
+      "summary_zh": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "tags_zh": [
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "PaperOrchestra is a multi-agent framework for automated AI research paper writing."
+    },
+    {
+      "id": "f73b7c861bcc",
+      "title": "google-labs-code /stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "source": "GitHub Trending",
+      "category": "oss",
+      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "published": "2026-11-18T17:05:24Z",
+      "tags": [
+        "Claude",
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "486c77414293"
+        ],
+        "score": 5
+      },
+      "title_zh": "google-labs-code /stitch-skills",
+      "summary_zh": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "tags_zh": [
+        "Claude",
+        "Gemini",
+        "Google",
+        "Agent"
+      ],
+      "oneliner": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent "
+    },
+    {
+      "id": "d44535ff5d6c",
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source": "Google AI",
+      "category": "model",
+      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "published": "2026-11-18T17:00:00Z",
+      "tags": [
+        "Gemini"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "The Gemini app is now available on lower-memory Android devices.",
+      "summary_zh": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "tags_zh": [
+        "Gemini"
+      ],
+      "oneliner": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image"
+    },
+    {
+      "id": "e79f01d45699",
+      "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+      "url": "https://www.marktechpost.com/2026/11/18/hugging-face-qwen3-8-27b-pi-adapted-lora/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement learning for the pi coding agent. It lifts SWE-bench Pro hard-51 pass@1 from 39.2% to 64.7% and Terminal-Bench 2.1 from 39.5% to 55.8%.\nThe post...",
+      "published": "2026-11-18T16:07:50Z",
+      "tags": [
+        "Qwen"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+      "summary_zh": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement learning for the pi coding agent. It lifts SWE-bench Pro hard-51 pass@1 from 39.2% to 64.7% and Terminal-Bench 2.1 from 39.5% to 55.8%.\nThe post...",
+      "tags_zh": [
+        "Qwen"
+      ],
+      "oneliner": "Hugging Face released Qwen3.8-27B-pi-adapted, an Apache-2.0 LoRA adapter trained with reinforcement "
+    },
+    {
+      "id": "f99b49e5fcc5",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-18T15:00:23Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "740c99113294",
+      "title": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
+      "url": "https://www.marktechpost.com/2026/11/17/sid-ai-sid-2-agentic-search-swarm/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent reaches 0.585 NDCG in 3.11 seconds, and a 12-agent SID-2 Swarm scores 0.720 NDCG, above GPT-6 Astra on SID’s benchmark.\nThe post SID AI Releases...",
+      "published": "2026-11-18T07:10:53Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "SID AI Releases SID-2 Agentic Search Model With 0.720 NDCG Swarm Mode",
+      "summary_zh": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent reaches 0.585 NDCG in 3.11 seconds, and a 12-agent SID-2 Swarm scores 0.720 NDCG, above GPT-6 Astra on SID’s benchmark.\nThe post SID AI Releases...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "SID AI released SID-2, an agentic search model trained with reinforcement learning. A single agent r"
+    },
+    {
+      "id": "39f5bc2825b4",
+      "title": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
+      "url": "https://www.marktechpost.com/2026/11/17/anthropic-claude-code-code-mode-javascript-tool-calls/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Anthropic has added Code Mode to Claude Code v2.1.323. The experimental feature lets Claude write JavaScript that chains Bash, Read and Edit calls in 1 step, and keep talking while long commands run.\nThe post Anthropic Adds Code Mode to Claude...",
+      "published": "2026-11-18T06:53:28Z",
+      "tags": [
+        "Claude",
+        "Anthropic"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 6
+      },
+      "title_zh": "Anthropic Adds Code Mode to Claude Code: Claude Now Chains Tool Calls in JavaScript",
+      "summary_zh": "Anthropic has added Code Mode to Claude Code v2.1.323. The experimental feature lets Claude write JavaScript that chains Bash, Read and Edit calls in 1 step, and keep talking while long commands run.\nThe post Anthropic Adds Code Mode to Claude...",
+      "tags_zh": [
+        "Claude",
+        "Anthropic"
+      ],
+      "oneliner": "Anthropic has added Code Mode to Claude Code v2.1.323. The experimental feature lets Claude write Ja"
     },
     {
       "id": "9cd514d03f14",
@@ -118,39 +371,6 @@
         "Agent"
       ],
       "oneliner": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file"
-    },
-    {
-      "id": "f73b7c861bcc",
-      "title": "google-labs-code /stitch-skills",
-      "url": "https://github.com/google-labs-code/stitch-skills",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "published": "2026-11-18T06:22:40Z",
-      "tags": [
-        "Claude",
-        "Gemini",
-        "Google",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "google-labs-code /stitch-skills",
-      "summary_zh": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-      "tags_zh": [
-        "Claude",
-        "Gemini",
-        "Google",
-        "Agent"
-      ],
-      "oneliner": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent "
     },
     {
       "id": "c3257d531a3c",
@@ -351,12 +571,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "FieldGuide: A Corpus Map for Token-Efficient Agentic Document Exploration",
-      "summary_zh": "arXiv:2611.21647v1 Announce Type: new \nAbstract: Generative AI agents can help journalists explore large document collections. But exploratory workflows can require substantial token use and time, especially when the task is broad and the...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2611.21647v1 Announce Type: new \nAbstract: Generative AI agents can help journalists explore l"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "f6ff54d68d27",
@@ -379,13 +597,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "Can an LLM dream? Testing the overfitted brain hypothesis on an agent with text memory",
-      "summary_zh": "arXiv:2611.21648v1 Announce Type: new \nAbstract: Hoel (2021) proposed that dreams distort replayed experience so that the brain does not overfit to recent events. We test this hypothesis on an LLM agent (Claude Opus 5.5) that stores what it...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2611.21648v1 Announce Type: new \nAbstract: Hoel (2021) proposed that dreams distort replayed e"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "89cda65a6c32",
@@ -409,10 +624,10 @@
         ],
         "score": 9
       },
-      "title_zh": "Literary Language Mashup: Curating Fictions with Large Language Models",
-      "summary_zh": "arXiv:2611.21649v1 Announce Type: new \nAbstract: In this paper, we propose an alternative approach to human evaluation of literary fictions by employing LLMs themselves as evaluators within the GrAImes framework. We apply this methodology to...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.21649v1 Announce Type: new \nAbstract: In this paper, we propose an alternative approach t"
+      "oneliner": ""
     },
     {
       "id": "7cc625a935d5",
@@ -432,15 +647,14 @@
         "corroborating_ids": [
           "89cda65a6c32",
           "5c612757e12a",
-          "14de813c120e",
-          "f1bf97fcf851"
+          "14de813c120e"
         ],
-        "score": 10
+        "score": 9
       },
-      "title_zh": "From Preference Data to Personalization: Tracing Sycophancy in Large Language Models",
-      "summary_zh": "arXiv:2611.21650v1 Announce Type: new \nAbstract: Sycophancy in large language models is often measured as agreement with the user, yet agreement can be appropriate when the user's claim is valid, their preference is genuine, or their experience...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.21650v1 Announce Type: new \nAbstract: Sycophancy in large language models is often measur"
+      "oneliner": ""
     },
     {
       "id": "e5999b344f83",
@@ -463,13 +677,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Consistency Is Not Correction: Separating Confidence, Abstention, and Recovery in LLM Agents",
-      "summary_zh": "arXiv:2611.21651v1 Announce Type: new \nAbstract: A controller that resamples an answer, escalates to a larger model, or abstains is usually justified by a confidence signal. Three claims about such a signal do not follow from one another: it...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2611.21651v1 Announce Type: new \nAbstract: A controller that resamples an answer, escalates to"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "ca6b1defec86",
@@ -489,10 +700,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Evaluating Semantic Insensitivity in Financial Sentiment Analysis: Implications for Sustainable Financial Decision-Making",
-      "summary_zh": "arXiv:2611.21653v1 Announce Type: new \nAbstract: Financial sentiment analysis is critical for automated trading, portfolio management, and risk assessment, heavily relying on models like FinBERT. Despite high benchmark accuracy, these models...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.21653v1 Announce Type: new \nAbstract: Financial sentiment analysis is critical for automa"
+      "oneliner": ""
     },
     {
       "id": "27e6872afd71",
@@ -514,12 +725,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Token Commitment as a Control Surface for Steering Masked Diffusion Generation",
-      "summary_zh": "arXiv:2611.21669v1 Announce Type: new \nAbstract: Masked diffusion models repeatedly predict provisional tokens before a sampler decides which predictions become permanent. Existing inference-time steering methods primarily modify activations,...",
-      "tags_zh": [
-        "Diffusion"
-      ],
-      "oneliner": "arXiv:2611.21669v1 Announce Type: new \nAbstract: Masked diffusion models repeatedly predict provisio"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "1df4fc590f26",
@@ -539,10 +748,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "Disambiguating Moral Circuits and Moral Features in Language Models: Moral content, normative judgment or cue words? Evidence from 14 models",
-      "summary_zh": "arXiv:2611.21705v1 Announce Type: new \nAbstract: Interpretability methods can locate the attention heads and sparse autoencoder (SAE) features that change the answer a language model gives to a moral prompt, e.g., whether \"Stealing medicine for a...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.21705v1 Announce Type: new \nAbstract: Interpretability methods can locate the attention h"
+      "oneliner": ""
     },
     {
       "id": "30d52e902d73",
@@ -951,6 +1160,82 @@
       "oneliner": ""
     },
     {
+      "id": "2a8e5c49de3f",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-18T00:00:00Z",
+      "tags": [
+        "Transformer"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "f21a02eb186b",
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-18T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "a2f695ac2f9b",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "published": "2026-11-18T00:00:00Z",
+      "tags": [
+        "GPT",
+        "OpenAI"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "multi-source",
+        "corroborating_ids": [
+          "af10d4e113e5"
+        ],
+        "score": 5
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
       "id": "b35cc7f83384",
       "title": "Perplexity Computer Adds Multiagent: Up to 16 AI Agents That Cross-Check Work",
       "url": "https://www.marktechpost.com/2026/11/17/perplexity-computer-multiagent-effort-level/",
@@ -995,10 +1280,11 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
+          "a2f695ac2f9b",
           "b02ac3a3fe5a",
           "fa0dad41f938"
         ],
-        "score": 7
+        "score": 9
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1096,11 +1382,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "882ce923c486"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
       },
       "title_zh": "",
       "summary_zh": "",
@@ -1199,33 +1483,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "882ce923c486",
-      "title": "NVIDIA /SkillEvaluator",
-      "url": "https://github.com/NVIDIA/SkillEvaluator",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "Multi-tier framework for evaluating AI agent skills and plugins with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
-      "published": "2026-11-17T06:59:37Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "1d7d28d9ac22"
-        ],
-        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -2287,9 +2544,7 @@
           "0446a672770a",
           "04f3e4831868",
           "3df11c5f4336",
-          "3e4bc4c2fc1f",
-          "be063502ec74",
-          "f1bf97fcf851"
+          "3e4bc4c2fc1f"
         ],
         "score": 10
       },
@@ -4895,125 +5150,6 @@
         "Gemini",
         "API"
       ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "d3a6593ef6bb",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "published": "2026-11-11T16:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "74190c6bf25a",
-      "title": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
-      "url": "https://www.marktechpost.com/2026/11/11/marktechpost-gpu-leaderboard-chrome-extension-launch/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "Marktechpost Launches GPU Leaderboard and the Deploy It Chrome Extension\nThe post Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension appeared first on MarkTechPost.",
-      "published": "2026-11-11T15:51:14Z",
-      "tags": [
-        "GPU"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "651a0fccfdbb",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "source": "Google AI",
-      "category": "model",
-      "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
-      "published": "2026-11-11T09:00:00Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "55a31f644627",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "published": "2026-11-11T08:00:00Z",
-      "tags": [
-        "GPT"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e4ed675d7360",
-      "title": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
-      "url": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "The Institute of Foundation Models at MBZUAI released PAN 2, an Apache 2.0 world model that couples an LLM planner with a 29B diffusion transformer to simulate up to 20 seconds of action outcomes as video.\nThe post MBZUAI&#8217;s IFM Releases PAN...",
-      "published": "2026-11-11T07:38:57Z",
-      "tags": [],
       "score": 5,
       "relations": [],
       "difficulty": "intermediate",
