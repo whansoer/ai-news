@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-18T22:55:30Z",
-  "total": 240,
+  "updated": "2026-11-19T06:26:33Z",
+  "total": 271,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 60
+      "count": 75
     },
     {
       "name": "OpenAI",
-      "count": 30
+      "count": 32
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 25
     },
     {
       "name": "GitHub Trending",
@@ -38,18 +38,14 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 52
+      "count": 56
     },
     {
       "name": "LLM",
-      "count": 31
+      "count": 37
     },
     {
       "name": "Gemini",
-      "count": 12
-    },
-    {
-      "name": "Google",
       "count": 11
     },
     {
@@ -58,10 +54,14 @@
     },
     {
       "name": "Benchmark",
-      "count": 9
+      "count": 10
     },
     {
       "name": "GPT",
+      "count": 10
+    },
+    {
+      "name": "Google",
       "count": 9
     },
     {
@@ -73,7 +73,11 @@
       "count": 4
     },
     {
-      "name": "Qwen",
+      "name": "Embedding",
+      "count": 3
+    },
+    {
+      "name": "Diffusion",
       "count": 3
     },
     {
@@ -81,24 +85,28 @@
       "count": 3
     },
     {
+      "name": "Qwen",
+      "count": 3
+    },
+    {
       "name": "Meta",
       "count": 3
+    },
+    {
+      "name": "Transformer",
+      "count": 2
+    },
+    {
+      "name": "RAG",
+      "count": 2
     },
     {
       "name": "Anthropic",
       "count": 2
     },
     {
-      "name": "Diffusion",
-      "count": 2
-    },
-    {
       "name": "Llama",
       "count": 2
-    },
-    {
-      "name": "Transformer",
-      "count": 1
     },
     {
       "name": "GPU",
@@ -107,24 +115,16 @@
     {
       "name": "Prompt",
       "count": 1
-    },
-    {
-      "name": "RAG",
-      "count": 1
-    },
-    {
-      "name": "Embedding",
-      "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 156
+      "count": 185
     },
     {
       "name": "模型发布",
-      "count": 45
+      "count": 47
     },
     {
       "name": "开源项目",
@@ -132,10 +132,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "11-12",
-      "count": 15
-    },
     {
       "date": "11-13",
       "count": 41
@@ -158,7 +154,11 @@
     },
     {
       "date": "11-18",
-      "count": 54
+      "count": 51
+    },
+    {
+      "date": "11-19",
+      "count": 36
     }
   ],
   "top10": [
@@ -193,34 +193,34 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "2d3bb8f13d73",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "id": "43c625c47753",
+      "title": "Prioritize, Don't Decide: What We Learned Auditing a Deployed Human-in-the-Loop CV Sorter",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "5095af2e2b71",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "id": "60e163d178d1",
+      "title": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "d44535ff5d6c",
-      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "id": "1141d63c67eb",
+      "title": "Tracking Representations in LLM Reasoning Traces for Iterated Games",
       "score": 5,
-      "source": "Google AI"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "e79f01d45699",
-      "title": "New LoRA Adapter Lifts Qwen3.8 Coding Success From 39% to 65%",
+      "id": "f51b17a5b58e",
+      "title": "Formal Adequacy Index (based on Polish-language material)",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "f99b49e5fcc5",
-      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "id": "9d686994d4eb",
+      "title": "From Arraignment to Resolution: Transformer Models of Court Cases",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }
