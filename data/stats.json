@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T06:26:33Z",
-  "total": 271,
+  "updated": "2026-11-19T17:15:19Z",
+  "total": 273,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,22 +12,22 @@
     },
     {
       "name": "OpenAI",
-      "count": 32
+      "count": 30
     },
     {
       "name": "MarkTechPost",
-      "count": 25
+      "count": 27
     },
     {
       "name": "GitHub Trending",
-      "count": 24
-    },
-    {
-      "name": "Hugging Face",
-      "count": 15
+      "count": 26
     },
     {
       "name": "Google AI",
+      "count": 15
+    },
+    {
+      "name": "Hugging Face",
       "count": 15
     },
     {
@@ -38,11 +38,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 56
+      "count": 57
     },
     {
       "name": "LLM",
-      "count": 37
+      "count": 38
     },
     {
       "name": "Gemini",
@@ -53,20 +53,24 @@
       "count": 11
     },
     {
+      "name": "Google",
+      "count": 10
+    },
+    {
       "name": "Benchmark",
       "count": 10
     },
     {
       "name": "GPT",
-      "count": 10
-    },
-    {
-      "name": "Google",
       "count": 9
     },
     {
       "name": "Claude",
       "count": 5
+    },
+    {
+      "name": "API",
+      "count": 4
     },
     {
       "name": "DeepSeek",
@@ -78,10 +82,6 @@
     },
     {
       "name": "Diffusion",
-      "count": 3
-    },
-    {
-      "name": "API",
       "count": 3
     },
     {
@@ -120,15 +120,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 185
+      "count": 187
     },
     {
       "name": "模型发布",
-      "count": 47
+      "count": 45
     },
     {
       "name": "开源项目",
-      "count": 39
+      "count": 41
     }
   ],
   "dailyTrend": [
@@ -154,17 +154,47 @@
     },
     {
       "date": "11-18",
-      "count": 51
+      "count": 50
     },
     {
       "date": "11-19",
-      "count": 36
+      "count": 44
     }
   ],
   "top10": [
     {
+      "id": "c3257d531a3c",
+      "title": "obra /superpowers",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
       "id": "12e952795179",
       "title": "HKUDS /CLI-Anything",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "73c10ecbf681",
+      "title": "jingyaogong /minimind",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "49a1c7e387a4",
+      "title": "firecrawl /firecrawl",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "713e9e5ca938",
+      "title": "openvinotoolkit /openvino",
+      "score": 5,
+      "source": "GitHub Trending"
+    },
+    {
+      "id": "f0faec98f86e",
+      "title": "cathrynlavery /diagram-design",
       "score": 5,
       "source": "GitHub Trending"
     },
@@ -175,52 +205,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "882ce923c486",
-      "title": "NVIDIA /SkillEvaluator",
+      "id": "c1fbfa1ad327",
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "Google AI"
     },
     {
-      "id": "486c77414293",
-      "title": "google-research /paper-orchestra",
+      "id": "0025e2c9bbf3",
+      "title": "Not If, But How: Responding to Security Incidents in the Age of AI Attackers",
       "score": 5,
-      "source": "GitHub Trending"
+      "source": "MarkTechPost"
     },
     {
-      "id": "f73b7c861bcc",
-      "title": "google-labs-code /stitch-skills",
+      "id": "13a068e44c52",
+      "title": "Google DeepMind Releases Gemini 4 Neon: 1M Context, #1 on AA Coding Agent Index",
       "score": 5,
-      "source": "GitHub Trending"
-    },
-    {
-      "id": "43c625c47753",
-      "title": "Prioritize, Don't Decide: What We Learned Auditing a Deployed Human-in-the-Loop CV Sorter",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "60e163d178d1",
-      "title": "Chorus: Shared N-gram Embeddings with Layer-wise Adaptation",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "1141d63c67eb",
-      "title": "Tracking Representations in LLM Reasoning Traces for Iterated Games",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "f51b17a5b58e",
-      "title": "Formal Adequacy Index (based on Polish-language material)",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "9d686994d4eb",
-      "title": "From Arraignment to Resolution: Transformer Models of Court Cases",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
+      "source": "MarkTechPost"
     }
   ]
 }
