@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T16:53:36Z",
-  "total": 241,
-  "new_count": 27,
+  "updated": "2026-11-20T22:35:17Z",
+  "total": 243,
+  "new_count": 30,
   "items": [
     {
       "id": "c3257d531a3c",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-11-20T16:51:31Z",
+      "published": "2026-11-20T22:33:13Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "published": "2026-11-20T16:51:31Z",
+      "published": "2026-11-20T22:33:13Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "published": "2026-11-20T16:51:31Z",
+      "published": "2026-11-20T22:33:13Z",
       "tags": [
         "LLM"
       ],
@@ -90,8 +90,8 @@
       "url": "https://github.com/firecrawl/firecrawl",
       "source": "GitHub Trending",
       "category": "oss",
-      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
-      "published": "2026-11-20T16:51:31Z",
+      "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "published": "2026-11-20T22:33:13Z",
       "tags": [
         "Agent",
         "API"
@@ -106,12 +106,12 @@
         "score": 10
       },
       "title_zh": "firecrawl /firecrawl",
-      "summary_zh": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "summary_zh": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "tags_zh": [
         "Agent",
         "API"
       ],
-      "oneliner": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through"
+      "oneliner": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers "
     },
     {
       "id": "713e9e5ca938",
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-      "published": "2026-11-20T16:51:31Z",
+      "published": "2026-11-20T22:33:13Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -143,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-11-20T16:51:31Z",
+      "published": "2026-11-20T22:33:13Z",
       "tags": [
         "Claude"
       ],
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-11-20T16:51:31Z",
+      "published": "2026-11-20T22:33:13Z",
       "tags": [
         "Agent"
       ],
@@ -189,6 +189,33 @@
         "Agent"
       ],
       "oneliner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th"
+    },
+    {
+      "id": "e098cf805cd5",
+      "title": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
+      "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "RadixArk released DaisyRose-27B, an Apache 2.0 agentic coding model post-trained from Qwen3.8-27B with reinforcement learning only. It more than doubles Terminal Bench 4.1 pass@1 to 12.0 and runs on a single GPU.\nThe post RadixArk Ships...",
+      "published": "2026-11-20T17:42:29Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "RadixArk Ships DaisyRose-27B, a 27B Agentic Coding Model Trained With Reinforcement Learning Only",
+      "summary_zh": "RadixArk released DaisyRose-27B, an Apache 2.0 agentic coding model post-trained from Qwen3.8-27B with reinforcement learning only. It more than doubles Terminal Bench 4.1 pass@1 to 12.0 and runs on a single GPU.\nThe post RadixArk Ships...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "RadixArk released DaisyRose-27B, an Apache 2.0 agentic coding model post-trained from Qwen3.8-27B wi"
     },
     {
       "id": "3978a8961b77",
@@ -216,6 +243,29 @@
         "Diffusion"
       ],
       "oneliner": "NVIDIA released Nemotron-Labs-Sigma, 14 open 3B and 8B continuous diffusion language model checkpoin"
+    },
+    {
+      "id": "7121ba7c9173",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "published": "2026-11-20T10:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Combatting adversarial distillation",
+      "summary_zh": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "tags_zh": [],
+      "oneliner": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection"
     },
     {
       "id": "1eb3f45faf70",
@@ -479,12 +529,10 @@
         "corroborating_ids": [],
         "score": 10
       },
-      "title_zh": "What the model knows but does not say: monitoring medical LLMs through verbalized thoughts",
-      "summary_zh": "arXiv:2611.24994v1 Announce Type: new \nAbstract: Efforts to keep clinical language models safe have concentrated on what enters and leaves the model, but a manipulated model can return an answer that looks entirely ordinary. Here we show that the...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2611.24994v1 Announce Type: new \nAbstract: Efforts to keep clinical language models safe have "
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "467d21d802ee",
@@ -506,12 +554,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "FinVeriQA: Financial Research Agents for Question Answering: Routing, Retrieval, MCP Tool Use, and Provenance-Aware Evidence Verification",
-      "summary_zh": "arXiv:2611.25071v1 Announce Type: new \nAbstract: Large language models (LLMs) write fluent financial analyses but miscompute ratios, recall stale prices, and route questions to the wrong tool with high confidence. We ask which component should do...",
-      "tags_zh": [
-        "Agent"
-      ],
-      "oneliner": "arXiv:2611.25071v1 Announce Type: new \nAbstract: Large language models (LLMs) write fluent financial"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "8824d5872dae",
@@ -957,6 +1003,77 @@
       "source": "Hugging Face",
       "category": "oss",
       "summary": "",
+      "published": "2026-11-20T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c1386e2c0414",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-20T00:00:00Z",
+      "tags": [],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "c2d364619a44",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "published": "2026-11-20T00:00:00Z",
+      "tags": [
+        "GPT"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "3c753634dc1f",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source": "OpenAI",
+      "category": "model",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
       "published": "2026-11-20T00:00:00Z",
       "tags": [],
       "score": 5,
@@ -3524,11 +3641,9 @@
       "difficulty": "intermediate",
       "narrative_angles": [],
       "verification": {
-        "level": "multi-source",
-        "corroborating_ids": [
-          "79d13e040f6e"
-        ],
-        "score": 5
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5716,10 +5831,9 @@
       "verification": {
         "level": "multi-source",
         "corroborating_ids": [
-          "6ed6090c0942",
-          "db3076ba786e"
+          "6ed6090c0942"
         ],
-        "score": 7
+        "score": 5
       },
       "title_zh": "",
       "summary_zh": "",
@@ -5759,75 +5873,6 @@
       "category": "oss",
       "summary": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "published": "2026-11-14T05:25:02Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "9c47793813e0",
-      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
-      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-13T18:00:39Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "314941ebd59f",
-      "title": "Best AI Video Generation Models in 2026: Elo, Price per Second, Open Weights",
-      "url": "https://www.marktechpost.com/2026/11/13/best-ai-video-generation-models-2026/",
-      "source": "MarkTechPost",
-      "category": "research",
-      "summary": "The AI video leaderboard looks very different from 12 months ago. Native audio is now table stakes. Clips run 15–30 seconds. And an open-weights model sits in the top 3. This ranking (as of Nov 13, 2026) uses one quality signal: blind...",
-      "published": "2026-11-13T17:23:51Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 8
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "e9d93e607b69",
-      "title": "XYBench: Helping with the problem behind the question",
-      "url": "https://huggingface.co/blog/allenai/xybench",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-13T17:02:35Z",
       "tags": [],
       "score": 5,
       "relations": [],
