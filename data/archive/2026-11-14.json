@@ -1,8 +1,58 @@
 {
   "date": "2026-11-14",
-  "updated": "2026-11-21T06:02:53Z",
-  "total": 3,
+  "updated": "2026-11-21T16:02:15Z",
+  "total": 5,
   "items": [
+    {
+      "id": "be4dd81ca11e",
+      "title": "Stanford Research Open-Sources Memorilla, a Latent Memory Module for Frozen LLMs",
+      "url": "https://www.marktechpost.com/2026/11/14/stanford-memorilla-memory-system-16-memory-tokens/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Stanford researchers released Memorilla, an open-source memory system that compresses a document collection into 16 memory tokens for a frozen Qwen3-8B. It reaches 84.33% on FactKG using 108x fewer document tokens than full context.\nThe post...",
+      "published": "2026-11-14T10:21:21Z",
+      "tags": [
+        "LLM"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 7
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
+    {
+      "id": "e0e819ae9ff7",
+      "title": "Vercel Releases UI SDK: 50+ UI Behaviors for AI Coding Agents",
+      "url": "https://www.marktechpost.com/2026/11/13/vercel-ui-sdk-agent-ui-behaviors/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "Vercel Labs released Vercel UI SDK, an Apache-2.0 beta library of 50+ UI behaviors. Coding agents compose them into accessible components for React, Vue, Svelte, Solid and Web Components, with a bridge for direct UI control.\nThe post Vercel...",
+      "published": "2026-11-14T06:38:14Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 8
+      },
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
+    },
     {
       "id": "2a9bb2bf7afb",
       "title": "openai /codex-security",
