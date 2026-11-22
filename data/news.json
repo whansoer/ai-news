@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-21T21:33:42Z",
-  "total": 240,
-  "new_count": 27,
+  "updated": "2026-11-22T05:39:12Z",
+  "total": 238,
+  "new_count": 28,
   "items": [
     {
       "id": "c3257d531a3c",
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-11-21T21:31:38Z",
+      "published": "2026-11-22T05:37:09Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "published": "2026-11-21T21:31:38Z",
+      "published": "2026-11-22T05:37:09Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "published": "2026-11-21T21:31:38Z",
+      "published": "2026-11-22T05:37:09Z",
       "tags": [
         "LLM"
       ],
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-      "published": "2026-11-21T21:31:38Z",
+      "published": "2026-11-22T05:37:09Z",
       "tags": [
         "Agent",
         "API"
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-      "published": "2026-11-21T21:31:38Z",
+      "published": "2026-11-22T05:37:09Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -143,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-11-21T21:31:38Z",
+      "published": "2026-11-22T05:37:09Z",
       "tags": [
         "Claude"
       ],
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-11-21T21:31:38Z",
+      "published": "2026-11-22T05:37:09Z",
       "tags": [
         "Agent"
       ],
@@ -189,6 +189,33 @@
         "Agent"
       ],
       "oneliner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th"
+    },
+    {
+      "id": "4eff8a9750d4",
+      "title": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+      "url": "https://www.marktechpost.com/2026/11/21/columbia-certik-tensorlean-formal-verification-gpu-kernels/",
+      "source": "MarkTechPost",
+      "category": "research",
+      "summary": "TensorLean, from Columbia University and CertiK, formally verifies production GPU kernels at the PTX level using Lean. It checked 149 kernel instances, proved 83 correct, and found 38 bugs in FlashAttention, DeepGEMM and more.\nThe post A Team of...",
+      "published": "2026-11-22T01:51:43Z",
+      "tags": [
+        "GPU"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 9
+      },
+      "title_zh": "A Team of Researchers from Columbia and CertiK Introduce TensorLean for Formal Verification of GPU Kernels",
+      "summary_zh": "TensorLean, from Columbia University and CertiK, formally verifies production GPU kernels at the PTX level using Lean. It checked 149 kernel instances, proved 83 correct, and found 38 bugs in FlashAttention, DeepGEMM and more.\nThe post A Team of...",
+      "tags_zh": [
+        "GPU"
+      ],
+      "oneliner": "TensorLean, from Columbia University and CertiK, formally verifies production GPU kernels at the PTX"
     },
     {
       "id": "fda4dbda22da",
@@ -508,10 +535,10 @@
         "corroborating_ids": [],
         "score": 7
       },
-      "title_zh": "The ROI of Small Examples: Optimizing In-Context Learning Under Token Budgets",
-      "summary_zh": "arXiv:2611.24971v1 Announce Type: new \nAbstract: In-context learning (ICL) improves large language model performance at inference time without updating model parameters. However, these gains are not free: in practical deployments, longer prompts...",
+      "title_zh": "",
+      "summary_zh": "",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.24971v1 Announce Type: new \nAbstract: In-context learning (ICL) improves large language m"
+      "oneliner": ""
     },
     {
       "id": "0cab0b34696a",
@@ -5730,83 +5757,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5a31de5224f4",
-      "title": "QwenLM /qwen-code",
-      "url": "https://github.com/QwenLM/qwen-code",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "An open-source AI coding agent that lives in your terminal.",
-      "published": "2026-11-15T05:21:35Z",
-      "tags": [
-        "Qwen",
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "1974e4a3544a",
-      "title": "ashhart /TensorFold",
-      "url": "https://github.com/ashhart/TensorFold",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "LLM Inference Engine for Metal, CUDA and Vulkan.",
-      "published": "2026-11-15T05:21:35Z",
-      "tags": [
-        "Meta",
-        "LLM"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "021dcfb5e16a",
-      "title": "JuliusBrussee /caveman",
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "source": "GitHub Trending",
-      "category": "oss",
-      "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
-      "published": "2026-11-15T05:21:35Z",
-      "tags": [
-        "Agent"
-      ],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",
