@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T02:51:20Z",
+  "updated": "2026-11-24T08:55:24Z",
   "total": 20,
   "items": [
     {
@@ -100,14 +100,13 @@
       }
     },
     {
-      "id": "9bc4721c0569",
-      "title_zh": "Anthropic Launches Claude Ship for GitHub Pull Request Review and Fixes",
-      "summary_zh": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and approve GitHub pull requests. Code Review is GA; the other 2 agents are in public beta for Team and Enterprise.\nThe post Anthropic Launches Claude...",
+      "id": "1360458f2da3",
+      "title_zh": "What Counts as Attack Success? Evaluating Harmfulness in Red Teaming LLMs",
+      "summary_zh": "arXiv:2611.28038v1 Announce Type: new \nAbstract: Judging whether a model response is harmful requires contextual and normative choices, yet red-teaming studies often delegate this judgment to automated evaluators. We examine how harmfulness...",
       "tags_zh": [
-        "Claude",
-        "Anthropic"
+        "LLM"
       ],
-      "oneliner": "Anthropic's Claude Ship bundles Code Review, PR Steward and Claude Approvals to review, fix and appr",
+      "oneliner": "arXiv:2611.28038v1 Announce Type: new \nAbstract: Judging whether a model response is harmful require",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -115,13 +114,26 @@
       }
     },
     {
-      "id": "4dc6c6490d75",
-      "title_zh": "OpenAI and Cisco introduce Shirudo",
-      "summary_zh": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "id": "0de03d631d24",
+      "title_zh": "Distributionally-Verifiable Rewards for Human-Behavior Simulation",
+      "summary_zh": "arXiv:2611.28048v1 Announce Type: new \nAbstract: Large language models are increasingly used to simulate survey respondents in social-science research. A useful simulator should predict individual responses, reproduce population response...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.28048v1 Announce Type: new \nAbstract: Large language models are increasingly used to simu",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "765d7f274cef",
+      "title_zh": "Benchmarking and Adapting LLMs for English-Swedish Medical Question Answering",
+      "summary_zh": "arXiv:2611.28050v1 Announce Type: new \nAbstract: Large language models do well on English medical exams, but less is known about Swedish. This matters most for small open models that hospitals can run locally. To reduce this gap, we first build...",
       "tags_zh": [
-        "OpenAI"
+        "LLM",
+        "Benchmark"
       ],
-      "oneliner": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running",
+      "oneliner": "arXiv:2611.28050v1 Announce Type: new \nAbstract: Large language models do well on English medical ex",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -129,13 +141,73 @@
       }
     },
     {
-      "id": "6b8c419f9b25",
-      "title_zh": "Z AI Releases GLM-5.4: A 750B Loop Transformer That Runs 28 Layers Twice",
-      "summary_zh": "Z.ai released GLM-5.4, its first Loop Transformer flagship. The 750B-scale model runs 28 GLM-5 layers twice for deeper reasoning, with API access and open weights planned after safety work.\nThe post Z AI Releases GLM-5.4: A 750B Loop Transformer...",
+      "id": "3f6cc9be1ee4",
+      "title_zh": "SnakeTranslate: Weakly Supervised Policy Learning from Offline Parallel Text for Simultaneous Translation",
+      "summary_zh": "arXiv:2611.28055v1 Announce Type: new \nAbstract: Adaptive simultaneous translation requires reliable prefix translation and timely READ/WRITE decisions, but ordinary parallel corpora provide no action annotations. We present SnakeTranslate, which...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.28055v1 Announce Type: new \nAbstract: Adaptive simultaneous translation requires reliable",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "8b1b91c1c9b9",
+      "title_zh": "Language Model Harnesses can be Compositional Generalizers",
+      "summary_zh": "arXiv:2611.28298v1 Announce Type: new \nAbstract: Modern language models (LMs) are post-trained and deployed as agents inside a \"harness\", but standard harness designs accumulate context that the neural network is forced to generalize to, making...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.28298v1 Announce Type: new \nAbstract: Modern language models (LMs) are post-trained and d",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "94d3b0a797cf",
+      "title_zh": "Grammar-as-a-Draft: More Tokens per Speculative Decoding Step on Grammar-Constrained Structured Outputs",
+      "summary_zh": "arXiv:2611.28349v1 Announce Type: new \nAbstract: Under structured outputs (JSON schemas, regexes, tool calls), speculative drafters do not see the grammar constraint and repeatedly propose invalid keys, delimiters, and indentation, while the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.28349v1 Announce Type: new \nAbstract: Under structured outputs (JSON schemas, regexes, to",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "af57826ab4c6",
+      "title_zh": "Contrastive On-Policy Distillation via Dual-Branch Supervision",
+      "summary_zh": "arXiv:2611.28359v1 Announce Type: new \nAbstract: For on-policy distillation (OPD), more capable models are a natural choice as teachers. However, higher task performance does not necessarily imply greater teachability. A controlled token...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.28359v1 Announce Type: new \nAbstract: For on-policy distillation (OPD), more capable mode",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f431af36b5fe",
+      "title_zh": "Taking the PULSE of Enterprise Workflows: Evaluating Persistent Project-State Understanding",
+      "summary_zh": "arXiv:2611.28374v1 Announce Type: new \nAbstract: Enterprise agents must maintain an up-to-date understanding of work distributed across heterogeneous artifacts, evolving over time, and unevenly visible to different collaborators. We formulate...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.28374v1 Announce Type: new \nAbstract: Enterprise agents must maintain an up-to-date under",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "e3ae96115594",
+      "title_zh": "Language models compress human preference geometry while political structure remains prompt-sensitive",
+      "summary_zh": "arXiv:2611.28383v1 Announce Type: new \nAbstract: Large language models are increasingly used to construct synthetic publics. Prior work has documented errors in individual responses, population heterogeneity, and prompt robustness, but whether...",
       "tags_zh": [
-        "Transformer"
+        "Prompt"
       ],
-      "oneliner": "Z.ai released GLM-5.4, its first Loop Transformer flagship. The 750B-scale model runs 28 GLM-5 layer",
+      "oneliner": "arXiv:2611.28383v1 Announce Type: new \nAbstract: Large language models are increasingly used to cons",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -143,102 +215,13 @@
       }
     },
     {
-      "id": "20bf59765e93",
-      "title_zh": "RoboTrack: Point tracking for real-world robotic manipulation",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": "",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "5353a3c7ac17",
-      "title_zh": "A more tailored Google Search that’s uniquely yours",
-      "summary_zh": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Drive, GMail, Google Photos, Google Calendar, and Google G logo icons",
-      "tags_zh": [
-        "Google"
-      ],
-      "oneliner": "Google Search bar with the text \"Personal Intelligence\" surrounded by the Google Wallet, Google Driv",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "d59030ed14de",
-      "title_zh": "27 Cybersecurity Terms to Prepare You for the Age of AI",
-      "summary_zh": "AI now sits on both sides of the security fight, and the vocabulary has changed with it. IBM&#8217;s 2026 Cost of a Data Breach Report found that 1 in 4 malicious breaches were AI-enabled, up 56% year over year. Those breaches cost an average of...",
-      "tags_zh": [],
-      "oneliner": "AI now sits on both sides of the security fight, and the vocabulary has changed with it. IBM&#8217;s",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "2aa68aa0978a",
-      "title_zh": "Architect Labs Unveils Frostbite, an Interaction Net CPU Designed by AI",
-      "summary_zh": "Architect Labs introduced Frostbite, an AI-designed CPU that runs interaction nets in hardware. Agents took it from theory to 7 nm GDS, and pre-silicon tests show 4.59x performance per watt over an in-order core.\nThe post Architect Labs Unveils...",
-      "tags_zh": [],
-      "oneliner": "Architect Labs introduced Frostbite, an AI-designed CPU that runs interaction nets in hardware. Agen",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "3877947acaac",
-      "title_zh": "Meta TLX Brings Warp-Group GPU Control to Triton on Hopper, Blackwell, AMD",
-      "summary_zh": "Meta has detailed TLX, its Triton Low-Level Extensions that add warp-group, barrier, TMA and cluster control to Python Triton kernels. It runs Meta's ads and LLM workloads on Hopper, Blackwell and AMD MI350 GPUs.\nThe post Meta TLX Brings...",
-      "tags_zh": [
-        "Meta",
-        "GPU"
-      ],
-      "oneliner": "Meta has detailed TLX, its Triton Low-Level Extensions that add warp-group, barrier, TMA and cluster",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "4201990503e1",
-      "title_zh": "Connected intelligence for in-house legal",
-      "summary_zh": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
-      "tags_zh": [],
-      "oneliner": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal expl",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a082949f03d8",
-      "title_zh": "Richpanel helps companies automate 50% of support in 30 days",
-      "summary_zh": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
-      "tags_zh": [],
-      "oneliner": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures,",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c7fd02e95da6",
-      "title_zh": "SkillPrivus: Uncovering PRIVacy of USe Harms in Agentic Skills",
-      "summary_zh": "arXiv:2611.26747v1 Announce Type: new \nAbstract: Agent skills extend AI assistants through installable instructions and code that can access users' files, accounts, and data. Even when performing their advertised tasks, skills may infer sensitive...",
+      "id": "fb30b0e46f8e",
+      "title_zh": "Muted Distillation: Sealing Reasoning from Teacher Unlocks Token-Efficient Agents",
+      "summary_zh": "arXiv:2611.28445v1 Announce Type: new \nAbstract: On-policy distillation (OPD) is commonly adopted as one of the components in post-training of large language models (LLMs), but in multi-turn agentic tasks we find that the student model increases...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "arXiv:2611.26747v1 Announce Type: new \nAbstract: Agent skills extend AI assistants through installab",
+      "oneliner": "arXiv:2611.28445v1 Announce Type: new \nAbstract: On-policy distillation (OPD) is commonly adopted as",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -246,11 +229,11 @@
       }
     },
     {
-      "id": "8e777918e689",
-      "title_zh": "Reinforcement Learning Unlearns Corrupted SFT Reasoning",
-      "summary_zh": "arXiv:2611.26756v1 Announce Type: new \nAbstract: We show that reinforcement learning (RL) in reasoning tasks can succeed even when the supervised fine-tuning (SFT) data is severely corrupted. In a mathematical reasoning dataset (GSM8K), we...",
+      "id": "0dc0846a6faf",
+      "title_zh": "Digital Knockoffs",
+      "summary_zh": "arXiv:2611.28482v1 Announce Type: new \nAbstract: Social simulations often use language model agents to represent people who differ on several measurable traits. However, describing a trait profile in a prompt does not guarantee the agent will...",
       "tags_zh": [],
-      "oneliner": "arXiv:2611.26756v1 Announce Type: new \nAbstract: We show that reinforcement learning (RL) in reasoni",
+      "oneliner": "arXiv:2611.28482v1 Announce Type: new \nAbstract: Social simulations often use language model agents ",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -258,11 +241,27 @@
       }
     },
     {
-      "id": "ead48b09f046",
-      "title_zh": "Know Your Context Bank: Repairing Inconsistency and Measuring Generalization in Context-Aware Text-to-SQL",
-      "summary_zh": "arXiv:2611.26775v1 Announce Type: new \nAbstract: Text-to-SQL systems increasingly rely on context banks: curated collections of example queries, metric definitions, and domain knowledge that tell a model how an organization writes its queries. In...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.26775v1 Announce Type: new \nAbstract: Text-to-SQL systems increasingly rely on context ba",
+      "id": "0b0fba1bb7fc",
+      "title_zh": "Digital Twins for Multi-Agent Systems: When to Trust, What to Change",
+      "summary_zh": "arXiv:2611.28517v1 Announce Type: new \nAbstract: Digital twins of agent networks need to flag unreliable forecasts and help users choose interventions. Both decisions depend on what happens over several steps: an error can spread through the...",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": "arXiv:2611.28517v1 Announce Type: new \nAbstract: Digital twins of agent networks need to flag unreli",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "bbd140e2172c",
+      "title_zh": "SupportChain: Trace-Calibrated Aggregation of Quote-Grounded Reasoning Chains for Multi-Hop RAG with Small Readers",
+      "summary_zh": "arXiv:2611.28519v1 Announce Type: new \nAbstract: Strong results in multi-hop retrieval-augmented question answering come from graph indexes read by models of 70B parameters or more, and building such an index calls a large language model over the...",
+      "tags_zh": [
+        "RAG"
+      ],
+      "oneliner": "arXiv:2611.28519v1 Announce Type: new \nAbstract: Strong results in multi-hop retrieval-augmented que",
       "key_facts": [],
       "notable_quote": {
         "text": "",
