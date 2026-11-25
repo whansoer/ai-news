@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T19:28:19Z",
-  "total": 255,
+  "updated": "2026-11-25T00:31:36Z",
+  "total": 257,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 30
+      "count": 28
     },
     {
       "name": "OpenAI",
-      "count": 21
+      "count": 25
     },
     {
       "name": "Hugging Face",
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 57
+      "count": 58
     },
     {
       "name": "LLM",
@@ -57,15 +57,15 @@
       "count": 8
     },
     {
+      "name": "GPT",
+      "count": 8
+    },
+    {
       "name": "Google",
       "count": 8
     },
     {
       "name": "API",
-      "count": 7
-    },
-    {
-      "name": "GPT",
       "count": 7
     },
     {
@@ -77,15 +77,15 @@
       "count": 4
     },
     {
+      "name": "Meta",
+      "count": 3
+    },
+    {
       "name": "Prompt",
       "count": 3
     },
     {
       "name": "Anthropic",
-      "count": 3
-    },
-    {
-      "name": "GPU",
       "count": 3
     },
     {
@@ -105,7 +105,7 @@
       "count": 2
     },
     {
-      "name": "Meta",
+      "name": "GPU",
       "count": 2
     },
     {
@@ -120,11 +120,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 190
+      "count": 188
     },
     {
       "name": "模型发布",
-      "count": 36
+      "count": 40
     },
     {
       "name": "开源项目",
@@ -132,10 +132,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "11-18",
-      "count": 50
-    },
     {
       "date": "11-19",
       "count": 46
@@ -158,7 +154,11 @@
     },
     {
       "date": "11-24",
-      "count": 42
+      "count": 41
+    },
+    {
+      "date": "11-25",
+      "count": 7
     }
   ],
   "top10": [
@@ -205,6 +205,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "c5daf3fc5e65",
+      "title": "Meet Facebook’s Your Algorithm: How Meta Turns Plain-Language Preferences Into Ranking",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "8b4408d75415",
       "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
       "score": 5,
@@ -215,12 +221,6 @@
       "title": "How Gemini is changing the game for Golden State's organization and fans.",
       "score": 5,
       "source": "Google AI"
-    },
-    {
-      "id": "655e37fb2b16",
-      "title": "OpenAI and Cisco Releases Shirudo: An Open-Source Linux Runtime Allowing Agents to Defend Systems Without Downtime",
-      "score": 5,
-      "source": "MarkTechPost"
     }
   ]
 }
