@@ -1,26 +1,26 @@
 {
-  "updated": "2026-11-25T07:31:35Z",
-  "total": 283,
+  "updated": "2026-11-25T18:35:01Z",
+  "total": 247,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 26
+      "count": 24
     },
     {
       "name": "OpenAI",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Hugging Face",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Google AI",
@@ -28,7 +28,7 @@
     },
     {
       "name": "GitHub Trending",
-      "count": 14
+      "count": 10
     },
     {
       "name": "Synced",
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 66
+      "count": 53
     },
     {
       "name": "LLM",
-      "count": 36
+      "count": 32
     },
     {
       "name": "Benchmark",
-      "count": 15
+      "count": 13
     },
     {
       "name": "Gemini",
@@ -65,10 +65,6 @@
       "count": 6
     },
     {
-      "name": "Claude",
-      "count": 5
-    },
-    {
       "name": "Prompt",
       "count": 5
     },
@@ -78,18 +74,14 @@
     },
     {
       "name": "OpenAI",
-      "count": 5
+      "count": 4
+    },
+    {
+      "name": "Claude",
+      "count": 3
     },
     {
       "name": "Meta",
-      "count": 3
-    },
-    {
-      "name": "Anthropic",
-      "count": 3
-    },
-    {
-      "name": "Diffusion",
       "count": 3
     },
     {
@@ -109,6 +101,14 @@
       "count": 2
     },
     {
+      "name": "Diffusion",
+      "count": 2
+    },
+    {
+      "name": "Anthropic",
+      "count": 1
+    },
+    {
       "name": "Qwen",
       "count": 1
     },
@@ -120,15 +120,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 216
+      "count": 184
     },
     {
       "name": "模型发布",
-      "count": 38
+      "count": 37
     },
     {
       "name": "开源项目",
-      "count": 29
+      "count": 26
     }
   ],
   "dailyTrend": [
@@ -158,7 +158,7 @@
     },
     {
       "date": "11-25",
-      "count": 38
+      "count": 40
     }
   ],
   "top10": [
@@ -205,6 +205,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "7b1bdc5dda43",
+      "title": "An Indic Voice Agent with CUGA",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
       "id": "afa66655598a",
       "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
       "score": 5,
@@ -213,12 +219,6 @@
     {
       "id": "e21e940bce3e",
       "title": "Validation Bias in Large Language Model Responses to Cancer Treatment Queries: A Factorial Cross-Sectional Study",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "b5057437443c",
-      "title": "DAGGER: Deployment-Free Quality Estimation for Generative AI Workflows",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }
