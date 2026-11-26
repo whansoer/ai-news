@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T18:35:11Z",
-  "total": 214,
+  "updated": "2026-11-26T00:07:37Z",
+  "total": 209,
   "new_count": 28,
   "items": [
     {
@@ -10,7 +10,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "An agentic skills framework & software development methodology that works.",
-      "published": "2026-11-25T18:33:04Z",
+      "published": "2026-11-26T00:05:31Z",
       "tags": [
         "Agent"
       ],
@@ -37,7 +37,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
-      "published": "2026-11-25T18:33:04Z",
+      "published": "2026-11-26T00:05:31Z",
       "tags": [
         "Agent"
       ],
@@ -64,7 +64,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
-      "published": "2026-11-25T18:33:04Z",
+      "published": "2026-11-26T00:05:31Z",
       "tags": [
         "LLM"
       ],
@@ -91,7 +91,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
-      "published": "2026-11-25T18:33:04Z",
+      "published": "2026-11-26T00:05:31Z",
       "tags": [
         "Agent",
         "API"
@@ -120,7 +120,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-      "published": "2026-11-25T18:33:04Z",
+      "published": "2026-11-26T00:05:31Z",
       "tags": [],
       "score": 5,
       "relations": [],
@@ -143,7 +143,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-      "published": "2026-11-25T18:33:04Z",
+      "published": "2026-11-26T00:05:31Z",
       "tags": [
         "Claude"
       ],
@@ -170,7 +170,7 @@
       "source": "GitHub Trending",
       "category": "oss",
       "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "published": "2026-11-25T18:33:04Z",
+      "published": "2026-11-26T00:05:31Z",
       "tags": [
         "Agent"
       ],
@@ -189,6 +189,33 @@
         "Agent"
       ],
       "oneliner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - th"
+    },
+    {
+      "id": "085bba6f6fed",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "Hugging Face",
+      "category": "oss",
+      "summary": "",
+      "published": "2026-11-25T18:52:55Z",
+      "tags": [
+        "Agent"
+      ],
+      "score": 5,
+      "relations": [],
+      "difficulty": "intermediate",
+      "narrative_angles": [],
+      "verification": {
+        "level": "single-source",
+        "corroborating_ids": [],
+        "score": 10
+      },
+      "title_zh": "Where scientists draw the line on AI agents",
+      "summary_zh": "",
+      "tags_zh": [
+        "Agent"
+      ],
+      "oneliner": ""
     },
     {
       "id": "7b1bdc5dda43",
@@ -515,13 +542,10 @@
         "corroborating_ids": [],
         "score": 8
       },
-      "title_zh": "Does Item Response Theory Generalize Across Languages? Evidence from Cross-Lingual LLM Benchmarks",
-      "summary_zh": "arXiv:2611.31261v1 Announce Type: new \nAbstract: The application of Item Response Theory (IRT) for data selection in benchmarks has mostly been limited to monolingual settings. In this work, we ask: how does IRT generalize when the same benchmark...",
-      "tags_zh": [
-        "LLM",
-        "Benchmark"
-      ],
-      "oneliner": "arXiv:2611.31261v1 Announce Type: new \nAbstract: The application of Item Response Theory (IRT) for d"
+      "title_zh": "",
+      "summary_zh": "",
+      "tags_zh": [],
+      "oneliner": ""
     },
     {
       "id": "464d4715a4aa",
@@ -5098,128 +5122,6 @@
         "level": "single-source",
         "corroborating_ids": [],
         "score": 7
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "556aee5cf74a",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "published": "2026-11-19T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "787cd7543718",
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
-      "published": "2026-11-19T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "6ed6090c0942",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "published": "2026-11-19T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2e76d5b4b679",
-      "title": "Get started with Daybreak Blue",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "source": "OpenAI",
-      "category": "model",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
-      "published": "2026-11-19T00:00:00Z",
-      "tags": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "2d3bb8f13d73",
-      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
-      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-18T19:54:56Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 9
-      },
-      "title_zh": "",
-      "summary_zh": "",
-      "tags_zh": [],
-      "oneliner": ""
-    },
-    {
-      "id": "5095af2e2b71",
-      "title": "Why your fine-tuning job takes longer than the FLOPs say",
-      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
-      "source": "Hugging Face",
-      "category": "oss",
-      "summary": "",
-      "published": "2026-11-18T18:53:43Z",
-      "tags": [],
-      "score": 5,
-      "relations": [],
-      "difficulty": "intermediate",
-      "narrative_angles": [],
-      "verification": {
-        "level": "single-source",
-        "corroborating_ids": [],
-        "score": 10
       },
       "title_zh": "",
       "summary_zh": "",

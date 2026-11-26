@@ -1,7 +1,7 @@
 {
   "name": "briefing",
-  "updated": "2026-11-25T18:35:11Z",
-  "count": 599,
+  "updated": "2026-11-26T00:07:37Z",
+  "count": 600,
   "entries": {
     "bf73caeaeacf250e": {
       "v": {
@@ -38334,6 +38334,70 @@
         }
       },
       "_ts": 1795631711
+    },
+    "bb2f7e25016b9a63": {
+      "v": {
+        "headline": "今日AI速览：学术研究最活跃",
+        "narrative": "今日共收录242篇AI新闻，分类分布：学术研究183篇, 模型发布33篇, 开源项目26篇。热门标签：Agent（54篇）。其中7%的文章有多来源交叉验证。\n\n▸ obra /superpowers：An agentic skills framework & software development methodology that works.\n\n▸ HKUDS /CLI-Anything：\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/\n\n▸ jingyaogong /minimind：🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.\n\n▸ firecrawl /firecrawl：Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers \n\n▸ openvinotoolkit /openvino：OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+        "trends": [],
+        "hot_projects": [
+          {
+            "full_name": "mvanhorn/last30days-skill",
+            "url": "https://github.com/mvanhorn/last30days-skill",
+            "why_hot": "单日945星，Python项目",
+            "stars_today": 945,
+            "total_stars": 75093
+          },
+          {
+            "full_name": "google-labs-code/stitch-skills",
+            "url": "https://github.com/google-labs-code/stitch-skills",
+            "why_hot": "单日355星，TypeScript项目",
+            "stars_today": 355,
+            "total_stars": 12971
+          },
+          {
+            "full_name": "mjmirza/app-store-compliance",
+            "url": "https://github.com/mjmirza/app-store-compliance",
+            "why_hot": "单日858星，Shell项目",
+            "stars_today": 858,
+            "total_stars": 6464
+          }
+        ],
+        "key_numbers": [
+          {
+            "label": "文章总数",
+            "value": "242"
+          },
+          {
+            "label": "多源验证率",
+            "value": "7%"
+          },
+          {
+            "label": "GitHub星增",
+            "value": "+7525"
+          }
+        ],
+        "must_read_ids": [
+          "c3257d531a3c",
+          "12e952795179",
+          "73c10ecbf681",
+          "49a1c7e387a4",
+          "713e9e5ca938"
+        ],
+        "text": "今日共收录242篇AI新闻，分类分布：学术研究183篇, 模型发布33篇, 开源项目26篇。热门标签：Agent（54篇）。其中7%的文章有多来源交叉验证。",
+        "top_items": [
+          "obra /superpowers",
+          "HKUDS /CLI-Anything",
+          "jingyaogong /minimind",
+          "firecrawl /firecrawl",
+          "openvinotoolkit /openvino"
+        ],
+        "meta": {
+          "total_articles": 242,
+          "multi_source_pct": 7
+        }
+      },
+      "_ts": 1795651657
     }
   }
 }

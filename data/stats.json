@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T18:35:01Z",
-  "total": 247,
+  "updated": "2026-11-26T00:07:27Z",
+  "total": 242,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,11 +12,11 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 24
+      "count": 23
     },
     {
       "name": "OpenAI",
-      "count": 22
+      "count": 18
     },
     {
       "name": "Hugging Face",
@@ -38,7 +38,7 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 53
+      "count": 54
     },
     {
       "name": "LLM",
@@ -61,15 +61,15 @@
       "count": 6
     },
     {
-      "name": "GPT",
-      "count": 6
-    },
-    {
       "name": "Prompt",
       "count": 5
     },
     {
       "name": "Transformer",
+      "count": 5
+    },
+    {
+      "name": "GPT",
       "count": 5
     },
     {
@@ -109,10 +109,6 @@
       "count": 1
     },
     {
-      "name": "Qwen",
-      "count": 1
-    },
-    {
       "name": "Llama",
       "count": 1
     }
@@ -120,11 +116,11 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 184
+      "count": 183
     },
     {
       "name": "模型发布",
-      "count": 37
+      "count": 33
     },
     {
       "name": "开源项目",
@@ -132,10 +128,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "11-19",
-      "count": 46
-    },
     {
       "date": "11-20",
       "count": 37
@@ -158,7 +150,11 @@
     },
     {
       "date": "11-25",
-      "count": 40
+      "count": 34
+    },
+    {
+      "date": "11-26",
+      "count": 7
     }
   ],
   "top10": [
@@ -205,6 +201,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "085bba6f6fed",
+      "title": "Where scientists draw the line on AI agents",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
       "id": "7b1bdc5dda43",
       "title": "An Indic Voice Agent with CUGA",
       "score": 5,
@@ -215,12 +217,6 @@
       "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
       "score": 5,
       "source": "MarkTechPost"
-    },
-    {
-      "id": "e21e940bce3e",
-      "title": "Validation Bias in Large Language Model Responses to Cancer Treatment Queries: A Factorial Cross-Sectional Study",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
