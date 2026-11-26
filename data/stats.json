@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-26T07:19:35Z",
-  "total": 271,
+  "updated": "2026-11-26T18:19:13Z",
+  "total": 236,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 90
+      "count": 75
     },
     {
       "name": "MarkTechPost",
-      "count": 23
+      "count": 21
     },
     {
       "name": "Hugging Face",
@@ -27,22 +27,22 @@
       "count": 15
     },
     {
-      "name": "GitHub Trending",
+      "name": "Synced",
       "count": 10
     },
     {
-      "name": "Synced",
-      "count": 10
+      "name": "GitHub Trending",
+      "count": 7
     }
   ],
   "tags": [
     {
       "name": "Agent",
-      "count": 57
+      "count": 50
     },
     {
       "name": "LLM",
-      "count": 34
+      "count": 28
     },
     {
       "name": "Benchmark",
@@ -50,19 +50,15 @@
     },
     {
       "name": "Gemini",
-      "count": 13
-    },
-    {
-      "name": "Google",
-      "count": 8
+      "count": 11
     },
     {
       "name": "API",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Transformer",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Prompt",
@@ -73,20 +69,12 @@
       "count": 5
     },
     {
-      "name": "Embedding",
-      "count": 4
+      "name": "Google",
+      "count": 5
     },
     {
       "name": "OpenAI",
       "count": 4
-    },
-    {
-      "name": "Claude",
-      "count": 3
-    },
-    {
-      "name": "RAG",
-      "count": 3
     },
     {
       "name": "Meta",
@@ -97,26 +85,38 @@
       "count": 3
     },
     {
+      "name": "Claude",
+      "count": 2
+    },
+    {
+      "name": "Embedding",
+      "count": 2
+    },
+    {
+      "name": "RAG",
+      "count": 2
+    },
+    {
       "name": "GPU",
       "count": 2
     },
     {
-      "name": "Diffusion",
-      "count": 2
+      "name": "Llama",
+      "count": 1
     },
     {
       "name": "Anthropic",
       "count": 1
     },
     {
-      "name": "Llama",
+      "name": "Diffusion",
       "count": 1
     }
   ],
   "categories": [
     {
       "name": "学术研究",
-      "count": 213
+      "count": 181
     },
     {
       "name": "模型发布",
@@ -124,7 +124,7 @@
     },
     {
       "name": "开源项目",
-      "count": 27
+      "count": 24
     }
   ],
   "dailyTrend": [
@@ -154,7 +154,7 @@
     },
     {
       "date": "11-26",
-      "count": 38
+      "count": 40
     }
   ],
   "top10": [
@@ -201,6 +201,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "bacf1389cf53",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "score": 5,
+      "source": "Hugging Face"
+    },
+    {
       "id": "1fcdbabd38e1",
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "score": 5,
@@ -209,12 +215,6 @@
     {
       "id": "044457c3ba79",
       "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
-    },
-    {
-      "id": "3de171286ac5",
-      "title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
       "score": 5,
       "source": "ArXiv (cs.CL)"
     }
