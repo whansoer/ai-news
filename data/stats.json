@@ -1,25 +1,25 @@
 {
-  "updated": "2026-11-26T00:07:27Z",
-  "total": 242,
+  "updated": "2026-11-26T07:19:35Z",
+  "total": 271,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "ArXiv (cs.AI)",
-      "count": 75
+      "count": 90
     },
     {
       "name": "MarkTechPost",
       "count": 23
     },
     {
-      "name": "OpenAI",
-      "count": 18
+      "name": "Hugging Face",
+      "count": 17
     },
     {
-      "name": "Hugging Face",
+      "name": "OpenAI",
       "count": 16
     },
     {
@@ -38,15 +38,15 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 54
+      "count": 57
     },
     {
       "name": "LLM",
-      "count": 32
+      "count": 34
     },
     {
       "name": "Benchmark",
-      "count": 13
+      "count": 15
     },
     {
       "name": "Gemini",
@@ -61,16 +61,20 @@
       "count": 6
     },
     {
-      "name": "Prompt",
-      "count": 5
+      "name": "Transformer",
+      "count": 6
     },
     {
-      "name": "Transformer",
+      "name": "Prompt",
       "count": 5
     },
     {
       "name": "GPT",
       "count": 5
+    },
+    {
+      "name": "Embedding",
+      "count": 4
     },
     {
       "name": "OpenAI",
@@ -81,20 +85,16 @@
       "count": 3
     },
     {
-      "name": "Meta",
+      "name": "RAG",
       "count": 3
     },
     {
-      "name": "Embedding",
+      "name": "Meta",
       "count": 3
     },
     {
       "name": "DeepSeek",
       "count": 3
-    },
-    {
-      "name": "RAG",
-      "count": 2
     },
     {
       "name": "GPU",
@@ -116,15 +116,15 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 183
+      "count": 213
     },
     {
       "name": "模型发布",
-      "count": 33
+      "count": 31
     },
     {
       "name": "开源项目",
-      "count": 26
+      "count": 27
     }
   ],
   "dailyTrend": [
@@ -154,7 +154,7 @@
     },
     {
       "date": "11-26",
-      "count": 7
+      "count": 38
     }
   ],
   "top10": [
@@ -201,22 +201,22 @@
       "source": "GitHub Trending"
     },
     {
-      "id": "085bba6f6fed",
-      "title": "Where scientists draw the line on AI agents",
+      "id": "1fcdbabd38e1",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "score": 5,
       "source": "Hugging Face"
     },
     {
-      "id": "7b1bdc5dda43",
-      "title": "An Indic Voice Agent with CUGA",
+      "id": "044457c3ba79",
+      "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
       "score": 5,
-      "source": "Hugging Face"
+      "source": "ArXiv (cs.CL)"
     },
     {
-      "id": "afa66655598a",
-      "title": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
+      "id": "3de171286ac5",
+      "title": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
       "score": 5,
-      "source": "MarkTechPost"
+      "source": "ArXiv (cs.CL)"
     }
   ]
 }

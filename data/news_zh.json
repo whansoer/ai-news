@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T00:07:37Z",
+  "updated": "2026-11-26T07:19:46Z",
   "total": 20,
   "items": [
     {
@@ -100,12 +100,10 @@
       }
     },
     {
-      "id": "085bba6f6fed",
-      "title_zh": "Where scientists draw the line on AI agents",
+      "id": "1fcdbabd38e1",
+      "title_zh": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "summary_zh": "",
-      "tags_zh": [
-        "Agent"
-      ],
+      "tags_zh": [],
       "oneliner": "",
       "key_facts": [],
       "notable_quote": {
@@ -114,13 +112,25 @@
       }
     },
     {
-      "id": "7b1bdc5dda43",
-      "title_zh": "An Indic Voice Agent with CUGA",
-      "summary_zh": "",
+      "id": "044457c3ba79",
+      "title_zh": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
+      "summary_zh": "arXiv:2611.33173v1 Announce Type: new \nAbstract: The Bundesrat is Germany's second legislative chamber and a constitutional veto player within its political system. The members of the Bundesrat are delegates of state governments. Tracing the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.33173v1 Announce Type: new \nAbstract: The Bundesrat is Germany's second legislative chamb",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "3de171286ac5",
+      "title_zh": "MGMem: An Efficient, Deterministic, and Provenance-Preserving Framework for Long-Horizon Agent Memory",
+      "summary_zh": "arXiv:2611.33174v1 Announce Type: new \nAbstract: Long-horizon Large Language Model (LLM) agents need persistent memory that surfaces the right past interaction at the right time across thousands of turns. Many systems index by invoking generative...",
       "tags_zh": [
         "Agent"
       ],
-      "oneliner": "",
+      "oneliner": "arXiv:2611.33174v1 Announce Type: new \nAbstract: Long-horizon Large Language Model (LLM) agents need",
       "key_facts": [],
       "notable_quote": {
         "text": "",
@@ -128,143 +138,125 @@
       }
     },
     {
-      "id": "afa66655598a",
-      "title_zh": "ByteDance Researchers Open-Sources Laminar, an Async Reinforcement Learning RL Post-Training Framework",
-      "summary_zh": "Laminar is an open-source asynchronous RL post-training framework from HKU and ByteDance Seed researchers. It decouples rollout, training and weight sync, and lifted Qwen3-Coder-30B-A3B to 52.2% on SWE-bench Verified.\nThe post ByteDance...",
-      "tags_zh": [],
-      "oneliner": "Laminar is an open-source asynchronous RL post-training framework from HKU and ByteDance Seed resear",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e21e940bce3e",
-      "title_zh": "Validation Bias in Large Language Model Responses to Cancer Treatment Queries: A Factorial Cross-Sectional Study",
-      "summary_zh": "arXiv:2611.31251v1 Announce Type: new \nAbstract: Large language model (LLM) chatbots are increasingly used by patients seeking cancer information, but their safety when users present evidence-misaligned beliefs about treatment remains...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.31251v1 Announce Type: new \nAbstract: Large language model (LLM) chatbots are increasingl",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b5057437443c",
-      "title_zh": "DAGGER: Deployment-Free Quality Estimation for Generative AI Workflows",
-      "summary_zh": "arXiv:2611.31252v1 Announce Type: new \nAbstract: Estimating the quality of generative AI workflows is challenging because these workflows comprise multiple stages, and errors can propagate across them, making end-to-end performance depend not...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.31252v1 Announce Type: new \nAbstract: Estimating the quality of generative AI workflows i",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "c197f1172ade",
-      "title_zh": "Instantiation of Human Values in Image Generation",
-      "summary_zh": "arXiv:2611.31253v1 Announce Type: new \nAbstract: Text-to-image (T2I) models are increasingly embedded in everyday visual culture, yet little is known about how they translate abstract human values into visual scenes. We address this gap by...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.31253v1 Announce Type: new \nAbstract: Text-to-image (T2I) models are increasingly embedde",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "28c4b7eeb5fa",
-      "title_zh": "The Date You Didn't Set: The System-Prompt Date as a Hidden Variable in LLM Evaluation",
-      "summary_zh": "arXiv:2611.31254v1 Announce Type: new \nAbstract: The system prompt of many instruction-tuned models carries a date, usually today's, filled in automatically for conversational and agentic requests alike, so an unchanged evaluation can send a...",
-      "tags_zh": [
-        "LLM",
-        "Prompt"
-      ],
-      "oneliner": "arXiv:2611.31254v1 Announce Type: new \nAbstract: The system prompt of many instruction-tuned models ",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "346208ceb7ac",
-      "title_zh": "INCLUDE-2.0: Disentangling Knowledge Gaps in Multilingual LLM Evaluation",
-      "summary_zh": "arXiv:2611.31255v1 Announce Type: new \nAbstract: Current multilingual benchmarks cover only a fraction of the languages represented in modern pretraining corpora and often conflate language proficiency with the ability to answer questions...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2611.31255v1 Announce Type: new \nAbstract: Current multilingual benchmarks cover only a fracti",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "29fdc8f480c8",
-      "title_zh": "Directly Maximizing On-policy Expected Accepted Length for Speculative Decoding",
-      "summary_zh": "arXiv:2611.31256v1 Announce Type: new \nAbstract: Speculative decoding accelerates large language model inference by using a lightweight draft model to propose tokens for verification by a target model. Draft training commonly optimizes...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.31256v1 Announce Type: new \nAbstract: Speculative decoding accelerates large language mod",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "b6af5043ca98",
-      "title_zh": "scOPD: Routed On-Policy Self-Distillation for LLM-Based Single-Cell Annotation",
-      "summary_zh": "arXiv:2611.31257v1 Announce Type: new \nAbstract: Motivation: Large language models (LLMs) have shown promise for single-cell annotation, but existing training methods mainly rely on scalar outcome rewards that provide limited supervision for...",
-      "tags_zh": [
-        "LLM"
-      ],
-      "oneliner": "arXiv:2611.31257v1 Announce Type: new \nAbstract: Motivation: Large language models (LLMs) have shown",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "e2ac53585b2c",
-      "title_zh": "RECAP: Training Long-horizon LLM Agents with Context Compaction",
-      "summary_zh": "arXiv:2611.31258v1 Announce Type: new \nAbstract: Context compaction enables large language model agents to tackle long-horizon tasks within limited context budgets by replacing interaction histories with compressed summaries. However, learning...",
-      "tags_zh": [
-        "LLM",
-        "Agent"
-      ],
-      "oneliner": "arXiv:2611.31258v1 Announce Type: new \nAbstract: Context compaction enables large language model age",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "51f8ac722581",
-      "title_zh": "RecipeADQA: A User-aware Question-Answering Dataset for Multi-Constraint Recipe Recommendation",
-      "summary_zh": "arXiv:2611.31259v1 Announce Type: new \nAbstract: Question-answering recipe recommendation tasks lack datasets with ground-truth labels. Existing methods often generate datasets from simple combinations of ingredient or tag constraints, leading to...",
-      "tags_zh": [],
-      "oneliner": "arXiv:2611.31259v1 Announce Type: new \nAbstract: Question-answering recipe recommendation tasks lack",
-      "key_facts": [],
-      "notable_quote": {
-        "text": "",
-        "zh": ""
-      }
-    },
-    {
-      "id": "a4282d1ffc90",
-      "title_zh": "Capability and Interpretability of Transformers on Multi-task Recurrence",
-      "summary_zh": "arXiv:2611.31260v1 Announce Type: new \nAbstract: Transformers are widely used in various language tasks, with limited understanding of their internal mechanisms. Motivated by the recurrent structure of many linguistic rules, we study the...",
+      "id": "fab699582794",
+      "title_zh": "Feature-Based Explainability of Transformer Scoring Models: A Fidelity-First Framework for Automated Writing Assessment",
+      "summary_zh": "arXiv:2611.33175v1 Announce Type: new \nAbstract: Transformer-based automated writing scoring models can achieve strong agreement with human scores while providing limited transparency into the response characteristics associated with their...",
       "tags_zh": [
         "Transformer"
       ],
-      "oneliner": "arXiv:2611.31260v1 Announce Type: new \nAbstract: Transformers are widely used in various language ta",
+      "oneliner": "arXiv:2611.33175v1 Announce Type: new \nAbstract: Transformer-based automated writing scoring models ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "de31730db7a8",
+      "title_zh": "Psychophysics of Duration Perception in Multimodal Large Language Models",
+      "summary_zh": "arXiv:2611.33176v1 Announce Type: new \nAbstract: Studies of time perception in language models focus mainly on text-based settings. Yet multimodal models are increasingly used for tasks that require perceiving the passage of time, making the...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.33176v1 Announce Type: new \nAbstract: Studies of time perception in language models focus",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f93d48571b69",
+      "title_zh": "Verified experience improves materials prediction with large language models",
+      "summary_zh": "arXiv:2611.33195v1 Announce Type: new \nAbstract: Materials discovery is an iterative loop: experiments and calculations verify predictions, and each outcome can inform the next. Yet most predictors are specialized single-task models fixed after...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.33195v1 Announce Type: new \nAbstract: Materials discovery is an iterative loop: experimen",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "037fa41a4fd6",
+      "title_zh": "Extraneous Cognitive Load in Large Language Models",
+      "summary_zh": "arXiv:2611.33197v1 Announce Type: new \nAbstract: Cognitive Load Theory (CLT) shows that human problem-solving is affected by both intrinsic load, arising from task difficulty, and extraneous load, arising from how task information is presented....",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.33197v1 Announce Type: new \nAbstract: Cognitive Load Theory (CLT) shows that human proble",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "50b5278d44ed",
+      "title_zh": "Focus On Facts: Stylistically Invariant and Factually Sensitive Text Embeddings",
+      "summary_zh": "arXiv:2611.33250v1 Announce Type: new \nAbstract: Text embedding models can conflate surface-form similarity with factual identity. Given an altered near-copy with one corrupted fact and a differently worded fact-preserving rewrite, the base model...",
+      "tags_zh": [
+        "Embedding"
+      ],
+      "oneliner": "arXiv:2611.33250v1 Announce Type: new \nAbstract: Text embedding models can conflate surface-form sim",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "f193ab25a7b4",
+      "title_zh": "FrId\\'eo: French News Outlet Ideology Scoring via Multi-Source Evidence Fusion and Distancing-Aware Lexical Scoring",
+      "summary_zh": "arXiv:2611.33266v1 Announce Type: new \nAbstract: Outlet ideology is a standard explanatory variable in media framing, media effects, and political communication research, but continuous, ecosystem-wide coverage lets it enter as graded exposure...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.33266v1 Announce Type: new \nAbstract: Outlet ideology is a standard explanatory variable ",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "a10221d470e7",
+      "title_zh": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "summary_zh": "arXiv:2611.33307v1 Announce Type: new \nAbstract: Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but...",
+      "tags_zh": [
+        "Benchmark"
+      ],
+      "oneliner": "arXiv:2611.33307v1 Announce Type: new \nAbstract: Decision models are language models fine-tuned to r",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "2bc28c44c202",
+      "title_zh": "Who Attributes a Mind to Whom? Mutual Theory of Mind in Simulated User-Assistant Conversation",
+      "summary_zh": "arXiv:2611.33327v1 Announce Type: new \nAbstract: When users assume that an AI chatbot has mental states, they are more likely to develop over-reliance, emotional dependence, and in extreme cases, psychological harm or self-harm. However, how...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.33327v1 Announce Type: new \nAbstract: When users assume that an AI chatbot has mental sta",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "cc1ec875b6fa",
+      "title_zh": "When the Knowledge Runs Out: A Part-Level Pilot Evaluation of How Language Models Handle Partially Covered Questions",
+      "summary_zh": "arXiv:2611.33428v1 Announce Type: new \nAbstract: Assistants that answer from supplied reference material often receive material that covers some parts of a user's question and not others. Existing evaluations of insufficient context mostly score...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.33428v1 Announce Type: new \nAbstract: Assistants that answer from supplied reference mate",
+      "key_facts": [],
+      "notable_quote": {
+        "text": "",
+        "zh": ""
+      }
+    },
+    {
+      "id": "b7889afa6c5d",
+      "title_zh": "Open-Source FUTO Keyboard Layouts and Predictive Text for a Few Endangered Languages",
+      "summary_zh": "arXiv:2611.33432v1 Announce Type: new \nAbstract: We present open-source FUTO Keyboard layouts and predictive text dictionaries for five endangered Uralic languages: Erzya, Moksha, Komi-Zyrian, Livonian, and Skolt Sami. Existing Divvun Android...",
+      "tags_zh": [],
+      "oneliner": "arXiv:2611.33432v1 Announce Type: new \nAbstract: We present open-source FUTO Keyboard layouts and pr",
       "key_facts": [],
       "notable_quote": {
         "text": "",
