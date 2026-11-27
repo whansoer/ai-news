@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T18:19:13Z",
-  "total": 236,
+  "updated": "2026-11-27T00:29:10Z",
+  "total": 234,
   "sources": [
     {
       "name": "ArXiv (cs.CL)",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarkTechPost",
-      "count": 21
+      "count": 19
     },
     {
       "name": "Hugging Face",
@@ -38,11 +38,11 @@
   "tags": [
     {
       "name": "Agent",
-      "count": 50
+      "count": 49
     },
     {
       "name": "LLM",
-      "count": 28
+      "count": 27
     },
     {
       "name": "Benchmark",
@@ -51,10 +51,6 @@
     {
       "name": "Gemini",
       "count": 11
-    },
-    {
-      "name": "API",
-      "count": 5
     },
     {
       "name": "Transformer",
@@ -71,6 +67,10 @@
     {
       "name": "Google",
       "count": 5
+    },
+    {
+      "name": "API",
+      "count": 4
     },
     {
       "name": "OpenAI",
@@ -116,7 +116,7 @@
   "categories": [
     {
       "name": "学术研究",
-      "count": 181
+      "count": 179
     },
     {
       "name": "模型发布",
@@ -128,10 +128,6 @@
     }
   ],
   "dailyTrend": [
-    {
-      "date": "11-20",
-      "count": 37
-    },
     {
       "date": "11-21",
       "count": 3
@@ -154,7 +150,11 @@
     },
     {
       "date": "11-26",
-      "count": 40
+      "count": 34
+    },
+    {
+      "date": "11-27",
+      "count": 7
     }
   ],
   "top10": [
@@ -201,6 +201,12 @@
       "source": "GitHub Trending"
     },
     {
+      "id": "bbe79abcde81",
+      "title": "Sakana AI Releases Namazu Small, a 30B Model Built on Nemotron 3 Nano",
+      "score": 5,
+      "source": "MarkTechPost"
+    },
+    {
       "id": "bacf1389cf53",
       "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
       "score": 5,
@@ -211,12 +217,6 @@
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "score": 5,
       "source": "Hugging Face"
-    },
-    {
-      "id": "044457c3ba79",
-      "title": "The Bundesrat corpus: A dataset of political discourse in the German Federal Council",
-      "score": 5,
-      "source": "ArXiv (cs.CL)"
     }
   ]
 }
